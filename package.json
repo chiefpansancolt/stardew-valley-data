@@ -1,0 +1,54 @@
+{
+  "name": "stardew-valley-data",
+  "version": "0.1.0",
+  "description": "A comprehensive JSON dataset for Stardew Valley game items, crops, fish, villagers, and more — with image asset references.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./data/*": "./data/*"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "tsc --noEmit && eslint .",
+    "format": "prettier --write \"src/**/*.ts\" \"*.md\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"*.md\"",
+    "test": "tsx src/test.ts"
+  },
+  "keywords": [
+    "stardew-valley",
+    "stardew",
+    "game-data",
+    "json",
+    "dataset",
+    "crops",
+    "fish",
+    "villagers",
+    "items"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+    "@types/node": "^25.3.5",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^10.0.2",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
+    "tsup": "^8.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.0"
+  },
+  "files": [
+    "dist",
+    "data",
+    "images"
+  ]
+}

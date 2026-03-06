@@ -1,0 +1,281 @@
+[
+  {
+    "id": "parsnip",
+    "name": "Parsnip",
+    "category": "vegetable",
+    "seasons": [
+      "spring"
+    ],
+    "growDays": 4,
+    "regrowDays": null,
+    "seedId": "parsnip_seeds",
+    "seedName": "Parsnip Seeds",
+    "seedBuyPrice": 20,
+    "sellPrice": 35,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giant": false,
+    "description": "A spring tuber closely related to the carrot. It has a sweet, fresh taste.",
+    "image": "images/crops/parsnip/crop.png",
+    "seedImage": "images/crops/parsnip/seed.png"
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "category": "vegetable",
+    "seasons": [
+      "spring"
+    ],
+    "growDays": 6,
+    "regrowDays": null,
+    "seedId": "potato_seeds",
+    "seedName": "Potato Seeds",
+    "seedBuyPrice": 50,
+    "sellPrice": 80,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 4
+    },
+    "trellis": false,
+    "giant": true,
+    "description": "A widely cultivated plant, the potato is one of the most important food crops in the world.",
+    "image": "images/crops/potato/crop.png",
+    "seedImage": "images/crops/potato/seed.png"
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "category": "vegetable",
+    "seasons": [
+      "spring"
+    ],
+    "growDays": 12,
+    "regrowDays": null,
+    "seedId": "cauliflower_seeds",
+    "seedName": "Cauliflower Seeds",
+    "seedBuyPrice": 80,
+    "sellPrice": 175,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giant": true,
+    "description": "It's actually a type of flower! A massive head of tightly packed white florets.",
+    "image": "images/crops/cauliflower/crop.png",
+    "seedImage": "images/crops/cauliflower/seed.png"
+  },
+  {
+    "id": "green_bean",
+    "name": "Green Bean",
+    "category": "vegetable",
+    "seasons": [
+      "spring"
+    ],
+    "growDays": 10,
+    "regrowDays": 3,
+    "seedId": "bean_starter",
+    "seedName": "Bean Starter",
+    "seedBuyPrice": 60,
+    "sellPrice": 40,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": true,
+    "giant": false,
+    "description": "A young, tender bean in the pod.",
+    "image": "images/crops/green-bean/crop.png",
+    "seedImage": "images/crops/green-bean/seed.png"
+  },
+  {
+    "id": "kale",
+    "name": "Kale",
+    "category": "vegetable",
+    "seasons": [
+      "spring"
+    ],
+    "growDays": 6,
+    "regrowDays": null,
+    "seedId": "kale_seeds",
+    "seedName": "Kale Seeds",
+    "seedBuyPrice": 70,
+    "sellPrice": 110,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giant": false,
+    "description": "This dark leafy green is impressively healthy and grows quickly.",
+    "image": "images/crops/kale/crop.png",
+    "seedImage": "images/crops/kale/seed.png"
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "category": "vegetable",
+    "seasons": [
+      "summer"
+    ],
+    "growDays": 11,
+    "regrowDays": 4,
+    "seedId": "tomato_seeds",
+    "seedName": "Tomato Seeds",
+    "seedBuyPrice": 50,
+    "sellPrice": 60,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": true,
+    "giant": false,
+    "description": "A juicy, nutritious summer vegetable used in cooking worldwide.",
+    "image": "images/crops/tomato/crop.png",
+    "seedImage": "images/crops/tomato/seed.png"
+  },
+  {
+    "id": "blueberry",
+    "name": "Blueberry",
+    "category": "fruit",
+    "seasons": [
+      "summer"
+    ],
+    "growDays": 13,
+    "regrowDays": 4,
+    "seedId": "blueberry_seeds",
+    "seedName": "Blueberry Seeds",
+    "seedBuyPrice": 80,
+    "sellPrice": 50,
+    "harvestQuantity": {
+      "min": 3,
+      "max": 3
+    },
+    "trellis": false,
+    "giant": false,
+    "description": "A popular berry among the residents of Stardew Valley.",
+    "image": "images/crops/blueberry/crop.png",
+    "seedImage": "images/crops/blueberry/seed.png"
+  },
+  {
+    "id": "melon",
+    "name": "Melon",
+    "category": "fruit",
+    "seasons": [
+      "summer"
+    ],
+    "growDays": 12,
+    "regrowDays": null,
+    "seedId": "melon_seeds",
+    "seedName": "Melon Seeds",
+    "seedBuyPrice": 80,
+    "sellPrice": 250,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giant": true,
+    "description": "A large sweet fruit that grows in summer. It's one of the most popular at festivals.",
+    "image": "images/crops/melon/crop.png",
+    "seedImage": "images/crops/melon/seed.png"
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "category": "vegetable",
+    "seasons": [
+      "fall"
+    ],
+    "growDays": 13,
+    "regrowDays": null,
+    "seedId": "pumpkin_seeds",
+    "seedName": "Pumpkin Seeds",
+    "seedBuyPrice": 100,
+    "sellPrice": 320,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giant": true,
+    "description": "A fall favorite, grown for its flavor and its festive orange color.",
+    "image": "images/crops/pumpkin/crop.png",
+    "seedImage": "images/crops/pumpkin/seed.png"
+  },
+  {
+    "id": "corn",
+    "name": "Corn",
+    "category": "vegetable",
+    "seasons": [
+      "summer",
+      "fall"
+    ],
+    "growDays": 14,
+    "regrowDays": 4,
+    "seedId": "corn_seeds",
+    "seedName": "Corn Seeds",
+    "seedBuyPrice": 150,
+    "sellPrice": 50,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giant": false,
+    "description": "A sweet and filling crop. Grows in both summer and fall.",
+    "image": "images/crops/corn/crop.png",
+    "seedImage": "images/crops/corn/seed.png"
+  },
+  {
+    "id": "cranberries",
+    "name": "Cranberries",
+    "category": "fruit",
+    "seasons": [
+      "fall"
+    ],
+    "growDays": 7,
+    "regrowDays": 5,
+    "seedId": "cranberry_seeds",
+    "seedName": "Cranberry Seeds",
+    "seedBuyPrice": 240,
+    "sellPrice": 75,
+    "harvestQuantity": {
+      "min": 2,
+      "max": 2
+    },
+    "trellis": false,
+    "giant": false,
+    "description": "A sharp, tangy red berry. It's often used in fall cooking.",
+    "image": "images/crops/cranberries/crop.png",
+    "seedImage": "images/crops/cranberries/seed.png"
+  },
+  {
+    "id": "ancient_fruit",
+    "name": "Ancient Fruit",
+    "category": "fruit",
+    "seasons": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "growDays": 28,
+    "regrowDays": 7,
+    "seedId": "ancient_seeds",
+    "seedName": "Ancient Seeds",
+    "seedBuyPrice": null,
+    "sellPrice": 550,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giant": false,
+    "description": "A very rare fruit that has survived since ancient times. It's extraordinarily sweet.",
+    "image": "images/crops/ancient-fruit/crop.png",
+    "seedImage": "images/crops/ancient-fruit/seed.png"
+  }
+]
