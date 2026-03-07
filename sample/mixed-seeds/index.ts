@@ -1,6 +1,5 @@
 import { existsSync } from 'fs';
 import { join } from 'path';
-
 import { mixedSeeds } from '../../src/mixed-seeds';
 
 const ROOT = join(__dirname, '../..');
@@ -32,8 +31,20 @@ export function run(): { passed: number; failed: number } {
   }
 
   console.log('\n--- Produce queries ---');
-  console.log(`Spring producers: ${mixedSeeds().byProduces('spring').get().map((s) => s.name).join(', ')}`);
-  console.log(`Island producers: ${mixedSeeds().byProduces('island').get().map((s) => s.name).join(', ')}`);
+  console.log(
+    `Spring producers: ${mixedSeeds()
+      .byProduces('spring')
+      .get()
+      .map((s) => s.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `Island producers: ${mixedSeeds()
+      .byProduces('island')
+      .get()
+      .map((s) => s.name)
+      .join(', ')}`,
+  );
   console.log(`find("770"):      ${mixedSeeds().find('770')?.name}`);
 
   console.log('\n--- Image validation ---');

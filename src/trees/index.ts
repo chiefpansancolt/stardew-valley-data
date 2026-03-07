@@ -16,9 +16,7 @@ export class TreeQuery {
 
   bySeason(season: Season): TreeQuery {
     return new TreeQuery(
-      this.data.filter(
-        (t) => t.type === 'fruit-tree' && (t as FruitTree).seasons.includes(season),
-      ),
+      this.data.filter((t) => t.type === 'fruit-tree' && (t as FruitTree).seasons.includes(season)),
     );
   }
 

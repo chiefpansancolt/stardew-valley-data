@@ -1,8 +1,7 @@
 import { existsSync } from 'fs';
 import { join } from 'path';
-
-import { FruitTree, WildTree } from '../../src/types';
 import { trees } from '../../src/trees';
+import { FruitTree, WildTree } from '../../src/types';
 
 const ROOT = join(__dirname, '../..');
 
@@ -22,17 +21,51 @@ export function run(): { passed: number; failed: number } {
   console.log(`Wild trees:   ${trees().wildTrees().count()}`);
 
   console.log('\n--- Fruit trees ---');
-  console.log(`Spring: ${trees().bySeason('spring').get().map((t) => t.name).join(', ')}`);
-  console.log(`Summer: ${trees().bySeason('summer').get().map((t) => t.name).join(', ')}`);
-  console.log(`Fall:   ${trees().bySeason('fall').get().map((t) => t.name).join(', ')}`);
   console.log(
-    `By fruit sell price: ${trees().fruitTrees().sortByProduceSellPrice().get().map((t) => `${(t as FruitTree).produce.name} (${(t as FruitTree).produce.sellPrice}g)`).join(', ')}`,
+    `Spring: ${trees()
+      .bySeason('spring')
+      .get()
+      .map((t) => t.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `Summer: ${trees()
+      .bySeason('summer')
+      .get()
+      .map((t) => t.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `Fall:   ${trees()
+      .bySeason('fall')
+      .get()
+      .map((t) => t.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `By fruit sell price: ${trees()
+      .fruitTrees()
+      .sortByProduceSellPrice()
+      .get()
+      .map((t) => `${(t as FruitTree).produce.name} (${(t as FruitTree).produce.sellPrice}g)`)
+      .join(', ')}`,
   );
 
   console.log('\n--- Wild trees ---');
-  console.log(`Tappable: ${trees().tappable().get().map((t) => t.name).join(', ')}`);
   console.log(
-    `By tap sell price: ${trees().tappable().sortByProduceSellPrice().get().map((t) => `${(t as WildTree).tapper?.name} (${(t as WildTree).tapper?.sellPrice}g)`).join(', ')}`,
+    `Tappable: ${trees()
+      .tappable()
+      .get()
+      .map((t) => t.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `By tap sell price: ${trees()
+      .tappable()
+      .sortByProduceSellPrice()
+      .get()
+      .map((t) => `${(t as WildTree).tapper?.name} (${(t as WildTree).tapper?.sellPrice}g)`)
+      .join(', ')}`,
   );
 
   console.log('\n--- Image validation ---');

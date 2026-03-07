@@ -1,6 +1,5 @@
 import { existsSync } from 'fs';
 import { join } from 'path';
-
 import { crops } from '../../src/crops';
 
 const ROOT = join(__dirname, '../..');
@@ -20,11 +19,41 @@ export function run(): { passed: number; failed: number } {
   console.log(`Spring:             ${crops().bySeason('spring').count()}`);
   console.log(`Summer:             ${crops().bySeason('summer').count()}`);
   console.log(`Fall:               ${crops().bySeason('fall').count()}`);
-  console.log(`Multi-season:       ${crops().multiSeason().get().map((c) => c.name).join(', ')}`);
-  console.log(`Giant:              ${crops().giant().get().map((c) => c.name).join(', ')}`);
-  console.log(`Trellis:            ${crops().trellis().get().map((c) => c.name).join(', ')}`);
-  console.log(`Regrowing:          ${crops().regrowing().get().map((c) => c.name).join(', ')}`);
-  console.log(`Extra harvest:      ${crops().extraHarvest().get().map((c) => c.name).join(', ')}`);
+  console.log(
+    `Multi-season:       ${crops()
+      .multiSeason()
+      .get()
+      .map((c) => c.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `Giant:              ${crops()
+      .giant()
+      .get()
+      .map((c) => c.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `Trellis:            ${crops()
+      .trellis()
+      .get()
+      .map((c) => c.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `Regrowing:          ${crops()
+      .regrowing()
+      .get()
+      .map((c) => c.name)
+      .join(', ')}`,
+  );
+  console.log(
+    `Extra harvest:      ${crops()
+      .extraHarvest()
+      .get()
+      .map((c) => c.name)
+      .join(', ')}`,
+  );
   console.log(`Eatable:            ${crops().eatable().count()}`);
   console.log(`Vegetables:         ${crops().byCategory('vegetable').count()}`);
   console.log(`Fruits:             ${crops().byCategory('fruit').count()}`);
@@ -41,13 +70,30 @@ export function run(): { passed: number; failed: number } {
     `Spring vegetables:               ${crops().bySeason('spring').byCategory('vegetable').count()}`,
   );
   console.log(
-    `Regrowing summer crops by price: ${crops().regrowing().bySeason('summer').sortBySellPrice().get().map((c) => c.name).join(', ')}`,
+    `Regrowing summer crops by price: ${crops()
+      .regrowing()
+      .bySeason('summer')
+      .sortBySellPrice()
+      .get()
+      .map((c) => c.name)
+      .join(', ')}`,
   );
   console.log(
-    `Pierre's fall crops by price:    ${crops().byShop("Pierre's").bySeason('fall').sortBySellPrice().get().map((c) => c.name).join(', ')}`,
+    `Pierre's fall crops by price:    ${crops()
+      .byShop("Pierre's")
+      .bySeason('fall')
+      .sortBySellPrice()
+      .get()
+      .map((c) => c.name)
+      .join(', ')}`,
   );
   console.log(
-    `Eatable giant crops:             ${crops().eatable().giant().get().map((c) => c.name).join(', ')}`,
+    `Eatable giant crops:             ${crops()
+      .eatable()
+      .giant()
+      .get()
+      .map((c) => c.name)
+      .join(', ')}`,
   );
 
   console.log('\n--- Image validation ---');

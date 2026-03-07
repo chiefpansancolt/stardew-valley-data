@@ -17,8 +17,8 @@ export class CropQuery {
   byShop(shop: string): CropQuery {
     return new CropQuery(
       this.data.filter((c) =>
-        c.seedBuyPrices.some((p) => p.place.toLowerCase() === shop.toLowerCase())
-      )
+        c.seedBuyPrices.some((p) => p.place.toLowerCase() === shop.toLowerCase()),
+      ),
     );
   }
 
@@ -53,16 +53,16 @@ export class CropQuery {
   sortBySellPrice(order: 'asc' | 'desc' = 'desc'): CropQuery {
     return new CropQuery(
       [...this.data].sort((a, b) =>
-        order === 'desc' ? b.cropSellPrice - a.cropSellPrice : a.cropSellPrice - b.cropSellPrice
-      )
+        order === 'desc' ? b.cropSellPrice - a.cropSellPrice : a.cropSellPrice - b.cropSellPrice,
+      ),
     );
   }
 
   sortByGrowDays(order: 'asc' | 'desc' = 'asc'): CropQuery {
     return new CropQuery(
       [...this.data].sort((a, b) =>
-        order === 'asc' ? a.growDays - b.growDays : b.growDays - a.growDays
-      )
+        order === 'asc' ? a.growDays - b.growDays : b.growDays - a.growDays,
+      ),
     );
   }
 

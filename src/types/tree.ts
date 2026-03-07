@@ -1,4 +1,4 @@
-import { Season, EnergyHealth, SeedBuyPrice } from './common';
+import { EnergyHealth, Season, SeedBuyPrice } from './common';
 
 export interface TreeStage {
   name: string;
