@@ -10,4 +10,5 @@ export * from './search';
 export * from './skill';
 export * from './season';
 export * from './tree';
+export * from './ring';
 export * from './weather';

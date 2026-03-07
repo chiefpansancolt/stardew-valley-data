@@ -10,3 +10,9 @@ export interface SeedBuyPrice {
   place: string;
   price: number;
 }
+
+export interface Ingredient {
+  name: string;
+  id: string;
+  quantity: number;
+}

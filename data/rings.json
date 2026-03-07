@@ -1,0 +1,388 @@
+[
+  {
+    "id": "516",
+    "name": "Small Glow Ring",
+    "description": "Emits 5 radius circle of light.",
+    "sellPrice": 50,
+    "image": "images/rings/Small Glow Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Fishing treasure chests", "Slime drops (Mines floors 1-39)"]
+  },
+  {
+    "id": "517",
+    "name": "Glow Ring",
+    "description": "Emits 10 radius circle of light.",
+    "sellPrice": 100,
+    "image": "images/rings/Glow Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Night Fishing Bundle reward", "Slime drops (Mines floors 40+)", "Skeleton drops (Mines floors 70-79)", "Mine barrels and crates"]
+  },
+  {
+    "id": "518",
+    "name": "Small Magnet Ring",
+    "description": "Increases Magnetism by one tile.",
+    "sellPrice": 50,
+    "image": "images/rings/Small Magnet Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Adventurer's Bundle reward", "Fishing treasure chests", "Mine barrels and crates"]
+  },
+  {
+    "id": "519",
+    "name": "Magnet Ring",
+    "description": "Increases Magnetism by two tiles.",
+    "sellPrice": 100,
+    "image": "images/rings/Magnet Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Enemy drops (Mines floors 40-79)", "Mine barrels and crates"]
+  },
+  {
+    "id": "520",
+    "name": "Slime Charmer Ring",
+    "description": "Prevents damage from Slimes and prevents the Slimed Buff.",
+    "sellPrice": 350,
+    "image": "images/rings/Slime Charmer Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 25000,
+    "sources": ["Adventurer's Guild (kill 1,000 Slimes)"]
+  },
+  {
+    "id": "521",
+    "name": "Warrior Ring",
+    "description": "Has a chance of giving the Warrior Energy buff after slaying a monster.",
+    "sellPrice": 750,
+    "image": "images/rings/Warrior Ring.png",
+    "craftingLevel": 4,
+    "craftingSkill": "combat",
+    "ingredients": [
+      { "name": "Iron Bar", "id": "335", "quantity": 10 },
+      { "name": "Coal", "id": "382", "quantity": 25 },
+      { "name": "Frozen Tear", "id": "84", "quantity": 10 }
+    ],
+    "purchasePrice": null,
+    "sources": []
+  },
+  {
+    "id": "522",
+    "name": "Vampire Ring",
+    "description": "Restores 2 health after slaying a monster.",
+    "sellPrice": 750,
+    "image": "images/rings/Vampire Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 15000,
+    "sources": ["Adventurer's Guild (kill 200 Bats)"]
+  },
+  {
+    "id": "523",
+    "name": "Savage Ring",
+    "description": "Gives a 3-second Speed (+2) buff after slaying a monster.",
+    "sellPrice": 750,
+    "image": "images/rings/Savage Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 25000,
+    "sources": ["Adventurer's Guild (kill 150 Void Spirits)"]
+  },
+  {
+    "id": "524",
+    "name": "Ring of Yoba",
+    "description": "Has a chance of giving Yoba's Blessing buff after taking damage.",
+    "sellPrice": 750,
+    "image": "images/rings/Ring of Yoba.png",
+    "craftingLevel": 7,
+    "craftingSkill": "combat",
+    "ingredients": [
+      { "name": "Gold Bar", "id": "336", "quantity": 5 },
+      { "name": "Iron Bar", "id": "335", "quantity": 5 },
+      { "name": "Diamond", "id": "72", "quantity": 1 }
+    ],
+    "purchasePrice": null,
+    "sources": []
+  },
+  {
+    "id": "525",
+    "name": "Sturdy Ring",
+    "description": "The duration of negative buffs are cut in half.",
+    "sellPrice": 750,
+    "image": "images/rings/Sturdy Ring.png",
+    "craftingLevel": 1,
+    "craftingSkill": "combat",
+    "ingredients": [
+      { "name": "Copper Bar", "id": "334", "quantity": 2 },
+      { "name": "Bug Meat", "id": "684", "quantity": 25 },
+      { "name": "Slime", "id": "766", "quantity": 25 }
+    ],
+    "purchasePrice": null,
+    "sources": []
+  },
+  {
+    "id": "526",
+    "name": "Burglar's Ring",
+    "description": "Monsters drop items more often. The game rolls twice on the monster's drop table.",
+    "sellPrice": 750,
+    "image": "images/rings/Burglar's Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 20000,
+    "sources": ["Adventurer's Guild (kill 500 Dust Sprites)"]
+  },
+  {
+    "id": "527",
+    "name": "Iridium Band",
+    "description": "Combines the effects of the Glow Ring, Magnet Ring, and Ruby Ring.",
+    "sellPrice": 1000,
+    "image": "images/rings/Iridium Band.png",
+    "craftingLevel": 9,
+    "craftingSkill": "combat",
+    "ingredients": [
+      { "name": "Iridium Bar", "id": "337", "quantity": 5 },
+      { "name": "Solar Essence", "id": "768", "quantity": 50 },
+      { "name": "Void Essence", "id": "769", "quantity": 50 }
+    ],
+    "purchasePrice": null,
+    "sources": ["Fishing treasure chests"]
+  },
+  {
+    "id": "528",
+    "name": "Jukebox Ring",
+    "description": "Plays a random assortment of music you've heard.",
+    "sellPrice": 100,
+    "image": "images/rings/Jukebox Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Unobtainable"]
+  },
+  {
+    "id": "529",
+    "name": "Amethyst Ring",
+    "description": "Increases knockback by 10%.",
+    "sellPrice": 100,
+    "image": "images/rings/Amethyst Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 1000,
+    "sources": ["Adventurer's Guild", "Fishing treasure chests"]
+  },
+  {
+    "id": "530",
+    "name": "Topaz Ring",
+    "description": "Increases Defense by +1.",
+    "sellPrice": 100,
+    "image": "images/rings/Topaz Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 1000,
+    "sources": ["Adventurer's Guild", "Fishing treasure chests"]
+  },
+  {
+    "id": "531",
+    "name": "Aquamarine Ring",
+    "description": "Increases critical strike chance by 10%.",
+    "sellPrice": 200,
+    "image": "images/rings/Aquamarine Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 2500,
+    "sources": ["Adventurer's Guild (Mines floor 40+)", "Fishing treasure chests"]
+  },
+  {
+    "id": "532",
+    "name": "Jade Ring",
+    "description": "Increases Critical Strike Power by 10%.",
+    "sellPrice": 200,
+    "image": "images/rings/Jade Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 2500,
+    "sources": ["Adventurer's Guild (Mines floor 40+)", "Fishing treasure chests"]
+  },
+  {
+    "id": "533",
+    "name": "Emerald Ring",
+    "description": "Increases Weapon Speed by 10%.",
+    "sellPrice": 300,
+    "image": "images/rings/Emerald Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 5000,
+    "sources": ["Adventurer's Guild (Mines floor 80+)", "Fishing treasure chests"]
+  },
+  {
+    "id": "534",
+    "name": "Ruby Ring",
+    "description": "Increases Attack by 10%.",
+    "sellPrice": 300,
+    "image": "images/rings/Ruby Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 5000,
+    "sources": ["Adventurer's Guild (Mines floor 80+)", "Fishing treasure chests", "Haunted Skull drops"]
+  },
+  {
+    "id": "801",
+    "name": "Wedding Ring",
+    "description": "Allows you to propose marriage to another player in multiplayer.",
+    "sellPrice": 1000,
+    "image": "images/rings/Wedding Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [
+      { "name": "Iridium Bar", "id": "337", "quantity": 5 },
+      { "name": "Prismatic Shard", "id": "74", "quantity": 1 }
+    ],
+    "purchasePrice": null,
+    "sources": ["Recipe from Traveling Cart (500g)"]
+  },
+  {
+    "id": "810",
+    "name": "Crabshell Ring",
+    "description": "Increases Defense by +5.",
+    "sellPrice": 1000,
+    "image": "images/rings/Crabshell Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 15000,
+    "sources": ["Adventurer's Guild (kill 60 Rock Crabs)"]
+  },
+  {
+    "id": "811",
+    "name": "Napalm Ring",
+    "description": "Slain monsters will explode, damaging nearby enemies.",
+    "sellPrice": 1000,
+    "image": "images/rings/Napalm Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": 30000,
+    "sources": ["Adventurer's Guild (kill 250 Serpents)"]
+  },
+  {
+    "id": "839",
+    "name": "Thorns Ring",
+    "description": "Monsters take damage equal to the unmitigated damage done to the player.",
+    "sellPrice": 100,
+    "image": "images/rings/Thorns Ring.png",
+    "craftingLevel": 7,
+    "craftingSkill": "combat",
+    "ingredients": [
+      { "name": "Bone Fragment", "id": "881", "quantity": 50 },
+      { "name": "Stone", "id": "390", "quantity": 50 },
+      { "name": "Gold Bar", "id": "336", "quantity": 1 }
+    ],
+    "purchasePrice": null,
+    "sources": []
+  },
+  {
+    "id": "859",
+    "name": "Lucky Ring",
+    "description": "Increases Luck by +1.",
+    "sellPrice": 100,
+    "image": "images/rings/Lucky Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Skull Cavern special item drop", "Panning (rare)"]
+  },
+  {
+    "id": "860",
+    "name": "Hot Java Ring",
+    "description": "Increases the chance to find Coffee when slaying monsters.",
+    "sellPrice": 100,
+    "image": "images/rings/Hot Java Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Volcano Dungeon chests"]
+  },
+  {
+    "id": "861",
+    "name": "Protection Ring",
+    "description": "Increases invincibility time after taking damage by 0.4 seconds.",
+    "sellPrice": 100,
+    "image": "images/rings/Protection Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Volcano Dungeon chests"]
+  },
+  {
+    "id": "862",
+    "name": "Soul Sapper Ring",
+    "description": "Gain 4 Energy after slaying a monster.",
+    "sellPrice": 100,
+    "image": "images/rings/Soul Sapper Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Volcano Dungeon chests"]
+  },
+  {
+    "id": "863",
+    "name": "Phoenix Ring",
+    "description": "Once a day, be restored to 50% health after being knocked out.",
+    "sellPrice": 100,
+    "image": "images/rings/Phoenix Ring.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Volcano Dungeon chests"]
+  },
+  {
+    "id": "887",
+    "name": "Immunity Band",
+    "description": "Increases Immunity by +4.",
+    "sellPrice": 250,
+    "image": "images/rings/Immunity Band.png",
+    "craftingLevel": null,
+    "craftingSkill": null,
+    "ingredients": [],
+    "purchasePrice": null,
+    "sources": ["Skull Cavern special item drop", "Mines floor 100+ special item drop"]
+  },
+  {
+    "id": "888",
+    "name": "Glowstone Ring",
+    "description": "Emits 10 radius circle of light and increases Magnetism by two tiles.",
+    "sellPrice": 100,
+    "image": "images/rings/Glowstone Ring.png",
+    "craftingLevel": 4,
+    "craftingSkill": "mining",
+    "ingredients": [
+      { "name": "Solar Essence", "id": "768", "quantity": 5 },
+      { "name": "Iron Bar", "id": "335", "quantity": 5 }
+    ],
+    "purchasePrice": null,
+    "sources": []
+  }
+]

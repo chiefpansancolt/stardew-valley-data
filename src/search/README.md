@@ -3,9 +3,9 @@
 Global item search across all Stardew Valley data modules.
 
 Searches crops, crop seeds, fruit tree produce, wild tree seeds and tapper products, animals, animal
-produce, artisan goods, monsters, and monster loot in a single call. Results are deduplicated by
-kind + ID — items shared across multiple parents (e.g. Egg from White Chicken and Blue Chicken) are
-returned as one result with a `parents` array listing all sources.
+produce, artisan goods, monsters, monster loot, and rings in a single call. Results are deduplicated
+by kind + ID — items shared across multiple parents (e.g. Egg from White Chicken and Blue Chicken)
+are returned as one result with a `parents` array listing all sources.
 
 ## Usage
 
@@ -69,6 +69,7 @@ search("wine");
 | `artisan-good`       | artisan-goods | Artisan good produced by equipment           |
 | `monster`            | monsters      | Monster entity                               |
 | `monster-loot`       | monsters      | Classified loot dropped by monsters          |
+| `ring`               | rings         | Equippable ring                              |
 
 ## Fields
 

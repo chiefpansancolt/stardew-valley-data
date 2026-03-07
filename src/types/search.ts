@@ -10,7 +10,8 @@ export type SearchResultKind =
   | 'animal-produce'
   | 'artisan-good'
   | 'monster'
-  | 'monster-loot';
+  | 'monster-loot'
+  | 'ring';
 
 export interface SearchResult {
   kind: SearchResultKind;

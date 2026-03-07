@@ -3,6 +3,7 @@ import { animals, isFarmAnimal } from '../animals';
 import { artisanGoods } from '../artisan-goods';
 import { crops } from '../crops';
 import { monsterLoot, monsters } from '../monsters';
+import { rings } from '../rings';
 import { trees } from '../trees';
 
 function matches(query: string, id: string, name: string): boolean {
@@ -187,6 +188,19 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
           parent: monster ? { id: monster.id, name: monster.name } : undefined,
         });
       }
+    }
+  }
+
+  // Rings
+  for (const ring of rings().get()) {
+    if (matches(query, ring.id, ring.name)) {
+      add({
+        kind: 'ring',
+        id: ring.id,
+        name: ring.name,
+        image: ring.image,
+        sellPrice: ring.sellPrice,
+      });
     }
   }
 
