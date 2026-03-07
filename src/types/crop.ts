@@ -39,6 +39,8 @@ export interface Crop {
   description: string;
   image: string;
   seedImage: string;
+  giantImage?: string;
   stages: CropStage[];
   energyHealth?: EnergyHealth;
+  farmingXP?: number;
 }

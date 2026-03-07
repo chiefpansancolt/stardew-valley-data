@@ -27,7 +27,8 @@
       { "name": "stage 4", "image": "images/crops/parsnip/stage-4.png" },
       { "name": "harvest", "image": "images/crops/parsnip/stage-5.png" }
     ],
-    "energyHealth": { "energy": 25, "health": 11 }
+    "energyHealth": { "energy": 25, "health": 11 },
+    "farmingXP": 8
   },
   {
     "id": "188",
@@ -59,7 +60,8 @@
       { "name": "harvest", "image": "images/crops/green-bean/stage-6.png" },
       { "name": "regrowth", "image": "images/crops/green-bean/stage-7.png" }
     ],
-    "energyHealth": { "energy": 25, "health": 11 }
+    "energyHealth": { "energy": 25, "health": 11 },
+    "farmingXP": 9
   },
   {
     "id": "190",
@@ -81,6 +83,7 @@
     "giant": true,
     "description": "It's actually a type of flower! A massive head of tightly packed white florets.",
     "image": "images/crops/cauliflower/crop.png",
+    "giantImage": "images/crops/cauliflower/giant.png",
     "seedImage": "images/crops/cauliflower/seed.png",
     "stages": [
       { "name": "stage 1", "image": "images/crops/cauliflower/stage-1.png" },
@@ -90,7 +93,8 @@
       { "name": "stage 5", "image": "images/crops/cauliflower/stage-5.png" },
       { "name": "harvest", "image": "images/crops/cauliflower/stage-6.png" }
     ],
-    "energyHealth": { "energy": 75, "health": 33 }
+    "energyHealth": { "energy": 75, "health": 33 },
+    "farmingXP": 23
   },
   {
     "id": "192",
@@ -121,7 +125,8 @@
       { "name": "stage 5", "image": "images/crops/potato/stage-5.png" },
       { "name": "harvest", "image": "images/crops/potato/stage-6.png" }
     ],
-    "energyHealth": { "energy": 25, "health": 11 }
+    "energyHealth": { "energy": 25, "health": 11 },
+    "farmingXP": 14
   },
   {
     "id": "248",
@@ -151,7 +156,8 @@
       { "name": "stage 4", "image": "images/crops/garlic/stage-4.png" },
       { "name": "harvest", "image": "images/crops/garlic/stage-5.png" }
     ],
-    "energyHealth": { "energy": 20, "health": 9 }
+    "energyHealth": { "energy": 20, "health": 9 },
+    "farmingXP": 12
   },
   {
     "id": "250",
@@ -181,7 +187,8 @@
       { "name": "stage 4", "image": "images/crops/kale/stage-4.png" },
       { "name": "harvest", "image": "images/crops/kale/stage-5.png" }
     ],
-    "energyHealth": { "energy": 50, "health": 22 }
+    "energyHealth": { "energy": 50, "health": 22 },
+    "farmingXP": 17
   },
   {
     "id": "252",
@@ -210,7 +217,8 @@
       { "name": "stage 4", "image": "images/crops/rhubarb/stage-4.png" },
       { "name": "stage 5", "image": "images/crops/rhubarb/stage-5.png" },
       { "name": "harvest", "image": "images/crops/rhubarb/stage-6.png" }
-    ]
+    ],
+    "farmingXP": 26
   },
   {
     "id": "400",
@@ -241,7 +249,8 @@
       { "name": "harvest", "image": "images/crops/strawberry/stage-6.png" },
       { "name": "regrowth", "image": "images/crops/strawberry/stage-7.png" }
     ],
-    "energyHealth": { "energy": 50, "health": 22 }
+    "energyHealth": { "energy": 50, "health": 22 },
+    "farmingXP": 18
   },
   {
     "id": "271",
@@ -271,7 +280,8 @@
       { "name": "stage 4", "image": "images/crops/unmilled-rice/stage-4.png" },
       { "name": "harvest", "image": "images/crops/unmilled-rice/stage-5.png" }
     ],
-    "energyHealth": { "energy": 3, "health": 1 }
+    "energyHealth": { "energy": 3, "health": 1 },
+    "farmingXP": 7
   },
   {
     "id": "591",
@@ -301,7 +311,8 @@
       { "name": "stage 4", "image": "images/crops/tulip/stage-4.png" },
       { "name": "harvest", "image": "images/crops/tulip/stage-5.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 7
   },
   {
     "id": "597",
@@ -330,7 +341,8 @@
       { "name": "stage 3", "image": "images/crops/blue-jazz/stage-3.png" },
       { "name": "harvest", "image": "images/crops/blue-jazz/stage-4.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 10
   },
   {
     "id": "Carrot",
@@ -346,7 +358,7 @@
     "cropSellPrice": 35,
     "harvestQuantity": { "min": 1, "max": 1 },
     "trellis": false,
-    "giant": true,
+    "giant": false,
     "description": "A bright orange root vegetable. Good for your eyesight.",
     "image": "images/crops/carrot/crop.png",
     "seedImage": "images/crops/carrot/seed.png",
@@ -356,7 +368,8 @@
       { "name": "stage 3", "image": "images/crops/carrot/stage-3.png" },
       { "name": "harvest", "image": "images/crops/carrot/stage-4.png" }
     ],
-    "energyHealth": { "energy": 75, "health": 33 }
+    "energyHealth": { "energy": 75, "health": 33 },
+    "farmingXP": 8
   },
   {
     "id": "433",
@@ -386,7 +399,8 @@
       { "name": "stage 5", "image": "images/crops/coffee-bean/stage-5.png" },
       { "name": "harvest", "image": "images/crops/coffee-bean/stage-6.png" },
       { "name": "regrowth", "image": "images/crops/coffee-bean/stage-7.png" }
-    ]
+    ],
+    "farmingXP": 4
   },
   {
     "id": "254",
@@ -408,6 +422,7 @@
     "giant": true,
     "description": "A large sweet fruit that grows in summer. It's one of the most popular at festivals.",
     "image": "images/crops/melon/crop.png",
+    "giantImage": "images/crops/melon/giant.png",
     "seedImage": "images/crops/melon/seed.png",
     "stages": [
       { "name": "stage 1", "image": "images/crops/melon/stage-1.png" },
@@ -417,7 +432,8 @@
       { "name": "stage 5", "image": "images/crops/melon/stage-5.png" },
       { "name": "harvest", "image": "images/crops/melon/stage-6.png" }
     ],
-    "energyHealth": { "energy": 113, "health": 50 }
+    "energyHealth": { "energy": 113, "health": 50 },
+    "farmingXP": 27
   },
   {
     "id": "256",
@@ -447,7 +463,8 @@
       { "name": "harvest", "image": "images/crops/tomato/stage-4.png" },
       { "name": "regrowth", "image": "images/crops/tomato/stage-5.png" }
     ],
-    "energyHealth": { "energy": 20, "health": 9 }
+    "energyHealth": { "energy": 20, "health": 9 },
+    "farmingXP": 12
   },
   {
     "id": "258",
@@ -479,7 +496,8 @@
       { "name": "harvest", "image": "images/crops/blueberry/stage-6.png" },
       { "name": "regrowth", "image": "images/crops/blueberry/stage-7.png" }
     ],
-    "energyHealth": { "energy": 25, "health": 11 }
+    "energyHealth": { "energy": 25, "health": 11 },
+    "farmingXP": 10
   },
   {
     "id": "260",
@@ -511,7 +529,8 @@
       { "name": "harvest", "image": "images/crops/hot-pepper/stage-6.png" },
       { "name": "regrowth", "image": "images/crops/hot-pepper/stage-7.png" }
     ],
-    "energyHealth": { "energy": 13, "health": 5 }
+    "energyHealth": { "energy": 13, "health": 5 },
+    "farmingXP": 9
   },
   {
     "id": "264",
@@ -541,7 +560,8 @@
       { "name": "stage 4", "image": "images/crops/radish/stage-4.png" },
       { "name": "harvest", "image": "images/crops/radish/stage-5.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 15
   },
   {
     "id": "266",
@@ -572,7 +592,8 @@
       { "name": "stage 5", "image": "images/crops/red-cabbage/stage-5.png" },
       { "name": "harvest", "image": "images/crops/red-cabbage/stage-6.png" }
     ],
-    "energyHealth": { "energy": 75, "health": 33 }
+    "energyHealth": { "energy": 75, "health": 33 },
+    "farmingXP": 28
   },
   {
     "id": "268",
@@ -602,7 +623,8 @@
       { "name": "stage 5", "image": "images/crops/starfruit/stage-5.png" },
       { "name": "harvest", "image": "images/crops/starfruit/stage-6.png" }
     ],
-    "energyHealth": { "energy": 125, "health": 56 }
+    "energyHealth": { "energy": 125, "health": 56 },
+    "farmingXP": 43
   },
   {
     "id": "304",
@@ -634,7 +656,8 @@
       { "name": "harvest", "image": "images/crops/hops/stage-6.png" },
       { "name": "regrowth", "image": "images/crops/hops/stage-7.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 6
   },
   {
     "id": "376",
@@ -664,7 +687,8 @@
       { "name": "stage 4", "image": "images/crops/poppy/stage-4.png" },
       { "name": "harvest", "image": "images/crops/poppy/stage-5.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 20
   },
   {
     "id": "593",
@@ -694,7 +718,8 @@
       { "name": "stage 4", "image": "images/crops/summer-spangle/stage-4.png" },
       { "name": "harvest", "image": "images/crops/summer-spangle/stage-5.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 15
   },
   {
     "id": "SummerSquash",
@@ -713,7 +738,7 @@
     "cropSellPrice": 45,
     "harvestQuantity": { "min": 1, "max": 1 },
     "trellis": false,
-    "giant": true,
+    "giant": false,
     "description": "A versatile summer squash that's great for cooking.",
     "image": "images/crops/summer-squash/crop.png",
     "seedImage": "images/crops/summer-squash/seed.png",
@@ -724,13 +749,14 @@
       { "name": "harvest", "image": "images/crops/summer-squash/stage-4.png" },
       { "name": "regrowth", "image": "images/crops/summer-squash/stage-5.png" }
     ],
-    "energyHealth": { "energy": 63, "health": 28 }
+    "energyHealth": { "energy": 63, "health": 28 },
+    "farmingXP": 9
   },
   {
     "id": "830",
     "name": "Taro Root",
     "category": "vegetable",
-    "seasons": ["summer"],
+    "seasons": ["summer", "ginger island"],
     "growDays": 10,
     "regrowDays": null,
     "seedId": "831",
@@ -750,7 +776,8 @@
       { "name": "stage 3", "image": "images/crops/taro-root/stage-3.png" },
       { "name": "harvest", "image": "images/crops/taro-root/stage-4.png" }
     ],
-    "energyHealth": { "energy": 38, "health": 17 }
+    "energyHealth": { "energy": 38, "health": 17 },
+    "farmingXP": 16
   },
   {
     "id": "270",
@@ -782,7 +809,8 @@
       { "name": "harvest", "image": "images/crops/corn/stage-6.png" },
       { "name": "regrowth", "image": "images/crops/corn/stage-7.png" }
     ],
-    "energyHealth": { "energy": 25, "health": 11 }
+    "energyHealth": { "energy": 25, "health": 11 },
+    "farmingXP": 10
   },
   {
     "id": "262",
@@ -810,7 +838,8 @@
       { "name": "stage 2", "image": "images/crops/wheat/stage-2.png" },
       { "name": "stage 3", "image": "images/crops/wheat/stage-3.png" },
       { "name": "harvest", "image": "images/crops/wheat/stage-4.png" }
-    ]
+    ],
+    "farmingXP": 6
   },
   {
     "id": "421",
@@ -839,7 +868,8 @@
       { "name": "stage 3", "image": "images/crops/sunflower/stage-3.png" },
       { "name": "harvest", "image": "images/crops/sunflower/stage-4.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 5
   },
   {
     "id": "276",
@@ -861,6 +891,7 @@
     "giant": true,
     "description": "A fall favorite, grown for its flavor and its festive orange color.",
     "image": "images/crops/pumpkin/crop.png",
+    "giantImage": "images/crops/pumpkin/giant.png",
     "seedImage": "images/crops/pumpkin/seed.png",
     "stages": [
       { "name": "stage 1", "image": "images/crops/pumpkin/stage-1.png" },
@@ -868,7 +899,8 @@
       { "name": "stage 3", "image": "images/crops/pumpkin/stage-3.png" },
       { "name": "stage 4", "image": "images/crops/pumpkin/stage-4.png" },
       { "name": "harvest", "image": "images/crops/pumpkin/stage-5.png" }
-    ]
+    ],
+    "farmingXP": 31
   },
   {
     "id": "272",
@@ -898,7 +930,8 @@
       { "name": "harvest", "image": "images/crops/eggplant/stage-4.png" },
       { "name": "regrowth", "image": "images/crops/eggplant/stage-5.png" }
     ],
-    "energyHealth": { "energy": 20, "health": 9 }
+    "energyHealth": { "energy": 20, "health": 9 },
+    "farmingXP": 12
   },
   {
     "id": "274",
@@ -928,7 +961,8 @@
       { "name": "stage 4", "image": "images/crops/artichoke/stage-4.png" },
       { "name": "harvest", "image": "images/crops/artichoke/stage-5.png" }
     ],
-    "energyHealth": { "energy": 30, "health": 13 }
+    "energyHealth": { "energy": 30, "health": 13 },
+    "farmingXP": 22
   },
   {
     "id": "300",
@@ -957,7 +991,8 @@
       { "name": "stage 3", "image": "images/crops/amaranth/stage-3.png" },
       { "name": "harvest", "image": "images/crops/amaranth/stage-4.png" }
     ],
-    "energyHealth": { "energy": 50, "health": 22 }
+    "energyHealth": { "energy": 50, "health": 22 },
+    "farmingXP": 21
   },
   {
     "id": "398",
@@ -987,7 +1022,8 @@
       { "name": "harvest", "image": "images/crops/grape/stage-4.png" },
       { "name": "regrowth", "image": "images/crops/grape/stage-5.png" }
     ],
-    "energyHealth": { "energy": 38, "health": 17 }
+    "energyHealth": { "energy": 38, "health": 17 },
+    "farmingXP": 14
   },
   {
     "id": "282",
@@ -1017,7 +1053,8 @@
       { "name": "harvest", "image": "images/crops/cranberries/stage-4.png" },
       { "name": "regrowth", "image": "images/crops/cranberries/stage-5.png" }
     ],
-    "energyHealth": { "energy": 38, "health": 17 }
+    "energyHealth": { "energy": 38, "health": 17 },
+    "farmingXP": 14
   },
   {
     "id": "278",
@@ -1046,7 +1083,8 @@
       { "name": "stage 3", "image": "images/crops/bok-choy/stage-3.png" },
       { "name": "harvest", "image": "images/crops/bok-choy/stage-4.png" }
     ],
-    "energyHealth": { "energy": 25, "health": 11 }
+    "energyHealth": { "energy": 25, "health": 11 },
+    "farmingXP": 14
   },
   {
     "id": "280",
@@ -1075,7 +1113,8 @@
       { "name": "stage 3", "image": "images/crops/yam/stage-3.png" },
       { "name": "harvest", "image": "images/crops/yam/stage-4.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 22
   },
   {
     "id": "284",
@@ -1103,7 +1142,8 @@
       { "name": "stage 3", "image": "images/crops/beet/stage-3.png" },
       { "name": "harvest", "image": "images/crops/beet/stage-4.png" }
     ],
-    "energyHealth": { "energy": 30, "health": 13 }
+    "energyHealth": { "energy": 30, "health": 13 },
+    "farmingXP": 16
   },
   {
     "id": "417",
@@ -1131,7 +1171,8 @@
       { "name": "stage 3", "image": "images/crops/sweet-gem-berry/stage-3.png" },
       { "name": "stage 4", "image": "images/crops/sweet-gem-berry/stage-4.png" },
       { "name": "harvest", "image": "images/crops/sweet-gem-berry/stage-5.png" }
-    ]
+    ],
+    "farmingXP": 64
   },
   {
     "id": "595",
@@ -1160,7 +1201,8 @@
       { "name": "stage 3", "image": "images/crops/fairy-rose/stage-3.png" },
       { "name": "harvest", "image": "images/crops/fairy-rose/stage-4.png" }
     ],
-    "energyHealth": { "energy": 45, "health": 20 }
+    "energyHealth": { "energy": 45, "health": 20 },
+    "farmingXP": 29
   },
   {
     "id": "Broccoli",
@@ -1179,7 +1221,7 @@
     "cropSellPrice": 70,
     "harvestQuantity": { "min": 1, "max": 1 },
     "trellis": false,
-    "giant": true,
+    "giant": false,
     "description": "A dark green vegetable with many densely-packed florets.",
     "image": "images/crops/broccoli/crop.png",
     "seedImage": "images/crops/broccoli/seed.png",
@@ -1191,7 +1233,8 @@
       { "name": "harvest", "image": "images/crops/broccoli/stage-5.png" },
       { "name": "regrowth", "image": "images/crops/broccoli/stage-6.png" }
     ],
-    "energyHealth": { "energy": 63, "health": 28 }
+    "energyHealth": { "energy": 63, "health": 28 },
+    "farmingXP": 13
   },
   {
     "id": "Powdermelon",
@@ -1210,7 +1253,7 @@
     "cropSellPrice": 60,
     "harvestQuantity": { "min": 1, "max": 1 },
     "trellis": false,
-    "giant": true,
+    "giant": false,
     "description": "A mysterious pale melon that flourishes in winter.",
     "image": "images/crops/powdermelon/crop.png",
     "seedImage": "images/crops/powdermelon/seed.png",
@@ -1221,7 +1264,8 @@
       { "name": "stage 4", "image": "images/crops/powdermelon/stage-4.png" },
       { "name": "harvest", "image": "images/crops/powdermelon/stage-5.png" }
     ],
-    "energyHealth": { "energy": 63, "health": 28 }
+    "energyHealth": { "energy": 63, "health": 28 },
+    "farmingXP": 12
   },
   {
     "id": "454",
@@ -1247,7 +1291,8 @@
       { "name": "stage 3", "image": "images/crops/ancient-fruit/stage-3.png" },
       { "name": "harvest", "image": "images/crops/ancient-fruit/stage-4.png" },
       { "name": "regrowth", "image": "images/crops/ancient-fruit/stage-5.png" }
-    ]
+    ],
+    "farmingXP": 38
   },
   {
     "id": "90",
@@ -1278,13 +1323,14 @@
       { "name": "harvest", "image": "images/crops/cactus-fruit/stage-6.png" },
       { "name": "regrowth", "image": "images/crops/cactus-fruit/stage-7.png" }
     ],
-    "energyHealth": { "energy": 75, "health": 33 }
+    "energyHealth": { "energy": 75, "health": 33 },
+    "farmingXP": 14
   },
   {
     "id": "832",
     "name": "Pineapple",
     "category": "fruit",
-    "seasons": ["summer"],
+    "seasons": ["summer", "ginger island"],
     "growDays": 14,
     "regrowDays": 7,
     "seedId": "833",
@@ -1305,7 +1351,8 @@
       { "name": "harvest", "image": "images/crops/pineapple/stage-4.png" },
       { "name": "regrowth", "image": "images/crops/pineapple/stage-5.png" }
     ],
-    "energyHealth": { "energy": 138, "health": 62 }
+    "energyHealth": { "energy": 138, "health": 62 },
+    "farmingXP": 30
   },
   {
     "id": "889",
@@ -1321,9 +1368,10 @@
     "cropSellPrice": 1,
     "harvestQuantity": { "min": 1, "max": 1 },
     "trellis": false,
-    "giant": false,
+    "giant": true,
     "description": "A fruit imbued with the essence of Qi. Used to complete Qi's special orders.",
     "image": "images/crops/qi-fruit/crop.png",
+    "giantImage": "images/crops/gi-fruit/giant.png",
     "seedImage": "images/crops/qi-fruit/seed.png",
     "stages": [
       { "name": "stage 1", "image": "images/crops/qi-fruit/stage-1.png" },
