@@ -88,7 +88,7 @@ for (const tree of trees().get()) {
 ## Fruit tree fields
 
 | Field                       | Type                               | Notes                           |
-| --------------------------- | ---------------------------------- | ------------------------------- |
+| --------------------------- | ---------------------------------- | ------------------------------- | -------------------------- |
 | type                        | 'fruit-tree'                       | Discriminant for type narrowing |
 | id                          | string                             | Sapling item ID                 |
 | name                        | string                             |                                 |
@@ -110,14 +110,14 @@ for (const tree of trees().get()) {
 | produce.name                | string                             |                                 |
 | produce.sellPrice           | number                             |                                 |
 | produce.image               | string                             | Path to fruit item image        |
-| produce.energyHealth        | object | undefined                 | Omitted for inedible fruit      |
-| produce.energyHealth.energy | number | undefined                 |                                 |
-| produce.energyHealth.health | number | undefined                 |                                 |
+| produce.energyHealth        | object                             | undefined                       | Omitted for inedible fruit |
+| produce.energyHealth.energy | number                             | undefined                       |                            |
+| produce.energyHealth.health | number                             | undefined                       |                            |
 
 ## Wild tree fields
 
 | Field                      | Type                              | Notes                               |
-| -------------------------- | --------------------------------- | ----------------------------------- |
+| -------------------------- | --------------------------------- | ----------------------------------- | ------------------------------- |
 | type                       | 'wild-tree'                       | Discriminant for type narrowing     |
 | id                         | string                            | Tree type ID                        |
 | name                       | string                            |                                     |
@@ -129,11 +129,11 @@ for (const tree of trees().get()) {
 | stages                     | { name: string; image: string }[] |                                     |
 | stages[].name              | string                            |                                     |
 | stages[].image             | string                            |                                     |
-| tapper                     | object | undefined                | Only present for tappable trees     |
+| tapper                     | object                            | undefined                           | Only present for tappable trees |
 | tapper.id                  | string                            |                                     |
 | tapper.name                | string                            |                                     |
 | tapper.sellPrice           | number                            |                                     |
 | tapper.image               | string                            | Path to tapper product image        |
-| tapper.energyHealth        | object | undefined                | Omitted for inedible products       |
-| tapper.energyHealth.energy | number | undefined                |                                     |
-| tapper.energyHealth.health | number | undefined                |                                     |
+| tapper.energyHealth        | object                            | undefined                           | Omitted for inedible products   |
+| tapper.energyHealth.energy | number                            | undefined                           |                                 |
+| tapper.energyHealth.health | number                            | undefined                           |                                 |

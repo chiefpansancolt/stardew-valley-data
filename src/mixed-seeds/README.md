@@ -63,7 +63,7 @@ mixedSeeds().count();
 ## Mixed seed fields
 
 | Field                     | Type                               | Notes                                                |
-| ------------------------- | ---------------------------------- | ---------------------------------------------------- |
+| ------------------------- | ---------------------------------- | ---------------------------------------------------- | --- |
 | id                        | string                             | Item ID                                              |
 | name                      | string                             |                                                      |
 | sellPrice                 | number                             |                                                      |
@@ -73,7 +73,7 @@ mixedSeeds().count();
 | buyPrices[].place         | string                             |                                                      |
 | buyPrices[].price         | number                             |                                                      |
 | produces                  | Partial<Record<Season, string[]>>  | Keys are seasons, values are arrays of crop item IDs |
-| produces.spring           | string[] | undefined               |                                                      |
-| produces.summer           | string[] | undefined               |                                                      |
-| produces.fall             | string[] | undefined               |                                                      |
-| produces['ginger island'] | string[] | undefined               |                                                      |
+| produces.spring           | string[]                           | undefined                                            |     |
+| produces.summer           | string[]                           | undefined                                            |     |
+| produces.fall             | string[]                           | undefined                                            |     |
+| produces['ginger island'] | string[]                           | undefined                                            |     |
