@@ -18,6 +18,5 @@ export interface SearchResult {
   name: string;
   image: string;
   sellPrice: number | null;
-  /** Present when the result is a nested item (e.g. produce from a farm animal). Multiple entries when the same item is shared across parents. */
   parents?: { id: string; name: string }[];
 }

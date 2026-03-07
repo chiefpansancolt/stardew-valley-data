@@ -10,10 +10,6 @@ export interface CaskAging {
   iridiumDays: number;
 }
 
-/**
- * Structured price formula for artisan goods whose sell price depends on the input ingredient.
- * Calculation: Math.floor(ingredientBasePrice * multiplier) + addend
- */
 export interface PriceFormula {
   multiplier: number;
   addend: number;

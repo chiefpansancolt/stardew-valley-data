@@ -3,7 +3,6 @@ export interface Festival {
   startDay: number;
   endDay: number;
   image: string;
-  /** Small icon shown on the in-game calendar for this event */
   calendarIcon: string;
 }
 
