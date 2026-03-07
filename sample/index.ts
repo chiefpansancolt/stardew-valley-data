@@ -7,6 +7,7 @@ import { run as runMixedSeeds } from './mixed-seeds';
 import { run as runSearch } from './search';
 import { run as runSkills } from './skills';
 import { run as runTrees } from './trees';
+import { run as runWeather } from './weather';
 
 const results = [
   runAnimals(),
@@ -18,6 +19,7 @@ const results = [
   runMaps(),
   runSearch(),
   runSkills(),
+  runWeather(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);

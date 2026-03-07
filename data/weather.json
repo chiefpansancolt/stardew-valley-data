@@ -1,0 +1,83 @@
+[
+  {
+    "id": "sunny",
+    "name": "Sunny",
+    "description": "It's going to be clear and sunny all day.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "image": "images/weather/Sun.png",
+    "watersCrops": false,
+    "special": false
+  },
+  {
+    "id": "rain",
+    "name": "Rain",
+    "description": "It's going to rain all day tomorrow.",
+    "seasons": ["spring", "summer", "fall"],
+    "image": "images/weather/Rain.png",
+    "watersCrops": true,
+    "special": false
+  },
+  {
+    "id": "storm",
+    "name": "Storm",
+    "description": "Looks like a storm is approaching. Thunder and lightning is expected.",
+    "seasons": ["spring", "summer", "fall"],
+    "image": "images/weather/Storm.png",
+    "watersCrops": true,
+    "special": false
+  },
+  {
+    "id": "snow",
+    "name": "Snow",
+    "description": "Expect a few inches of snow tomorrow.",
+    "seasons": ["winter"],
+    "image": "images/weather/Snow.png",
+    "watersCrops": false,
+    "special": false
+  },
+  {
+    "id": "wind-spring",
+    "name": "Wind (Spring)",
+    "description": "Partially cloudy with a light breeze. Expect lots of pollen!",
+    "seasons": ["spring"],
+    "image": "images/weather/Wind Spring.png",
+    "watersCrops": false,
+    "special": false
+  },
+  {
+    "id": "wind-fall",
+    "name": "Wind (Fall)",
+    "description": "It's going to be cloudy, with gusts of wind throughout the day.",
+    "seasons": ["fall"],
+    "image": "images/weather/Wind Fall.png",
+    "watersCrops": false,
+    "special": false
+  },
+  {
+    "id": "green-rain",
+    "name": "Green Rain",
+    "description": "Um... There appears to be some kind of... anomalous reading... I... don't know what this means...",
+    "seasons": ["summer"],
+    "image": "images/weather/Green Rain.png",
+    "watersCrops": true,
+    "special": true
+  },
+  {
+    "id": "festival",
+    "name": "Festival",
+    "description": "It's going to be clear and sunny tomorrow... perfect weather for the Festival!",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "image": "images/weather/Festival.png",
+    "watersCrops": false,
+    "special": true
+  },
+  {
+    "id": "wedding",
+    "name": "Wedding",
+    "description": "It's going to be a beautiful day for a wedding!",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "image": "images/weather/Wedding.png",
+    "watersCrops": false,
+    "special": true
+  }
+]

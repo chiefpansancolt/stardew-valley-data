@@ -8,3 +8,4 @@ export * from './mixed-seed';
 export * from './search';
 export * from './skill';
 export * from './tree';
+export * from './weather';
