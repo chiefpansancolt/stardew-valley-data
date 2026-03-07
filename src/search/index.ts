@@ -2,6 +2,7 @@ import { SearchResult, SearchResultKind } from '@/types';
 import { animals, isFarmAnimal } from '../animals';
 import { artisanGoods } from '../artisan-goods';
 import { crops } from '../crops';
+import { monsterLoot, monsters } from '../monsters';
 import { trees } from '../trees';
 
 function matches(query: string, id: string, name: string): boolean {
@@ -154,6 +155,36 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
           image: animal.deluxeProduce.image,
           sellPrice: animal.deluxeProduce.sellPrice,
           parent: { id: animal.id, name: animal.name },
+        });
+      }
+    }
+  }
+
+  // Monsters
+  for (const monster of monsters().get()) {
+    if (matches(query, monster.id, monster.name)) {
+      add({
+        kind: 'monster',
+        id: monster.id,
+        name: monster.name,
+        image: monster.image,
+        sellPrice: null,
+      });
+    }
+  }
+
+  // Monster loot
+  for (const loot of monsterLoot().get()) {
+    if (matches(query, loot.id, loot.name)) {
+      for (const monsterId of loot.droppedBy) {
+        const monster = monsters().find(monsterId);
+        add({
+          kind: 'monster-loot',
+          id: loot.id,
+          name: loot.name,
+          image: loot.image,
+          sellPrice: loot.sellPrice,
+          parent: monster ? { id: monster.id, name: monster.name } : undefined,
         });
       }
     }

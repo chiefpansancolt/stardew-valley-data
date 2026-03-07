@@ -1,0 +1,63 @@
+[
+  {
+    "id": "684",
+    "name": "Bug Meat",
+    "sellPrice": 8,
+    "image": "images/monsters/monster-loot/Bug Meat.png",
+    "droppedBy": ["bug", "grub", "cave-fly", "armored-bug", "mutant-fly", "mutant-grub"]
+  },
+  {
+    "id": "766",
+    "name": "Slime",
+    "sellPrice": 5,
+    "image": "images/monsters/monster-loot/Slime.png",
+    "droppedBy": [
+      "green-slime",
+      "blue-slime",
+      "red-slime",
+      "big-slime",
+      "tiger-slime",
+      "copper-slime",
+      "iron-slime",
+      "purple-slime"
+    ]
+  },
+  {
+    "id": "767",
+    "name": "Bat Wing",
+    "sellPrice": 15,
+    "image": "images/monsters/monster-loot/Bat Wing.png",
+    "droppedBy": ["bat", "frost-bat", "lava-bat"]
+  },
+  {
+    "id": "768",
+    "name": "Solar Essence",
+    "sellPrice": 40,
+    "image": "images/monsters/monster-loot/Solar Essence.png",
+    "droppedBy": [
+      "ghost",
+      "squid-kid",
+      "metal-head",
+      "hot-head",
+      "mummy",
+      "iridium-bat",
+      "blue-squid",
+      "haunted-skull"
+    ]
+  },
+  {
+    "id": "769",
+    "name": "Void Essence",
+    "sellPrice": 50,
+    "image": "images/monsters/monster-loot/Void Essence.png",
+    "droppedBy": [
+      "shadow-brute",
+      "shadow-shaman",
+      "serpent",
+      "royal-serpent",
+      "spider",
+      "shadow-sniper",
+      "haunted-skull"
+    ]
+  }
+]

@@ -8,7 +8,9 @@ export type SearchResultKind =
   | 'wild-tree-tapper'
   | 'animal'
   | 'animal-produce'
-  | 'artisan-good';
+  | 'artisan-good'
+  | 'monster'
+  | 'monster-loot';
 
 export interface SearchResult {
   kind: SearchResultKind;

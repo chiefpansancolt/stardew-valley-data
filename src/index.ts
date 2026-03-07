@@ -4,6 +4,7 @@ export * from './artisan-goods';
 export * from './calculator';
 export * from './crops';
 export * from './maps';
+export * from './monsters';
 export * from './search';
 export * from './skills';
 export * from './trees';
