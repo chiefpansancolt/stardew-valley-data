@@ -1,0 +1,426 @@
+[
+  {
+    "type": "pet",
+    "id": "cat-1",
+    "name": "Cat",
+    "variant": 1,
+    "image": "images/animals/Cat 1.png"
+  },
+  {
+    "type": "pet",
+    "id": "cat-2",
+    "name": "Cat",
+    "variant": 2,
+    "image": "images/animals/Cat 2.png"
+  },
+  {
+    "type": "pet",
+    "id": "cat-3",
+    "name": "Cat",
+    "variant": 3,
+    "image": "images/animals/Cat 3.png"
+  },
+  {
+    "type": "pet",
+    "id": "cat-4",
+    "name": "Cat",
+    "variant": 4,
+    "image": "images/animals/Cat 4.png"
+  },
+  {
+    "type": "pet",
+    "id": "cat-5",
+    "name": "Cat",
+    "variant": 5,
+    "image": "images/animals/Cat 5.png"
+  },
+  {
+    "type": "pet",
+    "id": "dog-1",
+    "name": "Dog",
+    "variant": 1,
+    "image": "images/animals/Dog 1.png"
+  },
+  {
+    "type": "pet",
+    "id": "dog-2",
+    "name": "Dog",
+    "variant": 2,
+    "image": "images/animals/Dog 2.png"
+  },
+  {
+    "type": "pet",
+    "id": "dog-3",
+    "name": "Dog",
+    "variant": 3,
+    "image": "images/animals/Dog 3.png"
+  },
+  {
+    "type": "pet",
+    "id": "dog-4",
+    "name": "Dog",
+    "variant": 4,
+    "image": "images/animals/Dog 4.png"
+  },
+  {
+    "type": "pet",
+    "id": "dog-5",
+    "name": "Dog",
+    "variant": 5,
+    "image": "images/animals/Dog 5.png"
+  },
+  {
+    "type": "pet",
+    "id": "turtle",
+    "name": "Turtle",
+    "variant": 1,
+    "image": "images/animals/Turtle.png"
+  },
+  {
+    "type": "pet",
+    "id": "iridium-turtle",
+    "name": "Iridium Turtle",
+    "variant": 2,
+    "image": "images/animals/Iridium Turtle.png"
+  },
+  {
+    "type": "pet",
+    "id": "horse",
+    "name": "Horse",
+    "image": "images/animals/horse.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "white-chicken",
+    "name": "White Chicken",
+    "description": "A common farm bird. Lays an egg each morning.",
+    "building": "Coop",
+    "purchasePrice": 400,
+    "sellPrice": 800,
+    "daysToMature": 3,
+    "daysToProduce": 1,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "176",
+      "name": "Egg",
+      "sellPrice": 50,
+      "image": "images/animals/produce/Egg.png"
+    },
+    "deluxeProduce": {
+      "id": "174",
+      "name": "Large Egg",
+      "sellPrice": 95,
+      "image": "images/animals/produce/Large Egg.png"
+    },
+    "image": "images/animals/White Chicken.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "brown-chicken",
+    "name": "Brown Chicken",
+    "description": "A common farm bird with brown plumage. Lays brown eggs each morning.",
+    "building": "Coop",
+    "purchasePrice": null,
+    "sellPrice": 800,
+    "daysToMature": 3,
+    "daysToProduce": 1,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "180",
+      "name": "Brown Egg",
+      "sellPrice": 50,
+      "image": "images/animals/produce/Brown Egg.png"
+    },
+    "deluxeProduce": {
+      "id": "182",
+      "name": "Large Brown Egg",
+      "sellPrice": 95,
+      "image": "images/animals/produce/Large Brown Egg.png"
+    },
+    "image": "images/animals/Brown Chicken.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "blue-chicken",
+    "name": "Blue Chicken",
+    "description": "A rare blue-feathered chicken unlocked through a deep friendship with Shane. Produces white eggs daily.",
+    "building": "Coop",
+    "purchasePrice": null,
+    "sellPrice": 800,
+    "daysToMature": 3,
+    "daysToProduce": 1,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "176",
+      "name": "Egg",
+      "sellPrice": 50,
+      "image": "images/animals/produce/Egg.png"
+    },
+    "deluxeProduce": {
+      "id": "174",
+      "name": "Large Egg",
+      "sellPrice": 95,
+      "image": "images/animals/produce/Large Egg.png"
+    },
+    "image": "images/animals/Blue Chicken.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "void-chicken",
+    "name": "Void Chicken",
+    "description": "A dark, magical chicken hatched from a Void Egg. Produces Void Eggs daily.",
+    "building": "Coop",
+    "purchasePrice": null,
+    "sellPrice": 800,
+    "daysToMature": 3,
+    "daysToProduce": 1,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "305",
+      "name": "Void Egg",
+      "sellPrice": 65,
+      "image": "images/animals/produce/Void Egg.png"
+    },
+    "deluxeProduce": null,
+    "image": "images/animals/Void Chicken.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "golden-chicken",
+    "name": "Golden Chicken",
+    "description": "A rare golden chicken hatched from a Golden Egg. Produces Golden Eggs daily.",
+    "building": "Coop",
+    "purchasePrice": null,
+    "sellPrice": 800,
+    "daysToMature": 3,
+    "daysToProduce": 1,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "928",
+      "name": "Golden Egg",
+      "sellPrice": 500,
+      "image": "images/animals/produce/Golden Egg.png"
+    },
+    "deluxeProduce": null,
+    "image": "images/animals/Golden Chicken.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "duck",
+    "name": "Duck",
+    "description": "A waterfowl that lays a Duck Egg every other day. Happy ducks occasionally drop a valuable Duck Feather.",
+    "building": "Big Coop",
+    "purchasePrice": 600,
+    "sellPrice": 1200,
+    "daysToMature": 5,
+    "daysToProduce": 2,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "442",
+      "name": "Duck Egg",
+      "sellPrice": 95,
+      "image": "images/animals/produce/Duck Egg.png"
+    },
+    "deluxeProduce": {
+      "id": "444",
+      "name": "Duck Feather",
+      "sellPrice": 250,
+      "image": "images/animals/produce/Duck Feather.png"
+    },
+    "image": "images/animals/Duck.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "rabbit",
+    "name": "Rabbit",
+    "description": "A fluffy coop animal that sheds Wool every few days. Very happy rabbits may drop a lucky Rabbit's Foot.",
+    "building": "Deluxe Coop",
+    "purchasePrice": 4000,
+    "sellPrice": 8000,
+    "daysToMature": 6,
+    "daysToProduce": 4,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "440",
+      "name": "Wool",
+      "sellPrice": 340,
+      "image": "images/animals/produce/Wool.png"
+    },
+    "deluxeProduce": {
+      "id": "446",
+      "name": "Rabbit's Foot",
+      "sellPrice": 565,
+      "image": "images/animals/produce/Rabbit's Foot.png"
+    },
+    "image": "images/animals/Rabbit.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "dinosaur",
+    "name": "Dinosaur",
+    "description": "A prehistoric creature hatched from a Dinosaur Egg found in the mines. Lays another Dinosaur Egg each week.",
+    "building": "Coop",
+    "purchasePrice": null,
+    "sellPrice": 1000,
+    "daysToMature": 0,
+    "daysToProduce": 7,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "107",
+      "name": "Dinosaur Egg",
+      "sellPrice": 350,
+      "image": "images/animals/produce/Dinosaur Egg.png"
+    },
+    "deluxeProduce": null,
+    "image": "images/animals/Dinosaur.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "white-cow",
+    "name": "White Cow",
+    "description": "A dairy cow that produces milk daily. Must be milked with a Milk Pail.",
+    "building": "Barn",
+    "purchasePrice": 750,
+    "sellPrice": 1500,
+    "daysToMature": 5,
+    "daysToProduce": 1,
+    "harvestMethod": "tool",
+    "harvestTool": "Milk Pail",
+    "produce": {
+      "id": "184",
+      "name": "Milk",
+      "sellPrice": 125,
+      "image": "images/animals/produce/Milk.png"
+    },
+    "deluxeProduce": {
+      "id": "186",
+      "name": "Large Milk",
+      "sellPrice": 190,
+      "image": "images/animals/produce/Large Milk.png"
+    },
+    "image": "images/animals/White Cow.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "brown-cow",
+    "name": "Brown Cow",
+    "description": "A dairy cow with brown markings. Produces milk daily and must be milked with a Milk Pail.",
+    "building": "Barn",
+    "purchasePrice": null,
+    "sellPrice": 1500,
+    "daysToMature": 5,
+    "daysToProduce": 1,
+    "harvestMethod": "tool",
+    "harvestTool": "Milk Pail",
+    "produce": {
+      "id": "184",
+      "name": "Milk",
+      "sellPrice": 125,
+      "image": "images/animals/produce/Milk.png"
+    },
+    "deluxeProduce": {
+      "id": "186",
+      "name": "Large Milk",
+      "sellPrice": 190,
+      "image": "images/animals/produce/Large Milk.png"
+    },
+    "image": "images/animals/Brown Cow.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "goat",
+    "name": "Goat",
+    "description": "A barn animal that produces Goat Milk every other day. Must be milked with a Milk Pail.",
+    "building": "Big Barn",
+    "purchasePrice": 2000,
+    "sellPrice": 4000,
+    "daysToMature": 5,
+    "daysToProduce": 2,
+    "harvestMethod": "tool",
+    "harvestTool": "Milk Pail",
+    "produce": {
+      "id": "436",
+      "name": "Goat Milk",
+      "sellPrice": 225,
+      "image": "images/animals/produce/Goat Milk.png"
+    },
+    "deluxeProduce": {
+      "id": "438",
+      "name": "Large Goat Milk",
+      "sellPrice": 345,
+      "image": "images/animals/produce/Large Goat Milk.png"
+    },
+    "image": "images/animals/Goat.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "sheep",
+    "name": "Sheep",
+    "description": "A barn animal that grows a fleece every three days. Must be sheared with Shears. Very friendly sheep grow wool faster.",
+    "building": "Deluxe Barn",
+    "purchasePrice": 4000,
+    "sellPrice": 8000,
+    "daysToMature": 4,
+    "daysToProduce": 3,
+    "harvestMethod": "tool",
+    "harvestTool": "Shears",
+    "produce": {
+      "id": "440",
+      "name": "Wool",
+      "sellPrice": 340,
+      "image": "images/animals/produce/Wool.png"
+    },
+    "deluxeProduce": null,
+    "image": "images/animals/Sheep.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "pig",
+    "name": "Pig",
+    "description": "Forages for Truffles outside each day in clear weather. Cannot produce in winter.",
+    "building": "Deluxe Barn",
+    "purchasePrice": 8000,
+    "sellPrice": 16000,
+    "daysToMature": 10,
+    "daysToProduce": 1,
+    "harvestMethod": "dig",
+    "harvestTool": null,
+    "produce": {
+      "id": "430",
+      "name": "Truffle",
+      "sellPrice": 625,
+      "image": "images/animals/produce/Truffle.png"
+    },
+    "deluxeProduce": null,
+    "image": "images/animals/Pig.png"
+  },
+  {
+    "type": "farm-animal",
+    "id": "ostrich",
+    "name": "Ostrich",
+    "description": "A large bird hatched from an Ostrich Egg found on Ginger Island. Produces a massive egg every seven days.",
+    "building": "Barn",
+    "purchasePrice": null,
+    "sellPrice": 16000,
+    "daysToMature": 7,
+    "daysToProduce": 7,
+    "harvestMethod": "drop",
+    "harvestTool": null,
+    "produce": {
+      "id": "289",
+      "name": "Ostrich Egg",
+      "sellPrice": 600,
+      "image": "images/animals/produce/Ostrich Egg.png"
+    },
+    "deluxeProduce": null,
+    "image": "images/animals/Ostrich.png"
+  }
+]
