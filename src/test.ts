@@ -7,7 +7,7 @@ const ROOT = join(__dirname, '..');
 
 console.log('Total crops:', crops.length);
 
-const parsnip = getCropById('parsnip');
+const parsnip = getCropById('24');
 console.log('\ngetCropById("parsnip"):', parsnip?.name, '| season:', parsnip?.seasons);
 
 const springCrops = getCropsBySeason('spring');
