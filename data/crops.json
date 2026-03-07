@@ -1371,7 +1371,7 @@
     "giant": true,
     "description": "A fruit imbued with the essence of Qi. Used to complete Qi's special orders.",
     "image": "images/crops/qi-fruit/crop.png",
-    "giantImage": "images/crops/gi-fruit/giant.png",
+    "giantImage": "images/crops/qi-fruit/giant.png",
     "seedImage": "images/crops/qi-fruit/seed.png",
     "stages": [
       { "name": "stage 1", "image": "images/crops/qi-fruit/stage-1.png" },

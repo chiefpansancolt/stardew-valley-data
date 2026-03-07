@@ -1,7 +1,6 @@
-import { Season } from './common';
-import { SeedBuyPrice } from './crop';
+import { Season, SeedBuyPrice } from './common';
 
-export type MixedSeedProduces = Partial<Record<Season | 'island', string[]>>;
+export type MixedSeedProduces = Partial<Record<Season, string[]>>;
 
 export interface MixedSeed {
   id: string;

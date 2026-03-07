@@ -1,19 +1,8 @@
-import { Season } from './common';
-
-export interface SeedBuyPrice {
-  place: string;
-  price: number;
-}
+import { Season, SeedBuyPrice, EnergyHealth } from './common';
 
 export interface CropStage {
   name: string;
   image: string;
-}
-
-export interface EnergyHealth {
-  energy?: number;
-  health?: number;
-  poison?: boolean;
 }
 
 export interface HarvestQuantity {
