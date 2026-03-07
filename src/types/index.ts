@@ -1,4 +1,5 @@
 export * from './animal';
+export * from './artisan-good';
 export * from './common';
 export * from './crop';
 export * from './map';

@@ -1,11 +1,20 @@
 import { run as runAnimals } from './animals';
+import { run as runArtisanGoods } from './artisan-goods';
 import { run as runCrops } from './crops';
 import { run as runMaps } from './maps';
 import { run as runMixedSeeds } from './mixed-seeds';
 import { run as runSkills } from './skills';
 import { run as runTrees } from './trees';
 
-const results = [runAnimals(), runCrops(), runTrees(), runMixedSeeds(), runMaps(), runSkills()];
+const results = [
+  runAnimals(),
+  runArtisanGoods(),
+  runCrops(),
+  runTrees(),
+  runMixedSeeds(),
+  runMaps(),
+  runSkills(),
+];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
 const totalFailed = results.reduce((sum, r) => sum + r.failed, 0);

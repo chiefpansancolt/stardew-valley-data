@@ -1,5 +1,6 @@
 export * from './types';
 export * from './animals';
+export * from './artisan-goods';
 export * from './crops';
 export * from './maps';
 export * from './skills';
