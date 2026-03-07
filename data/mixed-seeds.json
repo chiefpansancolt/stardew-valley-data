@@ -1,0 +1,34 @@
+[
+  {
+    "id": "770",
+    "name": "Mixed Seeds",
+    "sellPrice": 0,
+    "description": "There's a little bit of everything here. Plant them and see what grows!",
+    "image": "images/mixed-seeds/mixed-seeds.png",
+    "buyPrices": [
+      { "place": "Krobus", "price": 30 }
+    ],
+    "produces": {
+      "spring": ["24", "190", "192"],
+      "summer": ["270", "260", "264", "262"],
+      "fall": ["274", "270", "272", "276"],
+      "winter": ["24", "190", "192", "270", "260", "264", "262", "274", "272", "276"],
+      "island": ["258", "254", "832", "252"]
+    }
+  },
+  {
+    "id": "MixedFlowerSeeds",
+    "name": "Mixed Flower Seeds",
+    "sellPrice": 0,
+    "description": "An assortment of flower seeds. Plant them and see what grows!",
+    "image": "images/mixed-seeds/mixed-flower-seeds.png",
+    "buyPrices": [],
+    "produces": {
+      "spring": ["591", "597"],
+      "summer": ["421", "593", "376"],
+      "fall": ["421", "595"],
+      "winter": ["591", "597", "421", "593", "376", "595"],
+      "island": ["421", "593", "376"]
+    }
+  }
+]
