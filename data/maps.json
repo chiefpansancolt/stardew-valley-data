@@ -1,0 +1,124 @@
+[
+  {
+    "id": "0",
+    "name": "Standard",
+    "description": "The most spacious farming layout with the largest contiguous tillable area. Ideal for crops and animals.",
+    "skills": ["Farming"],
+    "tillableTiles": 3427,
+    "features": [
+      "Largest contiguous tillable area of all farm types (63 x 31 tiles)",
+      "No special restrictions or bonuses"
+    ],
+    "startingItems": ["15 Parsnip Seeds"],
+    "image": "images/maps/full-image/Standard Farm Map.png",
+    "icon": "images/maps/icons/Standard Farm Map Icon.png"
+  },
+  {
+    "id": "1",
+    "name": "Riverland",
+    "description": "Water significantly decreases the overall farming area, but fishing is more rewarding.",
+    "skills": ["Fishing"],
+    "tillableTiles": 1578,
+    "features": [
+      "Random bubble fishing spots appear exclusively on this farm",
+      "70% town river fish, 30% forest fish",
+      "Smallest farming area due to water coverage"
+    ],
+    "startingItems": ["15 Parsnip Seeds", "Fish Smoker"],
+    "image": "images/maps/full-image/Riverland Farm Map.png",
+    "icon": "images/maps/icons/Riverland Farm Map Icon.png"
+  },
+  {
+    "id": "2",
+    "name": "Forest",
+    "description": "The border features trees and foliage resembling the Secret Woods, emphasizing resource gathering.",
+    "skills": ["Foraging"],
+    "tillableTiles": 1413,
+    "features": [
+      "16 renewable berry bushes along the southern border",
+      "8 renewable hardwood stumps in the western clearing",
+      "Seasonal forage items spawn on the farm",
+      "Woodskip can be caught in the farm pond"
+    ],
+    "startingItems": ["15 Parsnip Seeds"],
+    "image": "images/maps/full-image/Forest Farm Map.png",
+    "icon": "images/maps/icons/Forest Farm Map Icon.png"
+  },
+  {
+    "id": "3",
+    "name": "Hill-top",
+    "description": "Features a quarry for mining operations and resource extraction.",
+    "skills": ["Mining"],
+    "tillableTiles": 1648,
+    "features": [
+      "Southwest quarry spawns stones, ores, and geodes daily",
+      "Ore quality scales with mining level (copper, iron, gold, iridium)",
+      "Geode types progress with mining level"
+    ],
+    "startingItems": ["15 Parsnip Seeds"],
+    "image": "images/maps/full-image/Hilltop Farm Map.png",
+    "icon": "images/maps/icons/Hilltop Farm Map Icon.png"
+  },
+  {
+    "id": "4",
+    "name": "Wilderness",
+    "description": "Combat-focused farm where monsters spawn at night and scale with the player's combat level.",
+    "skills": ["Combat"],
+    "tillableTiles": 2131,
+    "features": [
+      "Monsters spawn at night and scale with combat level",
+      "Iridium Golems can spawn at Combat level 9+ and drop Iridium Ore",
+      "35% lake fish, 65% trash from the farm pond"
+    ],
+    "startingItems": ["15 Parsnip Seeds"],
+    "image": "images/maps/full-image/Wilderness Farm Map.png",
+    "icon": "images/maps/icons/Wilderness Farm Map Icon.png"
+  },
+  {
+    "id": "5",
+    "name": "Four Corners",
+    "description": "The farming area is split by cliffs into four distinct areas, each reminiscent of other farm types. Best suited for multiplayer.",
+    "skills": ["Multiplayer"],
+    "tillableTiles": 2952,
+    "features": [
+      "Top-left: forest area with renewable hardwood stump",
+      "Top-right: open standard farmland (largest quadrant)",
+      "Bottom-left: pond with 50% forest fish catch rate",
+      "Bottom-right: small quarry with mining nodes"
+    ],
+    "startingItems": ["15 Parsnip Seeds"],
+    "image": "images/maps/full-image/Four Corners Farm Map.png",
+    "icon": "images/maps/icons/Four Corners Farm Map Icon.png"
+  },
+  {
+    "id": "6",
+    "name": "Beach",
+    "description": "Offers foraging and fishing but limits farming due to sandy soil. Intended for seasoned players.",
+    "skills": ["Foraging", "Fishing"],
+    "tillableTiles": 2700,
+    "features": [
+      "Sprinklers do not work on sandy soil (only 202 tiles are sprinkler-compatible)",
+      "Supply crates occasionally wash ashore",
+      "Both forest and ocean forage items spawn",
+      "52.73% ocean fish, 15% seaweed, 5.1% shellfish from fishing"
+    ],
+    "startingItems": ["15 Parsnip Seeds"],
+    "image": "images/maps/full-image/Beach Farm Map.png",
+    "icon": "images/maps/icons/Beach Farm Map Icon.png"
+  },
+  {
+    "id": "MeadowlandsFarm",
+    "name": "Meadowlands",
+    "description": "An animal-focused farm with a pre-built coop, two chickens, and special blue grass that animals love.",
+    "skills": ["Farming"],
+    "tillableTiles": 2066,
+    "features": [
+      "Starts with a pre-built coop and two randomly-named chickens",
+      "Special blue grass that animals love grows naturally",
+      "40% forest pond fish, 60% trash from fishing"
+    ],
+    "startingItems": ["15 Hay", "Coop", "2 Chickens"],
+    "image": "images/maps/full-image/Meadowlands Farm Map.png",
+    "icon": "images/maps/icons/Meadowlands Farm Map Icon.png"
+  }
+]
