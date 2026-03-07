@@ -8,4 +8,5 @@ export * from './search';
 export * from './skills';
 export * from './trees';
 export * from './mixed-seeds';
+export * from './seasons';
 export * from './weather';

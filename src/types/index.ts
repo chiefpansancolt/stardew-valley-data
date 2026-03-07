@@ -7,5 +7,6 @@ export * from './map';
 export * from './mixed-seed';
 export * from './search';
 export * from './skill';
+export * from './season';
 export * from './tree';
 export * from './weather';

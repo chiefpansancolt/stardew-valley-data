@@ -1,0 +1,118 @@
+[
+  {
+    "id": "spring",
+    "name": "Spring",
+    "totalDays": 28,
+    "image": "images/seasons/Spring.png",
+    "festivals": [
+      {
+        "name": "Egg Festival",
+        "startDay": 13,
+        "endDay": 13,
+        "image": "images/seasons/festivals/Egg Festival.png",
+        "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
+      },
+      {
+        "name": "Desert Festival",
+        "startDay": 15,
+        "endDay": 17,
+        "image": "images/seasons/festivals/Desert Festival.png",
+        "calendarIcon": "images/seasons/calendar-icons/Special Event.png"
+      },
+      {
+        "name": "Flower Dance",
+        "startDay": 24,
+        "endDay": 24,
+        "image": "images/seasons/festivals/Flower Dance.jpg",
+        "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
+      }
+    ]
+  },
+  {
+    "id": "summer",
+    "name": "Summer",
+    "totalDays": 28,
+    "image": "images/seasons/Summer.png",
+    "festivals": [
+      {
+        "name": "Luau",
+        "startDay": 11,
+        "endDay": 11,
+        "image": "images/seasons/festivals/Luau.png",
+        "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
+      },
+      {
+        "name": "Trout Derby",
+        "startDay": 20,
+        "endDay": 21,
+        "image": "images/seasons/festivals/Trout Derby.png",
+        "calendarIcon": "images/seasons/calendar-icons/Fishing Event.png"
+      },
+      {
+        "name": "Dance of the Moonlight Jellies",
+        "startDay": 28,
+        "endDay": 28,
+        "image": "images/seasons/festivals/Dance of the Moonlight Jellies.jpg",
+        "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
+      }
+    ]
+  },
+  {
+    "id": "fall",
+    "name": "Fall",
+    "totalDays": 28,
+    "image": "images/seasons/Fall.png",
+    "festivals": [
+      {
+        "name": "Stardew Valley Fair",
+        "startDay": 16,
+        "endDay": 16,
+        "image": "images/seasons/festivals/Stardew Valley Fair.png",
+        "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
+      },
+      {
+        "name": "Spirit's Eve",
+        "startDay": 27,
+        "endDay": 27,
+        "image": "images/seasons/festivals/Spirit's Eve.png",
+        "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
+      }
+    ]
+  },
+  {
+    "id": "winter",
+    "name": "Winter",
+    "totalDays": 28,
+    "image": "images/seasons/Winter.png",
+    "festivals": [
+      {
+        "name": "Festival of Ice",
+        "startDay": 8,
+        "endDay": 8,
+        "image": "images/seasons/festivals/Festival of Ice.jpg",
+        "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
+      },
+      {
+        "name": "SquidFest",
+        "startDay": 12,
+        "endDay": 13,
+        "image": "images/seasons/festivals/SquidFest.png",
+        "calendarIcon": "images/seasons/calendar-icons/Fishing Event.png"
+      },
+      {
+        "name": "Night Market",
+        "startDay": 15,
+        "endDay": 17,
+        "image": "images/seasons/festivals/Night Market.jpg",
+        "calendarIcon": "images/seasons/calendar-icons/Special Event.png"
+      },
+      {
+        "name": "Feast of the Winter Star",
+        "startDay": 25,
+        "endDay": 25,
+        "image": "images/seasons/festivals/Feast of the Winter Star.png",
+        "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
+      }
+    ]
+  }
+]
