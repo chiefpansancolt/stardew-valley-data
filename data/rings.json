@@ -21,7 +21,12 @@
     "craftingSkill": null,
     "ingredients": [],
     "purchasePrice": null,
-    "sources": ["Night Fishing Bundle reward", "Slime drops (Mines floors 40+)", "Skeleton drops (Mines floors 70-79)", "Mine barrels and crates"]
+    "sources": [
+      "Night Fishing Bundle reward",
+      "Slime drops (Mines floors 40+)",
+      "Skeleton drops (Mines floors 70-79)",
+      "Mine barrels and crates"
+    ]
   },
   {
     "id": "518",
@@ -241,7 +246,11 @@
     "craftingSkill": null,
     "ingredients": [],
     "purchasePrice": 5000,
-    "sources": ["Adventurer's Guild (Mines floor 80+)", "Fishing treasure chests", "Haunted Skull drops"]
+    "sources": [
+      "Adventurer's Guild (Mines floor 80+)",
+      "Fishing treasure chests",
+      "Haunted Skull drops"
+    ]
   },
   {
     "id": "801",

@@ -52,7 +52,13 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 30,
     "sellPrice": 40,
-    "usedIn": ["Dish O' The Sea", "Maki Roll", "Quality Fertilizer", "Sashimi", "Ocean Fish Bundle"],
+    "usedIn": [
+      "Dish O' The Sea",
+      "Maki Roll",
+      "Quality Fertilizer",
+      "Sashimi",
+      "Ocean Fish Bundle"
+    ],
     "image": "images/fish/Sardine.png"
   },
   {
@@ -80,7 +86,14 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 50,
     "sellPrice": 100,
-    "usedIn": ["Crispy Bass", "Maki Roll", "Quality Fertilizer", "Sashimi", "Lake Fish Bundle", "Quality Fish Bundle"],
+    "usedIn": [
+      "Crispy Bass",
+      "Maki Roll",
+      "Quality Fertilizer",
+      "Sashimi",
+      "Lake Fish Bundle",
+      "Quality Fish Bundle"
+    ],
     "image": "images/fish/Largemouth Bass.png"
   },
   {
@@ -136,7 +149,13 @@
     "time": "12:00 PM – 2:00 AM",
     "difficulty": 45,
     "sellPrice": 105,
-    "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Night Fishing Bundle", "Quality Fish Bundle"],
+    "usedIn": [
+      "Maki Roll",
+      "Quality Fertilizer",
+      "Sashimi",
+      "Night Fishing Bundle",
+      "Quality Fish Bundle"
+    ],
     "image": "images/fish/Walleye.png"
   },
   {
@@ -248,7 +267,14 @@
     "time": "4:00 PM – 2:00 AM",
     "difficulty": 70,
     "sellPrice": 85,
-    "usedIn": ["Fried Eel", "Maki Roll", "Quality Fertilizer", "Sashimi", "Spicy Eel", "Night Fishing Bundle"],
+    "usedIn": [
+      "Fried Eel",
+      "Maki Roll",
+      "Quality Fertilizer",
+      "Sashimi",
+      "Spicy Eel",
+      "Night Fishing Bundle"
+    ],
     "image": "images/fish/Eel.png"
   },
   {
@@ -651,7 +677,13 @@
     "time": "9:00 AM – 2:00 AM",
     "difficulty": 45,
     "sellPrice": 60,
-    "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "River Fish Bundle", "Quality Fish Bundle"],
+    "usedIn": [
+      "Maki Roll",
+      "Quality Fertilizer",
+      "Sashimi",
+      "River Fish Bundle",
+      "Quality Fish Bundle"
+    ],
     "image": "images/fish/Shad.png"
   },
   {
@@ -745,7 +777,14 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Ocean (crab pot)",
     "sellPrice": 60,
-    "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Shrimp Cocktail", "Tom Kha Soup", "Crab Pot Bundle"],
+    "usedIn": [
+      "Maki Roll",
+      "Quality Fertilizer",
+      "Sashimi",
+      "Shrimp Cocktail",
+      "Tom Kha Soup",
+      "Crab Pot Bundle"
+    ],
     "image": "images/fish/Shrimp.png"
   },
   {
@@ -767,7 +806,14 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Freshwater (crab pot)",
     "sellPrice": 20,
-    "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Strange Bun", "Crab Pot Bundle"],
+    "usedIn": [
+      "Fish Stew",
+      "Maki Roll",
+      "Quality Fertilizer",
+      "Sashimi",
+      "Strange Bun",
+      "Crab Pot Bundle"
+    ],
     "image": "images/fish/Periwinkle.png"
   },
   {
@@ -792,7 +838,13 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 50,
     "sellPrice": 75,
-    "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Lake Fish Bundle", "Specialty Fish Bundle"],
+    "usedIn": [
+      "Maki Roll",
+      "Quality Fertilizer",
+      "Sashimi",
+      "Lake Fish Bundle",
+      "Specialty Fish Bundle"
+    ],
     "image": "images/fish/Woodskip.png"
   },
   {

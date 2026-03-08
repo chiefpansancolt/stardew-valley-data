@@ -5,9 +5,7 @@
     "sellPrice": 0,
     "description": "There's a little bit of everything here. Plant them and see what grows!",
     "image": "images/mixed-seeds/mixed-seeds.png",
-    "buyPrices": [
-      { "place": "Krobus", "price": 30 }
-    ],
+    "buyPrices": [{ "place": "Krobus", "price": 30 }],
     "produces": {
       "spring": ["24", "190", "192"],
       "summer": ["270", "260", "264", "262"],

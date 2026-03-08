@@ -138,10 +138,8 @@
     "name": "Sticky Bundle",
     "room": "crafts-room",
     "bundleGroup": 5,
-    "image":"images/bundles/bundle-images/Sticky Bundle.png",
-    "items": [
-      { "name": "Sap", "quantity": 500 }
-    ],
+    "image": "images/bundles/bundle-images/Sticky Bundle.png",
+    "items": [{ "name": "Sap", "quantity": 500 }],
     "itemsRequired": 1,
     "itemsChosenRandom": false,
     "numItemsAvailable": 1,
@@ -154,7 +152,7 @@
     "name": "Forest Bundle",
     "room": "crafts-room",
     "bundleGroup": 5,
-    "image":"images/bundles/bundle-images/Forest Bundle.png",
+    "image": "images/bundles/bundle-images/Forest Bundle.png",
     "items": [
       { "name": "Moss", "quantity": 10 },
       { "name": "Fiber", "quantity": 200 },
@@ -197,7 +195,7 @@
     "name": "Wild Medicine Bundle",
     "room": "crafts-room",
     "bundleGroup": 6,
-    "image":"images/bundles/bundle-images/Wild Medicine Bundle.png",
+    "image": "images/bundles/bundle-images/Wild Medicine Bundle.png",
     "items": [
       { "name": "Purple Mushroom", "quantity": 5 },
       { "name": "Fiddlehead Fern", "quantity": 5 },
@@ -282,7 +280,6 @@
       { "name": "Blueberry", "quantity": 1 },
       { "name": "Melon", "quantity": 1 },
       { "name": "Summer Squash", "quantity": 1 }
-
     ],
     "itemsRequired": 4,
     "itemsChosenRandom": true,
@@ -322,7 +319,6 @@
       { "name": "Pumpkin", "quantity": 1 },
       { "name": "Yam", "quantity": 1 },
       { "name": "Broccoli", "quantity": 1 }
-
     ],
     "itemsRequired": 4,
     "itemsChosenRandom": true,
@@ -962,7 +958,7 @@
     "itemsRequired": 2,
     "itemsChosenRandom": false,
     "numItemsAvailable": 2,
-    "reward": { "name": "Stardrop Tea", "quantity": 1},
+    "reward": { "name": "Stardrop Tea", "quantity": 1 },
     "remixBundle": true
   },
   {

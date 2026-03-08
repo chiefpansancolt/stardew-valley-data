@@ -74,9 +74,7 @@
     "image": "images/cooking/Baked Fish.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "summer", "day": 7, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "summer", "day": 7, "year": 1 }]
   },
   {
     "id": "199",
@@ -127,9 +125,7 @@
       { "stat": "Max Energy", "value": 50 }
     ],
     "buffDuration": 420,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "spring", "day": 21, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "spring", "day": 21, "year": 2 }]
   },
   {
     "id": "202",
@@ -177,9 +173,7 @@
     "image": "images/cooking/Lucky Lunch.png",
     "buffs": [{ "stat": "Luck", "value": 3 }],
     "buffDuration": 672,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "spring", "day": 28, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "spring", "day": 28, "year": 2 }]
   },
   {
     "id": "205",
@@ -244,9 +238,7 @@
     "image": "images/cooking/Glazed Yams.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "fall", "day": 21, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "fall", "day": 21, "year": 1 }]
   },
   {
     "id": "209",
@@ -258,9 +250,7 @@
     "image": "images/cooking/Carp Surprise.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "summer", "day": 7, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "summer", "day": 7, "year": 2 }]
   },
   {
     "id": "210",
@@ -412,9 +402,7 @@
     "image": "images/cooking/Trout Soup.png",
     "buffs": [{ "stat": "Fishing", "value": 1 }],
     "buffDuration": 280,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "fall", "day": 14, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "fall", "day": 14, "year": 1 }]
   },
   {
     "id": "220",
@@ -430,9 +418,7 @@
     "image": "images/cooking/Chocolate Cake.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "winter", "day": 14, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "winter", "day": 14, "year": 1 }]
   },
   {
     "id": "221",
@@ -449,9 +435,7 @@
     "image": "images/cooking/Pink Cake.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "summer", "day": 21, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "summer", "day": 21, "year": 2 }]
   },
   {
     "id": "222",
@@ -836,9 +820,7 @@
     "image": "images/cooking/Triple Shot Espresso.png",
     "buffs": [{ "stat": "Speed", "value": 1 }],
     "buffDuration": 252,
-    "recipeSources": [
-      { "type": "purchase", "from": "Gus", "price": 5000, "currency": "g" }
-    ]
+    "recipeSources": [{ "type": "purchase", "from": "Gus", "price": 5000, "currency": "g" }]
   },
   {
     "id": "265",
@@ -894,9 +876,7 @@
     "image": "images/cooking/Plum Pudding.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "winter", "day": 7, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "winter", "day": 7, "year": 1 }]
   },
   {
     "id": "605",
@@ -911,9 +891,7 @@
     "image": "images/cooking/Artichoke Dip.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "fall", "day": 28, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "fall", "day": 28, "year": 1 }]
   },
   {
     "id": "606",
@@ -930,9 +908,7 @@
     "image": "images/cooking/Stir Fry.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "spring", "day": 7, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "spring", "day": 7, "year": 1 }]
   },
   {
     "id": "607",
@@ -944,9 +920,7 @@
     "image": "images/cooking/Roasted Hazelnuts.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "summer", "day": 28, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "summer", "day": 28, "year": 2 }]
   },
   {
     "id": "608",
@@ -963,9 +937,7 @@
     "image": "images/cooking/Pumpkin Pie.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "winter", "day": 21, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "winter", "day": 21, "year": 1 }]
   },
   {
     "id": "609",
@@ -981,9 +953,7 @@
     "image": "images/cooking/Radish Salad.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "spring", "day": 21, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "spring", "day": 21, "year": 1 }]
   },
   {
     "id": "610",
@@ -999,9 +969,7 @@
     "image": "images/cooking/Fruit Salad.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "fall", "day": 7, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "fall", "day": 7, "year": 2 }]
   },
   {
     "id": "611",
@@ -1017,9 +985,7 @@
     "image": "images/cooking/Blackberry Cobbler.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "fall", "day": 14, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "fall", "day": 14, "year": 2 }]
   },
   {
     "id": "612",
@@ -1035,9 +1001,7 @@
     "image": "images/cooking/Cranberry Candy.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "winter", "day": 28, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "winter", "day": 28, "year": 1 }]
   },
   {
     "id": "618",
@@ -1053,9 +1017,7 @@
     "image": "images/cooking/Bruschetta.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "winter", "day": 21, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "winter", "day": 21, "year": 2 }]
   },
   {
     "id": "648",
@@ -1071,9 +1033,7 @@
     "image": "images/cooking/Coleslaw.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "spring", "day": 14, "year": 1 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "spring", "day": 14, "year": 1 }]
   },
   {
     "id": "649",
@@ -1089,9 +1049,7 @@
     "image": "images/cooking/Fiddlehead Risotto.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "fall", "day": 28, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "fall", "day": 28, "year": 2 }]
   },
   {
     "id": "651",
@@ -1107,9 +1065,7 @@
     "image": "images/cooking/Poppyseed Muffin.png",
     "buffs": [],
     "buffDuration": null,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "winter", "day": 7, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "winter", "day": 7, "year": 2 }]
   },
   {
     "id": "727",
@@ -1197,9 +1153,7 @@
       { "stat": "Mining", "value": 1 }
     ],
     "buffDuration": 1008,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "summer", "day": 14, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "summer", "day": 14, "year": 2 }]
   },
   {
     "id": "732",
@@ -1219,9 +1173,7 @@
       { "stat": "Defense", "value": 1 }
     ],
     "buffDuration": 1008,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "fall", "day": 21, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "fall", "day": 21, "year": 2 }]
   },
   {
     "id": "733",
@@ -1240,9 +1192,7 @@
       { "stat": "Luck", "value": 1 }
     ],
     "buffDuration": 602,
-    "recipeSources": [
-      { "type": "queen-of-sauce", "season": "winter", "day": 28, "year": 2 }
-    ]
+    "recipeSources": [{ "type": "queen-of-sauce", "season": "winter", "day": 28, "year": 2 }]
   },
   {
     "id": "903",
@@ -1257,9 +1207,7 @@
     "image": "images/cooking/Ginger Ale.png",
     "buffs": [{ "stat": "Luck", "value": 1 }],
     "buffDuration": 301,
-    "recipeSources": [
-      { "type": "purchase", "from": "Dwarf Shop", "price": 1000, "currency": "g" }
-    ]
+    "recipeSources": [{ "type": "purchase", "from": "Dwarf Shop", "price": 1000, "currency": "g" }]
   },
   {
     "id": "904",

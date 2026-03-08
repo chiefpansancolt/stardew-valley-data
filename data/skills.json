@@ -16,19 +16,28 @@
         "level": 2,
         "xpRequired": 280,
         "totalXp": 380,
-        "recipes": { "crafting": ["Basic Fertilizer", "Mayonnaise Machine", "Stone Fence"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Basic Fertilizer", "Mayonnaise Machine", "Stone Fence"],
+          "cooking": []
+        }
       },
       {
         "level": 3,
         "xpRequired": 390,
         "totalXp": 770,
-        "recipes": { "crafting": ["Bee House", "Sprinkler", "Speed-Gro"], "cooking": ["Farmer's Lunch"] }
+        "recipes": {
+          "crafting": ["Bee House", "Sprinkler", "Speed-Gro"],
+          "cooking": ["Farmer's Lunch"]
+        }
       },
       {
         "level": 4,
         "xpRequired": 530,
         "totalXp": 1300,
-        "recipes": { "crafting": ["Preserves Jar", "Basic Retaining Soil", "Iron Fence"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Preserves Jar", "Basic Retaining Soil", "Iron Fence"],
+          "cooking": []
+        }
       },
       {
         "level": 5,
@@ -40,7 +49,10 @@
         "level": 6,
         "xpRequired": 1150,
         "totalXp": 3300,
-        "recipes": { "crafting": ["Cheese Press", "Hardwood Fence", "Quality Sprinkler"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Cheese Press", "Hardwood Fence", "Quality Sprinkler"],
+          "cooking": []
+        }
       },
       {
         "level": 7,
@@ -78,18 +90,43 @@
       {
         "level": 10,
         "options": [
-          { "name": "Coopmaster", "description": "Befriend coop animals quicker. Incubation time cut in half", "requires": "Rancher" },
-          { "name": "Shepherd", "description": "Befriend barn animals quicker. Sheep produce wool faster", "requires": "Rancher" },
-          { "name": "Artisan", "description": "Artisan goods (wine, cheese, oil, etc.) worth 40% more", "requires": "Tiller" },
-          { "name": "Agriculturist", "description": "All crops grow 10% faster", "requires": "Tiller" }
+          {
+            "name": "Coopmaster",
+            "description": "Befriend coop animals quicker. Incubation time cut in half",
+            "requires": "Rancher"
+          },
+          {
+            "name": "Shepherd",
+            "description": "Befriend barn animals quicker. Sheep produce wool faster",
+            "requires": "Rancher"
+          },
+          {
+            "name": "Artisan",
+            "description": "Artisan goods (wine, cheese, oil, etc.) worth 40% more",
+            "requires": "Tiller"
+          },
+          {
+            "name": "Agriculturist",
+            "description": "All crops grow 10% faster",
+            "requires": "Tiller"
+          }
         ]
       }
     ],
     "mastery": {
       "unlocks": [
-        { "name": "Iridium Scythe", "description": "Can harvest any crops and is excellent at gathering hay" },
-        { "name": "Statue of Blessings", "description": "Recipe unlocked — provides a unique blessing daily" },
-        { "name": "Golden Animal Crackers", "description": "Permanently doubles farm animal produce (except pigs)" }
+        {
+          "name": "Iridium Scythe",
+          "description": "Can harvest any crops and is excellent at gathering hay"
+        },
+        {
+          "name": "Statue of Blessings",
+          "description": "Recipe unlocked — provides a unique blessing daily"
+        },
+        {
+          "name": "Golden Animal Crackers",
+          "description": "Permanently doubles farm animal produce (except pigs)"
+        }
       ]
     }
   },
@@ -116,7 +153,10 @@
         "level": 3,
         "xpRequired": 390,
         "totalXp": 770,
-        "recipes": { "crafting": ["Glowstone Ring", "Transmute (Fe)"], "cooking": ["Miner's Treat"] }
+        "recipes": {
+          "crafting": ["Glowstone Ring", "Transmute (Fe)"],
+          "cooking": ["Miner's Treat"]
+        }
       },
       {
         "level": 4,
@@ -173,16 +213,30 @@
         "level": 10,
         "options": [
           { "name": "Blacksmith", "description": "Metal bars worth 50% more", "requires": "Miner" },
-          { "name": "Prospector", "description": "Chance to find coal doubled", "requires": "Miner" },
-          { "name": "Excavator", "description": "Chance to find geodes doubled", "requires": "Geologist" },
+          {
+            "name": "Prospector",
+            "description": "Chance to find coal doubled",
+            "requires": "Miner"
+          },
+          {
+            "name": "Excavator",
+            "description": "Chance to find geodes doubled",
+            "requires": "Geologist"
+          },
           { "name": "Gemologist", "description": "Gems worth 30% more", "requires": "Geologist" }
         ]
       }
     ],
     "mastery": {
       "unlocks": [
-        { "name": "Statue of The Dwarf King", "description": "Recipe unlocked — choose from two mining powers daily" },
-        { "name": "Heavy Furnace", "description": "Recipe unlocked — more efficient smelting (25 ore + 3 coal per batch)" },
+        {
+          "name": "Statue of The Dwarf King",
+          "description": "Recipe unlocked — choose from two mining powers daily"
+        },
+        {
+          "name": "Heavy Furnace",
+          "description": "Recipe unlocked — more efficient smelting (25 ore + 3 coal per batch)"
+        },
         { "name": "Doubled Gem Yield", "description": "Gem-bearing rocks now grant twice the gems" }
       ]
     }
@@ -240,7 +294,10 @@
         "level": 8,
         "xpRequired": 2100,
         "totalXp": 6900,
-        "recipes": { "crafting": ["Wild Seeds (Winter)", "Warp Totem: Mountains", "Tree Fertilizer"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Wild Seeds (Winter)", "Warp Totem: Mountains", "Tree Fertilizer"],
+          "cooking": []
+        }
       },
       {
         "level": 9,
@@ -266,18 +323,36 @@
       {
         "level": 10,
         "options": [
-          { "name": "Lumberjack", "description": "All trees have a chance to drop hardwood", "requires": "Forester" },
+          {
+            "name": "Lumberjack",
+            "description": "All trees have a chance to drop hardwood",
+            "requires": "Forester"
+          },
           { "name": "Tapper", "description": "Syrups worth 25% more", "requires": "Forester" },
-          { "name": "Botanist", "description": "Foraged items are always highest quality", "requires": "Gatherer" },
-          { "name": "Tracker", "description": "Location of forageable items revealed", "requires": "Gatherer" }
+          {
+            "name": "Botanist",
+            "description": "Foraged items are always highest quality",
+            "requires": "Gatherer"
+          },
+          {
+            "name": "Tracker",
+            "description": "Location of forageable items revealed",
+            "requires": "Gatherer"
+          }
         ]
       }
     ],
     "mastery": {
       "unlocks": [
         { "name": "Mystic Tree Seed", "description": "Recipe unlocked — grows a special tree" },
-        { "name": "Treasure Totem", "description": "Recipe unlocked — summons a ring of treasure spots" },
-        { "name": "Golden Mystery Box", "description": "Superior mystery boxes added to the loot table" }
+        {
+          "name": "Treasure Totem",
+          "description": "Recipe unlocked — summons a ring of treasure spots"
+        },
+        {
+          "name": "Golden Mystery Box",
+          "description": "Superior mystery boxes added to the loot table"
+        }
       ]
     }
   },
@@ -322,7 +397,10 @@
         "level": 6,
         "xpRequired": 1150,
         "totalXp": 3300,
-        "recipes": { "crafting": ["Bait Maker", "Spinner", "Trap Bobber", "Sonar Bobber"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Bait Maker", "Spinner", "Trap Bobber", "Sonar Bobber"],
+          "cooking": []
+        }
       },
       {
         "level": 7,
@@ -334,7 +412,10 @@
         "level": 8,
         "xpRequired": 2100,
         "totalXp": 6900,
-        "recipes": { "crafting": ["Deluxe Worm Bin", "Barbed Hook", "Dressed Spinner"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Deluxe Worm Bin", "Barbed Hook", "Dressed Spinner"],
+          "cooking": []
+        }
       },
       {
         "level": 9,
@@ -361,17 +442,38 @@
         "level": 10,
         "options": [
           { "name": "Angler", "description": "Fish worth 50% more", "requires": "Fisher" },
-          { "name": "Pirate", "description": "Chance to find treasure doubled", "requires": "Fisher" },
-          { "name": "Mariner", "description": "Crab pots no longer produce junk items", "requires": "Trapper" },
-          { "name": "Luremaster", "description": "Crab pots no longer require bait", "requires": "Trapper" }
+          {
+            "name": "Pirate",
+            "description": "Chance to find treasure doubled",
+            "requires": "Fisher"
+          },
+          {
+            "name": "Mariner",
+            "description": "Crab pots no longer produce junk items",
+            "requires": "Trapper"
+          },
+          {
+            "name": "Luremaster",
+            "description": "Crab pots no longer require bait",
+            "requires": "Trapper"
+          }
         ]
       }
     ],
     "mastery": {
       "unlocks": [
-        { "name": "Advanced Iridium Rod", "description": "Accepts up to two bobbers simultaneously" },
-        { "name": "Challenge Bait", "description": "Recipe unlocked — perfect catch yields triple fish, but reduced catch per escape" },
-        { "name": "Golden Fishing Treasure Chest", "description": "Superior fishing treasure chests added to the loot table" }
+        {
+          "name": "Advanced Iridium Rod",
+          "description": "Accepts up to two bobbers simultaneously"
+        },
+        {
+          "name": "Challenge Bait",
+          "description": "Recipe unlocked — perfect catch yields triple fish, but reduced catch per escape"
+        },
+        {
+          "name": "Golden Fishing Treasure Chest",
+          "description": "Superior fishing treasure chests added to the loot table"
+        }
       ]
     }
   },
@@ -434,7 +536,10 @@
         "level": 9,
         "xpRequired": 3100,
         "totalXp": 10000,
-        "recipes": { "crafting": ["Oil of Garlic", "Ring of Yoba", "Thorns Ring", "Slime Incubator"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Oil of Garlic", "Ring of Yoba", "Thorns Ring", "Slime Incubator"],
+          "cooking": []
+        }
       },
       {
         "level": 10,
@@ -456,16 +561,33 @@
         "options": [
           { "name": "Brute", "description": "Deal 15% more damage", "requires": "Fighter" },
           { "name": "Defender", "description": "+25 max HP", "requires": "Fighter" },
-          { "name": "Acrobat", "description": "Cooldown on special moves cut in half", "requires": "Scout" },
-          { "name": "Desperado", "description": "Critical strikes are deadlier (2x critical damage)", "requires": "Scout" }
+          {
+            "name": "Acrobat",
+            "description": "Cooldown on special moves cut in half",
+            "requires": "Scout"
+          },
+          {
+            "name": "Desperado",
+            "description": "Critical strikes are deadlier (2x critical damage)",
+            "requires": "Scout"
+          }
         ]
       }
     ],
     "mastery": {
       "unlocks": [
-        { "name": "Anvil", "description": "Recipe unlocked — re-forge trinkets with randomized stats (costs 3 iridium bars)" },
-        { "name": "Mini-Forge", "description": "Recipe unlocked — home furnace access without visiting the blacksmith" },
-        { "name": "Trinket Slot", "description": "New equipment slot unlocked — trinkets grant special combat powers" }
+        {
+          "name": "Anvil",
+          "description": "Recipe unlocked — re-forge trinkets with randomized stats (costs 3 iridium bars)"
+        },
+        {
+          "name": "Mini-Forge",
+          "description": "Recipe unlocked — home furnace access without visiting the blacksmith"
+        },
+        {
+          "name": "Trinket Slot",
+          "description": "New equipment slot unlocked — trinkets grant special combat powers"
+        }
       ]
     }
   }
