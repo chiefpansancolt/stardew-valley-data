@@ -17,7 +17,9 @@ export type SearchResultKind =
   | 'hat'
   | 'footwear'
   | 'forageable'
-  | 'fish';
+  | 'fish'
+  | 'bait'
+  | 'tackle';
 
 export interface SearchResult {
   kind: SearchResultKind;

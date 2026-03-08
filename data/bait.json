@@ -1,0 +1,51 @@
+[
+  {
+    "id": "685",
+    "name": "Bait",
+    "description": "Causes fish to bite faster. Must first be attached to a fishing rod.",
+    "sellPrice": 1,
+    "image": "images/fish/bait/Bait.png"
+  },
+  {
+    "id": "ChallengeBait",
+    "name": "Challenge Bait",
+    "description": "A 'perfect' catch yields triple the fish. Each escape reduces the catch.",
+    "sellPrice": 1,
+    "image": "images/fish/bait/Challenge Bait.png"
+  },
+  {
+    "id": "DeluxeBait",
+    "name": "Deluxe Bait",
+    "description": "Causes fish to bite even faster and increases the size of the fishing bar.",
+    "sellPrice": 1,
+    "image": "images/fish/bait/Deluxe Bait.png"
+  },
+  {
+    "id": "908",
+    "name": "Magic Bait",
+    "description": "Allows you to catch fish from any season, time, or weather, from whichever type of water you cast into.",
+    "sellPrice": 1,
+    "image": "images/fish/bait/Magic Bait.png"
+  },
+  {
+    "id": "703",
+    "name": "Magnet",
+    "description": "Increases the chance of finding treasure while fishing.",
+    "sellPrice": 15,
+    "image": "images/fish/bait/Magnet.png"
+  },
+  {
+    "id": "SpecificBait",
+    "name": "Specific Bait",
+    "description": "Increases your chances of catching a specific fish.",
+    "sellPrice": 5,
+    "image": "images/fish/bait/Pink Bait.png"
+  },
+  {
+    "id": "774",
+    "name": "Wild Bait",
+    "description": "A unique recipe from Linus that gives you a chance to catch two fish at once.",
+    "sellPrice": 15,
+    "image": "images/fish/bait/Wild Bait.png"
+  }
+]

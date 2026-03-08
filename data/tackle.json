@@ -1,0 +1,72 @@
+[
+  {
+    "id": "691",
+    "name": "Barbed Hook",
+    "description": "Makes your catch more secure, causing the 'fishing bar' to cling to your catch. Works best on slow, weak fish.",
+    "sellPrice": 500,
+    "image": "images/fish/tackle/Barbed Hook.png"
+  },
+  {
+    "id": "695",
+    "name": "Cork Bobber",
+    "description": "Slightly increases the size of your 'fishing bar'.",
+    "sellPrice": 250,
+    "image": "images/fish/tackle/Cork Bobber.png"
+  },
+  {
+    "id": "856",
+    "name": "Curiosity Lure",
+    "description": "Increases your chance to catch rare fish.",
+    "sellPrice": 500,
+    "image": "images/fish/tackle/Curiosity Lure.png"
+  },
+  {
+    "id": "687",
+    "name": "Dressed Spinner",
+    "description": "The metal tab and colorful streamers create an enticing spectacle for fish. Increases the bite-rate when fishing.",
+    "sellPrice": 500,
+    "image": "images/fish/tackle/Dressed Spinner.png"
+  },
+  {
+    "id": "692",
+    "name": "Lead Bobber",
+    "description": "Adds weight to your 'fishing bar', preventing it from bouncing along the bottom.",
+    "sellPrice": 150,
+    "image": "images/fish/tackle/Lead Bobber.png"
+  },
+  {
+    "id": "877",
+    "name": "Quality Bobber",
+    "description": "Boosts the quality of fish that you catch.",
+    "sellPrice": 300,
+    "image": "images/fish/tackle/Quality Bobber.png"
+  },
+  {
+    "id": "SonarBobber",
+    "name": "Sonar Bobber",
+    "description": "Shows what fish is on the line before it's caught.",
+    "sellPrice": 250,
+    "image": "images/fish/tackle/Sonar Bobber.png"
+  },
+  {
+    "id": "686",
+    "name": "Spinner",
+    "description": "The shape makes it spin around in the water. Slightly increases the bite-rate when fishing.",
+    "sellPrice": 250,
+    "image": "images/fish/tackle/Spinner.png"
+  },
+  {
+    "id": "694",
+    "name": "Trap Bobber",
+    "description": "Causes fish to escape slower when you aren't reeling them in.",
+    "sellPrice": 200,
+    "image": "images/fish/tackle/Trap Bobber.png"
+  },
+  {
+    "id": "693",
+    "name": "Treasure Hunter",
+    "description": "Fish don't escape while collecting treasures. Also slightly increases the chance to find treasures.",
+    "sellPrice": 250,
+    "image": "images/fish/tackle/Treasure Hunter.png"
+  }
+]

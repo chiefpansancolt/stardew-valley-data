@@ -1,6 +1,7 @@
 import { SearchResult, SearchResultKind } from '@/types';
 import { animals, isFarmAnimal } from '../animals';
 import { artisanGoods } from '../artisan-goods';
+import { bait } from '../bait';
 import { crops } from '../crops';
 import { fish } from '../fish';
 import { footwear } from '../footwear';
@@ -8,6 +9,7 @@ import { forageables } from '../forageables';
 import { hats } from '../hats';
 import { monsterLoot, monsters } from '../monsters';
 import { rings } from '../rings';
+import { tackle } from '../tackle';
 import { tools } from '../tools';
 import { trees } from '../trees';
 import { weapons } from '../weapons';
@@ -284,6 +286,32 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
     if (matches(query, item.id, item.name)) {
       add({
         kind: 'fish',
+        id: item.id,
+        name: item.name,
+        image: item.image,
+        sellPrice: item.sellPrice,
+      });
+    }
+  }
+
+  // Bait
+  for (const item of bait().get()) {
+    if (matches(query, item.id, item.name)) {
+      add({
+        kind: 'bait',
+        id: item.id,
+        name: item.name,
+        image: item.image,
+        sellPrice: item.sellPrice,
+      });
+    }
+  }
+
+  // Tackle
+  for (const item of tackle().get()) {
+    if (matches(query, item.id, item.name)) {
+      add({
+        kind: 'tackle',
         id: item.id,
         name: item.name,
         image: item.image,

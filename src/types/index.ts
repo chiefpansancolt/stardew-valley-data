@@ -24,3 +24,5 @@ export * from './hat';
 export * from './footwear';
 export * from './forageable';
 export * from './fish';
+export * from './bait';
+export * from './tackle';

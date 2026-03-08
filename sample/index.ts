@@ -1,6 +1,7 @@
 import { run as runAchievements } from './achievements';
 import { run as runAnimals } from './animals';
 import { run as runArtisanGoods } from './artisan-goods';
+import { run as runBait } from './bait';
 import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
 import { run as runCrops } from './crops';
@@ -16,6 +17,7 @@ import { run as runRings } from './rings';
 import { run as runSearch } from './search';
 import { run as runSeasons } from './seasons';
 import { run as runSkills } from './skills';
+import { run as runTackle } from './tackle';
 import { run as runTools } from './tools';
 import { run as runTrees } from './trees';
 import { run as runUniversalGifts } from './universal-gifts';
@@ -47,6 +49,8 @@ const results = [
   runHats(),
   runFootwear(),
   runFish(),
+  runBait(),
+  runTackle(),
   runForageables(),
   runUniversalGifts(),
   runVillagers(),
