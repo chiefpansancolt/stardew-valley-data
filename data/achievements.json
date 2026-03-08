@@ -1,0 +1,443 @@
+[
+  {
+    "id": "greenhorn",
+    "name": "Greenhorn",
+    "description": "Earn 15,000g.",
+    "image": "images/achievements/Achievement_Greenhorn.jpg",
+    "icon": "images/achievements/Achievement_Star_12.png",
+    "reward": "Good Ol' Cap",
+    "secret": false
+  },
+  {
+    "id": "cowpoke",
+    "name": "Cowpoke",
+    "description": "Earn 50,000g.",
+    "image": "images/achievements/Achievement_Cowpoke.jpg",
+    "icon": "images/achievements/Achievement_Star_02.png",
+    "reward": "Lucky Bow",
+    "secret": false
+  },
+  {
+    "id": "homesteader",
+    "name": "Homesteader",
+    "description": "Earn 250,000g.",
+    "image": "images/achievements/Achievement_Homesteader.jpg",
+    "icon": "images/achievements/Achievement_Star_11.png",
+    "reward": "Cool Cap",
+    "secret": false
+  },
+  {
+    "id": "millionaire",
+    "name": "Millionaire",
+    "description": "Earn 1,000,000g.",
+    "image": "images/achievements/Achievement_Millionaire.jpg",
+    "icon": "images/achievements/Achievement_Star_09.png",
+    "reward": "Bowler Hat",
+    "secret": false
+  },
+  {
+    "id": "legend",
+    "name": "Legend",
+    "description": "Earn 10,000,000g.",
+    "image": "images/achievements/Achievement_Legend.jpg",
+    "icon": "images/achievements/Achievement_Star_04.png",
+    "reward": "Sombrero",
+    "secret": true
+  },
+  {
+    "id": "a-complete-collection",
+    "name": "A Complete Collection",
+    "description": "Complete the museum collection.",
+    "image": "images/achievements/Achievement_A_Complete_Collection.jpg",
+    "icon": "images/achievements/Achievement_Star_02.png",
+    "reward": "Cowboy Hat",
+    "secret": false
+  },
+  {
+    "id": "a-new-friend",
+    "name": "A New Friend",
+    "description": "Reach a 5-heart friend level with someone.",
+    "image": "images/achievements/Achievement_A_New_Friend.jpg",
+    "icon": "images/achievements/Achievement_Star_02.png",
+    "reward": "Butterfly Bow",
+    "secret": false
+  },
+  {
+    "id": "best-friends",
+    "name": "Best Friends",
+    "description": "Reach a 10-heart friend level with someone.",
+    "image": "images/achievements/Achievement_Best_Friends.jpg",
+    "icon": "images/achievements/Achievement_Star_04.png",
+    "reward": "Mouse Ears",
+    "secret": false
+  },
+  {
+    "id": "the-beloved-farmer",
+    "name": "The Beloved Farmer",
+    "description": "Reach a 10-heart friend level with 8 people.",
+    "image": "images/achievements/Achievement_The_Beloved_Farmer.jpg",
+    "icon": "images/achievements/Achievement_Star_06.png",
+    "reward": "Cat Ears",
+    "secret": false
+  },
+  {
+    "id": "cliques",
+    "name": "Cliques",
+    "description": "Reach a 5-heart friend level with 4 people.",
+    "image": "images/achievements/Achievement_Cliques.jpg",
+    "icon": "images/achievements/Achievement_Star_10.png",
+    "reward": "Tiara",
+    "secret": false
+  },
+  {
+    "id": "networking",
+    "name": "Networking",
+    "description": "Reach a 5-heart friend level with 10 people.",
+    "image": "images/achievements/Achievement_Networking.jpg",
+    "icon": "images/achievements/Achievement_Star_04.png",
+    "reward": "Santa Hat",
+    "secret": false
+  },
+  {
+    "id": "popular",
+    "name": "Popular",
+    "description": "Reach a 5-heart friend level with 20 people.",
+    "image": "images/achievements/Achievement_Popular.jpg",
+    "icon": "images/achievements/Achievement_Star_09.png",
+    "reward": "Earmuffs",
+    "secret": false
+  },
+  {
+    "id": "cook",
+    "name": "Cook",
+    "description": "Cook 10 different recipes.",
+    "image": "images/achievements/Achievement_Cook.jpg",
+    "icon": "images/achievements/Achievement_Star_02.png",
+    "reward": "Delicate Bow",
+    "secret": false
+  },
+  {
+    "id": "sous-chef",
+    "name": "Sous Chef",
+    "description": "Cook 25 different recipes.",
+    "image": "images/achievements/Achievement_Sous_Chef.jpg",
+    "icon": "images/achievements/Achievement_Star_09.png",
+    "reward": "Plum Chapeau",
+    "secret": false
+  },
+  {
+    "id": "gourmet-chef",
+    "name": "Gourmet Chef",
+    "description": "Cook every recipe.",
+    "image": "images/achievements/Achievement_Gourmet_Chef.jpg",
+    "icon": "images/achievements/Achievement_Star_08.png",
+    "reward": "Archer's Cap, Chef Hat",
+    "secret": false
+  },
+  {
+    "id": "moving-up",
+    "name": "Moving Up",
+    "description": "Upgrade your house.",
+    "image": "images/achievements/Achievement_Moving_Up.jpg",
+    "icon": "images/achievements/Achievement_Star_01.png",
+    "reward": "Tropiclip",
+    "secret": false
+  },
+  {
+    "id": "living-large",
+    "name": "Living Large",
+    "description": "Upgrade your house to the maximum size.",
+    "image": "images/achievements/Achievement_Living_Large.jpg",
+    "icon": "images/achievements/Achievement_Star_09.png",
+    "reward": "Hunter's Cap",
+    "secret": false
+  },
+  {
+    "id": "diy",
+    "name": "D.I.Y.",
+    "description": "Craft 15 different items.",
+    "image": "images/achievements/Achievement_DIY.jpg",
+    "icon": "images/achievements/Achievement_Star_06.png",
+    "reward": "Daisy",
+    "secret": false
+  },
+  {
+    "id": "artisan",
+    "name": "Artisan",
+    "description": "Craft 30 different items.",
+    "image": "images/achievements/Achievement_Artisan.jpg",
+    "icon": "images/achievements/Achievement_Star_06.png",
+    "reward": "Trucker Hat",
+    "secret": false
+  },
+  {
+    "id": "craft-master",
+    "name": "Craft Master",
+    "description": "Craft every item.",
+    "image": "images/achievements/Achievement_Master_Craft.jpg",
+    "icon": "images/achievements/Achievement_Star_10.png",
+    "reward": "Gnome's Cap",
+    "secret": false
+  },
+  {
+    "id": "fisherman",
+    "name": "Fisherman",
+    "description": "Catch 10 different fish.",
+    "image": "images/achievements/Achievement_Fisherman.jpg",
+    "icon": "images/achievements/Achievement_Star_06.png",
+    "reward": "Sou'wester",
+    "secret": false
+  },
+  {
+    "id": "ol-mariner",
+    "name": "Ol' Mariner",
+    "description": "Catch 24 different fish.",
+    "image": "images/achievements/Achievement_Ol_Mariner.jpg",
+    "icon": "images/achievements/Achievement_Star_06.png",
+    "reward": "Official Cap",
+    "secret": false
+  },
+  {
+    "id": "master-angler",
+    "name": "Master Angler",
+    "description": "Catch every fish.",
+    "image": "images/achievements/Achievement_Master_Angler.jpg",
+    "icon": "images/achievements/Achievement_Star_07.png",
+    "reward": "Eye Patch",
+    "secret": false
+  },
+  {
+    "id": "mother-catch",
+    "name": "Mother Catch",
+    "description": "Catch 100 fish.",
+    "image": "images/achievements/Achievement_Mother_Catch.jpg",
+    "icon": "images/achievements/Achievement_Star_08.png",
+    "reward": "Watermelon Band",
+    "secret": false
+  },
+  {
+    "id": "treasure-trove",
+    "name": "Treasure Trove",
+    "description": "Donate 40 different items to the museum.",
+    "image": "images/achievements/Achievement_Treasure_Trove.jpg",
+    "icon": "images/achievements/Achievement_Star_08.png",
+    "reward": "Blue Bonnet",
+    "secret": false
+  },
+  {
+    "id": "gofer",
+    "name": "Gofer",
+    "description": "Complete 10 'Help Wanted' requests.",
+    "image": "images/achievements/Achievement_Gofer.jpg",
+    "icon": "images/achievements/Achievement_Star_10.png",
+    "reward": "Polka Bow",
+    "secret": false
+  },
+  {
+    "id": "a-big-help",
+    "name": "A Big Help",
+    "description": "Complete 40 'Help Wanted' requests.",
+    "image": "images/achievements/Achievement_A_Big_Help.jpg",
+    "icon": "images/achievements/Achievement_Star_06.png",
+    "reward": "Chicken Mask",
+    "secret": false
+  },
+  {
+    "id": "polyculture",
+    "name": "Polyculture",
+    "description": "Ship 15 of each crop.",
+    "image": "images/achievements/Achievement_Polyculture.jpg",
+    "icon": "images/achievements/Achievement_Star_12.png",
+    "reward": "Cowpoke Hat",
+    "secret": false
+  },
+  {
+    "id": "monoculture",
+    "name": "Monoculture",
+    "description": "Ship 300 of one crop.",
+    "image": "images/achievements/Achievement_Monoculture.jpg",
+    "icon": "images/achievements/Achievement_Star_01.png",
+    "reward": "Cowgal Hat",
+    "secret": false
+  },
+  {
+    "id": "full-shipment",
+    "name": "Full Shipment",
+    "description": "Ship every item.",
+    "image": "images/achievements/Achievement_Full_Shipment.jpg",
+    "icon": "images/achievements/Achievement_Star_04.png",
+    "reward": "Goblin Mask",
+    "secret": false
+  },
+  {
+    "id": "prairie-king",
+    "name": "Prairie King",
+    "description": "Beat 'Journey of the Prairie King'.",
+    "image": "images/achievements/Achievement_Prarie_King.jpg",
+    "icon": null,
+    "reward": "Prairie King Arcade System",
+    "secret": false
+  },
+  {
+    "id": "the-bottom",
+    "name": "The Bottom",
+    "description": "Reach the lowest level of the mines.",
+    "image": "images/achievements/Achievement_The_Bottom.jpg",
+    "icon": null,
+    "reward": "Skull Key",
+    "secret": false
+  },
+  {
+    "id": "local-legend",
+    "name": "Local Legend",
+    "description": "Restore the Pelican Town Community Center.",
+    "image": "images/achievements/Achievement_Local_Legend.jpg",
+    "icon": null,
+    "reward": "Stardew Hero Trophy",
+    "secret": false
+  },
+  {
+    "id": "joja-co-member-of-the-year",
+    "name": "Joja Co. Member Of The Year",
+    "description": "Purchase all Joja Community Development projects.",
+    "image": "images/achievements/Achievement_Joja_Co._Member_Of_The_Year.jpg",
+    "icon": null,
+    "reward": "Soda Machine",
+    "secret": false
+  },
+  {
+    "id": "mystery-of-the-stardrops",
+    "name": "Mystery Of The Stardrops",
+    "description": "Find every stardrop.",
+    "image": "images/achievements/Achievement_Mystery_Of_The_Stardrops.jpg",
+    "icon": null,
+    "reward": null,
+    "secret": false
+  },
+  {
+    "id": "full-house",
+    "name": "Full House",
+    "description": "Get married and have two kids.",
+    "image": "images/achievements/Achievement_Full_House.jpg",
+    "icon": null,
+    "reward": null,
+    "secret": false
+  },
+  {
+    "id": "singular-talent",
+    "name": "Singular Talent",
+    "description": "Reach level 10 in a skill.",
+    "image": "images/achievements/Achievement_Singular_Talent.jpg",
+    "icon": null,
+    "reward": null,
+    "secret": false
+  },
+  {
+    "id": "master-of-the-five-ways",
+    "name": "Master Of The Five Ways",
+    "description": "Reach level 10 in every skill.",
+    "image": "images/achievements/Achievement_Master_Of_The_Five_Ways.jpg",
+    "icon": null,
+    "reward": null,
+    "secret": false
+  },
+  {
+    "id": "protector-of-the-valley",
+    "name": "Protector Of The Valley",
+    "description": "Complete all of the Adventure Guild Monster Slayer goals.",
+    "image": "images/achievements/Achievement_Protector_Of_The_Valley.jpg",
+    "icon": null,
+    "reward": null,
+    "secret": false
+  },
+  {
+    "id": "fectors-challenge",
+    "name": "Fector's Challenge",
+    "description": "Beat 'Journey Of The Prairie King' without dying.",
+    "image": "images/achievements/Achievement_Fectors_Challenge.jpg",
+    "icon": null,
+    "reward": null,
+    "secret": true
+  },
+  {
+    "id": "a-distant-shore",
+    "name": "A Distant Shore",
+    "description": "Reach Ginger Island.",
+    "image": "images/achievements/Achievement_A_Distant_Shore.jpg",
+    "icon": "images/achievements/Achievement_Star_09.png",
+    "reward": "Paper Hat",
+    "secret": false
+  },
+  {
+    "id": "well-read",
+    "name": "Well-Read",
+    "description": "Read every book.",
+    "image": "images/achievements/Achievement_Well-Read.jpg",
+    "icon": "images/achievements/Achievement_Star_06.png",
+    "reward": "Pageboy Cap",
+    "secret": false
+  },
+  {
+    "id": "two-thumbs-up",
+    "name": "Two Thumbs Up",
+    "description": "See a movie.",
+    "image": "images/achievements/Achievement_Two_Thumbs_Up.jpg",
+    "icon": "images/achievements/Achievement_Star_08.png",
+    "reward": "Jester Hat",
+    "secret": false
+  },
+  {
+    "id": "blue-ribbon",
+    "name": "Blue Ribbon",
+    "description": "Get 1st place in the Stardew Valley Fair competition.",
+    "image": "images/achievements/Achievement_Blue_Ribbon.jpg",
+    "icon": "images/achievements/Achievement_Star_08.png",
+    "reward": "Blue Ribbon",
+    "secret": false
+  },
+  {
+    "id": "an-unforgettable-soup",
+    "name": "An Unforgettable Soup",
+    "description": "Delight the Governor.",
+    "image": "images/achievements/Achievement_An_Unforgettable_Soup.jpg",
+    "icon": "images/achievements/Achievement_Star_02.png",
+    "reward": "Governor's Hat",
+    "secret": false
+  },
+  {
+    "id": "good-neighbors",
+    "name": "Good Neighbors",
+    "description": "Help your forest neighbors grow their family.",
+    "image": "images/achievements/Achievement_Good_Neighbors.jpg",
+    "icon": "images/achievements/Achievement_Star_11.png",
+    "reward": "White Bow",
+    "secret": false
+  },
+  {
+    "id": "danger-in-the-deep",
+    "name": "Danger In The Deep",
+    "description": "Reach the bottom of the 'dangerous' mines.",
+    "image": "images/achievements/Achievement_Danger_In_The_Deep.jpg",
+    "icon": "images/achievements/Achievement_Star_03.png",
+    "reward": "Space Helmet",
+    "secret": false
+  },
+  {
+    "id": "infinite-power",
+    "name": "Infinite Power",
+    "description": "Obtain the most powerful weapon.",
+    "image": "images/achievements/Achievement_Infinite_Power.jpg",
+    "icon": "images/achievements/Achievement_Star_07.png",
+    "reward": "Infinity Crown",
+    "secret": false
+  },
+  {
+    "id": "perfection",
+    "name": "Perfection",
+    "description": "Reach the summit.",
+    "image": "images/achievements/Achievement_Perfection.jpg",
+    "icon": "images/achievements/Achievement_Star_10.png",
+    "reward": "Junimo Hat",
+    "secret": false
+  }
+]

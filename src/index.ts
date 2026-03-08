@@ -1,4 +1,5 @@
 export * from './types';
+export * from './achievements';
 export * from './animals';
 export * from './artisan-goods';
 export * from './calculator';

@@ -1,3 +1,4 @@
+import { run as runAchievements } from './achievements';
 import { run as runAnimals } from './animals';
 import { run as runArtisanGoods } from './artisan-goods';
 import { run as runCalculator } from './calculator';
@@ -16,6 +17,7 @@ import { run as runVillagers } from './villagers';
 import { run as runWeather } from './weather';
 
 const results = [
+  runAchievements(),
   runAnimals(),
   runQuests(),
   runArtisanGoods(),

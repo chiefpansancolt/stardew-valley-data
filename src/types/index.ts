@@ -1,3 +1,4 @@
+export * from './achievement';
 export * from './animal';
 export * from './artisan-good';
 export * from './calculator';
