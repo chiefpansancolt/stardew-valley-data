@@ -13,7 +13,8 @@ export type SearchResultKind =
   | 'monster-loot'
   | 'ring'
   | 'tool'
-  | 'weapon';
+  | 'weapon'
+  | 'hat';
 
 export interface SearchResult {
   kind: SearchResultKind;

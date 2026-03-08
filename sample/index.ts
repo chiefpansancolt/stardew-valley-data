@@ -4,6 +4,7 @@ import { run as runArtisanGoods } from './artisan-goods';
 import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
 import { run as runCrops } from './crops';
+import { run as runHats } from './hats';
 import { run as runMaps } from './maps';
 import { run as runMixedSeeds } from './mixed-seeds';
 import { run as runMonsters } from './monsters';
@@ -40,6 +41,7 @@ const results = [
   runTools(),
   runWeapons(),
   runWeaponStats(),
+  runHats(),
   runUniversalGifts(),
   runVillagers(),
 ];

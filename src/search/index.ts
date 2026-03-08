@@ -2,6 +2,7 @@ import { SearchResult, SearchResultKind } from '@/types';
 import { animals, isFarmAnimal } from '../animals';
 import { artisanGoods } from '../artisan-goods';
 import { crops } from '../crops';
+import { hats } from '../hats';
 import { monsterLoot, monsters } from '../monsters';
 import { rings } from '../rings';
 import { tools } from '../tools';
@@ -245,6 +246,13 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
         image: good.image,
         sellPrice: good.sellPrice,
       });
+    }
+  }
+
+  // Hats
+  for (const hat of hats().get()) {
+    if (matches(query, hat.id, hat.name)) {
+      add({ kind: 'hat', id: hat.id, name: hat.name, image: hat.image, sellPrice: null });
     }
   }
 

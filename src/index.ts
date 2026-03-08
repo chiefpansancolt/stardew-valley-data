@@ -20,3 +20,4 @@ export * from './weather';
 export * from './tools';
 export * from './weapons';
 export * from './weapon-stats';
+export * from './hats';
