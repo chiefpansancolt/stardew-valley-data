@@ -23,3 +23,4 @@ export * from './weapon-stats';
 export * from './hats';
 export * from './footwear';
 export * from './forageables';
+export * from './fish';

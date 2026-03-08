@@ -2,6 +2,7 @@ import { SearchResult, SearchResultKind } from '@/types';
 import { animals, isFarmAnimal } from '../animals';
 import { artisanGoods } from '../artisan-goods';
 import { crops } from '../crops';
+import { fish } from '../fish';
 import { footwear } from '../footwear';
 import { forageables } from '../forageables';
 import { hats } from '../hats';
@@ -270,6 +271,19 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
     if (matches(query, item.id, item.name)) {
       add({
         kind: 'forageable',
+        id: item.id,
+        name: item.name,
+        image: item.image,
+        sellPrice: item.sellPrice,
+      });
+    }
+  }
+
+  // Fish
+  for (const item of fish().get()) {
+    if (matches(query, item.id, item.name)) {
+      add({
+        kind: 'fish',
         id: item.id,
         name: item.name,
         image: item.image,

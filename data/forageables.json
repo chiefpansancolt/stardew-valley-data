@@ -45,6 +45,24 @@
     "image": "images/forageables/Common Mushroom.png"
   },
   {
+    "id": "718",
+    "name": "Cockle",
+    "description": "A common saltwater clam.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "The Beach",
+    "sellPrice": 50,
+    "image": "images/fish/Cockle.png"
+  },
+  {
+    "id": "372",
+    "name": "Clam",
+    "description": "There's a chewy little guy in there...",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "The Beach",
+    "sellPrice": 50,
+    "image": "images/fish/Clam.png"
+  },
+  {
     "id": "393",
     "name": "Coral",
     "description": "A rare find in the ocean.",
@@ -97,6 +115,15 @@
     "locations": "Secret Woods",
     "sellPrice": 90,
     "image": "images/forageables/Fiddlehead Fern.png"
+  },
+  {
+    "id": "153",
+    "name": "Green Algae",
+    "description": "It's really slimy.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "Everywhere but the Farm Pond of the Standard Farm",
+    "sellPrice": 15,
+    "image": "images/fish/Green Algae.png"
   },
   {
     "id": "829",
@@ -153,6 +180,15 @@
     "image": "images/forageables/Magma Cap.png"
   },
   {
+    "id": "719",
+    "name": "Mussel",
+    "description": "A common bivalve that often lives in clusters.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "The Beach",
+    "sellPrice": 30,
+    "image": "images/fish/Mussel.png"
+  },
+  {
     "id": "257",
     "name": "Morel",
     "description": "This rare mushroom has a pleasant nutty flavor.",
@@ -178,6 +214,15 @@
     "locations": "The Mines, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 250,
     "image": "images/forageables/Purple Mushroom.png"
+  },
+  {
+    "id": "723",
+    "name": "Oyster",
+    "description": "Constantly filters water to find food. In the process, it removes dangerous toxins from the environment.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "The Beach",
+    "sellPrice": 40,
+    "image": "images/fish/Oyster.png"
   },
   {
     "id": "394",
@@ -223,6 +268,15 @@
     "locations": "The Beach",
     "sellPrice": 160,
     "image": "images/forageables/Sea Urchin.png"
+  },
+  {
+    "id": "152",
+    "name": "Seaweed",
+    "description": "It can be used in cooking.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "The Beach",
+    "sellPrice": 20,
+    "image": "images/fish/Seaweed.png"
   },
   {
     "id": "416",
@@ -277,6 +331,15 @@
     "locations": "Bus Stop, Railroad, Backwoods, Mountain",
     "sellPrice": 80,
     "image": "images/forageables/Wild Plum.png"
+  },
+  {
+    "id": "157",
+    "name": "White Algae",
+    "description": "It's super slimy.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "Mines, Sewers, Mutant Bug Lair, Witch's Swamp",
+    "sellPrice": 25,
+    "image": "images/fish/White Algae.png"
   },
   {
     "id": "412",
