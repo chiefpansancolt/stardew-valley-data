@@ -14,7 +14,8 @@ export type SearchResultKind =
   | 'ring'
   | 'tool'
   | 'weapon'
-  | 'hat';
+  | 'hat'
+  | 'footwear';
 
 export interface SearchResult {
   kind: SearchResultKind;

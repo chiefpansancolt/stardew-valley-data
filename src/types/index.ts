@@ -21,3 +21,4 @@ export * from './tool';
 export * from './weapon';
 export * from './weapon-stat';
 export * from './hat';
+export * from './footwear';
