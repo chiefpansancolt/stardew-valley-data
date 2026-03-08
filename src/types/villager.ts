@@ -9,6 +9,11 @@ export interface Villager {
   marriageable: boolean;
   image: string;
   spouseImage?: string;
+  hearts: {
+    max: number;
+    bouquetIncrease: number;
+    spouseIncrease: number;
+  };
   loves: string[];
   likes: string[];
   neutrals: string[];
