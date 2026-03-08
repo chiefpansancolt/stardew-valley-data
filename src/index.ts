@@ -18,3 +18,5 @@ export * from './quests';
 export * from './villagers';
 export * from './weather';
 export * from './tools';
+export * from './weapons';
+export * from './weapon-stats';

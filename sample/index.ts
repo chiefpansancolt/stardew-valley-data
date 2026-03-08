@@ -16,6 +16,8 @@ import { run as runTools } from './tools';
 import { run as runTrees } from './trees';
 import { run as runUniversalGifts } from './universal-gifts';
 import { run as runVillagers } from './villagers';
+import { run as runWeaponStats } from './weapon-stats';
+import { run as runWeapons } from './weapons';
 import { run as runWeather } from './weather';
 
 const results = [
@@ -36,6 +38,8 @@ const results = [
   runMonsters(),
   runRings(),
   runTools(),
+  runWeapons(),
+  runWeaponStats(),
   runUniversalGifts(),
   runVillagers(),
 ];

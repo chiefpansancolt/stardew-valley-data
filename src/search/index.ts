@@ -6,6 +6,7 @@ import { monsterLoot, monsters } from '../monsters';
 import { rings } from '../rings';
 import { tools } from '../tools';
 import { trees } from '../trees';
+import { weapons } from '../weapons';
 
 function matches(query: string, id: string, name: string): boolean {
   const q = query.toLowerCase();
@@ -218,6 +219,19 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
       if (matches(query, tool.id, tool.name)) {
         add({ kind: 'tool', id: tool.id, name: tool.name, image: tool.image, sellPrice: null });
       }
+    }
+  }
+
+  // Weapons
+  for (const weapon of weapons().get()) {
+    if (matches(query, weapon.id, weapon.name)) {
+      add({
+        kind: 'weapon',
+        id: weapon.id,
+        name: weapon.name,
+        image: weapon.image,
+        sellPrice: weapon.sellPrice,
+      });
     }
   }
 

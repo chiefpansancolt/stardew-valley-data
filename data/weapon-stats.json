@@ -1,0 +1,32 @@
+[
+  {
+    "id": "speed",
+    "name": "Speed",
+    "description": "Speed is separate from player speed. This speed only influences Attack Frequency. The displayed speed is applied as a modifier to the weapon's base speed, which varies by weapon type.",
+    "image": "images/weapons/stats/Speed.png"
+  },
+  {
+    "id": "defense",
+    "name": "Defense",
+    "description": "Defense is a statistic that affects how much damage the player takes.",
+    "image": "images/weapons/stats/Defense.png"
+  },
+  {
+    "id": "weight",
+    "name": "Weight",
+    "description": "The Weight of a weapon affects how far an enemy will be knocked back.",
+    "image": "images/weapons/stats/Weight.png"
+  },
+  {
+    "id": "crit-chance",
+    "name": "Crit. Chance",
+    "description": "The Crit. Chance of a weapon affects the likelihood to perform a critical strike with increased damage.",
+    "image": "images/weapons/stats/Crit. Chance.png"
+  },
+  {
+    "id": "crit-power",
+    "name": "Crit. Power",
+    "description": "When you hit a critical strike, this statistic will add additional damage to your enemy.",
+    "image": "images/weapons/stats/Crit. Power.png"
+  }
+]
