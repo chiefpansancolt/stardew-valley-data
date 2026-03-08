@@ -1,6 +1,6 @@
+import { qualityCalculator } from '@/modules/calculator';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { qualityCalculator } from '../../src/calculator';
 
 const ROOT = join(__dirname, '../..');
 

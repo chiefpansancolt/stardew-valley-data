@@ -1,6 +1,6 @@
+import { tools } from '@/modules/tools';
+import { Backpack, FishingRod, SimpleTool, UpgradeableTool } from '@/types';
 import { existsSync } from 'fs';
-import { tools } from '../../src/tools';
-import { Backpack, FishingRod, SimpleTool, UpgradeableTool } from '../../src/types';
 
 function checkImage(label: string, image: string): boolean {
   if (existsSync(image)) return true;

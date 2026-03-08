@@ -1,6 +1,6 @@
+import { bundles } from '@/modules/bundles';
+import { GoldBundle, ItemBundle, JojaBundle } from '@/types';
 import { existsSync } from 'fs';
-import { bundles } from '../../src/bundles';
-import { GoldBundle, ItemBundle } from '../../src/types';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;
@@ -72,7 +72,7 @@ export function run(): { passed: number; failed: number } {
 
   // --- Joja bundles ---
   console.log('\n--- JOJA MART ---');
-  for (const b of bundles().jojaBundles().get()) {
+  for (const b of bundles().jojaBundles().get() as JojaBundle[]) {
     console.log(`  [${b.id}] ${b.name} — ${b.goldCost.toLocaleString()}g`);
     console.log(`    Unlocks: ${b.unlock}`);
   }

@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { cooking } from '../../src/cooking';
+import { cooking } from '@/modules/cooking';
 
 const root = path.resolve(__dirname, '../../');
 

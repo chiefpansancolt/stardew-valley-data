@@ -1,6 +1,6 @@
+import { weather } from '@/modules/weather';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { weather } from '../../src/weather';
 
 const ROOT = join(__dirname, '../..');
 

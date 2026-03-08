@@ -1,5 +1,5 @@
+import { weaponStats } from '@/modules/weapon-stats';
 import { existsSync } from 'fs';
-import { weaponStats } from '../../src/weapon-stats';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;

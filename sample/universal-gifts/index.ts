@@ -1,4 +1,4 @@
-import { universalGifts } from '../../src/universal-gifts';
+import { universalGifts } from '@/modules/universal-gifts';
 
 export function run(): { passed: number; failed: number } {
   const gifts = universalGifts();

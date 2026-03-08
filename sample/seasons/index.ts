@@ -1,6 +1,6 @@
+import { findFestival, seasons } from '@/modules/seasons';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { findFestival, seasons } from '../../src/seasons';
 
 const ROOT = join(__dirname, '../..');
 

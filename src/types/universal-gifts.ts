@@ -1,7 +1,3 @@
-export interface UniversalGifts {
-  loves: string[];
-  likes: string[];
-  neutrals: string[];
-  dislikes: string[];
-  hates: string[];
-}
+import { GiftPreferences } from './common';
+
+export type UniversalGifts = GiftPreferences;

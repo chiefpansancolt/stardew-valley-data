@@ -1,5 +1,5 @@
+import { footwear } from '@/modules/footwear';
 import { existsSync } from 'fs';
-import { footwear } from '../../src/footwear';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;

@@ -1,5 +1,5 @@
+import { villagers } from '@/modules/villagers';
 import { existsSync } from 'fs';
-import { villagers } from '../../src/villagers';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;

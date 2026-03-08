@@ -1,9 +1,4 @@
-import { EnergyHealth, Season, SeedBuyPrice } from './common';
-
-export interface TreeStage {
-  name: string;
-  image: string;
-}
+import { EnergyHealth, Season, SeedBuyPrice, Stage } from './common';
 
 export interface FruitTreeProduce {
   id: string;
@@ -26,7 +21,7 @@ export interface FruitTree {
   description: string;
   image: string;
   saplingImage: string;
-  stages: TreeStage[];
+  stages: Stage[];
   produce: FruitTreeProduce;
 }
 
@@ -47,7 +42,7 @@ export interface WildTree {
   description: string;
   image: string;
   seedImage: string;
-  stages: TreeStage[];
+  stages: Stage[];
   tapper?: WildTreeTapper;
 }
 

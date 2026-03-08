@@ -1,6 +1,6 @@
+import { mixedSeeds } from '@/modules/mixed-seeds';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { mixedSeeds } from '../../src/mixed-seeds';
 
 const ROOT = join(__dirname, '../..');
 
@@ -40,7 +40,7 @@ export function run(): { passed: number; failed: number } {
   );
   console.log(
     `Island producers: ${mixedSeeds()
-      .byProduces('island')
+      .byProduces('ginger island')
       .get()
       .map((s) => s.name)
       .join(', ')}`,

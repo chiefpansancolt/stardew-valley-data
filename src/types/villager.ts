@@ -1,6 +1,6 @@
-import { Season } from './common';
+import { GiftPreferences, Season } from './common';
 
-export interface Villager {
+export interface Villager extends GiftPreferences {
   id: string;
   name: string;
   birthday: { day: number; season: Exclude<Season, 'ginger island'> };
@@ -14,9 +14,4 @@ export interface Villager {
     bouquetIncrease: number;
     spouseIncrease: number;
   };
-  loves: string[];
-  likes: string[];
-  neutrals: string[];
-  dislikes: string[];
-  hates: string[];
 }

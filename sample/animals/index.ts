@@ -1,6 +1,6 @@
+import { animals, isFarmAnimal, isPet } from '@/modules/animals';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { animals, isFarmAnimal, isPet } from '../../src/animals';
 
 const ROOT = join(__dirname, '../..');
 

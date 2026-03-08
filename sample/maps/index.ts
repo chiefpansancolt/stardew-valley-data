@@ -1,6 +1,6 @@
+import { maps } from '@/modules/maps';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { maps } from '../../src/maps';
 
 const ROOT = join(__dirname, '../..');
 

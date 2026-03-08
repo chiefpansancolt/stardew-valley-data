@@ -1,6 +1,6 @@
+import { monsterLoot, monsters } from '@/modules/monsters';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { monsterLoot, monsters } from '../../src/monsters';
 
 const ROOT = join(__dirname, '../..');
 

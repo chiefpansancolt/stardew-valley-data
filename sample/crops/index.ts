@@ -1,6 +1,6 @@
+import { crops } from '@/modules/crops';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { crops } from '../../src/crops';
 
 const ROOT = join(__dirname, '../..');
 

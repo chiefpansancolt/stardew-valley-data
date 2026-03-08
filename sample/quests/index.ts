@@ -1,4 +1,5 @@
-import { quests } from '../../src/quests';
+import { quests } from '@/modules/quests';
+import { QiSpecialOrder, StoryQuest } from '@/types';
 
 export function run(): { passed: number; failed: number } {
   console.log('\n=== QUESTS ===');
@@ -8,7 +9,7 @@ export function run(): { passed: number; failed: number } {
   console.log(`  Qi Special Orders: ${quests().byType('qi-special-order').count()}`);
 
   console.log('\n--- Story quests ---');
-  for (const q of quests().byType('story').get()) {
+  for (const q of quests().byType('story').get() as StoryQuest[]) {
     console.log(`  [${q.id}] ${q.name}`);
     console.log(`    From:     ${q.providedBy}`);
     console.log(`    Requires: ${q.requirements}`);
@@ -26,7 +27,7 @@ export function run(): { passed: number; failed: number } {
   }
 
   console.log("\n--- Mr. Qi's Special Orders ---");
-  for (const q of quests().byType('qi-special-order').get()) {
+  for (const q of quests().byType('qi-special-order').get() as QiSpecialOrder[]) {
     console.log(`  [${q.id}] ${q.name} — ${q.timeframe} days`);
     console.log(`    Requires: ${q.requirements}`);
     console.log(`    Rewards:  ${q.rewards}`);

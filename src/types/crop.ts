@@ -1,9 +1,4 @@
-import { EnergyHealth, Season, SeedBuyPrice } from './common';
-
-export interface CropStage {
-  name: string;
-  image: string;
-}
+import { EnergyHealth, Season, SeedBuyPrice, Stage } from './common';
 
 export interface HarvestQuantity {
   min: number;
@@ -29,7 +24,7 @@ export interface Crop {
   image: string;
   seedImage: string;
   giantImage?: string;
-  stages: CropStage[];
+  stages: Stage[];
   energyHealth?: EnergyHealth;
   farmingXP?: number;
 }

@@ -1,6 +1,6 @@
+import { search } from '@/modules/search';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { search } from '../../src/search';
 
 const ROOT = join(__dirname, '../..');
 

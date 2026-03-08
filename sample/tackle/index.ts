@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { tackle } from '../../src/tackle';
+import { tackle } from '@/modules/tackle';
 
 const root = path.resolve(__dirname, '../../');
 

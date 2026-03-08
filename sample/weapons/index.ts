@@ -1,6 +1,6 @@
+import { weapons } from '@/modules/weapons';
+import { MeleeWeapon } from '@/types';
 import { existsSync } from 'fs';
-import { MeleeWeapon } from '../../src/types';
-import { weapons } from '../../src/weapons';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;

@@ -10,7 +10,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -19,10 +19,12 @@
     "paths": {
       "@/types": ["src/types/index.ts"],
       "@/types/*": ["src/types/*"],
+      "@/common/*": ["src/common/*"],
+      "@/modules/*": ["src/modules/*"],
       "@/data/*": ["data/*"],
       "@/images/*": ["images/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "sample"],
   "exclude": ["node_modules", "dist"]
 }

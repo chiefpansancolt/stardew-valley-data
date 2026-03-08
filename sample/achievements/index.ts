@@ -1,5 +1,5 @@
+import { achievements } from '@/modules/achievements';
 import { existsSync } from 'fs';
-import { achievements } from '../../src/achievements';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;

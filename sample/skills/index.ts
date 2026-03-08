@@ -1,12 +1,12 @@
-import { existsSync } from 'fs';
-import { join } from 'path';
 import {
   getMasteryLevel,
   getProfessionOptions,
   getTitle,
   MASTERY_LEVELS,
   skills,
-} from '../../src/skills';
+} from '@/modules/skills';
+import { existsSync } from 'fs';
+import { join } from 'path';
 
 const ROOT = join(__dirname, '../..');
 

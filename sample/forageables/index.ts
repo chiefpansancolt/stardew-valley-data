@@ -1,5 +1,5 @@
+import { forageables } from '@/modules/forageables';
 import { existsSync } from 'fs';
-import { forageables } from '../../src/forageables';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;

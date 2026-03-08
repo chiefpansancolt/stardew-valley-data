@@ -1,6 +1,6 @@
+import { artisanGoods } from '@/modules/artisan-goods';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { artisanGoods } from '../../src/artisan-goods';
 
 const ROOT = join(__dirname, '../..');
 

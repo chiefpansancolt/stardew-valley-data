@@ -1,7 +1,7 @@
+import { trees } from '@/modules/trees';
+import { FruitTree, WildTree } from '@/types';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { trees } from '../../src/trees';
-import { FruitTree, WildTree } from '../../src/types';
 
 const ROOT = join(__dirname, '../..');
 

@@ -1,5 +1,5 @@
+import { rings } from '@/modules/rings';
 import { existsSync } from 'fs';
-import { rings } from '../../src/rings';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;

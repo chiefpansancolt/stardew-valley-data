@@ -9,6 +9,8 @@ export default defineConfig({
   esbuildOptions(options) {
     options.alias = {
       '@/types': './src/types',
+      '@/common': './src/common',
+      '@/modules': './src/modules',
       '@/data': './data',
       '@/images': './images',
     };

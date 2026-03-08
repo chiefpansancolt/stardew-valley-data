@@ -1,4 +1,6 @@
-export type Quality = 'silver' | 'gold' | 'iridium';
+import type { Quality } from './common';
+
+export type { Quality };
 
 export interface QualityPrice {
   quality: Quality;

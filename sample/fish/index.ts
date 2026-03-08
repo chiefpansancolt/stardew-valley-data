@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { fish } from '../../src/fish';
+import { fish } from '@/modules/fish';
 
 const root = path.resolve(__dirname, '../../');
 

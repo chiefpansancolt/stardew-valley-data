@@ -1,3 +1,5 @@
+import { Quality } from './common';
+
 export type BundleRoom =
   | 'crafts-room'
   | 'pantry'
@@ -10,7 +12,7 @@ export type BundleRoom =
 export interface BundleItem {
   name: string;
   quantity: number;
-  quality?: 'silver' | 'gold' | 'iridium';
+  quality?: Quality;
 }
 
 export interface BundleReward {

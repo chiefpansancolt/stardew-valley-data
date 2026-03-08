@@ -1,5 +1,5 @@
+import { hats } from '@/modules/hats';
 import { existsSync } from 'fs';
-import { hats } from '../../src/hats';
 
 function checkImage(name: string, image: string): boolean {
   if (existsSync(image)) return true;
