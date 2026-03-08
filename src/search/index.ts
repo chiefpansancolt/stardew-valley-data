@@ -3,6 +3,7 @@ import { animals, isFarmAnimal } from '../animals';
 import { artisanGoods } from '../artisan-goods';
 import { crops } from '../crops';
 import { footwear } from '../footwear';
+import { forageables } from '../forageables';
 import { hats } from '../hats';
 import { monsterLoot, monsters } from '../monsters';
 import { rings } from '../rings';
@@ -261,6 +262,19 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
   for (const item of footwear().get()) {
     if (matches(query, item.id, item.name)) {
       add({ kind: 'footwear', id: item.id, name: item.name, image: item.image, sellPrice: null });
+    }
+  }
+
+  // Forageables
+  for (const item of forageables().get()) {
+    if (matches(query, item.id, item.name)) {
+      add({
+        kind: 'forageable',
+        id: item.id,
+        name: item.name,
+        image: item.image,
+        sellPrice: item.sellPrice,
+      });
     }
   }
 

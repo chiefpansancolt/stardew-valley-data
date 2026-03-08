@@ -1,0 +1,290 @@
+[
+  {
+    "id": "410",
+    "name": "Blackberry",
+    "description": "A sharp, tangy flavor with a powerful kick.",
+    "seasons": ["fall"],
+    "locations": "Cindersap Forest, Pelican Town, Railroad; Berry bushes during Fall 8-11",
+    "sellPrice": 20,
+    "image": "images/forageables/Blackberry.png"
+  },
+  {
+    "id": "78",
+    "name": "Cave Carrot",
+    "description": "A starchy snack found in caves. It helps miners work longer.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "The Mines",
+    "sellPrice": 25,
+    "image": "images/forageables/Cave Carrot.png"
+  },
+  {
+    "id": "281",
+    "name": "Chanterelle",
+    "description": "A tasty mushroom with a fruity smell and a mild flavor.",
+    "seasons": ["fall"],
+    "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
+    "sellPrice": 160,
+    "image": "images/forageables/Chanterelle.png"
+  },
+  {
+    "id": "88",
+    "name": "Coconut",
+    "description": "A sweet and nutritious tropical fruit.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "Calico Desert (palm trees), Ginger Island",
+    "sellPrice": 100,
+    "image": "images/forageables/Coconut.png"
+  },
+  {
+    "id": "404",
+    "name": "Common Mushroom",
+    "description": "A little slimy, but still good.",
+    "seasons": ["spring", "summer", "fall"],
+    "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
+    "sellPrice": 40,
+    "image": "images/forageables/Common Mushroom.png"
+  },
+  {
+    "id": "393",
+    "name": "Coral",
+    "description": "A rare find in the ocean.",
+    "seasons": ["summer"],
+    "locations": "The Beach",
+    "sellPrice": 80,
+    "image": "images/forageables/Coral.png"
+  },
+  {
+    "id": "418",
+    "name": "Crocus",
+    "description": "A flower that can bloom even in the snow.",
+    "seasons": ["winter"],
+    "locations": "Pelican Town, Railroad, Bus Stop, Mountain, Cindersap Forest, Backwoods",
+    "sellPrice": 60,
+    "image": "images/forageables/Crocus.png"
+  },
+  {
+    "id": "414",
+    "name": "Crystal Fruit",
+    "description": "In the harsh conditions of winter, this rare fruit grows from nutrient-rich sap.",
+    "seasons": ["winter"],
+    "locations": "Railroad, Cindersap Forest, Mountain, Bus Stop, Backwoods, Pelican Town",
+    "sellPrice": 150,
+    "image": "images/forageables/Crystal Fruit.png"
+  },
+  {
+    "id": "18",
+    "name": "Daffodil",
+    "description": "A yellow flower that blooms in the spring.",
+    "seasons": ["spring"],
+    "locations": "Pelican Town, Bus Stop, Railroad",
+    "sellPrice": 30,
+    "image": "images/forageables/Daffodil.png"
+  },
+  {
+    "id": "22",
+    "name": "Dandelion",
+    "description": "Not the prettiest flower, but the leaves make a good salad.",
+    "seasons": ["spring"],
+    "locations": "Cindersap Forest, Bus Stop, Railroad, Forest Farm",
+    "sellPrice": 40,
+    "image": "images/forageables/Dandelion.png"
+  },
+  {
+    "id": "259",
+    "name": "Fiddlehead Fern",
+    "description": "The young curled frond of a fern. Very popular in gourmet cooking.",
+    "seasons": ["summer"],
+    "locations": "Secret Woods",
+    "sellPrice": 90,
+    "image": "images/forageables/Fiddlehead Fern.png"
+  },
+  {
+    "id": "829",
+    "name": "Ginger",
+    "description": "This pungent root is used in many cooking recipes.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "Ginger Island West",
+    "sellPrice": 60,
+    "image": "images/forageables/Ginger.png"
+  },
+  {
+    "id": "398",
+    "name": "Grape",
+    "description": "A sweet cluster of grapes.",
+    "seasons": ["summer"],
+    "locations": "Backwoods, Mountain, Bus Stop, Railroad, Forest Farm",
+    "sellPrice": 80,
+    "image": "images/forageables/Grape.png"
+  },
+  {
+    "id": "408",
+    "name": "Hazelnut",
+    "description": "This hazelnut is of the common variety used for making chocolate.",
+    "seasons": ["fall"],
+    "locations": "Backwoods, Mountain, Bus Stop, Railroad",
+    "sellPrice": 90,
+    "image": "images/forageables/Hazelnut.png"
+  },
+  {
+    "id": "283",
+    "name": "Holly",
+    "description": "The leaves and bright red berries make a popular winter decoration.",
+    "seasons": ["winter"],
+    "locations": "Secret Woods, Backwoods, Pelican Town, Bus Stop, Cindersap Forest, Mountain",
+    "sellPrice": 80,
+    "image": "images/forageables/Holly.png"
+  },
+  {
+    "id": "20",
+    "name": "Leek",
+    "description": "A pungent relative of the onion. Not many people grow it.",
+    "seasons": ["spring"],
+    "locations": "Backwoods, Mountain, Forest Farm, Bus Stop, Railroad",
+    "sellPrice": 60,
+    "image": "images/forageables/Leek.png"
+  },
+  {
+    "id": "851",
+    "name": "Magma Cap",
+    "description": "A very rare mushroom that lives next to pools of lava.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "Volcano Dungeon",
+    "sellPrice": 400,
+    "image": "images/forageables/Magma Cap.png"
+  },
+  {
+    "id": "257",
+    "name": "Morel",
+    "description": "This rare mushroom has a pleasant nutty flavor.",
+    "seasons": ["spring"],
+    "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
+    "sellPrice": 150,
+    "image": "images/forageables/Morel.png"
+  },
+  {
+    "id": "392",
+    "name": "Nautilus Shell",
+    "description": "This is a rare find, as these creatures prefer deep water.",
+    "seasons": ["winter"],
+    "locations": "The Beach",
+    "sellPrice": 120,
+    "image": "images/forageables/Nautilus Shell.png"
+  },
+  {
+    "id": "422",
+    "name": "Purple Mushroom",
+    "description": "A very rare mushroom found deep in the cave.",
+    "seasons": ["fall"],
+    "locations": "The Mines, Forest Farm, Farm Cave (mushroom option)",
+    "sellPrice": 250,
+    "image": "images/forageables/Purple Mushroom.png"
+  },
+  {
+    "id": "394",
+    "name": "Rainbow Shell",
+    "description": "A rare find in the summer ocean.",
+    "seasons": ["summer"],
+    "locations": "The Beach",
+    "sellPrice": 300,
+    "image": "images/forageables/Rainbow Shell.png"
+  },
+  {
+    "id": "420",
+    "name": "Red Mushroom",
+    "description": "A popular culinary mushroom that can be difficult to find.",
+    "seasons": ["summer", "fall"],
+    "locations": "Secret Woods, Farm Cave (mushroom option)",
+    "sellPrice": 75,
+    "image": "images/forageables/Red Mushroom.png"
+  },
+  {
+    "id": "296",
+    "name": "Salmonberry",
+    "description": "A spring-time berry with the flavor of the forest.",
+    "seasons": ["spring"],
+    "locations": "Bushes during Salmonberry Season (Spring 15-18)",
+    "sellPrice": 5,
+    "image": "images/forageables/Salmonberry.png"
+  },
+  {
+    "id": "92",
+    "name": "Sap",
+    "description": "A fluid obtained from trees.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "From chopping trees",
+    "sellPrice": 2,
+    "image": "images/forageables/Sap.png"
+  },
+  {
+    "id": "397",
+    "name": "Sea Urchin",
+    "description": "A type of echinoderm.",
+    "seasons": ["summer"],
+    "locations": "The Beach",
+    "sellPrice": 160,
+    "image": "images/forageables/Sea Urchin.png"
+  },
+  {
+    "id": "416",
+    "name": "Snow Yam",
+    "description": "This little yam was hiding beneath the snow.",
+    "seasons": ["winter"],
+    "locations": "Underground artifact spots and tillable soil",
+    "sellPrice": 100,
+    "image": "images/forageables/Snow Yam.png"
+  },
+  {
+    "id": "396",
+    "name": "Spice Berry",
+    "description": "The leaves and berries are both edible. Very spicy!",
+    "seasons": ["summer"],
+    "locations": "Cindersap Forest, Backwoods, Mountain, Bus Stop, Railroad, Forest Farm",
+    "sellPrice": 80,
+    "image": "images/forageables/Spice Berry.png"
+  },
+  {
+    "id": "399",
+    "name": "Spring Onion",
+    "description": "These grow naturally in the wild, usually in groups.",
+    "seasons": ["spring"],
+    "locations": "Cindersap Forest",
+    "sellPrice": 8,
+    "image": "images/forageables/Spring Onion.png"
+  },
+  {
+    "id": "402",
+    "name": "Sweet Pea",
+    "description": "A fragrant summer flower.",
+    "seasons": ["summer"],
+    "locations": "Pelican Town, Cindersap Forest, Bus Stop, Railroad, Forest Farm",
+    "sellPrice": 50,
+    "image": "images/forageables/Sweet Pea.png"
+  },
+  {
+    "id": "16",
+    "name": "Wild Horseradish",
+    "description": "A spicy root found in the spring.",
+    "seasons": ["spring"],
+    "locations": "Cindersap Forest, Backwoods, Mountain, Forest Farm",
+    "sellPrice": 50,
+    "image": "images/forageables/Wild Horseradish.png"
+  },
+  {
+    "id": "406",
+    "name": "Wild Plum",
+    "description": "Tart and juicy with a beautiful purple color.",
+    "seasons": ["fall"],
+    "locations": "Bus Stop, Railroad, Backwoods, Mountain",
+    "sellPrice": 80,
+    "image": "images/forageables/Wild Plum.png"
+  },
+  {
+    "id": "412",
+    "name": "Winter Root",
+    "description": "A starchy winter tuber.",
+    "seasons": ["winter"],
+    "locations": "Underground artifact spots and tillable soil",
+    "sellPrice": 70,
+    "image": "images/forageables/Winter Root.png"
+  }
+]
