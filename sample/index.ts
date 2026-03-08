@@ -12,6 +12,7 @@ import { run as runRings } from './rings';
 import { run as runSearch } from './search';
 import { run as runSeasons } from './seasons';
 import { run as runSkills } from './skills';
+import { run as runTools } from './tools';
 import { run as runTrees } from './trees';
 import { run as runUniversalGifts } from './universal-gifts';
 import { run as runVillagers } from './villagers';
@@ -34,6 +35,7 @@ const results = [
   runSeasons(),
   runMonsters(),
   runRings(),
+  runTools(),
   runUniversalGifts(),
   runVillagers(),
 ];

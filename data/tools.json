@@ -1,0 +1,443 @@
+[
+  {
+    "id": "hoe",
+    "type": "upgradeable",
+    "name": "Hoe",
+    "description": "Till soil for planting and dig up artifact spots. Higher upgrades allow charging to till multiple tiles at once.",
+    "canEnchant": true,
+    "levels": [
+      {
+        "level": "basic",
+        "image": "images/tools/hoe/Hoe.png",
+        "upgradeCost": null,
+        "materialName": null,
+        "materialQuantity": null,
+        "description": "Tills 1 tile of soil."
+      },
+      {
+        "level": "copper",
+        "image": "images/tools/hoe/Copper Hoe.png",
+        "upgradeCost": 2000,
+        "materialName": "Copper Bar",
+        "materialQuantity": 5,
+        "description": "Tills 3 tiles in a straight line when charged."
+      },
+      {
+        "level": "steel",
+        "image": "images/tools/hoe/Steel Hoe.png",
+        "upgradeCost": 5000,
+        "materialName": "Iron Bar",
+        "materialQuantity": 5,
+        "description": "Tills 5 tiles in a straight line when charged."
+      },
+      {
+        "level": "gold",
+        "image": "images/tools/hoe/Gold Hoe.png",
+        "upgradeCost": 10000,
+        "materialName": "Gold Bar",
+        "materialQuantity": 5,
+        "description": "Tills a 3×3 area when charged."
+      },
+      {
+        "level": "iridium",
+        "image": "images/tools/hoe/Iridium Hoe.png",
+        "upgradeCost": 25000,
+        "materialName": "Iridium Bar",
+        "materialQuantity": 5,
+        "description": "Tills a 6×3 area when charged."
+      }
+    ]
+  },
+  {
+    "id": "pickaxe",
+    "type": "upgradeable",
+    "name": "Pickaxe",
+    "description": "Break rocks and mine ore. Higher upgrades break tougher rocks and allow picking up placed items.",
+    "canEnchant": true,
+    "levels": [
+      {
+        "level": "basic",
+        "image": "images/tools/pickaxe/Pickaxe.png",
+        "upgradeCost": null,
+        "materialName": null,
+        "materialQuantity": null,
+        "description": "Breaks small rocks. Effective in mine floors 1–39."
+      },
+      {
+        "level": "copper",
+        "image": "images/tools/pickaxe/Copper Pickaxe.png",
+        "upgradeCost": 2000,
+        "materialName": "Copper Bar",
+        "materialQuantity": 5,
+        "description": "Breaks all rocks in mine floors 1–39 in one hit."
+      },
+      {
+        "level": "steel",
+        "image": "images/tools/pickaxe/Steel Pickaxe.png",
+        "upgradeCost": 5000,
+        "materialName": "Iron Bar",
+        "materialQuantity": 5,
+        "description": "Breaks farm boulders. Effective in mine floors 40–79."
+      },
+      {
+        "level": "gold",
+        "image": "images/tools/pickaxe/Gold Pickaxe.png",
+        "upgradeCost": 10000,
+        "materialName": "Gold Bar",
+        "materialQuantity": 5,
+        "description": "Breaks meteorites. Effective in mine floors 80–120."
+      },
+      {
+        "level": "iridium",
+        "image": "images/tools/pickaxe/Iridium Pickaxe.png",
+        "upgradeCost": 25000,
+        "materialName": "Iridium Bar",
+        "materialQuantity": 5,
+        "description": "Breaks Quarry and Skull Cavern rocks in one hit."
+      }
+    ]
+  },
+  {
+    "id": "axe",
+    "type": "upgradeable",
+    "name": "Axe",
+    "description": "Chop trees for wood and sap. Higher upgrades reduce hits required and unlock chopping hardwood stumps and logs.",
+    "canEnchant": true,
+    "levels": [
+      {
+        "level": "basic",
+        "image": "images/tools/axe/Axe.png",
+        "upgradeCost": null,
+        "materialName": null,
+        "materialQuantity": null,
+        "description": "10 hits to fell a tree, 5 hits to chop a stump."
+      },
+      {
+        "level": "copper",
+        "image": "images/tools/axe/Copper Axe.png",
+        "upgradeCost": 2000,
+        "materialName": "Copper Bar",
+        "materialQuantity": 5,
+        "description": "8 hits to fell a tree, 4 hits to chop a stump."
+      },
+      {
+        "level": "steel",
+        "image": "images/tools/axe/Steel Axe.png",
+        "upgradeCost": 5000,
+        "materialName": "Iron Bar",
+        "materialQuantity": 5,
+        "description": "6 hits to fell a tree, 3 hits to chop a stump. Can chop large stumps for hardwood."
+      },
+      {
+        "level": "gold",
+        "image": "images/tools/axe/Gold Axe.png",
+        "upgradeCost": 10000,
+        "materialName": "Gold Bar",
+        "materialQuantity": 5,
+        "description": "4 hits to fell a tree, 2 hits to chop a stump."
+      },
+      {
+        "level": "iridium",
+        "image": "images/tools/axe/Iridium Axe.png",
+        "upgradeCost": 25000,
+        "materialName": "Iridium Bar",
+        "materialQuantity": 5,
+        "description": "2 hits to fell a tree, 1 hit to chop a stump."
+      }
+    ]
+  },
+  {
+    "id": "watering-can",
+    "type": "upgradeable",
+    "name": "Watering Can",
+    "description": "Water crops each day. Higher upgrades increase water capacity and allow watering multiple tiles at once when charged.",
+    "canEnchant": true,
+    "levels": [
+      {
+        "level": "basic",
+        "image": "images/tools/watering-can/Watering Can.png",
+        "upgradeCost": null,
+        "materialName": null,
+        "materialQuantity": null,
+        "description": "40 water charges. Waters 1 tile."
+      },
+      {
+        "level": "copper",
+        "image": "images/tools/watering-can/Copper Watering Can.png",
+        "upgradeCost": 2000,
+        "materialName": "Copper Bar",
+        "materialQuantity": 5,
+        "description": "55 water charges. Waters 3 tiles in a line when charged."
+      },
+      {
+        "level": "steel",
+        "image": "images/tools/watering-can/Steel Watering Can.png",
+        "upgradeCost": 5000,
+        "materialName": "Iron Bar",
+        "materialQuantity": 5,
+        "description": "70 water charges. Waters 5 tiles in a line when charged."
+      },
+      {
+        "level": "gold",
+        "image": "images/tools/watering-can/Gold Watering Can.png",
+        "upgradeCost": 10000,
+        "materialName": "Gold Bar",
+        "materialQuantity": 5,
+        "description": "85 water charges. Waters a 3×3 area when charged."
+      },
+      {
+        "level": "iridium",
+        "image": "images/tools/watering-can/Iridium Watering Can.png",
+        "upgradeCost": 25000,
+        "materialName": "Iridium Bar",
+        "materialQuantity": 5,
+        "description": "100 water charges. Waters a 6×3 area when charged."
+      }
+    ]
+  },
+  {
+    "id": "trash-can",
+    "type": "upgradeable",
+    "name": "Trash Can",
+    "description": "Discard items from your inventory. Higher upgrades refund a percentage of the item's sell value.",
+    "canEnchant": true,
+    "levels": [
+      {
+        "level": "basic",
+        "image": null,
+        "upgradeCost": null,
+        "materialName": null,
+        "materialQuantity": null,
+        "description": "Discards items. No sell value refunded."
+      },
+      {
+        "level": "copper",
+        "image": "images/tools/trash-can/Copper Trash Can.png",
+        "upgradeCost": 1000,
+        "materialName": "Copper Bar",
+        "materialQuantity": 5,
+        "description": "Refunds 15% of an item's sell value when trashed."
+      },
+      {
+        "level": "steel",
+        "image": "images/tools/trash-can/Steel Trash Can.png",
+        "upgradeCost": 2500,
+        "materialName": "Iron Bar",
+        "materialQuantity": 5,
+        "description": "Refunds 30% of an item's sell value when trashed."
+      },
+      {
+        "level": "gold",
+        "image": "images/tools/trash-can/Gold Trash Can.png",
+        "upgradeCost": 5000,
+        "materialName": "Gold Bar",
+        "materialQuantity": 5,
+        "description": "Refunds 45% of an item's sell value when trashed."
+      },
+      {
+        "level": "iridium",
+        "image": "images/tools/trash-can/Iridium Trash Can.png",
+        "upgradeCost": 12500,
+        "materialName": "Iridium Bar",
+        "materialQuantity": 5,
+        "description": "Refunds 60% of an item's sell value when trashed."
+      }
+    ]
+  },
+  {
+    "id": "pan",
+    "type": "upgradeable",
+    "name": "Copper Pan",
+    "description": "Gather ore, gems, and other items from shimmering spots in water. Higher upgrades increase yield and chance for special items.",
+    "canEnchant": true,
+    "levels": [
+      {
+        "level": "copper",
+        "image": "images/tools/pan/Copper Pan.png",
+        "upgradeCost": null,
+        "materialName": null,
+        "materialQuantity": null,
+        "description": "Yields 3–9 ore from shimmering water spots."
+      },
+      {
+        "level": "steel",
+        "image": "images/tools/pan/Steel Pan.png",
+        "upgradeCost": 5000,
+        "materialName": "Iron Bar",
+        "materialQuantity": 5,
+        "description": "Yields 4–10 ore. Up to 2 special items per use."
+      },
+      {
+        "level": "gold",
+        "image": "images/tools/pan/Gold Pan.png",
+        "upgradeCost": 10000,
+        "materialName": "Gold Bar",
+        "materialQuantity": 5,
+        "description": "Yields 5–11 ore. Up to 3 special items per use."
+      },
+      {
+        "level": "iridium",
+        "image": "images/tools/pan/Iridium Pan.png",
+        "upgradeCost": 25000,
+        "materialName": "Iridium Bar",
+        "materialQuantity": 5,
+        "description": "Yields 6–12 ore. Up to 4 special items per use."
+      }
+    ]
+  },
+  {
+    "id": "bamboo-pole",
+    "type": "fishing-rod",
+    "name": "Bamboo Pole",
+    "description": "A basic fishing rod. Cannot use bait or tackle.",
+    "image": "images/tools/fishing-rod/Bamboo Pole.png",
+    "cost": 500,
+    "fishingLevelRequired": null,
+    "bait": false,
+    "tackleSlots": 0,
+    "canEnchant": false,
+    "obtain": "Purchased from Willy's Fish Shop."
+  },
+  {
+    "id": "training-rod",
+    "type": "fishing-rod",
+    "name": "Training Rod",
+    "description": "Simplifies the fishing minigame and only catches common fish. Good for beginners.",
+    "image": "images/tools/fishing-rod/Training Rod.png",
+    "cost": 25,
+    "fishingLevelRequired": null,
+    "bait": false,
+    "tackleSlots": 0,
+    "canEnchant": false,
+    "obtain": "Purchased from Willy's Fish Shop."
+  },
+  {
+    "id": "fiberglass-rod",
+    "type": "fishing-rod",
+    "name": "Fiberglass Rod",
+    "description": "A mid-tier fishing rod that supports bait to attract fish faster.",
+    "image": "images/tools/fishing-rod/Fiberglass Rod.png",
+    "cost": 1800,
+    "fishingLevelRequired": 2,
+    "bait": true,
+    "tackleSlots": 0,
+    "canEnchant": false,
+    "obtain": "Purchased from Willy's Fish Shop."
+  },
+  {
+    "id": "iridium-rod",
+    "type": "fishing-rod",
+    "name": "Iridium Rod",
+    "description": "A high-end fishing rod that supports both bait and one tackle attachment.",
+    "image": "images/tools/fishing-rod/Iridium Rod.png",
+    "cost": 7500,
+    "fishingLevelRequired": 6,
+    "bait": true,
+    "tackleSlots": 1,
+    "canEnchant": true,
+    "obtain": "Purchased from Willy's Fish Shop."
+  },
+  {
+    "id": "advanced-iridium-rod",
+    "type": "fishing-rod",
+    "name": "Advanced Iridium Rod",
+    "description": "The ultimate fishing rod with two tackle slots and bait support.",
+    "image": "images/tools/fishing-rod/Advanced Iridium Rod.png",
+    "cost": null,
+    "fishingLevelRequired": null,
+    "bait": true,
+    "tackleSlots": 2,
+    "canEnchant": true,
+    "obtain": "Reward for achieving Fishing Mastery."
+  },
+  {
+    "id": "scythe",
+    "type": "simple",
+    "name": "Scythe",
+    "description": "Cuts grass into hay when a Silo is present. Harvests some crops.",
+    "image": "images/tools/Scythe.png",
+    "cost": null,
+    "obtain": "Starter tool given at the beginning of the game."
+  },
+  {
+    "id": "golden-scythe",
+    "type": "simple",
+    "name": "Golden Scythe",
+    "description": "More powerful scythe that collects more hay per swing and harvests a wider range of crops.",
+    "image": "images/tools/Golden Scythe.png",
+    "cost": null,
+    "obtain": "Found in the chest at level 120 of the Quarry Mine."
+  },
+  {
+    "id": "iridium-scythe",
+    "type": "simple",
+    "name": "Iridium Scythe",
+    "description": "Automatically harvests any mature crop in its path.",
+    "image": "images/tools/Iridium Scythe.png",
+    "cost": null,
+    "obtain": "Reward for achieving Farming Mastery."
+  },
+  {
+    "id": "milk-pail",
+    "type": "simple",
+    "name": "Milk Pail",
+    "description": "Collect milk from cows and goats.",
+    "image": "images/tools/Milk Pail.png",
+    "cost": 1000,
+    "obtain": "Purchased from Marnie's Ranch."
+  },
+  {
+    "id": "shears",
+    "type": "simple",
+    "name": "Shears",
+    "description": "Collect wool from sheep and rabbits.",
+    "image": "images/tools/Shears.png",
+    "cost": 1000,
+    "obtain": "Purchased from Marnie's Ranch."
+  },
+  {
+    "id": "heater",
+    "type": "simple",
+    "name": "Heater",
+    "description": "Keeps animals warm in winter, maintaining their mood without needing a pet.",
+    "image": "images/tools/Heater.png",
+    "cost": 2000,
+    "obtain": "Purchased from Marnie's Ranch."
+  },
+  {
+    "id": "auto-grabber",
+    "type": "simple",
+    "name": "Auto-Grabber",
+    "description": "Automatically collects animal products in a coop or barn each morning.",
+    "image": "images/tools/Auto-Grabber.png",
+    "cost": 25000,
+    "obtain": "Purchased from Marnie's Ranch."
+  },
+  {
+    "id": "auto-petter",
+    "type": "simple",
+    "name": "Auto-Petter",
+    "description": "Keeps animals content by automatically petting them each day when placed in a coop or barn.",
+    "image": "images/tools/Auto-Petter.png",
+    "cost": 50000,
+    "obtain": "Purchased from Marnie's Ranch, or found in Skull Cavern."
+  },
+  {
+    "id": "large-pack",
+    "type": "backpack",
+    "name": "Large Pack",
+    "description": "Expands your inventory to 24 slots.",
+    "image": "images/tools/backpack/Large Pack.png",
+    "cost": 2000,
+    "slots": 24
+  },
+  {
+    "id": "deluxe-pack",
+    "type": "backpack",
+    "name": "Deluxe Pack",
+    "description": "Expands your inventory to 36 slots.",
+    "image": "images/tools/backpack/Deluxe Pack.png",
+    "cost": 10000,
+    "slots": 36
+  }
+]

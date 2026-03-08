@@ -11,7 +11,8 @@ export type SearchResultKind =
   | 'artisan-good'
   | 'monster'
   | 'monster-loot'
-  | 'ring';
+  | 'ring'
+  | 'tool';
 
 export interface SearchResult {
   kind: SearchResultKind;

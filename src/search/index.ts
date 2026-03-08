@@ -4,6 +4,7 @@ import { artisanGoods } from '../artisan-goods';
 import { crops } from '../crops';
 import { monsterLoot, monsters } from '../monsters';
 import { rings } from '../rings';
+import { tools } from '../tools';
 import { trees } from '../trees';
 
 function matches(query: string, id: string, name: string): boolean {
@@ -201,6 +202,22 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
         image: ring.image,
         sellPrice: ring.sellPrice,
       });
+    }
+  }
+
+  // Tools
+  for (const tool of tools().get()) {
+    if (tool.type === 'upgradeable') {
+      if (matches(query, tool.id, tool.name)) {
+        const image = tool.levels.find((l) => l.image !== null)?.image;
+        if (image) {
+          add({ kind: 'tool', id: tool.id, name: tool.name, image, sellPrice: null });
+        }
+      }
+    } else {
+      if (matches(query, tool.id, tool.name)) {
+        add({ kind: 'tool', id: tool.id, name: tool.name, image: tool.image, sellPrice: null });
+      }
     }
   }
 
