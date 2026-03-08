@@ -10,6 +10,8 @@ import { run as runSearch } from './search';
 import { run as runSeasons } from './seasons';
 import { run as runSkills } from './skills';
 import { run as runTrees } from './trees';
+import { run as runUniversalGifts } from './universal-gifts';
+import { run as runVillagers } from './villagers';
 import { run as runWeather } from './weather';
 
 const results = [
@@ -26,6 +28,8 @@ const results = [
   runSeasons(),
   runMonsters(),
   runRings(),
+  runUniversalGifts(),
+  runVillagers(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
