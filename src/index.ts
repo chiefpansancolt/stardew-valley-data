@@ -12,5 +12,6 @@ export * from './mixed-seeds';
 export * from './seasons';
 export * from './rings';
 export * from './universal-gifts';
+export * from './quests';
 export * from './villagers';
 export * from './weather';

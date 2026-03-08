@@ -5,6 +5,7 @@ import { run as runCrops } from './crops';
 import { run as runMaps } from './maps';
 import { run as runMixedSeeds } from './mixed-seeds';
 import { run as runMonsters } from './monsters';
+import { run as runQuests } from './quests';
 import { run as runRings } from './rings';
 import { run as runSearch } from './search';
 import { run as runSeasons } from './seasons';
@@ -16,6 +17,7 @@ import { run as runWeather } from './weather';
 
 const results = [
   runAnimals(),
+  runQuests(),
   runArtisanGoods(),
   runCalculator(),
   runCrops(),
