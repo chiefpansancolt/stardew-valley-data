@@ -1,5 +1,6 @@
 export * from './achievement';
 export * from './animal';
+export * from './bundle';
 export * from './artisan-good';
 export * from './calculator';
 export * from './common';

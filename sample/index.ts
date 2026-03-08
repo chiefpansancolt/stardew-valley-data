@@ -1,6 +1,7 @@
 import { run as runAchievements } from './achievements';
 import { run as runAnimals } from './animals';
 import { run as runArtisanGoods } from './artisan-goods';
+import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
 import { run as runCrops } from './crops';
 import { run as runMaps } from './maps';
@@ -19,6 +20,7 @@ import { run as runWeather } from './weather';
 const results = [
   runAchievements(),
   runAnimals(),
+  runBundles(),
   runQuests(),
   runArtisanGoods(),
   runCalculator(),

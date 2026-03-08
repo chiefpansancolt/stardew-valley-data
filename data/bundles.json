@@ -1,0 +1,1109 @@
+[
+  {
+    "id": "spring-foraging-bundle",
+    "type": "items",
+    "name": "Spring Foraging Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/Spring Foraging Bundle.png",
+    "items": [
+      { "name": "Wild Horseradish", "quantity": 1 },
+      { "name": "Daffodil", "quantity": 1 },
+      { "name": "Leek", "quantity": 1 },
+      { "name": "Dandelion", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Spring Seeds", "quantity": 30 },
+    "remixBundle": false
+  },
+  {
+    "id": "spring-foraging-bundle-remix",
+    "type": "items",
+    "name": "Spring Foraging Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/Spring Foraging Bundle.png",
+    "items": [
+      { "name": "Wild Horseradish", "quantity": 1 },
+      { "name": "Daffodil", "quantity": 1 },
+      { "name": "Leek", "quantity": 1 },
+      { "name": "Dandelion", "quantity": 1 },
+      { "name": "Spring Onion", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": true,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Spring Seeds", "quantity": 30 },
+    "remixBundle": true
+  },
+  {
+    "id": "summer-foraging-bundle",
+    "type": "items",
+    "name": "Summer Foraging Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 2,
+    "image": "images/bundles/bundle-images/Summer Foraging Bundle.png",
+    "items": [
+      { "name": "Grape", "quantity": 1 },
+      { "name": "Spice Berry", "quantity": 1 },
+      { "name": "Sweet Pea", "quantity": 1 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Summer Seeds", "quantity": 30 },
+    "remixBundle": false
+  },
+  {
+    "id": "fall-foraging-bundle",
+    "type": "items",
+    "name": "Fall Foraging Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 3,
+    "image": "images/bundles/bundle-images/Fall Foraging Bundle.png",
+    "items": [
+      { "name": "Common Mushroom", "quantity": 1 },
+      { "name": "Wild Plum", "quantity": 1 },
+      { "name": "Hazelnut", "quantity": 1 },
+      { "name": "Blackberry", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Fall Seeds", "quantity": 30 },
+    "remixBundle": false
+  },
+  {
+    "id": "winter-foraging-bundle",
+    "type": "items",
+    "name": "Winter Foraging Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/Winter Foraging Bundle.png",
+    "items": [
+      { "name": "Winter Root", "quantity": 1 },
+      { "name": "Crystal Fruit", "quantity": 1 },
+      { "name": "Snow Yam", "quantity": 1 },
+      { "name": "Crocus", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Winter Seeds", "quantity": 30 },
+    "remixBundle": false
+  },
+  {
+    "id": "winter-foraging-bundle-remix",
+    "type": "items",
+    "name": "Winter Foraging Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/Winter Foraging Bundle.png",
+    "items": [
+      { "name": "Winter Root", "quantity": 1 },
+      { "name": "Crystal Fruit", "quantity": 1 },
+      { "name": "Snow Yam", "quantity": 1 },
+      { "name": "Crocus", "quantity": 1 },
+      { "name": "Holly", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": true,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Winter Seeds", "quantity": 30 },
+    "remixBundle": true
+  },
+  {
+    "id": "construction-bundle",
+    "type": "items",
+    "name": "Construction Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 5,
+    "image": "images/bundles/bundle-images/Construction Bundle.png",
+    "items": [
+      { "name": "Wood", "quantity": 99 },
+      { "name": "Stone", "quantity": 99 },
+      { "name": "Hardwood", "quantity": 10 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Charcoal Kiln", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "sticky-bundle",
+    "type": "items",
+    "name": "Sticky Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 5,
+    "image":"images/bundles/bundle-images/Sticky Bundle.png",
+    "items": [
+      { "name": "Sap", "quantity": 500 }
+    ],
+    "itemsRequired": 1,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 1,
+    "reward": { "name": "Charcoal Kiln", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "forest-bundle",
+    "type": "items",
+    "name": "Forest Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 5,
+    "image":"images/bundles/bundle-images/Forest Bundle.png",
+    "items": [
+      { "name": "Moss", "quantity": 10 },
+      { "name": "Fiber", "quantity": 200 },
+      { "name": "Acorn", "quantity": 10 },
+      { "name": "Maple Seed", "quantity": 10 }
+    ],
+    "itemsRequired": 1,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Charcoal Kiln", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "exotic-foraging-bundle",
+    "type": "items",
+    "name": "Exotic Foraging Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 6,
+    "image": "images/bundles/bundle-images/Exotic Foraging Bundle.png",
+    "items": [
+      { "name": "Coconut", "quantity": 1 },
+      { "name": "Cactus Fruit", "quantity": 1 },
+      { "name": "Cave Carrot", "quantity": 1 },
+      { "name": "Red Mushroom", "quantity": 1 },
+      { "name": "Purple Mushroom", "quantity": 1 },
+      { "name": "Maple Syrup", "quantity": 1 },
+      { "name": "Oak Resin", "quantity": 1 },
+      { "name": "Pine Tar", "quantity": 1 },
+      { "name": "Morel", "quantity": 1 }
+    ],
+    "itemsRequired": 5,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 9,
+    "reward": { "name": "Autumn's Bounty", "quantity": 5 },
+    "remixBundle": false
+  },
+  {
+    "id": "wild-medicine-bundle",
+    "type": "items",
+    "name": "Wild Medicine Bundle",
+    "room": "crafts-room",
+    "bundleGroup": 6,
+    "image":"images/bundles/bundle-images/Wild Medicine Bundle.png",
+    "items": [
+      { "name": "Purple Mushroom", "quantity": 5 },
+      { "name": "Fiddlehead Fern", "quantity": 5 },
+      { "name": "White Algae", "quantity": 5 },
+      { "name": "Hops", "quantity": 5 }
+    ],
+    "itemsRequired": 1,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Cookout Kit", "quantity": 2 },
+    "remixBundle": true
+  },
+  {
+    "id": "spring-crops-bundle",
+    "type": "items",
+    "name": "Spring Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/Spring Crops Bundle.png",
+    "items": [
+      { "name": "Parsnip", "quantity": 1 },
+      { "name": "Green Bean", "quantity": 1 },
+      { "name": "Cauliflower", "quantity": 1 },
+      { "name": "Potato", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Speed-Gro", "quantity": 20 },
+    "remixBundle": false
+  },
+  {
+    "id": "spring-crops-bundle-remix",
+    "type": "items",
+    "name": "Spring Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/Spring Crops Bundle.png",
+    "items": [
+      { "name": "Parsnip", "quantity": 1 },
+      { "name": "Green Bean", "quantity": 1 },
+      { "name": "Cauliflower", "quantity": 1 },
+      { "name": "Potato", "quantity": 1 },
+      { "name": "Kale", "quantity": 1 },
+      { "name": "Carrot", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": true,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Speed-Gro", "quantity": 20 },
+    "remixBundle": true
+  },
+  {
+    "id": "summer-crops-bundle",
+    "type": "items",
+    "name": "Summer Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 2,
+    "image": "images/bundles/bundle-images/Summer Crops Bundle.png",
+    "items": [
+      { "name": "Tomato", "quantity": 1 },
+      { "name": "Hot Pepper", "quantity": 1 },
+      { "name": "Blueberry", "quantity": 1 },
+      { "name": "Melon", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Quality Sprinkler", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "summer-crops-bundle-remix",
+    "type": "items",
+    "name": "Summer Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 2,
+    "image": "images/bundles/bundle-images/Summer Crops Bundle.png",
+    "items": [
+      { "name": "Tomato", "quantity": 1 },
+      { "name": "Hot Pepper", "quantity": 1 },
+      { "name": "Blueberry", "quantity": 1 },
+      { "name": "Melon", "quantity": 1 },
+      { "name": "Summer Squash", "quantity": 1 }
+
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": true,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Quality Sprinkler", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "fall-crops-bundle",
+    "type": "items",
+    "name": "Fall Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 3,
+    "image": "images/bundles/bundle-images/Fall Crops Bundle.png",
+    "items": [
+      { "name": "Corn", "quantity": 1 },
+      { "name": "Eggplant", "quantity": 1 },
+      { "name": "Pumpkin", "quantity": 1 },
+      { "name": "Yam", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Bee House", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "fall-crops-bundle-remix",
+    "type": "items",
+    "name": "Fall Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 3,
+    "image": "images/bundles/bundle-images/Fall Crops Bundle.png",
+    "items": [
+      { "name": "Corn", "quantity": 1 },
+      { "name": "Eggplant", "quantity": 1 },
+      { "name": "Pumpkin", "quantity": 1 },
+      { "name": "Yam", "quantity": 1 },
+      { "name": "Broccoli", "quantity": 1 }
+
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": true,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Bee House", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "quality-crops-bundle",
+    "type": "items",
+    "name": "Quality Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/Quality Crops Bundle.png",
+    "items": [
+      { "name": "Parsnip", "quantity": 5, "quality": "gold" },
+      { "name": "Melon", "quantity": 5, "quality": "gold" },
+      { "name": "Pumpkin", "quantity": 5, "quality": "gold" },
+      { "name": "Corn", "quantity": 5, "quality": "gold" }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Preserves Jar", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "quality-crops-bundle-remix",
+    "type": "items",
+    "name": "Quality Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/Quality Crops Bundle.png",
+    "items": [
+      { "name": "Parsnip", "quantity": 5, "quality": "gold" },
+      { "name": "Green Bean", "quantity": 5, "quality": "gold" },
+      { "name": "Potato", "quantity": 5, "quality": "gold" },
+      { "name": "Cauliflower", "quantity": 5, "quality": "gold" },
+      { "name": "Melon", "quantity": 5, "quality": "gold" },
+      { "name": "Blueberry", "quantity": 5, "quality": "gold" },
+      { "name": "Hot Pepper", "quantity": 5, "quality": "gold" },
+      { "name": "Pumpkin", "quantity": 5, "quality": "gold" },
+      { "name": "Yam", "quantity": 5, "quality": "gold" },
+      { "name": "Eggplant", "quantity": 5, "quality": "gold" },
+      { "name": "Corn", "quantity": 5, "quality": "gold" }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": true,
+    "numItemsAvailable": 11,
+    "reward": { "name": "Preserves Jar", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "rare-crop-bundle",
+    "type": "items",
+    "name": "Rare Crops Bundle",
+    "room": "pantry",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/Rare Crops Bundle.png",
+    "items": [
+      { "name": "Ancient Fruit", "quantity": 1 },
+      { "name": "Sweet Gem Berry", "quantity": 1 }
+    ],
+    "itemsRequired": 1,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 2,
+    "reward": { "name": "Preserves Jar", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "animal-bundle",
+    "type": "items",
+    "name": "Animal Bundle",
+    "room": "pantry",
+    "bundleGroup": 5,
+    "image": "images/bundles/bundle-images/Animal Bundle.png",
+    "items": [
+      { "name": "Large Milk", "quantity": 1 },
+      { "name": "Large Egg (Brown)", "quantity": 1 },
+      { "name": "Large Egg", "quantity": 1 },
+      { "name": "Large Goat Milk", "quantity": 1 },
+      { "name": "Wool", "quantity": 1 },
+      { "name": "Duck Egg", "quantity": 1 }
+    ],
+    "itemsRequired": 5,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 6,
+    "reward": { "name": "Cheese Press", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "fish-farmers-bundle",
+    "type": "items",
+    "name": "Fish Farmer's Bundle",
+    "room": "pantry",
+    "bundleGroup": 5,
+    "image": "images/bundles/bundle-images/Fish Farmer's Bundle.png",
+    "items": [
+      { "name": "Roe", "quantity": 15 },
+      { "name": "Aged Roe", "quantity": 15 },
+      { "name": "Squid Ink", "quantity": 1 }
+    ],
+    "itemsRequired": 2,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Worm Bin", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "garden-bundle",
+    "type": "items",
+    "name": "Garden Bundle",
+    "room": "pantry",
+    "bundleGroup": 5,
+    "image": "images/bundles/bundle-images/Garden Bundle.png",
+    "items": [
+      { "name": "Tulip", "quantity": 1 },
+      { "name": "Blue Jazz", "quantity": 1 },
+      { "name": "Summer Spangle", "quantity": 1 },
+      { "name": "Sunflower", "quantity": 1 },
+      { "name": "Fairy Rose", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 5,
+    "reward": { "name": "Quality Sprinkler", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "artisan-bundle",
+    "type": "items",
+    "name": "Artisan Bundle",
+    "room": "pantry",
+    "bundleGroup": 6,
+    "image": "images/bundles/bundle-images/Artisan Bundle.png",
+    "items": [
+      { "name": "Truffle Oil", "quantity": 1 },
+      { "name": "Cloth", "quantity": 1 },
+      { "name": "Goat Cheese", "quantity": 1 },
+      { "name": "Cheese", "quantity": 1 },
+      { "name": "Honey", "quantity": 1 },
+      { "name": "Jelly", "quantity": 1 },
+      { "name": "Apple", "quantity": 1 },
+      { "name": "Apricot", "quantity": 1 },
+      { "name": "Orange", "quantity": 1 },
+      { "name": "Peach", "quantity": 1 },
+      { "name": "Pomegranate", "quantity": 1 },
+      { "name": "Cherry", "quantity": 1 }
+    ],
+    "itemsRequired": 6,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 12,
+    "reward": { "name": "Keg", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "brewers-bundle",
+    "type": "items",
+    "name": "Brewer's Bundle",
+    "room": "pantry",
+    "bundleGroup": 6,
+    "image": "images/bundles/bundle-images/Brewer's Bundle.png",
+    "items": [
+      { "name": "Mead", "quantity": 1 },
+      { "name": "Pale Ale", "quantity": 1 },
+      { "name": "Wine", "quantity": 1 },
+      { "name": "Juice", "quantity": 1 },
+      { "name": "Green Tea", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 5,
+    "reward": { "name": "Keg", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "river-fish-bundle",
+    "type": "items",
+    "name": "River Fish Bundle",
+    "room": "fish-tank",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/River Fish Bundle.png",
+    "items": [
+      { "name": "Sunfish", "quantity": 1 },
+      { "name": "Catfish", "quantity": 1 },
+      { "name": "Shad", "quantity": 1 },
+      { "name": "Tiger Trout", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Deluxe Bait", "quantity": 30 },
+    "remixBundle": false
+  },
+  {
+    "id": "lake-fish-bundle",
+    "type": "items",
+    "name": "Lake Fish Bundle",
+    "room": "fish-tank",
+    "bundleGroup": 2,
+    "image": "images/bundles/bundle-images/Lake Fish Bundle.png",
+    "items": [
+      { "name": "Largemouth Bass", "quantity": 1 },
+      { "name": "Carp", "quantity": 1 },
+      { "name": "Bullhead", "quantity": 1 },
+      { "name": "Sturgeon", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "reward": { "name": "Dressed Spinner", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "ocean-fish-bundle",
+    "type": "items",
+    "name": "Ocean Fish Bundle",
+    "room": "fish-tank",
+    "bundleGroup": 3,
+    "image": "images/bundles/bundle-images/Ocean Fish Bundle.png",
+    "items": [
+      { "name": "Sardine", "quantity": 1 },
+      { "name": "Tuna", "quantity": 1 },
+      { "name": "Red Snapper", "quantity": 1 },
+      { "name": "Tilapia", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Warp Totem: Beach", "quantity": 5 },
+    "remixBundle": false
+  },
+  {
+    "id": "night-fishing-bundle",
+    "type": "items",
+    "name": "Night Fishing Bundle",
+    "room": "fish-tank",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/Night Fishing Bundle.png",
+    "items": [
+      { "name": "Walleye", "quantity": 1 },
+      { "name": "Bream", "quantity": 1 },
+      { "name": "Eel", "quantity": 1 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Glow Ring", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "crab-pot-bundle",
+    "type": "items",
+    "name": "Crab Pot Bundle",
+    "room": "fish-tank",
+    "bundleGroup": 5,
+    "image": "images/bundles/bundle-images/Crab Pot Bundle.png",
+    "items": [
+      { "name": "Lobster", "quantity": 1 },
+      { "name": "Crayfish", "quantity": 1 },
+      { "name": "Crab", "quantity": 1 },
+      { "name": "Cockle", "quantity": 1 },
+      { "name": "Mussel", "quantity": 1 },
+      { "name": "Shrimp", "quantity": 1 },
+      { "name": "Snail", "quantity": 1 },
+      { "name": "Periwinkle", "quantity": 1 },
+      { "name": "Oyster", "quantity": 1 },
+      { "name": "Clam", "quantity": 1 }
+    ],
+    "itemsRequired": 5,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 10,
+    "reward": { "name": "Crab Pot", "quantity": 3 },
+    "remixBundle": false
+  },
+  {
+    "id": "specialty-fish-bundle",
+    "type": "items",
+    "name": "Specialty Fish Bundle",
+    "room": "fish-tank",
+    "bundleGroup": 6,
+    "image": "images/bundles/bundle-images/Specialty Fish Bundle.png",
+    "items": [
+      { "name": "Pufferfish", "quantity": 1 },
+      { "name": "Ghostfish", "quantity": 1 },
+      { "name": "Sandfish", "quantity": 1 },
+      { "name": "Woodskip", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Dish O' The Sea", "quantity": 5 },
+    "remixBundle": false
+  },
+  {
+    "id": "quality-fish-bundle",
+    "type": "items",
+    "name": "Quality Fish Bundle",
+    "room": "fish-tank",
+    "bundleGroup": 6,
+    "image": "images/bundles/bundle-images/Quality Fish Bundle.png",
+    "items": [
+      { "name": "Largemouth Bass", "quantity": 1, "quality": "gold" },
+      { "name": "Shad", "quantity": 1, "quality": "gold" },
+      { "name": "Tuna", "quantity": 1, "quality": "gold" },
+      { "name": "Walleye", "quantity": 1, "quality": "gold" }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Dish O' The Sea", "quantity": 5 },
+    "remixBundle": true
+  },
+  {
+    "id": "master-fishers-bundle",
+    "type": "items",
+    "name": "Master Fisher's Bundle",
+    "room": "fish-tank",
+    "bundleGroup": 6,
+    "image": "images/bundles/bundle-images/Master Fisher's Bundle.png",
+    "items": [
+      { "name": "Lava Eel", "quantity": 1 },
+      { "name": "Scorpion Carp", "quantity": 1 },
+      { "name": "Octopus", "quantity": 1 },
+      { "name": "Blobfish", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Dish O' The Sea", "quantity": 5 },
+    "remixBundle": true
+  },
+  {
+    "id": "blacksmiths-bundle",
+    "type": "items",
+    "name": "Blacksmith's Bundle",
+    "room": "boiler-room",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/Blacksmith Bundle.png",
+    "items": [
+      { "name": "Copper Bar", "quantity": 1 },
+      { "name": "Iron Bar", "quantity": 1 },
+      { "name": "Gold Bar", "quantity": 1 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Furnace", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "geologists-bundle",
+    "type": "items",
+    "name": "Geologist's Bundle",
+    "room": "boiler-room",
+    "bundleGroup": 2,
+    "image": "images/bundles/bundle-images/Geologist's Bundle.png",
+    "items": [
+      { "name": "Quartz", "quantity": 1 },
+      { "name": "Earth Crystal", "quantity": 1 },
+      { "name": "Frozen Tear", "quantity": 1 },
+      { "name": "Fire Quartz", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Omni Geode", "quantity": 5 },
+    "remixBundle": false
+  },
+  {
+    "id": "adventurers-bundle",
+    "type": "items",
+    "name": "Adventurer's Bundle",
+    "room": "boiler-room",
+    "bundleGroup": 3,
+    "image": "images/bundles/bundle-images/Adventurer's Bundle.png",
+    "items": [
+      { "name": "Slime", "quantity": 99 },
+      { "name": "Bat Wing", "quantity": 10 },
+      { "name": "Solar Essence", "quantity": 1 },
+      { "name": "Void Essence", "quantity": 1 }
+    ],
+    "itemsRequired": 2,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Small Magnet Ring", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "adventurers-bundle-remix",
+    "type": "items",
+    "name": "Adventurer's Bundle",
+    "room": "boiler-room",
+    "bundleGroup": 3,
+    "image": "images/bundles/bundle-images/Adventurer's Bundle.png",
+    "items": [
+      { "name": "Slime", "quantity": 99 },
+      { "name": "Bat Wing", "quantity": 10 },
+      { "name": "Solar Essence", "quantity": 1 },
+      { "name": "Void Essence", "quantity": 1 },
+      { "name": "Bone Fragment", "quantity": 10 }
+    ],
+    "itemsRequired": 2,
+    "itemsChosenRandom": true,
+    "numItemsAvailable": 5,
+    "reward": { "name": "Small Magnet Ring", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "treasure-hunters-bundle",
+    "type": "items",
+    "name": "Treasure Hunter's Bundle",
+    "room": "boiler-room",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/Treasure Hunter's Bundle.png",
+    "items": [
+      { "name": "Amethyst", "quantity": 1 },
+      { "name": "Aquamarine", "quantity": 1 },
+      { "name": "Diamond", "quantity": 1 },
+      { "name": "Emerald", "quantity": 1 },
+      { "name": "Ruby", "quantity": 1 },
+      { "name": "Topaz", "quantity": 1 }
+    ],
+    "itemsRequired": 5,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 6,
+    "reward": { "name": "Lucky Lunch", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "engineers-bundle",
+    "type": "items",
+    "name": "Engineer's Bundle",
+    "room": "boiler-room",
+    "bundleGroup": 5,
+    "image": "images/bundles/bundle-images/Engineer's Bundle.png",
+    "items": [
+      { "name": "Iridium Ore", "quantity": 1 },
+      { "name": "Battery Pack", "quantity": 1 },
+      { "name": "Refined Quartz", "quantity": 5 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Furnace", "quantity": 2 },
+    "remixBundle": true
+  },
+  {
+    "id": "chefs-bundle",
+    "type": "items",
+    "name": "Chef's Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/Chef's Bundle.png",
+    "items": [
+      { "name": "Maple Syrup", "quantity": 1 },
+      { "name": "Fiddlehead Fern", "quantity": 1 },
+      { "name": "Truffle", "quantity": 1 },
+      { "name": "Poppy", "quantity": 1 },
+      { "name": "Maki Roll", "quantity": 1 },
+      { "name": "Fried Egg", "quantity": 1 }
+    ],
+    "itemsRequired": 6,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 6,
+    "reward": { "name": "Pink Cake", "quantity": 3 },
+    "remixBundle": false
+  },
+  {
+    "id": "dye-bundle",
+    "type": "items",
+    "name": "Dye Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 2,
+    "image": "images/bundles/bundle-images/Dye Bundle.png",
+    "items": [
+      { "name": "Red Mushroom", "quantity": 1 },
+      { "name": "Sea Urchin", "quantity": 1 },
+      { "name": "Sunflower", "quantity": 1 },
+      { "name": "Duck Feather", "quantity": 1 },
+      { "name": "Aquamarine", "quantity": 1 },
+      { "name": "Red Cabbage", "quantity": 1 }
+    ],
+    "itemsRequired": 6,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 6,
+    "reward": { "name": "Seed Maker", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "dye-bundle-remix",
+    "type": "items",
+    "name": "Dye Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 2,
+    "image": "images/bundles/bundle-images/Dye Bundle.png",
+    "items": [
+      { "name": "Red Mushroom", "quantity": 1 },
+      { "name": "Beet", "quantity": 1 },
+      { "name": "Sea Urchin", "quantity": 1 },
+      { "name": "Amaranth", "quantity": 1 },
+      { "name": "Sunflower", "quantity": 1 },
+      { "name": "Starfruit", "quantity": 1 },
+      { "name": "Duck Feather", "quantity": 1 },
+      { "name": "Cactus Fruit", "quantity": 1 },
+      { "name": "Aquamarine", "quantity": 1 },
+      { "name": "Blueberry", "quantity": 1 },
+      { "name": "Red Cabbage", "quantity": 1 },
+      { "name": "Iridium Bar", "quantity": 1 }
+    ],
+    "itemsRequired": 6,
+    "itemsChosenRandom": true,
+    "numItemsAvailable": 6,
+    "reward": { "name": "Seed Maker", "quantity": 1 },
+    "remixBundle": true
+  },
+  {
+    "id": "field-research-bundle",
+    "type": "items",
+    "name": "Field Research Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 3,
+    "image": "images/bundles/bundle-images/Field Research Bundle.png",
+    "items": [
+      { "name": "Purple Mushroom", "quantity": 1 },
+      { "name": "Nautilus Shell", "quantity": 1 },
+      { "name": "Chub", "quantity": 1 },
+      { "name": "Frozen Geode", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Recycling Machine", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "fodder-bundle",
+    "type": "items",
+    "name": "Fodder Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/Fodder Bundle.png",
+    "items": [
+      { "name": "Wheat", "quantity": 10 },
+      { "name": "Hay", "quantity": 10 },
+      { "name": "Apple", "quantity": 3 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Heater", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "enchanters-bundle",
+    "type": "items",
+    "name": "Enchanter's Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 5,
+    "image": "images/bundles/bundle-images/Enchanter's Bundle.png",
+    "items": [
+      { "name": "Oak Resin", "quantity": 1 },
+      { "name": "Wine", "quantity": 1 },
+      { "name": "Rabbit's Foot", "quantity": 1 },
+      { "name": "Pomegranate", "quantity": 1 }
+    ],
+    "itemsRequired": 4,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Gold Bar", "quantity": 5 },
+    "remixBundle": false
+  },
+  {
+    "id": "childrens-bundle",
+    "type": "items",
+    "name": "Children's Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 6,
+    "image": "images/bundles/bundle-images/Children's Bundle.png",
+    "items": [
+      { "name": "Salmonberry", "quantity": 10 },
+      { "name": "Cookie", "quantity": 1 },
+      { "name": "Ancient Doll", "quantity": 1 },
+      { "name": "Ice Cream", "quantity": 1 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Battery Pack", "quantity": 3 },
+    "remixBundle": true
+  },
+  {
+    "id": "Foragers-bundle",
+    "type": "items",
+    "name": "Forager's Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 7,
+    "image": "images/bundles/bundle-images/Forager's Bundle.png",
+    "items": [
+      { "name": "Salmonberry", "quantity": 50 },
+      { "name": "Blackberry", "quantity": 50 },
+      { "name": "Wild Plum", "quantity": 15 }
+    ],
+    "itemsRequired": 2,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Tapper", "quantity": 3 },
+    "remixBundle": true
+  },
+  {
+    "id": "home-cooks-bundle",
+    "type": "items",
+    "name": "Home Cook's Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 8,
+    "image": "images/bundles/bundle-images/Home Cook's Bundle.png",
+    "items": [
+      { "name": "Egg", "quantity": 10 },
+      { "name": "Milk", "quantity": 10 },
+      { "name": "Wheat Flour", "quantity": 100 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Complete Breakfast", "quantity": 5 },
+    "remixBundle": true
+  },
+  {
+    "id": "helpers-bundle",
+    "type": "items",
+    "name": "Helper's Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 9,
+    "image": "images/bundles/bundle-images/Helper's Bundle.png",
+    "items": [
+      { "name": "Prize Ticket", "quantity": 1 },
+      { "name": "Mystery Box", "quantity": 5 }
+    ],
+    "itemsRequired": 2,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 2,
+    "reward": { "name": "Stardrop Tea", "quantity": 1},
+    "remixBundle": true
+  },
+  {
+    "id": "spirits-eve-bundle",
+    "type": "items",
+    "name": "Spirit's Eve Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 10,
+    "image": "images/bundles/bundle-images/Spirit's Eve Bundle.png",
+    "items": [
+      { "name": "Jack-O-Lantern", "quantity": 1 },
+      { "name": "Corn", "quantity": 10 },
+      { "name": "Bat Wing", "quantity": 10 }
+    ],
+    "itemsRequired": 3,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 3,
+    "reward": { "name": "Complete Breakfast", "quantity": 5 },
+    "remixBundle": true
+  },
+  {
+    "id": "winter-star-bundle",
+    "type": "items",
+    "name": "Winter Star Bundle",
+    "room": "bulletin-board",
+    "bundleGroup": 11,
+    "image": "images/bundles/bundle-images/Winter Star Bundle.png",
+    "items": [
+      { "name": "Holly", "quantity": 5 },
+      { "name": "Plum Pudding", "quantity": 1 },
+      { "name": "Stuffing", "quantity": 1 },
+      { "name": "Powdermelon", "quantity": 5 }
+    ],
+    "itemsRequired": 2,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 4,
+    "reward": { "name": "Mystery Box", "quantity": 3 },
+    "remixBundle": true
+  },
+  {
+    "id": "gold-2500",
+    "type": "gold",
+    "name": "2,500g Bundle",
+    "room": "vault",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/2500 Bundle.png",
+    "goldCost": 2500,
+    "reward": { "name": "Chocolate Cake", "quantity": 3 },
+    "remixBundle": false
+  },
+  {
+    "id": "gold-5000",
+    "type": "gold",
+    "name": "5,000g Bundle",
+    "room": "vault",
+    "bundleGroup": 2,
+    "image": "images/bundles/bundle-images/5000 Bundle.png",
+    "goldCost": 5000,
+    "reward": { "name": "Quality Fertilizer", "quantity": 30 },
+    "remixBundle": false
+  },
+  {
+    "id": "gold-10000",
+    "type": "gold",
+    "name": "10,000g Bundle",
+    "room": "vault",
+    "bundleGroup": 3,
+    "image": "images/bundles/bundle-images/10000 Bundle.png",
+    "goldCost": 10000,
+    "reward": { "name": "Lightning Rod", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "gold-25000",
+    "type": "gold",
+    "name": "25,000g Bundle",
+    "room": "vault",
+    "bundleGroup": 4,
+    "image": "images/bundles/bundle-images/25000 Bundle.png",
+    "goldCost": 25000,
+    "reward": { "name": "Crystalarium", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "the-missing",
+    "type": "items",
+    "name": "The Missing Bundle",
+    "room": "abandoned-joja-mart",
+    "bundleGroup": 1,
+    "image": "images/bundles/bundle-images/The Missing Bundle.png",
+    "items": [
+      { "name": "Wine", "quantity": 1, "quality": "silver" },
+      { "name": "Dinosaur Mayonnaise", "quantity": 1 },
+      { "name": "Prismatic Shard", "quantity": 1 },
+      { "name": "Ancient Fruit", "quantity": 5, "quality": "gold" },
+      { "name": "Void Salmon", "quantity": 1, "quality": "gold" }
+    ],
+    "itemsRequired": 5,
+    "itemsChosenRandom": false,
+    "numItemsAvailable": 5,
+    "reward": { "name": "Movie Theater", "quantity": 1 },
+    "remixBundle": false
+  },
+  {
+    "id": "minecarts-joja",
+    "type": "joja mart",
+    "name": "Minecarts",
+    "description": "Repairs the minecart system that runs between the bus stop, the mountains, and Pelican Town.",
+    "goldCost": 15000,
+    "unlock": "Minecarts"
+  },
+  {
+    "id": "panning-joja",
+    "type": "joja mart",
+    "name": "Panning",
+    "description": "Removes the glimmering boulder near the mine entrance.",
+    "goldCost": 20000,
+    "unlock": "Panning"
+  },
+  {
+    "id": "bridge-joja",
+    "type": "joja mart",
+    "name": "Bridge",
+    "description": "Repairs the broken bridge in the mountains. The broken bridge east of the Mines will be repaired, enabling access to the Quarry.",
+    "goldCost": 25000,
+    "unlock": "Bridge"
+  },
+  {
+    "id": "greenhouse-joja",
+    "type": "joja mart",
+    "name": "Greenhouse",
+    "description": "Repairs the old ruins on the farm, turning it into a greenhouse.",
+    "goldCost": 35000,
+    "unlock": "Greenhouse"
+  },
+  {
+    "id": "bus-joja",
+    "type": "joja mart",
+    "name": "Bus",
+    "description": "Repairs the bus that runs to the Calico Desert.",
+    "goldCost": 40000,
+    "unlock": "Bus"
+  }
+]
