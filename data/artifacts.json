@@ -1,0 +1,477 @@
+[
+  {
+    "id": "96",
+    "name": "Dwarf Scroll I",
+    "description": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a red bow.",
+    "sellPrice": 1,
+    "locations": ["Tilling in Mines/Skull Cavern (any floor)", "Several monsters (0.5% each)"],
+    "donationNotes": "One of four scrolls; donating all four unlocks Dwarvish Translation Guide",
+    "image": "images/artifacts/Dwarf Scroll I.png"
+  },
+  {
+    "id": "97",
+    "name": "Dwarf Scroll II",
+    "description": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a green ribbon.",
+    "sellPrice": 1,
+    "locations": [
+      "Tilling in Mines (floor 1-39)",
+      "Ghost, Frost Bat, Dust Sprite, Blue Slime drop (0.5%)"
+    ],
+    "donationNotes": "One of four scrolls; donating all four unlocks Dwarvish Translation Guide",
+    "image": "images/artifacts/Dwarf Scroll II.png"
+  },
+  {
+    "id": "98",
+    "name": "Dwarf Scroll III",
+    "description": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a blue rope.",
+    "sellPrice": 1,
+    "locations": ["Several monsters (0.5-1.5%)"],
+    "donationNotes": "One of four scrolls; donating all four unlocks Dwarvish Translation Guide",
+    "image": "images/artifacts/Dwarf Scroll III.png"
+  },
+  {
+    "id": "99",
+    "name": "Dwarf Scroll IV",
+    "description": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a golden chain.",
+    "sellPrice": 1,
+    "locations": ["Most monsters (0.1%)", "Tilling in Mines (floor 80+) (0.2%)"],
+    "donationNotes": "One of four scrolls; donating all four unlocks Dwarvish Translation Guide",
+    "image": "images/artifacts/Dwarf Scroll IV.png"
+  },
+  {
+    "id": "100",
+    "name": "Chipped Amphora",
+    "description": "An ancient vessel made of ceramic material. Used to transport both dry and wet goods.",
+    "sellPrice": 40,
+    "locations": ["Town (3%)", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Chipped Amphora.png"
+  },
+  {
+    "id": "101",
+    "name": "Arrowhead",
+    "description": "A crudely fashioned point used for hunting.",
+    "sellPrice": 40,
+    "locations": ["Mountain (1.6%)", "Forest (1.6%)", "Bus Stop (1.6%)", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Arrowhead.png"
+  },
+  {
+    "id": "103",
+    "name": "Ancient Doll",
+    "description": "An ancient doll covered in grime. This doll may have been used as a toy, a decoration, or a prop in some kind of ritual.",
+    "sellPrice": 60,
+    "locations": [
+      "Mountain (3%)",
+      "Forest (2.4%)",
+      "Bus Stop (2.4%)",
+      "Town (0.8%)",
+      "Fishing Treasure Chest",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Ancient Doll.png"
+  },
+  {
+    "id": "104",
+    "name": "Elvish Jewelry",
+    "description": "Dirty but still beautiful. On the side is a flowing script thought by some to be the ancient language of the elves.",
+    "sellPrice": 200,
+    "locations": ["Forest (0.8%)", "Fishing Treasure Chest", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Elvish Jewelry.png"
+  },
+  {
+    "id": "105",
+    "name": "Chewing Stick",
+    "description": "Ancient people chewed on these to keep their teeth clean.",
+    "sellPrice": 50,
+    "locations": [
+      "Mountain (1.5%)",
+      "Forest (1.5%)",
+      "Town (0.8%)",
+      "Fishing Treasure Chest",
+      "Duggy drop (2%)",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Chewing Stick.png"
+  },
+  {
+    "id": "106",
+    "name": "Ornamental Fan",
+    "description": "This exquisite fan most likely belonged to a noblewoman. Historians believe that the valley was a popular sixth-era vacation spot for the wealthy.",
+    "sellPrice": 300,
+    "locations": [
+      "Beach (1.6%)",
+      "Forest (0.7%)",
+      "Town (0.6%)",
+      "Fishing Treasure Chest",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Ornamental Fan.png"
+  },
+  {
+    "id": "107",
+    "name": "Dinosaur Egg",
+    "description": "A giant dino egg... The entire shell is still intact!",
+    "sellPrice": 350,
+    "locations": [
+      "Mountain (0.6%)",
+      "Fishing Treasure Chest",
+      "Prehistoric floors in Skull Cavern",
+      "Pepper Rex drop (10%)"
+    ],
+    "donationNotes": "Can be hatched in an Incubator to obtain a Dinosaur",
+    "image": "images/animals/produce/Dinosaur Egg.png"
+  },
+  {
+    "id": "108",
+    "name": "Rare Disc",
+    "description": "A heavy black disc studded with peculiar red stones. When you hold it, you're overwhelmed with a feeling of dread.",
+    "sellPrice": 300,
+    "locations": [
+      "Fishing Treasure Chest",
+      "Most Bats (0.1%)",
+      "Shadow Brute, Shadow Shaman, Spider drop (0.3%)",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Rare Disc.png"
+  },
+  {
+    "id": "109",
+    "name": "Ancient Sword",
+    "description": "It's the remains of an ancient sword. Most of the blade has turned to rust, but the hilt is very finely crafted.",
+    "sellPrice": 100,
+    "locations": [
+      "Forest (0.7%)",
+      "Mountain (0.6%)",
+      "Fishing Treasure Chest",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Ancient Sword.png"
+  },
+  {
+    "id": "110",
+    "name": "Rusty Spoon",
+    "description": "A plain old spoon, probably ten years old. Not very interesting.",
+    "sellPrice": 25,
+    "locations": [
+      "Town (4-11%)",
+      "Fishing Treasure Chest",
+      "Tilling in Mines/Skull Cavern",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Rusty Spoon.png"
+  },
+  {
+    "id": "111",
+    "name": "Rusty Spur",
+    "description": "An old spur that was once attached to a cowboy's boot. People must have been raising animals in this area for many generations.",
+    "sellPrice": 25,
+    "locations": ["Farm (10%)", "Fishing Treasure Chest", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Rusty Spur.png"
+  },
+  {
+    "id": "112",
+    "name": "Rusty Cog",
+    "description": "A well preserved cog that must have been part of some ancient machine. This could be dwarven technology.",
+    "sellPrice": 25,
+    "locations": [
+      "Mountain (4%)",
+      "Tilling in Mines/Skull Cavern",
+      "Fishing Treasure Chest",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Rusty Cog.png"
+  },
+  {
+    "id": "113",
+    "name": "Chicken Statue",
+    "description": "It's a statue of a chicken on a bronze base. The ancient people of this area must have been very fond of chickens.",
+    "sellPrice": 50,
+    "locations": ["Farm (9%)", "Fishing Treasure Chest", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Chicken Statue.png"
+  },
+  {
+    "id": "114",
+    "name": "Ancient Seed",
+    "description": "It's a dry old seed from some ancient plant. By all appearances it's long since dead...",
+    "sellPrice": 5,
+    "locations": [
+      "Forest (0.7%)",
+      "Mountain (0.7%)",
+      "Fishing Treasure Chest",
+      "Bug, Cave Fly, Grub drop (0.5%)",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": "Donating grants Ancient Seed crafting recipe and 1 Ancient Seeds pack",
+    "image": "images/artifacts/Ancient Seed.png"
+  },
+  {
+    "id": "115",
+    "name": "Prehistoric Tool",
+    "description": "Some kind of gnarly old digging tool.",
+    "sellPrice": 50,
+    "locations": [
+      "Bus Stop (3%)",
+      "Forest (2.1%)",
+      "Mountain (2%)",
+      "Fishing Treasure Chest",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Prehistoric Tool.png"
+  },
+  {
+    "id": "116",
+    "name": "Dried Starfish",
+    "description": "A starfish from the primordial ocean. It's an unusually pristine specimen!",
+    "sellPrice": 40,
+    "locations": ["Beach (8%)", "Fishing Treasure Chest", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Dried Starfish.png"
+  },
+  {
+    "id": "117",
+    "name": "Anchor",
+    "description": "It may have belonged to ancient pirates.",
+    "sellPrice": 100,
+    "locations": ["Beach (4%)", "Fishing Treasure Chest", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Anchor.png"
+  },
+  {
+    "id": "118",
+    "name": "Glass Shards",
+    "description": "A mixture of glass shards smoothed by centuries of ocean surf. These could have belonged to an ancient mosaic or necklace.",
+    "sellPrice": 20,
+    "locations": ["Beach (7%)", "Fishing Treasure Chest", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Glass Shards.png"
+  },
+  {
+    "id": "119",
+    "name": "Bone Flute",
+    "description": "It's a prehistoric wind instrument carved from an animal's bone. It produces an eerie tone.",
+    "sellPrice": 100,
+    "locations": [
+      "Forest (0.7%)",
+      "Mountain (0.7%)",
+      "Town (0.4%)",
+      "Fishing Treasure Chest",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": "Donating grants a Flute Block",
+    "image": "images/artifacts/Bone Flute.png"
+  },
+  {
+    "id": "120",
+    "name": "Prehistoric Handaxe",
+    "description": "One of the earliest tools employed by humans. This \"crude\" tool was created by striking one rock with another to form a sharp edge.",
+    "sellPrice": 50,
+    "locations": ["Bus Stop (4%)", "Mountain (3%)", "Forest (3%)", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Prehistoric Handaxe.png"
+  },
+  {
+    "id": "121",
+    "name": "Dwarvish Helm",
+    "description": "It's one of the helmets commonly worn by dwarves. The thick metal plating protects them from falling debris and stalactites.",
+    "sellPrice": 100,
+    "locations": [
+      "Tilling in Mines (floor 1-39) (0.1%)",
+      "Geode (3%)",
+      "Omni Geode (1%)",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Dwarvish Helm.png"
+  },
+  {
+    "id": "122",
+    "name": "Dwarf Gadget",
+    "description": "It's a piece of the advanced technology once known to the dwarves. It's still glowing and humming, but you're unable to understand how it works.",
+    "sellPrice": 200,
+    "locations": [
+      "Tilling in Mines (floor 40-79) (0.1%)",
+      "Magma Geode (4%)",
+      "Omni Geode (1%)",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Dwarf Gadget.png"
+  },
+  {
+    "id": "123",
+    "name": "Ancient Drum",
+    "description": "It's a drum made from wood and animal skin. It has a low, reverberating tone.",
+    "sellPrice": 100,
+    "locations": [
+      "Bus Stop (0.7%)",
+      "Forest (0.7%)",
+      "Town (0.4%)",
+      "Frozen Geode (3%)",
+      "Omni Geode (1%)",
+      "Artifact Trove (3.6%)"
+    ],
+    "donationNotes": "Donating grants a Drum Block",
+    "image": "images/artifacts/Ancient Drum.png"
+  },
+  {
+    "id": "124",
+    "name": "Golden Mask",
+    "description": "A creepy golden mask probably used in an ancient magic ritual. A socket in the forehead contains a large purple gemstone.",
+    "sellPrice": 500,
+    "locations": ["Desert (3%)", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Golden Mask.png"
+  },
+  {
+    "id": "125",
+    "name": "Golden Relic",
+    "description": "It's a golden slab with hieroglyphs and pictures emblazoned onto the front.",
+    "sellPrice": 250,
+    "locations": ["Desert (6%)", "Artifact Trove (3.6%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Golden Relic.png"
+  },
+  {
+    "id": "126",
+    "name": "Strange Doll (green)",
+    "description": "???",
+    "sellPrice": 1000,
+    "locations": ["Various dig spots (very rare)", "Fishing Treasure Chest", "Secret Note #17"],
+    "donationNotes": null,
+    "image": "images/artifacts/Strange Doll (green).png"
+  },
+  {
+    "id": "127",
+    "name": "Strange Doll (yellow)",
+    "description": "???",
+    "sellPrice": 1000,
+    "locations": ["Various dig spots (very rare)", "Fishing Treasure Chest", "Secret Note #18"],
+    "donationNotes": null,
+    "image": "images/artifacts/Strange Doll (yellow).png"
+  },
+  {
+    "id": "579",
+    "name": "Prehistoric Scapula",
+    "description": "Commonly known as a \"shoulder blade\"... It's unclear what species it belonged to.",
+    "sellPrice": 100,
+    "locations": ["Forest (3-6%)", "Town (0.7%)", "Skeleton drop (0.5%)", "Bone Nodes (0.8%)"],
+    "donationNotes": "Part of the Sloth Skeleton display in the museum",
+    "image": "images/artifacts/Prehistoric Scapula.png"
+  },
+  {
+    "id": "580",
+    "name": "Prehistoric Tibia",
+    "description": "A thick and sturdy leg bone.",
+    "sellPrice": 100,
+    "locations": ["Railroad (4-8%)", "Forest (0.6%)", "Pepper Rex drop (30%)", "Bone Nodes (0.8%)"],
+    "donationNotes": "Part of the Sloth Skeleton display in the museum",
+    "image": "images/artifacts/Prehistoric Tibia.png"
+  },
+  {
+    "id": "581",
+    "name": "Prehistoric Skull",
+    "description": "This is definitely a mammalian skull.",
+    "sellPrice": 100,
+    "locations": ["Mountain (0.6-6%)", "Haunted Skull drop (1.3%)", "Bone Nodes (0.8%)"],
+    "donationNotes": "Part of the Sloth Skeleton display in the museum",
+    "image": "images/artifacts/Prehistoric Skull.png"
+  },
+  {
+    "id": "582",
+    "name": "Skeletal Hand",
+    "description": "It's a wonder all these ancient little pieces lasted so long.",
+    "sellPrice": 100,
+    "locations": [
+      "Backwoods (4-8%)",
+      "Beach (0.6%)",
+      "Haunted Skull drop (1.3%)",
+      "Bone Nodes (0.8%)"
+    ],
+    "donationNotes": "Part of the Sloth Skeleton display in the museum",
+    "image": "images/artifacts/Skeletal Hand.png"
+  },
+  {
+    "id": "583",
+    "name": "Prehistoric Rib",
+    "description": "Little gouge marks on the side suggest that this rib was someone's dinner.",
+    "sellPrice": 100,
+    "locations": ["Town (2-4%)", "Farm (0.8%)", "Pepper Rex drop (30%)", "Bone Nodes (0.8%)"],
+    "donationNotes": "Part of the Sloth Skeleton display in the museum",
+    "image": "images/artifacts/Prehistoric Rib.png"
+  },
+  {
+    "id": "584",
+    "name": "Prehistoric Vertebra",
+    "description": "A segment of some prehistoric creature's spine.",
+    "sellPrice": 100,
+    "locations": ["Bus Stop (0.7-5%)", "Pepper Rex drop (30%)", "Bone Nodes (0.8%)"],
+    "donationNotes": "Part of the Sloth Skeleton display in the museum",
+    "image": "images/artifacts/Prehistoric Vertebra.png"
+  },
+  {
+    "id": "585",
+    "name": "Skeletal Tail",
+    "description": "It's pretty short for a tail.",
+    "sellPrice": 100,
+    "locations": [
+      "Tilling in Mines/Skull Cavern",
+      "Fishing Treasure Chest (3.1-3.4%)",
+      "Bone Nodes (0.8%)"
+    ],
+    "donationNotes": "Part of the Sloth Skeleton display in the museum",
+    "image": "images/artifacts/Skeletal Tail.png"
+  },
+  {
+    "id": "586",
+    "name": "Nautilus Fossil",
+    "description": "This must've washed up ages ago from an ancient coral reef.",
+    "sellPrice": 80,
+    "locations": ["Beach (1.8%)", "Fishing Treasure Chest (3.1-3.4%)", "Bone Nodes (0.8%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Nautilus Fossil.png"
+  },
+  {
+    "id": "587",
+    "name": "Amphibian Fossil",
+    "description": "The relatively short hind legs suggest some kind of primordial toad.",
+    "sellPrice": 150,
+    "locations": [
+      "Forest (0.6%)",
+      "Mountain (0.6%)",
+      "Fishing Treasure Chest (3.1-3.4%)",
+      "Bone Nodes (0.8%)"
+    ],
+    "donationNotes": null,
+    "image": "images/artifacts/Amphibian Fossil.png"
+  },
+  {
+    "id": "588",
+    "name": "Palm Fossil",
+    "description": "Palm Fossils are relatively common, but this happens to be a particularly well-preserved specimen.",
+    "sellPrice": 100,
+    "locations": ["Desert (7%)", "Forest (0.6-5%)", "Beach (0.6%)", "Bone Nodes (0.8%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Palm Fossil.png"
+  },
+  {
+    "id": "589",
+    "name": "Trilobite",
+    "description": "A long extinct relative of the crab.",
+    "sellPrice": 50,
+    "locations": ["Beach (1.7-5%)", "Forest (1.9%)", "Mountain (1.8%)", "Bone Nodes (0.8%)"],
+    "donationNotes": null,
+    "image": "images/artifacts/Trilobite.png"
+  }
+]

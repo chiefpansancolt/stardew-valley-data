@@ -20,7 +20,12 @@ export type SearchResultKind =
   | 'fish'
   | 'bait'
   | 'tackle'
-  | 'cooked-dish';
+  | 'cooked-dish'
+  | 'artifact'
+  | 'mineral'
+  | 'geode'
+  | 'mining-node'
+  | 'mineral-resource';
 
 export interface SearchResult {
   kind: SearchResultKind;

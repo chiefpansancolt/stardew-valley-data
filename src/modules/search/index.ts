@@ -1,5 +1,6 @@
 import { SearchResult, SearchResultKind } from '@/types';
 import { animals, isFarmAnimal } from '../animals';
+import { artifacts } from '../artifacts';
 import { artisanGoods } from '../artisan-goods';
 import { bait } from '../bait';
 import { cooking } from '../cooking';
@@ -8,6 +9,7 @@ import { fish } from '../fish';
 import { footwear } from '../footwear';
 import { forageables } from '../forageables';
 import { hats } from '../hats';
+import { minerals } from '../minerals';
 import { monsterLoot, monsters } from '../monsters';
 import { rings } from '../rings';
 import { tackle } from '../tackle';
@@ -337,6 +339,58 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
         image: dish.image,
         sellPrice: dish.sellPrice,
       });
+    }
+  }
+
+  // Artifacts
+  for (const artifact of artifacts().get()) {
+    if (matches(query, artifact.id, artifact.name)) {
+      add({
+        kind: 'artifact',
+        id: artifact.id,
+        name: artifact.name,
+        image: artifact.image,
+        sellPrice: artifact.sellPrice,
+      });
+    }
+  }
+
+  // Minerals, geodes, ores, bars, nodes, and resources
+  for (const mineral of minerals().get()) {
+    if (matches(query, mineral.id, mineral.name)) {
+      if (mineral.kind === 'geode') {
+        add({
+          kind: 'geode',
+          id: mineral.id,
+          name: mineral.name,
+          image: mineral.image,
+          sellPrice: mineral.sellPrice,
+        });
+      } else if (mineral.kind === 'node') {
+        add({
+          kind: 'mining-node',
+          id: mineral.id,
+          name: mineral.name,
+          image: mineral.image,
+          sellPrice: null,
+        });
+      } else if (mineral.kind === 'resource') {
+        add({
+          kind: 'mineral-resource',
+          id: mineral.id,
+          name: mineral.name,
+          image: mineral.image,
+          sellPrice: mineral.sellPrice,
+        });
+      } else {
+        add({
+          kind: 'mineral',
+          id: mineral.id,
+          name: mineral.name,
+          image: mineral.image,
+          sellPrice: mineral.sellPrice,
+        });
+      }
     }
   }
 

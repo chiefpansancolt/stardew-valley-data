@@ -1,5 +1,6 @@
 import { run as runAchievements } from './achievements';
 import { run as runAnimals } from './animals';
+import { run as runArtifacts } from './artifacts';
 import { run as runArtisanGoods } from './artisan-goods';
 import { run as runBait } from './bait';
 import { run as runBundles } from './bundles';
@@ -11,6 +12,7 @@ import { run as runFootwear } from './footwear';
 import { run as runForageables } from './forageables';
 import { run as runHats } from './hats';
 import { run as runMaps } from './maps';
+import { run as runMinerals } from './minerals';
 import { run as runMixedSeeds } from './mixed-seeds';
 import { run as runMonsters } from './monsters';
 import { run as runQuests } from './quests';
@@ -56,6 +58,8 @@ const results = [
   runForageables(),
   runUniversalGifts(),
   runVillagers(),
+  runArtifacts(),
+  runMinerals(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
