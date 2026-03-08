@@ -1,0 +1,1363 @@
+[
+  {
+    "id": "194",
+    "name": "Fried Egg",
+    "description": "Sunny-side up.",
+    "sellPrice": 35,
+    "energyHealth": { "energy": 50, "health": 22 },
+    "ingredients": [{ "id": "-5", "name": "Any Egg", "quantity": 1 }],
+    "image": "images/cooking/Fried Egg.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "default" }]
+  },
+  {
+    "id": "195",
+    "name": "Omelet",
+    "description": "It's super fluffy.",
+    "sellPrice": 125,
+    "energyHealth": { "energy": 100, "health": 45 },
+    "ingredients": [
+      { "id": "-5", "name": "Any Egg", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 }
+    ],
+    "image": "images/cooking/Omelet.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "spring", "day": 28, "year": 1 },
+      { "type": "purchase", "from": "Gus", "price": 100, "currency": "g" }
+    ]
+  },
+  {
+    "id": "196",
+    "name": "Salad",
+    "description": "A healthy garden salad.",
+    "sellPrice": 110,
+    "energyHealth": { "energy": 113, "health": 50 },
+    "ingredients": [
+      { "id": "20", "name": "Leek", "quantity": 1 },
+      { "id": "22", "name": "Dandelion", "quantity": 1 },
+      { "id": "419", "name": "Vinegar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Salad.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Emily", "hearts": 3 }]
+  },
+  {
+    "id": "197",
+    "name": "Cheese Cauliflower",
+    "description": "It smells great!",
+    "sellPrice": 300,
+    "energyHealth": { "energy": 138, "health": 62 },
+    "ingredients": [
+      { "id": "190", "name": "Cauliflower", "quantity": 1 },
+      { "id": "424", "name": "Cheese", "quantity": 1 }
+    ],
+    "image": "images/cooking/Cheese Cauliflower.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Pam", "hearts": 3 }]
+  },
+  {
+    "id": "198",
+    "name": "Baked Fish",
+    "description": "Baked fish on a bed of herbs.",
+    "sellPrice": 100,
+    "energyHealth": { "energy": 75, "health": 33 },
+    "ingredients": [
+      { "id": "145", "name": "Sunfish", "quantity": 1 },
+      { "id": "132", "name": "Bream", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 }
+    ],
+    "image": "images/cooking/Baked Fish.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "summer", "day": 7, "year": 1 }
+    ]
+  },
+  {
+    "id": "199",
+    "name": "Parsnip Soup",
+    "description": "It's fresh and hearty.",
+    "sellPrice": 120,
+    "energyHealth": { "energy": 85, "health": 38 },
+    "ingredients": [
+      { "id": "24", "name": "Parsnip", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 },
+      { "id": "419", "name": "Vinegar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Parsnip Soup.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Caroline", "hearts": 3 }]
+  },
+  {
+    "id": "200",
+    "name": "Vegetable Medley",
+    "description": "This is very nutritious.",
+    "sellPrice": 120,
+    "energyHealth": { "energy": 165, "health": 74 },
+    "ingredients": [
+      { "id": "256", "name": "Tomato", "quantity": 1 },
+      { "id": "284", "name": "Beet", "quantity": 1 }
+    ],
+    "image": "images/cooking/Vegetable Medley.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Caroline", "hearts": 7 }]
+  },
+  {
+    "id": "201",
+    "name": "Complete Breakfast",
+    "description": "You'll feel ready to take on the world!",
+    "sellPrice": 350,
+    "energyHealth": { "energy": 200, "health": 90 },
+    "ingredients": [
+      { "id": "194", "name": "Fried Egg", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 },
+      { "id": "210", "name": "Hashbrowns", "quantity": 1 },
+      { "id": "211", "name": "Pancakes", "quantity": 1 }
+    ],
+    "image": "images/cooking/Complete Breakfast.png",
+    "buffs": [
+      { "stat": "Farming", "value": 2 },
+      { "stat": "Max Energy", "value": 50 }
+    ],
+    "buffDuration": 420,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "spring", "day": 21, "year": 2 }
+    ]
+  },
+  {
+    "id": "202",
+    "name": "Fried Calamari",
+    "description": "It's so chewy.",
+    "sellPrice": 150,
+    "energyHealth": { "energy": 80, "health": 36 },
+    "ingredients": [
+      { "id": "151", "name": "Squid", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "247", "name": "Oil", "quantity": 1 }
+    ],
+    "image": "images/cooking/Fried Calamari.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Jodi", "hearts": 3 }]
+  },
+  {
+    "id": "203",
+    "name": "Strange Bun",
+    "description": "What's inside?",
+    "sellPrice": 225,
+    "energyHealth": { "energy": 100, "health": 45 },
+    "ingredients": [
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "722", "name": "Periwinkle", "quantity": 1 },
+      { "id": "308", "name": "Void Mayonnaise", "quantity": 1 }
+    ],
+    "image": "images/cooking/Strange Bun.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Shane", "hearts": 7 }]
+  },
+  {
+    "id": "204",
+    "name": "Lucky Lunch",
+    "description": "A special little meal.",
+    "sellPrice": 250,
+    "energyHealth": { "energy": 100, "health": 45 },
+    "ingredients": [
+      { "id": "154", "name": "Sea Cucumber", "quantity": 1 },
+      { "id": "229", "name": "Tortilla", "quantity": 1 },
+      { "id": "597", "name": "Blue Jazz", "quantity": 1 }
+    ],
+    "image": "images/cooking/Lucky Lunch.png",
+    "buffs": [{ "stat": "Luck", "value": 3 }],
+    "buffDuration": 672,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "spring", "day": 28, "year": 2 }
+    ]
+  },
+  {
+    "id": "205",
+    "name": "Fried Mushroom",
+    "description": "Earthy and aromatic.",
+    "sellPrice": 200,
+    "energyHealth": { "energy": 135, "health": 60 },
+    "ingredients": [
+      { "id": "404", "name": "Common Mushroom", "quantity": 1 },
+      { "id": "257", "name": "Morel", "quantity": 1 },
+      { "id": "247", "name": "Oil", "quantity": 1 }
+    ],
+    "image": "images/cooking/Fried Mushroom.png",
+    "buffs": [{ "stat": "Attack", "value": 2 }],
+    "buffDuration": 420,
+    "recipeSources": [{ "type": "friendship", "villager": "Demetrius", "hearts": 3 }]
+  },
+  {
+    "id": "206",
+    "name": "Pizza",
+    "description": "It's popular for all the right reasons.",
+    "sellPrice": 300,
+    "energyHealth": { "energy": 150, "health": 67 },
+    "ingredients": [
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "256", "name": "Tomato", "quantity": 1 },
+      { "id": "424", "name": "Cheese", "quantity": 1 }
+    ],
+    "image": "images/cooking/Pizza.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "spring", "day": 7, "year": 2 },
+      { "type": "purchase", "from": "Gus", "price": 150, "currency": "g" }
+    ]
+  },
+  {
+    "id": "207",
+    "name": "Bean Hotpot",
+    "description": "It sure is healthy.",
+    "sellPrice": 100,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [{ "id": "188", "name": "Green Bean", "quantity": 2 }],
+    "image": "images/cooking/Bean Hotpot.png",
+    "buffs": [
+      { "stat": "Max Energy", "value": 30 },
+      { "stat": "Magnetism", "value": 32 }
+    ],
+    "buffDuration": 420,
+    "recipeSources": [{ "type": "friendship", "villager": "Clint", "hearts": 7 }]
+  },
+  {
+    "id": "208",
+    "name": "Glazed Yams",
+    "description": "Sweet and satisfying...The sugar gives it a hint of caramel.",
+    "sellPrice": 200,
+    "energyHealth": { "energy": 200, "health": 90 },
+    "ingredients": [
+      { "id": "280", "name": "Yam", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Glazed Yams.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "fall", "day": 21, "year": 1 }
+    ]
+  },
+  {
+    "id": "209",
+    "name": "Carp Surprise",
+    "description": "It's bland and oily.",
+    "sellPrice": 150,
+    "energyHealth": { "energy": 90, "health": 40 },
+    "ingredients": [{ "id": "142", "name": "Carp", "quantity": 4 }],
+    "image": "images/cooking/Carp Surprise.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "summer", "day": 7, "year": 2 }
+    ]
+  },
+  {
+    "id": "210",
+    "name": "Hashbrowns",
+    "description": "Crispy and golden-brown!",
+    "sellPrice": 120,
+    "energyHealth": { "energy": 90, "health": 40 },
+    "ingredients": [
+      { "id": "192", "name": "Potato", "quantity": 1 },
+      { "id": "247", "name": "Oil", "quantity": 1 }
+    ],
+    "image": "images/cooking/Hashbrowns.png",
+    "buffs": [{ "stat": "Farming", "value": 1 }],
+    "buffDuration": 336,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "spring", "day": 14, "year": 2 },
+      { "type": "purchase", "from": "Gus", "price": 50, "currency": "g" }
+    ]
+  },
+  {
+    "id": "211",
+    "name": "Pancakes",
+    "description": "A double stack of fluffy, soft pancakes.",
+    "sellPrice": 80,
+    "energyHealth": { "energy": 90, "health": 40 },
+    "ingredients": [
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "-5", "name": "Any Egg", "quantity": 1 }
+    ],
+    "image": "images/cooking/Pancakes.png",
+    "buffs": [{ "stat": "Foraging", "value": 2 }],
+    "buffDuration": 672,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "summer", "day": 14, "year": 1 },
+      { "type": "purchase", "from": "Gus", "price": 100, "currency": "g" }
+    ]
+  },
+  {
+    "id": "212",
+    "name": "Salmon Dinner",
+    "description": "The lemon spritz makes it special.",
+    "sellPrice": 300,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "139", "name": "Salmon", "quantity": 1 },
+      { "id": "300", "name": "Amaranth", "quantity": 1 },
+      { "id": "250", "name": "Kale", "quantity": 1 }
+    ],
+    "image": "images/cooking/Salmon Dinner.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Gus", "hearts": 3 }]
+  },
+  {
+    "id": "213",
+    "name": "Fish Taco",
+    "description": "It smells delicious.",
+    "sellPrice": 500,
+    "energyHealth": { "energy": 165, "health": 74 },
+    "ingredients": [
+      { "id": "130", "name": "Tuna", "quantity": 1 },
+      { "id": "229", "name": "Tortilla", "quantity": 1 },
+      { "id": "266", "name": "Red Cabbage", "quantity": 1 },
+      { "id": "306", "name": "Mayonnaise", "quantity": 1 }
+    ],
+    "image": "images/cooking/Fish Taco.png",
+    "buffs": [{ "stat": "Fishing", "value": 2 }],
+    "buffDuration": 420,
+    "recipeSources": [{ "type": "friendship", "villager": "Linus", "hearts": 7 }]
+  },
+  {
+    "id": "214",
+    "name": "Crispy Bass",
+    "description": "Wow, the breading is perfect.",
+    "sellPrice": 150,
+    "energyHealth": { "energy": 90, "health": 40 },
+    "ingredients": [
+      { "id": "136", "name": "Largemouth Bass", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "247", "name": "Oil", "quantity": 1 }
+    ],
+    "image": "images/cooking/Crispy Bass.png",
+    "buffs": [{ "stat": "Magnetism", "value": 64 }],
+    "buffDuration": 420,
+    "recipeSources": [{ "type": "friendship", "villager": "Kent", "hearts": 3 }]
+  },
+  {
+    "id": "215",
+    "name": "Pepper Poppers",
+    "description": "Spicy breaded peppers filled with cheese.",
+    "sellPrice": 200,
+    "energyHealth": { "energy": 130, "health": 58 },
+    "ingredients": [
+      { "id": "260", "name": "Hot Pepper", "quantity": 1 },
+      { "id": "424", "name": "Cheese", "quantity": 1 }
+    ],
+    "image": "images/cooking/Pepper Poppers.png",
+    "buffs": [
+      { "stat": "Farming", "value": 2 },
+      { "stat": "Speed", "value": 1 }
+    ],
+    "buffDuration": 420,
+    "recipeSources": [{ "type": "friendship", "villager": "Shane", "hearts": 3 }]
+  },
+  {
+    "id": "216",
+    "name": "Bread",
+    "description": "A crusty baguette.",
+    "sellPrice": 60,
+    "energyHealth": { "energy": 50, "health": 22 },
+    "ingredients": [{ "id": "246", "name": "Wheat Flour", "quantity": 1 }],
+    "image": "images/cooking/Bread.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "summer", "day": 28, "year": 1 },
+      { "type": "purchase", "from": "Gus", "price": 100, "currency": "g" }
+    ]
+  },
+  {
+    "id": "218",
+    "name": "Tom Kha Soup",
+    "description": "These flavors are incredible!",
+    "sellPrice": 250,
+    "energyHealth": { "energy": 175, "health": 78 },
+    "ingredients": [
+      { "id": "88", "name": "Coconut", "quantity": 1 },
+      { "id": "720", "name": "Shrimp", "quantity": 1 },
+      { "id": "404", "name": "Common Mushroom", "quantity": 1 }
+    ],
+    "image": "images/cooking/Tom Kha Soup.png",
+    "buffs": [
+      { "stat": "Farming", "value": 2 },
+      { "stat": "Max Energy", "value": 30 }
+    ],
+    "buffDuration": 420,
+    "recipeSources": [{ "type": "friendship", "villager": "Sandy", "hearts": 7 }]
+  },
+  {
+    "id": "219",
+    "name": "Trout Soup",
+    "description": "Pretty salty.",
+    "sellPrice": 100,
+    "energyHealth": { "energy": 100, "health": 45 },
+    "ingredients": [
+      { "id": "138", "name": "Rainbow Trout", "quantity": 1 },
+      { "id": "153", "name": "Green Algae", "quantity": 1 }
+    ],
+    "image": "images/cooking/Trout Soup.png",
+    "buffs": [{ "stat": "Fishing", "value": 1 }],
+    "buffDuration": 280,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "fall", "day": 14, "year": 1 }
+    ]
+  },
+  {
+    "id": "220",
+    "name": "Chocolate Cake",
+    "description": "Rich and moist with a thick fudge icing.",
+    "sellPrice": 200,
+    "energyHealth": { "energy": 150, "health": 67 },
+    "ingredients": [
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 },
+      { "id": "-5", "name": "Any Egg", "quantity": 1 }
+    ],
+    "image": "images/cooking/Chocolate Cake.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "winter", "day": 14, "year": 1 }
+    ]
+  },
+  {
+    "id": "221",
+    "name": "Pink Cake",
+    "description": "There's little heart candies on top.",
+    "sellPrice": 480,
+    "energyHealth": { "energy": 250, "health": 112 },
+    "ingredients": [
+      { "id": "254", "name": "Melon", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 },
+      { "id": "-5", "name": "Any Egg", "quantity": 1 }
+    ],
+    "image": "images/cooking/Pink Cake.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "summer", "day": 21, "year": 2 }
+    ]
+  },
+  {
+    "id": "222",
+    "name": "Rhubarb Pie",
+    "description": "Mmm, tangy and sweet!",
+    "sellPrice": 400,
+    "energyHealth": { "energy": 215, "health": 96 },
+    "ingredients": [
+      { "id": "252", "name": "Rhubarb", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Rhubarb Pie.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Marnie", "hearts": 7 }]
+  },
+  {
+    "id": "223",
+    "name": "Cookie",
+    "description": "Very chewy.",
+    "sellPrice": 140,
+    "energyHealth": { "energy": 90, "health": 40 },
+    "ingredients": [
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 },
+      { "id": "-5", "name": "Any Egg", "quantity": 1 }
+    ],
+    "image": "images/cooking/Cookie.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "cutscene", "description": "Evelyn 4-heart event" }]
+  },
+  {
+    "id": "224",
+    "name": "Spaghetti",
+    "description": "An old favorite.",
+    "sellPrice": 120,
+    "energyHealth": { "energy": 75, "health": 33 },
+    "ingredients": [
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "256", "name": "Tomato", "quantity": 1 }
+    ],
+    "image": "images/cooking/Spaghetti.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Lewis", "hearts": 3 }]
+  },
+  {
+    "id": "225",
+    "name": "Fried Eel",
+    "description": "Greasy but flavorful.",
+    "sellPrice": 120,
+    "energyHealth": { "energy": 75, "health": 33 },
+    "ingredients": [
+      { "id": "148", "name": "Eel", "quantity": 1 },
+      { "id": "247", "name": "Oil", "quantity": 1 }
+    ],
+    "image": "images/cooking/Fried Eel.png",
+    "buffs": [{ "stat": "Luck", "value": 1 }],
+    "buffDuration": 420,
+    "recipeSources": [{ "type": "friendship", "villager": "George", "hearts": 3 }]
+  },
+  {
+    "id": "226",
+    "name": "Spicy Eel",
+    "description": "It's really spicy! Be careful.",
+    "sellPrice": 175,
+    "energyHealth": { "energy": 115, "health": 51 },
+    "ingredients": [
+      { "id": "148", "name": "Eel", "quantity": 1 },
+      { "id": "260", "name": "Hot Pepper", "quantity": 1 }
+    ],
+    "image": "images/cooking/Spicy Eel.png",
+    "buffs": [
+      { "stat": "Luck", "value": 1 },
+      { "stat": "Speed", "value": 1 }
+    ],
+    "buffDuration": 420,
+    "recipeSources": [{ "type": "friendship", "villager": "George", "hearts": 7 }]
+  },
+  {
+    "id": "227",
+    "name": "Sashimi",
+    "description": "Raw fish sliced into thin pieces.",
+    "sellPrice": 75,
+    "energyHealth": { "energy": 75, "health": 33 },
+    "ingredients": [{ "id": "-4", "name": "Any Fish", "quantity": 1 }],
+    "image": "images/cooking/Sashimi.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Linus", "hearts": 3 }]
+  },
+  {
+    "id": "228",
+    "name": "Maki Roll",
+    "description": "Fish and rice wrapped in seaweed.",
+    "sellPrice": 220,
+    "energyHealth": { "energy": 100, "health": 45 },
+    "ingredients": [
+      { "id": "-4", "name": "Any Fish", "quantity": 1 },
+      { "id": "152", "name": "Seaweed", "quantity": 1 },
+      { "id": "423", "name": "Rice", "quantity": 1 }
+    ],
+    "image": "images/cooking/Maki Roll.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "summer", "day": 21, "year": 1 },
+      { "type": "purchase", "from": "Gus", "price": 300, "currency": "g" }
+    ]
+  },
+  {
+    "id": "229",
+    "name": "Tortilla",
+    "description": "Can be used as a vessel for food or eaten by itself.",
+    "sellPrice": 50,
+    "energyHealth": { "energy": 50, "health": 22 },
+    "ingredients": [{ "id": "270", "name": "Corn", "quantity": 1 }],
+    "image": "images/cooking/Tortilla.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "fall", "day": 7, "year": 1 },
+      { "type": "purchase", "from": "Gus", "price": 100, "currency": "g" }
+    ]
+  },
+  {
+    "id": "230",
+    "name": "Red Plate",
+    "description": "Full of antioxidants.",
+    "sellPrice": 400,
+    "energyHealth": { "energy": 240, "health": 108 },
+    "ingredients": [
+      { "id": "266", "name": "Red Cabbage", "quantity": 1 },
+      { "id": "264", "name": "Radish", "quantity": 1 }
+    ],
+    "image": "images/cooking/Red Plate.png",
+    "buffs": [{ "stat": "Max Energy", "value": 50 }],
+    "buffDuration": 210,
+    "recipeSources": [{ "type": "friendship", "villager": "Emily", "hearts": 7 }]
+  },
+  {
+    "id": "231",
+    "name": "Eggplant Parmesan",
+    "description": "Tangy, cheesy, and wonderful.",
+    "sellPrice": 200,
+    "energyHealth": { "energy": 175, "health": 78 },
+    "ingredients": [
+      { "id": "272", "name": "Eggplant", "quantity": 1 },
+      { "id": "256", "name": "Tomato", "quantity": 1 }
+    ],
+    "image": "images/cooking/Eggplant Parmesan.png",
+    "buffs": [
+      { "stat": "Mining", "value": 1 },
+      { "stat": "Defense", "value": 3 }
+    ],
+    "buffDuration": 280,
+    "recipeSources": [{ "type": "friendship", "villager": "Lewis", "hearts": 7 }]
+  },
+  {
+    "id": "232",
+    "name": "Rice Pudding",
+    "description": "It's creamy, sweet, and fun to eat.",
+    "sellPrice": 260,
+    "energyHealth": { "energy": 115, "health": 51 },
+    "ingredients": [
+      { "id": "-6", "name": "Any Milk", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 },
+      { "id": "423", "name": "Rice", "quantity": 1 }
+    ],
+    "image": "images/cooking/Rice Pudding.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Evelyn", "hearts": 7 }]
+  },
+  {
+    "id": "233",
+    "name": "Ice Cream",
+    "description": "It's hard to find someone who doesn't like this.",
+    "sellPrice": 120,
+    "energyHealth": { "energy": 100, "health": 45 },
+    "ingredients": [
+      { "id": "-6", "name": "Any Milk", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Ice Cream.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Jodi", "hearts": 7 }]
+  },
+  {
+    "id": "234",
+    "name": "Blueberry Tart",
+    "description": "It's subtle and refreshing.",
+    "sellPrice": 150,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "258", "name": "Blueberry", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 },
+      { "id": "-5", "name": "Any Egg", "quantity": 1 }
+    ],
+    "image": "images/cooking/Blueberry Tart.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Pierre", "hearts": 3 }]
+  },
+  {
+    "id": "235",
+    "name": "Autumn's Bounty",
+    "description": "A taste of the season.",
+    "sellPrice": 350,
+    "energyHealth": { "energy": 220, "health": 99 },
+    "ingredients": [
+      { "id": "280", "name": "Yam", "quantity": 1 },
+      { "id": "276", "name": "Pumpkin", "quantity": 1 }
+    ],
+    "image": "images/cooking/Autumn's Bounty.png",
+    "buffs": [
+      { "stat": "Foraging", "value": 2 },
+      { "stat": "Defense", "value": 2 }
+    ],
+    "buffDuration": 462,
+    "recipeSources": [{ "type": "friendship", "villager": "Demetrius", "hearts": 7 }]
+  },
+  {
+    "id": "236",
+    "name": "Pumpkin Soup",
+    "description": "A seasonal favorite.",
+    "sellPrice": 300,
+    "energyHealth": { "energy": 200, "health": 90 },
+    "ingredients": [
+      { "id": "276", "name": "Pumpkin", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 }
+    ],
+    "image": "images/cooking/Pumpkin Soup.png",
+    "buffs": [
+      { "stat": "Luck", "value": 2 },
+      { "stat": "Defense", "value": 2 }
+    ],
+    "buffDuration": 462,
+    "recipeSources": [{ "type": "friendship", "villager": "Robin", "hearts": 7 }]
+  },
+  {
+    "id": "237",
+    "name": "Super Meal",
+    "description": "It's a really energizing meal.",
+    "sellPrice": 220,
+    "energyHealth": { "energy": 160, "health": 72 },
+    "ingredients": [
+      { "id": "278", "name": "Bok Choy", "quantity": 1 },
+      { "id": "282", "name": "Cranberries", "quantity": 1 },
+      { "id": "274", "name": "Artichoke", "quantity": 1 }
+    ],
+    "image": "images/cooking/Super Meal.png",
+    "buffs": [
+      { "stat": "Max Energy", "value": 40 },
+      { "stat": "Speed", "value": 1 }
+    ],
+    "buffDuration": 210,
+    "recipeSources": [{ "type": "friendship", "villager": "Kent", "hearts": 7 }]
+  },
+  {
+    "id": "238",
+    "name": "Cranberry Sauce",
+    "description": "A festive treat.",
+    "sellPrice": 120,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "282", "name": "Cranberries", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Cranberry Sauce.png",
+    "buffs": [{ "stat": "Mining", "value": 2 }],
+    "buffDuration": 210,
+    "recipeSources": [{ "type": "friendship", "villager": "Gus", "hearts": 7 }]
+  },
+  {
+    "id": "239",
+    "name": "Stuffing",
+    "description": "Ahh... the smell of warm bread and sage.",
+    "sellPrice": 165,
+    "energyHealth": { "energy": 170, "health": 76 },
+    "ingredients": [
+      { "id": "216", "name": "Bread", "quantity": 1 },
+      { "id": "282", "name": "Cranberries", "quantity": 1 },
+      { "id": "408", "name": "Hazelnut", "quantity": 1 }
+    ],
+    "image": "images/cooking/Stuffing.png",
+    "buffs": [{ "stat": "Defense", "value": 2 }],
+    "buffDuration": 336,
+    "recipeSources": [{ "type": "friendship", "villager": "Pam", "hearts": 7 }]
+  },
+  {
+    "id": "240",
+    "name": "Farmer's Lunch",
+    "description": "This'll keep you going.",
+    "sellPrice": 150,
+    "energyHealth": { "energy": 200, "health": 90 },
+    "ingredients": [
+      { "id": "195", "name": "Omelet", "quantity": 1 },
+      { "id": "24", "name": "Parsnip", "quantity": 1 }
+    ],
+    "image": "images/cooking/Farmer's Lunch.png",
+    "buffs": [{ "stat": "Farming", "value": 3 }],
+    "buffDuration": 336,
+    "recipeSources": [{ "type": "skill", "skill": "Farming", "level": 3 }]
+  },
+  {
+    "id": "241",
+    "name": "Survival Burger",
+    "description": "A convenient snack for the explorer.",
+    "sellPrice": 180,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "216", "name": "Bread", "quantity": 1 },
+      { "id": "78", "name": "Cave Carrot", "quantity": 1 },
+      { "id": "272", "name": "Eggplant", "quantity": 1 }
+    ],
+    "image": "images/cooking/Survival Burger.png",
+    "buffs": [{ "stat": "Foraging", "value": 3 }],
+    "buffDuration": 336,
+    "recipeSources": [{ "type": "skill", "skill": "Foraging", "level": 8 }]
+  },
+  {
+    "id": "242",
+    "name": "Dish O' The Sea",
+    "description": "This'll keep you warm in the cold sea air.",
+    "sellPrice": 220,
+    "energyHealth": { "energy": 150, "health": 67 },
+    "ingredients": [
+      { "id": "131", "name": "Sardine", "quantity": 2 },
+      { "id": "210", "name": "Hashbrowns", "quantity": 1 }
+    ],
+    "image": "images/cooking/Dish O' The Sea.png",
+    "buffs": [{ "stat": "Fishing", "value": 3 }],
+    "buffDuration": 336,
+    "recipeSources": [{ "type": "skill", "skill": "Fishing", "level": 3 }]
+  },
+  {
+    "id": "243",
+    "name": "Miner's Treat",
+    "description": "This should keep your energy up.",
+    "sellPrice": 200,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "78", "name": "Cave Carrot", "quantity": 2 },
+      { "id": "245", "name": "Sugar", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 }
+    ],
+    "image": "images/cooking/Miner's Treat.png",
+    "buffs": [
+      { "stat": "Mining", "value": 3 },
+      { "stat": "Magnetism", "value": 32 }
+    ],
+    "buffDuration": 336,
+    "recipeSources": [{ "type": "skill", "skill": "Mining", "level": 3 }]
+  },
+  {
+    "id": "244",
+    "name": "Roots Platter",
+    "description": "This'll get you digging for more.",
+    "sellPrice": 100,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "78", "name": "Cave Carrot", "quantity": 1 },
+      { "id": "412", "name": "Winter Root", "quantity": 1 }
+    ],
+    "image": "images/cooking/Roots Platter.png",
+    "buffs": [{ "stat": "Attack", "value": 3 }],
+    "buffDuration": 336,
+    "recipeSources": [{ "type": "skill", "skill": "Combat", "level": 3 }]
+  },
+  {
+    "id": "253",
+    "name": "Triple Shot Espresso",
+    "description": "It's more potent than regular coffee!",
+    "sellPrice": 450,
+    "energyHealth": { "energy": 8, "health": 3 },
+    "ingredients": [{ "id": "395", "name": "Coffee", "quantity": 3 }],
+    "image": "images/cooking/Triple Shot Espresso.png",
+    "buffs": [{ "stat": "Speed", "value": 1 }],
+    "buffDuration": 252,
+    "recipeSources": [
+      { "type": "purchase", "from": "Gus", "price": 5000, "currency": "g" }
+    ]
+  },
+  {
+    "id": "265",
+    "name": "Seafoam Pudding",
+    "description": "This briny pudding will really get you into the maritime mindset!",
+    "sellPrice": 300,
+    "energyHealth": { "energy": 175, "health": 78 },
+    "ingredients": [
+      { "id": "267", "name": "Flounder", "quantity": 1 },
+      { "id": "269", "name": "Midnight Carp", "quantity": 1 },
+      { "id": "814", "name": "Squid Ink", "quantity": 1 }
+    ],
+    "image": "images/cooking/Seafoam Pudding.png",
+    "buffs": [{ "stat": "Fishing", "value": 4 }],
+    "buffDuration": 210,
+    "recipeSources": [{ "type": "skill", "skill": "Fishing", "level": 9 }]
+  },
+  {
+    "id": "456",
+    "name": "Algae Soup",
+    "description": "It's a little slimy.",
+    "sellPrice": 100,
+    "energyHealth": { "energy": 75, "health": 33 },
+    "ingredients": [{ "id": "153", "name": "Green Algae", "quantity": 4 }],
+    "image": "images/cooking/Algae Soup.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Clint", "hearts": 3 }]
+  },
+  {
+    "id": "457",
+    "name": "Pale Broth",
+    "description": "A delicate broth with a hint of sulfur.",
+    "sellPrice": 150,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [{ "id": "157", "name": "White Algae", "quantity": 2 }],
+    "image": "images/cooking/Pale Broth.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Marnie", "hearts": 3 }]
+  },
+  {
+    "id": "604",
+    "name": "Plum Pudding",
+    "description": "A traditional holiday treat.",
+    "sellPrice": 260,
+    "energyHealth": { "energy": 175, "health": 78 },
+    "ingredients": [
+      { "id": "406", "name": "Wild Plum", "quantity": 2 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Plum Pudding.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "winter", "day": 7, "year": 1 }
+    ]
+  },
+  {
+    "id": "605",
+    "name": "Artichoke Dip",
+    "description": "It's cool and refreshing.",
+    "sellPrice": 210,
+    "energyHealth": { "energy": 100, "health": 45 },
+    "ingredients": [
+      { "id": "274", "name": "Artichoke", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 }
+    ],
+    "image": "images/cooking/Artichoke Dip.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "fall", "day": 28, "year": 1 }
+    ]
+  },
+  {
+    "id": "606",
+    "name": "Stir Fry",
+    "description": "Julienned vegetables on a bed of rice.",
+    "sellPrice": 335,
+    "energyHealth": { "energy": 200, "health": 90 },
+    "ingredients": [
+      { "id": "78", "name": "Cave Carrot", "quantity": 1 },
+      { "id": "404", "name": "Common Mushroom", "quantity": 1 },
+      { "id": "250", "name": "Kale", "quantity": 1 },
+      { "id": "247", "name": "Oil", "quantity": 1 }
+    ],
+    "image": "images/cooking/Stir Fry.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "spring", "day": 7, "year": 1 }
+    ]
+  },
+  {
+    "id": "607",
+    "name": "Roasted Hazelnuts",
+    "description": "The roasting process creates a rich forest flavor.",
+    "sellPrice": 270,
+    "energyHealth": { "energy": 175, "health": 78 },
+    "ingredients": [{ "id": "408", "name": "Hazelnut", "quantity": 3 }],
+    "image": "images/cooking/Roasted Hazelnuts.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "summer", "day": 28, "year": 2 }
+    ]
+  },
+  {
+    "id": "608",
+    "name": "Pumpkin Pie",
+    "description": "Silky pumpkin cream in a flaky crust.",
+    "sellPrice": 385,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "276", "name": "Pumpkin", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Pumpkin Pie.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "winter", "day": 21, "year": 1 }
+    ]
+  },
+  {
+    "id": "609",
+    "name": "Radish Salad",
+    "description": "The radishes are so crisp!",
+    "sellPrice": 300,
+    "energyHealth": { "energy": 200, "health": 90 },
+    "ingredients": [
+      { "id": "247", "name": "Oil", "quantity": 1 },
+      { "id": "419", "name": "Vinegar", "quantity": 1 },
+      { "id": "264", "name": "Radish", "quantity": 1 }
+    ],
+    "image": "images/cooking/Radish Salad.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "spring", "day": 21, "year": 1 }
+    ]
+  },
+  {
+    "id": "610",
+    "name": "Fruit Salad",
+    "description": "A delicious combination of summer fruits.",
+    "sellPrice": 450,
+    "energyHealth": { "energy": 263, "health": 118 },
+    "ingredients": [
+      { "id": "258", "name": "Blueberry", "quantity": 1 },
+      { "id": "254", "name": "Melon", "quantity": 1 },
+      { "id": "634", "name": "Apricot", "quantity": 1 }
+    ],
+    "image": "images/cooking/Fruit Salad.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "fall", "day": 7, "year": 2 }
+    ]
+  },
+  {
+    "id": "611",
+    "name": "Blackberry Cobbler",
+    "description": "There's nothing quite like it.",
+    "sellPrice": 260,
+    "energyHealth": { "energy": 175, "health": 78 },
+    "ingredients": [
+      { "id": "410", "name": "Blackberry", "quantity": 2 },
+      { "id": "245", "name": "Sugar", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 }
+    ],
+    "image": "images/cooking/Blackberry Cobbler.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "fall", "day": 14, "year": 2 }
+    ]
+  },
+  {
+    "id": "612",
+    "name": "Cranberry Candy",
+    "description": "It's sweet enough to mask the bitter fruit.",
+    "sellPrice": 175,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "282", "name": "Cranberries", "quantity": 1 },
+      { "id": "613", "name": "Apple", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Cranberry Candy.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "winter", "day": 28, "year": 1 }
+    ]
+  },
+  {
+    "id": "618",
+    "name": "Bruschetta",
+    "description": "Roasted tomatoes on a crisp white bread.",
+    "sellPrice": 210,
+    "energyHealth": { "energy": 113, "health": 50 },
+    "ingredients": [
+      { "id": "216", "name": "Bread", "quantity": 1 },
+      { "id": "247", "name": "Oil", "quantity": 1 },
+      { "id": "256", "name": "Tomato", "quantity": 1 }
+    ],
+    "image": "images/cooking/Bruschetta.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "winter", "day": 21, "year": 2 }
+    ]
+  },
+  {
+    "id": "648",
+    "name": "Coleslaw",
+    "description": "It's light, fresh and very healthy.",
+    "sellPrice": 345,
+    "energyHealth": { "energy": 213, "health": 95 },
+    "ingredients": [
+      { "id": "266", "name": "Red Cabbage", "quantity": 1 },
+      { "id": "419", "name": "Vinegar", "quantity": 1 },
+      { "id": "306", "name": "Mayonnaise", "quantity": 1 }
+    ],
+    "image": "images/cooking/Coleslaw.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "spring", "day": 14, "year": 1 }
+    ]
+  },
+  {
+    "id": "649",
+    "name": "Fiddlehead Risotto",
+    "description": "A creamy rice dish served with sauteed fern heads. It's a little bland.",
+    "sellPrice": 350,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "247", "name": "Oil", "quantity": 1 },
+      { "id": "259", "name": "Fiddlehead Fern", "quantity": 1 },
+      { "id": "248", "name": "Garlic", "quantity": 1 }
+    ],
+    "image": "images/cooking/Fiddlehead Risotto.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "fall", "day": 28, "year": 2 }
+    ]
+  },
+  {
+    "id": "651",
+    "name": "Poppyseed Muffin",
+    "description": "It has a soothing effect.",
+    "sellPrice": 250,
+    "energyHealth": { "energy": 150, "health": 67 },
+    "ingredients": [
+      { "id": "376", "name": "Poppy", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Poppyseed Muffin.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "winter", "day": 7, "year": 2 }
+    ]
+  },
+  {
+    "id": "727",
+    "name": "Chowder",
+    "description": "A perfect way to warm yourself after a cold night at sea.",
+    "sellPrice": 135,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "372", "name": "Clam", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 }
+    ],
+    "image": "images/cooking/Chowder.png",
+    "buffs": [{ "stat": "Fishing", "value": 1 }],
+    "buffDuration": 1008,
+    "recipeSources": [{ "type": "friendship", "villager": "Willy", "hearts": 3 }]
+  },
+  {
+    "id": "728",
+    "name": "Fish Stew",
+    "description": "It smells a lot like the sea. Tastes better, though.",
+    "sellPrice": 175,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "716", "name": "Crayfish", "quantity": 1 },
+      { "id": "719", "name": "Mussel", "quantity": 1 },
+      { "id": "722", "name": "Periwinkle", "quantity": 1 },
+      { "id": "256", "name": "Tomato", "quantity": 1 }
+    ],
+    "image": "images/cooking/Fish Stew.png",
+    "buffs": [{ "stat": "Fishing", "value": 3 }],
+    "buffDuration": 1008,
+    "recipeSources": [{ "type": "friendship", "villager": "Willy", "hearts": 7 }]
+  },
+  {
+    "id": "729",
+    "name": "Escargot",
+    "description": "Butter-soaked snails cooked to perfection.",
+    "sellPrice": 125,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "721", "name": "Snail", "quantity": 1 },
+      { "id": "248", "name": "Garlic", "quantity": 1 }
+    ],
+    "image": "images/cooking/Escargot.png",
+    "buffs": [{ "stat": "Fishing", "value": 2 }],
+    "buffDuration": 1008,
+    "recipeSources": [{ "type": "friendship", "villager": "Willy", "hearts": 5 }]
+  },
+  {
+    "id": "730",
+    "name": "Lobster Bisque",
+    "description": "This delicate soup is a secret family recipe of Willy's.",
+    "sellPrice": 205,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "715", "name": "Lobster", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 }
+    ],
+    "image": "images/cooking/Lobster Bisque.png",
+    "buffs": [
+      { "stat": "Fishing", "value": 3 },
+      { "stat": "Max Energy", "value": 50 }
+    ],
+    "buffDuration": 1008,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "winter", "day": 14, "year": 2 },
+      { "type": "friendship", "villager": "Willy", "hearts": 9 }
+    ]
+  },
+  {
+    "id": "731",
+    "name": "Maple Bar",
+    "description": "It's a sweet doughnut topped with a rich maple glaze.",
+    "sellPrice": 300,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "724", "name": "Maple Syrup", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 }
+    ],
+    "image": "images/cooking/Maple Bar.png",
+    "buffs": [
+      { "stat": "Farming", "value": 1 },
+      { "stat": "Fishing", "value": 1 },
+      { "stat": "Mining", "value": 1 }
+    ],
+    "buffDuration": 1008,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "summer", "day": 14, "year": 2 }
+    ]
+  },
+  {
+    "id": "732",
+    "name": "Crab Cakes",
+    "description": "Crab, bread crumbs, and egg formed into patties then fried to golden brown.",
+    "sellPrice": 275,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "717", "name": "Crab", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "-5", "name": "Any Egg", "quantity": 1 },
+      { "id": "247", "name": "Oil", "quantity": 1 }
+    ],
+    "image": "images/cooking/Crab Cakes.png",
+    "buffs": [
+      { "stat": "Speed", "value": 1 },
+      { "stat": "Defense", "value": 1 }
+    ],
+    "buffDuration": 1008,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "fall", "day": 21, "year": 2 }
+    ]
+  },
+  {
+    "id": "733",
+    "name": "Shrimp Cocktail",
+    "description": "A sumptuous appetizer made with freshly-caught shrimp.",
+    "sellPrice": 160,
+    "energyHealth": { "energy": 225, "health": 101 },
+    "ingredients": [
+      { "id": "720", "name": "Shrimp", "quantity": 1 },
+      { "id": "256", "name": "Tomato", "quantity": 1 },
+      { "id": "16", "name": "Wild Horseradish", "quantity": 1 }
+    ],
+    "image": "images/cooking/Shrimp Cocktail.png",
+    "buffs": [
+      { "stat": "Fishing", "value": 1 },
+      { "stat": "Luck", "value": 1 }
+    ],
+    "buffDuration": 602,
+    "recipeSources": [
+      { "type": "queen-of-sauce", "season": "winter", "day": 28, "year": 2 }
+    ]
+  },
+  {
+    "id": "903",
+    "name": "Ginger Ale",
+    "description": "A zesty soda known for its soothing effect on the stomach.",
+    "sellPrice": 200,
+    "energyHealth": { "energy": 63, "health": 28 },
+    "ingredients": [
+      { "id": "829", "name": "Ginger", "quantity": 3 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Ginger Ale.png",
+    "buffs": [{ "stat": "Luck", "value": 1 }],
+    "buffDuration": 301,
+    "recipeSources": [
+      { "type": "purchase", "from": "Dwarf Shop", "price": 1000, "currency": "g" }
+    ]
+  },
+  {
+    "id": "904",
+    "name": "Banana Pudding",
+    "description": "A creamy dessert with a wonderful tropical flavor.",
+    "sellPrice": 260,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "91", "name": "Banana", "quantity": 1 },
+      { "id": "-6", "name": "Any Milk", "quantity": 1 },
+      { "id": "245", "name": "Sugar", "quantity": 1 }
+    ],
+    "image": "images/cooking/Banana Pudding.png",
+    "buffs": [
+      { "stat": "Mining", "value": 1 },
+      { "stat": "Luck", "value": 1 },
+      { "stat": "Defense", "value": 1 }
+    ],
+    "buffDuration": 301,
+    "recipeSources": [
+      { "type": "purchase", "from": "Island Trader", "price": 30, "currency": "Bone Fragment" }
+    ]
+  },
+  {
+    "id": "905",
+    "name": "Mango Sticky Rice",
+    "description": "Sweet mango and coconut transforms this rice into something very special.",
+    "sellPrice": 250,
+    "energyHealth": { "energy": 113, "health": 50 },
+    "ingredients": [
+      { "id": "834", "name": "Mango", "quantity": 1 },
+      { "id": "88", "name": "Coconut", "quantity": 1 },
+      { "id": "423", "name": "Rice", "quantity": 1 }
+    ],
+    "image": "images/cooking/Mango Sticky Rice.png",
+    "buffs": [{ "stat": "Defense", "value": 3 }],
+    "buffDuration": 301,
+    "recipeSources": [{ "type": "friendship", "villager": "Leo", "hearts": 7 }]
+  },
+  {
+    "id": "906",
+    "name": "Poi",
+    "description": "A traditional food with a delicate, sweet flavor when eaten fresh.",
+    "sellPrice": 400,
+    "energyHealth": { "energy": 75, "health": 33 },
+    "ingredients": [{ "id": "830", "name": "Taro Root", "quantity": 4 }],
+    "image": "images/cooking/Poi.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "friendship", "villager": "Leo", "hearts": 3 }]
+  },
+  {
+    "id": "907",
+    "name": "Tropical Curry",
+    "description": "An exotic, fragrant curry served in a pineapple bowl.",
+    "sellPrice": 500,
+    "energyHealth": { "energy": 150, "health": 67 },
+    "ingredients": [
+      { "id": "88", "name": "Coconut", "quantity": 1 },
+      { "id": "832", "name": "Pineapple", "quantity": 1 },
+      { "id": "260", "name": "Hot Pepper", "quantity": 1 }
+    ],
+    "image": "images/cooking/Tropical Curry.png",
+    "buffs": [{ "stat": "Foraging", "value": 4 }],
+    "buffDuration": 301,
+    "recipeSources": [
+      { "type": "purchase", "from": "Ginger Island Resort", "price": 2000, "currency": "g" }
+    ]
+  },
+  {
+    "id": "921",
+    "name": "Squid Ink Ravioli",
+    "description": "Temporarily protects from debuffs.",
+    "sellPrice": 150,
+    "energyHealth": { "energy": 125, "health": 56 },
+    "ingredients": [
+      { "id": "814", "name": "Squid Ink", "quantity": 1 },
+      { "id": "246", "name": "Wheat Flour", "quantity": 1 },
+      { "id": "256", "name": "Tomato", "quantity": 1 }
+    ],
+    "image": "images/cooking/Squid Ink Ravioli.png",
+    "buffs": [
+      { "stat": "Mining", "value": 1 },
+      { "stat": "Debuff Immunity", "value": 1 }
+    ],
+    "buffDuration": 280,
+    "recipeSources": [{ "type": "skill", "skill": "Combat", "level": 9 }]
+  },
+  {
+    "id": "MossSoup",
+    "name": "Moss Soup",
+    "description": "It's thick and slimy, but edible.",
+    "sellPrice": 80,
+    "energyHealth": { "energy": 70, "health": 31 },
+    "ingredients": [{ "id": "Moss", "name": "Moss", "quantity": 20 }],
+    "image": "images/cooking/Moss Soup.png",
+    "buffs": [],
+    "buffDuration": null,
+    "recipeSources": [{ "type": "skill", "skill": "Foraging", "level": 3 }]
+  }
+]

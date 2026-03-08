@@ -19,7 +19,8 @@ export type SearchResultKind =
   | 'forageable'
   | 'fish'
   | 'bait'
-  | 'tackle';
+  | 'tackle'
+  | 'cooked-dish';
 
 export interface SearchResult {
   kind: SearchResultKind;

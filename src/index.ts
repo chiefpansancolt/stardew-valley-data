@@ -26,3 +26,4 @@ export * from './forageables';
 export * from './fish';
 export * from './bait';
 export * from './tackle';
+export * from './cooking';

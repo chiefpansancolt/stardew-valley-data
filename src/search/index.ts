@@ -2,6 +2,7 @@ import { SearchResult, SearchResultKind } from '@/types';
 import { animals, isFarmAnimal } from '../animals';
 import { artisanGoods } from '../artisan-goods';
 import { bait } from '../bait';
+import { cooking } from '../cooking';
 import { crops } from '../crops';
 import { fish } from '../fish';
 import { footwear } from '../footwear';
@@ -316,6 +317,19 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
         name: item.name,
         image: item.image,
         sellPrice: item.sellPrice,
+      });
+    }
+  }
+
+  // Cooked dishes
+  for (const dish of cooking().get()) {
+    if (matches(query, dish.id, dish.name)) {
+      add({
+        kind: 'cooked-dish',
+        id: dish.id,
+        name: dish.name,
+        image: dish.image,
+        sellPrice: dish.sellPrice,
       });
     }
   }
