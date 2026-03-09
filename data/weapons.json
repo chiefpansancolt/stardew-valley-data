@@ -1,6 +1,6 @@
 [
   {
-    "id": "rusty-sword",
+    "id": "0",
     "type": "sword",
     "name": "Rusty Sword",
     "image": "images/weapons/swords/Rusty Sword.png",
@@ -17,7 +17,7 @@
     "canEnchant": false
   },
   {
-    "id": "wooden-blade",
+    "id": "12",
     "type": "sword",
     "name": "Wooden Blade",
     "image": "images/weapons/swords/Wooden Blade.png",
@@ -34,7 +34,7 @@
     "canEnchant": true
   },
   {
-    "id": "steel-smallsword",
+    "id": "11",
     "type": "sword",
     "name": "Steel Smallsword",
     "image": "images/weapons/swords/Steel Smallsword.png",
@@ -51,7 +51,7 @@
     "canEnchant": true
   },
   {
-    "id": "pirates-sword",
+    "id": "43",
     "type": "sword",
     "name": "Pirate's Sword",
     "image": "images/weapons/swords/Pirate's Sword.png",
@@ -68,7 +68,7 @@
     "canEnchant": true
   },
   {
-    "id": "silver-saber",
+    "id": "1",
     "type": "sword",
     "name": "Silver Saber",
     "image": "images/weapons/swords/Silver Saber.png",
@@ -85,7 +85,7 @@
     "canEnchant": true
   },
   {
-    "id": "cutlass",
+    "id": "44",
     "type": "sword",
     "name": "Cutlass",
     "image": "images/weapons/swords/Cutlass.png",
@@ -102,7 +102,7 @@
     "canEnchant": true
   },
   {
-    "id": "forest-sword",
+    "id": "15",
     "type": "sword",
     "name": "Forest Sword",
     "image": "images/weapons/swords/Forest Sword.png",
@@ -119,7 +119,7 @@
     "canEnchant": true
   },
   {
-    "id": "iron-edge",
+    "id": "6",
     "type": "sword",
     "name": "Iron Edge",
     "image": "images/weapons/swords/Iron Edge.png",
@@ -136,7 +136,7 @@
     "canEnchant": true
   },
   {
-    "id": "meowmere",
+    "id": "65",
     "type": "sword",
     "name": "Meowmere",
     "image": "images/weapons/swords/Meowmere.png",
@@ -153,7 +153,7 @@
     "canEnchant": true
   },
   {
-    "id": "bone-sword",
+    "id": "5",
     "type": "sword",
     "name": "Bone Sword",
     "image": "images/weapons/swords/Bone Sword.png",
@@ -170,7 +170,7 @@
     "canEnchant": true
   },
   {
-    "id": "claymore",
+    "id": "10",
     "type": "sword",
     "name": "Claymore",
     "image": "images/weapons/swords/Claymore.png",
@@ -187,7 +187,7 @@
     "canEnchant": true
   },
   {
-    "id": "neptunes-glaive",
+    "id": "14",
     "type": "sword",
     "name": "Neptune's Glaive",
     "image": "images/weapons/swords/Neptune's Glaive.png",
@@ -204,7 +204,7 @@
     "canEnchant": true
   },
   {
-    "id": "templars-blade",
+    "id": "7",
     "type": "sword",
     "name": "Templar's Blade",
     "image": "images/weapons/swords/Templar's Blade.png",
@@ -221,7 +221,7 @@
     "canEnchant": true
   },
   {
-    "id": "insect-head",
+    "id": "13",
     "type": "sword",
     "name": "Insect Head",
     "image": "images/weapons/swords/Insect Head.png",
@@ -238,7 +238,7 @@
     "canEnchant": true
   },
   {
-    "id": "obsidian-edge",
+    "id": "8",
     "type": "sword",
     "name": "Obsidian Edge",
     "image": "images/weapons/swords/Obsidian Edge.png",
@@ -255,7 +255,7 @@
     "canEnchant": true
   },
   {
-    "id": "ossified-blade",
+    "id": "60",
     "type": "sword",
     "name": "Ossified Blade",
     "image": "images/weapons/swords/Ossified Blade.png",
@@ -272,7 +272,7 @@
     "canEnchant": true
   },
   {
-    "id": "haleys-iron",
+    "id": "42",
     "type": "sword",
     "name": "Haley's Iron",
     "image": "images/weapons/swords/Haley's Iron.png",
@@ -289,7 +289,7 @@
     "canEnchant": true
   },
   {
-    "id": "leahs-whittler",
+    "id": "39",
     "type": "sword",
     "name": "Leah's Whittler",
     "image": "images/weapons/swords/Leah's Whittler.png",
@@ -306,7 +306,7 @@
     "canEnchant": true
   },
   {
-    "id": "holy-blade",
+    "id": "3",
     "type": "sword",
     "name": "Holy Blade",
     "image": "images/weapons/swords/Holy Blade.png",
@@ -323,7 +323,7 @@
     "canEnchant": true
   },
   {
-    "id": "tempered-broadsword",
+    "id": "52",
     "type": "sword",
     "name": "Tempered Broadsword",
     "image": "images/weapons/swords/Tempered Broadsword.png",
@@ -340,7 +340,7 @@
     "canEnchant": true
   },
   {
-    "id": "yeti-tooth",
+    "id": "48",
     "type": "sword",
     "name": "Yeti Tooth",
     "image": "images/weapons/swords/Yeti Tooth.png",
@@ -357,7 +357,7 @@
     "canEnchant": true
   },
   {
-    "id": "steel-falchion",
+    "id": "50",
     "type": "sword",
     "name": "Steel Falchion",
     "image": "images/weapons/swords/Steel Falchion.png",
@@ -374,7 +374,7 @@
     "canEnchant": true
   },
   {
-    "id": "dark-sword",
+    "id": "2",
     "type": "sword",
     "name": "Dark Sword",
     "image": "images/weapons/swords/Dark Sword.png",
@@ -391,7 +391,7 @@
     "canEnchant": true
   },
   {
-    "id": "lava-katana",
+    "id": "9",
     "type": "sword",
     "name": "Lava Katana",
     "image": "images/weapons/swords/Lava Katana.png",
@@ -408,7 +408,7 @@
     "canEnchant": true
   },
   {
-    "id": "dragontooth-cutlass",
+    "id": "57",
     "type": "sword",
     "name": "Dragontooth Cutlass",
     "image": "images/weapons/swords/Dragontooth Cutlass.png",
@@ -425,7 +425,7 @@
     "canEnchant": true
   },
   {
-    "id": "dwarf-sword",
+    "id": "54",
     "type": "sword",
     "name": "Dwarf Sword",
     "image": "images/weapons/swords/Dwarf Sword.png",
@@ -442,7 +442,7 @@
     "canEnchant": true
   },
   {
-    "id": "galaxy-sword",
+    "id": "4",
     "type": "sword",
     "name": "Galaxy Sword",
     "image": "images/weapons/swords/Galaxy Sword.png",
@@ -459,7 +459,7 @@
     "canEnchant": true
   },
   {
-    "id": "infinity-blade",
+    "id": "62",
     "type": "sword",
     "name": "Infinity Blade",
     "image": "images/weapons/swords/Infinity Blade.png",
@@ -476,7 +476,7 @@
     "canEnchant": true
   },
   {
-    "id": "carving-knife",
+    "id": "16",
     "type": "dagger",
     "name": "Carving Knife",
     "image": "images/weapons/daggers/Carving Knife.png",
@@ -493,7 +493,7 @@
     "canEnchant": true
   },
   {
-    "id": "iron-dirk",
+    "id": "17",
     "type": "dagger",
     "name": "Iron Dirk",
     "image": "images/weapons/daggers/Iron Dirk.png",
@@ -510,7 +510,7 @@
     "canEnchant": true
   },
   {
-    "id": "wind-spire",
+    "id": "22",
     "type": "dagger",
     "name": "Wind Spire",
     "image": "images/weapons/daggers/Wind Spire.png",
@@ -527,7 +527,7 @@
     "canEnchant": true
   },
   {
-    "id": "elf-blade",
+    "id": "20",
     "type": "dagger",
     "name": "Elf Blade",
     "image": "images/weapons/daggers/Elf Blade.png",
@@ -544,7 +544,7 @@
     "canEnchant": true
   },
   {
-    "id": "burglars-shank",
+    "id": "18",
     "type": "dagger",
     "name": "Burglar's Shank",
     "image": "images/weapons/daggers/Burglar's Shank.png",
@@ -561,7 +561,7 @@
     "canEnchant": true
   },
   {
-    "id": "crystal-dagger",
+    "id": "21",
     "type": "dagger",
     "name": "Crystal Dagger",
     "image": "images/weapons/daggers/Crystal Dagger.png",
@@ -578,7 +578,7 @@
     "canEnchant": true
   },
   {
-    "id": "shadow-dagger",
+    "id": "19",
     "type": "dagger",
     "name": "Shadow Dagger",
     "image": "images/weapons/daggers/Shadow Dagger.png",
@@ -595,7 +595,7 @@
     "canEnchant": true
   },
   {
-    "id": "broken-trident",
+    "id": "51",
     "type": "dagger",
     "name": "Broken Trident",
     "image": "images/weapons/daggers/Broken Trident.png",
@@ -612,7 +612,7 @@
     "canEnchant": true
   },
   {
-    "id": "wicked-kris",
+    "id": "45",
     "type": "dagger",
     "name": "Wicked Kris",
     "image": "images/weapons/daggers/Wicked Kris.png",
@@ -629,7 +629,7 @@
     "canEnchant": true
   },
   {
-    "id": "abbys-planchette",
+    "id": "40",
     "type": "dagger",
     "name": "Abby's Planchette",
     "image": "images/weapons/daggers/Abby's Planchette.png",
@@ -646,7 +646,7 @@
     "canEnchant": true
   },
   {
-    "id": "elliotts-pencil",
+    "id": "35",
     "type": "dagger",
     "name": "Elliott's Pencil",
     "image": "images/weapons/daggers/Elliott's Pencil.png",
@@ -663,7 +663,7 @@
     "canEnchant": true
   },
   {
-    "id": "galaxy-dagger",
+    "id": "23",
     "type": "dagger",
     "name": "Galaxy Dagger",
     "image": "images/weapons/daggers/Galaxy Dagger.png",
@@ -680,7 +680,7 @@
     "canEnchant": true
   },
   {
-    "id": "dwarf-dagger",
+    "id": "56",
     "type": "dagger",
     "name": "Dwarf Dagger",
     "image": "images/weapons/daggers/Dwarf Dagger.png",
@@ -697,7 +697,7 @@
     "canEnchant": true
   },
   {
-    "id": "dragontooth-shiv",
+    "id": "59",
     "type": "dagger",
     "name": "Dragontooth Shiv",
     "image": "images/weapons/daggers/Dragontooth Shiv.png",
@@ -714,7 +714,7 @@
     "canEnchant": true
   },
   {
-    "id": "iridium-needle",
+    "id": "61",
     "type": "dagger",
     "name": "Iridium Needle",
     "image": "images/weapons/daggers/Iridium Needle.png",
@@ -731,7 +731,7 @@
     "canEnchant": true
   },
   {
-    "id": "infinity-dagger",
+    "id": "64",
     "type": "dagger",
     "name": "Infinity Dagger",
     "image": "images/weapons/daggers/Infinity Dagger.png",
@@ -748,7 +748,7 @@
     "canEnchant": true
   },
   {
-    "id": "femur",
+    "id": "31",
     "type": "club",
     "name": "Femur",
     "image": "images/weapons/clubs/Femur.png",
@@ -765,7 +765,7 @@
     "canEnchant": true
   },
   {
-    "id": "wood-club",
+    "id": "24",
     "type": "club",
     "name": "Wood Club",
     "image": "images/weapons/clubs/Wood Club.png",
@@ -782,7 +782,7 @@
     "canEnchant": true
   },
   {
-    "id": "wood-mallet",
+    "id": "27",
     "type": "club",
     "name": "Wood Mallet",
     "image": "images/weapons/clubs/Wood Mallet.png",
@@ -799,7 +799,7 @@
     "canEnchant": true
   },
   {
-    "id": "lead-rod",
+    "id": "26",
     "type": "club",
     "name": "Lead Rod",
     "image": "images/weapons/clubs/Lead Rod.png",
@@ -816,7 +816,7 @@
     "canEnchant": true
   },
   {
-    "id": "kudgel",
+    "id": "46",
     "type": "club",
     "name": "Kudgel",
     "image": "images/weapons/clubs/Kudgel.png",
@@ -833,7 +833,7 @@
     "canEnchant": true
   },
   {
-    "id": "alexs-bat",
+    "id": "25",
     "type": "club",
     "name": "Alex's Bat",
     "image": "images/weapons/clubs/Alex's Bat.png",
@@ -850,7 +850,7 @@
     "canEnchant": true
   },
   {
-    "id": "harveys-mallet",
+    "id": "37",
     "type": "club",
     "name": "Harvey's Mallet",
     "image": "images/weapons/clubs/Harvey's Mallet.png",
@@ -867,7 +867,7 @@
     "canEnchant": true
   },
   {
-    "id": "marus-wrench",
+    "id": "36",
     "type": "club",
     "name": "Maru's Wrench",
     "image": "images/weapons/clubs/Maru's Wrench.png",
@@ -884,7 +884,7 @@
     "canEnchant": true
   },
   {
-    "id": "pennys-fryer",
+    "id": "38",
     "type": "club",
     "name": "Penny's Fryer",
     "image": "images/weapons/clubs/Penny's Fryer.png",
@@ -901,7 +901,7 @@
     "canEnchant": true
   },
   {
-    "id": "sams-old-guitar",
+    "id": "30",
     "type": "club",
     "name": "Sam's Old Guitar",
     "image": "images/weapons/clubs/Sam's Old Guitar.png",
@@ -918,7 +918,7 @@
     "canEnchant": true
   },
   {
-    "id": "sebs-lost-mace",
+    "id": "41",
     "type": "club",
     "name": "Seb's Lost Mace",
     "image": "images/weapons/clubs/Seb's Lost Mace.png",
@@ -935,7 +935,7 @@
     "canEnchant": true
   },
   {
-    "id": "the-slammer",
+    "id": "28",
     "type": "club",
     "name": "The Slammer",
     "image": "images/weapons/clubs/The Slammer.png",
@@ -952,7 +952,7 @@
     "canEnchant": true
   },
   {
-    "id": "galaxy-hammer",
+    "id": "29",
     "type": "club",
     "name": "Galaxy Hammer",
     "image": "images/weapons/clubs/Galaxy Hammer.png",
@@ -969,7 +969,7 @@
     "canEnchant": true
   },
   {
-    "id": "dwarf-hammer",
+    "id": "55",
     "type": "club",
     "name": "Dwarf Hammer",
     "image": "images/weapons/clubs/Dwarf Hammer.png",
@@ -986,7 +986,7 @@
     "canEnchant": true
   },
   {
-    "id": "dragontooth-club",
+    "id": "58",
     "type": "club",
     "name": "Dragontooth Club",
     "image": "images/weapons/clubs/Dragontooth Club.png",
@@ -1003,7 +1003,7 @@
     "canEnchant": true
   },
   {
-    "id": "infinity-gavel",
+    "id": "63",
     "type": "club",
     "name": "Infinity Gavel",
     "image": "images/weapons/clubs/Infinity Gavel.png",
@@ -1020,7 +1020,7 @@
     "canEnchant": true
   },
   {
-    "id": "slingshot",
+    "id": "32",
     "type": "slingshot",
     "name": "Slingshot",
     "image": "images/weapons/slingshots/Slingshot.png",
@@ -1029,7 +1029,7 @@
     "canEnchant": true
   },
   {
-    "id": "master-slingshot",
+    "id": "33",
     "type": "slingshot",
     "name": "Master Slingshot",
     "image": "images/weapons/slingshots/Master Slingshot.png",

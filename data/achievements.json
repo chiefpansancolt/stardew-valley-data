@@ -1,6 +1,6 @@
 [
   {
-    "id": "greenhorn",
+    "id": "0",
     "name": "Greenhorn",
     "description": "Earn 15,000g.",
     "image": "images/achievements/Achievement_Greenhorn.jpg",
@@ -9,7 +9,7 @@
     "secret": false
   },
   {
-    "id": "cowpoke",
+    "id": "1",
     "name": "Cowpoke",
     "description": "Earn 50,000g.",
     "image": "images/achievements/Achievement_Cowpoke.jpg",
@@ -18,7 +18,7 @@
     "secret": false
   },
   {
-    "id": "homesteader",
+    "id": "2",
     "name": "Homesteader",
     "description": "Earn 250,000g.",
     "image": "images/achievements/Achievement_Homesteader.jpg",
@@ -27,7 +27,7 @@
     "secret": false
   },
   {
-    "id": "millionaire",
+    "id": "3",
     "name": "Millionaire",
     "description": "Earn 1,000,000g.",
     "image": "images/achievements/Achievement_Millionaire.jpg",
@@ -36,7 +36,7 @@
     "secret": false
   },
   {
-    "id": "legend",
+    "id": "4",
     "name": "Legend",
     "description": "Earn 10,000,000g.",
     "image": "images/achievements/Achievement_Legend.jpg",
@@ -45,7 +45,7 @@
     "secret": true
   },
   {
-    "id": "a-complete-collection",
+    "id": "5",
     "name": "A Complete Collection",
     "description": "Complete the museum collection.",
     "image": "images/achievements/Achievement_A_Complete_Collection.jpg",
@@ -54,7 +54,7 @@
     "secret": false
   },
   {
-    "id": "a-new-friend",
+    "id": "6",
     "name": "A New Friend",
     "description": "Reach a 5-heart friend level with someone.",
     "image": "images/achievements/Achievement_A_New_Friend.jpg",
@@ -63,7 +63,7 @@
     "secret": false
   },
   {
-    "id": "best-friends",
+    "id": "7",
     "name": "Best Friends",
     "description": "Reach a 10-heart friend level with someone.",
     "image": "images/achievements/Achievement_Best_Friends.jpg",
@@ -72,7 +72,7 @@
     "secret": false
   },
   {
-    "id": "the-beloved-farmer",
+    "id": "9",
     "name": "The Beloved Farmer",
     "description": "Reach a 10-heart friend level with 8 people.",
     "image": "images/achievements/Achievement_The_Beloved_Farmer.jpg",
@@ -81,7 +81,7 @@
     "secret": false
   },
   {
-    "id": "cliques",
+    "id": "11",
     "name": "Cliques",
     "description": "Reach a 5-heart friend level with 4 people.",
     "image": "images/achievements/Achievement_Cliques.jpg",
@@ -90,7 +90,7 @@
     "secret": false
   },
   {
-    "id": "networking",
+    "id": "12",
     "name": "Networking",
     "description": "Reach a 5-heart friend level with 10 people.",
     "image": "images/achievements/Achievement_Networking.jpg",
@@ -99,7 +99,7 @@
     "secret": false
   },
   {
-    "id": "popular",
+    "id": "13",
     "name": "Popular",
     "description": "Reach a 5-heart friend level with 20 people.",
     "image": "images/achievements/Achievement_Popular.jpg",
@@ -108,7 +108,7 @@
     "secret": false
   },
   {
-    "id": "cook",
+    "id": "15",
     "name": "Cook",
     "description": "Cook 10 different recipes.",
     "image": "images/achievements/Achievement_Cook.jpg",
@@ -117,7 +117,7 @@
     "secret": false
   },
   {
-    "id": "sous-chef",
+    "id": "16",
     "name": "Sous Chef",
     "description": "Cook 25 different recipes.",
     "image": "images/achievements/Achievement_Sous_Chef.jpg",
@@ -126,7 +126,7 @@
     "secret": false
   },
   {
-    "id": "gourmet-chef",
+    "id": "17",
     "name": "Gourmet Chef",
     "description": "Cook every recipe.",
     "image": "images/achievements/Achievement_Gourmet_Chef.jpg",
@@ -135,7 +135,7 @@
     "secret": false
   },
   {
-    "id": "moving-up",
+    "id": "18",
     "name": "Moving Up",
     "description": "Upgrade your house.",
     "image": "images/achievements/Achievement_Moving_Up.jpg",
@@ -144,7 +144,7 @@
     "secret": false
   },
   {
-    "id": "living-large",
+    "id": "19",
     "name": "Living Large",
     "description": "Upgrade your house to the maximum size.",
     "image": "images/achievements/Achievement_Living_Large.jpg",
@@ -153,7 +153,7 @@
     "secret": false
   },
   {
-    "id": "diy",
+    "id": "20",
     "name": "D.I.Y.",
     "description": "Craft 15 different items.",
     "image": "images/achievements/Achievement_DIY.jpg",
@@ -162,7 +162,7 @@
     "secret": false
   },
   {
-    "id": "artisan",
+    "id": "21",
     "name": "Artisan",
     "description": "Craft 30 different items.",
     "image": "images/achievements/Achievement_Artisan.jpg",
@@ -171,7 +171,7 @@
     "secret": false
   },
   {
-    "id": "craft-master",
+    "id": "22",
     "name": "Craft Master",
     "description": "Craft every item.",
     "image": "images/achievements/Achievement_Master_Craft.jpg",
@@ -180,7 +180,7 @@
     "secret": false
   },
   {
-    "id": "fisherman",
+    "id": "24",
     "name": "Fisherman",
     "description": "Catch 10 different fish.",
     "image": "images/achievements/Achievement_Fisherman.jpg",
@@ -189,7 +189,7 @@
     "secret": false
   },
   {
-    "id": "ol-mariner",
+    "id": "25",
     "name": "Ol' Mariner",
     "description": "Catch 24 different fish.",
     "image": "images/achievements/Achievement_Ol_Mariner.jpg",
@@ -198,7 +198,7 @@
     "secret": false
   },
   {
-    "id": "master-angler",
+    "id": "26",
     "name": "Master Angler",
     "description": "Catch every fish.",
     "image": "images/achievements/Achievement_Master_Angler.jpg",
@@ -207,7 +207,7 @@
     "secret": false
   },
   {
-    "id": "mother-catch",
+    "id": "27",
     "name": "Mother Catch",
     "description": "Catch 100 fish.",
     "image": "images/achievements/Achievement_Mother_Catch.jpg",
@@ -216,7 +216,7 @@
     "secret": false
   },
   {
-    "id": "treasure-trove",
+    "id": "28",
     "name": "Treasure Trove",
     "description": "Donate 40 different items to the museum.",
     "image": "images/achievements/Achievement_Treasure_Trove.jpg",
@@ -225,7 +225,7 @@
     "secret": false
   },
   {
-    "id": "gofer",
+    "id": "29",
     "name": "Gofer",
     "description": "Complete 10 'Help Wanted' requests.",
     "image": "images/achievements/Achievement_Gofer.jpg",
@@ -234,7 +234,7 @@
     "secret": false
   },
   {
-    "id": "a-big-help",
+    "id": "30",
     "name": "A Big Help",
     "description": "Complete 40 'Help Wanted' requests.",
     "image": "images/achievements/Achievement_A_Big_Help.jpg",
@@ -243,7 +243,7 @@
     "secret": false
   },
   {
-    "id": "polyculture",
+    "id": "31",
     "name": "Polyculture",
     "description": "Ship 15 of each crop.",
     "image": "images/achievements/Achievement_Polyculture.jpg",
@@ -252,7 +252,7 @@
     "secret": false
   },
   {
-    "id": "monoculture",
+    "id": "32",
     "name": "Monoculture",
     "description": "Ship 300 of one crop.",
     "image": "images/achievements/Achievement_Monoculture.jpg",
@@ -261,7 +261,7 @@
     "secret": false
   },
   {
-    "id": "full-shipment",
+    "id": "34",
     "name": "Full Shipment",
     "description": "Ship every item.",
     "image": "images/achievements/Achievement_Full_Shipment.jpg",
@@ -360,7 +360,7 @@
     "secret": true
   },
   {
-    "id": "a-distant-shore",
+    "id": "40",
     "name": "A Distant Shore",
     "description": "Reach Ginger Island.",
     "image": "images/achievements/Achievement_A_Distant_Shore.jpg",
@@ -369,7 +369,7 @@
     "secret": false
   },
   {
-    "id": "well-read",
+    "id": "35",
     "name": "Well-Read",
     "description": "Read every book.",
     "image": "images/achievements/Achievement_Well-Read.jpg",
@@ -378,7 +378,7 @@
     "secret": false
   },
   {
-    "id": "two-thumbs-up",
+    "id": "36",
     "name": "Two Thumbs Up",
     "description": "See a movie.",
     "image": "images/achievements/Achievement_Two_Thumbs_Up.jpg",
@@ -387,7 +387,7 @@
     "secret": false
   },
   {
-    "id": "blue-ribbon",
+    "id": "37",
     "name": "Blue Ribbon",
     "description": "Get 1st place in the Stardew Valley Fair competition.",
     "image": "images/achievements/Achievement_Blue_Ribbon.jpg",
@@ -396,7 +396,7 @@
     "secret": false
   },
   {
-    "id": "an-unforgettable-soup",
+    "id": "38",
     "name": "An Unforgettable Soup",
     "description": "Delight the Governor.",
     "image": "images/achievements/Achievement_An_Unforgettable_Soup.jpg",
@@ -405,7 +405,7 @@
     "secret": false
   },
   {
-    "id": "good-neighbors",
+    "id": "39",
     "name": "Good Neighbors",
     "description": "Help your forest neighbors grow their family.",
     "image": "images/achievements/Achievement_Good_Neighbors.jpg",
@@ -414,7 +414,7 @@
     "secret": false
   },
   {
-    "id": "danger-in-the-deep",
+    "id": "41",
     "name": "Danger In The Deep",
     "description": "Reach the bottom of the 'dangerous' mines.",
     "image": "images/achievements/Achievement_Danger_In_The_Deep.jpg",
@@ -423,7 +423,7 @@
     "secret": false
   },
   {
-    "id": "infinite-power",
+    "id": "42",
     "name": "Infinite Power",
     "description": "Obtain the most powerful weapon.",
     "image": "images/achievements/Achievement_Infinite_Power.jpg",
@@ -432,7 +432,7 @@
     "secret": false
   },
   {
-    "id": "perfection",
+    "id": "44",
     "name": "Perfection",
     "description": "Reach the summit.",
     "image": "images/achievements/Achievement_Perfection.jpg",

@@ -1,6 +1,6 @@
 [
   {
-    "id": "sneakers",
+    "id": "504",
     "name": "Sneakers",
     "description": "A little flimsy... but fashionable!",
     "defense": 1,
@@ -9,7 +9,7 @@
     "image": "images/footwear/Sneakers.png"
   },
   {
-    "id": "rubber-boots",
+    "id": "505",
     "name": "Rubber Boots",
     "description": "Protection from the elements.",
     "defense": 0,
@@ -18,7 +18,7 @@
     "image": "images/footwear/Rubber Boots.png"
   },
   {
-    "id": "leather-boots",
+    "id": "506",
     "name": "Leather Boots",
     "description": "The leather is very supple.",
     "defense": 1,
@@ -27,7 +27,7 @@
     "image": "images/footwear/Leather Boots.png"
   },
   {
-    "id": "work-boots",
+    "id": "507",
     "name": "Work Boots",
     "description": "Steel-toed for extra protection.",
     "defense": 2,
@@ -36,7 +36,7 @@
     "image": "images/footwear/Work Boots.png"
   },
   {
-    "id": "combat-boots",
+    "id": "508",
     "name": "Combat Boots",
     "description": "Reinforced with iron mesh.",
     "defense": 3,
@@ -45,7 +45,7 @@
     "image": "images/footwear/Combat Boots.png"
   },
   {
-    "id": "tundra-boots",
+    "id": "509",
     "name": "Tundra Boots",
     "description": "The fuzzy lining keeps your ankles so warm.",
     "defense": 2,
@@ -54,7 +54,7 @@
     "image": "images/footwear/Tundra Boots.png"
   },
   {
-    "id": "leprechaun-shoes",
+    "id": "806",
     "name": "Leprechaun Shoes",
     "description": "The buckle's made of solid gold.",
     "defense": 2,
@@ -63,7 +63,7 @@
     "image": "images/footwear/Leprechaun Shoes.png"
   },
   {
-    "id": "thermal-boots",
+    "id": "510",
     "name": "Thermal Boots",
     "description": "Designed with extreme weather in mind.",
     "defense": 1,
@@ -72,7 +72,7 @@
     "image": "images/footwear/Thermal Boots.png"
   },
   {
-    "id": "cowboy-boots",
+    "id": "515",
     "name": "Cowboy Boots",
     "description": "It's the height of country fashion.",
     "defense": 2,
@@ -81,7 +81,7 @@
     "image": "images/footwear/Cowboy Boots.png"
   },
   {
-    "id": "dark-boots",
+    "id": "511",
     "name": "Dark Boots",
     "description": "Made from thick black leather.",
     "defense": 4,
@@ -90,7 +90,7 @@
     "image": "images/footwear/Dark Boots.png"
   },
   {
-    "id": "firewalker-boots",
+    "id": "512",
     "name": "Firewalker Boots",
     "description": "It's said these can withstand the hottest magma.",
     "defense": 3,
@@ -99,7 +99,7 @@
     "image": "images/footwear/Firewalker Boots.png"
   },
   {
-    "id": "genie-shoes",
+    "id": "513",
     "name": "Genie Shoes",
     "description": "A curious energy permeates the fabric.",
     "defense": 1,
@@ -108,7 +108,7 @@
     "image": "images/footwear/Genie Shoes.png"
   },
   {
-    "id": "space-boots",
+    "id": "514",
     "name": "Space Boots",
     "description": "An iridium weave gives them a purple sheen.",
     "defense": 4,
@@ -117,7 +117,7 @@
     "image": "images/footwear/Space Boots.png"
   },
   {
-    "id": "crystal-shoes",
+    "id": "878",
     "name": "Crystal Shoes",
     "description": "These sparkling shoes will keep your feet very safe.",
     "defense": 3,
@@ -126,7 +126,7 @@
     "image": "images/footwear/Crystal Shoes.png"
   },
   {
-    "id": "emilys-magic-boots",
+    "id": "804",
     "name": "Emily's Magic Boots",
     "description": "Made with love by Emily. 100% compostable!",
     "defense": 4,
@@ -135,7 +135,7 @@
     "image": "images/footwear/Emily's Magic Boots.png"
   },
   {
-    "id": "cinderclown-shoes",
+    "id": "853",
     "name": "Cinderclown Shoes",
     "description": "These magic shoes belonged to a famous Dwarvish jester.",
     "defense": 6,
@@ -144,7 +144,7 @@
     "image": "images/footwear/Cinderclown Shoes.png"
   },
   {
-    "id": "mermaid-boots",
+    "id": "854",
     "name": "Mermaid Boots",
     "description": "Mermaid scales give these boots a protective aura.",
     "defense": 5,
@@ -153,7 +153,7 @@
     "image": "images/footwear/Mermaid Boots.png"
   },
   {
-    "id": "dragonscale-boots",
+    "id": "855",
     "name": "Dragonscale Boots",
     "description": "These shimmering boots are extremely tough.",
     "defense": 7,
