@@ -1,0 +1,508 @@
+[
+  {
+    "id": "pelican-town",
+    "name": "Pelican Town",
+    "type": "location",
+    "category": "The Valley",
+    "image": "images/locations/Pelican Town.png",
+    "openHours": null,
+    "closed": [],
+    "address": null,
+    "occupants": [
+      "Pierre",
+      "Caroline",
+      "Abigail",
+      "Harvey",
+      "Maru",
+      "Gus",
+      "Emily",
+      "Haley",
+      "Sam",
+      "Alex",
+      "Jodi",
+      "Clint",
+      "Morris",
+      "Lewis",
+      "Penny",
+      "Vincent",
+      "Jas",
+      "George",
+      "Evelyn"
+    ],
+    "shop": null
+  },
+  {
+    "id": "blacksmith",
+    "name": "Blacksmith",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/Blacksmith.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "4:00"
+    },
+    "closed": ["Friday"],
+    "address": "Southeast Pelican Town",
+    "occupants": ["Clint"],
+    "shop": "blacksmith-shop"
+  },
+  {
+    "id": "community-center",
+    "name": "Community Center",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/Community Center.png",
+    "openHours": null,
+    "closed": [],
+    "address": "North Pelican Town",
+    "occupants": ["Junimos"],
+    "shop": null
+  },
+  {
+    "id": "harveys-clinic",
+    "name": "Harvey's Clinic",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/Harvey's Clinic.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "3:00"
+    },
+    "closed": [],
+    "address": "Center Pelican Town",
+    "occupants": ["Harvey", "Maru"],
+    "shop": "medical-supplies-shop"
+  },
+  {
+    "id": "jojamart",
+    "name": "JojaMart",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/JojaMart.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "11:00"
+    },
+    "closed": [],
+    "address": "Northeast Pelican Town",
+    "occupants": ["Morris", "Shane", "Sam"],
+    "shop": "joja-shop"
+  },
+  {
+    "id": "museum",
+    "name": "Museum",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/Museum.png",
+    "openHours": {
+      "open": "8:00",
+      "close": "6:00"
+    },
+    "closed": [],
+    "address": "East Pelican Town",
+    "occupants": ["Gunther"],
+    "shop": null
+  },
+  {
+    "id": "pierres-general-store",
+    "name": "Pierre's General Store",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/Pierre's General Store.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "5:00"
+    },
+    "closed": ["Wednesday"],
+    "address": "North Pelican Town",
+    "occupants": ["Pierre", "Caroline", "Abigail"],
+    "shop": "pierre-shop"
+  },
+  {
+    "id": "the-stardrop-saloon",
+    "name": "The Stardrop Saloon",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/The Stardrop Saloon.png",
+    "openHours": {
+      "open": "12:00",
+      "close": "12:00"
+    },
+    "closed": [],
+    "address": "Center Pelican Town",
+    "occupants": ["Gus"],
+    "shop": "saloon-shop"
+  },
+  {
+    "id": "the-sewers",
+    "name": "The Sewers",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/The Sewers.png",
+    "openHours": null,
+    "closed": [],
+    "address": "South Pelican Town (sewer cover) or south Cindersap Forest (grates)",
+    "occupants": ["Krobus"],
+    "shop": "krobus-shop"
+  },
+  {
+    "id": "cindersap-forest",
+    "name": "Cindersap Forest",
+    "type": "location",
+    "category": "The Valley",
+    "image": "images/locations/Cindersap Forest.png",
+    "openHours": null,
+    "closed": [],
+    "address": "West of Pelican Town",
+    "occupants": ["Marnie", "Jas", "Shane", "Leah", "Wizard", "Hat Mouse", "Traveling Merchant"],
+    "shop": null
+  },
+  {
+    "id": "marnies-ranch",
+    "name": "Marnie's Ranch",
+    "type": "building",
+    "category": "Cindersap Forest",
+    "image": "images/locations/Marnie's Ranch.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "4:00"
+    },
+    "closed": ["Monday", "Tuesday"],
+    "address": "Northeast Cindersap Forest",
+    "occupants": ["Marnie", "Jas", "Shane"],
+    "shop": "marnie-shop"
+  },
+  {
+    "id": "abandoned-house",
+    "name": "Abandoned House",
+    "type": "building",
+    "category": "Cindersap Forest",
+    "image": "images/locations/Abandoned House.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Cindersap Forest",
+    "occupants": ["Hat Mouse"],
+    "shop": "hats"
+  },
+  {
+    "id": "secret-woods",
+    "name": "Secret Woods",
+    "type": "location",
+    "category": "Cindersap Forest",
+    "image": "images/locations/Secret Woods.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Northwest Cindersap Forest",
+    "occupants": [],
+    "shop": null
+  },
+  {
+    "id": "traveling-cart",
+    "name": "Traveling Cart",
+    "type": "building",
+    "category": "Cindersap Forest",
+    "image": "images/locations/Traveling Cart.png",
+    "openHours": {
+      "open": "6:00",
+      "close": "8:00"
+    },
+    "closed": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+    "address": "South Cindersap Forest",
+    "occupants": ["Traveling Merchant"],
+    "shop": null
+  },
+  {
+    "id": "wizards-tower",
+    "name": "Wizard's Tower",
+    "type": "building",
+    "category": "Cindersap Forest",
+    "image": "images/locations/Wizard's Tower.png",
+    "openHours": {
+      "open": "6:00",
+      "close": "11:00"
+    },
+    "closed": [],
+    "address": "West Cindersap Forest",
+    "occupants": ["Wizard"],
+    "shop": "wizard-shop"
+  },
+  {
+    "id": "the-beach",
+    "name": "The Beach",
+    "type": "location",
+    "category": "Beyond the Valley",
+    "image": "images/locations/The Beach.png",
+    "openHours": null,
+    "closed": [],
+    "address": "South of Pelican Town",
+    "occupants": ["Elliott", "Willy", "Old Mariner"],
+    "shop": null
+  },
+  {
+    "id": "fish-shop",
+    "name": "Fish Shop",
+    "type": "building",
+    "category": "The Beach",
+    "image": "images/locations/Fish Shop.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "5:00"
+    },
+    "closed": ["Saturday"],
+    "address": "Docks, south of Pelican Town",
+    "occupants": ["Willy"],
+    "shop": "willy-shop"
+  },
+  {
+    "id": "the-mountain",
+    "name": "The Mountain",
+    "type": "location",
+    "category": "Beyond the Valley",
+    "image": "images/locations/The Mountain.png",
+    "openHours": null,
+    "closed": [],
+    "address": "North of Pelican Town",
+    "occupants": ["Robin", "Demetrius", "Maru", "Sebastian", "Marlon", "Gil", "Linus", "Leo"],
+    "shop": null
+  },
+  {
+    "id": "adventurers-guild",
+    "name": "Adventurer's Guild",
+    "type": "building",
+    "category": "The Mountain",
+    "image": "images/locations/Adventurer's Guild.png",
+    "openHours": {
+      "open": "2:00",
+      "close": "2:00"
+    },
+    "closed": [],
+    "address": "East Mountain",
+    "occupants": ["Marlon", "Gil"],
+    "shop": "guild-shop"
+  },
+  {
+    "id": "carpenters-shop",
+    "name": "Carpenter's Shop",
+    "type": "building",
+    "category": "The Mountain",
+    "image": "images/locations/Carpenter's Shop.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "5:00"
+    },
+    "closed": ["Tuesday"],
+    "address": "24 Mountain Road",
+    "occupants": ["Robin", "Demetrius", "Sebastian", "Maru"],
+    "shop": "carpenter-shop"
+  },
+  {
+    "id": "the-mines",
+    "name": "The Mines",
+    "type": "location",
+    "category": "The Mountain",
+    "image": "images/locations/The Mines.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Northeast Mountain",
+    "occupants": ["Dwarf"],
+    "shop": "dwarf-shop"
+  },
+  {
+    "id": "railroad",
+    "name": "Railroad",
+    "type": "location",
+    "category": "Beyond the Valley",
+    "image": "images/locations/Railroad.png",
+    "openHours": null,
+    "closed": [],
+    "address": "North of The Mountain",
+    "occupants": [],
+    "shop": null
+  },
+  {
+    "id": "spa",
+    "name": "Spa",
+    "type": "building",
+    "category": "Railroad",
+    "image": "images/locations/Spa.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Southwest Railroad",
+    "occupants": [],
+    "shop": null
+  },
+  {
+    "id": "quarry",
+    "name": "Quarry",
+    "type": "location",
+    "category": "The Mountain",
+    "image": "images/locations/Quarry.png",
+    "openHours": null,
+    "closed": [],
+    "address": "East Mountain",
+    "occupants": [],
+    "shop": null
+  },
+  {
+    "id": "quarry-mine",
+    "name": "Quarry Mine",
+    "type": "location",
+    "category": "Quarry",
+    "image": "images/locations/Quarry Mine.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Inside the Quarry",
+    "occupants": [],
+    "shop": null
+  },
+  {
+    "id": "mutant-bug-lair",
+    "name": "Mutant Bug Lair",
+    "type": "location",
+    "category": "The Sewers",
+    "image": "images/locations/Mutant Bug Lair.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Connected to the Sewers",
+    "occupants": [],
+    "shop": null
+  },
+  {
+    "id": "witchs-hut",
+    "name": "Witch's Hut",
+    "type": "building",
+    "category": "Railroad",
+    "image": "images/locations/Witch's Hut.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Witch's Swamp, north of Railroad",
+    "occupants": ["Witch", "Henchman"],
+    "shop": null
+  },
+  {
+    "id": "the-desert",
+    "name": "The Desert",
+    "type": "location",
+    "category": "Beyond the Valley",
+    "image": "images/locations/The Desert.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Northwest, accessible by bus from Pelican Town",
+    "occupants": ["Sandy", "Desert Trader", "Mr. Qi"],
+    "shop": null
+  },
+  {
+    "id": "casino",
+    "name": "Casino",
+    "type": "building",
+    "category": "The Desert",
+    "image": "images/locations/Casino.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "11:50"
+    },
+    "closed": [],
+    "address": "Back of the Oasis, Calico Desert",
+    "occupants": ["Mr. Qi"],
+    "shop": "casino-shop"
+  },
+  {
+    "id": "desert-trader",
+    "name": "Desert Trader",
+    "type": "building",
+    "category": "The Desert",
+    "image": "images/locations/Desert Trader.png",
+    "openHours": null,
+    "closed": [],
+    "address": "East Calico Desert",
+    "occupants": ["Desert Trader"],
+    "shop": "desert-trader-shop"
+  },
+  {
+    "id": "oasis",
+    "name": "Oasis",
+    "type": "building",
+    "category": "The Desert",
+    "image": "images/locations/Oasis.png",
+    "openHours": {
+      "open": "9:00",
+      "close": "11:50"
+    },
+    "closed": [],
+    "address": "Southwest Calico Desert",
+    "occupants": ["Sandy"],
+    "shop": "oasis-shop"
+  },
+  {
+    "id": "skull-cavern",
+    "name": "Skull Cavern",
+    "type": "location",
+    "category": "The Desert",
+    "image": "images/locations/Skull Cavern.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Northwest Calico Desert",
+    "occupants": [],
+    "shop": null
+  },
+  {
+    "id": "ginger-island",
+    "name": "Ginger Island",
+    "type": "location",
+    "category": "Beyond the Valley",
+    "image": "images/locations/Ginger Island.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Accessible via boat from Willy's Fish Shop",
+    "occupants": ["Leo", "Birdie", "Professor Snail", "Island Trader", "Mr. Qi"],
+    "shop": null
+  },
+  {
+    "id": "island-field-office",
+    "name": "Island Field Office",
+    "type": "building",
+    "category": "Ginger Island",
+    "image": "images/locations/Island Field Office.png",
+    "openHours": null,
+    "closed": [],
+    "address": "North Ginger Island",
+    "occupants": ["Professor Snail"],
+    "shop": "field-office"
+  },
+  {
+    "id": "island-trader",
+    "name": "Island Trader",
+    "type": "building",
+    "category": "Ginger Island",
+    "image": "images/locations/Island Trader.png",
+    "openHours": null,
+    "closed": [],
+    "address": "North Ginger Island",
+    "occupants": ["Island Trader"],
+    "shop": "island-trader-shop"
+  },
+  {
+    "id": "qis-walnut-room",
+    "name": "Qi's Walnut Room",
+    "type": "building",
+    "category": "Ginger Island",
+    "image": "images/locations/Qi's Walnut Room.png",
+    "openHours": null,
+    "closed": [],
+    "address": "West Ginger Island (requires 100 Golden Walnuts)",
+    "occupants": ["Mr. Qi"],
+    "shop": "qi-shop"
+  },
+  {
+    "id": "volcano-dungeon",
+    "name": "Volcano Dungeon",
+    "type": "location",
+    "category": "Ginger Island",
+    "image": "images/locations/Volcano Dungeon.png",
+    "openHours": null,
+    "closed": [],
+    "address": "North Ginger Island, inside the volcano",
+    "occupants": ["Dwarf", "Parrot"],
+    "shop": "volcano-shop"
+  }
+]

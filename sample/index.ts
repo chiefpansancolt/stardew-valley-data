@@ -24,6 +24,7 @@ import { run as runHats } from './hats';
 import { run as runIslandTrader } from './island-trader-shop';
 import { run as runJoja } from './joja-shop';
 import { run as runKrobus } from './krobus-shop';
+import { run as runLocations } from './locations';
 import { run as runMaps } from './maps';
 import { run as runMarnie } from './marnie-shop';
 import { run as runMedicalSupplies } from './medical-supplies-shop';
@@ -106,6 +107,7 @@ const results = [
   runFieldOffice(),
   runGrandpa(),
   runDwarfShop(),
+  runLocations(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);

@@ -53,3 +53,4 @@ export * from './island-trader-shop';
 export * from './field-office';
 export * from './grandpa';
 export * from './dwarf-shop';
+export * from './location';

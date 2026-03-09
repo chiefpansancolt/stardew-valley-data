@@ -53,3 +53,4 @@ export * from './modules/island-trader-shop';
 export * from './modules/field-office';
 export * from './modules/grandpa';
 export * from './modules/dwarf-shop';
+export * from './modules/locations';
