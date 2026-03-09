@@ -54,3 +54,4 @@ export * from './field-office';
 export * from './grandpa';
 export * from './dwarf-shop';
 export * from './location';
+export * from './special-item';

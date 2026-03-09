@@ -41,6 +41,7 @@ import { run as runSaloon } from './saloon-shop';
 import { run as runSearch } from './search';
 import { run as runSeasons } from './seasons';
 import { run as runSkills } from './skills';
+import { run as runSpecialItems } from './special-items';
 import { run as runTackle } from './tackle';
 import { run as runTools } from './tools';
 import { run as runTrees } from './trees';
@@ -108,6 +109,7 @@ const results = [
   runGrandpa(),
   runDwarfShop(),
   runLocations(),
+  runSpecialItems(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);

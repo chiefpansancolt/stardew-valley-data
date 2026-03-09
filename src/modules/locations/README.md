@@ -157,7 +157,7 @@ locations().byType("location").get();
 
 ## LocationHours fields
 
-| Field | Type   | Description                          |
-| ----- | ------ | ------------------------------------ |
+| Field | Type   | Description                         |
+| ----- | ------ | ----------------------------------- |
 | open  | string | Opening time (e.g. "9:00")          |
 | close | string | Closing time (e.g. "4:00", "11:50") |
