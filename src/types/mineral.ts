@@ -1,9 +1,9 @@
 export interface SmeltRecipe {
-  ore: string; // id of the source ore or mineral
+  ore: string;
   oreQty: number;
   coalQty: number;
   timeMinutes: number;
-  outputQty?: number; // defaults to 1; Fire Quartz yields 3 Refined Quartz
+  outputQty?: number;
 }
 
 export interface MineralItem {

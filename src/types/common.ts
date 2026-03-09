@@ -19,13 +19,11 @@ export interface Ingredient {
   quantity: number;
 }
 
-/** Growth or tree stage entry: a named stage with its sprite image. */
 export interface Stage {
   name: string;
   image: string;
 }
 
-/** Shared gift preference categories used by Villager and UniversalGifts. */
 export interface GiftPreferences {
   loves: string[];
   likes: string[];

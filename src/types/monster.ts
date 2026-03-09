@@ -29,6 +29,5 @@ export interface Monster {
   locations: string[];
   lootIds: string[];
   dangerous: boolean;
-  /** Additional variants that share this monster's game ID */
   variants?: MonsterVariant[];
 }
