@@ -59,3 +59,5 @@ export * from './bookseller-shop';
 export * from './concession';
 export * from './farmhouse';
 export * from './secret-note';
+export * from './trinket';
+export * from './lost-book';

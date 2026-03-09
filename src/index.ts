@@ -59,3 +59,5 @@ export * from './modules/bookseller-shop';
 export * from './modules/concessions';
 export * from './modules/farmhouse';
 export * from './modules/secret-notes';
+export * from './modules/trinkets';
+export * from './modules/lost-books';

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "name": "Tips on Farming",
+    "description": "Use fertilizer to improve quality, reduce workload, or hasten crop growth. Fruit trees take a whole season to grow, but they require very little maintenance. Keep the area directly around your new sapling clear, or else it may not grow properly. Crops will die as soon as the season ends, unless they grow in multiple seasons (e.g., Corn). Some crops, such as kale and wheat, need to be harvested with the scythe. ...This is a book by Marnie.",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "2",
+    "name": "Animals",
+    "description": "Animals are very sensitive. They like to be pet every day, and prefer to eat grass outdoors than dry hay. They don't like being outside in the rain, though. Happy animals produce higher quality products!",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "3",
+    "name": "On Foraging",
+    "description": "The local woods and mountains are great places to find wild produce! A good forager will clear out any weeds, stumps, or stones from these areas, so the wild produce has plenty of space to grow! Expert foragers know the secret to cultivating wild food so that it can be grown on the farm. Isn't that amazing?",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "4",
+    "name": "The Fisherman, Act I",
+    "description": "Tex: Gordy, how do you catch so many fish? For me, it takes forever! Gordy: You must take the choice to become a true fisherman... and over time your fishing speed will increase! Tex: So you're saying that improving my fishing skill will make me fish faster? Gordy: Correct. One day you may even learn the secret to creating your very own bobbers, improving your mastery even more. Now, begone!",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "5",
+    "name": "How Deep Do The Mines Go?",
+    "description": "This question has been pondered by many Stardew Valley explorers over the years... The truth is, no one really knows. Or at least, they aren't telling anyone. Unfortunately, many of those who venture deep into the mines never return... However, there have been a few bold adventurers who have traveled deep into the mines, and have resurfaced with interesting reports. Apparently, there are three distinct areas in the mine, each with unique monsters and treasures. Some adventurers speak of gigantic underground lakes and strange creatures... But none of these claims have been proven.",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "6",
+    "name": "An Old Farmer's Journal",
+    "description": "I've been here for a year now, and I've started to make friends with the local townspeople. It sure feels great! And they're sending me gifts and secret family recipes in the mail, too! That's really helpful.",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "7",
+    "name": "Scarecrows",
+    "description": "Once you start growing a lot of crops on your farm, you can expect to be visited by crows. In the morning, you might discover that a crow has made breakfast out of your hard work! One way to prevent those bothersome crows from eating your crops is to set up scarecrows near your crops. Be aware that scarecrows have limited range, so you'll need multiple if your farm is large. Scarecrows keep track of how many crows they've diverted. You can use that to tell they're in a useful spot. 'Collectible Scarecrows' aren't just for looks! They work just the same as the regular model.",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "8",
+    "name": "The Secret of the Stardrop",
+    "description": "For thousands of years, people have been intrigued by the mysterious powers from the stardrop... but no one knows where they come from! Professor R. J. Kutler, a leading researcher on strange fruit, says this: \"We've discovered traces of genetic material on meteorites that closely resemble the Stardrop, but it's not a proven match\". Regardless of where they come from, the peculiar fruit is said to be uncommonly delicious... and some even claim they grant special power to those who eat them.",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "9",
+    "name": "Journey of the Prairie King",
+    "description": "-- The Smash Hit Video Game! Did you know? Anyone who beats 'Journey of the Prairie King' is automatically entered into a drawing for a special prize? Did you know? The developer has stated that the protagonist is based on a real-life character... A true cowboy hero from the prairie-island in the Gem Sea!",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "10",
+    "name": "A Study on Diamond Yields",
+    "description": "After years of research in the mines, I believe I've learned something about diamond frequency. My research involved only the stones that are scattered about the mines... The ones that are broken with a pickaxe. Mineral yields from other sources require more research. Diamonds seem to only form at mine level 50 or greater. At level 50, approximately 1 in 500 stones will be diamond-rich. After level 50, the frequency of diamond formation seems to increase by about .000016 per level. Quite a rare gem! -M. Jasper",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "11",
+    "name": "Brewmaster's Guide",
+    "description": "Ah... to brew! The rich smell of yeast wafting through a cedar loft... The floral overtones of freshly cut hops on a winter's eve... but I digress. You are probably more interested in the practical side of brewing... To brew, you will need a keg. I'll leave it up to you to devise blueprints for a keg. Kegs can be used to make several kinds of product. If vegetables are placed inside, the keg will produce juice. Juice takes the least amount of time to brew. If wheat is placed in the keg, it will produce beer. Beer takes a while to brew, but it is quite profitable. Placing hops in a keg will produced the beloved 'Pale Ale'. Place fruit in the keg to make wine. Wine takes the longest of all to make, but a wine made from the finest fruit is worth quite a bit! Be patient with your keg... you'll know it's finished when it's perfectly still. And only drink in moderation, or you'll surely regret it!",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "12",
+    "name": "Mysteries of the Dwarves",
+    "description": "The Dwarves call themselves 'Smoluanu'... which translates to 'sky people'. An odd name for a group that lives deep underground, isn't it? Another mystery of the dwarves is the advanced technology they supposedly possess. Evidence such as this had led me, despite the ridicule of my colleagues, to propose a new theory: I believe the dwarves are the remnants of a once advanced civilization whos interplanetary vehicle crashed on this planet long ago. I propose that this dwarvish spaceship bore down, deep underground... and over time, the dwarves became adapted to their new underground environment. My colleagues ask, 'Why didn't they come above ground and live on the surface?' ...Perhaps their old planet had a thicker atmosphere that protected them from stellar radiation, and they simply could not survive in our sunlight. That would explain why they only surface at night to take what they need from our houses... -M. Jasper",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "13",
+    "name": "Highlights From The Book of Yoba",
+    "description": "Before time there was only the endless golden light. The light called out to itself...'Yoba'. Yoba wanted more. Yoba swirled the golden light into a vortex. Yoba swirled and swirled until a hole formed in the eye of the vortex. From this hole sprung a seed. Yoba smoothed the golden light. Yoba smoothed and smoothed, and the light became soil. Into this soil, Yoba planted the seed. The seed sprouted, and behold! A vine sprung skyward, twisting and probing, casting a writhing shadow onto the golden void. After 11 days, the vine bore fruit. Yoba, with knowing wisdom, peeled the tough skin off the fruit and saw that the world was inside. And so that is how the world came to be.",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "14",
+    "name": "Marriage Guide for Farmers",
+    "description": "Before you ask someone to marry you, you'll have to date them for a while first (Ask someone to date you with a bouquet from Pierre's). When you're ready to pop the big question, you'll need to give them a 'Mermaid's Pendant'. Everyone knows what it means when you present them with one of those. It's rumored that on stormy days, the ghost of an old mariner appears in Stardew Valley, clutching just such a pendant. After the wedding ceremony, your partner will move in with you. Remember to treat your spouse well... They still like gifts even after marriage! (Paid for by Pierre)",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "15",
+    "name": "The Fisherman, Act II",
+    "description": "Tex: Gordy, tell me your best fisherman's story. Gordy: -deep sigh-... I've caught a lot of big fish in my time... And some that are very rare and difficult... But there was one that I struggled to catch for three days and three nights. Gordy: I call this fish... 'The Legend'. He was a huge beast... And the harder I tugged on the line, the harder he tugged back. I let my guard down for a moment and he snapped my boat in two. I've never fished since. Tex: Do you think anyone will ever catch him? Gordy: Hmm... If this person were a master at fishing, and caught all other rare fish first, and made sure they ate the correct kind of food... then maybe. Above all you've got to have respect for the water, son. Tex: ...son? Do you mean... you're... f...father? Gordy: Yes, my boy. --Dramatic Music as the curtains fall--",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "16",
+    "name": "Technology Report!",
+    "description": "The blueprints for an advanced piece of machinery called a 'Crystalarium' have recently been published. This machine can grow crystals from almost nothing, providing their owners with endless supplies of valuable gems! Here's how it works: Place a gem of your choice inside the crystalarium... now be patient, it can take up to several days... but eventually the crystalarium will grow a copy of whatever you placed inside! You'll know it's ready when it stops wiggling. Once you remove your gem the crystalarium will start working on yet another clone... You'll never need to restock it unless you want to change the kind of gem it produces! Unfortunately, the crystalarium doesn't work with the extremely rare gemstone known as 'Prismatic Shard'... For some reason, the EMF from the shard interacts negatively with the crystalarium.",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "17",
+    "name": "Secrets of the Legendary Fish",
+    "description": "Fisherman speak of five rare and unique fish that can only be caught by skilled anglers. Once caught, they will never appear again. The Crimsonfish lives in the warm ocean waters of summer. It's been sighted on the far eastern side of the beach. The Glacierfish, which only appears in winter, can be caught off the southern tip of arrowhead island in Cindersap Forest... near where the river meets the ocean. The Anglerfish has been spotted in fall, north of town where the river flows down from the mountains. There's rumor of a strange, twisted fish that lives in the sewer. The final fish, of a species never before caught, is known simply as 'Legend'. It is rumored that he lives in a log submerged in the mountain lake, and only ventures out on rainy spring days to nibble at the frog's eggs. Only the most skilled fisherman can hope to catch this one. Train at fishing and be persistent, and eventually you will catch these elusive fish. Make sure to respect the water and don't remove too many fish from the ecosystem.",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "18",
+    "name": "Gunther's Tunnel Note",
+    "description": "...Saw something weird in the tunnel leading out from Pelican Town. There's a little door hidden in the dark. Couldn't get it open, though. -Gunther",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "19",
+    "name": "Note From Gunther",
+    "description": "Wow, this library has really become great, thanks to your help! Thanks a bunch!",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "20",
+    "name": "Goblins",
+    "description": "The species commonly known as \"Goblin\" seems to have originated in the forests of the far northeast, beyond the Bluemire Hills. Characterized by their green skin, bright red eyes, and foul smell, initial encounters with Goblins can be frightening for unexperienced travellers. Despite their unsettling appearance, Goblins possess an intellectual and emotional capacity akin to humans, and have no trouble learning our customs and languages. The goblins I've met have been rather friendly and amiable, once I've shown that I mean no harm. Unfortunately, centuries of distrust and ill-treatment from humans has led many Goblins to pursue careers in the employment of witches, warlocks, necromancers, and other unsavory types. A traditional Goblin diet consists of grub meat, typically from the large and juicy grub varieties native to the Goblin home-forest. On special occasions, Goblins will indulge in an item called 'void mayonnaise'... considered perhaps the finest delicacy in all Goblin cuisine. -M. Jasper",
+    "image": "images/lost-books/Lost Book.png"
+  },
+  {
+    "id": "21",
+    "name": "The Secret Book",
+    "description": "Solok Ulan Paa Eno Ra Coto Ulan Coto Ulan Mabo Bel Eno Ra Teba Omi Walo Nemo Dop Ulan Coto Kui Mabo Awa Yoba Omi Solok Awa Lon Omi Omi Nemo Solok Teba Ra Awa Nemo Gawa Eno Bel Ulan Nemo Teba Omi Yoba Bel Omi Xi",
+    "image": "images/lost-books/Lost Book.png"
+  }
+]

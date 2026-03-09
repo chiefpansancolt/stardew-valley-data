@@ -1,0 +1,74 @@
+[
+  {
+    "id": "basilisk-paw",
+    "name": "Basilisk Paw",
+    "effect": "You are immune to debuffs.",
+    "source": "combat-drop",
+    "forgeable": false,
+    "sellPrice": 1000,
+    "image": "images/trinkets/Basilisk Paw.png"
+  },
+  {
+    "id": "fairy-box",
+    "name": "Fairy Box",
+    "effect": "Summons a fairy companion that heals you in combat situations. Can be re-forged to change the fairy's level (1–5), which affects healing interval and power.",
+    "source": "combat-drop",
+    "forgeable": true,
+    "sellPrice": 1000,
+    "image": "images/trinkets/Fairy Box.png"
+  },
+  {
+    "id": "frog-egg",
+    "name": "Frog Egg",
+    "effect": "Summons a hungry frog companion that eats nearby enemies. Can be re-forged to change the frog's color (8 variants).",
+    "source": "combat-drop",
+    "forgeable": true,
+    "sellPrice": 1000,
+    "image": "images/trinkets/Frog Egg.png"
+  },
+  {
+    "id": "golden-spur",
+    "name": "Golden Spur",
+    "effect": "Critical strikes give you a speed boost. Can be re-forged to change the duration (5–10 seconds).",
+    "source": "combat-drop",
+    "forgeable": true,
+    "sellPrice": 1000,
+    "image": "images/trinkets/Golden Spur.png"
+  },
+  {
+    "id": "ice-rod",
+    "name": "Ice Rod",
+    "effect": "Shoots an orb of ice that freezes any enemies in its path. Deals no damage. Can be re-forged to change the fire rate and freeze duration.",
+    "source": "combat-drop",
+    "forgeable": true,
+    "sellPrice": 1000,
+    "image": "images/trinkets/Ice Rod.png"
+  },
+  {
+    "id": "magic-hair-gel",
+    "name": "Magic Hair Gel",
+    "effect": "Your hair shimmers with all the colors of a prismatic shard. Cosmetic only.",
+    "source": "desert-festival",
+    "forgeable": false,
+    "sellPrice": 1000,
+    "image": "images/trinkets/Magic Hair Gel.png"
+  },
+  {
+    "id": "magic-quiver",
+    "name": "Magic Quiver",
+    "effect": "Shoots a magic arrow at nearby enemies automatically. Can be re-forged to change the arrow type (Standard, Perfect, Rapid, or Heavy).",
+    "source": "combat-drop",
+    "forgeable": true,
+    "sellPrice": 1000,
+    "image": "images/trinkets/Magic Quiver.png"
+  },
+  {
+    "id": "parrot-egg",
+    "name": "Parrot Egg",
+    "effect": "Summons a parrot companion that grants a chance to find gold coins when slaying monsters. Can be re-forged to change the parrot's level (1–4), which affects the coin drop chance.",
+    "source": "combat-drop",
+    "forgeable": true,
+    "sellPrice": 1000,
+    "image": "images/trinkets/Parrot Egg.png"
+  }
+]

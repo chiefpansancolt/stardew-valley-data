@@ -28,6 +28,7 @@ import { run as runIslandTrader } from './island-trader-shop';
 import { run as runJoja } from './joja-shop';
 import { run as runKrobus } from './krobus-shop';
 import { run as runLocations } from './locations';
+import { run as runLostBooks } from './lost-books';
 import { run as runMaps } from './maps';
 import { run as runMarnie } from './marnie-shop';
 import { run as runMedicalSupplies } from './medical-supplies-shop';
@@ -49,6 +50,7 @@ import { run as runSpecialItems } from './special-items';
 import { run as runTackle } from './tackle';
 import { run as runTools } from './tools';
 import { run as runTrees } from './trees';
+import { run as runTrinkets } from './trinkets';
 import { run as runUniversalGifts } from './universal-gifts';
 import { run as runVillagers } from './villagers';
 import { run as runVolcanoShop } from './volcano-shop';
@@ -118,6 +120,8 @@ const results = [
   runConcessions(),
   runFarmhouse(),
   runSecretNotes(),
+  runLostBooks(),
+  runTrinkets(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
