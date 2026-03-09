@@ -1,0 +1,90 @@
+[
+  {
+    "id": "286",
+    "name": "Cherry Bomb",
+    "description": "Generates a small explosion. Stand back!",
+    "price": 450,
+    "image": "images/craftable/bombs/Cherry Bomb.png",
+    "category": "explosive"
+  },
+  {
+    "id": "331",
+    "name": "Weathered Floor",
+    "description": "It's a recipe for Weathered Floor.",
+    "price": 500,
+    "image": "images/craftable/decor/Weathered Floor.png",
+    "category": "recipe"
+  },
+  {
+    "id": "32",
+    "name": "Stone Cairn",
+    "description": "A decorative piece for your farm.",
+    "price": 200,
+    "image": "images/craftable/decor/Stone Cairn.png",
+    "category": "decoration"
+  },
+  {
+    "id": "243",
+    "name": "Miner's Treat",
+    "description": "This should keep your energy up.",
+    "price": 1000,
+    "image": "images/cooking/Miner's Treat.png",
+    "category": "food"
+  },
+  {
+    "id": "287",
+    "name": "Bomb",
+    "description": "Generates an explosion. Watch out!",
+    "price": 1000,
+    "image": "images/craftable/bombs/Bomb.png",
+    "category": "explosive"
+  },
+  {
+    "id": "288",
+    "name": "Mega Bomb",
+    "description": "Generates a powerful explosion. Use with extreme caution.",
+    "price": 1600,
+    "image": "images/craftable/bombs/Mega Bomb.png",
+    "category": "explosive"
+  },
+  {
+    "id": "773",
+    "name": "Life Elixir",
+    "description": "Restores health to full.",
+    "price": 2000,
+    "image": "images/craftable/edible-items/Life Elixir.png",
+    "category": "consumable"
+  },
+  {
+    "id": "138",
+    "name": "Rarecrow #6",
+    "description": "Collect 8 rarecrows to get a gift from Mayor Lewis.",
+    "price": 2500,
+    "image": "images/scarecrows/Rarecrow 6.png",
+    "category": "scarecrow"
+  },
+  {
+    "id": "772",
+    "name": "Oil of Garlic",
+    "description": "Drink this and weaker monsters will avoid you.",
+    "price": 3000,
+    "image": "images/craftable/edible-items/Oil of Garlic.png",
+    "category": "consumable"
+  },
+  {
+    "id": "Book_Bombs",
+    "name": "Dwarvish Safety Manual",
+    "description": "Bombs deal 25% less damage to you.",
+    "price": 4000,
+    "image": "images/special-items/Dwarvish Safety Manual.png",
+    "category": "book"
+  },
+  {
+    "id": "BigStoneChest",
+    "name": "Big Stone Chest",
+    "description": "A large stone chest for extra storage space.",
+    "price": 5000,
+    "image": "images/craftable/storage/Big Stone Chest.png",
+    "category": "recipe"
+  }
+]
