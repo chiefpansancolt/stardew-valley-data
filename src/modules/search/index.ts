@@ -4,6 +4,7 @@ import { artifacts } from '../artifacts';
 import { artisanGoods } from '../artisan-goods';
 import { bait } from '../bait';
 import { cooking } from '../cooking';
+import { crafting } from '../crafting';
 import { crops } from '../crops';
 import { fish } from '../fish';
 import { footwear } from '../footwear';
@@ -351,6 +352,19 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
         name: artifact.name,
         image: artifact.image,
         sellPrice: artifact.sellPrice,
+      });
+    }
+  }
+
+  // Crafting recipes
+  for (const recipe of crafting().get()) {
+    if (matches(query, recipe.id, recipe.name)) {
+      add({
+        kind: 'crafting-recipe',
+        id: recipe.id,
+        name: recipe.name,
+        image: recipe.image,
+        sellPrice: null,
       });
     }
   }

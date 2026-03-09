@@ -7,6 +7,7 @@ import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
 import { run as runCollections } from './collections';
 import { run as runCooking } from './cooking';
+import { run as runCrafting } from './crafting';
 import { run as runCrops } from './crops';
 import { run as runFish } from './fish';
 import { run as runFootwear } from './footwear';
@@ -61,6 +62,7 @@ const results = [
   runVillagers(),
   runArtifacts(),
   runCollections(),
+  runCrafting(),
   runMinerals(),
 ];
 

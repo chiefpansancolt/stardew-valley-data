@@ -1,0 +1,4152 @@
+[
+  {
+    "id": "Bomb",
+    "name": "Bomb",
+    "description": "Generates a powerful explosion.",
+    "category": "Bombs",
+    "source": "Mining Level 6",
+    "output": {
+      "id": "287",
+      "name": "Bomb",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "380",
+        "name": "Iron Ore",
+        "quantity": 4
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/bombs/Bomb.png"
+  },
+  {
+    "id": "Cherry Bomb",
+    "name": "Cherry Bomb",
+    "description": "Creates a small explosion. Radius 3.",
+    "category": "Bombs",
+    "source": "Mining Level 1",
+    "output": {
+      "id": "286",
+      "name": "Cherry Bomb",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "378",
+        "name": "Copper Ore",
+        "quantity": 4
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/bombs/Cherry Bomb.png"
+  },
+  {
+    "id": "Mega Bomb",
+    "name": "Mega Bomb",
+    "description": "Generates a massive explosion.",
+    "category": "Bombs",
+    "source": "Mining Level 8",
+    "output": {
+      "id": "288",
+      "name": "Mega Bomb",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "384",
+        "name": "Gold Ore",
+        "quantity": 4
+      },
+      {
+        "id": "768",
+        "name": "Solar Essence",
+        "quantity": 1
+      },
+      {
+        "id": "769",
+        "name": "Void Essence",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/bombs/Mega Bomb.png"
+  },
+  {
+    "id": "Gate",
+    "name": "Gate",
+    "description": "Allows you and your animals to pass through a fence.",
+    "category": "Fences",
+    "source": "Starter",
+    "output": {
+      "id": "325",
+      "name": "Gate",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/fences/Gate.png"
+  },
+  {
+    "id": "Hardwood Fence",
+    "name": "Hardwood Fence",
+    "description": "Extremely durable. Lasts about 505 days.",
+    "category": "Fences",
+    "source": "Farming Level 6",
+    "output": {
+      "id": "298",
+      "name": "Hardwood Fence",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/fences/Hardwood Fence.png"
+  },
+  {
+    "id": "Iron Fence",
+    "name": "Iron Fence",
+    "description": "Very long lasting. Lasts about 226 days.",
+    "category": "Fences",
+    "source": "Farming Level 4",
+    "output": {
+      "id": "324",
+      "name": "Iron Fence",
+      "quantity": 10,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/fences/Iron Fence.png"
+  },
+  {
+    "id": "Stone Fence",
+    "name": "Stone Fence",
+    "description": "Longer lasting than wood. Lasts about 109 days.",
+    "category": "Fences",
+    "source": "Farming Level 2",
+    "output": {
+      "id": "323",
+      "name": "Stone Fence",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/fences/Stone Fence.png"
+  },
+  {
+    "id": "Wood Fence",
+    "name": "Wood Fence",
+    "description": "Contains grass and animals. Lasts about 52 days.",
+    "category": "Fences",
+    "source": "Starter",
+    "output": {
+      "id": "322",
+      "name": "Wood Fence",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/fences/Wood Fence.png"
+  },
+  {
+    "id": "Big Chest",
+    "name": "Big Chest",
+    "description": "Store your items in this. Holds nearly twice as much as a regular chest.",
+    "category": "Storage",
+    "source": "Special",
+    "output": {
+      "id": "BigChest",
+      "name": "Big Chest",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 120
+      },
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/storage/Big Chest.png"
+  },
+  {
+    "id": "Big Stone Chest",
+    "name": "Big Stone Chest",
+    "description": "Store your items in this. Holds nearly twice as much as a regular stone chest.",
+    "category": "Storage",
+    "source": "Special",
+    "output": {
+      "id": "BigStoneChest",
+      "name": "Big Stone Chest",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 250
+      }
+    ],
+    "image": "images/craftable/storage/Big Stone Chest.png"
+  },
+  {
+    "id": "Chest",
+    "name": "Chest",
+    "description": "Store your items in this.",
+    "category": "Storage",
+    "source": "Starter",
+    "output": {
+      "id": "130",
+      "name": "Chest",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 50
+      }
+    ],
+    "image": "images/craftable/storage/Chest.png"
+  },
+  {
+    "id": "Stone Chest",
+    "name": "Stone Chest",
+    "description": "Store your items in this.",
+    "category": "Storage",
+    "source": "Special",
+    "output": {
+      "id": "232",
+      "name": "Stone Chest",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 50
+      }
+    ],
+    "image": "images/craftable/storage/Stone Chest.png"
+  },
+  {
+    "id": "Dark Sign",
+    "name": "Dark Sign",
+    "description": "Use items on this to change what's displayed.",
+    "category": "Signs",
+    "source": "Krobus (3 hearts)",
+    "output": {
+      "id": "39",
+      "name": "Dark Sign",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "767",
+        "name": "Bat Wing",
+        "quantity": 5
+      },
+      {
+        "id": "881",
+        "name": "Bone Fragment",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/signs/Dark Sign.png"
+  },
+  {
+    "id": "Stone Sign",
+    "name": "Stone Sign",
+    "description": "Use items on this to change what's displayed.",
+    "category": "Signs",
+    "source": "Starter",
+    "output": {
+      "id": "38",
+      "name": "Stone Sign",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 25
+      }
+    ],
+    "image": "images/craftable/signs/Stone Sign.png"
+  },
+  {
+    "id": "Text Sign",
+    "name": "Text Sign",
+    "description": "Write a custom message on this sign.",
+    "category": "Signs",
+    "source": "Starter",
+    "output": {
+      "id": "TextSign",
+      "name": "Text Sign",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 25
+      }
+    ],
+    "image": "images/craftable/signs/Text Sign.png"
+  },
+  {
+    "id": "Wood Sign",
+    "name": "Wood Sign",
+    "description": "Use items on this to change what's displayed.",
+    "category": "Signs",
+    "source": "Starter",
+    "output": {
+      "id": "37",
+      "name": "Wood Sign",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 25
+      }
+    ],
+    "image": "images/craftable/signs/Wood Sign.png"
+  },
+  {
+    "id": "Bee House",
+    "name": "Bee House",
+    "description": "Place outside and bees will make honey for you. Honey is ready to harvest every few days. (Not during winter)",
+    "category": "Artisan Equipment",
+    "source": "Farming Level 3",
+    "output": {
+      "id": "10",
+      "name": "Bee House",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 40
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 8
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "724",
+        "name": "Maple Syrup",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Bee House.png"
+  },
+  {
+    "id": "Cask",
+    "name": "Cask",
+    "description": "Allows you to age artisan goods. Place in a cellar to use.",
+    "category": "Artisan Equipment",
+    "source": "Special",
+    "output": {
+      "id": "163",
+      "name": "Cask",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 20
+      },
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Cask.png"
+  },
+  {
+    "id": "Cheese Press",
+    "name": "Cheese Press",
+    "description": "Turns milk into cheese.",
+    "category": "Artisan Equipment",
+    "source": "Farming Level 6",
+    "output": {
+      "id": "16",
+      "name": "Cheese Press",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 45
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 45
+      },
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 10
+      },
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Cheese Press.png"
+  },
+  {
+    "id": "Dehydrator",
+    "name": "Dehydrator",
+    "description": "Place 5 fruit or edible mushrooms inside to dry them.",
+    "category": "Artisan Equipment",
+    "source": "Special",
+    "output": {
+      "id": "Dehydrator",
+      "name": "Dehydrator",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 30
+      },
+      {
+        "id": "330",
+        "name": "Clay",
+        "quantity": 2
+      },
+      {
+        "id": "82",
+        "name": "Fire Quartz",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Dehydrator.png"
+  },
+  {
+    "id": "Fish Smoker",
+    "name": "Fish Smoker",
+    "description": "Create smoked fish, worth twice as much with quality preserved.",
+    "category": "Artisan Equipment",
+    "source": "Special",
+    "output": {
+      "id": "FishSmoker",
+      "name": "Fish Smoker",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 10
+      },
+      {
+        "id": "SeaJelly",
+        "name": "Sea Jelly",
+        "quantity": 1
+      },
+      {
+        "id": "RiverJelly",
+        "name": "River Jelly",
+        "quantity": 1
+      },
+      {
+        "id": "CaveJelly",
+        "name": "Cave Jelly",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Fish Smoker.png"
+  },
+  {
+    "id": "Keg",
+    "name": "Keg",
+    "description": "Place a fruit or vegetable in here. Eventually it will turn into a beverage.",
+    "category": "Artisan Equipment",
+    "source": "Farming Level 8",
+    "output": {
+      "id": "12",
+      "name": "Keg",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 30
+      },
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 1
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "725",
+        "name": "Oak Resin",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Keg.png"
+  },
+  {
+    "id": "Loom",
+    "name": "Loom",
+    "description": "Turns raw wool into fine cloth.",
+    "category": "Artisan Equipment",
+    "source": "Farming Level 7",
+    "output": {
+      "id": "17",
+      "name": "Loom",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 60
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 30
+      },
+      {
+        "id": "726",
+        "name": "Pine Tar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Loom.png"
+  },
+  {
+    "id": "Mayonnaise Machine",
+    "name": "Mayonnaise Machine",
+    "description": "Turns eggs into mayonnaise.",
+    "category": "Artisan Equipment",
+    "source": "Farming Level 2",
+    "output": {
+      "id": "24",
+      "name": "Mayonnaise Machine",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 15
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 15
+      },
+      {
+        "id": "86",
+        "name": "Earth Crystal",
+        "quantity": 1
+      },
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Mayonnaise Machine.png"
+  },
+  {
+    "id": "Oil Maker",
+    "name": "Oil Maker",
+    "description": "Produces gourmet truffle oil when given a truffle.",
+    "category": "Artisan Equipment",
+    "source": "Farming Level 8",
+    "output": {
+      "id": "19",
+      "name": "Oil Maker",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "766",
+        "name": "Slime",
+        "quantity": 50
+      },
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 20
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Oil Maker.png"
+  },
+  {
+    "id": "Preserves Jar",
+    "name": "Preserves Jar",
+    "description": "Turns vegetables into pickles and fruit into jam.",
+    "category": "Artisan Equipment",
+    "source": "Farming Level 4",
+    "output": {
+      "id": "15",
+      "name": "Preserves Jar",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 50
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 40
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 8
+      }
+    ],
+    "image": "images/craftable/artisan-equipment/Preserves Jar.png"
+  },
+  {
+    "id": "Bait Maker",
+    "name": "Bait Maker",
+    "description": "Place a fish inside to create targeted bait.",
+    "category": "Refining Equipment",
+    "source": "Fishing Level 6",
+    "output": {
+      "id": "BaitMaker",
+      "name": "Bait Maker",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 3
+      },
+      {
+        "id": "393",
+        "name": "Coral",
+        "quantity": 3
+      },
+      {
+        "id": "397",
+        "name": "Sea Urchin",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Bait Maker.png"
+  },
+  {
+    "id": "Bone Mill",
+    "name": "Bone Mill",
+    "description": "Converts bone items into fertilizer.",
+    "category": "Refining Equipment",
+    "source": "Special",
+    "output": {
+      "id": "90",
+      "name": "Bone Mill",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "881",
+        "name": "Bone Fragment",
+        "quantity": 10
+      },
+      {
+        "id": "330",
+        "name": "Clay",
+        "quantity": 3
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 20
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Bone Mill.png"
+  },
+  {
+    "id": "Charcoal Kiln",
+    "name": "Charcoal Kiln",
+    "description": "Turns 10 pieces of wood into 1 piece of coal.",
+    "category": "Refining Equipment",
+    "source": "Foraging Level 2",
+    "output": {
+      "id": "114",
+      "name": "Charcoal Kiln",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 20
+      },
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Charcoal Kiln.png"
+  },
+  {
+    "id": "Crystalarium",
+    "name": "Crystalarium",
+    "description": "Insert a gem inside and it will grow copies of that gem.",
+    "category": "Refining Equipment",
+    "source": "Mining Level 9",
+    "output": {
+      "id": "21",
+      "name": "Crystalarium",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 99
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 5
+      },
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 2
+      },
+      {
+        "id": "787",
+        "name": "Battery Pack",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Crystalarium.png"
+  },
+  {
+    "id": "Deluxe Worm Bin",
+    "name": "Deluxe Worm Bin",
+    "description": "Produces Deluxe Bait regularly. Worms are self-sufficient.",
+    "category": "Refining Equipment",
+    "source": "Fishing Level 8",
+    "output": {
+      "id": "DeluxeWormBin",
+      "name": "Deluxe Worm Bin",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "(BC)154",
+        "name": "Worm Bin",
+        "quantity": 1
+      },
+      {
+        "id": "Moss",
+        "name": "Moss",
+        "quantity": 30
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Deluxe Worm Bin.png"
+  },
+  {
+    "id": "Furnace",
+    "name": "Furnace",
+    "description": "Converts ore and coal into metal bars.",
+    "category": "Refining Equipment",
+    "source": "Mining Level 2",
+    "output": {
+      "id": "13",
+      "name": "Furnace",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "378",
+        "name": "Copper Ore",
+        "quantity": 20
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 25
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Furnace.png"
+  },
+  {
+    "id": "Geode Crusher",
+    "name": "Geode Crusher",
+    "description": "Automatically breaks open geodes when supplied with coal.",
+    "category": "Refining Equipment",
+    "source": "Special",
+    "output": {
+      "id": "182",
+      "name": "Geode Crusher",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 2
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 50
+      },
+      {
+        "id": "72",
+        "name": "Diamond",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Geode Crusher.png"
+  },
+  {
+    "id": "Heavy Furnace",
+    "name": "Heavy Furnace",
+    "description": "Converts ore and coal into metal bars. Requires more ore but less coal per use.",
+    "category": "Refining Equipment",
+    "source": "Mining Level 2",
+    "output": {
+      "id": "HeavyFurnace",
+      "name": "Heavy Furnace",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "(BC)13",
+        "name": "Furnace",
+        "quantity": 2
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 3
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 50
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Heavy Furnace.png"
+  },
+  {
+    "id": "Heavy Tapper",
+    "name": "Heavy Tapper",
+    "description": "Place on a tree. Works twice as fast as a tapper.",
+    "category": "Refining Equipment",
+    "source": "Special",
+    "output": {
+      "id": "264",
+      "name": "Heavy Tapper",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 30
+      },
+      {
+        "id": "910",
+        "name": "Radioactive Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Heavy Tapper.png"
+  },
+  {
+    "id": "Lightning Rod",
+    "name": "Lightning Rod",
+    "description": "Collects energy during lightning storms and turns it into battery packs.",
+    "category": "Refining Equipment",
+    "source": "Foraging Level 6",
+    "output": {
+      "id": "9",
+      "name": "Lightning Rod",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "338",
+        "name": "Refined Quartz",
+        "quantity": 1
+      },
+      {
+        "id": "767",
+        "name": "Bat Wing",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Lightning Rod.png"
+  },
+  {
+    "id": "Mushroom Log",
+    "name": "Mushroom Log",
+    "description": "Grows mushrooms regularly. Better output when placed near wild trees.",
+    "category": "Refining Equipment",
+    "source": "Foraging Level 4",
+    "output": {
+      "id": "MushroomLog",
+      "name": "Mushroom Log",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 10
+      },
+      {
+        "id": "Moss",
+        "name": "Moss",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Mushroom Log.png"
+  },
+  {
+    "id": "Ostrich Incubator",
+    "name": "Ostrich Incubator",
+    "description": "Hatches ostrich eggs into baby ostriches. Place in a barn.",
+    "category": "Refining Equipment",
+    "source": "Special",
+    "output": {
+      "id": "254",
+      "name": "Ostrich Incubator",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "881",
+        "name": "Bone Fragment",
+        "quantity": 50
+      },
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 50
+      },
+      {
+        "id": "848",
+        "name": "Cinder Shard",
+        "quantity": 20
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Ostrich Incubator.png"
+  },
+  {
+    "id": "Recycling Machine",
+    "name": "Recycling Machine",
+    "description": "Turns fishing trash into resources.",
+    "category": "Refining Equipment",
+    "source": "Fishing Level 4",
+    "output": {
+      "id": "20",
+      "name": "Recycling Machine",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 25
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 25
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Recycling Machine.png"
+  },
+  {
+    "id": "Seed Maker",
+    "name": "Seed Maker",
+    "description": "Produces seeds from crops. Core crops have a chance to give 1-3 seeds.",
+    "category": "Refining Equipment",
+    "source": "Farming Level 9",
+    "output": {
+      "id": "25",
+      "name": "Seed Maker",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 25
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 10
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Seed Maker.png"
+  },
+  {
+    "id": "Slime Egg-Press",
+    "name": "Slime Egg-Press",
+    "description": "Compresses 100 slimes into a slime egg.",
+    "category": "Refining Equipment",
+    "source": "Combat Level 6",
+    "output": {
+      "id": "158",
+      "name": "Slime Egg-Press",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 25
+      },
+      {
+        "id": "82",
+        "name": "Fire Quartz",
+        "quantity": 1
+      },
+      {
+        "id": "787",
+        "name": "Battery Pack",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Slime Egg-Press.png"
+  },
+  {
+    "id": "Slime Incubator",
+    "name": "Slime Incubator",
+    "description": "Hatches slime eggs into slimes. You can raise them in a slime hutch.",
+    "category": "Refining Equipment",
+    "source": "Combat Level 8",
+    "output": {
+      "id": "156",
+      "name": "Slime Incubator",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 2
+      },
+      {
+        "id": "766",
+        "name": "Slime",
+        "quantity": 100
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Slime Incubator.png"
+  },
+  {
+    "id": "Tapper",
+    "name": "Tapper",
+    "description": "Place on a tree and wait for the reservoir to fill with product.",
+    "category": "Refining Equipment",
+    "source": "Foraging Level 4",
+    "output": {
+      "id": "105",
+      "name": "Tapper",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 40
+      },
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Tapper.png"
+  },
+  {
+    "id": "Worm Bin",
+    "name": "Worm Bin",
+    "description": "Produces bait regularly. Worms are self-sufficient.",
+    "category": "Refining Equipment",
+    "source": "Fishing Level 4",
+    "output": {
+      "id": "154",
+      "name": "Worm Bin",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 15
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 1
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 50
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Worm Bin.png"
+  },
+  {
+    "id": "Iridium Sprinkler",
+    "name": "Iridium Sprinkler",
+    "description": "Waters the 24 adjacent tiles every morning.",
+    "category": "Sprinklers",
+    "source": "Farming Level 9",
+    "output": {
+      "id": "645",
+      "name": "Iridium Sprinkler",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 1
+      },
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 1
+      },
+      {
+        "id": "787",
+        "name": "Battery Pack",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/sprinklers/Iridium Sprinkler.png"
+  },
+  {
+    "id": "Quality Sprinkler",
+    "name": "Quality Sprinkler",
+    "description": "Waters the 8 adjacent tiles every morning.",
+    "category": "Sprinklers",
+    "source": "Farming Level 6",
+    "output": {
+      "id": "621",
+      "name": "Quality Sprinkler",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 1
+      },
+      {
+        "id": "338",
+        "name": "Refined Quartz",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/sprinklers/Quality Sprinkler.png"
+  },
+  {
+    "id": "Sprinkler",
+    "name": "Sprinkler",
+    "description": "Waters the 4 adjacent tiles every morning.",
+    "category": "Sprinklers",
+    "source": "Farming Level 2",
+    "output": {
+      "id": "599",
+      "name": "Sprinkler",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 1
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/sprinklers/Sprinkler.png"
+  },
+  {
+    "id": "Barrel Brazier",
+    "name": "Barrel Brazier",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "150",
+      "name": "Barrel Brazier",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 50
+      },
+      {
+        "id": "768",
+        "name": "Solar Essence",
+        "quantity": 1
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/lighting/Barrel Brazier.png"
+  },
+  {
+    "id": "Campfire",
+    "name": "Campfire",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Starter",
+    "output": {
+      "id": "146",
+      "name": "Campfire",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 10
+      },
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 10
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/lighting/Campfire.png"
+  },
+  {
+    "id": "Carved Brazier",
+    "name": "Carved Brazier",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "148",
+      "name": "Carved Brazier",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 10
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/lighting/Carved Brazier.png"
+  },
+  {
+    "id": "Gold Brazier",
+    "name": "Gold Brazier",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "145",
+      "name": "Gold Brazier",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 1
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/lighting/Gold Brazier.png"
+  },
+  {
+    "id": "Iron Lamp-post",
+    "name": "Iron Lamp-post",
+    "description": "Provides a good amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "153",
+      "name": "Iron Lamp-post",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "787",
+        "name": "Battery Pack",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/lighting/Iron Lamp-post.png"
+  },
+  {
+    "id": "Jack-O-Lantern",
+    "name": "Jack-O-Lantern",
+    "description": "A whimsical fall decoration.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "746",
+      "name": "Jack-O-Lantern",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "276",
+        "name": "Pumpkin",
+        "quantity": 1
+      },
+      {
+        "id": "93",
+        "name": "Torch",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/lighting/Jack-O-Lantern.png"
+  },
+  {
+    "id": "Marble Brazier",
+    "name": "Marble Brazier",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "151",
+      "name": "Marble Brazier",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "567",
+        "name": "Marble",
+        "quantity": 1
+      },
+      {
+        "id": "62",
+        "name": "Aquamarine",
+        "quantity": 1
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 100
+      }
+    ],
+    "image": "images/craftable/lighting/Marble Brazier.png"
+  },
+  {
+    "id": "Skull Brazier",
+    "name": "Skull Brazier",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "149",
+      "name": "Skull Brazier",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "881",
+        "name": "Bone Fragment",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/lighting/Skull Brazier.png"
+  },
+  {
+    "id": "Stone Brazier",
+    "name": "Stone Brazier",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "144",
+      "name": "Stone Brazier",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 10
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/lighting/Stone Brazier.png"
+  },
+  {
+    "id": "Stump Brazier",
+    "name": "Stump Brazier",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "147",
+      "name": "Stump Brazier",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 5
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/lighting/Stump Brazier.png"
+  },
+  {
+    "id": "Torch",
+    "name": "Torch",
+    "description": "Provides a little bit of light.",
+    "category": "Lighting",
+    "source": "Starter",
+    "output": {
+      "id": "93",
+      "name": "Torch",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 1
+      },
+      {
+        "id": "92",
+        "name": "Sap",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/lighting/Torch.png"
+  },
+  {
+    "id": "Wood Lamp-post",
+    "name": "Wood Lamp-post",
+    "description": "Provides a good amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "152",
+      "name": "Wood Lamp-post",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 50
+      },
+      {
+        "id": "787",
+        "name": "Battery Pack",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/lighting/Wood Lamp-post.png"
+  },
+  {
+    "id": "Wooden Brazier",
+    "name": "Wooden Brazier",
+    "description": "Provides a moderate amount of light.",
+    "category": "Lighting",
+    "source": "Special",
+    "output": {
+      "id": "143",
+      "name": "Wooden Brazier",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 10
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/lighting/Wooden Brazier.png"
+  },
+  {
+    "id": "Deluxe Scarecrow",
+    "name": "Deluxe Scarecrow",
+    "description": "Prevents crows from attacking your crops. Has a large radius (about 16 \"tiles\").",
+    "category": "Farming",
+    "source": "Special",
+    "output": {
+      "id": "167",
+      "name": "Deluxe Scarecrow",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 50
+      },
+      {
+        "id": "386",
+        "name": "Iridium Ore",
+        "quantity": 1
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 40
+      }
+    ],
+    "image": "images/scarecrows/Deluxe Scarecrow.png"
+  },
+  {
+    "id": "Garden Pot",
+    "name": "Garden Pot",
+    "description": "You can grow crops from any season in this. Place it indoors or outdoors.",
+    "category": "Farming",
+    "source": "Special",
+    "output": {
+      "id": "62",
+      "name": "Garden Pot",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "330",
+        "name": "Clay",
+        "quantity": 1
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 10
+      },
+      {
+        "id": "338",
+        "name": "Refined Quartz",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/misc/Garden Pot.png"
+  },
+  {
+    "id": "Hopper",
+    "name": "Hopper",
+    "description": "Items placed inside will automatically be loaded into the machine in front of it.",
+    "category": "Farming",
+    "source": "Special",
+    "output": {
+      "id": "275",
+      "name": "Hopper",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 10
+      },
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 1
+      },
+      {
+        "id": "910",
+        "name": "Radioactive Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/misc/Hopper.png"
+  },
+  {
+    "id": "Scarecrow",
+    "name": "Scarecrow",
+    "description": "Prevents crows from attacking your crops. Has a limited radius (about 8 \"tiles\").",
+    "category": "Farming",
+    "source": "Farming Level 1",
+    "output": {
+      "id": "8",
+      "name": "Scarecrow",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 50
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 1
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 20
+      }
+    ],
+    "image": "images/scarecrows/Scarecrow.png"
+  },
+  {
+    "id": "Tub o' Flowers",
+    "name": "Tub o' Flowers",
+    "description": "Plant it outside in spring or summer for a beautiful bouquet of flowers.",
+    "category": "Decor",
+    "source": "Special",
+    "output": {
+      "id": "108",
+      "name": "Tub o' Flowers",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 15
+      },
+      {
+        "id": "427",
+        "name": "Tulip Bulb",
+        "quantity": 1
+      },
+      {
+        "id": "429",
+        "name": "Jazz Seeds",
+        "quantity": 1
+      },
+      {
+        "id": "453",
+        "name": "Poppy Seeds",
+        "quantity": 1
+      },
+      {
+        "id": "455",
+        "name": "Spangle Seeds",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/furniture/Tub o' Flowers.png"
+  },
+  {
+    "id": "Wicked Statue",
+    "name": "Wicked Statue",
+    "description": "The statue smiles at you.",
+    "category": "Decor",
+    "source": "Special",
+    "output": {
+      "id": "83",
+      "name": "Wicked Statue",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 5
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 25
+      }
+    ],
+    "image": "images/craftable/furniture/Wicked Statue.png"
+  },
+  {
+    "id": "Drum Block",
+    "name": "Drum Block",
+    "description": "Plays a drum note when you walk past.",
+    "category": "Instruments",
+    "source": "Special",
+    "output": {
+      "id": "463",
+      "name": "Drum Block",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 10
+      },
+      {
+        "id": "378",
+        "name": "Copper Ore",
+        "quantity": 2
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 20
+      }
+    ],
+    "image": "images/craftable/furniture/Drum Block.png"
+  },
+  {
+    "id": "Flute Block",
+    "name": "Flute Block",
+    "description": "Plays a flute note when you walk past.",
+    "category": "Instruments",
+    "source": "Special",
+    "output": {
+      "id": "464",
+      "name": "Flute Block",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 10
+      },
+      {
+        "id": "378",
+        "name": "Copper Ore",
+        "quantity": 2
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 20
+      }
+    ],
+    "image": "images/craftable/furniture/Flute Block.png"
+  },
+  {
+    "id": "Glowstone Ring",
+    "name": "Glowstone Ring",
+    "description": "Emits a constant light and increases your radius for collecting items.",
+    "category": "Rings",
+    "source": "Mining Level 4",
+    "output": {
+      "id": "888",
+      "name": "Glowstone Ring",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "768",
+        "name": "Solar Essence",
+        "quantity": 5
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 5
+      }
+    ],
+    "image": "images/rings/Glowstone Ring.png"
+  },
+  {
+    "id": "Iridium Band",
+    "name": "Iridium Band",
+    "description": "Glows, attracts items, and increases damage by 10%.",
+    "category": "Rings",
+    "source": "Combat Level 9",
+    "output": {
+      "id": "527",
+      "name": "Iridium Band",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 5
+      },
+      {
+        "id": "768",
+        "name": "Solar Essence",
+        "quantity": 50
+      },
+      {
+        "id": "769",
+        "name": "Void Essence",
+        "quantity": 50
+      }
+    ],
+    "image": "images/rings/Iridium Band.png"
+  },
+  {
+    "id": "Ring of Yoba",
+    "name": "Ring of Yoba",
+    "description": "Occasionally shields the wearer from damage.",
+    "category": "Rings",
+    "source": "Combat Level 7",
+    "output": {
+      "id": "524",
+      "name": "Ring of Yoba",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 5
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 5
+      },
+      {
+        "id": "72",
+        "name": "Diamond",
+        "quantity": 1
+      }
+    ],
+    "image": "images/rings/Ring of Yoba.png"
+  },
+  {
+    "id": "Sturdy Ring",
+    "name": "Sturdy Ring",
+    "description": "Cuts the duration of negative status effects in half.",
+    "category": "Rings",
+    "source": "Combat Level 1",
+    "output": {
+      "id": "525",
+      "name": "Sturdy Ring",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 2
+      },
+      {
+        "id": "684",
+        "name": "Bug Meat",
+        "quantity": 25
+      },
+      {
+        "id": "766",
+        "name": "Slime",
+        "quantity": 25
+      }
+    ],
+    "image": "images/rings/Sturdy Ring.png"
+  },
+  {
+    "id": "Thorns Ring",
+    "name": "Thorns Ring",
+    "description": "When an enemy injures you, they will take 1/3 of the damage they caused.",
+    "category": "Rings",
+    "source": "Combat Level 7",
+    "output": {
+      "id": "839",
+      "name": "Thorns Ring",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "881",
+        "name": "Bone Fragment",
+        "quantity": 50
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 50
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/rings/Thorns Ring.png"
+  },
+  {
+    "id": "Warrior Ring",
+    "name": "Warrior Ring",
+    "description": "Occasionally infuses the wearer with \"warrior energy\" after slaying a monster.",
+    "category": "Rings",
+    "source": "Combat Level 4",
+    "output": {
+      "id": "521",
+      "name": "Warrior Ring",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 10
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 25
+      },
+      {
+        "id": "84",
+        "name": "Frozen Tear",
+        "quantity": 10
+      }
+    ],
+    "image": "images/rings/Warrior Ring.png"
+  },
+  {
+    "id": "Wedding Ring",
+    "name": "Wedding Ring",
+    "description": "Give this to another player to propose marriage.",
+    "category": "Rings",
+    "source": "Special",
+    "output": {
+      "id": "801",
+      "name": "Wedding Ring",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 5
+      },
+      {
+        "id": "74",
+        "name": "Prismatic Shard",
+        "quantity": 1
+      }
+    ],
+    "image": "images/rings/Wedding Ring.png"
+  },
+  {
+    "id": "Bait",
+    "name": "Bait",
+    "description": "Causes fish to bite faster. Must be attached to a fishing rod. (+5)",
+    "category": "Fishing",
+    "source": "Fishing Level 2",
+    "output": {
+      "id": "685",
+      "name": "Bait",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "684",
+        "name": "Bug Meat",
+        "quantity": 1
+      }
+    ],
+    "image": "images/fish/bait/Bait.png"
+  },
+  {
+    "id": "Barbed Hook",
+    "name": "Barbed Hook",
+    "description": "Makes your catch more secure, causing the \"fishing bar\" to cling to your fish. Works best on slow, weak fish.",
+    "category": "Fishing",
+    "source": "Fishing Level 8",
+    "output": {
+      "id": "691",
+      "name": "Barbed Hook",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 1
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/fish/tackle/Barbed Hook.png"
+  },
+  {
+    "id": "Challenge Bait",
+    "name": "Challenge Bait",
+    "description": "A perfect catch triples the fish caught, but any escape removes one. (+5)",
+    "category": "Fishing",
+    "source": "Special",
+    "output": {
+      "id": "ChallengeBait",
+      "name": "Challenge Bait",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "881",
+        "name": "Bone Fragment",
+        "quantity": 5
+      },
+      {
+        "id": "Moss",
+        "name": "Moss",
+        "quantity": 2
+      }
+    ],
+    "image": "images/fish/bait/Challenge Bait.png"
+  },
+  {
+    "id": "Cork Bobber",
+    "name": "Cork Bobber",
+    "description": "Slightly increases the size of your \"fishing bar\".",
+    "category": "Fishing",
+    "source": "Fishing Level 7",
+    "output": {
+      "id": "695",
+      "name": "Cork Bobber",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 10
+      },
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 5
+      },
+      {
+        "id": "766",
+        "name": "Slime",
+        "quantity": 10
+      }
+    ],
+    "image": "images/fish/tackle/Cork Bobber.png"
+  },
+  {
+    "id": "Crab Pot",
+    "name": "Crab Pot",
+    "description": "Place it in the water, load it with bait, and check the next day.",
+    "category": "Fishing",
+    "source": "Fishing Level 3",
+    "output": {
+      "id": "710",
+      "name": "Crab Pot",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 40
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 3
+      }
+    ],
+    "image": "images/craftable/fishing/Crab Pot.png"
+  },
+  {
+    "id": "Deluxe Bait",
+    "name": "Deluxe Bait",
+    "description": "Fish bite faster and you'll rarely miss a catch. Also slightly increases the size of the fishing bar. (+5)",
+    "category": "Fishing",
+    "source": "Fishing Level 4",
+    "output": {
+      "id": "DeluxeBait",
+      "name": "Deluxe Bait",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "685",
+        "name": "Bait",
+        "quantity": 5
+      },
+      {
+        "id": "Moss",
+        "name": "Moss",
+        "quantity": 2
+      }
+    ],
+    "image": "images/fish/bait/Deluxe Bait.png"
+  },
+  {
+    "id": "Dressed Spinner",
+    "name": "Dressed Spinner",
+    "description": "The attractive lure creates a lot of vibration and movement. Increases the bite-rate when fishing.",
+    "category": "Fishing",
+    "source": "Fishing Level 8",
+    "output": {
+      "id": "687",
+      "name": "Dressed Spinner",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 2
+      },
+      {
+        "id": "428",
+        "name": "Cloth",
+        "quantity": 1
+      }
+    ],
+    "image": "images/fish/tackle/Dressed Spinner.png"
+  },
+  {
+    "id": "Magic Bait",
+    "name": "Magic Bait",
+    "description": "Allows you to catch fish from any location, season, or weather. (+5)",
+    "category": "Fishing",
+    "source": "Special",
+    "output": {
+      "id": "908",
+      "name": "Magic Bait",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "909",
+        "name": "Radioactive Ore",
+        "quantity": 1
+      },
+      {
+        "id": "684",
+        "name": "Bug Meat",
+        "quantity": 3
+      }
+    ],
+    "image": "images/fish/bait/Magic Bait.png"
+  },
+  {
+    "id": "Magnet",
+    "name": "Magnet",
+    "description": "Increases the chance of finding treasure while fishing, but fish aren't as attracted to it. (+3)",
+    "category": "Fishing",
+    "source": "Fishing Level 9",
+    "output": {
+      "id": "703",
+      "name": "Magnet",
+      "quantity": 3,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      }
+    ],
+    "image": "images/fish/bait/Magnet.png"
+  },
+  {
+    "id": "Quality Bobber",
+    "name": "Quality Bobber",
+    "description": "Increases the quality of caught fish.",
+    "category": "Fishing",
+    "source": "Special",
+    "output": {
+      "id": "877",
+      "name": "Quality Bobber",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 1
+      },
+      {
+        "id": "92",
+        "name": "Sap",
+        "quantity": 20
+      },
+      {
+        "id": "768",
+        "name": "Solar Essence",
+        "quantity": 5
+      }
+    ],
+    "image": "images/fish/tackle/Quality Bobber.png"
+  },
+  {
+    "id": "Sonar Bobber",
+    "name": "Sonar Bobber",
+    "description": "Allows you to see which fish is biting before you catch it.",
+    "category": "Fishing",
+    "source": "Fishing Level 6",
+    "output": {
+      "id": "SonarBobber",
+      "name": "Sonar Bobber",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "338",
+        "name": "Refined Quartz",
+        "quantity": 2
+      }
+    ],
+    "image": "images/fish/tackle/Sonar Bobber.png"
+  },
+  {
+    "id": "Spinner",
+    "name": "Spinner",
+    "description": "The rotating lure creates a lot of vibration and movement. Slightly increases bite-rate when fishing.",
+    "category": "Fishing",
+    "source": "Fishing Level 6",
+    "output": {
+      "id": "686",
+      "name": "Spinner",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 2
+      }
+    ],
+    "image": "images/fish/tackle/Spinner.png"
+  },
+  {
+    "id": "Trap Bobber",
+    "name": "Trap Bobber",
+    "description": "Causes fish to escape slower when you aren't reeling them in.",
+    "category": "Fishing",
+    "source": "Fishing Level 6",
+    "output": {
+      "id": "694",
+      "name": "Trap Bobber",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 1
+      },
+      {
+        "id": "92",
+        "name": "Sap",
+        "quantity": 10
+      }
+    ],
+    "image": "images/fish/tackle/Trap Bobber.png"
+  },
+  {
+    "id": "Treasure Hunter",
+    "name": "Treasure Hunter",
+    "description": "Fish don't escape while you're collecting treasure.",
+    "category": "Fishing",
+    "source": "Fishing Level 7",
+    "output": {
+      "id": "693",
+      "name": "Treasure Hunter",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 2
+      }
+    ],
+    "image": "images/fish/tackle/Treasure Hunter.png"
+  },
+  {
+    "id": "Wild Bait",
+    "name": "Wild Bait",
+    "description": "A special bait that appeals to all fish. With this bait, you have a chance of catching 2 fish at once. (+5)",
+    "category": "Fishing",
+    "source": "Special",
+    "output": {
+      "id": "774",
+      "name": "Wild Bait",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 10
+      },
+      {
+        "id": "684",
+        "name": "Bug Meat",
+        "quantity": 5
+      },
+      {
+        "id": "766",
+        "name": "Slime",
+        "quantity": 5
+      }
+    ],
+    "image": "images/fish/bait/Wild Bait.png"
+  },
+  {
+    "id": "Brick Floor",
+    "name": "Brick Floor",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Flooring",
+    "source": "Starter",
+    "output": {
+      "id": "293",
+      "name": "Brick Floor",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "330",
+        "name": "Clay",
+        "quantity": 2
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/decor/Brick Floor.png"
+  },
+  {
+    "id": "Crystal Floor",
+    "name": "Crystal Floor",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Flooring",
+    "source": "Starter",
+    "output": {
+      "id": "333",
+      "name": "Crystal Floor",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "338",
+        "name": "Refined Quartz",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Crystal Floor.png"
+  },
+  {
+    "id": "Rustic Plank Floor",
+    "name": "Rustic Plank Floor",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Flooring",
+    "source": "Starter",
+    "output": {
+      "id": "840",
+      "name": "Rustic Plank Floor",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Rustic Plank Floor.png"
+  },
+  {
+    "id": "Stone Floor",
+    "name": "Stone Floor",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Flooring",
+    "source": "Starter",
+    "output": {
+      "id": "329",
+      "name": "Stone Floor",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Stone Floor.png"
+  },
+  {
+    "id": "Stone Walkway Floor",
+    "name": "Stone Walkway Floor",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Flooring",
+    "source": "Starter",
+    "output": {
+      "id": "841",
+      "name": "Stone Walkway Floor",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Stone Walkway Floor.png"
+  },
+  {
+    "id": "Straw Floor",
+    "name": "Straw Floor",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Flooring",
+    "source": "Starter",
+    "output": {
+      "id": "401",
+      "name": "Straw Floor",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 1
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Straw Floor.png"
+  },
+  {
+    "id": "Weathered Floor",
+    "name": "Weathered Floor",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Flooring",
+    "source": "Starter",
+    "output": {
+      "id": "331",
+      "name": "Weathered Floor",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Weathered Floor.png"
+  },
+  {
+    "id": "Wood Floor",
+    "name": "Wood Floor",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Flooring",
+    "source": "Starter",
+    "output": {
+      "id": "328",
+      "name": "Wood Floor",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Wood Floor.png"
+  },
+  {
+    "id": "Cobblestone Path",
+    "name": "Cobblestone Path",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Paths",
+    "source": "Starter",
+    "output": {
+      "id": "411",
+      "name": "Cobblestone Path",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Cobblestone Path.png"
+  },
+  {
+    "id": "Crystal Path",
+    "name": "Crystal Path",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Paths",
+    "source": "Starter",
+    "output": {
+      "id": "409",
+      "name": "Crystal Path",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "338",
+        "name": "Refined Quartz",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Crystal Path.png"
+  },
+  {
+    "id": "Gravel Path",
+    "name": "Gravel Path",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Paths",
+    "source": "Starter",
+    "output": {
+      "id": "407",
+      "name": "Gravel Path",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Gravel Path.png"
+  },
+  {
+    "id": "Stepping Stone Path",
+    "name": "Stepping Stone Path",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Paths",
+    "source": "Starter",
+    "output": {
+      "id": "415",
+      "name": "Stepping Stone Path",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Stepping Stone Path.png"
+  },
+  {
+    "id": "Wood Path",
+    "name": "Wood Path",
+    "description": "Use this to make a path or to decorate your floors.",
+    "category": "Paths",
+    "source": "Starter",
+    "output": {
+      "id": "405",
+      "name": "Wood Path",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/decor/Wood Path.png"
+  },
+  {
+    "id": "Ancient Seeds",
+    "name": "Ancient Seeds",
+    "description": "Plant these in Spring, Summer, or Fall. Takes 28 days to mature, and produces fruit every 7 days.",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "499",
+      "name": "Ancient Seeds",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "114",
+        "name": "Ancient Seed",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/seeds/Ancient Seeds.png"
+  },
+  {
+    "id": "Basic Fertilizer",
+    "name": "Basic Fertilizer",
+    "description": "Improves soil quality, increasing your chance of producing quality crops. Mix into tilled soil.",
+    "category": "Seeds & Fertilizer",
+    "source": "Farming Level 1",
+    "output": {
+      "id": "368",
+      "name": "Basic Fertilizer",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "92",
+        "name": "Sap",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/fertilizer/Basic Fertilizer.png"
+  },
+  {
+    "id": "Basic Retaining Soil",
+    "name": "Basic Retaining Soil",
+    "description": "This soil has a chance of staying watered overnight. Mix into tilled soil.",
+    "category": "Seeds & Fertilizer",
+    "source": "Farming Level 4",
+    "output": {
+      "id": "370",
+      "name": "Basic Retaining Soil",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/fertilizer/Basic Retaining Soil.png"
+  },
+  {
+    "id": "Blue Grass Starter",
+    "name": "Blue Grass Starter",
+    "description": "Grows into a patch of blue grass when placed on the farm.",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "BlueGrassStarter",
+      "name": "Blue Grass Starter",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 25
+      },
+      {
+        "id": "Moss",
+        "name": "Moss",
+        "quantity": 10
+      },
+      {
+        "id": "MysticSyrup",
+        "name": "Mystic Syrup",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/seeds/Blue Grass Starter.png"
+  },
+  {
+    "id": "Deluxe Fertilizer",
+    "name": "Deluxe Fertilizer",
+    "description": "Greatly improves soil quality. Mix into tilled soil.",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "919",
+      "name": "Deluxe Fertilizer",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 1
+      },
+      {
+        "id": "92",
+        "name": "Sap",
+        "quantity": 40
+      }
+    ],
+    "image": "images/craftable/fertilizer/Deluxe Fertilizer.png"
+  },
+  {
+    "id": "Deluxe Retaining Soil",
+    "name": "Deluxe Retaining Soil",
+    "description": "This soil will stay watered overnight. Mix into tilled soil.",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "920",
+      "name": "Deluxe Retaining Soil",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 5
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 3
+      },
+      {
+        "id": "330",
+        "name": "Clay",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/fertilizer/Deluxe Retaining Soil.png"
+  },
+  {
+    "id": "Deluxe Speed-Gro",
+    "name": "Deluxe Speed-Gro",
+    "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 25%. Mix into tilled soil before planting.",
+    "category": "Seeds & Fertilizer",
+    "source": "Farming Level 8",
+    "output": {
+      "id": "466",
+      "name": "Deluxe Speed-Gro",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "725",
+        "name": "Oak Resin",
+        "quantity": 1
+      },
+      {
+        "id": "881",
+        "name": "Bone Fragment",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/fertilizer/Deluxe Speed-Gro.png"
+  },
+  {
+    "id": "Fiber Seeds",
+    "name": "Fiber Seeds",
+    "description": "Plant these in any season. They don't need water.",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "885",
+      "name": "Fiber Seeds",
+      "quantity": 4,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "770",
+        "name": "Mixed Seeds",
+        "quantity": 1
+      },
+      {
+        "id": "92",
+        "name": "Sap",
+        "quantity": 5
+      },
+      {
+        "id": "330",
+        "name": "Clay",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/seeds/Fiber Seeds.png"
+  },
+  {
+    "id": "Grass Starter",
+    "name": "Grass Starter",
+    "description": "Grows into a patch of grass when placed on the farm.",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "297",
+      "name": "Grass Starter",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/seeds/Grass Starter.png"
+  },
+  {
+    "id": "Hyper Speed-Gro",
+    "name": "Hyper Speed-Gro",
+    "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 33%. Mix into tilled soil before planting.",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "918",
+      "name": "Hyper Speed-Gro",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "909",
+        "name": "Radioactive Ore",
+        "quantity": 1
+      },
+      {
+        "id": "881",
+        "name": "Bone Fragment",
+        "quantity": 3
+      },
+      {
+        "id": "768",
+        "name": "Solar Essence",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/fertilizer/Hyper Speed-Gro.png"
+  },
+  {
+    "id": "Mystic Tree Seed",
+    "name": "Mystic Tree Seed",
+    "description": "Plant this to grow a mystic tree.",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "MysticTreeSeed",
+      "name": "Mystic Tree Seed",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "309",
+        "name": "Acorn",
+        "quantity": 5
+      },
+      {
+        "id": "310",
+        "name": "Maple Seed",
+        "quantity": 5
+      },
+      {
+        "id": "311",
+        "name": "Pine Cone",
+        "quantity": 5
+      },
+      {
+        "id": "292",
+        "name": "Mahogany Seed",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/seeds/Mystic Tree Seed.png"
+  },
+  {
+    "id": "Quality Fertilizer",
+    "name": "Quality Fertilizer",
+    "description": "Improves soil quality greatly, increasing your chance of producing quality crops. Mix into tilled soil.",
+    "category": "Seeds & Fertilizer",
+    "source": "Farming Level 9",
+    "output": {
+      "id": "369",
+      "name": "Quality Fertilizer",
+      "quantity": 2,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "92",
+        "name": "Sap",
+        "quantity": 4
+      },
+      {
+        "id": "-4",
+        "name": "Any Fish",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/fertilizer/Quality Fertilizer.png"
+  },
+  {
+    "id": "Quality Retaining Soil",
+    "name": "Quality Retaining Soil",
+    "description": "This soil has a good chance of staying watered overnight. Mix into tilled soil.",
+    "category": "Seeds & Fertilizer",
+    "source": "Farming Level 7",
+    "output": {
+      "id": "371",
+      "name": "Quality Retaining Soil",
+      "quantity": 2,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 3
+      },
+      {
+        "id": "330",
+        "name": "Clay",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/fertilizer/Quality Retaining Soil.png"
+  },
+  {
+    "id": "Speed-Gro",
+    "name": "Speed-Gro",
+    "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 10%. Mix into tilled soil before planting.",
+    "category": "Seeds & Fertilizer",
+    "source": "Farming Level 3",
+    "output": {
+      "id": "465",
+      "name": "Speed-Gro",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "726",
+        "name": "Pine Tar",
+        "quantity": 1
+      },
+      {
+        "id": "Moss",
+        "name": "Moss",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/fertilizer/Speed-Gro.png"
+  },
+  {
+    "id": "Tea Sapling",
+    "name": "Tea Sapling",
+    "description": "Takes 20 days to mature, after which it produces tea leaves during the last week of each season (except winter).",
+    "category": "Seeds & Fertilizer",
+    "source": "Special",
+    "output": {
+      "id": "251",
+      "name": "Tea Sapling",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "-777",
+        "name": "Mixed Seeds",
+        "quantity": 2
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 5
+      },
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/seeds/Tea Sapling.png"
+  },
+  {
+    "id": "Tree Fertilizer",
+    "name": "Tree Fertilizer",
+    "description": "Speeds up the growth of wild trees. Spread on a young tree.",
+    "category": "Seeds & Fertilizer",
+    "source": "Foraging Level 7",
+    "output": {
+      "id": "805",
+      "name": "Tree Fertilizer",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 5
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/fertilizer/Tree Fertilizer.png"
+  },
+  {
+    "id": "Wild Seeds (Fa)",
+    "name": "Wild Seeds (Fa)",
+    "description": "An assortment of wild Fall seeds. Plant these in Fall.",
+    "category": "Seeds & Fertilizer",
+    "source": "Foraging Level 6",
+    "output": {
+      "id": "497",
+      "name": "Fall Seeds",
+      "quantity": 10,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "404",
+        "name": "Common Mushroom",
+        "quantity": 1
+      },
+      {
+        "id": "406",
+        "name": "Wild Plum",
+        "quantity": 1
+      },
+      {
+        "id": "408",
+        "name": "Hazelnut",
+        "quantity": 1
+      },
+      {
+        "id": "410",
+        "name": "Blackberry",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/seeds/Fall Seeds.png"
+  },
+  {
+    "id": "Wild Seeds (Sp)",
+    "name": "Wild Seeds (Sp)",
+    "description": "An assortment of wild Spring seeds. Plant these in Spring.",
+    "category": "Seeds & Fertilizer",
+    "source": "Foraging Level 1",
+    "output": {
+      "id": "495",
+      "name": "Spring Seeds",
+      "quantity": 10,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "16",
+        "name": "Wild Horseradish",
+        "quantity": 1
+      },
+      {
+        "id": "18",
+        "name": "Daffodil",
+        "quantity": 1
+      },
+      {
+        "id": "20",
+        "name": "Leek",
+        "quantity": 1
+      },
+      {
+        "id": "22",
+        "name": "Dandelion",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/seeds/Spring Seeds.png"
+  },
+  {
+    "id": "Wild Seeds (Su)",
+    "name": "Wild Seeds (Su)",
+    "description": "An assortment of wild Summer seeds. Plant these in Summer.",
+    "category": "Seeds & Fertilizer",
+    "source": "Foraging Level 4",
+    "output": {
+      "id": "496",
+      "name": "Summer Seeds",
+      "quantity": 10,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "396",
+        "name": "Spice Berry",
+        "quantity": 1
+      },
+      {
+        "id": "398",
+        "name": "Grape",
+        "quantity": 1
+      },
+      {
+        "id": "402",
+        "name": "Sweet Pea",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/seeds/Summer Seeds.png"
+  },
+  {
+    "id": "Wild Seeds (Wi)",
+    "name": "Wild Seeds (Wi)",
+    "description": "An assortment of wild Winter seeds. Plant these in Winter.",
+    "category": "Seeds & Fertilizer",
+    "source": "Foraging Level 7",
+    "output": {
+      "id": "498",
+      "name": "Winter Seeds",
+      "quantity": 10,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "412",
+        "name": "Winter Root",
+        "quantity": 1
+      },
+      {
+        "id": "414",
+        "name": "Crystal Fruit",
+        "quantity": 1
+      },
+      {
+        "id": "416",
+        "name": "Snow Yam",
+        "quantity": 1
+      },
+      {
+        "id": "418",
+        "name": "Crocus",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/seeds/Winter Seeds.png"
+  },
+  {
+    "id": "Cookout Kit",
+    "name": "Cookout Kit",
+    "description": "Use this to create a cooking campfire, allowing you to cook on-the-go!",
+    "category": "Totems",
+    "source": "Foraging Level 3",
+    "output": {
+      "id": "926",
+      "name": "Cookout Kit",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "388",
+        "name": "Wood",
+        "quantity": 15
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 10
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 3
+      }
+    ],
+    "image": "images/craftable/misc/Cookout Kit.png"
+  },
+  {
+    "id": "Rain Totem",
+    "name": "Rain Totem",
+    "description": "Activate to greatly increase the chance of rain tomorrow. Consumed on use.",
+    "category": "Totems",
+    "source": "Foraging Level 9",
+    "output": {
+      "id": "681",
+      "name": "Rain Totem",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 1
+      },
+      {
+        "id": "432",
+        "name": "Truffle Oil",
+        "quantity": 1
+      },
+      {
+        "id": "726",
+        "name": "Pine Tar",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/consumables/Rain Totem.png"
+  },
+  {
+    "id": "Tent Kit",
+    "name": "Tent Kit",
+    "description": "Use this to deploy a one-time-use tent for sleeping. Can only be used outdoors.",
+    "category": "Totems",
+    "source": "Foraging Level 8",
+    "output": {
+      "id": "TentKit",
+      "name": "Tent Kit",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 10
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 25
+      },
+      {
+        "id": "428",
+        "name": "Cloth",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/misc/Tent Kit.png"
+  },
+  {
+    "id": "Treasure Totem",
+    "name": "Treasure Totem",
+    "description": "Use on diggable terrain to summon a ring of treasure spots.",
+    "category": "Totems",
+    "source": "Special",
+    "output": {
+      "id": "TreasureTotem",
+      "name": "Treasure Totem",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 5
+      },
+      {
+        "id": "MysticSyrup",
+        "name": "Mystic Syrup",
+        "quantity": 1
+      },
+      {
+        "id": "Moss",
+        "name": "Moss",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/consumables/Treasure Totem.png"
+  },
+  {
+    "id": "Warp Totem: Beach",
+    "name": "Warp Totem: Beach",
+    "description": "Warp directly to the beach. Consumed on use.",
+    "category": "Totems",
+    "source": "Foraging Level 6",
+    "output": {
+      "id": "690",
+      "name": "Warp Totem: Beach",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 1
+      },
+      {
+        "id": "393",
+        "name": "Coral",
+        "quantity": 2
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/consumables/Warp Totem Beach.png"
+  },
+  {
+    "id": "Warp Totem: Desert",
+    "name": "Warp Totem: Desert",
+    "description": "Warp directly to the Calico Desert. Consumed on use.",
+    "category": "Totems",
+    "source": "Special",
+    "output": {
+      "id": "261",
+      "name": "Warp Totem: Desert",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 2
+      },
+      {
+        "id": "88",
+        "name": "Coconut",
+        "quantity": 1
+      },
+      {
+        "id": "386",
+        "name": "Iridium Ore",
+        "quantity": 4
+      }
+    ],
+    "image": "images/craftable/consumables/Warp Totem Desert.png"
+  },
+  {
+    "id": "Warp Totem: Farm",
+    "name": "Warp Totem: Farm",
+    "description": "Warp directly to your house. Consumed on use.",
+    "category": "Totems",
+    "source": "Foraging Level 8",
+    "output": {
+      "id": "688",
+      "name": "Warp Totem: Farm",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 1
+      },
+      {
+        "id": "340",
+        "name": "Honey",
+        "quantity": 1
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 20
+      }
+    ],
+    "image": "images/craftable/consumables/Warp Totem Farm.png"
+  },
+  {
+    "id": "Warp Totem: Island",
+    "name": "Warp Totem: Island",
+    "description": "Warp directly to Ginger Island. Consumed on use.",
+    "category": "Totems",
+    "source": "Special",
+    "output": {
+      "id": "886",
+      "name": "Warp Totem: Island",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 5
+      },
+      {
+        "id": "852",
+        "name": "Dragon Tooth",
+        "quantity": 1
+      },
+      {
+        "id": "829",
+        "name": "Ginger",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/consumables/Warp Totem Island.png"
+  },
+  {
+    "id": "Warp Totem: Mountains",
+    "name": "Warp Totem: Mountains",
+    "description": "Warp directly to the mountains. Consumed on use.",
+    "category": "Totems",
+    "source": "Foraging Level 7",
+    "output": {
+      "id": "689",
+      "name": "Warp Totem: Mountains",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 1
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 25
+      }
+    ],
+    "image": "images/craftable/consumables/Warp Totem Mountains.png"
+  },
+  {
+    "id": "Field Snack",
+    "name": "Field Snack",
+    "description": "A quick snack to fuel the hungry forager.",
+    "category": "Food",
+    "source": "Foraging Level 1",
+    "output": {
+      "id": "403",
+      "name": "Field Snack",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "309",
+        "name": "Acorn",
+        "quantity": 1
+      },
+      {
+        "id": "310",
+        "name": "Maple Seed",
+        "quantity": 1
+      },
+      {
+        "id": "311",
+        "name": "Pine Cone",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/edible-items/Field Snack.png"
+  },
+  {
+    "id": "Bug Steak",
+    "name": "Bug Steak",
+    "description": "The last resort of a hungry cave diver.",
+    "category": "Combat",
+    "source": "Combat Level 1",
+    "output": {
+      "id": "874",
+      "name": "Bug Steak",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "684",
+        "name": "Bug Meat",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/edible-items/Bug Steak.png"
+  },
+  {
+    "id": "Explosive Ammo",
+    "name": "Explosive Ammo",
+    "description": "Load into a slingshot and fire at enemies. (+5)",
+    "category": "Combat",
+    "source": "Combat Level 8",
+    "output": {
+      "id": "441",
+      "name": "Explosive Ammo",
+      "quantity": 5,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 1
+      },
+      {
+        "id": "382",
+        "name": "Coal",
+        "quantity": 2
+      }
+    ],
+    "image": "images/craftable/misc/Explosive Ammo.png"
+  },
+  {
+    "id": "Fairy Dust",
+    "name": "Fairy Dust",
+    "description": "Sprinkle on kegs, furnaces, and other processing equipment to instantly receive product.",
+    "category": "Combat",
+    "source": "Special",
+    "output": {
+      "id": "872",
+      "name": "Fairy Dust",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "72",
+        "name": "Diamond",
+        "quantity": 1
+      },
+      {
+        "id": "595",
+        "name": "Fairy Rose",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/consumables/Fairy Dust.png"
+  },
+  {
+    "id": "Life Elixir",
+    "name": "Life Elixir",
+    "description": "Restores health to full.",
+    "category": "Combat",
+    "source": "Combat Level 2",
+    "output": {
+      "id": "773",
+      "name": "Life Elixir",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "420",
+        "name": "Red Mushroom",
+        "quantity": 1
+      },
+      {
+        "id": "422",
+        "name": "Purple Mushroom",
+        "quantity": 1
+      },
+      {
+        "id": "257",
+        "name": "Morel",
+        "quantity": 1
+      },
+      {
+        "id": "281",
+        "name": "Chanterelle",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/edible-items/Life Elixir.png"
+  },
+  {
+    "id": "Monster Musk",
+    "name": "Monster Musk",
+    "description": "Spray this on yourself to bring out more monsters.",
+    "category": "Combat",
+    "source": "Special",
+    "output": {
+      "id": "879",
+      "name": "Monster Musk",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "767",
+        "name": "Bat Wing",
+        "quantity": 30
+      },
+      {
+        "id": "766",
+        "name": "Slime",
+        "quantity": 30
+      }
+    ],
+    "image": "images/craftable/consumables/Monster Musk.png"
+  },
+  {
+    "id": "Oil Of Garlic",
+    "name": "Oil Of Garlic",
+    "description": "Drink this and weaker monsters will be too afraid to approach you.",
+    "category": "Combat",
+    "source": "Combat Level 6",
+    "output": {
+      "id": "772",
+      "name": "Oil of Garlic",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "248",
+        "name": "Garlic",
+        "quantity": 10
+      },
+      {
+        "id": "247",
+        "name": "Oil",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/edible-items/Oil of Garlic.png"
+  },
+  {
+    "id": "Anvil",
+    "name": "Anvil",
+    "description": "Allows you to re-forge trinkets, randomizing their stats. Costs 3 iridium bars per use.",
+    "category": "Misc",
+    "source": "Mining Level 2",
+    "output": {
+      "id": "Anvil",
+      "name": "Anvil",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 50
+      }
+    ],
+    "image": "images/craftable/misc/Anvil.png"
+  },
+  {
+    "id": "Farm Computer",
+    "name": "Farm Computer",
+    "description": "Scans the farm and displays useful information.",
+    "category": "Misc",
+    "source": "Special",
+    "output": {
+      "id": "239",
+      "name": "Farm Computer",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "122",
+        "name": "Dwarf Gadget",
+        "quantity": 1
+      },
+      {
+        "id": "787",
+        "name": "Battery Pack",
+        "quantity": 1
+      },
+      {
+        "id": "338",
+        "name": "Refined Quartz",
+        "quantity": 10
+      }
+    ],
+    "image": "images/craftable/misc/Farm Computer.png"
+  },
+  {
+    "id": "Mini-Forge",
+    "name": "Mini-Forge",
+    "description": "Now, you can use a dwarvish forge from the convenience of your home.",
+    "category": "Misc",
+    "source": "Mining Level 2",
+    "output": {
+      "id": "MiniForge",
+      "name": "Mini-Forge",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "852",
+        "name": "Dragon Tooth",
+        "quantity": 5
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 10
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 10
+      },
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/misc/Mini-Forge.png"
+  },
+  {
+    "id": "Mini-Jukebox",
+    "name": "Mini-Jukebox",
+    "description": "Play your favorite songs.",
+    "category": "Misc",
+    "source": "Special",
+    "output": {
+      "id": "209",
+      "name": "Mini-Jukebox",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 2
+      },
+      {
+        "id": "787",
+        "name": "Battery Pack",
+        "quantity": 1
+      }
+    ],
+    "image": "images/craftable/misc/Mini-Jukebox.png"
+  },
+  {
+    "id": "Mini-Obelisk",
+    "name": "Mini-Obelisk",
+    "description": "Place two on the farm to warp between them.",
+    "category": "Misc",
+    "source": "Special",
+    "output": {
+      "id": "238",
+      "name": "Mini-Obelisk",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "709",
+        "name": "Hardwood",
+        "quantity": 30
+      },
+      {
+        "id": "768",
+        "name": "Solar Essence",
+        "quantity": 20
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 3
+      }
+    ],
+    "image": "images/craftable/misc/Mini-Obelisk.png"
+  },
+  {
+    "id": "Solar Panel",
+    "name": "Solar Panel",
+    "description": "Slowly generates battery packs when left in the sun.",
+    "category": "Misc",
+    "source": "Special",
+    "output": {
+      "id": "231",
+      "name": "Solar Panel",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "338",
+        "name": "Refined Quartz",
+        "quantity": 10
+      },
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 5
+      },
+      {
+        "id": "336",
+        "name": "Gold Bar",
+        "quantity": 5
+      }
+    ],
+    "image": "images/craftable/refining-equipment/Solar Panel.png"
+  },
+  {
+    "id": "Staircase",
+    "name": "Staircase",
+    "description": "Use this to reach the next level of the mine.",
+    "category": "Misc",
+    "source": "Mining Level 2",
+    "output": {
+      "id": "71",
+      "name": "Staircase",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 99
+      }
+    ],
+    "image": "images/craftable/misc/Staircase.png"
+  },
+  {
+    "id": "Statue Of Blessings",
+    "name": "Statue Of Blessings",
+    "description": "Touching the statue gives a unique blessing every day.",
+    "category": "Misc",
+    "source": "Special",
+    "output": {
+      "id": "StatueOfBlessings",
+      "name": "Statue Of Blessings",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "390",
+        "name": "Stone",
+        "quantity": 999
+      },
+      {
+        "id": "771",
+        "name": "Fiber",
+        "quantity": 999
+      },
+      {
+        "id": "92",
+        "name": "Sap",
+        "quantity": 999
+      },
+      {
+        "id": "Moss",
+        "name": "Moss",
+        "quantity": 333
+      }
+    ],
+    "image": "images/craftable/misc/Statue Of Blessings.png"
+  },
+  {
+    "id": "Statue Of The Dwarf King",
+    "name": "Statue Of The Dwarf King",
+    "description": "Choose from two mining-related powers each day.",
+    "category": "Misc",
+    "source": "Special",
+    "output": {
+      "id": "StatueOfTheDwarfKing",
+      "name": "Statue Of The Dwarf King",
+      "quantity": 1,
+      "isBigCraftable": true
+    },
+    "ingredients": [
+      {
+        "id": "337",
+        "name": "Iridium Bar",
+        "quantity": 20
+      }
+    ],
+    "image": "images/craftable/misc/Statue Of The Dwarf King.png"
+  },
+  {
+    "id": "Transmute (Au)",
+    "name": "Transmute (Au)",
+    "description": "Turns iron bars into gold bars.",
+    "category": "Misc",
+    "source": "Mining Level 7",
+    "output": {
+      "id": "336",
+      "name": "Gold Bar",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "335",
+        "name": "Iron Bar",
+        "quantity": 2
+      }
+    ],
+    "image": "images/minerals/bars/Gold Bar.png"
+  },
+  {
+    "id": "Transmute (Fe)",
+    "name": "Transmute (Fe)",
+    "description": "Turns copper bars into iron bars.",
+    "category": "Misc",
+    "source": "Mining Level 4",
+    "output": {
+      "id": "335",
+      "name": "Iron Bar",
+      "quantity": 1,
+      "isBigCraftable": false
+    },
+    "ingredients": [
+      {
+        "id": "334",
+        "name": "Copper Bar",
+        "quantity": 3
+      }
+    ],
+    "image": "images/minerals/bars/Iron Bar.png"
+  }
+]

@@ -29,4 +29,5 @@ export * from './modules/tackle';
 export * from './modules/cooking';
 export * from './modules/artifacts';
 export * from './modules/collections';
+export * from './modules/crafting';
 export * from './modules/minerals';

@@ -4,6 +4,7 @@ import artifactsData from '@/data/artifacts.json';
 import artisanGoodsData from '@/data/artisan-goods.json';
 import collectionsData from '@/data/collections.json';
 import cookingData from '@/data/cooking.json';
+import craftingData from '@/data/crafting.json';
 import cropsData from '@/data/crops.json';
 import fishData from '@/data/fish.json';
 import forageablesData from '@/data/forageables.json';
@@ -32,6 +33,11 @@ function buildLookup(): Map<string, CollectionItem> {
   for (const item of cropsData as { id: string; name: string; image: string }[]) add(item);
   for (const item of artisanGoodsData as { id: string; name: string; image: string }[]) add(item);
   for (const item of monsterLootData as { id: string; name: string; image: string }[]) add(item);
+
+  // Extract output items from crafting recipes
+  for (const recipe of craftingData as { output: { id: string; name: string }; image: string }[]) {
+    add({ id: recipe.output.id, name: recipe.output.name, image: recipe.image });
+  }
 
   // Extract produce and deluxeProduce from farm animals
   for (const animal of animalsData as {
@@ -117,7 +123,7 @@ export class CollectionsQuery {
     return this.resolve(collectionsData.cooking);
   }
 
-  /** Items that appear in the Crafting collection tab. Will be populated in a future update. */
+  /** Items that appear in the Crafting collection tab. */
   crafting(): CollectionItemQuery {
     return this.resolve(collectionsData.crafting);
   }

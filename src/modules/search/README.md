@@ -3,10 +3,10 @@
 Global item search across all Stardew Valley data modules.
 
 Searches crops, crop seeds, fruit trees, wild trees, animals, artisan goods, monsters, monster loot,
-rings, tools, weapons, hats, footwear, forageables, fish, bait, tackle, and cooked dishes in a
-single call. Results are deduplicated by kind + ID — items shared across multiple parents (e.g. Egg
-from White Chicken and Blue Chicken) are returned as one result with a `parents` array listing all
-sources.
+rings, tools, weapons, hats, footwear, forageables, fish, bait, tackle, cooked dishes, crafting
+recipes, artifacts, and minerals in a single call. Results are deduplicated by kind + ID — items
+shared across multiple parents (e.g. Egg from White Chicken and Blue Chicken) are returned as one
+result with a `parents` array listing all sources.
 
 ## Usage
 
@@ -84,6 +84,12 @@ search("pizza");
 | `bait`               | bait          | Fishing bait                                      |
 | `tackle`             | tackle        | Fishing tackle                                    |
 | `cooked-dish`        | cooking       | Cooked dish made at the kitchen                   |
+| `artifact`           | artifacts     | Artifact donated to the museum                    |
+| `mineral`            | minerals      | Gem or mineral donated to the museum              |
+| `geode`              | minerals      | Geode item                                        |
+| `mining-node`        | minerals      | Mining node (ore vein, etc.)                      |
+| `mineral-resource`   | minerals      | Ore, bar, or other mining resource                |
+| `crafting-recipe`    | crafting      | Craftable item recipe                             |
 
 ## SearchResult fields
 

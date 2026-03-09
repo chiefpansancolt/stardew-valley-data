@@ -29,4 +29,5 @@ export * from './tackle';
 export * from './cooking';
 export * from './artifact';
 export * from './collection';
+export * from './crafting';
 export * from './mineral';
