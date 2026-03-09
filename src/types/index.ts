@@ -61,3 +61,4 @@ export * from './farmhouse';
 export * from './secret-note';
 export * from './trinket';
 export * from './lost-book';
+export * from './stardrop';

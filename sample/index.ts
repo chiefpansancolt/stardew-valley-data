@@ -47,6 +47,7 @@ import { run as runSeasons } from './seasons';
 import { run as runSecretNotes } from './secret-notes';
 import { run as runSkills } from './skills';
 import { run as runSpecialItems } from './special-items';
+import { run as runStarDrops } from './stardrops';
 import { run as runTackle } from './tackle';
 import { run as runTools } from './tools';
 import { run as runTrees } from './trees';
@@ -122,6 +123,7 @@ const results = [
   runSecretNotes(),
   runLostBooks(),
   runTrinkets(),
+  runStarDrops(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);

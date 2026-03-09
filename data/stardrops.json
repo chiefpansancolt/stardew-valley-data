@@ -1,0 +1,51 @@
+[
+  {
+    "id": "CF_Fair",
+    "name": "Fair Stardrop",
+    "description": "Purchased at the Stardew Valley Fair for 2,000 star tokens.",
+    "source": "purchase",
+    "image": "images/stardrops/Stardrop.png"
+  },
+  {
+    "id": "CF_Mines",
+    "name": "Mines Stardrop",
+    "description": "Found in the treasure chest on floor 100 of the Mines.",
+    "source": "exploration",
+    "image": "images/stardrops/Stardrop.png"
+  },
+  {
+    "id": "CF_Spouse",
+    "name": "Spouse Stardrop",
+    "description": "Given by the player's spouse or roommate when friendship reaches 12.5 hearts.",
+    "source": "friendship",
+    "image": "images/stardrops/Stardrop.png"
+  },
+  {
+    "id": "CF_Sewer",
+    "name": "Sewers Stardrop",
+    "description": "Purchased from Krobus in the Sewers for 20,000g.",
+    "source": "purchase",
+    "image": "images/stardrops/Stardrop.png"
+  },
+  {
+    "id": "CF_Statue",
+    "name": "Secret Woods Stardrop",
+    "description": "Received from Old Master Cannoli in the Secret Woods after giving him a Sweet Gem Berry.",
+    "source": "exploration",
+    "image": "images/stardrops/Stardrop.png"
+  },
+  {
+    "id": "CF_Fish",
+    "name": "Master Angler Stardrop",
+    "description": "Mailed by Willy after earning the Master Angler Achievement.",
+    "source": "achievement",
+    "image": "images/stardrops/Stardrop.png"
+  },
+  {
+    "id": "museumComplete",
+    "name": "Museum Stardrop",
+    "description": "Reward for donating all 95 items to the Museum.",
+    "source": "collection",
+    "image": "images/stardrops/Stardrop.png"
+  }
+]

@@ -61,3 +61,4 @@ export * from './modules/farmhouse';
 export * from './modules/secret-notes';
 export * from './modules/trinkets';
 export * from './modules/lost-books';
+export * from './modules/stardrops';
