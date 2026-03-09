@@ -74,6 +74,18 @@
     "shop": "medical-supplies-shop"
   },
   {
+    "id": "bookseller",
+    "name": "Bookseller",
+    "type": "building",
+    "category": "Pelican Town",
+    "image": "images/locations/Bookseller.png",
+    "openHours": null,
+    "closed": [],
+    "address": "Across the river, above JojaMart",
+    "occupants": ["Marcello"],
+    "shop": "bookseller-shop"
+  },
+  {
     "id": "jojamart",
     "name": "JojaMart",
     "type": "building",

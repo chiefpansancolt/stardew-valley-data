@@ -1,0 +1,256 @@
+{
+  "items": [
+    {
+      "id": "price-catalogue",
+      "name": "Price Catalogue",
+      "availability": "always",
+      "price": 3000,
+      "image": "images/special-items/Price Catalogue.png"
+    },
+    {
+      "id": "way-of-the-wind-pt-1",
+      "name": "Way Of The Wind pt. 1",
+      "availability": "always",
+      "price": 15000,
+      "image": "images/special-items/Way Of The Wind pt. 1.png"
+    },
+    {
+      "id": "way-of-the-wind-pt-2",
+      "name": "Way Of The Wind pt. 2",
+      "availability": "always",
+      "price": 35000,
+      "image": "images/special-items/Way Of The Wind pt. 2.png"
+    },
+    {
+      "id": "horse-the-book",
+      "name": "Horse: The Book",
+      "availability": "always",
+      "price": 25000,
+      "image": "images/special-items/Horse The Book.png"
+    },
+    {
+      "id": "ol-slitherlegs",
+      "name": "Ol' Slitherlegs",
+      "availability": "always",
+      "price": 25000,
+      "image": "images/special-items/Ol' Slitherlegs.png"
+    },
+    {
+      "id": "stardew-valley-almanac",
+      "name": "Stardew Valley Almanac",
+      "availability": "rotating-skill",
+      "price": 10000,
+      "priceTiers": [10000, 8000, 5000],
+      "image": "images/special-items/Stardew Valley Almanac.png"
+    },
+    {
+      "id": "bait-and-bobber",
+      "name": "Bait And Bobber",
+      "availability": "rotating-skill",
+      "price": 10000,
+      "priceTiers": [10000, 8000, 5000],
+      "image": "images/special-items/Bait And Bobber.png"
+    },
+    {
+      "id": "mining-monthly",
+      "name": "Mining Monthly",
+      "availability": "rotating-skill",
+      "price": 10000,
+      "priceTiers": [10000, 8000, 5000],
+      "image": "images/special-items/Mining Monthly.png"
+    },
+    {
+      "id": "combat-quarterly",
+      "name": "Combat Quarterly",
+      "availability": "rotating-skill",
+      "price": 10000,
+      "priceTiers": [10000, 8000, 5000],
+      "image": "images/special-items/Combat Quarterly.png"
+    },
+    {
+      "id": "woodcutters-weekly",
+      "name": "Woodcutter's Weekly",
+      "availability": "rotating-skill",
+      "price": 10000,
+      "priceTiers": [10000, 8000, 5000],
+      "image": "images/special-items/Woodcutter's Weekly.png"
+    },
+    {
+      "id": "book-of-stars",
+      "name": "Book Of Stars",
+      "availability": "chance",
+      "price": 15000,
+      "image": "images/special-items/Book Of Stars.png"
+    },
+    {
+      "id": "the-alleyway-buffet",
+      "name": "The Alleyway Buffet",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/The Alleyway Buffet.png"
+    },
+    {
+      "id": "the-art-o-crabbing",
+      "name": "The Art O' Crabbing",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/The Art O' Crabbing.png"
+    },
+    {
+      "id": "dwarvish-safety-manual",
+      "name": "Dwarvish Safety Manual",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Dwarvish Safety Manual.png"
+    },
+    {
+      "id": "jewels-of-the-sea",
+      "name": "Jewels Of The Sea",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Jewels Of The Sea.png"
+    },
+    {
+      "id": "ways-of-the-wild",
+      "name": "Ways Of The Wild",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Ways Of The Wild.png"
+    },
+    {
+      "id": "woodys-secret",
+      "name": "Woody's Secret",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Woody's Secret.png"
+    },
+    {
+      "id": "jack-be-nimble-jack-be-thick",
+      "name": "Jack Be Nimble, Jack Be Thick",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Jack Be Nimble, Jack Be Thick.png"
+    },
+    {
+      "id": "friendship-101",
+      "name": "Friendship 101",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Friendship 101.png"
+    },
+    {
+      "id": "monster-compendium",
+      "name": "Monster Compendium",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Monster Compendium.png"
+    },
+    {
+      "id": "mapping-cave-systems",
+      "name": "Mapping Cave Systems",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Mapping Cave Systems.png"
+    },
+    {
+      "id": "treasure-appraisal-guide",
+      "name": "Treasure Appraisal Guide",
+      "availability": "rotating-year3",
+      "price": 20000,
+      "image": "images/special-items/Treasure Appraisal Guide.png"
+    },
+    {
+      "id": "queen-of-sauce-cookbook",
+      "name": "Queen Of Sauce Cookbook",
+      "availability": "golden-walnut",
+      "price": 50000,
+      "image": "images/special-items/Queen Of Sauce Cookbook.png"
+    }
+  ],
+  "trades": [
+    {
+      "bookId": "book-of-stars",
+      "bookName": "Book Of Stars",
+      "bookImage": "images/special-items/Book Of Stars.png",
+      "receiveItems": ["Fairy Dust"],
+      "receiveQuantity": 8
+    },
+    {
+      "bookId": "stardew-valley-almanac",
+      "bookName": "Stardew Valley Almanac",
+      "bookImage": "images/special-items/Stardew Valley Almanac.png",
+      "receiveItems": ["Pepper Poppers"],
+      "receiveQuantity": 2
+    },
+    {
+      "bookId": "bait-and-bobber",
+      "bookName": "Bait And Bobber",
+      "bookImage": "images/special-items/Bait And Bobber.png",
+      "receiveItems": ["Deluxe Bait"],
+      "receiveQuantity": 30
+    },
+    {
+      "bookId": "woodcutters-weekly",
+      "bookName": "Woodcutter's Weekly",
+      "bookImage": "images/special-items/Woodcutter's Weekly.png",
+      "receiveItems": ["Wood"],
+      "receiveQuantity": 100
+    },
+    {
+      "bookId": "mining-monthly",
+      "bookName": "Mining Monthly",
+      "bookImage": "images/special-items/Mining Monthly.png",
+      "receiveItems": ["Coal"],
+      "receiveQuantity": 20
+    },
+    {
+      "bookId": "combat-quarterly",
+      "bookName": "Combat Quarterly",
+      "bookImage": "images/special-items/Combat Quarterly.png",
+      "receiveItems": ["Monster Musk"],
+      "receiveQuantity": 1
+    },
+    {
+      "bookId": "jewels-of-the-sea",
+      "bookName": "Jewels Of The Sea",
+      "bookImage": "images/special-items/Jewels Of The Sea.png",
+      "receiveItems": ["Cave Jelly", "River Jelly", "Sea Jelly"],
+      "receiveQuantity": 3
+    },
+    {
+      "bookId": "woodys-secret",
+      "bookName": "Woody's Secret",
+      "bookImage": "images/special-items/Woody's Secret.png",
+      "receiveItems": ["Hardwood"],
+      "receiveQuantity": 20
+    },
+    {
+      "bookId": "jack-be-nimble-jack-be-thick",
+      "bookName": "Jack Be Nimble, Jack Be Thick",
+      "bookImage": "images/special-items/Jack Be Nimble, Jack Be Thick.png",
+      "receiveItems": ["Stuffing"],
+      "receiveQuantity": 3
+    },
+    {
+      "bookId": "monster-compendium",
+      "bookName": "Monster Compendium",
+      "bookImage": "images/special-items/Monster Compendium.png",
+      "receiveItems": ["Slime Egg-Press", "Slime Incubator"],
+      "receiveQuantity": 1
+    },
+    {
+      "bookId": "book-of-mysteries",
+      "bookName": "Book of Mysteries",
+      "bookImage": "images/special-items/Book of Mysteries.png",
+      "receiveItems": ["Mystery Box"],
+      "receiveQuantity": 7
+    },
+    {
+      "bookId": "treasure-appraisal-guide",
+      "bookName": "Treasure Appraisal Guide",
+      "bookImage": "images/special-items/Treasure Appraisal Guide.png",
+      "receiveItems": ["Spicy Eel", "Artifact Trove"],
+      "receiveQuantity": 3
+    }
+  ]
+}

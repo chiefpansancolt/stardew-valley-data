@@ -55,3 +55,4 @@ export * from './grandpa';
 export * from './dwarf-shop';
 export * from './location';
 export * from './special-item';
+export * from './bookseller-shop';

@@ -4,6 +4,7 @@ import { run as runArtifacts } from './artifacts';
 import { run as runArtisanGoods } from './artisan-goods';
 import { run as runBait } from './bait';
 import { run as runBlacksmith } from './blacksmith-shop';
+import { run as runBookseller } from './bookseller-shop';
 import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
 import { run as runCarpenter } from './carpenter-shop';
@@ -110,6 +111,7 @@ const results = [
   runDwarfShop(),
   runLocations(),
   runSpecialItems(),
+  runBookseller(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
