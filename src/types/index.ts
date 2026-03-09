@@ -28,4 +28,5 @@ export * from './bait';
 export * from './tackle';
 export * from './cooking';
 export * from './artifact';
+export * from './collection';
 export * from './mineral';

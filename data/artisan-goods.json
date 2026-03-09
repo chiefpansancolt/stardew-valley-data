@@ -404,5 +404,20 @@
     "qualityLevels": false,
     "cask": null,
     "image": "images/artisan-goods/Smoked Fish.png"
+  },
+  {
+    "id": "MysticSyrup",
+    "name": "Mystic Syrup",
+    "description": "A syrup with a powerful magical essence.",
+    "equipment": "Tapper",
+    "ingredients": [{ "name": "Mystic Tree", "id": null, "quantity": 1 }],
+    "processingMinutes": 10080,
+    "processingDays": 7,
+    "sellPrice": 1000,
+    "sellPriceFormula": null,
+    "priceFormula": null,
+    "qualityLevels": false,
+    "cask": null,
+    "image": "images/artisan-goods/Mystic Syrup.png"
   }
 ]

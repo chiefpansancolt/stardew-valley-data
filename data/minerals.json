@@ -1022,5 +1022,34 @@
     "miningXP": 0,
     "locations": ["The Mines (any floor)", "Volcano Dungeon"],
     "image": "images/minerals/nodes/Stone 1.png"
+  },
+  {
+    "id": "848",
+    "name": "Cinder Shard",
+    "kind": "resource",
+    "description": "You can feel a warm glow from within this stone.",
+    "sellPrice": 50,
+    "locations": [
+      "Volcano Dungeon (Cinder Shard Nodes)",
+      "Magma Sprite, Magma Sparker, Magma Duggy, False Magma Cap drops",
+      "Stingray Fish Pond (population 7+)",
+      "Skull Cavern treasure rooms"
+    ],
+    "image": "images/minerals/foraged-minerals/Cinder Shard.png"
+  },
+  {
+    "id": "881",
+    "name": "Bone Fragment",
+    "kind": "resource",
+    "description": "A small piece of bone.",
+    "sellPrice": 12,
+    "locations": [
+      "Skeleton and Lava Lurk drops",
+      "Bone Nodes on Ginger Island",
+      "Skull Cavern (crates and barrels)",
+      "Panning",
+      "Artifact Spots"
+    ],
+    "image": "images/minerals/resources/Bone Fragment.png"
   }
 ]

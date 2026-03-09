@@ -5,6 +5,7 @@ import { run as runArtisanGoods } from './artisan-goods';
 import { run as runBait } from './bait';
 import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
+import { run as runCollections } from './collections';
 import { run as runCooking } from './cooking';
 import { run as runCrops } from './crops';
 import { run as runFish } from './fish';
@@ -59,6 +60,7 @@ const results = [
   runUniversalGifts(),
   runVillagers(),
   runArtifacts(),
+  runCollections(),
   runMinerals(),
 ];
 
