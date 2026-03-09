@@ -57,3 +57,4 @@ export * from './modules/locations';
 export * from './modules/special-items';
 export * from './modules/bookseller-shop';
 export * from './modules/concessions';
+export * from './modules/farmhouse';

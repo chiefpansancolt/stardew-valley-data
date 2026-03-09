@@ -1,0 +1,118 @@
+{
+  "upgrades": [
+    {
+      "id": "starting-farmhouse",
+      "name": "Starting Farmhouse",
+      "tier": 1,
+      "cost": 0,
+      "materials": [],
+      "description": "The initial farmhouse. One room with a bed. No kitchen.",
+      "image": "images/buildings/house/House (tier 1).png",
+      "prerequisite": null
+    },
+    {
+      "id": "upgrade-1",
+      "name": "Farmhouse Upgrade 1",
+      "tier": 2,
+      "cost": 10000,
+      "materials": [{ "item": "Wood", "quantity": 450 }],
+      "description": "Adds a kitchen with a cooking counter and refrigerator, enabling cooking. The bedroom is separated and the bed is upgraded to a double, enabling marriage.",
+      "image": "images/buildings/house/House (tier 2).png",
+      "prerequisite": "starting-farmhouse"
+    },
+    {
+      "id": "upgrade-2",
+      "name": "Farmhouse Upgrade 2",
+      "tier": 3,
+      "cost": 65000,
+      "materials": [{ "item": "Hardwood", "quantity": 100 }],
+      "description": "Adds two new rooms (one empty, one with a crib and child beds) and a larger layout. Unlocks house renovations and house painting from Robin.",
+      "image": "images/buildings/house/House (tier 3).png",
+      "prerequisite": "upgrade-1"
+    },
+    {
+      "id": "cellar",
+      "name": "Cellar",
+      "tier": 4,
+      "cost": 100000,
+      "materials": [],
+      "description": "Adds a cellar accessible via the kitchen. Contains casks for aging Cheese and Wine to higher quality.",
+      "image": "images/buildings/house/indoor-images/Cellar Inside.png",
+      "prerequisite": "upgrade-2"
+    }
+  ],
+  "renovations": [
+    {
+      "id": "remove-crib",
+      "name": "Remove Crib",
+      "cost": 0,
+      "description": "Removes the crib from the children's room, preventing any additional children.",
+      "image": "images/buildings/house/renovations/Removed crib.png",
+      "prerequisite": null
+    },
+    {
+      "id": "open-bedroom",
+      "name": "Open Bedroom",
+      "cost": 10000,
+      "description": "Opens up the bedroom by removing the wall between it and the main room.",
+      "image": "images/buildings/house/renovations/Opened bedroom.png",
+      "prerequisite": null
+    },
+    {
+      "id": "add-southern-room",
+      "name": "Add Southern Room",
+      "cost": 30000,
+      "description": "Adds a new room to the south side of the farmhouse.",
+      "image": "images/buildings/house/renovations/Add southern room.png",
+      "prerequisite": null
+    },
+    {
+      "id": "add-corner-room",
+      "name": "Add Corner Room",
+      "cost": 20000,
+      "description": "Adds a corner room addition to the farmhouse.",
+      "image": "images/buildings/house/renovations/Add corner room.png",
+      "prerequisite": null
+    },
+    {
+      "id": "expand-corner-room",
+      "name": "Expand Corner Room",
+      "cost": 100000,
+      "description": "Expands the corner room into a larger space.",
+      "image": "images/buildings/house/renovations/Expand corner room.png",
+      "prerequisite": "add-corner-room"
+    },
+    {
+      "id": "add-attic",
+      "name": "Add Attic",
+      "cost": 60000,
+      "description": "Adds an attic space above the farmhouse.",
+      "image": "images/buildings/house/renovations/Farmhouse with Attic.png",
+      "prerequisite": null
+    },
+    {
+      "id": "cubby",
+      "name": "Cubby",
+      "cost": 10000,
+      "description": "Adds a small cubby space to the farmhouse.",
+      "image": "images/buildings/house/renovations/Farmhouse with Cubby.png",
+      "prerequisite": null
+    },
+    {
+      "id": "dining-room",
+      "name": "Dining Room",
+      "cost": 150000,
+      "description": "Adds a formal dining room to the farmhouse.",
+      "image": "images/buildings/house/renovations/Dining room.png",
+      "prerequisite": null
+    },
+    {
+      "id": "open-dining-room",
+      "name": "Open Dining Room",
+      "cost": 10000,
+      "description": "Opens up the dining room by removing the wall between it and the adjacent area.",
+      "image": "images/buildings/house/renovations/Open dining room.png",
+      "prerequisite": null
+    }
+  ]
+}

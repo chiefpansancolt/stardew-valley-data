@@ -16,6 +16,7 @@ import { run as runCrafting } from './crafting';
 import { run as runCrops } from './crops';
 import { run as runDesertTrader } from './desert-trader-shop';
 import { run as runDwarfShop } from './dwarf-shop';
+import { run as runFarmhouse } from './farmhouse';
 import { run as runFieldOffice } from './field-office';
 import { run as runFish } from './fish';
 import { run as runFootwear } from './footwear';
@@ -114,6 +115,7 @@ const results = [
   runSpecialItems(),
   runBookseller(),
   runConcessions(),
+  runFarmhouse(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
