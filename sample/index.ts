@@ -34,6 +34,7 @@ import { run as runMarnie } from './marnie-shop';
 import { run as runMedicalSupplies } from './medical-supplies-shop';
 import { run as runMinerals } from './minerals';
 import { run as runMixedSeeds } from './mixed-seeds';
+import { run as runMonsterSlayerGoals } from './monster-slayer-goals';
 import { run as runMonsters } from './monsters';
 import { run as runOasis } from './oasis-shop';
 import { run as runPerfection } from './perfection';
@@ -77,6 +78,7 @@ const results = [
   runWeather(),
   runSeasons(),
   runMonsters(),
+  runMonsterSlayerGoals(),
   runRings(),
   runTools(),
   runWeapons(),

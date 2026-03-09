@@ -1,0 +1,122 @@
+[
+  {
+    "id": "Slimes",
+    "name": "Slime",
+    "killTarget": 1000,
+    "reward": {
+      "name": "Slime Charmer Ring",
+      "itemId": "(O)520",
+      "image": "images/rings/Slime Charmer Ring.png"
+    }
+  },
+  {
+    "id": "Shadows",
+    "name": "Void Spirits",
+    "killTarget": 150,
+    "reward": {
+      "name": "Savage Ring",
+      "itemId": "(O)523",
+      "image": "images/rings/Savage Ring.png"
+    }
+  },
+  {
+    "id": "Bats",
+    "name": "Bats",
+    "killTarget": 200,
+    "reward": {
+      "name": "Vampire Ring",
+      "itemId": "(O)522",
+      "image": "images/rings/Vampire Ring.png"
+    }
+  },
+  {
+    "id": "Skeletons",
+    "name": "Skeletons",
+    "killTarget": 50,
+    "reward": {
+      "name": "Skeleton Mask",
+      "itemId": "(H)8",
+      "image": "images/hats/Skeleton Mask.png"
+    }
+  },
+  {
+    "id": "Insects",
+    "name": "Cave Insects",
+    "killTarget": 80,
+    "reward": {
+      "name": "Insect Head",
+      "itemId": "(W)13",
+      "image": "images/weapons/swords/Insect Head.png"
+    }
+  },
+  {
+    "id": "Duggy",
+    "name": "Duggies",
+    "killTarget": 30,
+    "reward": {
+      "name": "Hard Hat",
+      "itemId": "(H)27",
+      "image": "images/hats/Hard Hat.png"
+    }
+  },
+  {
+    "id": "DustSpirits",
+    "name": "Dust Sprites",
+    "killTarget": 500,
+    "reward": {
+      "name": "Burglar's Ring",
+      "itemId": "(O)526",
+      "image": "images/rings/Burglar's Ring.png"
+    }
+  },
+  {
+    "id": "Crabs",
+    "name": "Rock Crabs",
+    "killTarget": 60,
+    "reward": {
+      "name": "Crabshell Ring",
+      "itemId": "(O)810",
+      "image": "images/rings/Crabshell Ring.png"
+    }
+  },
+  {
+    "id": "Mummies",
+    "name": "Mummies",
+    "killTarget": 100,
+    "reward": {
+      "name": "Arcane Hat",
+      "itemId": "(H)60",
+      "image": "images/hats/Arcane Hat.png"
+    }
+  },
+  {
+    "id": "Dinos",
+    "name": "Pepper Rex",
+    "killTarget": 50,
+    "reward": {
+      "name": "Knight's Helmet",
+      "itemId": "(H)50",
+      "image": "images/hats/Knight's Helmet.png"
+    }
+  },
+  {
+    "id": "Serpents",
+    "name": "Serpents",
+    "killTarget": 250,
+    "reward": {
+      "name": "Napalm Ring",
+      "itemId": "(O)811",
+      "image": "images/rings/Napalm Ring.png"
+    }
+  },
+  {
+    "id": "FlameSpirits",
+    "name": "Magma Sprites",
+    "killTarget": 150,
+    "reward": {
+      "name": "Marlon's Phone Number",
+      "itemId": null,
+      "image": null
+    }
+  }
+]

@@ -6,6 +6,18 @@ export interface MonsterLoot {
   droppedBy: string[];
 }
 
+export interface MonsterVariant {
+  name: string;
+  hp: number;
+  damage: number;
+  speed: number;
+  xp: number;
+  image: string;
+  locations: string[];
+  lootIds: string[];
+  dangerous: boolean;
+}
+
 export interface Monster {
   id: string;
   name: string;
@@ -17,4 +29,6 @@ export interface Monster {
   locations: string[];
   lootIds: string[];
   dangerous: boolean;
+  /** Additional variants that share this monster's game ID */
+  variants?: MonsterVariant[];
 }

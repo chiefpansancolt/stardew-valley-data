@@ -7,6 +7,7 @@ export * from './modules/calculator';
 export * from './modules/crops';
 export * from './modules/maps';
 export * from './modules/monsters';
+export * from './modules/monster-slayer-goals';
 export * from './modules/search';
 export * from './modules/skills';
 export * from './modules/trees';
