@@ -1,0 +1,90 @@
+[
+  {
+    "id": "produce-forage-shipped",
+    "name": "Produce & Forage Shipped",
+    "requirement": "Ship one of every item in the Items Shipped (Farm & Forage) tab",
+    "count": 154,
+    "unit": "items",
+    "weight": 15
+  },
+  {
+    "id": "obelisks-on-farm",
+    "name": "Obelisks on Farm",
+    "requirement": "Build Earth Obelisk, Water Obelisk, Desert Obelisk, and Island Obelisk on the farm",
+    "count": 4,
+    "unit": "obelisks",
+    "weight": 4
+  },
+  {
+    "id": "golden-clock-on-farm",
+    "name": "Golden Clock on Farm",
+    "requirement": "Build the Gold Clock on the farm",
+    "count": 1,
+    "unit": "building",
+    "weight": 10
+  },
+  {
+    "id": "monster-slayer-hero",
+    "name": "Monster Slayer Hero",
+    "requirement": "Complete all monster eradication goals for the Adventurer's Guild",
+    "count": 12,
+    "unit": "goals",
+    "weight": 10
+  },
+  {
+    "id": "great-friends",
+    "name": "Great Friends",
+    "requirement": "Reach maximum hearts with every villager (including Kent)",
+    "count": 34,
+    "unit": "villagers",
+    "weight": 11
+  },
+  {
+    "id": "farmer-level",
+    "name": "Farmer Level",
+    "requirement": "Reach level 10 in every skill",
+    "count": 25,
+    "unit": "skill levels",
+    "weight": 5
+  },
+  {
+    "id": "found-all-stardrops",
+    "name": "Found All Stardrops",
+    "requirement": "Find all Stardrops",
+    "count": 7,
+    "unit": "stardrops",
+    "weight": 10
+  },
+  {
+    "id": "cooking-recipes-made",
+    "name": "Cooking Recipes Made",
+    "requirement": "Cook every recipe at least once",
+    "count": 81,
+    "unit": "recipes",
+    "weight": 10
+  },
+  {
+    "id": "crafting-recipes-made",
+    "name": "Crafting Recipes Made",
+    "requirement": "Craft every item at least once (Wedding Ring not required)",
+    "count": 149,
+    "unit": "items",
+    "weight": 10
+  },
+  {
+    "id": "fish-caught",
+    "name": "Fish Caught",
+    "requirement": "Catch every fish species in the Fish tab in the Collections menu",
+    "count": 72,
+    "unit": "species",
+    "weight": 10
+  },
+  {
+    "id": "golden-walnuts-found",
+    "name": "Golden Walnuts Found",
+    "requirement": "Find all Golden Walnuts on Ginger Island",
+    "count": 130,
+    "unit": "walnuts",
+    "weight": 5
+  }
+]

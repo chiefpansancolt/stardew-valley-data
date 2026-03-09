@@ -31,3 +31,8 @@ export * from './modules/artifacts';
 export * from './modules/collections';
 export * from './modules/crafting';
 export * from './modules/minerals';
+export * from './modules/perfection';
+export * from './modules/qi-stock';
+export * from './modules/medical-supplies';
+export * from './modules/blacksmith';
+export * from './modules/joja';

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "378",
+    "name": "Copper Ore",
+    "description": "A common ore that can be smelted into bars.",
+    "priceYear1": 75,
+    "priceYear2": 150,
+    "image": "images/minerals/ore/Copper Ore.png"
+  },
+  {
+    "id": "380",
+    "name": "Iron Ore",
+    "description": "A fairly common ore that can be smelted into bars.",
+    "priceYear1": 150,
+    "priceYear2": 250,
+    "image": "images/minerals/ore/Iron Ore.png"
+  },
+  {
+    "id": "382",
+    "name": "Coal",
+    "description": "A combustible rock that is useful for crafting and smelting.",
+    "priceYear1": 150,
+    "priceYear2": 250,
+    "image": "images/minerals/ore/Coal.png"
+  },
+  {
+    "id": "384",
+    "name": "Gold Ore",
+    "description": "A precious ore that can be smelted into bars.",
+    "priceYear1": 400,
+    "priceYear2": 750,
+    "image": "images/minerals/ore/Gold Ore.png"
+  }
+]

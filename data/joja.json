@@ -1,0 +1,275 @@
+[
+  {
+    "id": "167",
+    "name": "Joja Cola",
+    "price": 75,
+    "description": "The flagship product of Joja corporation.",
+    "image": "images/shop/Joja Cola.png",
+    "seasons": []
+  },
+  {
+    "id": "JojaCatalogue",
+    "name": "Joja Furniture Catalogue",
+    "price": 25000,
+    "description": "Grants one (1) lifetime subscription to the Official Joja THRIVE Collection, featuring 40 exclusive furniture pieces!",
+    "image": "images/shop/Joja Furniture Catalogue.png",
+    "seasons": []
+  },
+  {
+    "id": "22",
+    "name": "Joja Wallpaper",
+    "price": 20,
+    "description": "Decorates the walls of one room.",
+    "image": "images/shop/Joja Wallpaper.png",
+    "seasons": []
+  },
+  {
+    "id": "1609",
+    "name": "J. Cola Light",
+    "price": 500,
+    "description": "Can be placed inside your house.",
+    "image": "images/shop/J. Cola Light.png",
+    "seasons": []
+  },
+  {
+    "id": "297",
+    "name": "Grass Starter",
+    "price": 125,
+    "description": "Place this on your farm to start a new patch of grass.",
+    "image": "images/craftable/seeds/Grass Starter.png",
+    "seasons": []
+  },
+  {
+    "id": "245",
+    "name": "Sugar",
+    "price": 125,
+    "description": "Adds sweetness to pastries and candies. Too much can be unhealthy.",
+    "image": "images/shop/Sugar.png",
+    "seasons": []
+  },
+  {
+    "id": "246",
+    "name": "Wheat Flour",
+    "price": 125,
+    "description": "A common cooking ingredient made from crushed wheat seeds.",
+    "image": "images/shop/Wheat Flour.png",
+    "seasons": []
+  },
+  {
+    "id": "423",
+    "name": "Rice",
+    "price": 250,
+    "description": "A basic grain often served under vegetables.",
+    "image": "images/shop/Rice.png",
+    "seasons": []
+  },
+  {
+    "id": "272",
+    "name": "Auto-Petter",
+    "price": 50000,
+    "description": "Joja Co. patented technology for coops and barns. Keeps your animals content, but can't replace the full benefit of human touch.",
+    "image": "images/tools/Auto-Petter.png",
+    "seasons": [],
+    "availability": "Joja Warehouse route completed"
+  },
+  {
+    "id": "472",
+    "name": "Parsnip Seeds",
+    "price": 25,
+    "description": "Plant these in the spring. Takes 4 days to mature.",
+    "image": "images/crops/parsnip/seed.png",
+    "seasons": ["spring"]
+  },
+  {
+    "id": "473",
+    "name": "Bean Starter",
+    "price": 75,
+    "description": "Plant these in the spring. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.",
+    "image": "images/crops/green-bean/seed.png",
+    "seasons": ["spring"]
+  },
+  {
+    "id": "474",
+    "name": "Cauliflower Seeds",
+    "price": 100,
+    "description": "Plant these in the spring. Takes 12 days to produce a large cauliflower.",
+    "image": "images/crops/cauliflower/seed.png",
+    "seasons": ["spring"]
+  },
+  {
+    "id": "475",
+    "name": "Potato Seeds",
+    "price": 62,
+    "description": "Plant these in the spring. Takes 6 days to mature, and has a chance of yielding multiple potatoes at harvest.",
+    "image": "images/crops/potato/seed.png",
+    "seasons": ["spring"]
+  },
+  {
+    "id": "427",
+    "name": "Tulip Bulb",
+    "price": 25,
+    "description": "Plant in spring. Takes 6 days to produce a colorful flower. Assorted colors.",
+    "image": "images/crops/tulip/seed.png",
+    "seasons": ["spring"]
+  },
+  {
+    "id": "477",
+    "name": "Kale Seeds",
+    "price": 87,
+    "description": "Plant these in the spring. Takes 6 days to mature. Harvest with the scythe.",
+    "image": "images/crops/kale/seed.png",
+    "seasons": ["spring"]
+  },
+  {
+    "id": "429",
+    "name": "Jazz Seeds",
+    "price": 37,
+    "description": "Plant in spring. Takes 7 days to produce a blue puffball flower.",
+    "image": "images/crops/blue-jazz/seed.png",
+    "seasons": ["spring"]
+  },
+  {
+    "id": "480",
+    "name": "Tomato Seeds",
+    "price": 62,
+    "description": "Plant these in the summer. Takes 11 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/tomato/seed.png",
+    "seasons": ["summer"]
+  },
+  {
+    "id": "482",
+    "name": "Pepper Seeds",
+    "price": 50,
+    "description": "Plant these in the summer. Takes 5 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/hot-pepper/seed.png",
+    "seasons": ["summer"]
+  },
+  {
+    "id": "484",
+    "name": "Radish Seeds",
+    "price": 50,
+    "description": "Plant these in the summer. Takes 6 days to mature.",
+    "image": "images/crops/radish/seed.png",
+    "seasons": ["summer"]
+  },
+  {
+    "id": "479",
+    "name": "Melon Seeds",
+    "price": 100,
+    "description": "Plant these in the summer. Takes 12 days to mature.",
+    "image": "images/crops/melon/seed.png",
+    "seasons": ["summer"]
+  },
+  {
+    "id": "302",
+    "name": "Hops Starter",
+    "price": 75,
+    "description": "Plant these in the summer. Takes 11 days to grow, but keeps producing after that. Grows on a trellis.",
+    "image": "images/crops/hops/seed.png",
+    "seasons": ["summer"]
+  },
+  {
+    "id": "453",
+    "name": "Poppy Seeds",
+    "price": 125,
+    "description": "Plant in summer. Produces a bright red flower in 7 days.",
+    "image": "images/crops/poppy/seed.png",
+    "seasons": ["summer"]
+  },
+  {
+    "id": "455",
+    "name": "Spangle Seeds",
+    "price": 62,
+    "description": "Plant in summer. Takes 8 days to produce a vibrant tropical flower. Assorted colors.",
+    "image": "images/crops/summer-spangle/seed.png",
+    "seasons": ["summer"]
+  },
+  {
+    "id": "483",
+    "name": "Wheat Seeds",
+    "price": 12,
+    "description": "Plant these in the summer or fall. Takes 4 days to mature. Harvest with the scythe.",
+    "image": "images/crops/wheat/seed.png",
+    "seasons": ["summer", "fall"]
+  },
+  {
+    "id": "431",
+    "name": "Sunflower Seeds",
+    "price": 125,
+    "description": "Plant in summer or fall. Takes 8 days to produce a large sunflower. Yields more seeds at harvest.",
+    "image": "images/crops/sunflower/seed.png",
+    "seasons": ["summer", "fall"]
+  },
+  {
+    "id": "487",
+    "name": "Corn Seeds",
+    "price": 187,
+    "description": "Plant these in the summer or fall. Takes 14 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/corn/seed.png",
+    "seasons": ["summer", "fall"]
+  },
+  {
+    "id": "488",
+    "name": "Eggplant Seeds",
+    "price": 25,
+    "description": "Plant these in the fall. Takes 5 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/eggplant/seed.png",
+    "seasons": ["fall"]
+  },
+  {
+    "id": "490",
+    "name": "Pumpkin Seeds",
+    "price": 125,
+    "description": "Plant these in the fall. Takes 13 days to mature.",
+    "image": "images/crops/pumpkin/seed.png",
+    "seasons": ["fall"]
+  },
+  {
+    "id": "299",
+    "name": "Amaranth Seeds",
+    "price": 87,
+    "description": "Plant these in the fall. Takes 7 days to grow. Harvest with the scythe.",
+    "image": "images/crops/amaranth/seed.png",
+    "seasons": ["fall"]
+  },
+  {
+    "id": "301",
+    "name": "Grape Starter",
+    "price": 75,
+    "description": "Plant these in the fall. Takes 10 days to grow, but keeps producing after that. Grows on a trellis.",
+    "image": "images/crops/grape/seed.png",
+    "seasons": ["fall"]
+  },
+  {
+    "id": "492",
+    "name": "Yam Seeds",
+    "price": 75,
+    "description": "Plant these in the fall. Takes 10 days to mature.",
+    "image": "images/crops/yam/seed.png",
+    "seasons": ["fall"]
+  },
+  {
+    "id": "491",
+    "name": "Bok Choy Seeds",
+    "price": 62,
+    "description": "Plant these in the fall. Takes 4 days to mature.",
+    "image": "images/crops/bok-choy/seed.png",
+    "seasons": ["fall"]
+  },
+  {
+    "id": "493",
+    "name": "Cranberry Seeds",
+    "price": 300,
+    "description": "Plant these in the fall. Takes 7 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/cranberries/seed.png",
+    "seasons": ["fall"]
+  },
+  {
+    "id": "425",
+    "name": "Fairy Seeds",
+    "price": 250,
+    "description": "Plant in fall. Takes 12 days to produce a mysterious flower. Assorted colors.",
+    "image": "images/crops/fairy-rose/seed.png",
+    "seasons": ["fall"]
+  }
+]

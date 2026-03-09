@@ -1,0 +1,20 @@
+[
+  {
+    "id": "349",
+    "name": "Energy Tonic",
+    "price": 1000,
+    "description": "Restores a lot of energy.",
+    "energy": 500,
+    "health": 0,
+    "image": "images/medical-supplies/Energy Tonic.png"
+  },
+  {
+    "id": "351",
+    "name": "Muscle Remedy",
+    "price": 1000,
+    "description": "When you've pushed your body too hard, drink this to remove 'Exhaustion.'",
+    "energy": 50,
+    "health": 22,
+    "image": "images/medical-supplies/Muscle Remedy.png"
+  }
+]

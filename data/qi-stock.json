@@ -1,0 +1,275 @@
+[
+  {
+    "id": "256",
+    "name": "Junimo Chest",
+    "cost": 15,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Through the power of forest magic, every Junimo Chest links to the same stash.",
+    "image": "images/shop/Junimo Chest.png",
+    "isRecipe": false,
+    "note": "First purchase requires two (30 Qi Gems total)."
+  },
+  {
+    "id": "911",
+    "name": "Horse Flute",
+    "cost": 50,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Playing this flute will summon your horse. Only works outdoors.",
+    "image": "images/shop/Horse Flute.png",
+    "isRecipe": false
+  },
+  {
+    "id": "897",
+    "name": "Pierre's Missing Stocklist",
+    "cost": 50,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Pierre might be interested in this.",
+    "image": "images/shop/Pierre's Missing Stocklist.png",
+    "isRecipe": false
+  },
+  {
+    "id": "275",
+    "name": "Hopper",
+    "cost": 10,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Items placed inside will automatically be loaded into the machine in front of it.",
+    "image": "images/craftable/misc/Hopper.png",
+    "isRecipe": false
+  },
+  {
+    "id": "913",
+    "name": "Enricher",
+    "cost": 20,
+    "currency": "qi-gem",
+    "quantity": 4,
+    "description": "Place on a sprinkler and load with fertilizer to automatically apply it when planting seeds nearby.",
+    "image": "images/shop/Enricher.png",
+    "isRecipe": false
+  },
+  {
+    "id": "915",
+    "name": "Pressure Nozzle",
+    "cost": 20,
+    "currency": "qi-gem",
+    "quantity": 4,
+    "description": "Place on a sprinkler to increase its watering range.",
+    "image": "images/shop/Pressure Nozzle.png",
+    "isRecipe": false
+  },
+  {
+    "id": "265",
+    "name": "Deconstructor",
+    "cost": 20,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Destroys crafted items, but salvages their most valuable material.",
+    "image": "images/shop/Deconstructor.png",
+    "isRecipe": false
+  },
+  {
+    "id": "SHOP_TOWN_KEY",
+    "name": "Key To The Town",
+    "cost": 20,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Allows access to all buildings in town, at any time of day.",
+    "image": "images/special-items/Key To The Town.png",
+    "isRecipe": false
+  },
+  {
+    "id": "896",
+    "name": "Galaxy Soul",
+    "cost": 40,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Forge 3 of these into a Galaxy weapon to unleash its final form.",
+    "image": "images/shop/Galaxy Soul.png",
+    "isRecipe": false
+  },
+  {
+    "id": "891",
+    "name": "Mushroom Tree Seed",
+    "cost": 5,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Place this on your farm to plant a mushroom tree.",
+    "image": "images/shop/Mushroom Tree Seed.png",
+    "isRecipe": false
+  },
+  {
+    "id": "908",
+    "name": "Magic Bait",
+    "cost": 5,
+    "currency": "qi-gem",
+    "quantity": 20,
+    "description": "Allows you to catch fish from any season, time, or weather, from whichever type of water you cast into.",
+    "image": "images/fish/bait/Magic Bait.png",
+    "isRecipe": false
+  },
+  {
+    "id": "917",
+    "name": "Qi Seasoning",
+    "cost": 10,
+    "currency": "qi-gem",
+    "quantity": 10,
+    "description": "Just a dash will elevate any dish to extraordinary heights. Automatically applied when cooking.",
+    "image": "images/shop/Qi Seasoning.png",
+    "isRecipe": false
+  },
+  {
+    "id": "82",
+    "name": "Mr. Qi's Hat",
+    "cost": 5,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "A replica of Mr. Qi's iconic hat.",
+    "image": "images/hats/Mr. Qi's Hat.png",
+    "isRecipe": false
+  },
+  {
+    "id": "2400",
+    "name": "Aquatic Sanctuary",
+    "cost": 20,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Can be placed inside your house.",
+    "image": "images/shop/Aquatic Sanctuary.png",
+    "isRecipe": false
+  },
+  {
+    "id": "recipe-heavy-tapper",
+    "name": "Heavy Tapper Recipe",
+    "cost": 20,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Unlocks the crafting recipe for the Heavy Tapper.",
+    "image": "images/craftable/refining-equipment/Heavy Tapper.png",
+    "isRecipe": true
+  },
+  {
+    "id": "recipe-hyper-speed-gro",
+    "name": "Hyper Speed-Gro Recipe",
+    "cost": 30,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Unlocks the crafting recipe for Hyper Speed-Gro.",
+    "image": "images/craftable/fertilizer/Hyper Speed-Gro.png",
+    "isRecipe": true
+  },
+  {
+    "id": "recipe-deluxe-fertilizer",
+    "name": "Deluxe Fertilizer Recipe",
+    "cost": 20,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Unlocks the crafting recipe for Deluxe Fertilizer.",
+    "image": "images/craftable/fertilizer/Deluxe Fertilizer.png",
+    "isRecipe": true
+  },
+  {
+    "id": "recipe-hopper",
+    "name": "Hopper Recipe",
+    "cost": 50,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Unlocks the crafting recipe for the Hopper.",
+    "image": "images/craftable/misc/Hopper.png",
+    "isRecipe": true
+  },
+  {
+    "id": "recipe-magic-bait",
+    "name": "Magic Bait Recipe",
+    "cost": 20,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Unlocks the crafting recipe for Magic Bait.",
+    "image": "images/fish/bait/Magic Bait.png",
+    "isRecipe": true
+  },
+  {
+    "id": "248",
+    "name": "Mini-Shipping Bin",
+    "cost": 60,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Items placed in it will be included in the nightly shipment.",
+    "image": "images/shop/Mini-Shipping Bin.png",
+    "isRecipe": false
+  },
+  {
+    "id": "2514",
+    "name": "Exotic Double Bed",
+    "cost": 50,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Can be placed inside your house.",
+    "image": "images/shop/Exotic Double Bed.png",
+    "isRecipe": false
+  },
+  {
+    "id": "recipe-blue-grass-starter",
+    "name": "Blue Grass Starter Recipe",
+    "cost": 40,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "Unlocks the crafting recipe for Blue Grass Starter.",
+    "image": "images/craftable/seeds/Blue Grass Starter.png",
+    "isRecipe": true
+  },
+  {
+    "id": "893",
+    "name": "Fireworks (Red)",
+    "cost": 1,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "An old tradition for celebrations and festivities. Handle with care!",
+    "image": "images/shop/Fireworks (Red).png",
+    "isRecipe": false
+  },
+  {
+    "id": "894",
+    "name": "Fireworks (Purple)",
+    "cost": 1,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "An old tradition for celebrations and festivities. Handle with care!",
+    "image": "images/shop/Fireworks (Purple).png",
+    "isRecipe": false
+  },
+  {
+    "id": "895",
+    "name": "Fireworks (Green)",
+    "cost": 1,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "An old tradition for celebrations and festivities. Handle with care!",
+    "image": "images/shop/Fireworks (Green).png",
+    "isRecipe": false
+  },
+  {
+    "id": "858",
+    "name": "Qi Gem",
+    "cost": 1,
+    "currency": "golden-walnut",
+    "quantity": 2,
+    "description": "Special currency honored by Mr. Qi.",
+    "image": "images/shop/Qi Gem.png",
+    "isRecipe": false,
+    "availability": "After fully upgrading Ginger Island"
+  },
+  {
+    "id": "928",
+    "name": "Golden Egg",
+    "cost": 100,
+    "currency": "qi-gem",
+    "quantity": 1,
+    "description": "A very rare and special egg with a solid gold shell.",
+    "image": "images/animals/produce/Golden Egg.png",
+    "isRecipe": false,
+    "availability": "After achieving 100% perfection"
+  }
+]

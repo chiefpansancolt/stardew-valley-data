@@ -3,6 +3,7 @@ import { run as runAnimals } from './animals';
 import { run as runArtifacts } from './artifacts';
 import { run as runArtisanGoods } from './artisan-goods';
 import { run as runBait } from './bait';
+import { run as runBlacksmith } from './blacksmith';
 import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
 import { run as runCollections } from './collections';
@@ -13,10 +14,14 @@ import { run as runFish } from './fish';
 import { run as runFootwear } from './footwear';
 import { run as runForageables } from './forageables';
 import { run as runHats } from './hats';
+import { run as runJoja } from './joja';
 import { run as runMaps } from './maps';
+import { run as runMedicalSupplies } from './medical-supplies';
 import { run as runMinerals } from './minerals';
 import { run as runMixedSeeds } from './mixed-seeds';
 import { run as runMonsters } from './monsters';
+import { run as runPerfection } from './perfection';
+import { run as runQiStock } from './qi-stock';
 import { run as runQuests } from './quests';
 import { run as runRings } from './rings';
 import { run as runSearch } from './search';
@@ -64,6 +69,11 @@ const results = [
   runCollections(),
   runCrafting(),
   runMinerals(),
+  runPerfection(),
+  runQiStock(),
+  runMedicalSupplies(),
+  runBlacksmith(),
+  runJoja(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
