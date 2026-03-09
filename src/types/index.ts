@@ -58,3 +58,4 @@ export * from './special-item';
 export * from './bookseller-shop';
 export * from './concession';
 export * from './farmhouse';
+export * from './secret-note';

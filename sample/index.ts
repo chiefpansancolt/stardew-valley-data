@@ -43,6 +43,7 @@ import { run as runRings } from './rings';
 import { run as runSaloon } from './saloon-shop';
 import { run as runSearch } from './search';
 import { run as runSeasons } from './seasons';
+import { run as runSecretNotes } from './secret-notes';
 import { run as runSkills } from './skills';
 import { run as runSpecialItems } from './special-items';
 import { run as runTackle } from './tackle';
@@ -116,6 +117,7 @@ const results = [
   runBookseller(),
   runConcessions(),
   runFarmhouse(),
+  runSecretNotes(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
