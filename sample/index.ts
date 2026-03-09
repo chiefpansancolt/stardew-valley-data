@@ -10,6 +10,7 @@ import { run as runCalculator } from './calculator';
 import { run as runCarpenter } from './carpenter-shop';
 import { run as runCasino } from './casino-shop';
 import { run as runCollections } from './collections';
+import { run as runConcessions } from './concessions';
 import { run as runCooking } from './cooking';
 import { run as runCrafting } from './crafting';
 import { run as runCrops } from './crops';
@@ -112,6 +113,7 @@ const results = [
   runLocations(),
   runSpecialItems(),
   runBookseller(),
+  runConcessions(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);

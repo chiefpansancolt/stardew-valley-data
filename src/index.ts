@@ -56,3 +56,4 @@ export * from './modules/dwarf-shop';
 export * from './modules/locations';
 export * from './modules/special-items';
 export * from './modules/bookseller-shop';
+export * from './modules/concessions';

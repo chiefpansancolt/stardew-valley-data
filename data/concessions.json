@@ -1,0 +1,170 @@
+[
+  {
+    "id": "cotton-candy",
+    "name": "Cotton Candy",
+    "price": 50,
+    "tags": ["sweet", "candy"],
+    "image": "images/concessions/Cotton Candy.png"
+  },
+  {
+    "id": "jasmine-tea",
+    "name": "Jasmine Tea",
+    "price": 50,
+    "tags": ["drink", "hot", "healthy"],
+    "image": "images/concessions/Jasmine Tea.png"
+  },
+  {
+    "id": "joja-cola",
+    "name": "Joja Cola",
+    "price": 40,
+    "tags": ["drink", "cold", "joja"],
+    "image": "images/concessions/Joja Cola.png"
+  },
+  {
+    "id": "sour-slimes",
+    "name": "Sour Slimes",
+    "price": 80,
+    "tags": ["sour", "candy"],
+    "image": "images/concessions/Sour Slimes.png"
+  },
+  {
+    "id": "personal-pizza",
+    "name": "Personal Pizza",
+    "price": 150,
+    "tags": ["hot", "fatty"],
+    "image": "images/concessions/Personal Pizza.png"
+  },
+  {
+    "id": "nachos",
+    "name": "Nachos",
+    "price": 100,
+    "tags": ["hot", "salty", "fatty"],
+    "image": "images/concessions/Nachos.png"
+  },
+  {
+    "id": "salmon-burger",
+    "name": "Salmon Burger",
+    "price": 150,
+    "tags": ["sandwich", "burger"],
+    "image": "images/concessions/Salmon Burger.png"
+  },
+  {
+    "id": "ice-cream-sandwich",
+    "name": "Ice Cream Sandwich",
+    "price": 150,
+    "tags": ["sandwich", "sweet", "cold"],
+    "image": "images/concessions/Ice Cream Sandwich.png"
+  },
+  {
+    "id": "popcorn",
+    "name": "Popcorn",
+    "price": 120,
+    "tags": ["hot", "salty"],
+    "image": "images/concessions/Popcorn.png"
+  },
+  {
+    "id": "fries",
+    "name": "Fries",
+    "price": 100,
+    "tags": ["hot", "salty", "fatty"],
+    "image": "images/concessions/Fries.png"
+  },
+  {
+    "id": "chocolate-popcorn",
+    "name": "Chocolate Popcorn",
+    "price": 130,
+    "tags": ["hot", "sweet"],
+    "image": "images/concessions/Chocolate Popcorn.png"
+  },
+  {
+    "id": "black-licorice",
+    "name": "Black Licorice",
+    "price": 25,
+    "tags": [],
+    "image": "images/concessions/Black Licorice.png"
+  },
+  {
+    "id": "star-cookie",
+    "name": "Star Cookie",
+    "price": 150,
+    "tags": ["sweet"],
+    "image": "images/concessions/Star Cookie.png"
+  },
+  {
+    "id": "jawbreaker",
+    "name": "Jawbreaker",
+    "price": 250,
+    "tags": ["sweet", "candy"],
+    "image": "images/concessions/Jawbreaker.png"
+  },
+  {
+    "id": "salted-peanuts",
+    "name": "Salted Peanuts",
+    "price": 120,
+    "tags": ["salty"],
+    "image": "images/concessions/Salted Peanuts.png"
+  },
+  {
+    "id": "hummus-snack-pack",
+    "name": "Hummus Snack Pack",
+    "price": 90,
+    "tags": ["healthy"],
+    "image": "images/concessions/Hummus Snack Pack.png"
+  },
+  {
+    "id": "kale-smoothie",
+    "name": "Kale Smoothie",
+    "price": 120,
+    "tags": ["drink", "healthy"],
+    "image": "images/concessions/Kale Smoothie.png"
+  },
+  {
+    "id": "apple-slices",
+    "name": "Apple Slices",
+    "price": 100,
+    "tags": ["sweet", "healthy"],
+    "image": "images/concessions/Apple Slices.png"
+  },
+  {
+    "id": "panzanella-salad",
+    "name": "Panzanella Salad",
+    "price": 200,
+    "tags": ["gourmet", "healthy"],
+    "image": "images/concessions/Panzanella Salad.png"
+  },
+  {
+    "id": "truffle-popcorn",
+    "name": "Truffle Popcorn",
+    "price": 180,
+    "tags": ["gourmet", "salty"],
+    "image": "images/concessions/Truffle Popcorn.png"
+  },
+  {
+    "id": "cappuccino-mousse-cake",
+    "name": "Cappuccino Mousse Cake",
+    "price": 220,
+    "tags": ["sweet", "gourmet"],
+    "image": "images/concessions/Cappuccino Mousse Cake.png"
+  },
+  {
+    "id": "joja-corn",
+    "name": "JojaCorn",
+    "price": 10,
+    "tags": ["joja"],
+    "image": "images/concessions/JojaCorn.png"
+  },
+  {
+    "id": "stardrop-sorbet",
+    "name": "Stardrop Sorbet",
+    "price": 1250,
+    "tags": ["sweet", "gourmet"],
+    "image": "images/concessions/Stardrop Sorbet.png"
+  },
+  {
+    "id": "rock-candy",
+    "name": "Rock Candy",
+    "price": 90,
+    "tags": ["sweet", "candy"],
+    "image": "images/concessions/Rock Candy.png"
+  }
+]

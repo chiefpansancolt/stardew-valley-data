@@ -14,6 +14,7 @@ export interface Fish {
   time?: string;
   difficulty?: number;
   sellPrice: number;
+  fishTank: boolean;
   usedIn: string[];
   image: string;
 }
