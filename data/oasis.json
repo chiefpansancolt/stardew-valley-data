@@ -1,0 +1,137 @@
+[
+  {
+    "id": "802",
+    "name": "Cactus Seeds",
+    "price": 150,
+    "description": "Plant these in a pot inside or outside during any season.",
+    "image": "images/crops/cactus-fruit/seed.png",
+    "category": "seed"
+  },
+  {
+    "id": "478",
+    "name": "Rhubarb Seeds",
+    "price": 100,
+    "description": "Plant in spring. Takes 13 days to mature.",
+    "image": "images/crops/rhubarb/seed.png",
+    "category": "seed"
+  },
+  {
+    "id": "486",
+    "name": "Starfruit Seeds",
+    "price": 400,
+    "description": "Plant in summer. Takes 13 days to mature.",
+    "image": "images/crops/starfruit/seed.png",
+    "category": "seed"
+  },
+  {
+    "id": "494",
+    "name": "Beet Seeds",
+    "price": 20,
+    "description": "Plant in fall. Takes 6 days to mature.",
+    "image": "images/crops/beet/seed.png",
+    "category": "seed"
+  },
+  {
+    "id": "FWallCactus",
+    "name": "Wall Cactus",
+    "price": 700,
+    "description": "A small potted cactus that mounts on the wall.",
+    "image": "images/shop/Wall Cactus.png",
+    "category": "furniture"
+  },
+  {
+    "id": "FCoatStand",
+    "name": "Coat Stand",
+    "price": 2000,
+    "description": "A freestanding coat rack to organize your outerwear.",
+    "image": "images/shop/Coat Stand.png",
+    "category": "furniture"
+  },
+  {
+    "id": "FClothesline",
+    "name": "Clothesline",
+    "price": 5000,
+    "description": "String up some laundry for that homey outdoor feel.",
+    "image": "images/shop/Clothesline.png",
+    "category": "furniture"
+  },
+  {
+    "id": "MMannequinMale",
+    "name": "Mannequin (Male)",
+    "price": 12000,
+    "description": "Display your clothing on a male-presenting mannequin.",
+    "image": "images/shop/Mannequin (Male).png",
+    "category": "special"
+  },
+  {
+    "id": "P0",
+    "name": "Farmer Pants",
+    "price": 1000,
+    "description": "Comfortable denim overalls with plenty of pockets.",
+    "image": "images/clothing/Farmer Pants.png",
+    "category": "clothing"
+  },
+  {
+    "id": "88",
+    "name": "Coconut",
+    "price": 200,
+    "description": "A delicious coconut. Very popular.",
+    "image": "images/forageables/Coconut.png",
+    "category": "food",
+    "day": "Monday"
+  },
+  {
+    "id": "90",
+    "name": "Cactus Fruit",
+    "price": 150,
+    "description": "The sweet fruit of a cactus. Eaten by the natives of the Calico Desert.",
+    "image": "images/crops/cactus-fruit/crop.png",
+    "category": "food",
+    "day": "Tuesday"
+  },
+  {
+    "id": "749",
+    "name": "Omni Geode",
+    "price": 500,
+    "description": "A pungent mass that contains a rainbow of crystals. A geologist can crack it open for you.",
+    "image": "images/minerals/geodes/Omni Geode.png",
+    "category": "special",
+    "day": "Wednesday"
+  },
+  {
+    "id": "466",
+    "name": "Deluxe Speed-Gro",
+    "price": 80,
+    "description": "Stimulates crop growth. 25% faster than regular Speed-Gro.",
+    "image": "images/craftable/fertilizer/Deluxe Speed-Gro.png",
+    "category": "special",
+    "day": "Thursday"
+  },
+  {
+    "id": "340",
+    "name": "Honey",
+    "price": 200,
+    "description": "It's a sweet syrup produced by bees.",
+    "image": "images/artisan-goods/Honey.png",
+    "category": "food",
+    "day": "Friday"
+  },
+  {
+    "id": "371",
+    "name": "Quality Retaining Soil",
+    "price": 200,
+    "description": "This soil has a good chance of staying watered overnight. Mix into tilled soil.",
+    "image": "images/craftable/fertilizer/Quality Retaining Soil.png",
+    "category": "special",
+    "day": "Saturday"
+  },
+  {
+    "id": "233",
+    "name": "Ice Cream",
+    "price": 240,
+    "description": "It's the perfect treat on a hot summer day.",
+    "image": "images/cooking/Ice Cream.png",
+    "category": "food",
+    "day": "Sunday"
+  }
+]

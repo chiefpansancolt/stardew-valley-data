@@ -1,0 +1,358 @@
+[
+  {
+    "id": "W0",
+    "name": "Rusty Sword",
+    "price": 250,
+    "description": "An old, battered sword. It's seen better days.",
+    "image": "images/weapons/swords/Rusty Sword.png",
+    "category": "weapon",
+    "weaponType": "sword"
+  },
+  {
+    "id": "W12",
+    "name": "Wooden Blade",
+    "price": 250,
+    "description": "A training weapon made of hardwood.",
+    "image": "images/weapons/swords/Wooden Blade.png",
+    "category": "weapon",
+    "weaponType": "sword"
+  },
+  {
+    "id": "W31",
+    "name": "Femur",
+    "price": 350,
+    "description": "A large bone that can be used as a club. Not exactly dignified.",
+    "image": "images/weapons/clubs/Femur.png",
+    "category": "weapon",
+    "weaponType": "club",
+    "mineLevel": 10
+  },
+  {
+    "id": "B507",
+    "name": "Work Boots",
+    "price": 700,
+    "description": "Steel-toed for extra protection.",
+    "image": "images/footwear/Work Boots.png",
+    "category": "boots",
+    "mineLevel": 10
+  },
+  {
+    "id": "W17",
+    "name": "Iron Dirk",
+    "price": 500,
+    "description": "A small iron dagger. Quick in a fight.",
+    "image": "images/weapons/daggers/Iron Dirk.png",
+    "category": "weapon",
+    "weaponType": "dagger",
+    "mineLevel": 15
+  },
+  {
+    "id": "W1",
+    "name": "Silver Saber",
+    "price": 750,
+    "description": "A curved sword with a gleaming silver edge.",
+    "image": "images/weapons/swords/Silver Saber.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 20
+  },
+  {
+    "id": "W20",
+    "name": "Elf Blade",
+    "price": 750,
+    "description": "A dainty blade with impressive reach.",
+    "image": "images/weapons/daggers/Elf Blade.png",
+    "category": "weapon",
+    "weaponType": "dagger",
+    "mineLevel": 20
+  },
+  {
+    "id": "W11",
+    "name": "Steel Smallsword",
+    "price": 750,
+    "description": "A sturdy steel sword favored by knights.",
+    "image": "images/weapons/swords/Steel Smallsword.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 20
+  },
+  {
+    "id": "B506",
+    "name": "Leather Boots",
+    "price": 500,
+    "description": "The leather is very supple.",
+    "image": "images/footwear/Leather Boots.png",
+    "category": "boots",
+    "mineLevel": 10
+  },
+  {
+    "id": "W43",
+    "name": "Pirate's Sword",
+    "price": 850,
+    "description": "A sword favored by ruthless pirates.",
+    "image": "images/weapons/swords/Pirate's Sword.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 25
+  },
+  {
+    "id": "W44",
+    "name": "Cutlass",
+    "price": 1500,
+    "description": "A broad, curved blade. Light and fast.",
+    "image": "images/weapons/swords/Cutlass.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 25
+  },
+  {
+    "id": "529",
+    "name": "Amethyst Ring",
+    "price": 1000,
+    "description": "Increases knockback by 10%.",
+    "image": "images/rings/Amethyst Ring.png",
+    "category": "ring"
+  },
+  {
+    "id": "530",
+    "name": "Topaz Ring",
+    "price": 1000,
+    "description": "Increases Defense by +1.",
+    "image": "images/rings/Topaz Ring.png",
+    "category": "ring"
+  },
+  {
+    "id": "W27",
+    "name": "Wood Mallet",
+    "price": 2000,
+    "description": "A heavy wooden mallet that deals crushing blows.",
+    "image": "images/weapons/clubs/Wood Mallet.png",
+    "category": "weapon",
+    "weaponType": "club",
+    "mineLevel": 40
+  },
+  {
+    "id": "B508",
+    "name": "Combat Boots",
+    "price": 1250,
+    "description": "Reinforced with iron mesh.",
+    "image": "images/footwear/Combat Boots.png",
+    "category": "boots",
+    "mineLevel": 40
+  },
+  {
+    "id": "531",
+    "name": "Aquamarine Ring",
+    "price": 2500,
+    "description": "Increases critical strike chance by 10%.",
+    "image": "images/rings/Aquamarine Ring.png",
+    "category": "ring",
+    "mineLevel": 40
+  },
+  {
+    "id": "532",
+    "name": "Jade Ring",
+    "price": 2500,
+    "description": "Increases Critical Strike Power by 10%.",
+    "image": "images/rings/Jade Ring.png",
+    "category": "ring",
+    "mineLevel": 40
+  },
+  {
+    "id": "W32",
+    "name": "Slingshot",
+    "price": 500,
+    "description": "A simple slingshot. Load it with stones or other ammo.",
+    "image": "images/weapons/slingshots/Slingshot.png",
+    "category": "slingshot",
+    "mineLevel": 40
+  },
+  {
+    "id": "W10",
+    "name": "Claymore",
+    "price": 2000,
+    "description": "A large two-handed sword. Slow but powerful.",
+    "image": "images/weapons/swords/Claymore.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 45
+  },
+  {
+    "id": "B509",
+    "name": "Tundra Boots",
+    "price": 750,
+    "description": "The fuzzy lining keeps your ankles so warm.",
+    "image": "images/footwear/Tundra Boots.png",
+    "category": "boots",
+    "mineLevel": 50
+  },
+  {
+    "id": "W7",
+    "name": "Templar's Blade",
+    "price": 4000,
+    "description": "A sword blessed by an ancient order.",
+    "image": "images/weapons/swords/Templar's Blade.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 55
+  },
+  {
+    "id": "W21",
+    "name": "Crystal Dagger",
+    "price": 4500,
+    "description": "Made from a rare, incredibly sharp crystal.",
+    "image": "images/weapons/daggers/Crystal Dagger.png",
+    "category": "weapon",
+    "weaponType": "dagger",
+    "mineLevel": 60
+  },
+  {
+    "id": "W33",
+    "name": "Master Slingshot",
+    "price": 1000,
+    "description": "A reinforced slingshot with superior range and power.",
+    "image": "images/weapons/slingshots/Master Slingshot.png",
+    "category": "slingshot",
+    "mineLevel": 70
+  },
+  {
+    "id": "W5",
+    "name": "Bone Sword",
+    "price": 6000,
+    "description": "Fashioned from the bones of a fearsome creature.",
+    "image": "images/weapons/swords/Bone Sword.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 75
+  },
+  {
+    "id": "B511",
+    "name": "Dark Boots",
+    "price": 2500,
+    "description": "Made from thick black leather.",
+    "image": "images/footwear/Dark Boots.png",
+    "category": "boots",
+    "mineLevel": 80
+  },
+  {
+    "id": "B512",
+    "name": "Firewalker Boots",
+    "price": 2000,
+    "description": "It's said these can withstand the hottest magma.",
+    "image": "images/footwear/Firewalker Boots.png",
+    "category": "boots",
+    "mineLevel": 80
+  },
+  {
+    "id": "533",
+    "name": "Emerald Ring",
+    "price": 5000,
+    "description": "Increases Weapon Speed by 10%.",
+    "image": "images/rings/Emerald Ring.png",
+    "category": "ring",
+    "mineLevel": 80
+  },
+  {
+    "id": "534",
+    "name": "Ruby Ring",
+    "price": 5000,
+    "description": "Increases Attack by 10%.",
+    "image": "images/rings/Ruby Ring.png",
+    "category": "ring",
+    "mineLevel": 80
+  },
+  {
+    "id": "W50",
+    "name": "Steel Falchion",
+    "price": 9000,
+    "description": "A fast, curved steel blade.",
+    "image": "images/weapons/swords/Steel Falchion.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 90
+  },
+  {
+    "id": "W8",
+    "name": "Obsidian Edge",
+    "price": 9000,
+    "description": "The volcanic glass edge is frighteningly sharp.",
+    "image": "images/weapons/swords/Obsidian Edge.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 90
+  },
+  {
+    "id": "B514",
+    "name": "Space Boots",
+    "price": 5000,
+    "description": "An iridium weave gives them a purple sheen.",
+    "image": "images/footwear/Space Boots.png",
+    "category": "boots",
+    "mineLevel": 110
+  },
+  {
+    "id": "W9",
+    "name": "Lava Katana",
+    "price": 25000,
+    "description": "Forged in the deepest reaches of the volcano.",
+    "image": "images/weapons/swords/Lava Katana.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "mineLevel": 120
+  },
+  {
+    "id": "441",
+    "name": "Explosive Ammo",
+    "price": 300,
+    "description": "Fired from a Slingshot. Explodes on impact.",
+    "image": "images/craftable/misc/Explosive Ammo.png",
+    "category": "ammo",
+    "availability": "Explosive Ammo recipe known"
+  },
+  {
+    "id": "W4",
+    "name": "Galaxy Sword",
+    "price": 50000,
+    "description": "Crafted from rare extraterrestrial materials.",
+    "image": "images/weapons/swords/Galaxy Sword.png",
+    "category": "weapon",
+    "weaponType": "sword",
+    "availability": "After obtaining the Galaxy Sword"
+  },
+  {
+    "id": "W23",
+    "name": "Galaxy Dagger",
+    "price": 35000,
+    "description": "A razor-sharp dagger forged from galaxy ore.",
+    "image": "images/weapons/daggers/Galaxy Dagger.png",
+    "category": "weapon",
+    "weaponType": "dagger",
+    "availability": "After obtaining the Galaxy Sword"
+  },
+  {
+    "id": "W29",
+    "name": "Galaxy Hammer",
+    "price": 75000,
+    "description": "A massive hammer forged from galaxy ore.",
+    "image": "images/weapons/clubs/Galaxy Hammer.png",
+    "category": "weapon",
+    "weaponType": "club",
+    "availability": "After obtaining the Galaxy Sword"
+  },
+  {
+    "id": "FWallSword",
+    "name": "Wall Sword",
+    "price": 2000,
+    "description": "A decorative sword mounted on a wall plaque.",
+    "image": "images/shop/Wall Sword.png",
+    "category": "furniture"
+  },
+  {
+    "id": "FDecorativeSword",
+    "name": "Decorative Sword",
+    "price": 10000,
+    "description": "An ornate sword displayed for its beauty rather than function.",
+    "image": "images/shop/Decorative Sword.png",
+    "category": "furniture"
+  }
+]

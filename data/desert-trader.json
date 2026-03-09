@@ -1,0 +1,276 @@
+[
+  {
+    "id": "275",
+    "name": "Artifact Trove",
+    "description": "The merchant says this came from a distant land... It seems to contain something.",
+    "image": "images/minerals/geodes/Artifact Trove.png",
+    "tradeItemId": "749",
+    "tradeItemName": "Omni Geode",
+    "tradeItemImage": "images/minerals/geodes/Omni Geode.png",
+    "tradeAmount": 5
+  },
+  {
+    "id": "261",
+    "name": "Warp Totem: Desert",
+    "description": "Warp directly to the Calico Desert. Consumed on use.",
+    "image": "images/craftable/consumables/Warp Totem Desert.png",
+    "tradeItemId": "749",
+    "tradeItemName": "Omni Geode",
+    "tradeItemImage": "images/minerals/geodes/Omni Geode.png",
+    "tradeAmount": 3
+  },
+  {
+    "id": "253",
+    "name": "Triple Shot Espresso",
+    "description": "You'll be running all day.",
+    "image": "images/cooking/Triple Shot Espresso.png",
+    "tradeItemId": "72",
+    "tradeItemName": "Diamond",
+    "tradeItemImage": "images/minerals/gems/Diamond.png",
+    "tradeAmount": 1
+  },
+  {
+    "id": "226",
+    "name": "Spicy Eel",
+    "description": "It's really spicy! Be careful.",
+    "image": "images/cooking/Spicy Eel.png",
+    "tradeItemId": "64",
+    "tradeItemName": "Ruby",
+    "tradeItemImage": "images/minerals/gems/Ruby.png",
+    "tradeAmount": 1
+  },
+  {
+    "id": "288",
+    "name": "Mega Bomb",
+    "description": "A powerful bomb with a very large radius.",
+    "image": "images/craftable/bombs/Mega Bomb.png",
+    "tradeItemId": "386",
+    "tradeItemName": "Iridium Ore",
+    "tradeItemImage": "images/minerals/ore/Iridium Ore.png",
+    "tradeAmount": 5
+  },
+  {
+    "id": "287",
+    "name": "Bomb",
+    "description": "Blows up rocks and debris, but watch out.",
+    "image": "images/craftable/bombs/Bomb.png",
+    "tradeItemId": "80",
+    "tradeItemName": "Quartz",
+    "tradeItemImage": "images/minerals/foraged-minerals/Quartz.png",
+    "tradeAmount": 5
+  },
+  {
+    "id": "recipe-warp-totem-desert",
+    "name": "Warp Totem: Desert (Recipe)",
+    "description": "Learn to craft the Warp Totem: Desert.",
+    "image": "images/craftable/consumables/Warp Totem Desert.png",
+    "tradeItemId": "337",
+    "tradeItemName": "Iridium Bar",
+    "tradeItemImage": "images/minerals/bars/Iridium Bar.png",
+    "tradeAmount": 10,
+    "isRecipe": true
+  },
+  {
+    "id": "808",
+    "name": "Void Ghost Pendant",
+    "description": "A gift for the shadow creature living in your sewer.",
+    "image": "images/shop/Void Ghost Pendant.png",
+    "tradeItemId": "769",
+    "tradeItemName": "Void Essence",
+    "tradeItemImage": "images/monsters/monster-loot/Void Essence.png",
+    "tradeAmount": 200,
+    "availability": "10+ hearts with Krobus; farmhouse upgraded; unengaged/unmarried"
+  },
+  {
+    "id": "F1971",
+    "name": "Butterfly Hutch",
+    "description": "A magical hutch that attracts colorful butterflies to your home.",
+    "image": "images/shop/Butterfly Hutch.png",
+    "tradeItemId": "767",
+    "tradeItemName": "Bat Wing",
+    "tradeItemImage": "images/monsters/monster-loot/Bat Wing.png",
+    "tradeAmount": 200
+  },
+  {
+    "id": "H72",
+    "name": "Green Turban",
+    "description": "A traditional turban in a deep green color.",
+    "image": "images/hats/Green Turban.png",
+    "tradeItemId": "749",
+    "tradeItemName": "Omni Geode",
+    "tradeItemImage": "images/minerals/geodes/Omni Geode.png",
+    "tradeAmount": 50
+  },
+  {
+    "id": "H73",
+    "name": "Magic Cowboy Hat",
+    "description": "A fanciful cowboy hat with a mystical glow.",
+    "image": "images/hats/Magic Cowboy Hat.png",
+    "tradeItemId": "749",
+    "tradeItemName": "Omni Geode",
+    "tradeItemImage": "images/minerals/geodes/Omni Geode.png",
+    "tradeAmount": 333,
+    "availability": "Odd days of the month"
+  },
+  {
+    "id": "H74",
+    "name": "Magic Turban",
+    "description": "A turban imbued with ancient magic.",
+    "image": "images/hats/Magic Turban.png",
+    "tradeItemId": "749",
+    "tradeItemName": "Omni Geode",
+    "tradeItemImage": "images/minerals/geodes/Omni Geode.png",
+    "tradeAmount": 333,
+    "availability": "Even days of the month"
+  },
+  {
+    "id": "F2508",
+    "name": "Birch Double Bed",
+    "description": "A light and airy double bed made from birch wood.",
+    "image": "images/shop/Birch Double Bed.png",
+    "tradeItemId": "797",
+    "tradeItemName": "Pearl",
+    "tradeItemImage": "images/minerals/Pearl.png",
+    "tradeAmount": 1
+  },
+  {
+    "id": "FMidnightBeachBed",
+    "name": "Midnight Beach Bed",
+    "description": "A single bed with a tranquil midnight beach theme.",
+    "image": "images/shop/Midnight Beach Bed.png",
+    "tradeItemId": "337",
+    "tradeItemName": "Iridium Bar",
+    "tradeItemImage": "images/minerals/bars/Iridium Bar.png",
+    "tradeAmount": 15
+  },
+  {
+    "id": "FMidnightBeachDoubleBed",
+    "name": "Midnight Beach Double Bed",
+    "description": "A double bed with a tranquil midnight beach theme.",
+    "image": "images/shop/Midnight Beach Double Bed.png",
+    "tradeItemId": "337",
+    "tradeItemName": "Iridium Bar",
+    "tradeItemImage": "images/minerals/bars/Iridium Bar.png",
+    "tradeAmount": 30
+  },
+  {
+    "id": "FDarkPiano",
+    "name": "Dark Piano",
+    "description": "An elegant piano in matte black. It plays a haunting melody.",
+    "image": "images/shop/Dark Piano.png",
+    "tradeItemId": "382",
+    "tradeItemName": "Coal",
+    "tradeItemImage": "images/minerals/ore/Coal.png",
+    "tradeAmount": 999
+  },
+  {
+    "id": "178",
+    "name": "Hay",
+    "description": "Feed for your animals. Keep a bin stocked or they'll go hungry.",
+    "image": "images/shop/Hay.png",
+    "tradeItemId": "749",
+    "tradeItemName": "Omni Geode",
+    "tradeItemImage": "images/minerals/geodes/Omni Geode.png",
+    "tradeAmount": 1,
+    "day": "Monday"
+  },
+  {
+    "id": "771",
+    "name": "Fiber",
+    "description": "Raw plant material with a wide variety of uses.",
+    "image": "images/crops/fiber/crop.png",
+    "tradeItemId": "390",
+    "tradeItemName": "Stone",
+    "tradeItemImage": "images/forageables/Stone.png",
+    "tradeAmount": 5,
+    "day": "Tuesday"
+  },
+  {
+    "id": "428",
+    "name": "Cloth",
+    "description": "A bolt of fine cloth.",
+    "image": "images/artisan-goods/Cloth.png",
+    "tradeItemId": "62",
+    "tradeItemName": "Aquamarine",
+    "tradeItemImage": "images/minerals/gems/Aquamarine.png",
+    "tradeAmount": 3,
+    "day": "Wednesday"
+  },
+  {
+    "id": "279",
+    "name": "Magic Rock Candy",
+    "description": "Gives a powerful set of buffs for 8 minutes and 24 seconds.",
+    "image": "images/shop/Magic Rock Candy.png",
+    "tradeItemId": "74",
+    "tradeItemName": "Prismatic Shard",
+    "tradeItemImage": "images/minerals/gems/Prismatic Shard.png",
+    "tradeAmount": 3,
+    "day": "Thursday"
+  },
+  {
+    "id": "424",
+    "name": "Cheese",
+    "description": "It smells great.",
+    "image": "images/artisan-goods/Cheese.png",
+    "tradeItemId": "60",
+    "tradeItemName": "Emerald",
+    "tradeItemImage": "images/minerals/gems/Emerald.png",
+    "tradeAmount": 1,
+    "day": "Friday"
+  },
+  {
+    "id": "495",
+    "name": "Spring Seeds",
+    "description": "A random assortment of seeds that grow in spring.",
+    "image": "images/craftable/seeds/Spring Seeds.png",
+    "tradeItemId": "496",
+    "tradeItemName": "Summer Seeds",
+    "tradeItemImage": "images/craftable/seeds/Summer Seeds.png",
+    "tradeAmount": 2,
+    "day": "Saturday"
+  },
+  {
+    "id": "496",
+    "name": "Summer Seeds",
+    "description": "A random assortment of seeds that grow in summer.",
+    "image": "images/craftable/seeds/Summer Seeds.png",
+    "tradeItemId": "497",
+    "tradeItemName": "Fall Seeds",
+    "tradeItemImage": "images/craftable/seeds/Fall Seeds.png",
+    "tradeAmount": 2,
+    "day": "Saturday"
+  },
+  {
+    "id": "497",
+    "name": "Fall Seeds",
+    "description": "A random assortment of seeds that grow in fall.",
+    "image": "images/craftable/seeds/Fall Seeds.png",
+    "tradeItemId": "498",
+    "tradeItemName": "Winter Seeds",
+    "tradeItemImage": "images/craftable/seeds/Winter Seeds.png",
+    "tradeAmount": 2,
+    "day": "Saturday"
+  },
+  {
+    "id": "498",
+    "name": "Winter Seeds",
+    "description": "A random assortment of seeds that grow in winter.",
+    "image": "images/craftable/seeds/Winter Seeds.png",
+    "tradeItemId": "495",
+    "tradeItemName": "Spring Seeds",
+    "tradeItemImage": "images/craftable/seeds/Spring Seeds.png",
+    "tradeAmount": 2,
+    "day": "Saturday"
+  },
+  {
+    "id": "BC71",
+    "name": "Staircase",
+    "description": "Can be placed inside the mines to quickly descend one floor.",
+    "image": "images/craftable/misc/Staircase.png",
+    "tradeItemId": "70",
+    "tradeItemName": "Jade",
+    "tradeItemImage": "images/minerals/gems/Jade.png",
+    "tradeAmount": 1,
+    "day": "Sunday"
+  }
+]

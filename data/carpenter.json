@@ -1,0 +1,191 @@
+[
+  {
+    "id": "388",
+    "name": "Wood",
+    "price": 2,
+    "description": "A sturdy, fibrous plant material useful in many crafting recipes.",
+    "image": "images/forageables/Wood.png",
+    "category": "material",
+    "isRecipe": false
+  },
+  {
+    "id": "390",
+    "name": "Stone",
+    "price": 2,
+    "description": "A common resource used for building and crafting.",
+    "image": "images/forageables/Stone.png",
+    "category": "material",
+    "isRecipe": false
+  },
+  {
+    "id": "328",
+    "name": "Wood Floor",
+    "price": 100,
+    "description": "Place on the ground to create a path or flooring.",
+    "image": "images/craftable/decor/Wood Floor.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "840",
+    "name": "Rustic Plank Floor",
+    "price": 200,
+    "description": "Worn wooden planks give this floor a rustic charm.",
+    "image": "images/craftable/decor/Rustic Plank Floor.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "329",
+    "name": "Stone Floor",
+    "price": 100,
+    "description": "A stone tile floor. Durable and easy to clean.",
+    "image": "images/craftable/decor/Stone Floor.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "293",
+    "name": "Brick Floor",
+    "price": 500,
+    "description": "Traditional brick laid in a herringbone pattern.",
+    "image": "images/craftable/decor/Brick Floor.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "841",
+    "name": "Stone Walkway Floor",
+    "price": 200,
+    "description": "Flat stones arranged into a neat walkway.",
+    "image": "images/craftable/decor/Stone Walkway Floor.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "415",
+    "name": "Stepping Stone Path",
+    "price": 100,
+    "description": "Irregularly-shaped stepping stones for a natural look.",
+    "image": "images/craftable/decor/Stepping Stone Path.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "401",
+    "name": "Straw Floor",
+    "price": 200,
+    "description": "A woven straw mat for rustic farm paths.",
+    "image": "images/craftable/decor/Straw Floor.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "409",
+    "name": "Crystal Path",
+    "price": 200,
+    "description": "A shimmering crystal path that glows softly at night.",
+    "image": "images/craftable/decor/Crystal Path.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC152",
+    "name": "Wood Lamp-post",
+    "price": 50,
+    "description": "Provides light on your farm at night.",
+    "image": "images/craftable/lighting/Wood Lamp-post.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC153",
+    "name": "Iron Lamp-post",
+    "price": 100,
+    "description": "An iron lamp-post that provides reliable nighttime lighting.",
+    "image": "images/craftable/lighting/Iron Lamp-post.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC143",
+    "name": "Wooden Brazier",
+    "price": 25,
+    "description": "A simple wooden torch stand.",
+    "image": "images/craftable/lighting/Wooden Brazier.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC144",
+    "name": "Stone Brazier",
+    "price": 40,
+    "description": "A stone torch stand.",
+    "image": "images/craftable/lighting/Stone Brazier.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC150",
+    "name": "Barrel Brazier",
+    "price": 80,
+    "description": "A burning barrel for rustic outdoor lighting.",
+    "image": "images/craftable/lighting/Barrel Brazier.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC147",
+    "name": "Stump Brazier",
+    "price": 80,
+    "description": "A glowing stump that lights up the night.",
+    "image": "images/craftable/lighting/Stump Brazier.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC145",
+    "name": "Gold Brazier",
+    "price": 100,
+    "description": "A gold-plated torch stand for a touch of luxury.",
+    "image": "images/craftable/lighting/Gold Brazier.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC148",
+    "name": "Carved Brazier",
+    "price": 200,
+    "description": "An intricately carved torch stand.",
+    "image": "images/craftable/lighting/Carved Brazier.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC149",
+    "name": "Skull Brazier",
+    "price": 300,
+    "description": "A skull-shaped torch holder for the daring decorator.",
+    "image": "images/craftable/lighting/Skull Brazier.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BC151",
+    "name": "Marble Brazier",
+    "price": 500,
+    "description": "An elegant marble torch stand.",
+    "image": "images/craftable/lighting/Marble Brazier.png",
+    "category": "recipe",
+    "isRecipe": true
+  },
+  {
+    "id": "BCBigChest",
+    "name": "Big Chest",
+    "price": 5000,
+    "description": "A large chest with more storage than the regular chest.",
+    "image": "images/craftable/storage/Big Chest.png",
+    "category": "recipe",
+    "isRecipe": true
+  }
+]

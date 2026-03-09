@@ -36,3 +36,18 @@ export * from './qi-stock';
 export * from './medical-supply';
 export * from './blacksmith';
 export * from './joja';
+export * from './pierre';
+export * from './saloon';
+export * from './krobus';
+export * from './marnie';
+export * from './wizard';
+export * from './willy';
+export * from './guild';
+export * from './carpenter';
+export * from './casino';
+export * from './desert-trader';
+export * from './oasis';
+
+export * from './volcano-shop';
+export * from './island-trader';
+export * from './field-office';

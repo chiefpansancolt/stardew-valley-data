@@ -1,0 +1,95 @@
+[
+  {
+    "id": "B853",
+    "name": "Cinderclown Shoes",
+    "price": 100,
+    "currency": "cinder-shard",
+    "description": "These magic shoes belonged to a famous Dwarvish jester.",
+    "image": "images/footwear/Cinderclown Shoes.png",
+    "category": "footwear"
+  },
+  {
+    "id": "Book_Diamonds",
+    "name": "The Diamond Hunter",
+    "price": 10,
+    "currency": "diamond",
+    "description": "All stones have a chance to drop a diamond when mined by hand.",
+    "image": "images/special-items/The Diamond Hunter.png",
+    "category": "book",
+    "availability": "Once per save"
+  },
+  {
+    "id": "286",
+    "name": "Cherry Bomb",
+    "price": 450,
+    "currency": "gold",
+    "description": "Generates a small explosion. Stand back!",
+    "image": "images/craftable/bombs/Cherry Bomb.png",
+    "category": "consumable"
+  },
+  {
+    "id": "287",
+    "name": "Bomb",
+    "price": 1000,
+    "currency": "gold",
+    "description": "Generates an explosion. Watch out!",
+    "image": "images/craftable/bombs/Bomb.png",
+    "category": "consumable"
+  },
+  {
+    "id": "288",
+    "name": "Mega Bomb",
+    "price": 1600,
+    "currency": "gold",
+    "description": "Generates a powerful explosion. Use with extreme caution.",
+    "image": "images/craftable/bombs/Mega Bomb.png",
+    "category": "consumable"
+  },
+  {
+    "id": "244",
+    "name": "Roots Platter",
+    "price": 1200,
+    "currency": "gold",
+    "description": "This'll stick to your ribs.",
+    "image": "images/cooking/Roots Platter.png",
+    "category": "food",
+    "availability": "50% daily chance"
+  },
+  {
+    "id": "237",
+    "name": "Super Meal",
+    "price": 1200,
+    "currency": "gold",
+    "description": "The name says it all.",
+    "image": "images/cooking/Super Meal.png",
+    "category": "food",
+    "availability": "50% daily chance"
+  },
+  {
+    "id": "H77",
+    "name": "Pink Bow",
+    "price": 10000,
+    "currency": "gold",
+    "description": "This huge bow makes quite a statement!",
+    "image": "images/hats/Pink Bow.png",
+    "category": "hat"
+  },
+  {
+    "id": "886",
+    "name": "Warp Totem: Island",
+    "price": 10000,
+    "currency": "gold",
+    "description": "Warps you to your island farm. Consumed on use.",
+    "image": "images/craftable/consumables/Warp Totem Island.png",
+    "category": "consumable"
+  },
+  {
+    "id": "903",
+    "name": "Ginger Ale",
+    "price": 1000,
+    "currency": "gold",
+    "description": "The carbonated ginger creates a unique sensation.",
+    "image": "images/cooking/Ginger Ale.png",
+    "category": "food"
+  }
+]

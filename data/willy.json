@@ -1,0 +1,211 @@
+[
+  {
+    "id": "TBambooPole",
+    "name": "Bamboo Pole",
+    "price": 0,
+    "description": "The most basic fishing rod. Can only use bait.",
+    "image": "images/tools/fishing-rod/Bamboo Pole.png",
+    "category": "rod"
+  },
+  {
+    "id": "TTrainingRod",
+    "name": "Training Rod",
+    "price": 25,
+    "description": "Limits the fish you can catch, but makes the catching mini-game easier. Incompatible with tackle and bait.",
+    "image": "images/tools/fishing-rod/Training Rod.png",
+    "category": "rod"
+  },
+  {
+    "id": "219",
+    "name": "Trout Soup",
+    "price": 250,
+    "description": "It's a little bland.",
+    "image": "images/cooking/Trout Soup.png",
+    "category": "equipment"
+  },
+  {
+    "id": "685",
+    "name": "Bait",
+    "price": 5,
+    "description": "Causes fish to bite faster. Must first be attached to a fishing rod.",
+    "image": "images/fish/bait/Bait.png",
+    "category": "bait",
+    "fishingLevelRequired": 2
+  },
+  {
+    "id": "DeluxeBait",
+    "name": "Deluxe Bait",
+    "price": 100,
+    "description": "Causes fish to bite even faster and increases the size of the fishing bar.",
+    "image": "images/fish/bait/Deluxe Bait.png",
+    "category": "bait",
+    "fishingLevelRequired": 4
+  },
+  {
+    "id": "TFiberglassRod",
+    "name": "Fiberglass Rod",
+    "price": 1800,
+    "description": "Can use bait. A big upgrade from the bamboo pole.",
+    "image": "images/tools/fishing-rod/Fiberglass Rod.png",
+    "category": "rod",
+    "fishingLevelRequired": 2
+  },
+  {
+    "id": "710",
+    "name": "Crab Pot",
+    "price": 1500,
+    "description": "Place it in the water and check back the next day to see what you've trapped.",
+    "image": "images/craftable/fishing/Crab Pot.png",
+    "category": "equipment",
+    "fishingLevelRequired": 3
+  },
+  {
+    "id": "686",
+    "name": "Spinner",
+    "price": 500,
+    "description": "The shape makes it spin around in the water. Slightly increases the bite-rate when fishing.",
+    "image": "images/fish/tackle/Spinner.png",
+    "category": "tackle",
+    "fishingLevelRequired": 6
+  },
+  {
+    "id": "694",
+    "name": "Trap Bobber",
+    "price": 500,
+    "description": "Causes fish to escape slower when you aren't reeling them in.",
+    "image": "images/fish/tackle/Trap Bobber.png",
+    "category": "tackle",
+    "fishingLevelRequired": 6
+  },
+  {
+    "id": "692",
+    "name": "Lead Bobber",
+    "price": 200,
+    "description": "Adds weight to your 'fishing bar', preventing it from bouncing along the bottom.",
+    "image": "images/fish/tackle/Lead Bobber.png",
+    "category": "tackle",
+    "fishingLevelRequired": 6
+  },
+  {
+    "id": "SonarBobber",
+    "name": "Sonar Bobber",
+    "price": 500,
+    "description": "Shows what fish is on the line before it's caught.",
+    "image": "images/fish/tackle/Sonar Bobber.png",
+    "category": "tackle",
+    "fishingLevelRequired": 6
+  },
+  {
+    "id": "TIridiumRod",
+    "name": "Iridium Rod",
+    "price": 7500,
+    "description": "Can use both bait and tackle.",
+    "image": "images/tools/fishing-rod/Iridium Rod.png",
+    "category": "rod",
+    "fishingLevelRequired": 6
+  },
+  {
+    "id": "693",
+    "name": "Treasure Hunter",
+    "price": 750,
+    "description": "Fish don't escape while collecting treasures. Also slightly increases the chance to find treasures.",
+    "image": "images/fish/tackle/Treasure Hunter.png",
+    "category": "tackle",
+    "fishingLevelRequired": 7
+  },
+  {
+    "id": "695",
+    "name": "Cork Bobber",
+    "price": 750,
+    "description": "Slightly increases the size of your 'fishing bar'.",
+    "image": "images/fish/tackle/Cork Bobber.png",
+    "category": "tackle",
+    "fishingLevelRequired": 7
+  },
+  {
+    "id": "691",
+    "name": "Barbed Hook",
+    "price": 1000,
+    "description": "Makes your catch more secure, causing the 'fishing bar' to cling to your catch. Works best on slow, weak fish.",
+    "image": "images/fish/tackle/Barbed Hook.png",
+    "category": "tackle",
+    "fishingLevelRequired": 8
+  },
+  {
+    "id": "687",
+    "name": "Dressed Spinner",
+    "price": 1000,
+    "description": "The metal tab and colorful streamers create an enticing spectacle for fish. Increases the bite-rate when fishing.",
+    "image": "images/fish/tackle/Dressed Spinner.png",
+    "category": "tackle",
+    "fishingLevelRequired": 8
+  },
+  {
+    "id": "703",
+    "name": "Magnet",
+    "price": 1000,
+    "description": "Increases the chance of finding treasure while fishing.",
+    "image": "images/fish/bait/Magnet.png",
+    "category": "bait",
+    "fishingLevelRequired": 9
+  },
+  {
+    "id": "877",
+    "name": "Quality Bobber",
+    "price": 300,
+    "description": "Boosts the quality of fish that you catch.",
+    "image": "images/fish/tackle/Quality Bobber.png",
+    "category": "tackle",
+    "fishingLevelRequired": 6
+  },
+  {
+    "id": "TPan",
+    "name": "Copper Pan",
+    "price": 2500,
+    "description": "Use it in the water to sift for precious ore.",
+    "image": "images/tools/pan/Copper Pan.png",
+    "category": "equipment",
+    "availability": "After completing the Fish Tank bundle"
+  },
+  {
+    "id": "BCFishSmoker",
+    "name": "Fish Smoker",
+    "price": 10000,
+    "description": "Turns fish into smoked fish, which sells for more.",
+    "image": "images/craftable/artisan-equipment/Fish Smoker.png",
+    "category": "recipe"
+  },
+  {
+    "id": "TAdvancedIridiumRod",
+    "name": "Advanced Iridium Rod",
+    "price": 25000,
+    "description": "The finest fishing rod available. Can use bait and two tackle at once.",
+    "image": "images/tools/fishing-rod/Advanced Iridium Rod.png",
+    "category": "rod",
+    "availability": "Fishing mastery"
+  },
+  {
+    "id": "F2304",
+    "name": "Large Fish Tank",
+    "price": 2000,
+    "description": "A spacious aquarium to display your prized catches.",
+    "image": "images/shop/Large Fish Tank.png",
+    "category": "furniture"
+  },
+  {
+    "id": "F2322",
+    "name": "Small Fish Tank",
+    "price": 500,
+    "description": "A compact aquarium for displaying fish.",
+    "image": "images/shop/Small Fish Tank.png",
+    "category": "furniture"
+  },
+  {
+    "id": "F2502",
+    "name": "Fisher Double Bed",
+    "price": 25000,
+    "description": "A nautical-themed double bed with a fish motif.",
+    "image": "images/shop/Fisher Double Bed.png",
+    "category": "furniture"
+  }
+]

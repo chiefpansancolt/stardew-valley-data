@@ -1,0 +1,106 @@
+[
+  {
+    "id": "H2",
+    "name": "Top Hat",
+    "price": 8000,
+    "description": "A distinguished top hat. Very classy.",
+    "image": "images/hats/Top Hat.png",
+    "category": "hat"
+  },
+  {
+    "id": "BC126",
+    "name": "Rarecrow",
+    "price": 10000,
+    "description": "This one's shaped like a rare alien. It works just like a regular scarecrow.",
+    "image": "images/scarecrows/Rarecrow 7.png",
+    "category": "scarecrow"
+  },
+  {
+    "id": "298",
+    "name": "Hardwood Fence",
+    "price": 100,
+    "description": "Lasts much longer than a regular wood fence.",
+    "image": "images/craftable/fences/Hardwood Fence.png",
+    "category": "consumable"
+  },
+  {
+    "id": "703",
+    "name": "Magnet",
+    "price": 1000,
+    "description": "Increases the chance of finding treasure while fishing.",
+    "image": "images/fish/bait/Magnet.png",
+    "category": "consumable"
+  },
+  {
+    "id": "688",
+    "name": "Warp Totem: Farm",
+    "price": 1000,
+    "description": "Warp directly to your farm. Consumed on use.",
+    "image": "images/craftable/consumables/Warp Totem Farm.png",
+    "category": "consumable"
+  },
+  {
+    "id": "893",
+    "name": "Fireworks (Red)",
+    "price": 200,
+    "description": "A red firework. Launch into the sky for a dazzling display.",
+    "image": "images/shop/Fireworks (Red).png",
+    "category": "consumable"
+  },
+  {
+    "id": "894",
+    "name": "Fireworks (Purple)",
+    "price": 200,
+    "description": "A purple firework. Launch into the sky for a dazzling display.",
+    "image": "images/shop/Fireworks (Purple).png",
+    "category": "consumable"
+  },
+  {
+    "id": "895",
+    "name": "Fireworks (Green)",
+    "price": 200,
+    "description": "A green firework. Launch into the sky for a dazzling display.",
+    "image": "images/shop/Fireworks (Green).png",
+    "category": "consumable"
+  },
+  {
+    "id": "F1552",
+    "name": "Primal Motion",
+    "price": 5000,
+    "description": "A vibrant abstract painting full of raw energy.",
+    "image": "images/shop/Primal Motion.png",
+    "category": "furniture"
+  },
+  {
+    "id": "F1545",
+    "name": "Burnt Offering",
+    "price": 4000,
+    "description": "An evocative painting with warm, fiery tones.",
+    "image": "images/shop/Burnt Offering.png",
+    "category": "furniture"
+  },
+  {
+    "id": "F1563",
+    "name": "Highway 89",
+    "price": 4000,
+    "description": "A painting of an open road stretching into the horizon.",
+    "image": "images/shop/Highway 89.png",
+    "category": "furniture"
+  },
+  {
+    "id": "F1561",
+    "name": "Spires",
+    "price": 3000,
+    "description": "A painting of towering spires reaching into the sky.",
+    "image": "images/shop/Spires.png",
+    "category": "furniture"
+  },
+  {
+    "id": "F2192",
+    "name": "Modern Double Bed",
+    "price": 8000,
+    "description": "A sleek, modern double bed with a minimalist design.",
+    "image": "images/shop/Modern Double Bed.png",
+    "category": "furniture"
+  }
+]

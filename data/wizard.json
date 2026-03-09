@@ -1,0 +1,135 @@
+[
+  {
+    "id": "earth-obelisk",
+    "name": "Earth Obelisk",
+    "buildCost": 500000,
+    "materials": [
+      {
+        "itemId": "337",
+        "itemName": "Iridium Bar",
+        "amount": 10,
+        "image": "images/minerals/bars/Iridium Bar.png"
+      },
+      {
+        "itemId": "86",
+        "itemName": "Earth Crystal",
+        "amount": 10,
+        "image": "images/minerals/foraged-minerals/Earth Crystal.png"
+      }
+    ],
+    "description": "Instantly teleports you to the mountain near the mines.",
+    "image": "images/buildings/obelisks/Earth Obelisk.png"
+  },
+  {
+    "id": "water-obelisk",
+    "name": "Water Obelisk",
+    "buildCost": 500000,
+    "materials": [
+      {
+        "itemId": "337",
+        "itemName": "Iridium Bar",
+        "amount": 5,
+        "image": "images/minerals/bars/Iridium Bar.png"
+      },
+      { "itemId": "372", "itemName": "Clam", "amount": 10, "image": "images/fish/Clam.png" },
+      {
+        "itemId": "393",
+        "itemName": "Coral",
+        "amount": 10,
+        "image": "images/forageables/Coral.png"
+      }
+    ],
+    "description": "Instantly teleports you to the beach.",
+    "image": "images/buildings/obelisks/Water Obelisk.png"
+  },
+  {
+    "id": "desert-obelisk",
+    "name": "Desert Obelisk",
+    "buildCost": 1000000,
+    "materials": [
+      {
+        "itemId": "337",
+        "itemName": "Iridium Bar",
+        "amount": 20,
+        "image": "images/minerals/bars/Iridium Bar.png"
+      },
+      {
+        "itemId": "88",
+        "itemName": "Coconut",
+        "amount": 10,
+        "image": "images/forageables/Coconut.png"
+      },
+      {
+        "itemId": "90",
+        "itemName": "Cactus Fruit",
+        "amount": 10,
+        "image": "images/crops/cactus-fruit/crop.png"
+      }
+    ],
+    "description": "Instantly teleports you to the Calico Desert.",
+    "image": "images/buildings/obelisks/Desert Obelisk.png"
+  },
+  {
+    "id": "island-obelisk",
+    "name": "Island Obelisk",
+    "buildCost": 1000000,
+    "materials": [
+      {
+        "itemId": "337",
+        "itemName": "Iridium Bar",
+        "amount": 10,
+        "image": "images/minerals/bars/Iridium Bar.png"
+      },
+      {
+        "itemId": "852",
+        "itemName": "Dragon Tooth",
+        "amount": 10,
+        "image": "images/minerals/Dragon Tooth.png"
+      },
+      {
+        "itemId": "91",
+        "itemName": "Banana",
+        "amount": 10,
+        "image": "images/trees/banana/harvest.png"
+      }
+    ],
+    "description": "Instantly teleports you to Ginger Island.",
+    "image": "images/buildings/obelisks/Island Obelisk.png",
+    "availability": "After visiting Ginger Island"
+  },
+  {
+    "id": "junimo-hut",
+    "name": "Junimo Hut",
+    "buildCost": 20000,
+    "materials": [
+      {
+        "itemId": "390",
+        "itemName": "Stone",
+        "amount": 200,
+        "image": "images/forageables/Stone.png"
+      },
+      {
+        "itemId": "268",
+        "itemName": "Starfruit",
+        "amount": 9,
+        "image": "images/crops/starfruit/crop.png"
+      },
+      {
+        "itemId": "771",
+        "itemName": "Fiber",
+        "amount": 100,
+        "image": "images/crops/fiber/crop.png"
+      }
+    ],
+    "description": "Junimos live here and harvest any ripe crops within a wide radius each day.",
+    "image": "images/buildings/Junimo Hut.png"
+  },
+  {
+    "id": "gold-clock",
+    "name": "Gold Clock",
+    "buildCost": 10000000,
+    "materials": [],
+    "description": "Prevents your farm from accumulating debris and stops fences from decaying.",
+    "image": "images/buildings/Gold Clock.png"
+  }
+]

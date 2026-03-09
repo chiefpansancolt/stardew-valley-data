@@ -1,0 +1,132 @@
+[
+  {
+    "id": "346",
+    "name": "Beer",
+    "price": 400,
+    "description": "Drink in moderation.",
+    "image": "images/artisan-goods/Beer.png",
+    "category": "food"
+  },
+  {
+    "id": "395",
+    "name": "Coffee",
+    "price": 300,
+    "description": "It smells delicious. This is sure to give you a boost.",
+    "image": "images/artisan-goods/Coffee.png",
+    "category": "food"
+  },
+  {
+    "id": "216",
+    "name": "Bread",
+    "price": 120,
+    "description": "A crusty baguette.",
+    "image": "images/cooking/Bread.png",
+    "category": "food"
+  },
+  {
+    "id": "196",
+    "name": "Salad",
+    "price": 220,
+    "description": "A healthy garden salad.",
+    "image": "images/cooking/Salad.png",
+    "category": "food"
+  },
+  {
+    "id": "224",
+    "name": "Spaghetti",
+    "price": 240,
+    "description": "An old favorite.",
+    "image": "images/cooking/Spaghetti.png",
+    "category": "food"
+  },
+  {
+    "id": "206",
+    "name": "Pizza",
+    "price": 600,
+    "description": "It's popular for all the right reasons.",
+    "image": "images/cooking/Pizza.png",
+    "category": "food"
+  },
+  {
+    "id": "732",
+    "name": "Crab Cakes",
+    "price": 550,
+    "description": "Crab, bread crumbs, and egg formed into patties then fried to golden brown.",
+    "image": "images/cooking/Crab Cakes.png",
+    "category": "food",
+    "availability": "After Willy's 6-heart event"
+  },
+  {
+    "id": "recipe-hashbrowns",
+    "name": "Hashbrowns Recipe",
+    "price": 50,
+    "description": "Crispy and golden-brown!",
+    "image": "images/cooking/Hashbrowns.png",
+    "category": "recipe"
+  },
+  {
+    "id": "recipe-omelet",
+    "name": "Omelet Recipe",
+    "price": 100,
+    "description": "It's super fluffy.",
+    "image": "images/cooking/Omelet.png",
+    "category": "recipe"
+  },
+  {
+    "id": "recipe-pancakes",
+    "name": "Pancakes Recipe",
+    "price": 100,
+    "description": "A double stack of fluffy, soft pancakes.",
+    "image": "images/cooking/Pancakes.png",
+    "category": "recipe"
+  },
+  {
+    "id": "recipe-bread",
+    "name": "Bread Recipe",
+    "price": 100,
+    "description": "A crusty baguette.",
+    "image": "images/cooking/Bread.png",
+    "category": "recipe"
+  },
+  {
+    "id": "recipe-tortilla",
+    "name": "Tortilla Recipe",
+    "price": 100,
+    "description": "Can be used as a vessel for food or eaten by itself.",
+    "image": "images/cooking/Tortilla.png",
+    "category": "recipe"
+  },
+  {
+    "id": "recipe-pizza",
+    "name": "Pizza Recipe",
+    "price": 150,
+    "description": "It's popular for all the right reasons.",
+    "image": "images/cooking/Pizza.png",
+    "category": "recipe"
+  },
+  {
+    "id": "recipe-maki-roll",
+    "name": "Maki Roll Recipe",
+    "price": 300,
+    "description": "Fish and rice wrapped in seaweed.",
+    "image": "images/cooking/Maki Roll.png",
+    "category": "recipe"
+  },
+  {
+    "id": "recipe-cookie",
+    "name": "Cookie Recipe",
+    "price": 300,
+    "description": "Very chewy.",
+    "image": "images/cooking/Cookie.png",
+    "category": "recipe",
+    "availability": "After Evelyn's 4-heart event"
+  },
+  {
+    "id": "recipe-triple-shot-espresso",
+    "name": "Triple Shot Espresso Recipe",
+    "price": 5000,
+    "description": "It's more potent than regular coffee!",
+    "image": "images/cooking/Triple Shot Espresso.png",
+    "category": "recipe"
+  }
+]

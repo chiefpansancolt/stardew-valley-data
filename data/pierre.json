@@ -1,0 +1,500 @@
+[
+  {
+    "id": "245",
+    "name": "Sugar",
+    "price": 100,
+    "description": "Adds sweetness to pastries and candies. Too much can be unhealthy.",
+    "image": "images/shop/Sugar.png",
+    "seasons": [],
+    "category": "ingredient"
+  },
+  {
+    "id": "246",
+    "name": "Wheat Flour",
+    "price": 100,
+    "description": "A common cooking ingredient made from crushed wheat seeds.",
+    "image": "images/shop/Wheat Flour.png",
+    "seasons": [],
+    "category": "ingredient"
+  },
+  {
+    "id": "423",
+    "name": "Rice",
+    "price": 200,
+    "description": "A basic grain often served under vegetables.",
+    "image": "images/shop/Rice.png",
+    "seasons": [],
+    "category": "ingredient"
+  },
+  {
+    "id": "247",
+    "name": "Oil",
+    "price": 200,
+    "description": "All-purpose cooking oil.",
+    "image": "images/artisan-goods/Oil.png",
+    "seasons": [],
+    "category": "ingredient"
+  },
+  {
+    "id": "419",
+    "name": "Vinegar",
+    "price": 200,
+    "description": "A common cooking ingredient.",
+    "image": "images/artisan-goods/Vinegar.png",
+    "seasons": [],
+    "category": "ingredient"
+  },
+  {
+    "id": "297",
+    "name": "Grass Starter",
+    "price": 200,
+    "description": "Place this on your farm to start a new patch of grass.",
+    "image": "images/craftable/seeds/Grass Starter.png",
+    "seasons": [],
+    "category": "fertilizer"
+  },
+  {
+    "id": "368",
+    "name": "Basic Fertilizer",
+    "price": 100,
+    "description": "Improves soil quality a little, increasing your chance to grow quality crops. Mix into tilled soil.",
+    "image": "images/craftable/fertilizer/Basic Fertilizer.png",
+    "seasons": [],
+    "category": "fertilizer",
+    "availability": "After Day 15"
+  },
+  {
+    "id": "370",
+    "name": "Basic Retaining Soil",
+    "price": 100,
+    "description": "This soil has a chance of staying watered overnight. Mix into tilled soil.",
+    "image": "images/craftable/fertilizer/Basic Retaining Soil.png",
+    "seasons": [],
+    "category": "fertilizer",
+    "availability": "After Day 15"
+  },
+  {
+    "id": "465",
+    "name": "Speed-Gro",
+    "price": 100,
+    "description": "Stimulates leaf production. Guaranteed to reduce the number of days it takes for a crop to reach maturity by 10%. Mix into tilled soil.",
+    "image": "images/craftable/fertilizer/Speed-Gro.png",
+    "seasons": [],
+    "category": "fertilizer",
+    "availability": "After Day 15"
+  },
+  {
+    "id": "369",
+    "name": "Quality Fertilizer",
+    "price": 150,
+    "description": "Improves soil quality, increasing your chance to grow quality crops. Mix into tilled soil.",
+    "image": "images/craftable/fertilizer/Quality Fertilizer.png",
+    "seasons": [],
+    "category": "fertilizer",
+    "availability": "Year 2+"
+  },
+  {
+    "id": "371",
+    "name": "Quality Retaining Soil",
+    "price": 150,
+    "description": "This soil has a good chance of staying watered overnight. Mix into tilled soil.",
+    "image": "images/craftable/fertilizer/Quality Retaining Soil.png",
+    "seasons": [],
+    "category": "fertilizer",
+    "availability": "Year 2+"
+  },
+  {
+    "id": "466",
+    "name": "Deluxe Speed-Gro",
+    "price": 150,
+    "description": "Stimulates leaf production. Guaranteed to reduce the number of days it takes for a crop to reach maturity by 25%. Mix into tilled soil.",
+    "image": "images/craftable/fertilizer/Deluxe Speed-Gro.png",
+    "seasons": [],
+    "category": "fertilizer",
+    "availability": "Year 2+"
+  },
+  {
+    "id": "1308",
+    "name": "Catalogue",
+    "price": 30000,
+    "description": "A collection of wallpaper and flooring options for your home.",
+    "image": "images/shop/Catalogue.png",
+    "seasons": [],
+    "category": "special"
+  },
+  {
+    "id": "458",
+    "name": "Bouquet",
+    "price": 200,
+    "description": "A gift to show your affection. Give to a bachelor or bachelorette to start a romantic relationship.",
+    "image": "images/shop/Bouquet.png",
+    "seasons": [],
+    "category": "special",
+    "availability": "8+ hearts with a marriage candidate"
+  },
+  {
+    "id": "large-pack",
+    "name": "Large Pack",
+    "price": 2000,
+    "description": "Upgrades your backpack to hold 24 items.",
+    "image": "images/tools/backpack/Large Pack.png",
+    "seasons": [],
+    "category": "special"
+  },
+  {
+    "id": "deluxe-pack",
+    "name": "Deluxe Pack",
+    "price": 10000,
+    "description": "Upgrades your backpack to hold 36 items.",
+    "image": "images/tools/backpack/Deluxe Pack.png",
+    "seasons": [],
+    "category": "special",
+    "availability": "Requires Large Pack"
+  },
+  {
+    "id": "recipe-grass-starter",
+    "name": "Grass Starter Recipe",
+    "price": 2000,
+    "description": "Recipe for crafting Grass Starter.",
+    "image": "images/craftable/seeds/Grass Starter.png",
+    "seasons": [],
+    "category": "recipe"
+  },
+  {
+    "id": "recipe-dehydrator",
+    "name": "Dehydrator Recipe",
+    "price": 10000,
+    "description": "Recipe for crafting a Dehydrator.",
+    "image": "images/craftable/artisan-equipment/Dehydrator.png",
+    "seasons": [],
+    "category": "recipe"
+  },
+  {
+    "id": "628",
+    "name": "Cherry Sapling",
+    "price": 3400,
+    "description": "Plant in fall or spring. Takes 28 days to produce a mature cherry tree.",
+    "image": "images/trees/cherry/seed.png",
+    "seasons": [],
+    "category": "sapling"
+  },
+  {
+    "id": "629",
+    "name": "Apricot Sapling",
+    "price": 2000,
+    "description": "Plant in fall or spring. Takes 28 days to produce a mature apricot tree.",
+    "image": "images/trees/apricot/seed.png",
+    "seasons": [],
+    "category": "sapling"
+  },
+  {
+    "id": "630",
+    "name": "Orange Sapling",
+    "price": 4000,
+    "description": "Plant in fall or spring. Takes 28 days to produce a mature orange tree.",
+    "image": "images/trees/orange/seed.png",
+    "seasons": [],
+    "category": "sapling"
+  },
+  {
+    "id": "631",
+    "name": "Peach Sapling",
+    "price": 6000,
+    "description": "Plant in fall or spring. Takes 28 days to produce a mature peach tree.",
+    "image": "images/trees/peach/seed.png",
+    "seasons": [],
+    "category": "sapling"
+  },
+  {
+    "id": "632",
+    "name": "Pomegranate Sapling",
+    "price": 6000,
+    "description": "Plant in fall or spring. Takes 28 days to produce a mature pomegranate tree.",
+    "image": "images/trees/pomegranate/seed.png",
+    "seasons": [],
+    "category": "sapling"
+  },
+  {
+    "id": "633",
+    "name": "Apple Sapling",
+    "price": 4000,
+    "description": "Plant in fall or spring. Takes 28 days to produce a mature apple tree.",
+    "image": "images/trees/apple/seed.png",
+    "seasons": [],
+    "category": "sapling"
+  },
+  {
+    "id": "472",
+    "name": "Parsnip Seeds",
+    "price": 20,
+    "description": "Plant these in the spring. Takes 4 days to mature.",
+    "image": "images/crops/parsnip/seed.png",
+    "seasons": ["spring"],
+    "category": "seed"
+  },
+  {
+    "id": "427",
+    "name": "Tulip Bulb",
+    "price": 20,
+    "description": "Plant in spring. Takes 6 days to produce a colorful flower. Assorted colors.",
+    "image": "images/crops/tulip/seed.png",
+    "seasons": ["spring"],
+    "category": "seed"
+  },
+  {
+    "id": "429",
+    "name": "Jazz Seeds",
+    "price": 30,
+    "description": "Plant in spring. Takes 7 days to produce a blue puffball flower.",
+    "image": "images/crops/blue-jazz/seed.png",
+    "seasons": ["spring"],
+    "category": "seed"
+  },
+  {
+    "id": "473",
+    "name": "Bean Starter",
+    "price": 60,
+    "description": "Plant these in the spring. Takes 10 days to mature, but keeps producing after that. Grows on a trellis.",
+    "image": "images/crops/green-bean/seed.png",
+    "seasons": ["spring"],
+    "category": "seed"
+  },
+  {
+    "id": "475",
+    "name": "Potato Seeds",
+    "price": 50,
+    "description": "Plant these in the spring. Takes 6 days to mature, and has a chance of yielding multiple potatoes at harvest.",
+    "image": "images/crops/potato/seed.png",
+    "seasons": ["spring"],
+    "category": "seed"
+  },
+  {
+    "id": "477",
+    "name": "Kale Seeds",
+    "price": 70,
+    "description": "Plant these in the spring. Takes 6 days to mature. Harvest with the scythe.",
+    "image": "images/crops/kale/seed.png",
+    "seasons": ["spring"],
+    "category": "seed"
+  },
+  {
+    "id": "474",
+    "name": "Cauliflower Seeds",
+    "price": 80,
+    "description": "Plant these in the spring. Takes 12 days to produce a large cauliflower.",
+    "image": "images/crops/cauliflower/seed.png",
+    "seasons": ["spring"],
+    "category": "seed"
+  },
+  {
+    "id": "476",
+    "name": "Garlic Seeds",
+    "price": 40,
+    "description": "Plant in spring. Takes 4 days to mature.",
+    "image": "images/crops/garlic/seed.png",
+    "seasons": ["spring"],
+    "category": "seed",
+    "availability": "Year 2+"
+  },
+  {
+    "id": "273",
+    "name": "Rice Shoot",
+    "price": 40,
+    "description": "Plant these in the spring. Takes 6 days to mature. Must be planted near water.",
+    "image": "images/crops/unmilled-rice/seed.png",
+    "seasons": ["spring"],
+    "category": "seed",
+    "availability": "Year 2+"
+  },
+  {
+    "id": "483",
+    "name": "Wheat Seeds",
+    "price": 10,
+    "description": "Plant these in the summer or fall. Takes 4 days to mature. Harvest with the scythe.",
+    "image": "images/crops/wheat/seed.png",
+    "seasons": ["summer", "fall"],
+    "category": "seed"
+  },
+  {
+    "id": "482",
+    "name": "Pepper Seeds",
+    "price": 40,
+    "description": "Plant these in the summer. Takes 5 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/hot-pepper/seed.png",
+    "seasons": ["summer"],
+    "category": "seed"
+  },
+  {
+    "id": "484",
+    "name": "Radish Seeds",
+    "price": 40,
+    "description": "Plant these in the summer. Takes 6 days to mature.",
+    "image": "images/crops/radish/seed.png",
+    "seasons": ["summer"],
+    "category": "seed"
+  },
+  {
+    "id": "480",
+    "name": "Tomato Seeds",
+    "price": 50,
+    "description": "Plant these in the summer. Takes 11 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/tomato/seed.png",
+    "seasons": ["summer"],
+    "category": "seed"
+  },
+  {
+    "id": "455",
+    "name": "Spangle Seeds",
+    "price": 50,
+    "description": "Plant in summer. Takes 8 days to produce a vibrant tropical flower. Assorted colors.",
+    "image": "images/crops/summer-spangle/seed.png",
+    "seasons": ["summer"],
+    "category": "seed"
+  },
+  {
+    "id": "302",
+    "name": "Hops Starter",
+    "price": 60,
+    "description": "Plant these in the summer. Takes 11 days to grow, but keeps producing after that. Grows on a trellis.",
+    "image": "images/crops/hops/seed.png",
+    "seasons": ["summer"],
+    "category": "seed"
+  },
+  {
+    "id": "481",
+    "name": "Blueberry Seeds",
+    "price": 80,
+    "description": "Plant these in the summer. Takes 13 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/blueberry/seed.png",
+    "seasons": ["summer"],
+    "category": "seed"
+  },
+  {
+    "id": "479",
+    "name": "Melon Seeds",
+    "price": 80,
+    "description": "Plant these in the summer. Takes 12 days to mature.",
+    "image": "images/crops/melon/seed.png",
+    "seasons": ["summer"],
+    "category": "seed"
+  },
+  {
+    "id": "453",
+    "name": "Poppy Seeds",
+    "price": 100,
+    "description": "Plant in summer. Produces a bright red flower in 7 days.",
+    "image": "images/crops/poppy/seed.png",
+    "seasons": ["summer"],
+    "category": "seed"
+  },
+  {
+    "id": "487",
+    "name": "Corn Seeds",
+    "price": 150,
+    "description": "Plant these in the summer or fall. Takes 14 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/corn/seed.png",
+    "seasons": ["summer", "fall"],
+    "category": "seed"
+  },
+  {
+    "id": "431",
+    "name": "Sunflower Seeds",
+    "price": 200,
+    "description": "Plant in summer or fall. Takes 8 days to produce a large sunflower. Yields more seeds at harvest.",
+    "image": "images/crops/sunflower/seed.png",
+    "seasons": ["summer", "fall"],
+    "category": "seed"
+  },
+  {
+    "id": "485",
+    "name": "Red Cabbage Seeds",
+    "price": 100,
+    "description": "Plant these in the summer. Takes 9 days to mature.",
+    "image": "images/crops/red-cabbage/seed.png",
+    "seasons": ["summer"],
+    "category": "seed",
+    "availability": "Year 2+"
+  },
+  {
+    "id": "488",
+    "name": "Eggplant Seeds",
+    "price": 20,
+    "description": "Plant these in the fall. Takes 5 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/eggplant/seed.png",
+    "seasons": ["fall"],
+    "category": "seed"
+  },
+  {
+    "id": "299",
+    "name": "Amaranth Seeds",
+    "price": 70,
+    "description": "Plant these in the fall. Takes 7 days to grow. Harvest with the scythe.",
+    "image": "images/crops/amaranth/seed.png",
+    "seasons": ["fall"],
+    "category": "seed"
+  },
+  {
+    "id": "301",
+    "name": "Grape Starter",
+    "price": 60,
+    "description": "Plant these in the fall. Takes 10 days to grow, but keeps producing after that. Grows on a trellis.",
+    "image": "images/crops/grape/seed.png",
+    "seasons": ["fall"],
+    "category": "seed"
+  },
+  {
+    "id": "491",
+    "name": "Bok Choy Seeds",
+    "price": 50,
+    "description": "Plant these in the fall. Takes 4 days to mature.",
+    "image": "images/crops/bok-choy/seed.png",
+    "seasons": ["fall"],
+    "category": "seed"
+  },
+  {
+    "id": "492",
+    "name": "Yam Seeds",
+    "price": 60,
+    "description": "Plant these in the fall. Takes 10 days to mature.",
+    "image": "images/crops/yam/seed.png",
+    "seasons": ["fall"],
+    "category": "seed"
+  },
+  {
+    "id": "490",
+    "name": "Pumpkin Seeds",
+    "price": 100,
+    "description": "Plant these in the fall. Takes 13 days to mature.",
+    "image": "images/crops/pumpkin/seed.png",
+    "seasons": ["fall"],
+    "category": "seed"
+  },
+  {
+    "id": "425",
+    "name": "Fairy Seeds",
+    "price": 200,
+    "description": "Plant in fall. Takes 12 days to produce a mysterious flower. Assorted colors.",
+    "image": "images/crops/fairy-rose/seed.png",
+    "seasons": ["fall"],
+    "category": "seed"
+  },
+  {
+    "id": "493",
+    "name": "Cranberry Seeds",
+    "price": 240,
+    "description": "Plant these in the fall. Takes 7 days to mature, and continues to produce after first harvest.",
+    "image": "images/crops/cranberries/seed.png",
+    "seasons": ["fall"],
+    "category": "seed"
+  },
+  {
+    "id": "489",
+    "name": "Artichoke Seeds",
+    "price": 30,
+    "description": "Plant these in the fall. Takes 8 days to mature.",
+    "image": "images/crops/artichoke/seed.png",
+    "seasons": ["fall"],
+    "category": "seed",
+    "availability": "Year 2+"
+  }
+]

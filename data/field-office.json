@@ -1,0 +1,120 @@
+[
+  {
+    "id": "large-animal",
+    "name": "Large Animal",
+    "reward": {
+      "goldenWalnuts": 6,
+      "item": {
+        "id": "69",
+        "name": "Banana Sapling",
+        "image": "images/trees/banana/seed.png"
+      }
+    },
+    "donations": [
+      {
+        "id": "820",
+        "name": "Fossilized Skull",
+        "description": "The skull of a large, ancient creature.",
+        "image": "images/artifacts/field-office/Fossilized Skull.png",
+        "collection": "large-animal",
+        "quantity": 1
+      },
+      {
+        "id": "821",
+        "name": "Fossilized Spine",
+        "description": "A fossilized spinal segment from a large ancient creature.",
+        "image": "images/artifacts/field-office/Fossilized Spine.png",
+        "collection": "large-animal",
+        "quantity": 1
+      },
+      {
+        "id": "824",
+        "name": "Fossilized Ribs",
+        "description": "Large rib bones from an ancient creature.",
+        "image": "images/artifacts/field-office/Fossilized Ribs.png",
+        "collection": "large-animal",
+        "quantity": 1
+      },
+      {
+        "id": "823",
+        "name": "Fossilized Leg",
+        "description": "Part of a fossilized leg from a large, ancient creature.",
+        "image": "images/artifacts/field-office/Fossilized Leg.png",
+        "collection": "large-animal",
+        "quantity": 2
+      },
+      {
+        "id": "822",
+        "name": "Fossilized Tail",
+        "description": "The fossilized tail of a large, ancient creature.",
+        "image": "images/artifacts/field-office/Fossilized Tail.png",
+        "collection": "large-animal",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "snake",
+    "name": "Snake",
+    "reward": {
+      "goldenWalnuts": 3,
+      "item": {
+        "id": "835",
+        "name": "Mango Sapling",
+        "image": "images/trees/mango/seed.png"
+      }
+    },
+    "donations": [
+      {
+        "id": "825",
+        "name": "Snake Skull",
+        "description": "The skull of a large, ancient snake.",
+        "image": "images/artifacts/field-office/Snake Skull.png",
+        "collection": "snake",
+        "quantity": 1
+      },
+      {
+        "id": "826",
+        "name": "Snake Vertebrae",
+        "description": "A fossilized vertebra from a large snake.",
+        "image": "images/artifacts/field-office/Snake Vertebrae.png",
+        "collection": "snake",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "mummified-frog",
+    "name": "Mummified Frog",
+    "reward": {
+      "goldenWalnuts": 1
+    },
+    "donations": [
+      {
+        "id": "828",
+        "name": "Mummified Frog",
+        "description": "An ancient frog preserved in a mysterious way.",
+        "image": "images/artifacts/field-office/Mummified Frog.png",
+        "collection": "mummified-frog",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "mummified-bat",
+    "name": "Mummified Bat",
+    "reward": {
+      "goldenWalnuts": 1
+    },
+    "donations": [
+      {
+        "id": "827",
+        "name": "Mummified Bat",
+        "description": "An ancient bat preserved in a mysterious way.",
+        "image": "images/artifacts/field-office/Mummified Bat.png",
+        "collection": "mummified-bat",
+        "quantity": 1
+      }
+    ]
+  }
+]

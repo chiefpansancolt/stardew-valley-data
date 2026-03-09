@@ -1,0 +1,120 @@
+[
+  {
+    "id": "178",
+    "name": "Hay",
+    "price": 50,
+    "description": "Feed for your animals. Keep a bin stocked or they'll go hungry.",
+    "image": "images/shop/Hay.png",
+    "category": "animal-supply"
+  },
+  {
+    "id": "BC104",
+    "name": "Heater",
+    "price": 2000,
+    "description": "Warms the barn or coop during winter, keeping animals happy despite the cold.",
+    "image": "images/tools/Heater.png",
+    "category": "animal-supply"
+  },
+  {
+    "id": "TMilkPail",
+    "name": "Milk Pail",
+    "price": 1000,
+    "description": "Use it on a cow or goat to collect milk.",
+    "image": "images/tools/Milk Pail.png",
+    "category": "tool",
+    "availability": "Unowned only"
+  },
+  {
+    "id": "TShears",
+    "name": "Shears",
+    "price": 1000,
+    "description": "Use these to collect wool from sheep.",
+    "image": "images/tools/Shears.png",
+    "category": "tool",
+    "availability": "Unowned only"
+  },
+  {
+    "id": "BC165",
+    "name": "Auto-Grabber",
+    "price": 25000,
+    "description": "Automatically collects animal products each morning.",
+    "image": "images/tools/Auto-Grabber.png",
+    "category": "animal-supply",
+    "availability": "Farming level 10+"
+  },
+  {
+    "id": "BC45",
+    "name": "Ornamental Hay Bale",
+    "price": 250,
+    "description": "A charming hay bale decoration for your farm.",
+    "image": "images/shop/Ornamental Hay Bale.png",
+    "category": "furniture"
+  },
+  {
+    "id": "BookAnimalCatalogue",
+    "name": "Animal Catalogue",
+    "price": 5000,
+    "description": "Unlocks a wide selection of animal-themed furniture and decor for purchase.",
+    "image": "images/special-items/Animal Catalogue.png",
+    "category": "catalogue",
+    "availability": "Year 2+"
+  },
+  {
+    "id": "928",
+    "name": "Golden Egg",
+    "price": 100000,
+    "description": "A very rare egg from a very happy chicken.",
+    "image": "images/animals/produce/Golden Egg.png",
+    "category": "special",
+    "availability": "Secret Note #44"
+  },
+  {
+    "id": "FCowDecal",
+    "name": "Cow Decal",
+    "price": 10000,
+    "description": "A decorative cow painting for your home.",
+    "image": "images/shop/Cow Decal.png",
+    "category": "furniture",
+    "availability": "17+ ticket prizes claimed"
+  },
+  {
+    "id": "FDoghouse",
+    "name": "Doghouse",
+    "price": 10000,
+    "description": "A cozy home for your dog.",
+    "image": "images/shop/Doghouse.png",
+    "category": "furniture"
+  },
+  {
+    "id": "FDarkDoghouse",
+    "name": "Dark Doghouse",
+    "price": 10000,
+    "description": "A darkly elegant house for your dog.",
+    "image": "images/shop/Dark Doghouse.png",
+    "category": "furniture"
+  },
+  {
+    "id": "FCatTree",
+    "name": "Cat Tree",
+    "price": 10000,
+    "description": "A scratching post and perch your cat will love.",
+    "image": "images/shop/Cat Tree.png",
+    "category": "furniture"
+  },
+  {
+    "id": "FDarkCatTree",
+    "name": "Dark Cat Tree",
+    "price": 10000,
+    "description": "A dark-themed cat tree for feline elegance.",
+    "image": "images/shop/Dark Cat Tree.png",
+    "category": "furniture"
+  },
+  {
+    "id": "FBirdHouse",
+    "name": "Bird House",
+    "price": 5000,
+    "description": "Invites wild birds to nest on your farm.",
+    "image": "images/shop/Bird House.png",
+    "category": "furniture"
+  }
+]

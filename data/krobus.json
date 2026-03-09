@@ -1,0 +1,169 @@
+[
+  {
+    "id": "769",
+    "name": "Void Essence",
+    "price": 100,
+    "description": "A shimmering, purple ball of energy emitted from void spirits.",
+    "image": "images/monsters/monster-loot/Void Essence.png",
+    "stockType": "permanent",
+    "stockLimit": 10,
+    "isRecipe": false
+  },
+  {
+    "id": "768",
+    "name": "Solar Essence",
+    "price": 80,
+    "description": "The glowing face is warm to the touch.",
+    "image": "images/monsters/monster-loot/Solar Essence.png",
+    "stockType": "permanent",
+    "stockLimit": 10,
+    "isRecipe": false
+  },
+  {
+    "id": "305",
+    "name": "Void Egg",
+    "price": 5000,
+    "description": "A jet-black egg with flecks of red. It's warm to the touch.",
+    "image": "images/animals/produce/Void Egg.png",
+    "stockType": "permanent",
+    "stockLimit": -1,
+    "isRecipe": false
+  },
+  {
+    "id": "BC34",
+    "name": "Sign Of The Vessel",
+    "price": 350,
+    "description": "A shadow-people decoration placed in a home to bring fortune and fertility.",
+    "image": "images/shop/Sign Of The Vessel.png",
+    "stockType": "permanent",
+    "stockLimit": -1,
+    "isRecipe": false
+  },
+  {
+    "id": "F1800",
+    "name": "Monster Fireplace",
+    "price": 20000,
+    "description": "A warm and welcoming shadow fireplace.",
+    "image": "images/shop/Monster Fireplace.png",
+    "stockType": "permanent",
+    "stockLimit": -1,
+    "isRecipe": false
+  },
+  {
+    "id": "434",
+    "name": "Stardrop",
+    "price": 20000,
+    "description": "A mysterious fruit that empowers those who eat it. The flavor reminds you of something... but you can't remember what.",
+    "image": "images/shop/Stardrop.png",
+    "stockType": "permanent",
+    "stockLimit": 1,
+    "isRecipe": false,
+    "availability": "One-time purchase"
+  },
+  {
+    "id": "recipe-crystal-floor",
+    "name": "Crystal Floor Recipe",
+    "price": 500,
+    "description": "Tile-like crystal placed on the ground.",
+    "image": "images/craftable/decor/Crystal Floor.png",
+    "stockType": "permanent",
+    "stockLimit": -1,
+    "isRecipe": true
+  },
+  {
+    "id": "recipe-wicked-statue",
+    "name": "Wicked Statue Recipe",
+    "price": 1000,
+    "description": "It seems to be making a rude gesture.",
+    "image": "images/craftable/furniture/Wicked Statue.png",
+    "stockType": "permanent",
+    "stockLimit": -1,
+    "isRecipe": true
+  },
+  {
+    "id": "ButterflyPowder",
+    "name": "Butterfly Powder",
+    "price": 20000,
+    "description": "A rare Void ingredient.",
+    "image": "images/shop/Butterfly Powder.png",
+    "stockType": "permanent",
+    "stockLimit": -1,
+    "isRecipe": false
+  },
+  {
+    "id": "WizardCatalogue",
+    "name": "Wizard Catalogue",
+    "price": 150000,
+    "description": "Unlocks the Wizard's complete furniture collection for purchase.",
+    "image": "images/shop/Wizard Catalogue.png",
+    "stockType": "permanent",
+    "stockLimit": -1,
+    "isRecipe": false
+  },
+  {
+    "id": "ReturnScepter",
+    "name": "Return Scepter",
+    "price": 2000000,
+    "description": "Wave the scepter to instantly return to your farm.",
+    "image": "images/shop/Return Scepter.png",
+    "stockType": "permanent",
+    "stockLimit": -1,
+    "isRecipe": false,
+    "availability": "One-time purchase"
+  },
+  {
+    "id": "766",
+    "name": "Slime",
+    "price": 10,
+    "description": "A wad of sticky slime.",
+    "image": "images/monsters/monster-loot/Slime.png",
+    "stockType": "daily",
+    "day": "Monday",
+    "stockLimit": 50,
+    "isRecipe": false
+  },
+  {
+    "id": "749",
+    "name": "Omni Geode",
+    "price": 300,
+    "description": "A pungent mass that contains a rainbow of crystals. A geologist can crack it open for you.",
+    "image": "images/minerals/geodes/Omni Geode.png",
+    "stockType": "daily",
+    "day": "Tuesday",
+    "stockLimit": 1,
+    "isRecipe": false
+  },
+  {
+    "id": "770",
+    "name": "Mixed Seeds",
+    "price": 30,
+    "description": "There's a little bit of everything here. Plant them and see what grows!",
+    "image": "images/mixed-seeds/mixed-seeds.png",
+    "stockType": "daily",
+    "day": "Thursday",
+    "stockLimit": 10,
+    "isRecipe": false
+  },
+  {
+    "id": "645",
+    "name": "Iridium Sprinkler",
+    "price": 10000,
+    "description": "Waters the 24 adjacent tiles every morning.",
+    "image": "images/craftable/sprinklers/Iridium Sprinkler.png",
+    "stockType": "daily",
+    "day": "Friday",
+    "stockLimit": 1,
+    "isRecipe": false
+  },
+  {
+    "id": "767",
+    "name": "Bat Wing",
+    "price": 30,
+    "description": "A delicate membrane used for crafting and potion-making.",
+    "image": "images/monsters/monster-loot/Bat Wing.png",
+    "stockType": "daily",
+    "day": "Sunday",
+    "stockLimit": 10,
+    "isRecipe": false
+  }
+]

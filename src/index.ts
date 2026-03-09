@@ -36,3 +36,18 @@ export * from './modules/qi-stock';
 export * from './modules/medical-supplies';
 export * from './modules/blacksmith';
 export * from './modules/joja';
+export * from './modules/pierre';
+export * from './modules/saloon';
+export * from './modules/krobus';
+export * from './modules/marnie';
+export * from './modules/wizard';
+export * from './modules/willy';
+export * from './modules/guild';
+export * from './modules/carpenter';
+export * from './modules/casino';
+export * from './modules/desert-trader';
+export * from './modules/oasis';
+
+export * from './modules/volcano-shop';
+export * from './modules/island-trader';
+export * from './modules/field-office';

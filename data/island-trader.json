@@ -1,0 +1,244 @@
+[
+  {
+    "id": "688",
+    "name": "Warp Totem: Farm",
+    "description": "Warps you to your farm. Consumed on use.",
+    "image": "images/craftable/consumables/Warp Totem Farm.png",
+    "tradeItemId": "830",
+    "tradeItemName": "Taro Root",
+    "tradeItemImage": "images/crops/taro-root/crop.png",
+    "tradeAmount": 5
+  },
+  {
+    "id": "831",
+    "name": "Taro Tuber",
+    "description": "Plant in spring, summer, or fall. Takes 10 days to mature.",
+    "image": "images/crops/taro-root/seed.png",
+    "tradeItemId": "881",
+    "tradeItemName": "Bone Fragment",
+    "tradeItemImage": "images/minerals/resources/Bone Fragment.png",
+    "tradeAmount": 2
+  },
+  {
+    "id": "833",
+    "name": "Pineapple Seeds",
+    "description": "Plant in summer. Takes 14 days to mature.",
+    "image": "images/crops/pineapple/seed.png",
+    "tradeItemId": "851",
+    "tradeItemName": "Magma Cap",
+    "tradeItemImage": "images/forageables/Magma Cap.png",
+    "tradeAmount": 1
+  },
+  {
+    "id": "791",
+    "name": "Golden Coconut",
+    "description": "A perfectly round coconut. It may contain something special.",
+    "image": "images/minerals/geodes/Golden Coconut.png",
+    "tradeItemId": "88",
+    "tradeItemName": "Coconut",
+    "tradeItemImage": "images/forageables/Coconut.png",
+    "tradeAmount": 10,
+    "availability": "After cracking a Golden Coconut"
+  },
+  {
+    "id": "F2326",
+    "name": "Tropical TV",
+    "description": "A television set with a tropical theme.",
+    "image": "images/shop/Tropical TV.png",
+    "tradeItemId": "830",
+    "tradeItemName": "Taro Root",
+    "tradeItemImage": "images/crops/taro-root/crop.png",
+    "tradeAmount": 30
+  },
+  {
+    "id": "F2331",
+    "name": "Jungle Torch",
+    "description": "A torch made from island materials.",
+    "image": "images/shop/Jungle Torch.png",
+    "tradeItemId": "848",
+    "tradeItemName": "Cinder Shard",
+    "tradeItemImage": "images/minerals/foraged-minerals/Cinder Shard.png",
+    "tradeAmount": 5
+  },
+  {
+    "id": "69",
+    "name": "Banana Sapling",
+    "description": "Plant this sapling to grow a Banana Tree. Takes 28 days to mature.",
+    "image": "images/trees/banana/seed.png",
+    "tradeItemId": "852",
+    "tradeItemName": "Dragon Tooth",
+    "tradeItemImage": "images/minerals/Dragon Tooth.png",
+    "tradeAmount": 5
+  },
+  {
+    "id": "835",
+    "name": "Mango Sapling",
+    "description": "Plant this sapling to grow a Mango Tree. Takes 28 days to mature.",
+    "image": "images/trees/mango/seed.png",
+    "tradeItemId": "719",
+    "tradeItemName": "Mussel",
+    "tradeItemImage": "images/fish/Mussel.png",
+    "tradeAmount": 75
+  },
+  {
+    "id": "F2496",
+    "name": "Wild Double Bed",
+    "description": "A rustic double bed crafted from island materials.",
+    "image": "images/shop/Wild Double Bed.png",
+    "tradeItemId": "848",
+    "tradeItemName": "Cinder Shard",
+    "tradeItemImage": "images/minerals/foraged-minerals/Cinder Shard.png",
+    "tradeAmount": 100
+  },
+  {
+    "id": "F2176",
+    "name": "Tropical Bed",
+    "description": "A cozy tropical bed.",
+    "image": "images/shop/Tropical Bed.png",
+    "tradeItemId": "829",
+    "tradeItemName": "Ginger",
+    "tradeItemImage": "images/forageables/Ginger.png",
+    "tradeAmount": 20
+  },
+  {
+    "id": "292",
+    "name": "Mahogany Seed",
+    "description": "Plant this to grow a Mahogany Tree.",
+    "image": "images/trees/mahogany/seed.png",
+    "tradeItemId": "836",
+    "tradeItemName": "Stingray",
+    "tradeItemImage": "images/fish/Stingray.png",
+    "tradeAmount": 1
+  },
+  {
+    "id": "P7",
+    "name": "Luau Skirt",
+    "description": "A colorful skirt perfect for island festivities.",
+    "image": "images/clothing/Luau Skirt.png",
+    "tradeItemId": "830",
+    "tradeItemName": "Taro Root",
+    "tradeItemImage": "images/crops/taro-root/crop.png",
+    "tradeAmount": 50
+  },
+  {
+    "id": "904",
+    "name": "Banana Pudding",
+    "description": "It smells like paradise.",
+    "image": "images/cooking/Banana Pudding.png",
+    "tradeItemId": "881",
+    "tradeItemName": "Bone Fragment",
+    "tradeItemImage": "images/minerals/resources/Bone Fragment.png",
+    "tradeAmount": 30,
+    "isRecipe": true
+  },
+  {
+    "id": "920",
+    "name": "Deluxe Retaining Soil",
+    "description": "This soil has a good chance of staying watered overnight.",
+    "image": "images/craftable/fertilizer/Deluxe Retaining Soil.png",
+    "tradeItemId": "848",
+    "tradeItemName": "Cinder Shard",
+    "tradeItemImage": "images/minerals/foraged-minerals/Cinder Shard.png",
+    "tradeAmount": 50,
+    "isRecipe": true
+  },
+  {
+    "id": "F134",
+    "name": "Tropical Chair",
+    "description": "A comfortable chair with a tropical design.",
+    "image": "images/shop/Tropical Chair.png",
+    "tradeItemId": "837",
+    "tradeItemName": "Lionfish",
+    "tradeItemImage": "images/fish/Lionfish.png",
+    "tradeAmount": 1,
+    "availability": "Even days of month"
+  },
+  {
+    "id": "H79",
+    "name": "Small Cap",
+    "description": "It's a more aerodynamic style of cap.",
+    "image": "images/hats/Small Cap.png",
+    "tradeItemId": "830",
+    "tradeItemName": "Taro Root",
+    "tradeItemImage": "images/crops/taro-root/crop.png",
+    "tradeAmount": 30,
+    "day": "Monday"
+  },
+  {
+    "id": "F2393",
+    "name": "Palm Wall Ornament",
+    "description": "A decorative wall piece made from island materials.",
+    "image": "images/shop/Palm Wall Ornament.png",
+    "tradeItemId": "832",
+    "tradeItemName": "Pineapple",
+    "tradeItemImage": "images/crops/pineapple/crop.png",
+    "tradeAmount": 1,
+    "day": "Tuesday"
+  },
+  {
+    "id": "H80",
+    "name": "Bluebird Mask",
+    "description": "Wear this to look just like your favorite island trader.",
+    "image": "images/hats/Bluebird Mask.png",
+    "tradeItemId": "830",
+    "tradeItemName": "Taro Root",
+    "tradeItemImage": "images/crops/taro-root/crop.png",
+    "tradeAmount": 30,
+    "day": "Wednesday"
+  },
+  {
+    "id": "F2329",
+    "name": "'Volcano' Photo",
+    "description": "A framed photo of the volcano.",
+    "image": "images/shop/'Volcano' Photo.png",
+    "tradeItemId": "834",
+    "tradeItemName": "Mango",
+    "tradeItemImage": "images/trees/mango/crop.png",
+    "tradeAmount": 5,
+    "day": "Thursday"
+  },
+  {
+    "id": "H81",
+    "name": "Deluxe Cowboy Hat",
+    "description": "A cowboy hat with a more extreme shape.",
+    "image": "images/hats/Deluxe Cowboy Hat.png",
+    "tradeItemId": "830",
+    "tradeItemName": "Taro Root",
+    "tradeItemImage": "images/crops/taro-root/crop.png",
+    "tradeAmount": 30,
+    "day": "Friday"
+  },
+  {
+    "id": "F1228",
+    "name": "Oceanic Rug",
+    "description": "A beautiful rug with an ocean pattern.",
+    "image": "images/shop/Oceanic Rug.png",
+    "tradeItemId": "838",
+    "tradeItemName": "Blue Discus",
+    "tradeItemImage": "images/fish/Blue Discus.png",
+    "tradeAmount": 3,
+    "day": "Saturday"
+  },
+  {
+    "id": "F2180",
+    "name": "Tropical Double Bed",
+    "description": "A cozy tropical double bed.",
+    "image": "images/shop/Tropical Double Bed.png",
+    "tradeItemId": "91",
+    "tradeItemName": "Banana",
+    "tradeItemImage": "images/trees/banana/crop.png",
+    "tradeAmount": 5,
+    "day": "Sunday"
+  },
+  {
+    "id": "896",
+    "name": "Galaxy Soul",
+    "description": "A shard of the galaxy. Can be used to upgrade weapons.",
+    "image": "images/shop/Galaxy Soul.png",
+    "tradeItemId": "910",
+    "tradeItemName": "Radioactive Bar",
+    "tradeItemImage": "images/minerals/bars/Radioactive Bar.png",
+    "tradeAmount": 10,
+    "availability": "Last day of season"
+  }
+]
