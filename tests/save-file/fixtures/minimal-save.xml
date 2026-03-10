@@ -1,0 +1,79 @@
+<SaveGame>
+  <gameVersion>1.6.0</gameVersion>
+  <whichFarm>0</whichFarm>
+  <year>2</year>
+  <currentSeason>summer</currentSeason>
+  <dayOfMonth>15</dayOfMonth>
+  <player>
+    <name>TestPlayer</name>
+    <farmName>TestFarm</farmName>
+    <favoriteThing>Testing</favoriteThing>
+    <Gender>Male</Gender>
+    <money>5000</money>
+    <totalMoneyEarned>100000</totalMoneyEarned>
+    <houseUpgradeLevel>2</houseUpgradeLevel>
+    <maxHealth>100</maxHealth>
+    <maxStamina>270</maxStamina>
+    <experiencePoints>
+      <int>1000</int>
+      <int>500</int>
+      <int>300</int>
+      <int>200</int>
+      <int>100</int>
+    </experiencePoints>
+    <items>
+      <Item xsi:type="Object" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <name>Parsnip</name>
+        <itemId>(O)24</itemId>
+        <stack>5</stack>
+        <quality>0</quality>
+      </Item>
+    </items>
+    <fishCaught />
+    <basicShipped />
+    <friendshipData />
+    <achievements />
+    <questLog />
+    <mailReceived>
+      <string>CF_Sewer</string>
+      <string>CF_Spouse</string>
+    </mailReceived>
+    <cookingRecipes />
+    <craftingRecipes />
+    <professions />
+    <eventsSeen>
+      <int>1000</int>
+      <int>2000</int>
+    </eventsSeen>
+    <stats>
+      <Values>
+        <item>
+          <key><string>daysPlayed</string></key>
+          <value><unsignedInt>56</unsignedInt></value>
+        </item>
+        <item>
+          <key><string>stepsTaken</string></key>
+          <value><unsignedInt>5000</unsignedInt></value>
+        </item>
+        <item>
+          <key><string>MasteryExp</string></key>
+          <value><unsignedInt>0</unsignedInt></value>
+        </item>
+        <item>
+          <key><string>masteryLevelsSpent</string></key>
+          <value><unsignedInt>0</unsignedInt></value>
+        </item>
+      </Values>
+    </stats>
+  </player>
+  <locations>
+    <GameLocation xsi:type="Farm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <name>Farm</name>
+      <buildings />
+    </GameLocation>
+  </locations>
+  <bundleData />
+  <completedSpecialOrders />
+  <junimoNotes />
+  <collectedNutTracker />
+</SaveGame>

@@ -50,22 +50,26 @@ export type {
   SaveWalnuts,
 } from './types';
 
+const ARRAY_TAG_NAMES = [
+  'item',
+  'Item',
+  'int',
+  'Quest',
+  'Building',
+  'FarmAnimal',
+  'GameLocation',
+  'SpecialOrder',
+  'NPC',
+];
+
+function isArrayTag(name: string): boolean {
+  return ARRAY_TAG_NAMES.includes(name);
+}
+
 const parserOptions = {
   ignoreAttributes: false,
   attributeNamePrefix: '@_',
-  isArray: (name: string) => {
-    return [
-      'item',
-      'Item',
-      'int',
-      'Quest',
-      'Building',
-      'FarmAnimal',
-      'GameLocation',
-      'SpecialOrder',
-      'NPC',
-    ].includes(name);
-  },
+  isArray: isArrayTag,
 };
 
 /**

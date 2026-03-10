@@ -10,7 +10,9 @@ export interface VersionRange {
  * Ranges are checked in order — the first match wins.
  * A `null` maxVersion means "up to any future version" (open-ended).
  */
-const VERSION_RANGES: VersionRange[] = [{ minVersion: '1.0.0', maxVersion: null, apiVersion: 1 }];
+export const VERSION_RANGES: VersionRange[] = [
+  { minVersion: '1.0.0', maxVersion: null, apiVersion: 1 },
+];
 
 /** The latest API version supported by this package. */
 export const LATEST_API_VERSION = 1;
