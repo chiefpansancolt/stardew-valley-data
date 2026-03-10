@@ -5,10 +5,8 @@ import { search } from '@/modules/search';
  * Uses jest.mock to simulate missing monster references and tool images.
  */
 
-const originalMonsters = jest.requireActual('@/modules/monsters');
-
 jest.mock('@/modules/monsters', () => {
-  const actual = originalMonsters;
+  const actual = jest.requireActual('@/modules/monsters');
   return {
     ...actual,
     monsters: () => ({
@@ -47,10 +45,8 @@ jest.mock('@/modules/monsters', () => {
   };
 });
 
-const originalTools = jest.requireActual('@/modules/tools');
-
 jest.mock('@/modules/tools', () => {
-  const actual = originalTools;
+  const actual = jest.requireActual('@/modules/tools');
   return {
     ...actual,
     tools: () => ({

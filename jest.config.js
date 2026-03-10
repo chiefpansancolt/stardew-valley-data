@@ -1,6 +1,5 @@
-import type { Config } from 'jest';
-
-const config: Config = {
+/** @type {import('jest').Config} */
+module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   roots: ['<rootDir>/tests'],
@@ -13,5 +12,3 @@ const config: Config = {
     '^@/data/(.*)$': '<rootDir>/data/$1',
   },
 };
-
-export default config;
