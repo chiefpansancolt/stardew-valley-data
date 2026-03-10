@@ -4,7 +4,8 @@ tmp/
 *.log
 dist/
 .env
-
-# Claude
+tmp/
+coverage/
 .claude/
 CLAUDE.md
+memory/
