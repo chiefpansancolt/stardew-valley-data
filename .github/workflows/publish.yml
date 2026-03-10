@@ -27,12 +27,21 @@ jobs:
           scope: "@chiefpansancolt"
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
+      - name: Scope package for GitHub Packages
+        run: |
+          name=$(node -p 'require("./package.json").name')
+          node -e "
+            const pkg = require('./package.json');
+            pkg.name = '@chiefpansancolt/${name}';
+            pkg.publishConfig = { registry: 'https://npm.pkg.github.com' };
+            require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2) + '\n');
+          "
       - name: Check if version exists on GitHub Packages
         id: check
         run: |
           version=$(node -p 'require("./package.json").version')
-          name=$(node -p 'require("./package.json").name')
-          if npm view "@chiefpansancolt/${name}@${version}" version --registry=https://npm.pkg.github.com 2>/dev/null; then
+          scoped=$(node -p 'require("./package.json").name')
+          if npm view "${scoped}@${version}" version --registry=https://npm.pkg.github.com 2>/dev/null; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
             echo "Version ${version} already published to GitHub Packages — skipping"
           else
@@ -42,7 +51,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish to GitHub Packages
         if: steps.check.outputs.exists == 'false'
-        run: npm publish
+        run: npm publish --registry=https://npm.pkg.github.com
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
