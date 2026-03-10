@@ -8,5 +8,6 @@ export interface MonsterSlayerGoal {
   id: string;
   name: string;
   killTarget: number;
+  monsters: string[];
   reward: SlayerReward;
 }

@@ -70,6 +70,7 @@ monsterSlayerGoals().findByName("Void Spirits");
 | id         | string       | Game-internal key (e.g. "Slimes", "FlameSpirits") |
 | name       | string       | Display name shown in the Adventurer's Guild      |
 | killTarget | number       | Number of kills required to complete the goal     |
+| monsters   | string[]     | Names of monsters that count toward this goal     |
 | reward     | SlayerReward | Reward granted upon completion                    |
 
 ## SlayerReward fields

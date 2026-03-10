@@ -3,6 +3,7 @@
     "id": "Slimes",
     "name": "Slime",
     "killTarget": 1000,
+    "monsters": ["Green Slime", "Frost Jelly", "Sludge", "Tiger Slime"],
     "reward": {
       "name": "Slime Charmer Ring",
       "itemId": "(O)520",
@@ -13,6 +14,7 @@
     "id": "Shadows",
     "name": "Void Spirits",
     "killTarget": 150,
+    "monsters": ["Shadow Guy", "Shadow Shaman", "Shadow Brute", "Shadow Sniper"],
     "reward": {
       "name": "Savage Ring",
       "itemId": "(O)523",
@@ -23,6 +25,7 @@
     "id": "Bats",
     "name": "Bats",
     "killTarget": 200,
+    "monsters": ["Bat", "Frost Bat", "Lava Bat", "Iridium Bat"],
     "reward": {
       "name": "Vampire Ring",
       "itemId": "(O)522",
@@ -33,6 +36,7 @@
     "id": "Skeletons",
     "name": "Skeletons",
     "killTarget": 50,
+    "monsters": ["Skeleton", "Skeleton Mage"],
     "reward": {
       "name": "Skeleton Mask",
       "itemId": "(H)8",
@@ -43,6 +47,7 @@
     "id": "Insects",
     "name": "Cave Insects",
     "killTarget": 80,
+    "monsters": ["Grub", "Fly", "Bug"],
     "reward": {
       "name": "Insect Head",
       "itemId": "(W)13",
@@ -53,6 +58,7 @@
     "id": "Duggy",
     "name": "Duggies",
     "killTarget": 30,
+    "monsters": ["Duggy", "Magma Duggy"],
     "reward": {
       "name": "Hard Hat",
       "itemId": "(H)27",
@@ -63,6 +69,7 @@
     "id": "DustSpirits",
     "name": "Dust Sprites",
     "killTarget": 500,
+    "monsters": ["Dust Spirit"],
     "reward": {
       "name": "Burglar's Ring",
       "itemId": "(O)526",
@@ -73,6 +80,7 @@
     "id": "Crabs",
     "name": "Rock Crabs",
     "killTarget": 60,
+    "monsters": ["Rock Crab", "Lava Crab", "Iridium Crab"],
     "reward": {
       "name": "Crabshell Ring",
       "itemId": "(O)810",
@@ -83,6 +91,7 @@
     "id": "Mummies",
     "name": "Mummies",
     "killTarget": 100,
+    "monsters": ["Mummy"],
     "reward": {
       "name": "Arcane Hat",
       "itemId": "(H)60",
@@ -93,6 +102,7 @@
     "id": "Dinos",
     "name": "Pepper Rex",
     "killTarget": 50,
+    "monsters": ["Pepper Rex"],
     "reward": {
       "name": "Knight's Helmet",
       "itemId": "(H)50",
@@ -103,6 +113,7 @@
     "id": "Serpents",
     "name": "Serpents",
     "killTarget": 250,
+    "monsters": ["Serpent", "Royal Serpent"],
     "reward": {
       "name": "Napalm Ring",
       "itemId": "(O)811",
@@ -113,6 +124,7 @@
     "id": "FlameSpirits",
     "name": "Magma Sprites",
     "killTarget": 150,
+    "monsters": ["Magma Sprite", "Magma Sparker"],
     "reward": {
       "name": "Marlon's Phone Number",
       "itemId": null,

@@ -26,6 +26,7 @@ export function run(): { passed: number; failed: number } {
     } else {
       console.log(label);
     }
+    console.log(`           Monsters: ${goal.monsters.join(', ')}`);
   }
 
   console.log('\n--- Image validation ---');
