@@ -1,18 +1,20 @@
 {
   "name": "stardew-valley-data",
   "version": "0.1.0",
-  "description": "A comprehensive JSON dataset for Stardew Valley game items, crops, fish, villagers, and more — with image asset references.",
+  "description": "A comprehensive, fully-typed dataset for Stardew Valley — structured JSON data, 1,900+ image assets, and a chainable query builder API.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     },
-    "./data/*": "./data/*"
+    "./data/*": "./data/*",
+    "./images/*": "./images/*"
   },
+  "sideEffects": false,
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -23,7 +25,8 @@
     "typecheck": "tsc --noEmit",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "prepare": "husky"
   },
   "keywords": [
     "stardew-valley",
@@ -31,13 +34,33 @@
     "game-data",
     "json",
     "dataset",
+    "typescript",
+    "query-builder",
     "crops",
     "fish",
     "villagers",
-    "items"
+    "items",
+    "monsters",
+    "weapons",
+    "cooking",
+    "crafting",
+    "mining",
+    "fishing",
+    "save-file"
   ],
-  "author": "",
+  "author": "Christopher Pezza",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiefpansancolt/stardew-valley-data.git"
+  },
+  "homepage": "https://github.com/chiefpansancolt/stardew-valley-data#readme",
+  "bugs": {
+    "url": "https://github.com/chiefpansancolt/stardew-valley-data/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "@types/jest": "^30.0.0",
@@ -46,6 +69,7 @@
     "@typescript-eslint/parser": "^8.56.1",
     "eslint": "^10.0.2",
     "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
     "jest": "^30.3.0",
     "prettier": "^3.8.1",
     "ts-jest": "^29.4.6",
@@ -56,7 +80,10 @@
   "files": [
     "dist",
     "data",
-    "images"
+    "images",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
   ],
   "dependencies": {
     "fast-xml-parser": "^5.4.2"
