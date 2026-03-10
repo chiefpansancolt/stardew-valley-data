@@ -1,6 +1,6 @@
 {
   "name": "stardew-valley-data",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A comprehensive, fully-typed dataset for Stardew Valley — structured JSON data, 1,900+ image assets, and a chainable query builder API.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -59,7 +59,7 @@
     "url": "https://github.com/chiefpansancolt/stardew-valley-data/issues"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
