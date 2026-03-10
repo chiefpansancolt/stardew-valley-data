@@ -1,9 +1,21 @@
 # stardew-valley-data
 
-A comprehensive, fully-typed dataset for Stardew Valley — structured JSON data, 1,900+ image assets,
-and a chainable query builder API for game items, crops, fish, villagers, shops, and more.
+<div align="center">
+  <h3>A comprehensive, fully-typed dataset for Stardew Valley</h3>
+  <p>Structured JSON data, 1,900+ image assets, and a chainable query builder API for game items, crops, fish, villagers, shops, and more.</p>
 
-## Installation
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=black)
+
+</div>
+
+---
+
+## 📦 Installation
 
 ```bash
 npm install stardew-valley-data
@@ -13,7 +25,9 @@ pnpm add stardew-valley-data
 yarn add stardew-valley-data
 ```
 
-## Quick Start
+---
+
+## 🚀 Quick Start
 
 Every module exports a **factory function** that returns a chainable query builder.
 
@@ -33,7 +47,9 @@ villagers().marriageable().sortByName().get();
 search("diamond");
 ```
 
-## How It Works
+---
+
+## ⚙️ How It Works
 
 All modules follow the same **query builder pattern** built on a shared `QueryBase<T>` class:
 
@@ -67,9 +83,11 @@ const cheapest = springCrops.sortBySellPrice("asc").first();
 const count = springCrops.count();
 ```
 
-## Modules
+---
 
-### Items & Equipment
+## 📚 Modules
+
+### 🗡️ Items & Equipment
 
 | Module                                     | Factory      | Items | Description                        |
 | ------------------------------------------ | ------------ | ----- | ---------------------------------- |
@@ -82,7 +100,7 @@ const count = springCrops.count();
 | [weapons](src/modules/weapons/README.md)   | `weapons()`  | 62    | Swords, daggers, clubs, slingshots |
 | [trinkets](src/modules/trinkets/README.md) | `trinkets()` | 8     | Trinket accessories                |
 
-### Farming & Nature
+### 🌾 Farming & Nature
 
 | Module                                               | Factory          | Items | Description                              |
 | ---------------------------------------------------- | ---------------- | ----- | ---------------------------------------- |
@@ -93,13 +111,13 @@ const count = springCrops.count();
 | [mixed-seeds](src/modules/mixed-seeds/README.md)     | `mixedSeeds()`   | 2     | Mixed seed drop tables by season         |
 | [seasons](src/modules/seasons/README.md)             | `seasons()`      | 4     | Season metadata                          |
 
-### Fishing
+### 🐟 Fishing
 
 | Module                             | Factory  | Items | Description                              |
 | ---------------------------------- | -------- | ----- | ---------------------------------------- |
 | [fish](src/modules/fish/README.md) | `fish()` | 77    | All fish with location, time, difficulty |
 
-### Foraging & Mining
+### ⛏️ Foraging & Mining
 
 | Module                                           | Factory         | Items | Description                |
 | ------------------------------------------------ | --------------- | ----- | -------------------------- |
@@ -107,14 +125,14 @@ const count = springCrops.count();
 | [minerals](src/modules/minerals/README.md)       | `minerals()`    | 97    | Ores, gems, geodes, nodes  |
 | [artifacts](src/modules/artifacts/README.md)     | `artifacts()`   | 42    | Museum artifacts           |
 
-### Cooking & Crafting
+### 🍳 Cooking & Crafting
 
 | Module                                     | Factory      | Items | Description              |
 | ------------------------------------------ | ------------ | ----- | ------------------------ |
 | [cooking](src/modules/cooking/README.md)   | `cooking()`  | 81    | Recipes with ingredients |
 | [crafting](src/modules/crafting/README.md) | `crafting()` | 150   | Crafting recipes         |
 
-### Combat
+### ⚔️ Combat
 
 | Module                                                             | Factory                | Items | Description                          |
 | ------------------------------------------------------------------ | ---------------------- | ----- | ------------------------------------ |
@@ -123,7 +141,7 @@ const count = springCrops.count();
 | [monster-slayer-goals](src/modules/monster-slayer-goals/README.md) | `monsterSlayerGoals()` | 12    | Adventurer's Guild eradication goals |
 | [weapon-stats](src/modules/weapon-stats/README.md)                 | `weaponStats()`        | 5     | Weapon type stat ranges              |
 
-### NPCs & Social
+### 💬 NPCs & Social
 
 | Module                                                   | Factory            | Items | Description                     |
 | -------------------------------------------------------- | ------------------ | ----- | ------------------------------- |
@@ -133,7 +151,7 @@ const count = springCrops.count();
 | [quests](src/modules/quests/README.md)                   | `quests()`         | 58    | Quest details                   |
 | [special-orders](src/modules/special-orders/README.md)   | `specialOrders()`  | 28    | Town + Qi special orders        |
 
-### Progression
+### 🏆 Progression
 
 | Module                                                 | Factory           | Items | Description                        |
 | ------------------------------------------------------ | ----------------- | ----- | ---------------------------------- |
@@ -149,7 +167,7 @@ const count = springCrops.count();
 | [collections](src/modules/collections/README.md)       | `collections()`   | —     | Collection tab tracking            |
 | [special-items](src/modules/special-items/README.md)   | `specialItems()`  | 41    | Books, powers, mastery items       |
 
-### Shops (18 modules)
+### 🛒 Shops (18 modules)
 
 | Module                                                          | Factory          | Items | Description                                |
 | --------------------------------------------------------------- | ---------------- | ----- | ------------------------------------------ |
@@ -172,7 +190,7 @@ const count = springCrops.count();
 | [bookseller](src/modules/bookseller-shop/README.md)             | `bookseller()`   | —     | Book shop inventory                        |
 | [medical-supplies](src/modules/medical-supplies-shop/README.md) | `medical()`      | 2     | Harvey's Clinic items                      |
 
-### World & Locations
+### 🗺️ World & Locations
 
 | Module                                             | Factory              | Items | Description                     |
 | -------------------------------------------------- | -------------------- | ----- | ------------------------------- |
@@ -185,14 +203,14 @@ const count = springCrops.count();
 | [field-office](src/modules/field-office/README.md) | `fieldOffice()`      | 4     | Island Field Office collections |
 | [concessions](src/modules/concessions/README.md)   | `concessions()`      | 24    | Movie theater snacks            |
 
-### Calculators
+### 🧮 Calculators
 
 | Module                                         | Factory               | Description                                      |
 | ---------------------------------------------- | --------------------- | ------------------------------------------------ |
 | [calculator](src/modules/calculator/README.md) | `qualityCalculator()` | Quality-scaled sell prices and energy/health     |
 | [grandpa](src/modules/grandpa/README.md)       | `grandpaEvaluator()`  | Grandpa's evaluation scoring (0–21, 1–4 candles) |
 
-### Search
+### 🔍 Search
 
 ```ts
 import { search } from "stardew-valley-data";
@@ -205,7 +223,7 @@ search("parsnip");
 search("diamond", ["mineral", "ring"]);
 ```
 
-### Save File Parser
+### 💾 Save File Parser
 
 ```ts
 import { parseSaveFile } from "stardew-valley-data";
@@ -215,7 +233,9 @@ const save = parseSaveFile(xml);
 // Extracts player data, inventory, friendships, progress, etc.
 ```
 
-## Utility Functions
+---
+
+## 🔧 Utility Functions
 
 ```ts
 import {
@@ -242,7 +262,9 @@ getTitle(10, 10, 10, 10, 10); // → "Farm King"
 getMasteryLevel(25000); // → 3
 ```
 
-## Module Documentation
+---
+
+## 📖 Module Documentation
 
 Each module has a detailed README in its source directory with complete method signatures, type
 definitions, field descriptions, and usage examples:
@@ -251,7 +273,9 @@ definitions, field descriptions, and usage examples:
 src/modules/<module-name>/README.md
 ```
 
-## Image Assets
+---
+
+## 🖼️ Image Assets
 
 1,900+ images bundled under `images/`, organized by category:
 
@@ -342,7 +366,9 @@ export default function CropCard() {
 }
 ```
 
-## Raw Data Access
+---
+
+## 📋 Raw Data Access
 
 JSON data files can be imported directly:
 
@@ -350,7 +376,32 @@ JSON data files can be imported directly:
 import bait from "stardew-valley-data/data/bait.json";
 ```
 
-## Development
+---
+
+## 📈 Change Log
+
+Check out the [Change Log](CHANGELOG.md) for new breaking changes/features/bug fixes per release of
+a new version.
+
+---
+
+## 🤝 Contributing
+
+Bug Reports, Feature Requests, and Pull Requests are welcome on GitHub at
+[https://github.com/chiefpansancolt/stardew-valley-data](https://github.com/chiefpansancolt/stardew-valley-data).
+This project is intended to be a safe, welcoming space for collaboration, and contributors are
+expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of
+conduct.
+
+To see more about Contributing check out this [document](.github/CONTRIBUTING.md).
+
+1. Fork Repo and create new branch
+2. Once all is changed and committed create a pull request.
+3. Ensure all merge conflicts are fixed and CI is passing.
+
+---
+
+## 🛠️ Development
 
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md) for setup instructions and
 [DEVELOPMENT.md](.github/DEVELOPMENT.md) for the full guide on adding new modules.
@@ -364,6 +415,28 @@ pnpm format         # Format with Prettier
 pnpm sample         # Validate image paths + exercise queries
 ```
 
-## License
+---
 
-[MIT](LICENSE)
+## 💖 Support the Project
+
+If you find this project helpful, consider supporting its development:
+
+<div align="center">
+
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/chiefpansancolt)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/chiefpansancolt)
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/chiefpansancolt)
+
+</div>
+
+---
+
+## 📄 License
+
+stardew-valley-data is available as open source under the terms of the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  <p>Built with ❤️ by <a href="https://github.com/chiefpansancolt">chiefpansancolt</a></p>
+</div>
