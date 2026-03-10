@@ -59,7 +59,7 @@
     "url": "https://github.com/chiefpansancolt/stardew-valley-data/issues"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
