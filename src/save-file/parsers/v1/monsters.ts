@@ -1,5 +1,5 @@
-import type { SaveMonsterKillEntry } from '../types';
-import { extractDictItems, num, str } from './util';
+import type { SaveMonsterKillEntry } from '../../types';
+import { extractDictItems, num, str } from '../util';
 
 /** Parse per-monster kill counts from the player node's stats, sorted by count descending. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

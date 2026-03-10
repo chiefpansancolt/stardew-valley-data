@@ -1,5 +1,5 @@
-import type { SaveCollectionEntry, SaveMuseum } from '../types';
-import { ensureArray, extractDictItems, num, str } from './util';
+import type { SaveCollectionEntry, SaveMuseum } from '../../types';
+import { ensureArray, extractDictItems, num, str } from '../util';
 
 function parseDonations(root: Record<string, unknown>): string[] {
   const locations = ensureArray((root.locations as Record<string, unknown>)?.GameLocation);

@@ -1,19 +1,12 @@
-import type { SaveSpecialOrders } from '../types';
-import { ensureArray, str } from './util';
+import specialOrdersData from '@/data/special-orders.json';
+import type { SaveSpecialOrders } from '../../types';
+import { ensureArray, str } from '../util';
 
-const QI_ORDER_IDS = new Set([
-  'QiChallenge',
-  'QiChallenge2',
-  'QiChallenge3',
-  'QiChallenge4',
-  'QiChallenge5',
-  'QiChallenge6',
-  'QiChallenge7',
-  'QiChallenge8',
-  'QiChallenge9',
-  'QiChallenge10',
-  'QiChallenge12',
-]);
+const QI_ORDER_IDS = new Set(
+  (specialOrdersData as Array<{ id: string; type: string }>)
+    .filter((o) => o.type === 'qi')
+    .map((o) => o.id),
+);
 
 /** Parse the list of received mail flags from the player's mailReceived node. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

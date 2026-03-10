@@ -1,5 +1,5 @@
-import type { SaveItem } from '../types';
-import { ensureArray, normalizeItemId, num, str } from './util';
+import type { SaveItem } from '../../types';
+import { ensureArray, normalizeItemId, num, str } from '../util';
 
 /** Parse the player's inventory items from the player node, including stack size and quality. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

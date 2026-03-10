@@ -1,5 +1,5 @@
-import type { SavePerfection } from '../types';
-import { ensureArray, num, str } from './util';
+import type { SavePerfection } from '../../types';
+import { ensureArray, num, str } from '../util';
 
 const OBELISK_TYPES = ['Earth Obelisk', 'Water Obelisk', 'Desert Obelisk', 'Island Obelisk'];
 

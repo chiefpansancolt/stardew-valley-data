@@ -1,6 +1,6 @@
 import type { Season } from '@/types';
-import type { SaveDate } from '../types';
-import { num, str } from './util';
+import type { SaveDate } from '../../types';
+import { num, str } from '../util';
 
 function getStatDaysPlayed(player: Record<string, unknown>): number {
   const stats = player.stats as Record<string, unknown> | undefined;

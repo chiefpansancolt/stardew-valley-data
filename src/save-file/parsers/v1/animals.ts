@@ -1,5 +1,5 @@
-import type { SaveAnimal } from '../types';
-import { ensureArray, num, str } from './util';
+import type { SaveAnimal } from '../../types';
+import { ensureArray, num, str } from '../util';
 
 /** Parse farm animal data from all building interiors in the save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -5,7 +5,8 @@
     "type": "special-item",
     "effect": "Unlocks the ability to read the language of the Junimos",
     "obtainedFrom": "\"Meet The Wizard\" quest reward after examining the first golden scroll in the Community Center",
-    "image": "images/special-items/Forest Magic.png"
+    "image": "images/special-items/Forest Magic.png",
+    "mailFlags": ["canReadJunimoText"]
   },
   {
     "id": "dwarvish-translation-guide",
@@ -13,7 +14,8 @@
     "type": "special-item",
     "effect": "Unlocks the ability to speak to the Dwarf in the mines and volcano dungeon",
     "obtainedFrom": "Museum donation reward: all 4 Dwarf Scrolls",
-    "image": "images/special-items/Dwarvish Translation Guide.png"
+    "image": "images/special-items/Dwarvish Translation Guide.png",
+    "mailFlags": ["HasDwarvishTranslationGuide"]
   },
   {
     "id": "rusty-key",
@@ -21,7 +23,8 @@
     "type": "special-item",
     "effect": "Grants access to The Sewers",
     "obtainedFrom": "Reward from Gunther after donating 60 museum items",
-    "image": "images/special-items/Rusty Key.png"
+    "image": "images/special-items/Rusty Key.png",
+    "mailFlags": ["HasRustyKey", "ccBoilerRoom"]
   },
   {
     "id": "club-card",
@@ -29,7 +32,8 @@
     "type": "special-item",
     "effect": "Enables entry to the Casino",
     "obtainedFrom": "\"The Mysterious Qi\" quest completion",
-    "image": "images/special-items/Club Card.png"
+    "image": "images/special-items/Club Card.png",
+    "mailFlags": ["HasClubCard"]
   },
   {
     "id": "special-charm",
@@ -37,7 +41,8 @@
     "type": "special-item",
     "effect": "Permanently increases daily luck",
     "obtainedFrom": "Truck driver near JojaMart/Movie Theater with Secret Note #20 and a Rabbit's Foot",
-    "image": "images/special-items/Special Charm.png"
+    "image": "images/special-items/Special Charm.png",
+    "mailFlags": ["HasSpecialCharm"]
   },
   {
     "id": "skull-key",
@@ -45,7 +50,8 @@
     "type": "special-item",
     "effect": "Unlocks Skull Cavern and enables the Junimo Kart machine",
     "obtainedFrom": "Chest on floor 120 of The Mines",
-    "image": "images/special-items/Skull Key.png"
+    "image": "images/special-items/Skull Key.png",
+    "mailFlags": ["HasSkullKey"]
   },
   {
     "id": "magnifying-glass",
@@ -53,7 +59,8 @@
     "type": "special-item",
     "effect": "Unlocks the ability to find Secret Notes",
     "obtainedFrom": "\"A Winter Mystery\" quest completion",
-    "image": "images/special-items/Magnifying Glass.png"
+    "image": "images/special-items/Magnifying Glass.png",
+    "mailFlags": ["HasMagnifyingGlass"]
   },
   {
     "id": "dark-talisman",
@@ -61,7 +68,8 @@
     "type": "special-item",
     "effect": "Quest item used to open the passage to the Witch's Swamp",
     "obtainedFrom": "Chest in the Mutant Bug Lair",
-    "image": "images/special-items/Dark Talisman.png"
+    "image": "images/special-items/Dark Talisman.png",
+    "mailFlags": ["HasDarkTalisman"]
   },
   {
     "id": "magic-ink",
@@ -69,7 +77,8 @@
     "type": "special-item",
     "effect": "Quest item returned to the Wizard to restore his magic",
     "obtainedFrom": "Table in the Witch's Hut",
-    "image": "images/special-items/Magic Ink.png"
+    "image": "images/special-items/Magic Ink.png",
+    "mailFlags": ["HasMagicInk"]
   },
   {
     "id": "bears-knowledge",
@@ -77,7 +86,8 @@
     "type": "special-item",
     "effect": "Increases sell price of Blackberries and Salmonberries by 3x",
     "obtainedFrom": "Secret Woods — bring Maple Syrup after reading Secret Note #23",
-    "image": "images/special-items/Bear's Knowledge.png"
+    "image": "images/special-items/Bear's Knowledge.png",
+    "mailFlags": ["bearsKnowledge"]
   },
   {
     "id": "spring-onion-mastery",
@@ -85,7 +95,8 @@
     "type": "special-item",
     "effect": "Increases sell price of Spring Onions by 5x",
     "obtainedFrom": "Vincent and Jas' 8-heart event",
-    "image": "images/special-items/Spring Onion Mastery.png"
+    "image": "images/special-items/Spring Onion Mastery.png",
+    "eventFlags": ["3910979"]
   },
   {
     "id": "key-to-the-town",
@@ -93,7 +104,8 @@
     "type": "special-item",
     "effect": "Allows access to all buildings in town at any time",
     "obtainedFrom": "Qi's Walnut Room — 20 Qi Gems",
-    "image": "images/special-items/Key To The Town.png"
+    "image": "images/special-items/Key To The Town.png",
+    "mailFlags": ["HasTownKey"]
   },
   {
     "id": "price-catalogue",

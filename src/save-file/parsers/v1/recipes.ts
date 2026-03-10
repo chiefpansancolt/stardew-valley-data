@@ -1,5 +1,5 @@
-import type { SaveRecipeEntry } from '../types';
-import { extractDictItems, num, str } from './util';
+import type { SaveRecipeEntry } from '../../types';
+import { extractDictItems, num, str } from '../util';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function parseRecipes(data: any): SaveRecipeEntry[] {

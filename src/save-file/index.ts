@@ -1,32 +1,13 @@
 import { XMLParser } from 'fast-xml-parser';
-import { parseAchievements } from './parsers/achievements';
-import { parseAnimals } from './parsers/animals';
-import { parseBuildings } from './parsers/buildings';
-import { parseBundles } from './parsers/bundles';
-import { parseDate } from './parsers/date';
-import { parseEventsSeen } from './parsers/events';
-import { parseChildren, parsePet } from './parsers/family';
-import { parseFishCaught } from './parsers/fish';
-import { parseFriendships } from './parsers/friendships';
-import { parseInventory } from './parsers/inventory';
-import { parseIslandUpgrades } from './parsers/island-upgrades';
-import { parseBooksRead, parseMail, parseSpecialOrders } from './parsers/mail';
-import { parseMineProgress } from './parsers/mine-progress';
-import { parseMonstersKilled } from './parsers/monsters';
-import { parseMuseum } from './parsers/museum';
-import { parsePerfection } from './parsers/perfection';
-import { parsePlayer } from './parsers/player';
-import { parsePowers } from './parsers/powers';
-import { parseProfessions } from './parsers/professions';
-import { parseQuests } from './parsers/quests';
-import { parseRaccoons } from './parsers/raccoons';
-import { parseCookingRecipes, parseCraftingRecipes } from './parsers/recipes';
-import { parseSecretNotes } from './parsers/secret-notes';
-import { parseShipped } from './parsers/shipping';
-import { parseStardrops } from './parsers/stardrops';
-import { parseStats } from './parsers/stats';
-import { parseWalnuts } from './parsers/walnuts';
+import type { ParseContext } from './parser-registry';
+import { getParserSet } from './parser-registry';
+import { parseEventsSeen } from './parsers/v1/events';
+import { parseMail } from './parsers/v1/mail';
 import type { SaveData } from './types';
+import { resolveApiVersion } from './versions';
+
+export { resolveApiVersion, LATEST_API_VERSION } from './versions';
+export type { VersionRange } from './versions';
 
 export type {
   SaveAnimal,
@@ -89,7 +70,8 @@ const parserOptions = {
 
 /**
  * Parse a Stardew Valley XML save file and return structured game data.
- * IDs in the result are normalized to match the IDs used in this package's data files.
+ * The API version is resolved from the game version in the save file,
+ * and the appropriate versioned parser set is used.
  */
 export function parseSaveFile(xml: string): SaveData {
   const parser = new XMLParser(parserOptions);
@@ -103,38 +85,14 @@ export function parseSaveFile(xml: string): SaveData {
   const eventsSeen = parseEventsSeen(player);
   const eventsSet = new Set(eventsSeen);
 
+  const gameVersion = String(root.gameVersion ?? '');
+  const apiVersion = resolveApiVersion(gameVersion);
+
+  const ctx: ParseContext = { root, player, mailArray, mailSet, eventsSeen, eventsSet };
+  const parserSet = getParserSet(apiVersion);
+
   return {
-    player: parsePlayer(player, root),
-    farm: { type: root.whichFarm, name: player.farmName },
-    date: parseDate(player, root),
-    inventory: parseInventory(player.items),
-    fishCaught: parseFishCaught(player.fishCaught),
-    itemsShipped: parseShipped(player.basicShipped),
-    museum: parseMuseum(root, player),
-    friendships: parseFriendships(player.friendshipData),
-    achievements: parseAchievements(player.achievements),
-    activeQuests: parseQuests(player.questLog),
-    stardrops: parseStardrops(player.mailReceived),
-    stats: parseStats(player),
-    animals: parseAnimals(root),
-    buildings: parseBuildings(root),
-    cookingRecipes: parseCookingRecipes(player.cookingRecipes),
-    craftingRecipes: parseCraftingRecipes(player.craftingRecipes),
-    bundles: parseBundles(root, mailSet),
-    monstersKilled: parseMonstersKilled(player),
-    mail: mailArray,
-    specialOrders: parseSpecialOrders(root),
-    professions: parseProfessions(player.professions),
-    booksRead: parseBooksRead(player),
-    eventsSeen,
-    secretNotes: parseSecretNotes(player, mailSet),
-    walnuts: parseWalnuts(root),
-    islandUpgrades: parseIslandUpgrades(mailSet),
-    children: parseChildren(root),
-    pet: parsePet(root),
-    powers: parsePowers(mailSet, eventsSet),
-    raccoons: parseRaccoons(root, mailSet),
-    perfection: parsePerfection(root),
-    mineProgress: parseMineProgress(player, root, mailSet),
+    apiVersion,
+    ...parserSet(ctx),
   };
 }

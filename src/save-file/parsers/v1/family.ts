@@ -1,5 +1,5 @@
-import type { SaveChild, SavePet } from '../types';
-import { ensureArray, num, str } from './util';
+import type { SaveChild, SavePet } from '../../types';
+import { ensureArray, num, str } from '../util';
 
 /** Parse child NPC data from the FarmHouse location in the save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

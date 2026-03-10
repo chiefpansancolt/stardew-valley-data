@@ -14,8 +14,45 @@ const data = parseSaveFile(xml);
 
 data.player.name; // 'Chris'
 data.farm.name; // 'PerfectRun'
+data.apiVersion; // 1
 data.bundles.rooms[0].name; // 'Pantry'
 ```
+
+## API versioning
+
+The parser output includes an `apiVersion` number derived from the game version found in the save
+file. This lets consumers detect which parser generation produced the data and handle any structural
+differences between versions.
+
+```ts
+import { parseSaveFile, resolveApiVersion } from "stardew-valley-data/save-file";
+
+const data = parseSaveFile(xml);
+data.apiVersion; // 1
+
+// Or resolve independently without parsing
+resolveApiVersion("1.6.14"); // 1
+```
+
+| API version | Game versions | Notes                    |
+| ----------- | ------------- | ------------------------ |
+| 1           | 1.0.0+        | Current parser (initial) |
+
+Versioning is **per-parser** — when a new API version is added, only the parsers that changed get
+new implementations. Unchanged parsers inherit from the previous version automatically. The parser
+registry in `parser-registry.ts` defines each version as a function that spreads the previous
+version and overrides only what changed:
+
+```ts
+// Example: v2 only changes bundles, everything else inherits from v1
+const v2: ParserSetFn = (ctx) => ({
+  ...v1(ctx),
+  bundles: parseBundlesV2(ctx.root, ctx.mailSet),
+});
+```
+
+The version mapping in `versions.ts` controls which API version is selected for each game version
+range.
 
 ## How it works
 
@@ -37,6 +74,7 @@ like `(O)` and `(BC)`).
 
 | Field           | Type                   | Description                                      |
 | --------------- | ---------------------- | ------------------------------------------------ |
+| apiVersion      | number                 | Parser API version (derived from game version)   |
 | player          | SavePlayer             | Name, money, skills, mastery, house level        |
 | farm            | SaveFarm               | Farm type and name                               |
 | date            | SaveDate               | Current year, season, day, total days played     |
@@ -114,13 +152,14 @@ like `(O)` and `(BC)`).
 
 ### SaveBundleItem
 
-| Field     | Type    | Description                                  |
-| --------- | ------- | -------------------------------------------- |
-| itemId    | string  | Game item ID (`-1` for gold in Vault)        |
-| name      | string  | Item name (or gold amount for Vault)         |
-| quantity  | number  | Required quantity                            |
-| quality   | number  | Minimum quality (0=Normal, 1=Silver, 2=Gold) |
-| completed | boolean | Whether this slot has been filled            |
+| Field       | Type    | Description                                  |
+| ----------- | ------- | -------------------------------------------- |
+| itemId      | string  | Game item ID (`-1` for gold in Vault)        |
+| name        | string  | Item name (or gold amount for Vault)         |
+| quantity    | number  | Required quantity                            |
+| quality     | number  | Minimum quality (0=Normal, 1=Silver, 2=Gold) |
+| qualityName | string  | Quality display name (Normal, Silver, etc.)  |
+| completed   | boolean | Whether this slot has been filled            |
 
 ### SaveStats
 
@@ -146,7 +185,7 @@ like `(O)` and `(BC)`).
 
 ## Parsers
 
-Each parser in `parsers/` handles one section of the save file:
+Each parser in `parsers/v1/` handles one section of the save file:
 
 | Parser          | Reads from                              | Output                              |
 | --------------- | --------------------------------------- | ----------------------------------- |

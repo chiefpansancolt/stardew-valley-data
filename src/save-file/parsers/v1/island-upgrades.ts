@@ -1,4 +1,4 @@
-import type { SaveIslandUpgrades } from '../types';
+import type { SaveIslandUpgrades } from '../../types';
 
 /** Parse Ginger Island upgrade status using pre-computed mail flags. */
 export function parseIslandUpgrades(mail: Set<string>): SaveIslandUpgrades {

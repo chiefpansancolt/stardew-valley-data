@@ -2,6 +2,7 @@ import type { Season } from '@/types';
 
 /** Top-level parsed save file containing all extracted game data. */
 export interface SaveData {
+  apiVersion: number;
   player: SavePlayer;
   farm: SaveFarm;
   date: SaveDate;
@@ -172,6 +173,7 @@ export interface SaveQuest {
 /** A stardrop source and whether it has been collected. */
 export interface SaveStardropEntry {
   id: string;
+  name: string;
   collected: boolean;
 }
 
@@ -215,6 +217,7 @@ export interface SaveBundleItem {
   name: string;
   quantity: number;
   quality: number;
+  qualityName: string;
   completed: boolean;
 }
 

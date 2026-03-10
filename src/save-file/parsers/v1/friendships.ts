@@ -1,5 +1,5 @@
-import type { SaveFriendship } from '../types';
-import { extractDictItems, num, str } from './util';
+import type { SaveFriendship } from '../../types';
+import { extractDictItems, num, str } from '../util';
 
 /** Parse the friendship dictionary from the player node into sorted friendship entries with hearts. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

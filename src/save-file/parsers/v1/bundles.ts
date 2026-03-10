@@ -4,8 +4,9 @@ import type {
   SaveBundleReward,
   SaveBundleRoom,
   SaveBundleStatus,
-} from '../types';
-import { ensureArray, extractDictItems, num } from './util';
+} from '../../types';
+import { resolveItemName, resolveRewardName } from '../item-names';
+import { ensureArray, extractDictItems, num } from '../util';
 
 const JOJA_MAIL_FLAGS = [
   'jojaBoilerRoom',
@@ -37,6 +38,7 @@ const ROOM_KEY_TO_AREA: Record<string, number> = {
   'Abandoned Joja Mart': 6,
 };
 
+/** Quality number → display name. */
 const QUALITY_NAMES: Record<number, string> = {
   0: 'Normal',
   1: 'Silver',
@@ -53,190 +55,6 @@ const REWARD_TYPES: Record<string, string> = {
   C: 'Clothing',
   R: 'Ring',
 };
-
-/**
- * Build a name lookup from Objects.json and BigCraftables.json data embedded
- * in the game. Since we don't bundle those files, we build a hardcoded map
- * for the items that appear in bundle definitions.
- */
-const ITEM_NAMES: Record<string, string> = {
-  // Pantry - Spring Crops
-  '24': 'Parsnip',
-  '188': 'Green Bean',
-  '190': 'Cauliflower',
-  '192': 'Potato',
-  // Pantry - Summer Crops
-  '256': 'Tomato',
-  '258': 'Blueberry',
-  '260': 'Hot Pepper',
-  '254': 'Melon',
-  // Pantry - Fall Crops
-  '270': 'Corn',
-  '272': 'Eggplant',
-  '276': 'Pumpkin',
-  '280': 'Yam',
-  // Pantry - Animal Bundle
-  '186': 'Large Milk',
-  '182': 'Large Egg (Brown)',
-  '174': 'Large Egg',
-  '438': 'Large Goat Milk',
-  '440': 'Wool',
-  '442': 'Duck Egg',
-  // Pantry - Artisan Bundle
-  '432': 'Truffle Oil',
-  '428': 'Cloth',
-  '426': 'Goat Cheese',
-  '424': 'Cheese',
-  '340': 'Honey',
-  '344': 'Jelly',
-  '613': 'Apple',
-  '634': 'Apricot',
-  '635': 'Orange',
-  '636': 'Peach',
-  '637': 'Pomegranate',
-  '638': 'Cherry',
-  // Crafts Room - Foraging
-  '16': 'Wild Horseradish',
-  '18': 'Daffodil',
-  '20': 'Leek',
-  '22': 'Dandelion',
-  '396': 'Spice Berry',
-  '398': 'Grape',
-  '402': 'Sweet Pea',
-  '404': 'Common Mushroom',
-  '406': 'Wild Plum',
-  '408': 'Hazelnut',
-  '410': 'Blackberry',
-  '412': 'Winter Root',
-  '414': 'Crystal Fruit',
-  '416': 'Snow Yam',
-  '418': 'Crocus',
-  // Crafts Room - Construction
-  '388': 'Wood',
-  '390': 'Stone',
-  '709': 'Hardwood',
-  // Crafts Room - Exotic Foraging
-  '88': 'Coconut',
-  '90': 'Cactus Fruit',
-  '78': 'Cave Carrot',
-  '420': 'Red Mushroom',
-  '422': 'Purple Mushroom',
-  '724': 'Maple Syrup',
-  '725': 'Oak Resin',
-  '726': 'Pine Tar',
-  '257': 'Morel',
-  // Fish Tank
-  '145': 'Sunfish',
-  '143': 'Catfish',
-  '706': 'Shad',
-  '699': 'Tiger Trout',
-  '136': 'Largemouth Bass',
-  '142': 'Carp',
-  '700': 'Bullhead',
-  '698': 'Sturgeon',
-  '131': 'Sardine',
-  '130': 'Tuna',
-  '150': 'Red Snapper',
-  '701': 'Tilapia',
-  '140': 'Walleye',
-  '132': 'Bream',
-  '148': 'Eel',
-  '128': 'Pufferfish',
-  '156': 'Ghostfish',
-  '164': 'Sandfish',
-  '734': 'Woodskip',
-  // Fish Tank - Crab Pot
-  '715': 'Lobster',
-  '716': 'Crayfish',
-  '717': 'Crab',
-  '718': 'Cockle',
-  '719': 'Mussel',
-  '720': 'Shrimp',
-  '721': 'Snail',
-  '722': 'Periwinkle',
-  '723': 'Oyster',
-  '372': 'Clam',
-  // Boiler Room
-  '334': 'Copper Bar',
-  '335': 'Iron Bar',
-  '336': 'Gold Bar',
-  '80': 'Quartz',
-  '86': 'Earth Crystal',
-  '84': 'Frozen Tear',
-  '82': 'Fire Quartz',
-  '766': 'Slime',
-  '767': 'Bat Wing',
-  '768': 'Solar Essence',
-  '769': 'Void Essence',
-  // Bulletin Board
-  '259': 'Fiddlehead Fern',
-  '430': 'Truffle',
-  '376': 'Poppy',
-  '228': 'Maki Roll',
-  '194': 'Fried Egg',
-  '392': 'Nautilus Shell',
-  '702': 'Chub',
-  '536': 'Nautilus Fossil',
-  '348': 'Wine',
-  '446': "Rabbit's Foot",
-  '397': 'Sea Urchin',
-  '421': 'Sunflower',
-  '444': 'Duck Feather',
-  '62': 'Aquamarine',
-  '266': 'Red Cabbage',
-  '262': 'Wheat',
-  '178': 'Hay',
-  // Abandoned Joja Mart - The Missing Bundle
-  '807': 'Dinosaur Mayonnaise',
-  '74': 'Prismatic Shard',
-  '454': 'Ancient Fruit',
-  '795': 'Void Salmon',
-  '445': 'Caviar',
-  // Rewards
-  '465': 'Speed-Gro',
-  '621': 'Quality Sprinkler',
-  '495': 'Spring Seeds',
-  '496': 'Summer Seeds',
-  '497': 'Fall Seeds',
-  '498': 'Winter Seeds',
-  '235': "Autumn's Bounty",
-  '687': 'Dressed Spinner',
-  '690': 'Warp Totem: Beach',
-  '517': 'Glow Ring',
-  '518': 'Warrior Ring',
-  '242': "Dish O' The Sea",
-  '710': 'Crab Pot',
-  '749': 'Omni Geode',
-  '220': 'Chocolate Cake',
-  '369': 'Quality Fertilizer',
-  '221': 'Pink Cake',
-  DeluxeBait: 'Deluxe Bait',
-};
-
-/** BigCraftable name lookup for reward items. */
-const BIG_CRAFTABLE_NAMES: Record<string, string> = {
-  '9': 'Lightning Rod',
-  '10': 'Bee House',
-  '12': 'Keg',
-  '13': 'Furnace',
-  '15': 'Preserves Jar',
-  '16': 'Cheese Press',
-  '20': 'Recycling Machine',
-  '21': 'Crystalarium',
-  '25': 'Seed Maker',
-  '104': 'Heater',
-  '114': 'Charcoal Kiln',
-};
-
-function resolveItemName(itemId: string): string {
-  return ITEM_NAMES[itemId] ?? `Item ${itemId}`;
-}
-
-function resolveRewardName(type: string, itemId: string): string {
-  if (type === 'BO') return BIG_CRAFTABLE_NAMES[itemId] ?? `BigCraftable ${itemId}`;
-  if (type === 'R') return ITEM_NAMES[itemId] ?? `Ring ${itemId}`;
-  return ITEM_NAMES[itemId] ?? `Item ${itemId}`;
-}
 
 interface ParsedBundleDef {
   bundleIndex: number;
@@ -288,12 +106,7 @@ function parseBundleDef(key: string, value: string): ParsedBundleDef {
     const itemId = itemTokens[i];
     const quantity = parseInt(itemTokens[i + 1], 10);
     const quality = parseInt(itemTokens[i + 2], 10);
-    // Vault bundles use -1 as itemId (gold payment)
-    if (itemId === '-1') {
-      items.push({ itemId: '-1', quantity, quality });
-    } else {
-      items.push({ itemId, quantity, quality });
-    }
+    items.push({ itemId, quantity, quality });
   }
 
   // Items required (field index 4) — how many of the listed items must be donated
@@ -363,6 +176,7 @@ export function parseBundles(root: any, mail: Set<string>): SaveBundleData {
         name: isGold ? `${reqItem.quantity.toLocaleString()}g` : resolveItemName(reqItem.itemId),
         quantity: reqItem.quantity,
         quality: reqItem.quality,
+        qualityName: QUALITY_NAMES[reqItem.quality] ?? `Quality ${reqItem.quality}`,
         completed: slots[i] === true,
       };
     });

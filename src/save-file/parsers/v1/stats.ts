@@ -1,5 +1,5 @@
-import type { SaveStats } from '../types';
-import { ensureArray, num } from './util';
+import type { SaveStats } from '../../types';
+import { ensureArray, num } from '../util';
 
 /** Parse lifetime gameplay statistics from the player node. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

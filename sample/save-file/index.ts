@@ -28,6 +28,14 @@ export function run() {
   const xml = fs.readFileSync(savePath, 'utf-8');
   const data = parseSaveFile(xml);
 
+  // Version
+  check(
+    'API version',
+    `v${data.apiVersion} (game ${data.player.gameVersion})`,
+    data.apiVersion > 0,
+    counters,
+  );
+
   // Player
   console.log(`  Player: ${data.player.name} on ${data.farm.name} Farm`);
   console.log(`  Date: ${data.date.season} ${data.date.day}, Year ${data.date.year}`);

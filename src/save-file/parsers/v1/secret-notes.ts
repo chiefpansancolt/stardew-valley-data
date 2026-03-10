@@ -1,5 +1,5 @@
-import type { SaveSecretNotes } from '../types';
-import { ensureArray, num } from './util';
+import type { SaveSecretNotes } from '../../types';
+import { ensureArray, num } from '../util';
 
 /** Parse secret notes and journal scraps found from the player node and pre-computed mail flags. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

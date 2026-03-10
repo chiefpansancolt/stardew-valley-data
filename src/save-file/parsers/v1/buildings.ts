@@ -1,5 +1,5 @@
-import type { SaveBuilding } from '../types';
-import { ensureArray, num, str } from './util';
+import type { SaveBuilding } from '../../types';
+import { ensureArray, num, str } from '../util';
 
 /** Parse all farm buildings and their positions from the save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

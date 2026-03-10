@@ -1,5 +1,5 @@
-import type { SaveShippedEntry } from '../types';
-import { extractDictItems, normalizeItemId, num, str } from './util';
+import type { SaveShippedEntry } from '../../types';
+import { extractDictItems, normalizeItemId, num, str } from '../util';
 
 /** Parse the player's item shipping log with item IDs and total counts shipped. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

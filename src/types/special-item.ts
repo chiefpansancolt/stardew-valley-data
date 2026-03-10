@@ -10,4 +10,6 @@ export interface SpecialItem {
   obtainedFrom: string;
   image: string;
   skill?: MasterySkill;
+  mailFlags?: string[];
+  eventFlags?: string[];
 }
