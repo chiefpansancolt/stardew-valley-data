@@ -43,6 +43,7 @@ function parseFoundItems(data: unknown): SaveCollectionEntry[] {
   return result;
 }
 
+/** Parse museum donations, artifacts found, and minerals found from the save file root and player node. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseMuseum(root: any, player: any): SaveMuseum {
   return {

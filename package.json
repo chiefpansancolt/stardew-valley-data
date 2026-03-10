@@ -51,5 +51,8 @@
     "dist",
     "data",
     "images"
-  ]
+  ],
+  "dependencies": {
+    "fast-xml-parser": "^5.4.2"
+  }
 }

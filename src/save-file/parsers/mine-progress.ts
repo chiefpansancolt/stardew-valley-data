@@ -1,6 +1,7 @@
 import type { SaveMineProgress } from '../types';
 import { num } from './util';
 
+/** Parse mine and Skull Cavern progress from the player node, save file root, and mail flags. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseMineProgress(player: any, root: any, mail: Set<string>): SaveMineProgress {
   const deepest = num(player.deepestMineLevel);

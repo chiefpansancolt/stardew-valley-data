@@ -29,6 +29,7 @@ const SPECIAL_ITEMS: Array<{
   { id: 'junimoKart', name: 'Junimo Kart Victory', check: (m) => m.has('JunimoKart') },
 ];
 
+/** Parse special item acquisition status using pre-computed mail flags and events. */
 export function parsePowers(mail: Set<string>, events: Set<string>): SavePowers {
   const specialItems: SavePowerEntry[] = SPECIAL_ITEMS.map(({ id, name, check }) => ({
     id,

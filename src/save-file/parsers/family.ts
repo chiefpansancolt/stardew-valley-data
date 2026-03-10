@@ -1,6 +1,7 @@
 import type { SaveChild, SavePet } from '../types';
 import { ensureArray, num, str } from './util';
 
+/** Parse child NPC data from the FarmHouse location in the save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseChildren(root: any): SaveChild[] {
   const result: SaveChild[] = [];
@@ -29,6 +30,7 @@ export function parseChildren(root: any): SaveChild[] {
   return result;
 }
 
+/** Find and parse the player's pet from Farm or FarmHouse locations in the save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parsePet(root: any): SavePet | null {
   const locations = ensureArray(root.locations?.GameLocation);

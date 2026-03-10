@@ -18,11 +18,13 @@ function parseRecipes(data: any): SaveRecipeEntry[] {
   return result;
 }
 
+/** Parse known cooking recipes and how many times each has been made from the player node. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseCookingRecipes(data: any): SaveRecipeEntry[] {
   return parseRecipes(data);
 }
 
+/** Parse known crafting recipes and how many times each has been crafted from the player node. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseCraftingRecipes(data: any): SaveRecipeEntry[] {
   return parseRecipes(data);

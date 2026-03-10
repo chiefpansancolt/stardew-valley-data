@@ -1,6 +1,7 @@
 import type { SaveQuest } from '../types';
 import { ensureArray, num, str } from './util';
 
+/** Parse active quests from the player's quest log. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseQuests(questLog: any): SaveQuest[] {
   const result: SaveQuest[] = [];

@@ -11,6 +11,7 @@ const STARDROP_FLAGS: Record<string, string> = {
   museumComplete: 'Museum',
 };
 
+/** Parse stardrop collection status by checking mail flags for each stardrop source. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseStardrops(mailReceived: any): SaveStardropEntry[] {
   const mail = new Set(ensureArray(mailReceived?.string).map((m) => str(m)));

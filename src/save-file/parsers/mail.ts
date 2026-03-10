@@ -15,6 +15,7 @@ const QI_ORDER_IDS = new Set([
   'QiChallenge12',
 ]);
 
+/** Parse the list of received mail flags from the player's mailReceived node. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseMail(mailReceived: any): string[] {
   return ensureArray(mailReceived?.string)
@@ -22,6 +23,7 @@ export function parseMail(mailReceived: any): string[] {
     .filter(Boolean);
 }
 
+/** Parse completed special orders from the save file root, split into town and Qi categories. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseSpecialOrders(root: any): SaveSpecialOrders {
   const completed = ensureArray(root.completedSpecialOrders?.string)
@@ -34,6 +36,7 @@ export function parseSpecialOrders(root: any): SaveSpecialOrders {
   return { completed, townCompleted, qiCompleted };
 }
 
+/** Extract the list of books read from the player node's stats. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseBooksRead(player: any): string[] {
   const books: string[] = [];

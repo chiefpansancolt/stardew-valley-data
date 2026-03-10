@@ -311,6 +311,7 @@ function parseBundleDef(key: string, value: string): ParsedBundleDef {
   };
 }
 
+/** Parse Community Center bundle definitions, completion status, and room summaries from the save file root and pre-computed mail flags. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseBundles(root: any, mail: Set<string>): SaveBundleData {
   // Step 1: Parse bundle definitions from bundleData (root-level)

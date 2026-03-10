@@ -61,6 +61,7 @@ function parseMastery(stats: Record<string, unknown>): SaveMastery {
   };
 }
 
+/** Parse core player info, skills, and mastery data from the player node and save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parsePlayer(player: any, root: any): SavePlayer {
   return {

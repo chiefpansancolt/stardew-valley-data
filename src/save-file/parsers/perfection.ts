@@ -3,6 +3,7 @@ import { ensureArray, num, str } from './util';
 
 const OBELISK_TYPES = ['Earth Obelisk', 'Water Obelisk', 'Desert Obelisk', 'Island Obelisk'];
 
+/** Parse perfection tracker data from the save file root, including Gold Clock and obelisk status. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parsePerfection(root: any): SavePerfection {
   const locations = ensureArray(root.locations?.GameLocation);

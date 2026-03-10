@@ -1,6 +1,7 @@
 import type { SaveFishEntry } from '../types';
 import { ensureArray, extractDictItems, normalizeItemId, num, str } from './util';
 
+/** Parse the fish-caught dictionary from the player node into catch counts and largest sizes. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseFishCaught(fishCaught: any): SaveFishEntry[] {
   const result: SaveFishEntry[] = [];

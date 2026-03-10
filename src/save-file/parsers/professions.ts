@@ -39,6 +39,7 @@ const PROFESSION_NAMES: Record<number, string> = {
   29: 'Desperado',
 };
 
+/** Parse the player's unlocked professions from the professions node into named entries. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseProfessions(professions: any): SaveProfession[] {
   return ensureArray(professions?.int).map((raw) => {

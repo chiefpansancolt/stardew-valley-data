@@ -18,6 +18,7 @@ function getStatDaysPlayed(player: Record<string, unknown>): number {
   return 0;
 }
 
+/** Extract the current in-game date (year, season, day, total days played) from the player node and save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseDate(player: any, root: any): SaveDate {
   return {

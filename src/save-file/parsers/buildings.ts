@@ -1,6 +1,7 @@
 import type { SaveBuilding } from '../types';
 import { ensureArray, num, str } from './util';
 
+/** Parse all farm buildings and their positions from the save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parseBuildings(root: any): SaveBuilding[] {
   const result: SaveBuilding[] = [];
