@@ -1,4 +1,4 @@
-import { FootwearQuery, footwear } from '@/modules/footwear';
+import { footwear, FootwearQuery } from '@/modules/footwear';
 import { testQueryBaseContract } from '../helpers';
 
 describe('branch coverage', () => {

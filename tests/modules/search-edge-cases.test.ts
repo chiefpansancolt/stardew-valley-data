@@ -1,3 +1,5 @@
+import { search } from '@/modules/search';
+
 /**
  * Edge-case tests for search() defensive branches that can't be hit with real data.
  * Uses jest.mock to simulate missing monster references and tool images.
@@ -65,8 +67,6 @@ jest.mock('@/modules/tools', () => {
     }),
   };
 });
-
-import { search } from '@/modules/search';
 
 describe('search() defensive branch coverage', () => {
   it('includes parent when monster IS found by droppedBy ID', () => {

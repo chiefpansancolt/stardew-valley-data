@@ -69,7 +69,8 @@ export function run(): { passed: number; failed: number } {
     console.log(`  ${l.name}`);
   }
 
-  console.log(`\nImages: ${passed} OK, ${failed} missing`);
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${passed} OK, ${failed} missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }

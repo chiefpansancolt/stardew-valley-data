@@ -21,7 +21,8 @@ export function run(): { passed: number; failed: number } {
   }
 
   // No images to validate for professions
-  console.log(`\nImages: ${passed} OK, ${failed} missing (no images for this module)`);
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${passed} OK, ${failed} missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }

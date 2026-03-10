@@ -54,7 +54,8 @@ export function run(): { passed: number; failed: number } {
   console.log(`Purchasable: ${animals().farmAnimals().purchasable().count()}`);
   console.log(`Tool harvest: ${animals().byHarvestMethod('tool').count()}`);
 
-  console.log(`\nImages: ${passed} OK, ${failed} missing`);
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${passed} OK, ${failed} missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }

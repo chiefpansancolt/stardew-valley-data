@@ -55,7 +55,8 @@ export function run(): { passed: number; failed: number } {
   const formula = artisanGoods().formulaPrice().get();
   console.log(`  ${formula.map((g) => g.name).join(', ')} (${formula.length} total)`);
 
-  console.log(`\nImages: ${passed} OK, ${failed} missing`);
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${passed} OK, ${failed} missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }

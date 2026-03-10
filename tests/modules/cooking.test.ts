@@ -55,7 +55,9 @@ describe('branch coverage', () => {
     ];
     const sorted = new CookingQuery(withUndef as any).sortByEnergy('asc').get();
     expect(sorted.length).toBe(3);
-    expect(sorted[0].energyHealth.energy ?? 0).toBeLessThanOrEqual(sorted[2].energyHealth.energy ?? 0);
+    expect(sorted[0].energyHealth.energy ?? 0).toBeLessThanOrEqual(
+      sorted[2].energyHealth.energy ?? 0,
+    );
   });
 });
 

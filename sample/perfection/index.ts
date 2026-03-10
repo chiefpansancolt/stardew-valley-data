@@ -13,7 +13,8 @@ export function run(): { passed: number; failed: number } {
     );
   }
 
+  console.log('\n--- Image validation ---');
+  console.log(`Images: 0 OK, 0 missing`);
   console.log('\n' + '─'.repeat(60));
-  // Perfection categories have no images to validate
   return { passed: 0, failed: 0 };
 }

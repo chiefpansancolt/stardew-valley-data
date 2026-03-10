@@ -42,6 +42,7 @@ export function run(): { passed: number; failed: number } {
     else failed++;
   }
 
-  console.log('─'.repeat(60));
+  console.log(`Images: ${passed} OK, ${failed} missing`);
+  console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }

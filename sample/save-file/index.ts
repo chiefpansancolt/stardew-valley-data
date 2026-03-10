@@ -214,6 +214,8 @@ export function run() {
     counters,
   );
 
-  console.log('─'.repeat(60));
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${counters.passed} OK, ${counters.failed} missing`);
+  console.log('\n' + '─'.repeat(60));
   return counters;
 }

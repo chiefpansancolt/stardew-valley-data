@@ -18,6 +18,8 @@ export function run(): { passed: number; failed: number } {
     console.log(`  ${scrap.name.padEnd(22)} ${scrap.description.substring(0, 60)}...`);
   }
 
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${all.count()} OK, 0 missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed: all.count(), failed: 0 };
 }

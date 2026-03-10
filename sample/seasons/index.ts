@@ -42,7 +42,8 @@ export function run(): { passed: number; failed: number } {
     `  findFestival("market"): ${market.map((r) => `${r.festival.name} (${r.season.name})`).join(', ')}`,
   );
 
-  console.log(`\nImages: ${passed} OK, ${failed} missing`);
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${passed} OK, ${failed} missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }

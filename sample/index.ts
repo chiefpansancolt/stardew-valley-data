@@ -8,6 +8,7 @@ import { run as runBookseller } from './bookseller-shop';
 import { run as runBuildings } from './buildings';
 import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
+import { captureRun, ensureOutputDir, writeSummary } from './capture';
 import { run as runCarpenter } from './carpenter-shop';
 import { run as runCasino } from './casino-shop';
 import { run as runCollections } from './collections';
@@ -68,82 +69,129 @@ import { run as runWeather } from './weather';
 import { run as runWilly } from './willy-shop';
 import { run as runWizard } from './wizard-shop';
 
+ensureOutputDir();
+
 const results = [
-  runAchievements(),
-  runAnimals(),
-  runBundles(),
-  runQuests(),
-  runArtisanGoods(),
-  runCalculator(),
-  runCrops(),
-  runTrees(),
-  runMixedSeeds(),
-  runMaps(),
-  runSearch(),
-  runSkills(),
-  runWeather(),
-  runSeasons(),
-  runMonsters(),
-  runMonsterSlayerGoals(),
-  runRings(),
-  runTools(),
-  runWeapons(),
-  runWeaponStats(),
-  runHats(),
-  runFootwear(),
-  runFish(),
-  runBait(),
-  runTackle(),
-  runCooking(),
-  runForageables(),
-  runUniversalGifts(),
-  runVillagers(),
-  runArtifacts(),
-  runCollections(),
-  runCrafting(),
-  runMinerals(),
-  runPerfection(),
-  runQiShop(),
-  runMedicalSupplies(),
-  runBlacksmith(),
-  runJoja(),
-  runPierre(),
-  runSaloon(),
-  runKrobus(),
-  runMarnie(),
-  runWizard(),
-  runWilly(),
-  runGuild(),
-  runCarpenter(),
-  runCasino(),
-  runDesertTrader(),
-  runOasis(),
-  runVolcanoShop(),
-  runIslandTrader(),
-  runFieldOffice(),
-  runGrandpa(),
-  runDwarfShop(),
-  runLocations(),
-  runSpecialItems(),
-  runBookseller(),
-  runConcessions(),
-  runFarmhouse(),
-  runSecretNotes(),
-  runLostBooks(),
-  runTrinkets(),
-  runStarDrops(),
-  runGoldenWalnuts(),
-  runProfessions(),
-  runSpecialOrders(),
-  runEvents(),
-  runBuildings(),
-  runSaveFile(),
+  { name: 'achievements', ...captureRun('achievements', runAchievements) },
+  { name: 'animals', ...captureRun('animals', runAnimals) },
+  { name: 'bundles', ...captureRun('bundles', runBundles) },
+  { name: 'quests', ...captureRun('quests', runQuests) },
+  { name: 'artisan-goods', ...captureRun('artisan-goods', runArtisanGoods) },
+  { name: 'calculator', ...captureRun('calculator', runCalculator) },
+  { name: 'crops', ...captureRun('crops', runCrops) },
+  { name: 'trees', ...captureRun('trees', runTrees) },
+  { name: 'mixed-seeds', ...captureRun('mixed-seeds', runMixedSeeds) },
+  { name: 'maps', ...captureRun('maps', runMaps) },
+  { name: 'search', ...captureRun('search', runSearch) },
+  { name: 'skills', ...captureRun('skills', runSkills) },
+  { name: 'weather', ...captureRun('weather', runWeather) },
+  { name: 'seasons', ...captureRun('seasons', runSeasons) },
+  { name: 'monsters', ...captureRun('monsters', runMonsters) },
+  {
+    name: 'monster-slayer-goals',
+    ...captureRun('monster-slayer-goals', runMonsterSlayerGoals),
+  },
+  { name: 'rings', ...captureRun('rings', runRings) },
+  { name: 'tools', ...captureRun('tools', runTools) },
+  { name: 'weapons', ...captureRun('weapons', runWeapons) },
+  { name: 'weapon-stats', ...captureRun('weapon-stats', runWeaponStats) },
+  { name: 'hats', ...captureRun('hats', runHats) },
+  { name: 'footwear', ...captureRun('footwear', runFootwear) },
+  { name: 'fish', ...captureRun('fish', runFish) },
+  { name: 'bait', ...captureRun('bait', runBait) },
+  { name: 'tackle', ...captureRun('tackle', runTackle) },
+  { name: 'cooking', ...captureRun('cooking', runCooking) },
+  { name: 'forageables', ...captureRun('forageables', runForageables) },
+  {
+    name: 'universal-gifts',
+    ...captureRun('universal-gifts', runUniversalGifts),
+  },
+  { name: 'villagers', ...captureRun('villagers', runVillagers) },
+  { name: 'artifacts', ...captureRun('artifacts', runArtifacts) },
+  { name: 'collections', ...captureRun('collections', runCollections) },
+  { name: 'crafting', ...captureRun('crafting', runCrafting) },
+  { name: 'minerals', ...captureRun('minerals', runMinerals) },
+  { name: 'perfection', ...captureRun('perfection', runPerfection) },
+  { name: 'qi-shop', ...captureRun('qi-shop', runQiShop) },
+  {
+    name: 'medical-supplies-shop',
+    ...captureRun('medical-supplies-shop', runMedicalSupplies),
+  },
+  {
+    name: 'blacksmith-shop',
+    ...captureRun('blacksmith-shop', runBlacksmith),
+  },
+  { name: 'joja-shop', ...captureRun('joja-shop', runJoja) },
+  { name: 'pierre-shop', ...captureRun('pierre-shop', runPierre) },
+  { name: 'saloon-shop', ...captureRun('saloon-shop', runSaloon) },
+  { name: 'krobus-shop', ...captureRun('krobus-shop', runKrobus) },
+  { name: 'marnie-shop', ...captureRun('marnie-shop', runMarnie) },
+  { name: 'wizard-shop', ...captureRun('wizard-shop', runWizard) },
+  { name: 'willy-shop', ...captureRun('willy-shop', runWilly) },
+  { name: 'guild-shop', ...captureRun('guild-shop', runGuild) },
+  {
+    name: 'carpenter-shop',
+    ...captureRun('carpenter-shop', runCarpenter),
+  },
+  { name: 'casino-shop', ...captureRun('casino-shop', runCasino) },
+  {
+    name: 'desert-trader-shop',
+    ...captureRun('desert-trader-shop', runDesertTrader),
+  },
+  { name: 'oasis-shop', ...captureRun('oasis-shop', runOasis) },
+  {
+    name: 'volcano-shop',
+    ...captureRun('volcano-shop', runVolcanoShop),
+  },
+  {
+    name: 'island-trader-shop',
+    ...captureRun('island-trader-shop', runIslandTrader),
+  },
+  {
+    name: 'field-office',
+    ...captureRun('field-office', runFieldOffice),
+  },
+  { name: 'grandpa', ...captureRun('grandpa', runGrandpa) },
+  { name: 'dwarf-shop', ...captureRun('dwarf-shop', runDwarfShop) },
+  { name: 'locations', ...captureRun('locations', runLocations) },
+  {
+    name: 'special-items',
+    ...captureRun('special-items', runSpecialItems),
+  },
+  {
+    name: 'bookseller-shop',
+    ...captureRun('bookseller-shop', runBookseller),
+  },
+  { name: 'concessions', ...captureRun('concessions', runConcessions) },
+  { name: 'farmhouse', ...captureRun('farmhouse', runFarmhouse) },
+  {
+    name: 'secret-notes',
+    ...captureRun('secret-notes', runSecretNotes),
+  },
+  { name: 'lost-books', ...captureRun('lost-books', runLostBooks) },
+  { name: 'trinkets', ...captureRun('trinkets', runTrinkets) },
+  { name: 'stardrops', ...captureRun('stardrops', runStarDrops) },
+  {
+    name: 'golden-walnuts',
+    ...captureRun('golden-walnuts', runGoldenWalnuts),
+  },
+  { name: 'professions', ...captureRun('professions', runProfessions) },
+  {
+    name: 'special-orders',
+    ...captureRun('special-orders', runSpecialOrders),
+  },
+  { name: 'events', ...captureRun('events', runEvents) },
+  { name: 'buildings', ...captureRun('buildings', runBuildings) },
+  { name: 'save-file', ...captureRun('save-file', runSaveFile) },
 ];
+
+writeSummary(results);
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);
 const totalFailed = results.reduce((sum, r) => sum + r.failed, 0);
 
 console.log('\n=== SUMMARY ===');
 console.log(`${totalPassed} images OK, ${totalFailed} missing`);
+console.log(`\nDetailed output written to sample/output/`);
 
 if (totalFailed > 0) process.exit(1);

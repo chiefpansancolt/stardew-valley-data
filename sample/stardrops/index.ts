@@ -27,7 +27,8 @@ export function run(): { passed: number; failed: number } {
     console.log(`  [${drop.source.padEnd(11)}] ${drop.id.padEnd(15)} ${drop.name}`);
   }
 
-  console.log(`\nImages: ${passed} OK, ${failed} missing`);
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${passed} OK, ${failed} missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }

@@ -33,6 +33,8 @@ export function run(): { passed: number; failed: number } {
   checkAndPrint('Always available', q.permanent().sortByPrice().get());
   checkAndPrint('Daily rotating', q.daily().get());
 
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${passed} OK, ${failed} missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }

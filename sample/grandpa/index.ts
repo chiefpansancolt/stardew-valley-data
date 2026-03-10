@@ -71,7 +71,8 @@ export function run(): { passed: number; failed: number } {
     rustyKeyObtained: false,
   });
 
+  console.log('\n--- Image validation ---');
+  console.log(`Images: 0 OK, 0 missing`);
   console.log('\n' + '─'.repeat(60));
-  // No images to validate
   return { passed: 0, failed: 0 };
 }

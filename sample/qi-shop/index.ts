@@ -38,6 +38,8 @@ export function run(): { passed: number; failed: number } {
     console.log(`    ${item.name.padEnd(30)} ${item.cost} Golden Walnut → ×${item.quantity}`);
   }
 
+  console.log('\n--- Image validation ---');
+  console.log(`Images: ${passed} OK, ${failed} missing`);
   console.log('\n' + '─'.repeat(60));
   return { passed, failed };
 }
