@@ -1,0 +1,242 @@
+[
+  {
+    "id": "0",
+    "name": "Rancher",
+    "skill": "Farming",
+    "level": 5,
+    "parentProfession": null,
+    "description": "Animal products worth 20% more."
+  },
+  {
+    "id": "1",
+    "name": "Tiller",
+    "skill": "Farming",
+    "level": 5,
+    "parentProfession": null,
+    "description": "Crops worth 10% more."
+  },
+  {
+    "id": "2",
+    "name": "Coopmaster",
+    "skill": "Farming",
+    "level": 10,
+    "parentProfession": "0",
+    "description": "Befriend coop animals quicker. Incubation time cut in half."
+  },
+  {
+    "id": "3",
+    "name": "Shepherd",
+    "skill": "Farming",
+    "level": 10,
+    "parentProfession": "0",
+    "description": "Befriend barn animals quicker. Sheep produce wool faster."
+  },
+  {
+    "id": "4",
+    "name": "Artisan",
+    "skill": "Farming",
+    "level": 10,
+    "parentProfession": "1",
+    "description": "Artisan goods worth 40% more."
+  },
+  {
+    "id": "5",
+    "name": "Agriculturist",
+    "skill": "Farming",
+    "level": 10,
+    "parentProfession": "1",
+    "description": "All crops grow 10% faster."
+  },
+  {
+    "id": "6",
+    "name": "Fisher",
+    "skill": "Fishing",
+    "level": 5,
+    "parentProfession": null,
+    "description": "Fish worth 25% more."
+  },
+  {
+    "id": "7",
+    "name": "Trapper",
+    "skill": "Fishing",
+    "level": 5,
+    "parentProfession": null,
+    "description": "Resources required to craft crab pots reduced."
+  },
+  {
+    "id": "8",
+    "name": "Angler",
+    "skill": "Fishing",
+    "level": 10,
+    "parentProfession": "6",
+    "description": "Fish worth 50% more."
+  },
+  {
+    "id": "9",
+    "name": "Pirate",
+    "skill": "Fishing",
+    "level": 10,
+    "parentProfession": "6",
+    "description": "Chance to find treasure doubled."
+  },
+  {
+    "id": "10",
+    "name": "Mariner",
+    "skill": "Fishing",
+    "level": 10,
+    "parentProfession": "7",
+    "description": "Crab pots no longer produce junk items."
+  },
+  {
+    "id": "11",
+    "name": "Luremaster",
+    "skill": "Fishing",
+    "level": 10,
+    "parentProfession": "7",
+    "description": "Crab pots no longer require bait."
+  },
+  {
+    "id": "12",
+    "name": "Forester",
+    "skill": "Foraging",
+    "level": 5,
+    "parentProfession": null,
+    "description": "Gain 25% more wood when chopping."
+  },
+  {
+    "id": "13",
+    "name": "Gatherer",
+    "skill": "Foraging",
+    "level": 5,
+    "parentProfession": null,
+    "description": "Chance for double harvest of foraged items."
+  },
+  {
+    "id": "14",
+    "name": "Lumberjack",
+    "skill": "Foraging",
+    "level": 10,
+    "parentProfession": "12",
+    "description": "All trees have a chance to drop hardwood."
+  },
+  {
+    "id": "15",
+    "name": "Tapper",
+    "skill": "Foraging",
+    "level": 10,
+    "parentProfession": "12",
+    "description": "Syrups worth 25% more."
+  },
+  {
+    "id": "16",
+    "name": "Botanist",
+    "skill": "Foraging",
+    "level": 10,
+    "parentProfession": "13",
+    "description": "Foraged items are always highest quality."
+  },
+  {
+    "id": "17",
+    "name": "Tracker",
+    "skill": "Foraging",
+    "level": 10,
+    "parentProfession": "13",
+    "description": "Location of forageable items revealed."
+  },
+  {
+    "id": "18",
+    "name": "Miner",
+    "skill": "Mining",
+    "level": 5,
+    "parentProfession": null,
+    "description": "+1 ore per vein."
+  },
+  {
+    "id": "19",
+    "name": "Geologist",
+    "skill": "Mining",
+    "level": 5,
+    "parentProfession": null,
+    "description": "Chance for gems to appear in pairs."
+  },
+  {
+    "id": "20",
+    "name": "Blacksmith",
+    "skill": "Mining",
+    "level": 10,
+    "parentProfession": "18",
+    "description": "Metal bars worth 50% more."
+  },
+  {
+    "id": "21",
+    "name": "Prospector",
+    "skill": "Mining",
+    "level": 10,
+    "parentProfession": "18",
+    "description": "Chance to find coal doubled."
+  },
+  {
+    "id": "22",
+    "name": "Excavator",
+    "skill": "Mining",
+    "level": 10,
+    "parentProfession": "19",
+    "description": "Chance to find geodes doubled."
+  },
+  {
+    "id": "23",
+    "name": "Gemologist",
+    "skill": "Mining",
+    "level": 10,
+    "parentProfession": "19",
+    "description": "Gems worth 30% more."
+  },
+  {
+    "id": "24",
+    "name": "Fighter",
+    "skill": "Combat",
+    "level": 5,
+    "parentProfession": null,
+    "description": "All attacks deal 10% more damage. +15 HP."
+  },
+  {
+    "id": "25",
+    "name": "Scout",
+    "skill": "Combat",
+    "level": 5,
+    "parentProfession": null,
+    "description": "Critical strike chance increased by 50%."
+  },
+  {
+    "id": "26",
+    "name": "Brute",
+    "skill": "Combat",
+    "level": 10,
+    "parentProfession": "24",
+    "description": "Deal 15% more damage."
+  },
+  {
+    "id": "27",
+    "name": "Defender",
+    "skill": "Combat",
+    "level": 10,
+    "parentProfession": "24",
+    "description": "+25 HP."
+  },
+  {
+    "id": "28",
+    "name": "Acrobat",
+    "skill": "Combat",
+    "level": 10,
+    "parentProfession": "25",
+    "description": "Cooldown on special moves cut in half."
+  },
+  {
+    "id": "29",
+    "name": "Desperado",
+    "skill": "Combat",
+    "level": 10,
+    "parentProfession": "25",
+    "description": "Critical strikes are deadlier."
+  }
+]

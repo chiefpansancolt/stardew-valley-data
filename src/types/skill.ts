@@ -10,17 +10,6 @@ export interface SkillLevel {
   recipes: SkillLevelRecipes;
 }
 
-export interface Profession {
-  name: string;
-  description: string;
-  requires?: string;
-}
-
-export interface ProfessionChoice {
-  level: 5 | 10;
-  options: Profession[];
-}
-
 export interface MasteryUnlock {
   name: string;
   description: string;
@@ -37,7 +26,6 @@ export interface Skill {
   toolBonus: string;
   image: string;
   levels: SkillLevel[];
-  professions: ProfessionChoice[];
   mastery: SkillMastery;
 }
 

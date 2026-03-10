@@ -1,0 +1,27 @@
+import type { SaveBuilding } from '../types';
+import { ensureArray, num, str } from './util';
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function parseBuildings(root: any): SaveBuilding[] {
+  const result: SaveBuilding[] = [];
+  const locations = ensureArray(root.locations?.GameLocation);
+
+  for (const loc of locations) {
+    const l = loc as Record<string, unknown>;
+    if (str(l.name) !== 'Farm') continue;
+
+    const buildings = ensureArray((l.buildings as Record<string, unknown>)?.Building);
+
+    for (const building of buildings) {
+      const b = building as Record<string, unknown>;
+      result.push({
+        type: str(b.buildingType),
+        tileX: num(b.tileX),
+        tileY: num(b.tileY),
+        animalCount: num(b.currentOccupants),
+      });
+    }
+    break;
+  }
+  return result;
+}

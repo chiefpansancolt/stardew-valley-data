@@ -5,6 +5,7 @@ import { run as runArtisanGoods } from './artisan-goods';
 import { run as runBait } from './bait';
 import { run as runBlacksmith } from './blacksmith-shop';
 import { run as runBookseller } from './bookseller-shop';
+import { run as runBuildings } from './buildings';
 import { run as runBundles } from './bundles';
 import { run as runCalculator } from './calculator';
 import { run as runCarpenter } from './carpenter-shop';
@@ -16,11 +17,13 @@ import { run as runCrafting } from './crafting';
 import { run as runCrops } from './crops';
 import { run as runDesertTrader } from './desert-trader-shop';
 import { run as runDwarfShop } from './dwarf-shop';
+import { run as runEvents } from './events';
 import { run as runFarmhouse } from './farmhouse';
 import { run as runFieldOffice } from './field-office';
 import { run as runFish } from './fish';
 import { run as runFootwear } from './footwear';
 import { run as runForageables } from './forageables';
+import { run as runGoldenWalnuts } from './golden-walnuts';
 import { run as runGrandpa } from './grandpa';
 import { run as runGuild } from './guild-shop';
 import { run as runHats } from './hats';
@@ -39,15 +42,18 @@ import { run as runMonsters } from './monsters';
 import { run as runOasis } from './oasis-shop';
 import { run as runPerfection } from './perfection';
 import { run as runPierre } from './pierre-shop';
+import { run as runProfessions } from './professions';
 import { run as runQiShop } from './qi-shop';
 import { run as runQuests } from './quests';
 import { run as runRings } from './rings';
 import { run as runSaloon } from './saloon-shop';
+import { run as runSaveFile } from './save-file';
 import { run as runSearch } from './search';
 import { run as runSeasons } from './seasons';
 import { run as runSecretNotes } from './secret-notes';
 import { run as runSkills } from './skills';
 import { run as runSpecialItems } from './special-items';
+import { run as runSpecialOrders } from './special-orders';
 import { run as runStarDrops } from './stardrops';
 import { run as runTackle } from './tackle';
 import { run as runTools } from './tools';
@@ -126,6 +132,12 @@ const results = [
   runLostBooks(),
   runTrinkets(),
   runStarDrops(),
+  runGoldenWalnuts(),
+  runProfessions(),
+  runSpecialOrders(),
+  runEvents(),
+  runBuildings(),
+  runSaveFile(),
 ];
 
 const totalPassed = results.reduce((sum, r) => sum + r.passed, 0);

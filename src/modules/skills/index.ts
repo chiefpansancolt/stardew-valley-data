@@ -1,6 +1,7 @@
 import { QueryBase } from '@/common/query-base';
 import data from '@/data/skills.json';
-import { MasteryLevel, Profession, Skill, TitleThreshold } from '@/types';
+import { MasteryLevel, ProfessionData, ProfessionSkill, Skill, TitleThreshold } from '@/types';
+import { professions } from '../professions';
 
 const skillData: Skill[] = data as Skill[];
 
@@ -89,14 +90,17 @@ export function skills(source: Skill[] = skillData): SkillQuery {
 
 /**
  * Get the level 10 profession options available for a given skill and level 5 profession choice.
- * Returns an empty array if the skill or profession is not found.
+ * Uses the professions module to look up data. Returns an empty array if not found.
  */
-export function getProfessionOptions(skillName: string, level5Profession: string): Profession[] {
-  const skill = skillData.find((s) => s.name.toLowerCase() === skillName.toLowerCase());
-  if (!skill) return [];
-  const level10 = skill.professions.find((p) => p.level === 10);
-  if (!level10) return [];
-  return level10.options.filter(
-    (p) => p.requires?.toLowerCase() === level5Profession.toLowerCase(),
-  );
+export function getProfessionOptions(
+  skillName: string,
+  level5Profession: string,
+): ProfessionData[] {
+  const skillProfs = professions().bySkill(skillName as ProfessionSkill);
+  const level5 = skillProfs
+    .byLevel(5)
+    .get()
+    .find((p) => p.name.toLowerCase() === level5Profession.toLowerCase());
+  if (!level5) return [];
+  return skillProfs.byParent(level5.id).get();
 }

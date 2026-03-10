@@ -1,0 +1,529 @@
+[
+  {
+    "id": "coop",
+    "name": "Coop",
+    "description": "A small building that houses chickens. Feed them with hay from a silo.",
+    "builder": "Robin",
+    "buildCost": 4000,
+    "buildDays": 3,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 300
+      },
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 100
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/coop/Coop.png"
+  },
+  {
+    "id": "big-coop",
+    "name": "Big Coop",
+    "description": "An upgraded coop with more space. Houses up to 8 animals including ducks and dinosaurs. Includes an incubator.",
+    "builder": "Robin",
+    "buildCost": 10000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 400
+      },
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 150
+      }
+    ],
+    "upgradeFrom": "coop",
+    "magical": false,
+    "image": "images/buildings/coop/Big Coop.png"
+  },
+  {
+    "id": "deluxe-coop",
+    "name": "Deluxe Coop",
+    "description": "The best coop. Houses up to 12 animals including rabbits. Has an auto-feed system.",
+    "builder": "Robin",
+    "buildCost": 20000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 500
+      },
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 200
+      }
+    ],
+    "upgradeFrom": "big-coop",
+    "magical": false,
+    "image": "images/buildings/coop/Deluxe Coop.png"
+  },
+  {
+    "id": "barn",
+    "name": "Barn",
+    "description": "A building that houses cows and goats. Feed them with hay from a silo.",
+    "builder": "Robin",
+    "buildCost": 6000,
+    "buildDays": 3,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 350
+      },
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 150
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/barn/Barn.png"
+  },
+  {
+    "id": "big-barn",
+    "name": "Big Barn",
+    "description": "An upgraded barn with more space. Houses up to 8 animals including sheep and pigs.",
+    "builder": "Robin",
+    "buildCost": 12000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 450
+      },
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 200
+      }
+    ],
+    "upgradeFrom": "barn",
+    "magical": false,
+    "image": "images/buildings/barn/Big Barn.png"
+  },
+  {
+    "id": "deluxe-barn",
+    "name": "Deluxe Barn",
+    "description": "The best barn. Houses up to 12 animals including ostriches. Has an auto-feed system.",
+    "builder": "Robin",
+    "buildCost": 25000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 550
+      },
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 300
+      }
+    ],
+    "upgradeFrom": "big-barn",
+    "magical": false,
+    "image": "images/buildings/barn/Deluxe Barn.png"
+  },
+  {
+    "id": "well",
+    "name": "Well",
+    "description": "Place a well to refill your watering can without having to travel to a pond or river.",
+    "builder": "Robin",
+    "buildCost": 1000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 75
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/Well.png"
+  },
+  {
+    "id": "silo",
+    "name": "Silo",
+    "description": "Stores hay from cut grass. Capacity: 240 hay per silo.",
+    "builder": "Robin",
+    "buildCost": 100,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 100
+      },
+      {
+        "id": "330",
+        "item": "Clay",
+        "quantity": 10
+      },
+      {
+        "id": "334",
+        "item": "Copper Bar",
+        "quantity": 5
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/Silo.png"
+  },
+  {
+    "id": "mill",
+    "name": "Mill",
+    "description": "Place crops inside to make Flour, Sugar, Rice, and Wheat Flour.",
+    "builder": "Robin",
+    "buildCost": 2500,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 150
+      },
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 50
+      },
+      {
+        "id": "428",
+        "item": "Cloth",
+        "quantity": 4
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/Mill.png"
+  },
+  {
+    "id": "shed",
+    "name": "Shed",
+    "description": "An empty building where you can place crafting machines, kegs, preserves jars, etc.",
+    "builder": "Robin",
+    "buildCost": 15000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 300
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/shed/Shed.png"
+  },
+  {
+    "id": "big-shed",
+    "name": "Big Shed",
+    "description": "An upgraded shed with more interior space for machines and storage.",
+    "builder": "Robin",
+    "buildCost": 20000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 550
+      },
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 300
+      }
+    ],
+    "upgradeFrom": "shed",
+    "magical": false,
+    "image": "images/buildings/shed/Big Shed.png"
+  },
+  {
+    "id": "fish-pond",
+    "name": "Fish Pond",
+    "description": "Place fish in a pond to raise them. Produces roe and other items.",
+    "builder": "Robin",
+    "buildCost": 5000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 200
+      },
+      {
+        "id": "152",
+        "item": "Seaweed",
+        "quantity": 5
+      },
+      {
+        "id": "153",
+        "item": "Green Algae",
+        "quantity": 5
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/Fish Pond.png"
+  },
+  {
+    "id": "stable",
+    "name": "Stable",
+    "description": "Allows you to keep and ride a horse. The horse can be used to travel around the map faster.",
+    "builder": "Robin",
+    "buildCost": 10000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "709",
+        "item": "Hardwood",
+        "quantity": 100
+      },
+      {
+        "id": "335",
+        "item": "Iron Bar",
+        "quantity": 5
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/Horse Stable.png"
+  },
+  {
+    "id": "slime-hutch",
+    "name": "Slime Hutch",
+    "description": "Raise slimes in this building. Fill the water troughs and collect slime balls.",
+    "builder": "Robin",
+    "buildCost": 10000,
+    "buildDays": 2,
+    "materials": [
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 500
+      },
+      {
+        "id": "338",
+        "item": "Refined Quartz",
+        "quantity": 10
+      },
+      {
+        "id": "337",
+        "item": "Iridium Bar",
+        "quantity": 1
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/Slime Hutch.png"
+  },
+  {
+    "id": "cabin",
+    "name": "Cabin",
+    "description": "A small cabin for multiplayer. Another player can use this as their home.",
+    "builder": "Robin",
+    "buildCost": 100,
+    "buildDays": 0,
+    "materials": [],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/cabin/log/Log Cabin Stage 1.png"
+  },
+  {
+    "id": "pet-bowl",
+    "name": "Pet Bowl",
+    "description": "A bowl for your pet. Fill it with water daily to keep your pet happy.",
+    "builder": "Robin",
+    "buildCost": 5000,
+    "buildDays": 0,
+    "materials": [
+      {
+        "id": "709",
+        "item": "Hardwood",
+        "quantity": 25
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/pet_bowl/Pet Bowl Wood.png"
+  },
+  {
+    "id": "shipping-bin",
+    "name": "Shipping Bin",
+    "description": "An additional shipping bin for selling items. Place items inside and they'll be collected overnight.",
+    "builder": "Robin",
+    "buildCost": 250,
+    "buildDays": 0,
+    "materials": [
+      {
+        "id": "388",
+        "item": "Wood",
+        "quantity": 150
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/ShippingBox.png"
+  },
+  {
+    "id": "junimo-hut",
+    "name": "Junimo Hut",
+    "description": "Junimos will harvest crops within a certain radius of the hut. Place it near your crops.",
+    "builder": "Wizard",
+    "buildCost": 20000,
+    "buildDays": 0,
+    "materials": [
+      {
+        "id": "2",
+        "item": "Stone",
+        "quantity": 200
+      },
+      {
+        "id": "268",
+        "item": "Starfruit",
+        "quantity": 9
+      },
+      {
+        "id": "771",
+        "item": "Fiber",
+        "quantity": 100
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": true,
+    "image": "images/buildings/Junimo Hut.png"
+  },
+  {
+    "id": "earth-obelisk",
+    "name": "Earth Obelisk",
+    "description": "Warp to the mountains. Interact to teleport instantly.",
+    "builder": "Wizard",
+    "buildCost": 500000,
+    "buildDays": 0,
+    "materials": [
+      {
+        "id": "337",
+        "item": "Iridium Bar",
+        "quantity": 10
+      },
+      {
+        "id": "86",
+        "item": "Earth Crystal",
+        "quantity": 10
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": true,
+    "image": "images/buildings/obelisks/Earth Obelisk.png"
+  },
+  {
+    "id": "water-obelisk",
+    "name": "Water Obelisk",
+    "description": "Warp to the beach. Interact to teleport instantly.",
+    "builder": "Wizard",
+    "buildCost": 500000,
+    "buildDays": 0,
+    "materials": [
+      {
+        "id": "337",
+        "item": "Iridium Bar",
+        "quantity": 5
+      },
+      {
+        "id": "372",
+        "item": "Clam",
+        "quantity": 10
+      },
+      {
+        "id": "393",
+        "item": "Coral",
+        "quantity": 10
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": true,
+    "image": "images/buildings/obelisks/Water Obelisk.png"
+  },
+  {
+    "id": "desert-obelisk",
+    "name": "Desert Obelisk",
+    "description": "Warp to the desert. Interact to teleport instantly.",
+    "builder": "Wizard",
+    "buildCost": 1000000,
+    "buildDays": 0,
+    "materials": [
+      {
+        "id": "337",
+        "item": "Iridium Bar",
+        "quantity": 20
+      },
+      {
+        "id": "88",
+        "item": "Coconut",
+        "quantity": 10
+      },
+      {
+        "id": "90",
+        "item": "Cactus Fruit",
+        "quantity": 10
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": true,
+    "image": "images/buildings/obelisks/Desert Obelisk.png"
+  },
+  {
+    "id": "island-obelisk",
+    "name": "Island Obelisk",
+    "description": "Warp to Ginger Island. Interact to teleport instantly.",
+    "builder": "Wizard",
+    "buildCost": 1000000,
+    "buildDays": 0,
+    "materials": [
+      {
+        "id": "337",
+        "item": "Iridium Bar",
+        "quantity": 10
+      },
+      {
+        "id": "852",
+        "item": "Dragon Tooth",
+        "quantity": 10
+      },
+      {
+        "id": "91",
+        "item": "Banana",
+        "quantity": 10
+      }
+    ],
+    "upgradeFrom": null,
+    "magical": true,
+    "image": "images/buildings/obelisks/Island Obelisk.png"
+  },
+  {
+    "id": "gold-clock",
+    "name": "Gold Clock",
+    "description": "Prevents debris from appearing on the farm. Fences never decay.",
+    "builder": "Wizard",
+    "buildCost": 10000000,
+    "buildDays": 0,
+    "materials": [],
+    "upgradeFrom": null,
+    "magical": true,
+    "image": "images/buildings/Gold Clock.png"
+  }
+]

@@ -1,3 +1,4 @@
+import { professions } from '@/modules/professions';
 import {
   getMasteryLevel,
   getProfessionOptions,
@@ -5,6 +6,7 @@ import {
   MASTERY_LEVELS,
   skills,
 } from '@/modules/skills';
+import { ProfessionSkill } from '@/types';
 import { existsSync } from 'fs';
 import { join } from 'path';
 
@@ -35,11 +37,15 @@ export function run(): { passed: number; failed: number } {
       );
     }
 
-    for (const choice of skill.professions) {
-      console.log(`  Level ${choice.level} professions:`);
-      for (const p of choice.options) {
-        const req = p.requires ? ` (requires ${p.requires})` : '';
-        console.log(`    ${p.name}${req}: ${p.description}`);
+    const skillProfs = professions().bySkill(skill.name as ProfessionSkill);
+    for (const level of [5, 10] as const) {
+      const profs = skillProfs.byLevel(level).get();
+      console.log(`  Level ${level} professions:`);
+      for (const p of profs) {
+        const parent = p.parentProfession
+          ? ` (requires ${skillProfs.find(p.parentProfession)?.name})`
+          : '';
+        console.log(`    ${p.name}${parent}: ${p.description}`);
       }
     }
 

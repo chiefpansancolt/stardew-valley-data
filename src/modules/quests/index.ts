@@ -1,26 +1,13 @@
 import { QueryBase } from '@/common/query-base';
 import questData from '@/data/quests.json';
-import { Quest, QuestType } from '@/types';
+import { Quest } from '@/types';
 
 const questsData: Quest[] = questData as Quest[];
 
-/**
- * Query builder for quest data (story quests, special orders, Qi special orders).
- * All filter and sort methods return a new QuestQuery for chaining.
- */
+/** Query builder for quest data. All filter and sort methods return a new QuestQuery for chaining. */
 export class QuestQuery extends QueryBase<Quest> {
   constructor(data: Quest[] = questsData) {
     super(data);
-  }
-
-  /** Filter by quest type (`'story'`, `'special-order'`, or `'qi-special-order'`). */
-  byType(type: QuestType): QuestQuery {
-    return new QuestQuery(this.data.filter((q) => q.type === type));
-  }
-
-  /** Filter to repeatable special orders. Only applies to `type === 'special-order'` quests. */
-  repeatable(): QuestQuery {
-    return new QuestQuery(this.data.filter((q) => q.type === 'special-order' && q.repeatable));
   }
 
   /** Sort alphabetically by name. Default: `'asc'`. */

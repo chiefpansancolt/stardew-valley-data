@@ -1,7 +1,6 @@
 [
   {
     "id": "9",
-    "type": "story",
     "name": "Introductions",
     "text": "It would be a nice gesture to introduce yourself around town.",
     "providedBy": "Introductory quest",
@@ -10,7 +9,6 @@
   },
   {
     "id": "25",
-    "type": "story",
     "name": "How to Win Friends",
     "text": "Giving gifts is a great way to build friendships.",
     "providedBy": "Complete \"Introductions\"",
@@ -19,7 +17,6 @@
   },
   {
     "id": "132",
-    "type": "story",
     "name": "Getting Started",
     "text": "If you want to become a farmer, you have to start with the basics.",
     "providedBy": "Package in room at start",
@@ -28,7 +25,6 @@
   },
   {
     "id": "132",
-    "type": "story",
     "name": "Getting Started (Animals)",
     "text": "Feed your chickens each day by letting them eat grass outside.",
     "providedBy": "Package in room at start (Meadowlands Farm)",
@@ -37,7 +33,6 @@
   },
   {
     "id": "13",
-    "type": "story",
     "name": "To The Beach",
     "text": "Someone named Willy invited you to visit the beach south of town.",
     "providedBy": "Mail, Spring 2",
@@ -46,7 +41,6 @@
   },
   {
     "id": "7",
-    "type": "story",
     "name": "Raising Animals",
     "text": "Robin, the local carpenter, lives north of town.",
     "providedBy": "Complete \"Getting Started\"",
@@ -55,7 +49,6 @@
   },
   {
     "id": "133",
-    "type": "story",
     "name": "Feeding Animals",
     "text": "Robin, the local carpenter, lives north of town.",
     "providedBy": "Complete \"Getting Started\" (Meadowlands Farm)",
@@ -64,7 +57,6 @@
   },
   {
     "id": "8",
-    "type": "story",
     "name": "Advancement",
     "text": "As you gain experience you'll discover new crafting recipes.",
     "providedBy": "Complete \"Getting Started\"",
@@ -73,7 +65,6 @@
   },
   {
     "id": "14",
-    "type": "story",
     "name": "Explore The Mine",
     "text": "There's an old mine shaft in the mountains north of town.",
     "providedBy": "Triggered by entering the mines",
@@ -82,7 +73,6 @@
   },
   {
     "id": "17",
-    "type": "story",
     "name": "Deeper In The Mine",
     "text": "It seems that the mine elevator is still functional.",
     "providedBy": "Complete \"Explore The Mine\"",
@@ -91,7 +81,6 @@
   },
   {
     "id": "18",
-    "type": "story",
     "name": "To The Bottom?",
     "text": "So far, there's no sign of the bottom.",
     "providedBy": "Complete \"Deeper In The Mine\"",
@@ -100,7 +89,6 @@
   },
   {
     "id": "24",
-    "type": "story",
     "name": "Archaeology",
     "text": "Gunther asked if you'd consider donating any new artifacts you find to the Museum.",
     "providedBy": "Enter the Museum with a mineral or artifact",
@@ -109,7 +97,6 @@
   },
   {
     "id": "26",
-    "type": "story",
     "name": "Rat Problem",
     "text": "There's something odd going on in the Community Center.",
     "providedBy": "Trigger initial Community Center cutscene",
@@ -118,7 +105,6 @@
   },
   {
     "id": "1",
-    "type": "story",
     "name": "Meet The Wizard",
     "text": "You received a letter from the local wizard.",
     "providedBy": "Morning after examining first golden scroll",
@@ -127,7 +113,6 @@
   },
   {
     "id": "11",
-    "type": "story",
     "name": "Forging Ahead",
     "text": "If you're going to keep mining you should build a furnace.",
     "providedBy": "Morning after collecting Copper Ore",
@@ -136,7 +121,6 @@
   },
   {
     "id": "12",
-    "type": "story",
     "name": "Smelting",
     "text": "Now that you've built a furnace, you can smelt some metal.",
     "providedBy": "Complete \"Forging Ahead\"",
@@ -145,7 +129,6 @@
   },
   {
     "id": "16",
-    "type": "story",
     "name": "Initiation",
     "text": "If you can slay 10 slimes, you'll have earned your place in the Adventurer's Guild.",
     "providedBy": "Mailbox, morning after reaching floor 5 in the Mines",
@@ -154,7 +137,6 @@
   },
   {
     "id": "100",
-    "type": "story",
     "name": "Robin's Lost Axe",
     "text": "Robin lost her favorite axe.",
     "providedBy": "Mail, Spring 11",
@@ -163,7 +145,6 @@
   },
   {
     "id": "101",
-    "type": "story",
     "name": "Jodi's Request",
     "text": "Jodi needs a fresh cauliflower for a recipe she's making.",
     "providedBy": "Mail, Spring 19",
@@ -172,7 +153,6 @@
   },
   {
     "id": "102",
-    "type": "story",
     "name": "Mayor's \"Shorts\"",
     "text": "Mayor Lewis has lost his purple shorts.",
     "providedBy": "Mail, Summer 3",
@@ -181,7 +161,6 @@
   },
   {
     "id": "107",
-    "type": "story",
     "name": "Blackberry Basket",
     "text": "It's blackberry season, but Linus can't find his basket!",
     "providedBy": "Mail, Fall 8",
@@ -190,7 +169,6 @@
   },
   {
     "id": "21",
-    "type": "story",
     "name": "Marnie's Request",
     "text": "Marnie came by the farm and asked if you'd bring her a cave carrot.",
     "providedBy": "She visits farm after 3 Friendship hearts",
@@ -199,7 +177,6 @@
   },
   {
     "id": "103",
-    "type": "story",
     "name": "Pam Is Thirsty",
     "text": "Pam is hankerin' for a pale ale.",
     "providedBy": "Mail, Summer 14",
@@ -208,7 +185,6 @@
   },
   {
     "id": "111",
-    "type": "story",
     "name": "A Dark Reagent",
     "text": "The wizard wants you to descend into the mines and fetch him a Void Essence.",
     "providedBy": "Mail, Winter 12",
@@ -217,7 +193,6 @@
   },
   {
     "id": "106",
-    "type": "story",
     "name": "Cow's Delight",
     "text": "Marnie wants to give her cows a special treat.",
     "providedBy": "Mail, Fall 3",
@@ -226,7 +201,6 @@
   },
   {
     "id": "19",
-    "type": "story",
     "name": "The Skull Key",
     "text": "You found a strange looking key in the bottom of the mines.",
     "providedBy": "Reach the bottom floor of the Mines",
@@ -235,7 +209,6 @@
   },
   {
     "id": "104",
-    "type": "story",
     "name": "Crop Research",
     "text": "Demetrius needs a fresh melon for his research.",
     "providedBy": "Mail, Summer 20",
@@ -244,7 +217,6 @@
   },
   {
     "id": "105",
-    "type": "story",
     "name": "Knee Therapy",
     "text": "George needs a hot pepper to soothe his aching knee.",
     "providedBy": "Mail, Summer 25",
@@ -253,7 +225,6 @@
   },
   {
     "id": "113",
-    "type": "story",
     "name": "Robin's Request",
     "text": "Robin needs 10 pieces of Hardwood.",
     "providedBy": "Mail, Winter 21",
@@ -262,7 +233,6 @@
   },
   {
     "id": "20",
-    "type": "story",
     "name": "Qi's Challenge",
     "text": "You've been challenged to reach level 25 in the Skull Cavern.",
     "providedBy": "Mail, day after entering Skull Cavern",
@@ -271,7 +241,6 @@
   },
   {
     "id": "2",
-    "type": "story",
     "name": "The Mysterious Qi (Part 1)",
     "text": "Within a secret lock-box, you found a note with peculiar instructions.",
     "providedBy": "Put Battery Pack in lock-box by bus stop",
@@ -280,7 +249,6 @@
   },
   {
     "id": "3",
-    "type": "story",
     "name": "The Mysterious Qi (Part 2)",
     "text": "You found another note with a strange request.",
     "providedBy": "Complete \"The Mysterious Qi (Part 1)\"",
@@ -289,7 +257,6 @@
   },
   {
     "id": "4",
-    "type": "story",
     "name": "The Mysterious Qi (Part 3)",
     "text": "Another cryptic note has appeared.",
     "providedBy": "Complete \"The Mysterious Qi (Part 2)\"",
@@ -298,7 +265,6 @@
   },
   {
     "id": "5",
-    "type": "story",
     "name": "The Mysterious Qi (Part 4)",
     "text": "You found another note in the sand dragon's eye.",
     "providedBy": "Complete \"The Mysterious Qi (Part 3)\"",
@@ -307,7 +273,6 @@
   },
   {
     "id": "108",
-    "type": "story",
     "name": "Carving Pumpkins",
     "text": "Caroline wants to carve a pumpkin with her daughter.",
     "providedBy": "Mail, Fall 19",
@@ -316,7 +281,6 @@
   },
   {
     "id": "31",
-    "type": "story",
     "name": "A Winter Mystery",
     "text": "You encountered a suspicious looking figure by the bus stop.",
     "providedBy": "Enter Bus Stop during Winter between 6am and 4pm",
@@ -325,7 +289,6 @@
   },
   {
     "id": "29",
-    "type": "story",
     "name": "Strange Note",
     "text": "You found a note, barely legible, asking you to bring may-pal serrup to the woods.",
     "providedBy": "After reading Secret Note #23",
@@ -334,7 +297,6 @@
   },
   {
     "id": "30",
-    "type": "story",
     "name": "Cryptic Note",
     "text": "You found a note that reads, someone is waiting for you on level 100 of the Skull Cavern.",
     "providedBy": "After reading Secret Note #10",
@@ -343,7 +305,6 @@
   },
   {
     "id": "115",
-    "type": "story",
     "name": "Fresh Fruit",
     "text": "Emily wants a taste of spring. She's asking for a fresh apricot.",
     "providedBy": "Mail, Spring 6, Year 2",
@@ -352,7 +313,6 @@
   },
   {
     "id": "118",
-    "type": "story",
     "name": "Aquatic Research",
     "text": "Demetrius is studying the toxin levels of the local pufferfish.",
     "providedBy": "Mail, Summer 6, Year 2",
@@ -361,7 +321,6 @@
   },
   {
     "id": "119",
-    "type": "story",
     "name": "A Soldier's Star",
     "text": "Kent wants to give his wife a starfruit for their anniversary.",
     "providedBy": "Mail, Summer 15, Year 2",
@@ -370,7 +329,6 @@
   },
   {
     "id": "120",
-    "type": "story",
     "name": "Mayor's Need",
     "text": "Mayor Lewis wants truffle oil.",
     "providedBy": "Mail, Summer 21, Year 2",
@@ -379,7 +337,6 @@
   },
   {
     "id": "121",
-    "type": "story",
     "name": "Wanted: Lobster",
     "text": "Gus put out a notice requesting a fresh lobster.",
     "providedBy": "Mail, Fall 6, Year 2",
@@ -388,7 +345,6 @@
   },
   {
     "id": "122",
-    "type": "story",
     "name": "Pam Needs Juice",
     "text": "Pam's TV remote is dead.",
     "providedBy": "Mail, Fall 19, Year 2",
@@ -397,7 +353,6 @@
   },
   {
     "id": "22",
-    "type": "story",
     "name": "Fish Casserole",
     "text": "Jodi swung by the farm to ask you to dinner at 7:00 PM.",
     "providedBy": "Jodi at 4 Hearts; exit Farmhouse Monday 6am–9:30am",
@@ -406,7 +361,6 @@
   },
   {
     "id": "109",
-    "type": "story",
     "name": "Catch a Squid",
     "text": "Willy is challenging you to catch a squid.",
     "providedBy": "Mail, Winter 2",
@@ -415,7 +369,6 @@
   },
   {
     "id": "114",
-    "type": "story",
     "name": "Fish Stew",
     "text": "Gus wants to make fish stew, but he needs an albacore.",
     "providedBy": "Mail, Winter 26",
@@ -424,7 +377,6 @@
   },
   {
     "id": "117",
-    "type": "story",
     "name": "Pierre's Notice",
     "text": "Pierre will pay top coin to whoever brings him a plate of sashimi.",
     "providedBy": "Mail, Spring 21, Year 2",
@@ -433,7 +385,6 @@
   },
   {
     "id": "110",
-    "type": "story",
     "name": "Clint's Attempt",
     "text": "Clint wants you to give Emily an amethyst.",
     "providedBy": "Mail, Winter 6",
@@ -442,7 +393,6 @@
   },
   {
     "id": "112",
-    "type": "story",
     "name": "A Favor For Clint",
     "text": "Clint got a new hammer and he wants to test it out.",
     "providedBy": "Mail, Winter 17",
@@ -451,7 +401,6 @@
   },
   {
     "id": "123",
-    "type": "story",
     "name": "Staff of Power",
     "text": "The Wizard is creating a staff of phenomenal power.",
     "providedBy": "Mail, Winter 5, Year 2",
@@ -460,7 +409,6 @@
   },
   {
     "id": "116",
-    "type": "story",
     "name": "Granny's Gift",
     "text": "Evelyn wants to surprise her husband with a gift.",
     "providedBy": "Mail, Spring 15, Year 2",
@@ -469,7 +417,6 @@
   },
   {
     "id": "125",
-    "type": "story",
     "name": "Exotic Spirits",
     "text": "Gus wants to make a Coco-no-no, but he's missing the main ingredient.",
     "providedBy": "Mail, Winter 19, Year 2",
@@ -478,7 +425,6 @@
   },
   {
     "id": "124",
-    "type": "story",
     "name": "Catch a Lingcod",
     "text": "Willy is challenging you to catch a Lingcod.",
     "providedBy": "Mail, Winter 13, Year 2",
@@ -487,7 +433,6 @@
   },
   {
     "id": "28",
-    "type": "story",
     "name": "Dark Talisman",
     "text": "The Wizard asked me to retrieve the magic ink from his ex-wife's house.",
     "providedBy": "Railroad cutscene after completing Community Center or Joja Warehouse",
@@ -496,7 +441,6 @@
   },
   {
     "id": "27",
-    "type": "story",
     "name": "Goblin Problem",
     "text": "There's a goblin blocking the path to the Witch's Hut.",
     "providedBy": "Through cave by Railroad after Dark Talisman quest",
@@ -505,7 +449,6 @@
   },
   {
     "id": "130",
-    "type": "story",
     "name": "The Pirate's Wife",
     "text": "An old lady living on Ginger Island is asking you to find a keepsake belonging to her late husband.",
     "providedBy": "Speak to Birdie on Ginger Island",
@@ -514,317 +457,10 @@
   },
   {
     "id": "134",
-    "type": "story",
     "name": "The Giant Stump",
     "text": "The big tree to the south of my farm blew down.",
     "providedBy": "Giant Stump in Cindersap Forest after wind storm cutscene",
     "requirements": "Fix giant stump with 100 Hardwood",
     "rewards": "Access to Raccoon quests"
-  },
-  {
-    "id": "Caroline",
-    "type": "special-order",
-    "name": "Island Ingredients",
-    "text": "I want to experiment with tropical cooking. Could you ship me some ingredients from Ginger Island?",
-    "providedBy": "Caroline",
-    "prerequisites": "Ginger Island unlocked",
-    "timeframe": 28,
-    "requirements": "Ship 100 of: Taro Root, Ginger, or Pineapple",
-    "rewards": "Gold (50% base crop price), Solar Panel recipe",
-    "repeatable": true
-  },
-  {
-    "id": "Linus",
-    "type": "special-order",
-    "name": "Cave Patrol",
-    "text": "The number of monsters in the local caves have made mining dangerous. Would you help thin out their numbers?",
-    "providedBy": "Clint",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Slay 50 of: Bats, Dust Sprites, Skeletons, or Grubs",
-    "rewards": "6,000g; Geode Crusher recipe (first time); Explosives and food by letter (subsequent times)",
-    "repeatable": true
-  },
-  {
-    "id": "Demetrius",
-    "type": "special-order",
-    "name": "Aquatic Overpopulation",
-    "text": "For unknown reasons, the local population of fish has grown to an unsustainable level. Can you help restore balance?",
-    "providedBy": "Demetrius",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Catch 10 seasonal fish",
-    "rewards": "Gold (fish sell value), Farm Computer recipe",
-    "repeatable": true
-  },
-  {
-    "id": "Demetrius2",
-    "type": "special-order",
-    "name": "Biome Balance",
-    "text": "For unknown reasons, the local population of fish has grown to an unsustainable level. A broader variety is needed.",
-    "providedBy": "Demetrius",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Catch 20 of: River Fish, Ocean Fish, or Lake Fish",
-    "rewards": "1,500g, Farm Computer recipe",
-    "repeatable": true
-  },
-  {
-    "id": "Clint",
-    "type": "special-order",
-    "name": "Rock Rejuvenation",
-    "text": "I'm going to invite some friends over to do a rock rejuvenation ceremony. I need some special gems.",
-    "providedBy": "Emily",
-    "prerequisites": "Access to Sewing Machine in Emily's house",
-    "timeframe": 7,
-    "requirements": "Deliver 1 each of: Ruby, Topaz, Emerald, Jade, Amethyst",
-    "rewards": "1,000g; 250 Friendship points with Emily; Sewing Machine; ceremony cutscene",
-    "repeatable": false
-  },
-  {
-    "id": "Evelyn",
-    "type": "special-order",
-    "name": "Gifts for George",
-    "text": "George thinks no one in town cares about him. Let's show him that isn't true.",
-    "providedBy": "Evelyn",
-    "prerequisites": "Spring season",
-    "timeframe": 28,
-    "requirements": "Collect and place 12 Leeks onto Evelyn's stove",
-    "rewards": "2,000g, Coffee Maker, cutscene at George's house",
-    "repeatable": false
-  },
-  {
-    "id": "Gunther",
-    "type": "special-order",
-    "name": "Fragments of the past",
-    "text": "Calling all amateur paleontologists! Bring any bone-related artifacts or items to the Museum.",
-    "providedBy": "Gunther",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Collect 100 bone items and deposit them in the Museum box",
-    "rewards": "3,500g, Bone Mill recipe",
-    "repeatable": false
-  },
-  {
-    "id": "Gus",
-    "type": "special-order",
-    "name": "Gus' Famous Omelet",
-    "text": "I've got the urge to make my famous giant omelet. I'll need a lot of eggs.",
-    "providedBy": "Gus",
-    "prerequisites": null,
-    "timeframe": 14,
-    "requirements": "Place 24 Eggs into Stardrop Saloon fridge",
-    "rewards": "3,000g; Mini-Fridge (first time); Giant Omelet cutscene (first time)",
-    "repeatable": true
-  },
-  {
-    "id": "Pierre",
-    "type": "special-order",
-    "name": "Crop Order",
-    "text": "Crops are in high demand this year. Ship a large batch of a seasonal crop.",
-    "providedBy": "Lewis",
-    "prerequisites": "Not Winter season",
-    "timeframe": 28,
-    "requirements": "Ship 100 of a seasonal crop",
-    "rewards": "Gold (50% base quality crop price); Mini-Shipping Bin by mail (first time)",
-    "repeatable": true
-  },
-  {
-    "id": "Lewis",
-    "type": "special-order",
-    "name": "Community Cleanup",
-    "text": "I have an idea. There's a lot of trash in the water around town. Want to help clean it up?",
-    "providedBy": "Linus",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Gather 20 trash items and dump them in the bin at the train platform",
-    "rewards": "500g; 250 Friendship points with Linus; Fiber Seeds recipe; cutscene at Mountain Lake",
-    "repeatable": false
-  },
-  {
-    "id": "Pam",
-    "type": "special-order",
-    "name": "The Strong Stuff",
-    "text": "Heard there's a spirit made out of potatoes. Think you could bring me some potato juice?",
-    "providedBy": "Pam",
-    "prerequisites": "Spring season",
-    "timeframe": 14,
-    "requirements": "Place 12 Potato Juice in Pam's kitchen",
-    "rewards": "3,000g; 250 Friendship points with Pam; Potato Juice cutscene; F.I.B.S. TV channel",
-    "repeatable": false
-  },
-  {
-    "id": "pierres-prime-produce",
-    "type": "special-order",
-    "name": "Pierre's Prime Produce",
-    "text": "For an upcoming promotion, I'm thinking of offering some high-quality vegetables.",
-    "providedBy": "Pierre",
-    "prerequisites": null,
-    "timeframe": 28,
-    "requirements": "Dump 25 Gold-quality vegetables in the bin at General Store",
-    "rewards": "2,500g, cutscene at General Store, Mini-Shipping Bin by mail",
-    "repeatable": false
-  },
-  {
-    "id": "Robin",
-    "type": "special-order",
-    "name": "Robin's Project",
-    "text": "I have an idea for a new style of bed. I just need some extra hardwood.",
-    "providedBy": "Robin",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Collect 80 Hardwood",
-    "rewards": "2,000g; 250 Friendship points with Robin; cutscene at Robin's house; Deluxe Red Double Bed available",
-    "repeatable": false
-  },
-  {
-    "id": "Robin2",
-    "type": "special-order",
-    "name": "Robin's Resource Rush",
-    "text": "I'm putting on a little promotion, just for fun. Whoever brings me the most resources wins a prize.",
-    "providedBy": "Robin",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Collect 1,000 of: Wood or Stone",
-    "rewards": "2,500g, Stone Chest recipe",
-    "repeatable": true
-  },
-  {
-    "id": "Willy",
-    "type": "special-order",
-    "name": "Juicy Bugs Wanted!",
-    "text": "I'm looking for a big wad o' bug guts to use as fishing bait.",
-    "providedBy": "Willy",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Gather 100 Bug Meat and dump it in the bin next to the fish shop",
-    "rewards": "3,000g, Quality Bobber recipe, cutscene at The Beach",
-    "repeatable": false
-  },
-  {
-    "id": "Willy2",
-    "type": "special-order",
-    "name": "Tropical Fish",
-    "text": "There's nothin' like tropical fishing. I'd love some fresh catches from Ginger Island.",
-    "providedBy": "Willy",
-    "prerequisites": "Ginger Island unlocked; Island Resort built",
-    "timeframe": 7,
-    "requirements": "Catch 5 each of: Stingray, Blue Discus, Lionfish",
-    "rewards": "2,500g, Deluxe Fish Tank",
-    "repeatable": false
-  },
-  {
-    "id": "Wizard",
-    "type": "special-order",
-    "name": "A Curious Substance",
-    "text": "I seek an extremely rare and powerful goop, known as ectoplasm. Bring it to me.",
-    "providedBy": "Wizard",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Collect 1 Ectoplasm",
-    "rewards": "2,500g, Mini-Obelisk recipe",
-    "repeatable": false
-  },
-  {
-    "id": "Wizard2",
-    "type": "special-order",
-    "name": "Prismatic Jelly",
-    "text": "I require assistance in tracking down the rare and dangerous prismatic slime.",
-    "providedBy": "Wizard",
-    "prerequisites": null,
-    "timeframe": 7,
-    "requirements": "Collect 1 Prismatic Jelly",
-    "rewards": "5,000g, Monster Musk recipe",
-    "repeatable": false
-  },
-  {
-    "id": "QiChallenge",
-    "type": "qi-special-order",
-    "name": "Qi's Crop",
-    "text": "I've hidden Qi Beans throughout the world. Find them, grow them, propagate them, and ship the results.",
-    "timeframe": 28,
-    "requirements": "Ship 500 Qi Fruit using the Shipping Bin",
-    "rewards": "100 Qi Gems"
-  },
-  {
-    "id": "QiChallenge2",
-    "type": "qi-special-order",
-    "name": "Let's Play A Game",
-    "text": "Think you can score 50,000 points in Junimo Kart endless mode? Impress me.",
-    "timeframe": 7,
-    "requirements": "Score 50,000 points in Junimo Kart endless mode",
-    "rewards": "20 Qi Gems"
-  },
-  {
-    "id": "QiChallenge3",
-    "type": "qi-special-order",
-    "name": "Four Precious Stones",
-    "text": "Find 4 prismatic shards. Place them in my collection box.",
-    "timeframe": 28,
-    "requirements": "Collect 4 Prismatic Shards (must be collected while quest is active)",
-    "rewards": "40 Qi Gems"
-  },
-  {
-    "id": "QiChallenge5",
-    "type": "qi-special-order",
-    "name": "Qi's Hungry Challenge",
-    "text": "Your task is to make it to level 100 in the Skull Cavern without consuming any food or drink.",
-    "timeframe": 7,
-    "requirements": "Reach floor 100 of Skull Cavern without consuming food or drink (Staircases allowed)",
-    "rewards": "25 Qi Gems"
-  },
-  {
-    "id": "QiChallenge6",
-    "type": "qi-special-order",
-    "name": "Qi's Cuisine",
-    "text": "Ship 100,000g worth of freshly cooked items.",
-    "timeframe": 14,
-    "requirements": "Ship 100,000g worth of freshly cooked items",
-    "rewards": "25 Qi Gems"
-  },
-  {
-    "id": "QiChallenge7",
-    "type": "qi-special-order",
-    "name": "Qi's Kindness",
-    "text": "Give 50 loved gifts in one week.",
-    "timeframe": 7,
-    "requirements": "Give 50 loved gifts to villagers within one week",
-    "rewards": "40 Qi Gems"
-  },
-  {
-    "id": "QiChallenge8",
-    "type": "qi-special-order",
-    "name": "Extended Family",
-    "text": "Family members of the legendary fish have returned to the valley. Catch them all.",
-    "timeframe": 3,
-    "requirements": "Catch Ms. Angler, Glacierfish Jr., Son of Crimsonfish, Radioactive Carp, and Legend II",
-    "rewards": "20 Qi Gems"
-  },
-  {
-    "id": "QiChallenge9",
-    "type": "qi-special-order",
-    "name": "Danger In The Deep",
-    "text": "The mine elevator system has been reset, and new dangers have emerged. Reach the bottom again.",
-    "timeframe": 7,
-    "requirements": "Reach the bottom of the Mines (Staircases allowed); resets unlocked Adventurer's Guild gear",
-    "rewards": "50 Qi Gems"
-  },
-  {
-    "id": "QiChallenge10",
-    "type": "qi-special-order",
-    "name": "Skull Cavern Invasion",
-    "text": "The Skull Cavern has been invaded by powerful monsters. Make it to floor 100.",
-    "timeframe": 7,
-    "requirements": "Make it to floor 100 of the Skull Cavern (Staircases allowed)",
-    "rewards": "40 Qi Gems"
-  },
-  {
-    "id": "QiChallenge12",
-    "type": "qi-special-order",
-    "name": "Qi's Prismatic Grange",
-    "text": "Find 100 each of red, orange, yellow, green, blue, and purple items and place them in my collection box.",
-    "timeframe": 14,
-    "requirements": "Place 100 each of red, orange, yellow, green, blue, and purple items in Qi's collection box (600 items total)",
-    "rewards": "35 Qi Gems"
   }
 ]

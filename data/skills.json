@@ -79,40 +79,6 @@
         "recipes": { "crafting": [], "cooking": [] }
       }
     ],
-    "professions": [
-      {
-        "level": 5,
-        "options": [
-          { "name": "Rancher", "description": "Animal products worth 20% more" },
-          { "name": "Tiller", "description": "Crops worth 10% more" }
-        ]
-      },
-      {
-        "level": 10,
-        "options": [
-          {
-            "name": "Coopmaster",
-            "description": "Befriend coop animals quicker. Incubation time cut in half",
-            "requires": "Rancher"
-          },
-          {
-            "name": "Shepherd",
-            "description": "Befriend barn animals quicker. Sheep produce wool faster",
-            "requires": "Rancher"
-          },
-          {
-            "name": "Artisan",
-            "description": "Artisan goods (wine, cheese, oil, etc.) worth 40% more",
-            "requires": "Tiller"
-          },
-          {
-            "name": "Agriculturist",
-            "description": "All crops grow 10% faster",
-            "requires": "Tiller"
-          }
-        ]
-      }
-    ],
     "mastery": {
       "unlocks": [
         {
@@ -201,32 +167,6 @@
         "recipes": { "crafting": [], "cooking": [] }
       }
     ],
-    "professions": [
-      {
-        "level": 5,
-        "options": [
-          { "name": "Miner", "description": "+1 ore per vein" },
-          { "name": "Geologist", "description": "50% chance for gems to appear in pairs" }
-        ]
-      },
-      {
-        "level": 10,
-        "options": [
-          { "name": "Blacksmith", "description": "Metal bars worth 50% more", "requires": "Miner" },
-          {
-            "name": "Prospector",
-            "description": "Chance to find coal doubled",
-            "requires": "Miner"
-          },
-          {
-            "name": "Excavator",
-            "description": "Chance to find geodes doubled",
-            "requires": "Geologist"
-          },
-          { "name": "Gemologist", "description": "Gems worth 30% more", "requires": "Geologist" }
-        ]
-      }
-    ],
     "mastery": {
       "unlocks": [
         {
@@ -310,36 +250,6 @@
         "xpRequired": 5000,
         "totalXp": 15000,
         "recipes": { "crafting": [], "cooking": [] }
-      }
-    ],
-    "professions": [
-      {
-        "level": 5,
-        "options": [
-          { "name": "Forester", "description": "Trees drop 25% more wood" },
-          { "name": "Gatherer", "description": "20% chance for double harvest of foraged items" }
-        ]
-      },
-      {
-        "level": 10,
-        "options": [
-          {
-            "name": "Lumberjack",
-            "description": "All trees have a chance to drop hardwood",
-            "requires": "Forester"
-          },
-          { "name": "Tapper", "description": "Syrups worth 25% more", "requires": "Forester" },
-          {
-            "name": "Botanist",
-            "description": "Foraged items are always highest quality",
-            "requires": "Gatherer"
-          },
-          {
-            "name": "Tracker",
-            "description": "Location of forageable items revealed",
-            "requires": "Gatherer"
-          }
-        ]
       }
     ],
     "mastery": {
@@ -430,36 +340,6 @@
         "recipes": { "crafting": [], "cooking": [] }
       }
     ],
-    "professions": [
-      {
-        "level": 5,
-        "options": [
-          { "name": "Fisher", "description": "Fish worth 25% more" },
-          { "name": "Trapper", "description": "Resources required to craft crab pots reduced" }
-        ]
-      },
-      {
-        "level": 10,
-        "options": [
-          { "name": "Angler", "description": "Fish worth 50% more", "requires": "Fisher" },
-          {
-            "name": "Pirate",
-            "description": "Chance to find treasure doubled",
-            "requires": "Fisher"
-          },
-          {
-            "name": "Mariner",
-            "description": "Crab pots no longer produce junk items",
-            "requires": "Trapper"
-          },
-          {
-            "name": "Luremaster",
-            "description": "Crab pots no longer require bait",
-            "requires": "Trapper"
-          }
-        ]
-      }
-    ],
     "mastery": {
       "unlocks": [
         {
@@ -546,32 +426,6 @@
         "xpRequired": 5000,
         "totalXp": 15000,
         "recipes": { "crafting": [], "cooking": [] }
-      }
-    ],
-    "professions": [
-      {
-        "level": 5,
-        "options": [
-          { "name": "Fighter", "description": "All attacks deal 10% more damage. +15 max HP" },
-          { "name": "Scout", "description": "Critical strike chance increased by 50%" }
-        ]
-      },
-      {
-        "level": 10,
-        "options": [
-          { "name": "Brute", "description": "Deal 15% more damage", "requires": "Fighter" },
-          { "name": "Defender", "description": "+25 max HP", "requires": "Fighter" },
-          {
-            "name": "Acrobat",
-            "description": "Cooldown on special moves cut in half",
-            "requires": "Scout"
-          },
-          {
-            "name": "Desperado",
-            "description": "Critical strikes are deadlier (2x critical damage)",
-            "requires": "Scout"
-          }
-        ]
       }
     ],
     "mastery": {

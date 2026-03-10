@@ -3,7 +3,10 @@
 Query builder and utilities for Stardew Valley skill data.
 
 Covers all five skills (Farming, Mining, Foraging, Fishing, Combat), including XP progression,
-recipes unlocked per level, profession paths, mastery unlocks, and player title calculation.
+recipes unlocked per level, mastery unlocks, and player title calculation.
+
+Profession data is in the separate `professions` module. The `getProfessionOptions()` helper bridges
+the two modules.
 
 ## Usage
 
@@ -41,54 +44,37 @@ skills(source?: Skill[]): SkillQuery
 skills().get();
 
 // Find farming skill
-skills().find('farming');
-skills().findByName('Fishing');
+skills().find("farming");
+skills().findByName("Fishing");
 
 // Get all crafting recipes unlocked at farming level 6
-const farming = skills().find('farming');
+const farming = skills().find("farming");
 farming?.levels[5].recipes.crafting; // ['Cheese Press', 'Hardwood Fence', 'Quality Sprinkler']
 
-// Get level 5 profession choices for combat
-const combat = skills().find('combat');
-combat?.professions[0].options; // [{ name: 'Fighter', ... }, { name: 'Scout', ... }]
-
-// Get level 10 professions that require Tiller
-const farming = skills().find('farming');
-farming?.professions[1].options.filter((p) => p.requires === 'Tiller');
-
 // Get mastery unlocks for a skill
-skills().find('combat')?.mastery.unlocks;
+skills().find("combat")?.mastery.unlocks;
 // [{ name: 'Anvil', description: '...' }, ...]
-
-// Find a specific mastery unlock by name
-skills().find('fishing')?.mastery.unlocks.find((u) => u.name === 'Advanced Iridium Rod');
 ```
 
 ## getProfessionOptions
 
 Returns the level 10 profession options available based on a skill name and the chosen level 5
-profession. Both arguments are case-insensitive. Returns an empty array if the skill or profession
-is not found.
+profession. Uses the `professions` module internally. Both arguments are case-insensitive. Returns
+an empty array if the skill or profession is not found.
 
 ```ts
-getProfessionOptions(skillName: string, level5Profession: string): Profession[]
+getProfessionOptions(skillName: string, level5Profession: string): ProfessionData[]
 ```
 
 ```ts
 getProfessionOptions("Farming", "Tiller");
 // [
-//   { name: 'Artisan', description: 'Artisan goods worth 40% more', requires: 'Tiller' },
-//   { name: 'Agriculturist', description: 'All crops grow 10% faster', requires: 'Tiller' }
+//   { id: '4', name: 'Artisan', skill: 'Farming', level: 10, parentProfession: '1', ... },
+//   { id: '5', name: 'Agriculturist', skill: 'Farming', level: 10, parentProfession: '1', ... }
 // ]
 
-getProfessionOptions("Farming", "Rancher");
-// [{ name: 'Coopmaster', ... }, { name: 'Shepherd', ... }]
-
-getProfessionOptions("Mining", "Geologist");
-// [{ name: 'Excavator', ... }, { name: 'Gemologist', ... }]
-
 getProfessionOptions("Combat", "Scout");
-// [{ name: 'Acrobat', ... }, { name: 'Desperado', ... }]
+// [{ id: '28', name: 'Acrobat', ... }, { id: '29', name: 'Desperado', ... }]
 ```
 
 ### All profession paths
@@ -165,25 +151,19 @@ MASTERY_LEVELS; // [{ level: 1, xpRequired: 10000, totalXp: 10000 }, ...]
 
 ## Skill fields
 
-| Field                               | Type               | Notes                                       |
-| ----------------------------------- | ------------------ | ------------------------------------------- | ------------------------------------------------ |
-| id                                  | string             | farming, mining, foraging, fishing, combat  |
-| name                                | string             |                                             |
-| description                         | string             |                                             |
-| toolBonus                           | string             | Bonus applied per level to associated tool  |
-| image                               | string             | Path to skill icon image                    |
-| levels                              | SkillLevel[]       | 10 entries, one per level                   |
-| levels[].level                      | number             | 1–10                                        |
-| levels[].xpRequired                 | number             | XP needed to reach this level from previous |
-| levels[].totalXp                    | number             | Cumulative XP required                      |
-| levels[].recipes.crafting           | string[]           | Crafting recipes unlocked at this level     |
-| levels[].recipes.cooking            | string[]           | Cooking recipes unlocked at this level      |
-| professions                         | ProfessionChoice[] | Two entries: level 5 and level 10 choices   |
-| professions[].level                 | 5                  | 10                                          |                                                  |
-| professions[].options               | Profession[]       |                                             |
-| professions[].options[].name        | string             |                                             |
-| professions[].options[].description | string             |                                             |
-| professions[].options[].requires    | string             | undefined                                   | Level-5 profession name required (level-10 only) |
-| mastery.unlocks                     | MasteryUnlock[]    | Rewards unlocked when mastery is claimed    |
-| mastery.unlocks[].name              | string             | Item or feature name                        |
-| mastery.unlocks[].description       | string             | What it does                                |
+| Field                         | Type            | Notes                                       |
+| ----------------------------- | --------------- | ------------------------------------------- |
+| id                            | string          | farming, mining, foraging, fishing, combat  |
+| name                          | string          |                                             |
+| description                   | string          |                                             |
+| toolBonus                     | string          | Bonus applied per level to associated tool  |
+| image                         | string          | Path to skill icon image                    |
+| levels                        | SkillLevel[]    | 10 entries, one per level                   |
+| levels[].level                | number          | 1–10                                        |
+| levels[].xpRequired           | number          | XP needed to reach this level from previous |
+| levels[].totalXp              | number          | Cumulative XP required                      |
+| levels[].recipes.crafting     | string[]        | Crafting recipes unlocked at this level     |
+| levels[].recipes.cooking      | string[]        | Cooking recipes unlocked at this level      |
+| mastery.unlocks               | MasteryUnlock[] | Rewards unlocked when mastery is claimed    |
+| mastery.unlocks[].name        | string          | Item or feature name                        |
+| mastery.unlocks[].description | string          | What it does                                |
