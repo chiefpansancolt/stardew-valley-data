@@ -79,8 +79,20 @@ villagers()
 | birthday     | { day: number; season: 'spring' \| 'summer' \| 'fall' \| 'winter' } | In-game birthday                                                 |
 | address      | string                                                              | Where the villager lives                                         |
 | occupation   | string                                                              | What they do                                                     |
+| description  | string                                                              | Short bio sourced from the wiki                                  |
 | marriageable | boolean                                                             | Can become a spouse/roommate                                     |
+| hearts       | { max, bouquetIncrease, spouseIncrease }                            | Heart limits and increases                                       |
+| events       | HeartEvent[]                                                        | Heart events with trigger heart level and game event ID(s)       |
 | image        | string                                                              | Path to portrait image                                           |
 | spouseImage  | string or undefined                                                 | Path to spouse portrait; present only for marriageable villagers |
 | loves        | string[]                                                            | Items they love (specific, not universal loves)                  |
 | likes        | string[]                                                            | Items they like beyond universal likes                           |
+
+## HeartEvent fields
+
+| Field       | Type                       | Notes                                                                                     |
+| ----------- | -------------------------- | ----------------------------------------------------------------------------------------- |
+| heart       | number                     | Heart level that triggers the event (e.g. `2`, `14.1`, `0.2`)                             |
+| id          | number \| number[] \| null | Game event ID; array for alternative versions; `null` for mail/recipe/non-cutscene events |
+| description | string                     | Brief description of what happens in the event                                            |
+| details     | string                     | Full event details including trigger conditions and outcomes                              |

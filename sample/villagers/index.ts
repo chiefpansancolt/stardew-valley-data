@@ -34,6 +34,12 @@ export function run(): { passed: number; failed: number } {
     console.log(`  ${v.name} — loves: ${v.loves.join(', ')}`);
   }
 
+  console.log('\n--- Heart events ---');
+  for (const v of villagers().sortByName().get()) {
+    const hearts = v.events.map((e) => e.heart).join(', ');
+    console.log(`  ${v.name}: ${hearts || '(none)'}`);
+  }
+
   console.log('\n--- By season ---');
   for (const season of ['spring', 'summer', 'fall', 'winter'] as const) {
     const names = villagers()

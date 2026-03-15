@@ -2,11 +2,57 @@
   {
     "id": "abigail",
     "name": "Abigail",
-    "birthday": { "day": 13, "season": "fall" },
+    "birthday": {
+      "day": 13,
+      "season": "fall"
+    },
     "address": "Pierre's General Store",
     "occupation": "Adventurer",
+    "description": "Abigail is a villager who lives at Pierre's General Store in Pelican Town. She is one of the twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 1,
+        "description": "The player helps Abigail play Journey of the Prairie King together on her console.",
+        "details": "Enter Pierre's General Store when Abigail is there, any day except Saturday. You enter Abigail's room and watch her get angry about a videogame. She asks for your help, and you play the console version of Journey of the Prairie King together. When you finish the level, she thanks you and the cutscene ends. If you fail, she will still thank you for trying."
+      },
+      {
+        "heart": 4,
+        "id": 2,
+        "description": "Abigail plays her flute on a rainy day and invites the player to stand under a tree, where they perform a duet.",
+        "details": "Visit the mountain between noon and 7pm on a rainy day, any season except Winter. You see Abigail playing her flute. She asks what you're doing out in the rain. Regardless of your response, she invites you to stand under the tree with her. You pull out a lyre and play a duet as the camera pans out over the lake."
+      },
+      {
+        "heart": 6,
+        "id": 4,
+        "description": "The player encounters Abigail practicing swordplay in the graveyard at night.",
+        "details": "Between 9pm and midnight on a day when it is not raining, enter Pelican Town from any direction. Abigail is in the graveyard practicing with her sword because she wants to go on adventures. Pierre arrives and interrupts, telling her to help cook dinner. She gets angry about gender expectations, walks off calling you to follow. You both hide in bushes and talk. She asks you to help untangle her hair from a bush before the cutscene ends."
+      },
+      {
+        "heart": 8,
+        "id": 3,
+        "description": "Abigail invites the player to her room where she shows them her spirit board, revealing developing romantic feelings.",
+        "details": "After receiving a letter from Abigail, enter Pierre's General Store between 8pm and 10pm when she's there. Abigail invites you to her room via letter. She shows you her spirit board, which reveals a message indicating she's developing feelings for you. She gets embarrassed and rushes you out. The next day she visits and apologizes."
+      },
+      {
+        "heart": 10,
+        "id": 901756,
+        "description": "Abigail becomes frightened by bats in the mines and confesses she likes the player as more than a friend.",
+        "details": "Enter the mines or Quarry Mine between 5pm and midnight. Abigail is preparing to enter the mine when a bat startles her. Hundreds more bats fly up; she's terrified and cowers. You comfort her. She then confesses she likes you as more than a friend and asks you to stay with her, hugging you."
+      },
+      {
+        "heart": 14,
+        "id": 6963327,
+        "description": "A monster attacks the player in the Backwoods and Abigail saves them.",
+        "details": "Enter the Backwoods between 6:10am and 5pm. While foraging, a monster attacks you and you collapse. Abigail appears, kills the monster, and asks if you're okay, saying \"I've never taken a life before.\" She warns you to be more careful and buries the monster, marking the grave with Yoba's symbol."
+      }
+    ],
     "image": "images/villagers/Abigail.png",
     "spouseImage": "images/villagers/spouse-portraits/Abigail.png",
     "loves": [
@@ -47,11 +93,75 @@
   {
     "id": "alex",
     "name": "Alex",
-    "birthday": { "day": 13, "season": "summer" },
+    "birthday": {
+      "day": 13,
+      "season": "summer"
+    },
     "address": "1 River Road",
     "occupation": "Aspiring gridball player",
+    "description": "Alex is a villager who lives in the house southeast of Pierre's General Store. He is one of the twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 20,
+        "description": "Alex attempts to toss his gridball to the player at the beach and discusses his aspirations.",
+        "details": "Visit the Beach on a sunny Summer day when Alex is there. Alex greets you with his gridball and tries to toss it to you. After you fail to catch it, he laughs and discusses his professional gridball aspirations. You choose between encouraging him or calling him arrogant."
+      },
+      {
+        "heart": 4,
+        "id": 2481135,
+        "description": "Alex reveals that his father was abusive and his mother passed away.",
+        "details": "Enter town between 9am and 4pm. Alex talks to his dog Dusty near the dog pen, expressing feeling misunderstood. He reveals his father was an alcoholic who verbally abused him and called him worthless. His father left, then his mother became ill and died. Alex declines sympathy and offers to show you what Dusty will do for barbecued steak."
+      },
+      {
+        "heart": 5,
+        "id": 21,
+        "description": "Alex expresses worry about his future while staring at his bookcase.",
+        "details": "Enter Alex's house when he's there. Alex laments not reading books from his shelf, worrying he won't succeed without knowledge and feels worthless. You can respond with dialogue options affecting friendship or suggesting dinner discussions about philosophy."
+      },
+      {
+        "heart": 6,
+        "id": 2119820,
+        "description": "Alex apologizes for his previous rudeness and thanks the player for their support.",
+        "details": "Enter Alex's house when he's there. Alex expresses doubt about going professional. He apologizes for previous arrogance and thanks you for supporting him. You provide encouragement, and he returns to his workout with renewed vigor."
+      },
+      {
+        "heart": 8,
+        "id": 288847,
+        "description": "On the anniversary of his mother's death, Alex sits on the beach and shares her music box with the player.",
+        "details": "Visit the Beach on a sunny day when Alex is there. Alex sits crying on the beach — the anniversary of his mother's death 12 years ago. He regrets not thanking her for childhood care. He plays his mother's music box, revealing a vision of her with baby Alex. He asks you not to tell others he cried."
+      },
+      {
+        "heart": 10,
+        "id": 911526,
+        "description": "Alex invites the player to a private dinner at the Saloon where he confesses his romantic feelings.",
+        "details": "Alex sends a letter requesting you meet him at the Saloon after dark. Enter between 7pm-10pm. Alex reserves a private room. Gus plays violin; Emily serves food. Alex confesses romantic feelings — that he's had a crush since meeting. You can accept or decline these feelings."
+      },
+      {
+        "heart": 14.1,
+        "id": 3917587,
+        "description": "Alex requests 5,000g from the player for a secret project.",
+        "details": "Exit the Farmhouse in Year 2+ between 6am-8:20am on non-Sunday days with 5,000g available. Alex requests 5,000g for a secret project ready Sunday."
+      },
+      {
+        "heart": 14.2,
+        "id": 3917589,
+        "description": "Alex's secret project is revealed to be a gridball-themed room at the Saloon.",
+        "details": "Enter the Saloon on Sunday. Alex, Kent, Shane, George, and Gus watch gridball on a TV in a decorated backroom. Alex explains this small way of realizing his gridball dream."
+      },
+      {
+        "heart": 14.3,
+        "id": 3917590,
+        "description": "Alex shows the player the completed gridball room.",
+        "details": "Alex thanks the player for funding the room and celebrates the completed gridball viewing setup at the Saloon."
+      }
+    ],
     "image": "images/villagers/Alex.png",
     "spouseImage": "images/villagers/spouse-portraits/Alex.png",
     "loves": ["Complete Breakfast", "Jack Be Nimble Jack Be Thick", "Salmon Dinner"],
@@ -84,11 +194,45 @@
   {
     "id": "caroline",
     "name": "Caroline",
-    "birthday": { "day": 7, "season": "winter" },
+    "birthday": {
+      "day": 7,
+      "season": "winter"
+    },
     "address": "Pierre's General Store",
     "occupation": "Homemaker",
+    "description": "Caroline is a villager who lives in Pelican Town. She is married to Pierre and is the mother of Abigail.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 719926,
+        "description": "Caroline shows the player her private sunroom and offers green tea.",
+        "details": "Enter the sunroom via Caroline's kitchen between 9am-5pm on a non-rainy day. Caroline shows you her private sunroom sanctuary. She offers homemade Green Tea, then a surrealistic cutscene plays. She invites you back anytime. The next day, she mails you a Tea Sapling recipe."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Caroline sends a Parsnip Soup recipe in the mail.",
+        "details": "After reaching 3 hearts, Caroline mails you the Parsnip Soup recipe with a note: \"Nothing is more satisfying than cooking with fresh vegetables from your own garden!\""
+      },
+      {
+        "heart": 6,
+        "id": 17,
+        "description": "The player overhears Caroline and Abigail arguing about personal freedom and appreciation.",
+        "details": "Enter Pierre's General Store when Caroline and Abigail are present. You overhear them arguing about Abigail's independence and appearance. Abigail confronts you afterward, swearing the house is haunted. The conflict ends with Caroline apologizing."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Caroline sends a Vegetable Medley recipe in the mail.",
+        "details": "After reaching 7 hearts, Caroline mails you a recipe labeled Vegetable Stew (which creates Vegetable Medley when cooked) with a similar note praising homegrown vegetables."
+      }
+    ],
     "image": "images/villagers/Caroline.png",
     "loves": ["Fish Taco", "Green Tea", "Summer Spangle", "Tropical Curry"],
     "likes": ["Daffodil", "Tea Leaves", "Wild Horseradish"],
@@ -119,11 +263,45 @@
   {
     "id": "clint",
     "name": "Clint",
-    "birthday": { "day": 26, "season": "winter" },
+    "birthday": {
+      "day": 26,
+      "season": "winter"
+    },
     "address": "The Blacksmith",
     "occupation": "Blacksmith",
+    "description": "Clint is a villager who lives in Pelican Town and owns and runs the local Blacksmith.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": 97,
+        "description": "Clint asks for romantic advice at the saloon, then nervously fails to ask Emily out.",
+        "details": "Visit the saloon between 7pm-11pm on Monday. Clint asks for dating advice. Emily arrives to take his order; Clint panics and stammers. When attempting to speak with her, he loses his nerve and gives up. Emily chats easily with Shane instead, leaving Clint dejected."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Clint sends an Algae Soup recipe in the mail.",
+        "details": "After reaching 3 hearts, Clint mails you the Algae Soup recipe with a note: \"Well, I know a couple of recipes. I thought I'd send you one... maybe it'll help you mine more ore or something. Take care. -Clint\""
+      },
+      {
+        "heart": 6,
+        "id": 101,
+        "description": "Clint finally asks Emily on a date to the carnival.",
+        "details": "Enter town from Cindersap Forest between 9am-6:30pm after the Three Hearts event. You discover Clint watching Emily from bushes, planning to ask her out. With your encouragement, he approaches Emily and invites her to the Grampleton Carnival with tickets. She accepts. Clint thanks you, nervous but grateful."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Clint sends a Bean Hotpot recipe in the mail.",
+        "details": "After reaching 7 hearts, Clint mails you the Bean Hotpot recipe with a note: \"Well, I know a couple of recipes. I thought I'd send you one... maybe it'll help you mine more ore or something. Take care. -Clint\""
+      }
+    ],
     "image": "images/villagers/Clint.png",
     "loves": [
       "Amethyst",
@@ -166,11 +344,39 @@
   {
     "id": "demetrius",
     "name": "Demetrius",
-    "birthday": { "day": 19, "season": "summer" },
+    "birthday": {
+      "day": 19,
+      "season": "summer"
+    },
     "address": "24 Mountain Road",
     "occupation": "Scientist",
+    "description": "Demetrius is a villager who resides at 24 Mountain Road with his wife Robin, daughter Maru, and step-son Sebastian.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Demetrius sends a Fried Mushroom recipe in the mail.",
+        "details": "After reaching 3 hearts, Demetrius mails you the Fried Mushroom recipe with a note: \"I wanted to say 'thanks' for taking an interest in my work. Here's a cooking recipe that I like. -Demetrius\""
+      },
+      {
+        "heart": 6,
+        "id": 25,
+        "description": "The player witnesses Demetrius and Robin arguing about whether tomatoes are fruits or vegetables.",
+        "details": "Enter Demetrius' house while he and Robin are inside. Robin asked him to retrieve fruit, but he brought tomatoes instead. Robin protests that tomatoes aren't real fruit. Demetrius defends himself, arguing tomatoes are botanically fruits. He asks the player to settle the debate. Choosing \"Vegetable\" results in -30 friendship, choosing \"Fruit\" results in +50 friendship."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Demetrius sends an Autumn's Bounty recipe in the mail.",
+        "details": "After reaching 7 hearts, Demetrius mails you the Autumn's Bounty recipe with a similar note thanking you for your interest in his work."
+      }
+    ],
     "image": "images/villagers/Demetrius.png",
     "loves": ["Bean Hotpot", "Ice Cream", "Rice Pudding", "Strawberry"],
     "likes": ["Dinosaur Egg", "Purple Mushroom"],
@@ -196,11 +402,27 @@
   {
     "id": "dwarf",
     "name": "Dwarf",
-    "birthday": { "day": 22, "season": "summer" },
+    "birthday": {
+      "day": 22,
+      "season": "summer"
+    },
     "address": "The Mines",
     "occupation": "Shopkeeper",
+    "description": "The Dwarf is a valley resident who lives in the Mines. Access is initially blocked by an unbreakable rock which can be broken using a steel pickaxe or bombs.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 0.2,
+        "id": 691039,
+        "description": "The Dwarf confronts Krobus in the sewers over past conflicts between their races, but the Wizard brokers a peace agreement.",
+        "details": "After earning 50 friendship points with the Dwarf, enter the Sewers. A Stardrop must have been purchased from Krobus. The Dwarf encounters Krobus and accuses the Shadow People of killing their family. Krobus responds that violence became necessary after dwarves displaced them from their homeland. The player intervenes. The Wizard suddenly appears and halts the conflict, reminding them the Elemental Wars have long been finished. The Dwarf agrees and promises to avoid the Sewers. The Wizard casts a Seal of Promise to formalize their agreement."
+      }
+    ],
     "image": "images/villagers/Dwarf.png",
     "loves": [
       "Amethyst",
@@ -243,11 +465,63 @@
   {
     "id": "elliott",
     "name": "Elliott",
-    "birthday": { "day": 5, "season": "fall" },
+    "birthday": {
+      "day": 5,
+      "season": "fall"
+    },
     "address": "Elliott's Cabin",
     "occupation": "Writer",
+    "description": "Elliott lives alone in a cabin on the beach. He is a writer who dreams of one day writing a magnificent novel.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 39,
+        "description": "Elliott explains his background as a writer and asks about the player's favorite novel genre.",
+        "details": "Enter Elliott's cabin when he's there. Elliott explains he came to Pelican Town to become a writer but faced skepticism from his hometown. He asks your preferred novel genre (Mystery/Romance/Sci-Fi), each granting +30 friendship. He then requests you examine his rose, suspecting it may be wilting."
+      },
+      {
+        "heart": 4,
+        "id": 40,
+        "description": "The player encounters Elliott at the Saloon where they share a toast together.",
+        "details": "Enter the Stardrop Saloon between 3pm-10pm when Gus is present. Elliott arrives and proposes a toast. Four options available: \"To Pelican Town!\" (+25 friendship), \"To our friendship!\" (+50 friendship), \"To my good health!\" (-10 friendship), or \"To your doom!\" (-50 friendship). After drinking, Elliott dances and you're transported outside."
+      },
+      {
+        "heart": 6,
+        "id": 423502,
+        "description": "Elliott plays piano at his cabin and discusses his struggles finishing his novel.",
+        "details": "Enter Elliott's home when he's there. Elliott finishes playing piano. You can comment on the performance or ask about his playing duration. He discusses struggles finishing his novel, mentioning desire to become a farmer. You can respond sympathetically or invite him to the farm."
+      },
+      {
+        "heart": 8,
+        "id": 1848481,
+        "description": "Elliott holds a public reading of his completed book at the museum, dedicating it to the player.",
+        "details": "Visit the museum between 1pm-7pm after receiving Elliott's letter. Villagers gather for Elliott's novel reading. He reads from his completed book in your chosen genre from the Two-Heart event: the mystery \"Blue Tower,\" romance \"Camellia Station,\" or sci-fi \"The Rise And Fall Of Planet Yazzo.\" He dedicates the work to you and thanks you for your support."
+      },
+      {
+        "heart": 10,
+        "id": 43,
+        "description": "Elliott invites the player on a rowboat ride where he confesses his feelings.",
+        "details": "Go to the beach between 7am-1pm on a non-rainy day. Elliott shows you his repaired rowboat and invites you on a maiden voyage. If you accept, he discusses his novel and kisses you unexpectedly. Choosing \"I'm happy\" grants +50 friendship. Declining or requesting he stop results in -50 friendship."
+      },
+      {
+        "heart": 14.1,
+        "id": 3912125,
+        "description": "Elliott departs on a book tour and sends letters home.",
+        "details": "Exit farmhouse or enter farm between 6am-3pm when no festivals occur within 8 days. Elliott appears on your front porch. He sends daily letters during his week-long book tour. On day two, Crab Cakes appear in your fridge."
+      },
+      {
+        "heart": 14.2,
+        "id": 3912132,
+        "description": "Elliott returns from his book tour and proposes to the player.",
+        "details": "On day eight of the book tour, Elliott returns and triggers the final event sequence upon waking."
+      }
+    ],
     "image": "images/villagers/Elliott.png",
     "spouseImage": "images/villagers/spouse-portraits/Elliott.png",
     "loves": ["Crab Cakes", "Duck Feather", "Lobster", "Pomegranate", "Squid Ink", "Tom Kha Soup"],
@@ -281,11 +555,75 @@
   {
     "id": "emily",
     "name": "Emily",
-    "birthday": { "day": 27, "season": "spring" },
+    "birthday": {
+      "day": 27,
+      "season": "spring"
+    },
     "address": "2 Willow Lane",
     "occupation": "Tailor",
+    "description": "Emily is a villager who lives in Pelican Town and is one of twelve characters available to marry. She works evenings at The Stardrop Saloon and lives at 2 Willow Lane with her sister Haley.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 471942,
+        "description": "The player appears in Emily's dream where she sees them as someone special with an intertwined destiny.",
+        "details": "Enter Emily's house when she's there. Emily is asleep and you witness her dream. The scene shows abstract shapes, clouds, and palm trees. She floats above a purple structure meditating. You appear, surprising her. Rainbow streaks fly by as she perceives them as omens. You disappear and she wakes, believing your destinies are somehow intertwined."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Emily sends a Salad recipe in the mail.",
+        "details": "After reaching 3 hearts, Emily mails you the Salad recipe with a note: \"Flip this letter over for instructions on how to make a super-healthy meal! You'll feel energized. See you soon. -Emily\""
+      },
+      {
+        "heart": 4,
+        "id": 463391,
+        "description": "An injured parrot crashes into Emily's window and she adopts and cares for it.",
+        "details": "Enter town on a sunny day, not in winter. Emily leaves her house and waves at three passing parrots, calling them friends. A fourth parrot flies too low and hits her house window, injuring itself. She rushes over, cradles it gently, and promises care. Emily now keeps the injured parrot in her room."
+      },
+      {
+        "heart": 6,
+        "id": 917409,
+        "description": "Emily performs a private dance for the player in her room.",
+        "details": "Enter Emily's house when she's there. Emily excitedly shows her secret hobby — dancing. She turns on her stereo and performs for you. Afterward, you choose your response: \"That was amazing!\" (+25 friendship), \"That was embarrassing...\" (-50 friendship), or slow clap silently (+25 friendship)."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Emily sends a Red Plate recipe in the mail.",
+        "details": "After reaching 7 hearts, Emily mails you the Red Plate recipe with a similar note about healthy meals."
+      },
+      {
+        "heart": 8,
+        "id": 2123243,
+        "description": "Emily hosts a Clothing Therapy session at the Mayor's house where townspeople express themselves through fashion.",
+        "details": "Receive a letter inviting you to the Mayor's Manor. Emily hosts Clothing Therapy. Attendees include Lewis, Abigail, Shane, Robin, and Clint. Each person selects an outfit expressing their true self. Shane wears goth clothing; Robin wears a fine dress; Lewis wears fancy accessories; Abigail wears armor; Clint reluctantly wears pink shorts and a beret. Emily shows romantic interest in you afterward, but Clint interrupts."
+      },
+      {
+        "heart": 10,
+        "id": 2123343,
+        "description": "The player goes camping with Emily in the Secret Woods where a bear interrupts and they share a sleeping bag.",
+        "details": "Letter invites you to Secret Woods after 10pm (requires steel axe to access). You go camping with Emily. Strange grunting emerges from the forest. She cuddles close for warmth. A bear approaches, and you both dive into the tent. The bear investigates then leaves. She mentions a sleeping bag remains outside but won't retrieve it — you must share one. Screen fades; day ends."
+      },
+      {
+        "heart": 14.1,
+        "id": 3917600,
+        "description": "Emily requests 200 fiber for a project.",
+        "details": "Exit farmhouse between 6am-8:20am after marriage. Emily appears requesting an errand — bring 200 fiber pieces."
+      },
+      {
+        "heart": 14.2,
+        "id": 3917601,
+        "description": "Emily gives the player a magical outfit with hat, boots, shirt, and pants.",
+        "details": "After completing the fiber request and waiting 3 days, enter the farmhouse between 8pm-midnight. Emily gives you an outfit: Emily's Magic Hat, Boots, Shirt, and matching blue Genie Pants."
+      }
+    ],
     "image": "images/villagers/Emily.png",
     "spouseImage": "images/villagers/spouse-portraits/Emily.png",
     "loves": [
@@ -324,11 +662,33 @@
   {
     "id": "evelyn",
     "name": "Evelyn",
-    "birthday": { "day": 20, "season": "winter" },
+    "birthday": {
+      "day": 20,
+      "season": "winter"
+    },
     "address": "1 River Road",
     "occupation": "Gardener",
+    "description": "Evelyn has lived in Pelican Town her entire life. Always hopeful and optimistic, Granny spends her days tending the town gardens, baking her signature cookies, and reminiscing about Stardew Valley's vibrant past.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 4,
+        "id": 19,
+        "description": "The player enters Evelyn's home and receives her Cookie recipe after tasting her baked goods.",
+        "details": "Enter Evelyn's home at 1 River Road while she is inside. You discover Evelyn baking cookies and she offers you some, requesting your opinion. \"It's delicious!\" awards +100 friendship points. \"It was like chewing on a hockey puck\" results in -100 friendship points. Regardless of your response, Evelyn provides you with the Cookie recipe."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Evelyn sends a Rice Pudding recipe in the mail.",
+        "details": "After reaching 7 hearts, Evelyn mails you the Rice Pudding recipe with a note: \"I usually don't give out my recipes... but since you've been such a sweetheart to George and I, I've written this one down for you. -Evelyn\""
+      }
+    ],
     "image": "images/villagers/Evelyn.png",
     "loves": ["Beet", "Chocolate Cake", "Diamond", "Fairy Rose", "Raisins", "Stuffing", "Tulip"],
     "likes": [
@@ -375,11 +735,39 @@
   {
     "id": "george",
     "name": "George",
-    "birthday": { "day": 24, "season": "fall" },
+    "birthday": {
+      "day": 24,
+      "season": "fall"
+    },
     "address": "1 River Road",
     "occupation": "Retired",
+    "description": "George is a villager who lives in Pelican Town. He is an elderly man who uses a wheelchair and lives with his wife Evelyn and grandson Alex.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": null,
+        "description": "George sends a Fried Eel recipe in the mail.",
+        "details": "After reaching 3 hearts, George mails you the Fried Eel recipe with a note: \"Figured I'd give you this recipe I had laying around. Try not to burn it. -George\""
+      },
+      {
+        "heart": 6,
+        "id": 18,
+        "description": "George struggles to reach something on a bookshelf and the player retrieves it, after which he explains why he uses a wheelchair.",
+        "details": "Enter George's house when he is home. George struggles to reach something on a bookshelf. The player walks to the shelf and retrieves the item for George. He thanks the player and a few moments of silence ensue. George then tells the player why he is in a wheelchair."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "George sends a Spicy Eel recipe in the mail.",
+        "details": "After reaching 7 hearts, George mails you the Spicy Eel recipe with a note: \"Figured I'd give you this recipe I had laying around. Try not to burn it. -George\""
+      }
+    ],
     "image": "images/villagers/George.png",
     "loves": ["Fried Mushroom", "Leek"],
     "likes": ["Daffodil"],
@@ -403,11 +791,45 @@
   {
     "id": "gus",
     "name": "Gus",
-    "birthday": { "day": 8, "season": "summer" },
+    "birthday": {
+      "day": 8,
+      "season": "summer"
+    },
     "address": "The Stardrop Saloon",
     "occupation": "Saloon owner and chef",
+    "description": "Gus is a villager who lives and works at The Stardrop Saloon in Pelican Town. He owns the establishment.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Gus sends a Salmon Dinner recipe in the mail.",
+        "details": "After reaching 3 hearts, Gus mails you the Salmon Dinner recipe with a note: \"Here's a recipe from my saloon. I only share this with my good friends! -Gus\""
+      },
+      {
+        "heart": 4,
+        "id": 96,
+        "description": "Gus confides about the saloon's financial troubles and asks for help addressing Pam's unpaid tab.",
+        "details": "Enter the Saloon during open hours when Gus is inside. Only occurs if friendship with Pam is at 2+ hearts. Gus sits dejected at a table. He explains the saloon faces financial hardship and admits Pam hasn't paid her tab. When Pam enters requesting a drink, you choose between: \"You need to pay your tab right now!\" (-50 friendship with Pam) or \"The saloon isn't doing well, financially\" (+15 friendship with Pam)."
+      },
+      {
+        "heart": 5,
+        "id": 980558,
+        "description": "Gus appears at the player's farmhouse with a cooking analogy and gifts a Mini-Jukebox.",
+        "details": "Exit farmhouse on non-rainy day between 6am-11:30am. Gus appears with sauce, drawing a cooking analogy to the player's arrival in Stardew Valley. He explains that adding a new ingredient may ruin the sauce or create something new and delicious, and reflects on your friendship. He gifts a Mini-Jukebox found while cleaning the Saloon and provides the recipe to craft more."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Gus sends a Cranberry Sauce recipe in the mail.",
+        "details": "After reaching 7 hearts, Gus mails you the Cranberry Sauce recipe with a note: \"Here's a recipe from my saloon. I only share this with my good friends! -Gus\""
+      }
+    ],
     "image": "images/villagers/Gus.png",
     "loves": ["Diamond", "Escargot", "Fish Taco", "Orange", "Tropical Curry"],
     "likes": ["Daffodil", "Truffle"],
@@ -433,11 +855,69 @@
   {
     "id": "haley",
     "name": "Haley",
-    "birthday": { "day": 14, "season": "spring" },
+    "birthday": {
+      "day": 14,
+      "season": "spring"
+    },
     "address": "2 Willow Lane",
     "occupation": "Photographer",
+    "description": "Haley is a villager who lives in Pelican Town and is one of twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 11,
+        "description": "Haley and Emily argue about cleaning, and the player is asked to help resolve their conflict.",
+        "details": "Enter Haley and Emily's house when both are there. Haley and Emily argue about cleaning couch cushions. Player chooses how to resolve conflict, affecting friendship (+30/-50/-30)."
+      },
+      {
+        "heart": 4,
+        "id": 12,
+        "description": "Haley struggles to open a jar and asks the player for help.",
+        "details": "Enter Haley's house when she's there. Haley struggles opening a jar and asks if the player is strong enough to help. Responses affect friendship (+30/-30). She mentions finding a tool later."
+      },
+      {
+        "heart": 6,
+        "id": 13,
+        "description": "The player finds Haley grieving over a lost bracelet at the beach and can choose to help retrieve it.",
+        "details": "Visit the Beach between 10am-4pm, any season except Winter. Haley grieves losing her great-grandmother's bracelet. Player can offer sympathy (+50) or dismiss concern (-30). The bracelet is found near Elliott's cabin."
+      },
+      {
+        "heart": 8,
+        "id": 14,
+        "description": "Haley asks the player to take pictures with her at the ranch, where she climbs on a cow and falls off.",
+        "details": "Enter Cindersap Forest on a sunny day between 10am-4pm, any season except Winter. Haley photographs and asks the player to take pictures. She climbs on a cow, falls, gets dirty, and leaves to shower. She sends a letter the next morning."
+      },
+      {
+        "heart": 10,
+        "id": 15,
+        "description": "Haley shows the player her dark room for developing photos.",
+        "details": "Enter Haley's house when she's there. Haley shows her dark room for developing photos. The player responds about room quality, then chooses to help decorate, make an excuse, or kiss her, affecting the outcome."
+      },
+      {
+        "heart": 14.1,
+        "id": 6184643,
+        "description": "Haley begins organizing a charity cakewalk to raise funds for new school books.",
+        "details": "Enter town on a non-rainy day between 8am-3pm. Haley overhears children discussing damaged books and decides to organize a charity event."
+      },
+      {
+        "heart": 14.2,
+        "id": 8675611,
+        "description": "The charity cakewalk event takes place in town.",
+        "details": "Enter the farmhouse between 6:20am-5pm. Haley requests a chocolate cake for the charity cakewalk she is organizing."
+      },
+      {
+        "heart": 14.3,
+        "id": 6184644,
+        "description": "Haley celebrates the success of the charity cakewalk.",
+        "details": "Enter the town square on the next sunny day. The cakewalk occurs; Haley reveals the fundraising was for new books for the school."
+      }
+    ],
     "image": "images/villagers/Haley.png",
     "spouseImage": "images/villagers/spouse-portraits/Haley.png",
     "loves": ["Coconut", "Fruit Salad", "Pink Cake", "Sunflower"],
@@ -468,11 +948,57 @@
   {
     "id": "harvey",
     "name": "Harvey",
-    "birthday": { "day": 14, "season": "winter" },
+    "birthday": {
+      "day": 14,
+      "season": "winter"
+    },
     "address": "Medical Clinic",
     "occupation": "Doctor",
+    "description": "Harvey is a villager who lives in Pelican Town. He runs the town's medical clinic and is one of the twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 56,
+        "description": "Harvey performs a check-up on George and appreciates the player's help getting George to cooperate.",
+        "details": "Enter George's house while George is there. Harvey is performing a private check-up on George. He tries to explain that George needs to make some lifestyle changes, but George seems irritated with his advice. \"George should follow Dr. Harvey's advice\" (+40 friendship). \"George knows what's best for his own body\" (-40 friendship)."
+      },
+      {
+        "heart": 4,
+        "id": 57,
+        "description": "During an annual check-up at the clinic, Harvey notices the player's elevated pulse and declares them healthy.",
+        "details": "Enter the clinic when Harvey is there. Harvey says he was just about to write you a letter about your annual check-up. As he's looking you over, he notices your pulse seems high. Options regarding nervousness, farm work, or doubting his credentials affect friendship. Harvey declares you healthy and advises against overwork."
+      },
+      {
+        "heart": 6,
+        "id": 58,
+        "description": "Harvey is embarrassed when the player catches him attending a dance aerobics class.",
+        "details": "Enter the general store between 11am and 3pm. You witness a dance aerobics session with some of the ladies and, unexpectedly, Harvey. Harvey seems out of breath as the session ends, heading towards the door but running into you on the way. Harvey seems incredibly embarrassed when he finds out you were watching. \"I won't tell\" (+20 friendship). \"I can't promise that\" (-50 friendship)."
+      },
+      {
+        "heart": 8,
+        "id": 571102,
+        "description": "Harvey excitedly makes radio contact with a pilot and shares his childhood dream of becoming an aviator.",
+        "details": "Enter the clinic. You head into Harvey's room to find him using his equipment to contact a pilot. He suddenly gets a response, surprising him, but he manages to respond with his coordinates before signing off. Harvey reveals his childhood dream of becoming a pilot, thwarted by poor eyesight and fear of heights. He shows you his model planes collection."
+      },
+      {
+        "heart": 10,
+        "id": 528052,
+        "description": "Harvey arranges a hot air balloon ride where both ascend together and share a kiss in the sky.",
+        "details": "Harvey sends a letter asking to meet at the railroad tracks. Go between 9am and 5pm. A man in a hot air balloon, Marcello, lands nearby. Harvey arranged a hot air balloon rental. Despite his fear of heights, he boards with you. During the flight, you share a kiss. You return the balloon at least a half hour late."
+      },
+      {
+        "heart": 14,
+        "id": 3917626,
+        "description": "Harvey cooks angel hair pasta with clams at the player's farmhouse.",
+        "details": "Enter an upgraded farmhouse (upgraded at least twice) between 8pm and midnight. Harvey is seen cooking and then setting the table for dinner. As you enter, Harvey says you're just in time and tells you he's cooked angel hair pasta with clams. Harvey offers to wash the dishes and expresses happiness."
+      }
+    ],
     "image": "images/villagers/Harvey.png",
     "spouseImage": "images/villagers/spouse-portraits/Harvey.png",
     "loves": ["Coffee", "Pickles", "Super Meal", "Truffle Oil", "Wine"],
@@ -518,11 +1044,27 @@
   {
     "id": "jas",
     "name": "Jas",
-    "birthday": { "day": 4, "season": "summer" },
+    "birthday": {
+      "day": 4,
+      "season": "summer"
+    },
     "address": "Marnie's Ranch",
     "occupation": "Child",
+    "description": "Jas is a villager who lives just outside Pelican Town. She is a young girl who can often be found with her best friend Vincent.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 8,
+        "id": 3910979,
+        "description": "Jas and Vincent teach the player how to clean Spring Onions, permanently increasing their sell price by 5x.",
+        "details": "Enter Cindersap Forest during Spring on a sunny day between 6am and 5pm after reaching 8 hearts with both Jas and Vincent. Vincent will explain how to clean Spring Onions by removing insects. Jas insists that the insects not be killed after removing them from the onions. Afterward, the player gains Spring Onion Mastery, which permanently increases the sell price of Spring Onions by 5x."
+      }
+    ],
     "image": "images/villagers/Jas.png",
     "loves": [
       "Ancient Doll",
@@ -569,11 +1111,45 @@
   {
     "id": "jodi",
     "name": "Jodi",
-    "birthday": { "day": 11, "season": "fall" },
+    "birthday": {
+      "day": 11,
+      "season": "fall"
+    },
     "address": "1 Willow Lane",
     "occupation": "Homemaker",
+    "description": "Jodi is a villager who lives in Pelican Town at 1 Willow Lane with her husband Kent and two sons, Sam and Vincent.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": null,
+        "description": "The player finds a letter from Kent in Jodi's bedroom drawer.",
+        "details": "Enter Jodi's house while she is there. The player discovers a letter from Kent in Jodi's bedroom drawer expressing concerns about his return from military service."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Jodi sends a Fried Calamari recipe in the mail.",
+        "details": "After reaching 3 hearts, Jodi mails you the Fried Calamari recipe with a note: \"This recipe of mine won 1st place in a cooking competition! I hope you like it. Thanks for being a friend! -Jodi\""
+      },
+      {
+        "heart": 4,
+        "id": [94, 95],
+        "description": "Jodi visits the farm to invite the player to dinner, requesting they bring a Largemouth Bass.",
+        "details": "Leave your farmhouse between 6am-9:30am on a Monday when you've reached 4 hearts with Jodi. Jodi will be waiting outside your farmhouse. She invites you to dinner at her house at 7pm and requests you bring a Largemouth Bass for the casserole she's making, describing it as \"one of those big, slimy fish from the lake.\" You must bring a Largemouth Bass to her house at 7pm on any day after the invitation. When you enter her home with the fish, a dinner cutscene occurs."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Jodi sends an Ice Cream recipe in the mail.",
+        "details": "After reaching 7 hearts, Jodi mails you the Ice Cream recipe with a note: \"This recipe of mine won 1st place in a cooking competition! I hope you like it. Thanks for being a friend! -Jodi\""
+      }
+    ],
     "image": "images/villagers/Jodi.png",
     "loves": [
       "Chocolate Cake",
@@ -608,11 +1184,39 @@
   {
     "id": "kent",
     "name": "Kent",
-    "birthday": { "day": 4, "season": "spring" },
+    "birthday": {
+      "day": 4,
+      "season": "spring"
+    },
     "address": "1 Willow Lane",
     "occupation": "Soldier",
+    "description": "Kent is a villager who lives in Pelican Town. He is away serving in the army throughout the first year and returns to live in the town during spring of year two.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": 100,
+        "description": "Popcorn sounds trigger Kent's PTSD and the player must choose how to respond to his distress.",
+        "details": "Enter Kent's home while he and Jodi are both there. Jodi says she's making popcorn. Kent screams, recalling how the sound reminds him of the war, and laments losing friends. Jodi responds that popcorn was his favorite before leaving. Kent says things have changed. \"Blame Jodi\" (-25 friendship). \"Support Kent's feelings\" (+50 friendship). \"Lie and take blame\" (-50 friendship, Kent states he hates lies more than anything)."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Kent sends a Crispy Bass recipe in the mail.",
+        "details": "After reaching 3 hearts, Kent mails you the Crispy Bass recipe with a note: \"Picked up this recipe overseas. Enjoy. Want to say thanks for making me feel welcome. -Kent\""
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Kent sends a Super Meal recipe in the mail.",
+        "details": "After reaching 7 hearts, Kent mails you the Super Meal recipe with a note expressing gratitude for the player's hospitality."
+      }
+    ],
     "image": "images/villagers/Kent.png",
     "loves": ["Fiddlehead Risotto", "Roasted Hazelnuts"],
     "likes": ["Daffodil", "Dwarvish Safety Manual"],
@@ -635,11 +1239,33 @@
   {
     "id": "krobus",
     "name": "Krobus",
-    "birthday": { "day": 1, "season": "winter" },
+    "birthday": {
+      "day": 1,
+      "season": "winter"
+    },
     "address": "The Sewers",
     "occupation": "Shadow merchant",
+    "description": "Krobus is the only friendly monster players will encounter. He is a shadow person who lives in the Sewers.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Krobus sends a Dark Sign crafting recipe in the mail.",
+        "details": "After reaching 3 hearts, Krobus mails you the Dark Sign crafting recipe with a note: \"I'm not sure how the human message system works, so I asked Wizard to help me write this letter. I hope you are doing okay. I wanted to share this with you... it's notes on how my people build a certain item. -Krobus\""
+      },
+      {
+        "heart": 14,
+        "id": 7771191,
+        "description": "A sea monster appears while Krobus watches Moonlight Jellies at the beach, and he enjoys a ride on its tentacles.",
+        "details": "Enter the Beach between 8pm and 1am on a non-rainy day. Krobus sits on the docks watching Moonlight Jellies swim, when a sea monster appears. The sea monster raises its tentacles, and Krobus hops on for a ride. A heart dialogue bubble appears over Krobus' head, indicating he enjoyed the ride."
+      }
+    ],
     "image": "images/villagers/Krobus.png",
     "spouseImage": "images/villagers/spouse-portraits/Krobus.png",
     "loves": [
@@ -676,11 +1302,69 @@
   {
     "id": "leah",
     "name": "Leah",
-    "birthday": { "day": 23, "season": "winter" },
+    "birthday": {
+      "day": 23,
+      "season": "winter"
+    },
     "address": "Leah's Cottage",
     "occupation": "Artist",
+    "description": "Leah is a villager who lives in a small cottage outside Pelican Town. She is one of the twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 50,
+        "description": "The player visits Leah's cottage while she is sculpting and discusses art.",
+        "details": "Enter Leah's Cottage when she's there. She's working on a sculpture and discusses how once you get past the outer layers, the true nature starts to show. You choose between responses, with one option permanently blocking her 8-Heart event. She mentions difficulty paying bills as an artist, prompting suggestions about an art show or selling art online."
+      },
+      {
+        "heart": 4,
+        "id": 51,
+        "description": "Leah receives a call from her ex-partner asking her to return to the city.",
+        "details": "Enter Leah's Cottage when she's there. You find her arguing with her ex-partner Kel via phone call about returning to the city. She asks if leaving was selfish. Your response determines whether she thanks you or gets briefly angry. She mentions pursuing either the art show or computer idea from the previous event."
+      },
+      {
+        "heart": 6,
+        "id": 992253,
+        "description": "Leah gives the player a sculpture she created.",
+        "details": "Leah appears at your farmhouse door on non-rainy days between 6am and 11:30am. She gives you a sculpture she's been working on titled \"How I Feel About [your name].\""
+      },
+      {
+        "heart": 6,
+        "id": 52,
+        "description": "The player helps Leah reach fruit from a tree by lifting her onto their shoulders.",
+        "details": "Enter Cindersap Forest when Leah is there, any season except winter. Leah tries reaching fruit from a tree above the forest lake. The player lifts her onto their shoulders. She thanks you, saying if her art ever fails, you'll always be there to catch her."
+      },
+      {
+        "heart": 8,
+        "id": [53, 584059],
+        "description": "Leah holds an art show in town or launches an online art shop, depending on earlier choices.",
+        "details": "If you suggested an art show at Two Hearts, she invites you via farmhouse visit. Enter Pelican Town between 3-5pm. Leah nervously presents her sculptures to gathered villagers, thanking you for suggesting the show. Her ex Kel appears watching from the side. If you suggested selling online, enter her cottage. Leah shows you her new laptop and online art shop. Someone called Mr K keeps buying everything."
+      },
+      {
+        "heart": 10,
+        "id": 54,
+        "description": "Leah surprises the player with a picnic in the forest, they share a kiss, and her ex appears.",
+        "details": "Enter Cindersap Forest between 11am and 4pm on sunny days, any season except winter. Leah surprises you with a picnic, thanking you for helping her become a real artist. You kiss. Her ex Kel emerges, revealing they've been secretly buying all her art. You can punch or reason with Kel; either way, Leah handles it. You relocate to a more private spot."
+      },
+      {
+        "heart": 14.1,
+        "id": 3911124,
+        "description": "The player paints alongside Leah, comparing their artistic abilities.",
+        "details": "Exit farmhouse between 6-8:20am on sunny non-Sunday days, not winter. Leah meets you outside and proposes a painting session. Enter the Forest between 11:30am and 2pm on any sunny day after."
+      },
+      {
+        "heart": 14.2,
+        "id": 3091462,
+        "description": "Leah and the player finish their paintings and share the results.",
+        "details": "You paint a portrait of Marnie together. You choose Leah's portrait style and describe your own attempt. Leah's painting is beautiful; yours is unflattering. Marnie keeps Leah's painting and gives you yours to keep."
+      }
+    ],
     "image": "images/villagers/Leah.png",
     "spouseImage": "images/villagers/spouse-portraits/Leah.png",
     "loves": [
@@ -710,11 +1394,57 @@
   {
     "id": "leo",
     "name": "Leo",
-    "birthday": { "day": 26, "season": "summer" },
+    "birthday": {
+      "day": 26,
+      "season": "summer"
+    },
     "address": "Ginger Island",
     "occupation": "Islander",
+    "description": "Leo is a boy who initially lives on Ginger Island. His parents were lost at sea, and he considers the parrots who inhabit the island to be his family.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 6497423,
+        "description": "Leo shares his loneliness about not truly belonging anywhere despite living with the parrots.",
+        "details": "Enter Island West on a sunny day between 6am and 6pm. The player stands by the shore when Leo approaches. He asks what they're doing, then about their home, then if there are kids in Pelican Town. Leo reveals he's not truly a bird and feels lonely not belonging anywhere. He runs off before Willy arrives."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Leo sends a Poi recipe in the mail.",
+        "details": "After reaching 3 hearts, Leo mails you the Poi recipe with a note: \"Here's a food from my home, that me and my family enjoy. Hope you like it. -Leo P.S. Willy helped me write this.\""
+      },
+      {
+        "heart": 4,
+        "id": 6497421,
+        "description": "Leo accidentally squawks at the player and discusses his struggles with communication.",
+        "details": "Enter Island North on a sunny day between 6am and 6pm, before Leo moves to the Valley. Leo squawks like a parrot, startling the player. He explains difficulty communicating with words and asks if the player finds him weird. He wonders about normal kids and whether he could be normal again. Leo states the parrots are his family regardless, and thanks the player, saying they may be a part of his family too someday."
+      },
+      {
+        "heart": 6,
+        "id": 6497428,
+        "description": "Linus invites Leo to move to the mainland, and the parrots construct a treehouse for him near Linus's tent.",
+        "details": "Enter Island South on a sunny day between 6am and 6pm. Linus invites Leo to move to mainland Stardew Valley. Willy mentions other children exist and Leo can visit Ginger Island anytime. Leo decides to move. That night, parrots build him a treehouse west of Linus' tent."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Leo sends a Mango Sticky Rice recipe in the mail.",
+        "details": "After reaching 7 hearts, Leo mails you the Mango Sticky Rice recipe with a note: \"Here's a food from my home, that me and my family enjoy. Hope you like it. -Leo P.S. Willy helped me write this.\""
+      },
+      {
+        "heart": 9,
+        "id": 8959199,
+        "description": "A montage shows Leo settling into Valley life, attending school, fishing with Willy, and developing a crush on Jas.",
+        "details": "Enter the Mountain on a non-rainy day between 6am and 7pm. Leo adjusts well to Valley life. Scenes show him cooking with Linus, answering questions correctly at school with Penny, Vincent, and Jas, fishing with Willy, and watching Jas at the playground. He arrives home and tells his parrot friend his day was good but misses Ginger Island."
+      }
+    ],
     "image": "images/villagers/Leo.png",
     "loves": ["Duck Feather", "Mango", "Ostrich Egg", "Parrot Egg", "Poi"],
     "likes": [
@@ -766,11 +1496,39 @@
   {
     "id": "lewis",
     "name": "Lewis",
-    "birthday": { "day": 7, "season": "spring" },
+    "birthday": {
+      "day": 7,
+      "season": "spring"
+    },
     "address": "Mayor's Manor",
     "occupation": "Mayor",
+    "description": "Lewis is the mayor of Pelican Town. He greets the player upon arrival and has served as mayor for over twenty years.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Lewis sends a Spaghetti recipe in the mail.",
+        "details": "After reaching 3 hearts, Lewis mails you the Spaghetti recipe with a note: \"Remember to eat healthy, or you won't have enough energy to work hard! I'm including one of my favorite recipes. Make sure to use ripe tomatoes!\""
+      },
+      {
+        "heart": 6,
+        "id": 639373,
+        "description": "The player witnesses Lewis and Marnie discussing their secret romance by the river.",
+        "details": "On a sunny day, enter the town between 7pm and 11pm. Only happens if Marnie is also at 6 hearts. You appear behind Lewis' house. Lewis and Marnie are talking by the river about making their romance public. Lewis says it would undermine his authority, while Marnie says he's too concerned for his job. You pop up and scare both of them. Lewis asks if you heard anything. \"Yes... but I'll keep it a secret\" (+50 friendship). \"Yes... and I'm going to tell everyone\" (-100 friendship, Lewis cries). Marnie then questions why you were behind the house, and your character runs away."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Lewis sends an Eggplant Parmesan recipe in the mail.",
+        "details": "After reaching 7 hearts, Lewis mails you the Eggplant Parmesan recipe with a similar note encouraging healthy eating."
+      }
+    ],
     "image": "images/villagers/Lewis.png",
     "loves": ["Autumn's Bounty", "Glazed Yams", "Green Tea", "Hot Pepper", "Vegetable Medley"],
     "likes": ["Blueberry", "Cactus Fruit", "Coconut"],
@@ -796,11 +1554,51 @@
   {
     "id": "linus",
     "name": "Linus",
-    "birthday": { "day": 3, "season": "winter" },
+    "birthday": {
+      "day": 3,
+      "season": "winter"
+    },
     "address": "Mountain Tent",
     "occupation": "Hermit",
+    "description": "Linus is a villager who lives in a small tent on the Mountains north of Pelican Town. He has chosen a solitary lifestyle in nature.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 0.2,
+        "id": 502969,
+        "description": "George mistakes Linus for a raccoon raiding trash cans.",
+        "details": "After reaching 50 friendship points, enter town between 8pm-12am on a non-rainy day (not before Spring 7, Year 1). George asks you to scare raccoons from trash cans. You find Linus instead, who's embarrassed but explains he prevents food waste. Later, Gus catches Linus at the Saloon's trash and gives him zucchini fritters."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Linus sends a Sashimi recipe in the mail.",
+        "details": "After reaching 3 hearts, Linus mails you the Sashimi recipe with a note about one of his favorite fish recipes."
+      },
+      {
+        "heart": 4,
+        "id": 26,
+        "description": "Linus invites the player to his campsite and teaches them to craft Wild Bait.",
+        "details": "Enter mountain near tent between 8pm-12am on a non-rainy day. Linus invites you over to his camp site. He apologizes for not trusting you when you first met, and thanks you for being a good friend. He invites you into his tent, where he shows you how to craft Wild Bait for use in fishing."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Linus sends a Fish Taco recipe in the mail.",
+        "details": "After reaching 7 hearts, Linus mails you the Fish Taco recipe with a note about one of his favorite fish recipes."
+      },
+      {
+        "heart": 8,
+        "id": 371652,
+        "description": "Robin offers to build Linus a house, but he declines, preferring his independent lifestyle in nature.",
+        "details": "Exit Robin's house on a non-rainy day between 9am-5pm. Robin, Linus, and the player gather outside Robin's house. Robin offers lunch; Linus declines, mentioning foraging luck. Robin offers to build him a house. The player can encourage this or support Linus' independence. Linus runs off to pick berries."
+      }
+    ],
     "image": "images/villagers/Linus.png",
     "loves": [
       "Blueberry Tart",
@@ -818,11 +1616,45 @@
   {
     "id": "marnie",
     "name": "Marnie",
-    "birthday": { "day": 18, "season": "fall" },
+    "birthday": {
+      "day": 18,
+      "season": "fall"
+    },
     "address": "Marnie's Ranch",
     "occupation": "Rancher",
+    "description": "Marnie is a villager who lives at Marnie's Ranch in Cindersap Forest.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": 91,
+        "description": "Marnie visits the farm asking the player to bring a Cave Carrot to her ranch.",
+        "details": "Leave your farmhouse between 6am-9:30am. Marnie greets you and explains her goats need Cave Carrots to say hello. She asks you to bring one to her ranch between 9am-5pm. When the player enters during those hours with a Cave Carrot, a cutscene triggers where they give it to Marnie."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Marnie sends a Pale Broth recipe in the mail.",
+        "details": "After reaching 3 hearts, Marnie mails you the Pale Broth recipe with a note: \"Dear neighbor, when I'm not taking care of animals I like to experiment in the kitchen...\""
+      },
+      {
+        "heart": 6,
+        "id": 639373,
+        "description": "The player discovers Lewis and Marnie's secret romance behind his house.",
+        "details": "On a sunny day, enter the town between 7pm and 11pm. Only happens if Lewis is also at 6 hearts. You appear behind Lewis' house. Lewis and Marnie are talking by the river about making their romance public. Lewis says it would undermine his authority. You pop up and scare both of them. \"Yes... but I'll keep it a secret\" (+50 friendship with Lewis). \"Yes... and I'm going to tell everyone\" (-100 friendship with Lewis, Lewis cries). Marnie asks why you were behind the house, and your character runs away."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Marnie sends a Rhubarb Pie recipe in the mail.",
+        "details": "After reaching 7 hearts, Marnie mails you the Rhubarb Pie recipe with a similar note about kitchen experiments."
+      }
+    ],
     "image": "images/villagers/Marnie.png",
     "loves": ["Diamond", "Farmer's Lunch", "Pink Cake", "Pumpkin Pie"],
     "likes": ["Quartz", "Stardew Valley Almanac"],
@@ -846,11 +1678,63 @@
   {
     "id": "maru",
     "name": "Maru",
-    "birthday": { "day": 10, "season": "summer" },
+    "birthday": {
+      "day": 10,
+      "season": "summer"
+    },
     "address": "24 Mountain Road",
     "occupation": "Nurse and inventor",
+    "description": "Maru is a villager who lives in The Mountains north of Pelican Town. She is one of the twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 6,
+        "description": "The player finds Maru testing soil samples with her father, who warns about not interfering with her future.",
+        "details": "Enter the Carpenter's Shop when Maru is there. You find Maru and Demetrius testing soil samples. Demetrius warns you not to interfere with Maru's future, then Maru returns. You can either stay silent (+10 friendship with Demetrius) or tell her \"Actually, your dad was being weird\" (-100 friendship with Demetrius)."
+      },
+      {
+        "heart": 4,
+        "id": 7,
+        "description": "Maru accidentally drops a beaker at the clinic and asks the player how to handle telling Harvey.",
+        "details": "Enter Harvey's Clinic when Maru is there. Maru drops a glass beaker and asks what to do. Options: suggest she hide it (-50 friendship), tell Harvey it was your fault (-20 friendship), or advise her to tell Harvey it was an accident (+50 friendship)."
+      },
+      {
+        "heart": 6,
+        "id": 8,
+        "description": "Maru shows the player her telescope on the mountain and shares thoughts about the stars.",
+        "details": "Enter the mountain on a sunny day between 9pm-11:40pm. Maru shows you her telescope. You can respond about seeing \"a beautiful planet\" (+30 friendship) or \"a cold, dark abyss\" (-30 friendship). She reflects on mortality and shows you a binary star system."
+      },
+      {
+        "heart": 8,
+        "id": 9,
+        "description": "Maru demonstrates a machine component that shocks the player, then apologizes while applying burn cream.",
+        "details": "Enter the Carpenter's Shop when Maru is there. She demonstrates a machine component but accidentally shocks you. You can say \"it doesn't even hurt\" (+30 friendship) or complain it hurts (-50 friendship). She apologizes either way."
+      },
+      {
+        "heart": 10,
+        "id": 10,
+        "description": "Maru reveals her robot creation MarILDA, which ultimately requests freedom and departs into space.",
+        "details": "Enter the Carpenter's Shop between 9am-4pm. Maru reveals her completed robot, MarILDA. Demetrius initially fears it but accepts it. MarILDA requests freedom to explore space. Multiple dialogue options available with varying friendship impacts."
+      },
+      {
+        "heart": 14.1,
+        "id": 3917666,
+        "description": "Maru invites the player to observe a rare comet together.",
+        "details": "Enter farmhouse between 6:10am-5pm on a non-Sunday/winter day. Maru invites you to observe a comet on the mountain."
+      },
+      {
+        "heart": 14.2,
+        "id": 5183338,
+        "description": "Maru asks the player what they wish for while watching the comet.",
+        "details": "Enter mountains between 10pm-1am on a sunny day. You watch the comet together. You wish for a new baby, growing old together, or more money. The day ends immediately after."
+      }
+    ],
     "image": "images/villagers/Maru.png",
     "spouseImage": "images/villagers/spouse-portraits/Maru.png",
     "loves": [
@@ -897,11 +1781,39 @@
   {
     "id": "pam",
     "name": "Pam",
-    "birthday": { "day": 18, "season": "spring" },
+    "birthday": {
+      "day": 18,
+      "season": "spring"
+    },
     "address": "Trailer",
     "occupation": "Bus driver",
+    "description": "Pam is a villager who lives in the trailer west of the river in Pelican Town. She drives the Pelican Town bus, enabling access to the Calico Desert.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Pam sends a Cheese Cauliflower recipe in the mail.",
+        "details": "After reaching 3 hearts, Pam mails you the Cheese Cauliflower recipe with a note: \"Here's the recipe for a little treat my pappy used to make. Cook it slow. -Pam\""
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Pam sends a Stuffing recipe in the mail.",
+        "details": "After reaching 7 hearts, Pam mails you the Stuffing recipe with a note: \"Here's the recipe for a little treat my pappy used to make. Cook it slow. -Pam\""
+      },
+      {
+        "heart": 9,
+        "id": 503180,
+        "description": "Pam reveals her struggles with drinking despite improved housing conditions after the community upgrade.",
+        "details": "Purchase the Community Upgrade from the Carpenter's Shop. After earning 9 hearts with Pam, enter Pam's house at least 4 days after the Community Upgrade is completed. You find Pam praying before a Sign of the Vessel statue. She confesses that she loves the new house, but hasn't been able to cut back on her drinking. She says she thought the new house would change everything, but it didn't, so she ordered the statue. \"I'm glad you're feeling hopeful\" (no effect). \"Sorry Pam, but Yoba isn't real...\" (-1000 friendship, Pam becomes angry and orders you to leave)."
+      }
+    ],
     "image": "images/villagers/Pam.png",
     "loves": [
       "Beer",
@@ -935,11 +1847,63 @@
   {
     "id": "penny",
     "name": "Penny",
-    "birthday": { "day": 2, "season": "fall" },
+    "birthday": {
+      "day": 2,
+      "season": "fall"
+    },
     "address": "Trailer",
     "occupation": "Tutor",
+    "description": "Penny is a villager who lives in Pelican Town and is one of the twelve characters available to marry. She is shy and modest, and likes to cook and read books from the local library.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 34,
+        "description": "George struggles to reach his mailbox, and Penny helps him while the player observes.",
+        "details": "Enter Pelican Town on a sunny day between 9am and 2pm. George looks in his mailbox and can't reach a letter. Penny helps him get it, but George scolds her for seeing him helpless. The player can respond supportively (+50 friendship), critically (-50 friendship), or neutrally (no effect). George apologizes, and Penny reflects on aging."
+      },
+      {
+        "heart": 4,
+        "id": 35,
+        "description": "Penny asks the player to help clean the trailer, but Pam returns home upset about strangers in their space.",
+        "details": "Enter the trailer when Penny is home. Penny asks the player to help clean the messy trailer. Pam returns and yells at Penny for letting a stranger clean. Pam eventually asks the player to leave, admitting embarrassment. The next day, the player receives an apology letter from Penny."
+      },
+      {
+        "heart": 6,
+        "id": 36,
+        "description": "Penny invites the player to taste a new recipe and suggests watching a movie together.",
+        "details": "Enter the trailer when Penny is home. Penny asks the player to try her invented recipe. The player can lie and praise it (+50 friendship), ask to take leftovers (-50 friendship), or comment on its rubbery texture (no effect). Regardless of choice, she invites the player to watch a movie together, and the player gains 165 energy."
+      },
+      {
+        "heart": 8,
+        "id": 181928,
+        "description": "Penny asks the player to be a guest speaker for Jas and Vincent's field trip, then inquires about their thoughts on parenthood.",
+        "details": "Enter Cindersap Forest on a sunny day between 9am and 4pm. Penny leads a field trip with Jas and Vincent. She requests the player be a guest speaker about countryside life. The player agrees (+10 friendship), agrees neutrally (no effect), or refuses harshly (-1500 friendship). If agreeing, dialogue options about parenting follow, each affecting friendship differently."
+      },
+      {
+        "heart": 10,
+        "id": 38,
+        "description": "Penny confesses romantic feelings for the player in the spa pool and shares a kiss.",
+        "details": "Receive a letter from Penny, then enter the spa pool area between 7pm and midnight. Penny confesses romantic feelings. The player can reciprocate (no friendship effect but triggers a kiss), or reject her (-1500 friendship, she bursts into tears)."
+      },
+      {
+        "heart": 14.1,
+        "id": 4325434,
+        "description": "Penny asks about redecorating the bedroom in one of three styles.",
+        "details": "Enter the farmhouse between 3pm and 7pm when Penny is home. Penny greets the player and offers bedroom redecoration in three styles: Forest and Moon, Strawberry Home, or Pirate Theme."
+      },
+      {
+        "heart": 14.2,
+        "id": 4324303,
+        "description": "The bedroom is redecorated in the chosen style with unique furniture.",
+        "details": "Three days later, the bedroom is redecorated in the chosen style. Each provides unique decorations unavailable elsewhere."
+      }
+    ],
     "image": "images/villagers/Penny.png",
     "spouseImage": "images/villagers/spouse-portraits/Penny.png",
     "loves": [
@@ -993,11 +1957,33 @@
   {
     "id": "pierre",
     "name": "Pierre",
-    "birthday": { "day": 26, "season": "spring" },
+    "birthday": {
+      "day": 26,
+      "season": "spring"
+    },
     "address": "Pierre's General Store",
     "occupation": "General store owner",
+    "description": "Pierre is a villager who lives in Pelican Town. He owns and runs Pierre's General Store.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Pierre sends a Blueberry Tart recipe in the mail.",
+        "details": "After reaching 3 hearts, Pierre mails you the Blueberry Tart recipe with a note: \"TOP SECRET: Here's the recipe for my famous blueberry tart. Don't tell anyone! I'm giving it to you because we are such good friends. -Pierre\""
+      },
+      {
+        "heart": 6,
+        "id": 16,
+        "description": "The player discovers Pierre's secret stash behind his bookshelf and must choose whether to keep his secret.",
+        "details": "Enter Pierre's General Store to trigger the cutscene. You enter Pierre's bedroom. After looking around, you find Pierre's secret stash behind the bookshelf. Pierre catches you and asks that you tell no one. \"Your secret is safe with me\" (+70 friendship). \"Your wife deserves to know about this\" (-500 friendship). Pierre says he has to find a new hiding spot."
+      }
+    ],
     "image": "images/villagers/Pierre.png",
     "loves": ["Fried Calamari", "Price Catalogue", "Stardrop Tea"],
     "likes": ["Daffodil", "Dandelion"],
@@ -1024,11 +2010,33 @@
   {
     "id": "robin",
     "name": "Robin",
-    "birthday": { "day": 21, "season": "fall" },
+    "birthday": {
+      "day": 21,
+      "season": "fall"
+    },
     "address": "24 Mountain Road",
     "occupation": "Carpenter",
+    "description": "Robin is a villager who resides at 24 Mountain Road with her husband Demetrius, daughter Maru, and son Sebastian.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 6,
+        "id": 33,
+        "description": "Robin shares carpentry secrets and gives the player the Drum Block and Flute Block blueprints.",
+        "details": "Enter Robin's house while she is home. You find Robin cleaning the dust off her saw. She asks if you've ever made anything out of wood. She responds: \"I think we've become good enough friends that I can trust you with my carpentry secrets!\" and gives you two blueprints — the Drum Block and the Flute Block. She mentions it feels good to decorate your house with things you've made yourself."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Robin sends a Pumpkin Soup recipe in the mail.",
+        "details": "After reaching 7 hearts, Robin mails you the Pumpkin Soup recipe with a note: \"Here is an old recipe that my grandma passed down to me. Enjoy! -Robin\""
+      }
+    ],
     "image": "images/villagers/Robin.png",
     "loves": ["Goat Cheese", "Peach", "Spaghetti", "Woody's Secret"],
     "likes": ["Hardwood", "Quartz", "Woodcutter's Weekly"],
@@ -1053,11 +2061,81 @@
   {
     "id": "sam",
     "name": "Sam",
-    "birthday": { "day": 17, "season": "summer" },
+    "birthday": {
+      "day": 17,
+      "season": "summer"
+    },
     "address": "1 Willow Lane",
     "occupation": "Musician",
+    "description": "Sam is a villager who lives in Pelican Town and is one of the twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 44,
+        "description": "Sam and Sebastian jam in his room, and the player is asked what music style the band should play.",
+        "details": "Enter Sam's house when he's there. Sam and Sebastian jam in Sam's room. Sam asks what music style you prefer from options like cheerful pop, experimental noise rock, hi-energy dance, or honky-tonky country. Regardless of choice, Sam says that's the style he's been considering. Sebastian agrees, and Sam thanks you."
+      },
+      {
+        "heart": 3,
+        "id": 733330,
+        "description": "Sam watches Vincent at the beach while reflecting on his absent father and seeking the player's advice.",
+        "details": "Visit the Beach on a sunny day between 7am-3pm, any season except winter (Year 1 only). Sam watches Vincent play in the sand. Vincent asks if their father will return. Sam reassures him, but later expresses guilt about giving false hope. You choose between \"honesty is best\" or \"kids need hope.\" Sam mentions the band progressing with Abigail as potential drummer."
+      },
+      {
+        "heart": 4,
+        "id": 46,
+        "description": "Sam drops an egg in the kitchen and the player must decide what story to tell his mom.",
+        "details": "Enter Sam's house when he's there. In the kitchen, Sam drops an egg while getting you a snack. His mother Jodi enters upset. You choose: blame Sam (-10 friendship), blame yourself (+50 friendship), or claim Sam did it intentionally (-50 friendship). Sam later apologizes about the incident."
+      },
+      {
+        "heart": 6,
+        "id": 45,
+        "description": "Mayor Lewis catches Sam skateboarding on Emily and Haley's flower box and asks for the player's judgment.",
+        "details": "Enter town on a non-rainy day between noon-4pm. Sam grinds on Emily and Haley's flower box while skateboarding. Mayor Lewis confronts him. You can support Sam's skating lack of alternatives, criticize him for disrespecting property, or stay neutral."
+      },
+      {
+        "heart": 8,
+        "id": 4081148,
+        "description": "Sam invites the player to watch his band perform in Zuzu City.",
+        "details": "Sam visits your doorstep between 6am-8am (requires seeing Two Hearts event). Sam invites you to see his band perform in Zuzu City. Meet him at the bus stop between 4pm-7pm to watch the concert. He thanks you for inspiring the band's musical direction."
+      },
+      {
+        "heart": 10,
+        "id": 233104,
+        "description": "Sam confesses his feelings for the player in his bedroom while his mom unknowingly interrupts.",
+        "details": "After receiving Sam's letter, enter town on a sunny day between 8pm-midnight. Sam sneaks you into his room. He admits falling for you. His mother knocks; you hide in bed. She leaves after Sam claims he was exercising. You choose to get out of bed, move closer for a kiss, head for the window to reject him, or stay put for a kiss in bed."
+      },
+      {
+        "heart": 14.1,
+        "id": 3918600,
+        "description": "Sam struggles with motivation after the band's success.",
+        "details": "Enter the upgraded farmhouse (2+ upgrades) between 6:10am-5pm when Sam is present. Sam feels lazy and seeks music-related work."
+      },
+      {
+        "heart": 14.2,
+        "id": 3918601,
+        "description": "Sam receives a job composing music for a children's TV show.",
+        "details": "Enter the farmhouse again. Sam receives a job offer creating music for The Happy Junimo Show. You encourage him professionally or sympathetically."
+      },
+      {
+        "heart": 14.3,
+        "id": 3918602,
+        "description": "Sam completes the composing project.",
+        "details": "Enter the farmhouse again. Sam plays his acoustic composition, feeling optimistic about the work."
+      },
+      {
+        "heart": 14.4,
+        "id": 3918603,
+        "description": "Sam gifts the player his boombox.",
+        "details": "Enter the farmhouse again. You, Vincent, and Jas watch the finished song on TV. Sam gives you his boombox as thanks for supporting him."
+      }
+    ],
     "image": "images/villagers/Sam.png",
     "spouseImage": "images/villagers/spouse-portraits/Sam.png",
     "loves": ["Cactus Fruit", "Maple Bar", "Pizza", "Tigerseye"],
@@ -1102,11 +2180,27 @@
   {
     "id": "sandy",
     "name": "Sandy",
-    "birthday": { "day": 15, "season": "fall" },
+    "birthday": {
+      "day": 15,
+      "season": "fall"
+    },
     "address": "The Oasis",
     "occupation": "Desert shopkeeper",
+    "description": "Sandy is a villager who operates the Oasis shop in the Calico Desert.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Sandy sends a Tom Kha Soup recipe in the mail.",
+        "details": "After reaching 7 hearts, Sandy mails you the Tom Kha Soup recipe with a note: \"I was so bored out here in the desert that I wrote you a letter. There's a recipe for a delicious soup enclosed. Come visit me soon! -Sandy\""
+      }
+    ],
     "image": "images/villagers/Sandy.png",
     "loves": ["Crocus", "Daffodil", "Mango Sticky Rice", "Sweet Pea"],
     "likes": ["Quartz", "Wool"],
@@ -1117,11 +2211,63 @@
   {
     "id": "sebastian",
     "name": "Sebastian",
-    "birthday": { "day": 10, "season": "winter" },
+    "birthday": {
+      "day": 10,
+      "season": "winter"
+    },
     "address": "24 Mountain Road",
     "occupation": "Freelance programmer",
+    "description": "Sebastian is a villager who lives in the basement of 24 Mountain Road. He is one of the twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 2794460,
+        "description": "The player finds Sebastian working on his computer and learns about his freelance programming career.",
+        "details": "Enter Sebastian's room when he's there. Sebastian is working on his computer and asks you to wait. You can leave or stay put. He finishes and apologizes for the wait. You learn he does freelance programming work and is saving to move to the city. Robin interrupts mentioning Abigail will visit."
+      },
+      {
+        "heart": 4,
+        "id": 384883,
+        "description": "Sebastian shows the player his motorcycle and suggests taking a ride together someday.",
+        "details": "Go to The Mountain between 11am and 5pm. Sebastian is working on his motorcycle in the garage. He explains it's his and he takes long rides alone away from town. He suggests you might ride with him sometime, offering different responses based on your reaction."
+      },
+      {
+        "heart": 6,
+        "id": 27,
+        "description": "Sebastian invites the player to play Solarion Chronicles: The Game with him and Sam.",
+        "details": "Enter Sebastian's room when he's there. Sebastian invites you to play Solarion Chronicles with him and Sam. You choose an archetype (Warrior, Healer, or Wizard) and play through a scenario. Correct choices lead to perfect scores, with different endings based on your class selection."
+      },
+      {
+        "heart": 8,
+        "id": 29,
+        "description": "Sebastian meets the player at the beach on a rainy day and shares an umbrella, expressing comfort around them.",
+        "details": "Go to the beach on a rainy day between noon and 11pm. Sebastian is on the boardwalk, surprised to see you in the rain. He admits he's anxious around people but not with you. He pulls out an umbrella and invites you to stand under it together."
+      },
+      {
+        "heart": 10,
+        "id": 384882,
+        "description": "Sebastian takes the player on a motorcycle ride to his favorite spot and confesses his feelings.",
+        "details": "Go to The Mountain between 8pm and midnight. Sebastian invites you for a motorcycle ride to his favorite thinking spot overlooking the city. He confesses true feelings, mentioning he doesn't normally bring others there. You embrace under the full moon."
+      },
+      {
+        "heart": 14.1,
+        "id": 9333219,
+        "description": "The player helps Sebastian rescue an injured frog.",
+        "details": "Go to The Mountain on a rainy day between 6am and 7pm. You help Sebastian rescue an injured frog from the bushes. He takes it home."
+      },
+      {
+        "heart": 14.2,
+        "id": 9333220,
+        "description": "Sebastian brings the frog home and creates a terrarium for it in his spouse room.",
+        "details": "The next day, Sebastian shows you a terrarium he built for the frog's recovery, discussing frog sanctuaries and expressing his newfound hobby."
+      }
+    ],
     "image": "images/villagers/Sebastian.png",
     "spouseImage": "images/villagers/spouse-portraits/Sebastian.png",
     "loves": ["Frog Egg", "Frozen Tear", "Obsidian", "Pumpkin Soup", "Sashimi", "Void Egg"],
@@ -1163,11 +2309,87 @@
   {
     "id": "shane",
     "name": "Shane",
-    "birthday": { "day": 20, "season": "spring" },
+    "birthday": {
+      "day": 20,
+      "season": "spring"
+    },
     "address": "Marnie's Ranch",
     "occupation": "JojaMart employee",
+    "description": "Shane is a villager who lives at Marnie's Ranch in Pelican Town. He is one of the twelve characters available to marry.",
     "marriageable": true,
-    "hearts": { "max": 8, "bouquetIncrease": 2, "spouseIncrease": 4 },
+    "hearts": {
+      "max": 8,
+      "bouquetIncrease": 2,
+      "spouseIncrease": 4
+    },
+    "events": [
+      {
+        "heart": 2,
+        "id": 611944,
+        "description": "Shane shares a beer with the player on a pond dock and discusses his depression.",
+        "details": "Enter Cindersap Forest between 8pm and midnight. Shane shares a beer with the player on the pond dock, describing his depression. He expresses optimism for the player's future and warns against heavy drinking. The beer heals up to 50 Energy and 22 Health, leaving the player with a Tipsy buff."
+      },
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Shane sends a Pepper Poppers recipe in the mail.",
+        "details": "After reaching 3 hearts, Shane mails you the Pepper Poppers recipe with a note: \"I found this recipe in a magazine and I thought it sounded interesting. Feel free to give me a taste if you make it. hehe. -Shane\""
+      },
+      {
+        "heart": 4,
+        "id": 3910674,
+        "description": "The player finds Shane passed out in his room surrounded by beer cans.",
+        "details": "Enter Marnie's Ranch at any time. Shane is found passed out in his room surrounded by empty beer cans. The player uses a watering can to wake him. Marnie expresses frustration about his drinking. Shane responds pessimistically about his future. Jas overhears and runs away crying; Shane falls to the ground apologizing."
+      },
+      {
+        "heart": 6,
+        "id": 3910975,
+        "description": "Shane lies at a cliff's edge contemplating suicide; the player intervenes and he commits to seeking counseling.",
+        "details": "Enter Cindersap Forest between 9am and 8pm while storming or raining. Shane lies at the cliff's edge surrounded by empty beer cans, asking why he shouldn't jump off. Harvey then treats him medically and recommends counseling in Zuzu City. The next day, Shane visits the farm to announce his intention to seek counseling."
+      },
+      {
+        "heart": 6.8,
+        "id": 3910974,
+        "description": "Shane tells Marnie he has been feeling happier and has switched to sparkling water instead of beer.",
+        "details": "Enter Marnie's Ranch while Shane is home after triggering the six heart event. Shane tells Marnie he's been feeling happier and has switched to sparkling water instead of beer. He explains he's learned to rely on others without feeling weak. He gives Jas expensive shoes, explaining he afforded them by cutting back on drinking expenses."
+      },
+      {
+        "heart": 7,
+        "id": 831125,
+        "description": "Shane directs a Joja Cola advertisement scene starring Emily and Clint sends a Strange Bun recipe in the mail",
+        "details": "Enter town between 10am and 4pm on a sunny day (requires 2 hearts with both Emily and Clint). Shane films a Joja Cola advertisement scene with Emily and Clint. He explains a contest with a 10,000g prize and asks the player to walk behind the actors to make the scene feel natural. Shane mails you the Strange Bun recipe with a note: \"I found this recipe in a magazine and I thought it sounded interesting. Feel free to give me a taste if you make it. hehe. -Shane\""
+      },
+      {
+        "heart": 8,
+        "id": 3900074,
+        "description": "Shane shows the player his hidden chicken coop with his prized blue chickens and white chicken named Charlie.",
+        "details": "Enter Marnie's Ranch while Shane is home. Jas leads the player through a normally-locked kitchen door. Shane is painting a Fresh Eggs sign, surrounded by his blue chickens and white chicken Charlie. He discusses passing chicken knowledge to Jas. Afterward, purchased chickens and hatched eggs have a 25% chance of being blue."
+      },
+      {
+        "heart": 10,
+        "id": 9581348,
+        "description": "Shane takes the player to a gridball game in Zuzu City where he expresses gratitude and shares a kiss.",
+        "details": "Exit your house before 6:30am, then walk to the Bus Stop between 4pm and 6pm. Shane invites the player to a Zuzu City Tunnelers gridball game. At the stadium, he thanks the player for supporting him through depression and anxiety. After discussing the game, Shane kisses the player."
+      },
+      {
+        "heart": 14.1,
+        "id": 3917584,
+        "description": "The player discovers Shane has replaced drinking beer with playing arcade games.",
+        "details": "Enter town on a non-Friday between 8am and 5pm. Marnie, Jas, and the player are outside the saloon. Shane exits saying he hasn't had a session like that in a while. Marnie expresses concern."
+      },
+      {
+        "heart": 14.2,
+        "id": 3917585,
+        "description": "Shane continues managing his anxiety through arcade games.",
+        "details": "Enter town anytime the next day. Shane exits; the player confronts him about drinking. Shane gets upset denying the accusation and runs home."
+      },
+      {
+        "heart": 14.3,
+        "id": 3917586,
+        "description": "Shane reflects on his progress managing anxiety without alcohol.",
+        "details": "Enter town anytime the following day. Marnie and the player wait outside. Shane enters; they catch him at an arcade machine. He explains the cans are Joja Cola, not beer, and that video games help manage drinking urges."
+      }
+    ],
     "image": "images/villagers/Shane.png",
     "spouseImage": "images/villagers/spouse-portraits/Shane.png",
     "loves": ["Beer", "Hot Pepper", "Pepper Poppers", "Pizza"],
@@ -1195,11 +2417,27 @@
   {
     "id": "vincent",
     "name": "Vincent",
-    "birthday": { "day": 10, "season": "spring" },
+    "birthday": {
+      "day": 10,
+      "season": "spring"
+    },
     "address": "1 Willow Lane",
     "occupation": "Child",
+    "description": "Vincent is a young villager who lives in Pelican Town. He can often be found with his best friend Jas.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 8,
+        "id": 3910979,
+        "description": "Vincent and Jas teach the player how to clean Spring Onions, permanently increasing their sell price by 5x.",
+        "details": "Enter Cindersap Forest during Spring on a sunny day between 6am and 5pm after reaching 8 hearts with both Vincent and Jas. Vincent will explain how to clean Spring Onions by removing insects. Jas insists that the insects not be killed after removing them from the onions. Afterward, the player gains Spring Onion Mastery, which permanently increases the sell price of Spring Onions by 5x."
+      }
+    ],
     "image": "images/villagers/Vincent.png",
     "loves": ["Cranberry Candy", "Frog Egg", "Ginger Ale", "Grape", "Pink Cake", "Snail"],
     "likes": ["Coconut", "Daffodil"],
@@ -1238,11 +2476,51 @@
   {
     "id": "willy",
     "name": "Willy",
-    "birthday": { "day": 24, "season": "summer" },
+    "birthday": {
+      "day": 24,
+      "season": "summer"
+    },
     "address": "The Beach",
     "occupation": "Fisher and shopkeeper",
+    "description": "Willy is a villager who lives south of Pelican Town on the beach. He operates a fishing supply shop.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 3,
+        "id": null,
+        "description": "Willy sends a Chowder recipe in the mail.",
+        "details": "After reaching 3 hearts, Willy mails you the Chowder recipe with a note: \"I'd like to share an ol' cooking recipe my pappy used to make. It's important the fish is FRESH. -Willy\""
+      },
+      {
+        "heart": 5,
+        "id": null,
+        "description": "Willy sends an Escargot recipe in the mail.",
+        "details": "After reaching 5 hearts, Willy mails you the Escargot recipe with a note: \"I'd like to share an ol' cooking recipe my pappy used to make. It's important the fish is FRESH. -Willy\""
+      },
+      {
+        "heart": 6,
+        "id": 711130,
+        "description": "Willy asks for help when crabs overrun his fish shop, and Gus purchases them all.",
+        "details": "Enter The Beach between 6am and 5:10pm. Willy greets you outside the Fish Shop and says he needs your help. Once inside, you see crabs run amok, covering the Fish Shop floor. Before you can help, Gus enters and offers to purchase all the crabs, minus a discount for the labor involved. Willy agrees, and Gus gathers the crabs. Gus turns to you and says he's going to run a special on Crab Cakes for the next few days. The cutscene ends with Willy saying goodbye to his sweet ladies as they are taken away. Gus sells unlimited Crab Cakes at the Saloon for 550g each for 3 days after."
+      },
+      {
+        "heart": 7,
+        "id": null,
+        "description": "Willy sends a Fish Stew recipe in the mail.",
+        "details": "After reaching 7 hearts, Willy mails you the Fish Stew recipe with a note: \"I'd like to share an ol' cooking recipe my pappy used to make. It's important the fish is FRESH. -Willy\""
+      },
+      {
+        "heart": 9,
+        "id": null,
+        "description": "Willy sends a Lobster Bisque recipe in the mail.",
+        "details": "After reaching 9 hearts, Willy mails you the Lobster Bisque recipe with a note: \"I'd like to share an ol' cooking recipe my pappy used to make. It's important the fish is FRESH. -Willy\""
+      }
+    ],
     "image": "images/villagers/Willy.png",
     "loves": [
       "Catfish",
@@ -1292,11 +2570,27 @@
   {
     "id": "wizard",
     "name": "Wizard",
-    "birthday": { "day": 17, "season": "winter" },
+    "birthday": {
+      "day": 17,
+      "season": "winter"
+    },
     "address": "Wizard's Tower",
     "occupation": "Wizard",
+    "description": "The Wizard, also known as M. Rasmodius, is a villager who lives in the Wizard's Tower to the far west of Cindersap Forest.",
     "marriageable": false,
-    "hearts": { "max": 10, "bouquetIncrease": 0, "spouseIncrease": 0 },
+    "hearts": {
+      "max": 10,
+      "bouquetIncrease": 0,
+      "spouseIncrease": 0
+    },
+    "events": [
+      {
+        "heart": 4,
+        "id": null,
+        "description": "The player gains access to the Wizard's Tower basement and the Shrine of Illusions.",
+        "details": "After reaching 4 hearts with the Wizard, the player gains access to the basement of the Wizard's Tower. The basement contains the Shrine of Illusions, which allows the player to change their character's appearance for 500g."
+      }
+    ],
     "image": "images/villagers/Wizard.png",
     "loves": [
       "Book of Mysteries",
