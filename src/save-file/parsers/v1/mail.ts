@@ -23,10 +23,9 @@ export function parseSpecialOrders(root: any): SaveSpecialOrders {
     .map((m) => str(m))
     .filter(Boolean);
 
-  const townCompleted = completed.filter((id) => !QI_ORDER_IDS.has(id));
   const qiCompleted = completed.filter((id) => QI_ORDER_IDS.has(id));
 
-  return { completed, townCompleted, qiCompleted };
+  return { completed, qiCompleted };
 }
 
 /** Extract the list of books read from the player node's stats. */

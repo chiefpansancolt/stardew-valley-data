@@ -2,8 +2,12 @@ import type { SaveSecretNotes } from '../../types';
 import { ensureArray, num } from '../util';
 
 /** Parse secret notes and journal scraps found from the player node and pre-computed mail flags. */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function parseSecretNotes(player: any, mail: Set<string>): SaveSecretNotes {
+export function parseSecretNotes(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  player: any,
+  mail: Set<string>,
+  events: Set<string>,
+): SaveSecretNotes {
   const allNotes = ensureArray(player.secretNotesSeen?.int).map(num);
 
   return {
@@ -13,5 +17,6 @@ export function parseSecretNotes(player: any, mail: Set<string>): SaveSecretNote
       mail.has('HasMagnifyingGlass') ||
       player.hasMagnifyingGlass === true ||
       player.hasMagnifyingGlass === 'true',
+    hasSeenKrobus: events.has('520702'),
   };
 }

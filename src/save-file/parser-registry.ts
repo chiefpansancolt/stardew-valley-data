@@ -69,7 +69,7 @@ const v1: ParserSetFn = (ctx) => ({
   professions: parseProfessions(ctx.player.professions),
   booksRead: parseBooksRead(ctx.player),
   eventsSeen: ctx.eventsSeen,
-  secretNotes: parseSecretNotes(ctx.player, ctx.mailSet),
+  secretNotes: parseSecretNotes(ctx.player, ctx.mailSet, ctx.eventsSet),
   walnuts: parseWalnuts(ctx.root),
   islandUpgrades: parseIslandUpgrades(ctx.mailSet),
   children: parseChildren(ctx.root),

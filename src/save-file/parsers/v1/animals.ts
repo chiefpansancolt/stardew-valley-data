@@ -31,6 +31,7 @@ export function parseAnimals(root: any): SaveAnimal[] {
           id: str(fa.myID),
           name: str(fa.name),
           type: str(fa.type),
+          buildingId: str(b.id),
           buildingType: str(fa.buildingTypeILiveIn),
           friendship: num(fa.friendshipTowardFarmer),
           happiness: num(fa.happiness),

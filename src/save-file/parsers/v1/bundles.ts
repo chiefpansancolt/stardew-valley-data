@@ -184,9 +184,9 @@ export function parseBundles(root: any, mail: Set<string>): SaveBundleData {
     const itemsCompleted = items.filter((it) => it.completed).length;
 
     bundles.push({
+      id: `${def.room}/${index}`,
       bundleIndex: index,
       name: def.name,
-      room: def.room,
       items,
       itemsRequired: def.itemsRequired,
       itemsCompleted,
@@ -221,5 +221,5 @@ export function parseBundles(root: any, mail: Set<string>): SaveBundleData {
   const isJojaRoute = JOJA_MAIL_FLAGS.some((f) => mail.has(f));
   const isCCComplete = mail.has('ccIsComplete');
 
-  return { bundles, rooms, isJojaRoute, isCCComplete };
+  return { rooms, isJojaRoute, isCCComplete };
 }

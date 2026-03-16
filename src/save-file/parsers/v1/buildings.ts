@@ -16,9 +16,8 @@ export function parseBuildings(root: any): SaveBuilding[] {
     for (const building of buildings) {
       const b = building as Record<string, unknown>;
       result.push({
+        id: str(b.id),
         type: str(b.buildingType),
-        tileX: num(b.tileX),
-        tileY: num(b.tileY),
         animalCount: num(b.currentOccupants),
       });
     }

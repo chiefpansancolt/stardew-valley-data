@@ -10,15 +10,13 @@ describe('parseBuildings()', () => {
             buildings: {
               Building: [
                 {
+                  id: 'barn-uuid',
                   buildingType: 'Barn',
-                  tileX: 40,
-                  tileY: 20,
                   currentOccupants: 4,
                 },
                 {
+                  id: 'coop-uuid',
                   buildingType: 'Coop',
-                  tileX: 50,
-                  tileY: 25,
                   currentOccupants: 8,
                 },
               ],
@@ -31,15 +29,13 @@ describe('parseBuildings()', () => {
     const result = parseBuildings(root);
     expect(result).toHaveLength(2);
     expect(result[0]).toEqual({
+      id: 'barn-uuid',
       type: 'Barn',
-      tileX: 40,
-      tileY: 20,
       animalCount: 4,
     });
     expect(result[1]).toEqual({
+      id: 'coop-uuid',
       type: 'Coop',
-      tileX: 50,
-      tileY: 25,
       animalCount: 8,
     });
   });
@@ -66,9 +62,8 @@ describe('parseBuildings()', () => {
             name: 'Farm',
             buildings: {
               Building: {
+                id: 'silo-uuid',
                 buildingType: 'Silo',
-                tileX: 30,
-                tileY: 10,
                 currentOccupants: 0,
               },
             },

@@ -10,8 +10,20 @@ describe('parsePlayer()', () => {
     totalMoneyEarned: 50000,
     spouse: 'Abigail',
     houseUpgradeLevel: 2,
+    luckLevel: 0,
+    maxItems: 36,
+    trashCanLevel: 3,
     maxHealth: 100,
     maxStamina: 270,
+    items: {
+      Item: [
+        { '@_xsi:type': 'Pickaxe', upgradeLevel: 4 },
+        { '@_xsi:type': 'Axe', upgradeLevel: 3 },
+        { '@_xsi:type': 'Hoe', upgradeLevel: 2 },
+        { '@_xsi:type': 'WateringCan', upgradeLevel: 1 },
+        { '@_xsi:type': 'MeleeWeapon', name: 'Galaxy Sword' },
+      ],
+    },
     experiencePoints: {
       int: [1000, 500, 300, 200, 100],
     },
@@ -46,6 +58,8 @@ describe('parsePlayer()', () => {
     expect(result.totalMoneyEarned).toBe(50000);
     expect(result.spouse).toBe('Abigail');
     expect(result.houseUpgradeLevel).toBe(2);
+    expect(result.luckLevel).toBe(0);
+    expect(result.maxItems).toBe(36);
     expect(result.maxHealth).toBe(100);
     expect(result.maxStamina).toBe(270);
     expect(result.gameVersion).toBe('1.6.14');
@@ -127,5 +141,112 @@ describe('parsePlayer()', () => {
     });
     const result = parsePlayer(player, makeRoot());
     expect(result.skills.farming.level).toBe(0);
+  });
+
+  it('parses tool levels from player inventory', () => {
+    const result = parsePlayer(makePlayer(), makeRoot());
+    expect(result.toolLevels).toEqual({
+      wateringCan: 1,
+      pan: 0,
+      pickaxe: 4,
+      axe: 3,
+      hoe: 2,
+      trashCan: 3,
+    });
+  });
+
+  it('finds tools in location building chests', () => {
+    const player = makePlayer({ items: { Item: [] } });
+    const root = makeRoot({
+      locations: {
+        GameLocation: [
+          {
+            buildings: {
+              Building: [
+                {
+                  indoors: {
+                    objects: {
+                      item: [
+                        {
+                          value: {
+                            Object: {
+                              items: {
+                                Item: [
+                                  { '@_xsi:type': 'Pan', upgradeLevel: 3 },
+                                  { '@_xsi:type': 'WateringCan', upgradeLevel: 4 },
+                                ],
+                              },
+                            },
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        ],
+      },
+    });
+
+    const result = parsePlayer(player, root);
+    expect(result.toolLevels.pan).toBe(3);
+    expect(result.toolLevels.wateringCan).toBe(4);
+  });
+
+  it('takes highest tool level when duplicates exist', () => {
+    const player = makePlayer({
+      items: {
+        Item: [
+          { '@_xsi:type': 'Pickaxe', upgradeLevel: 2 },
+          { '@_xsi:type': 'Pickaxe', upgradeLevel: 4 },
+        ],
+      },
+    });
+    const result = parsePlayer(player, makeRoot());
+    expect(result.toolLevels.pickaxe).toBe(4);
+  });
+
+  it('defaults tool levels to 0 when no tools found', () => {
+    const player = makePlayer({ items: { Item: [] }, trashCanLevel: 0 });
+    const result = parsePlayer(player, makeRoot());
+    expect(result.toolLevels).toEqual({
+      wateringCan: 0,
+      pan: 0,
+      pickaxe: 0,
+      axe: 0,
+      hoe: 0,
+      trashCan: 0,
+    });
+  });
+
+  it('reads tool type from @_type fallback when @_xsi:type is absent', () => {
+    const player = makePlayer({
+      items: {
+        Item: [{ '@_type': 'Hoe', upgradeLevel: 3 }],
+      },
+    });
+    const result = parsePlayer(player, makeRoot());
+    expect(result.toolLevels.hoe).toBe(3);
+  });
+
+  it('does not downgrade tool level when lower duplicate exists', () => {
+    const player = makePlayer({
+      items: {
+        Item: [
+          { '@_xsi:type': 'Axe', upgradeLevel: 4 },
+          { '@_xsi:type': 'Axe', upgradeLevel: 1 },
+        ],
+      },
+    });
+    const result = parsePlayer(player, makeRoot());
+    expect(result.toolLevels.axe).toBe(4);
+  });
+
+  it('handles missing items and locations gracefully', () => {
+    const player = makePlayer({ items: undefined });
+    const result = parsePlayer(player, makeRoot());
+    expect(result.toolLevels.pickaxe).toBe(0);
   });
 });

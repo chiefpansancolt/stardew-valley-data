@@ -7,7 +7,7 @@ describe('parseSecretNotes()', () => {
       hasMagnifyingGlass: true,
     };
 
-    const result = parseSecretNotes(player, new Set());
+    const result = parseSecretNotes(player, new Set(), new Set());
     expect(result.notesFound).toEqual([1, 5, 10]);
     expect(result.journalScrapsFound).toEqual([0, 5]);
     expect(result.hasMagnifyingGlass).toBe(true);
@@ -19,7 +19,7 @@ describe('parseSecretNotes()', () => {
     };
 
     const mail = new Set(['HasMagnifyingGlass']);
-    const result = parseSecretNotes(player, mail);
+    const result = parseSecretNotes(player, mail, new Set());
     expect(result.hasMagnifyingGlass).toBe(true);
   });
 
@@ -29,7 +29,7 @@ describe('parseSecretNotes()', () => {
       hasMagnifyingGlass: 'true',
     };
 
-    const result = parseSecretNotes(player, new Set());
+    const result = parseSecretNotes(player, new Set(), new Set());
     expect(result.hasMagnifyingGlass).toBe(true);
   });
 
@@ -39,13 +39,13 @@ describe('parseSecretNotes()', () => {
       hasMagnifyingGlass: false,
     };
 
-    const result = parseSecretNotes(player, new Set());
+    const result = parseSecretNotes(player, new Set(), new Set());
     expect(result.hasMagnifyingGlass).toBe(false);
   });
 
   it('handles empty secretNotesSeen', () => {
     const player = { secretNotesSeen: undefined };
-    const result = parseSecretNotes(player, new Set());
+    const result = parseSecretNotes(player, new Set(), new Set());
     expect(result.notesFound).toEqual([]);
     expect(result.journalScrapsFound).toEqual([]);
   });

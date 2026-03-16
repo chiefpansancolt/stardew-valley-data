@@ -43,11 +43,12 @@ describe('parseBundles()', () => {
     const mail = new Set<string>();
     const result = parseBundles(root, mail);
 
-    expect(result.bundles).toHaveLength(1);
-    const bundle = result.bundles[0];
+    expect(result.rooms).toHaveLength(1);
+    expect(result.rooms[0].bundles).toHaveLength(1);
+    const bundle = result.rooms[0].bundles[0];
+    expect(bundle.id).toBe('Pantry/0');
     expect(bundle.bundleIndex).toBe(0);
     expect(bundle.name).toBe('Spring Crops');
-    expect(bundle.room).toBe('Pantry');
     expect(bundle.items).toHaveLength(4);
     expect(bundle.items[0].itemId).toBe('24');
     expect(bundle.items[0].quantity).toBe(1);
@@ -79,7 +80,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].reward!.type).toBe('Big Craftable');
+    expect(result.rooms[0].bundles[0].reward!.type).toBe('Big Craftable');
   });
 
   it('handles bundle with no reward string', () => {
@@ -94,7 +95,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].reward).toBeNull();
+    expect(result.rooms[0].bundles[0].reward).toBeNull();
   });
 
   it('handles gold items (itemId -1)', () => {
@@ -116,7 +117,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    const items = result.bundles[0].items;
+    const items = result.rooms[0].bundles[0].items;
     expect(items[0].name).toBe('2,500g');
     expect(items[1].name).toBe('5,000g');
   });
@@ -184,7 +185,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].room).toBe('UnknownRoom');
+    expect(result.rooms[0].bundles[0].id).toBe('UnknownRoom/99');
   });
 
   it('handles quality names including Iridium', () => {
@@ -199,7 +200,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    const items = result.bundles[0].items;
+    const items = result.rooms[0].bundles[0].items;
     expect(items[0].qualityName).toBe('Silver');
     expect(items[1].qualityName).toBe('Gold');
     expect(items[2].qualityName).toBe('Iridium');
@@ -217,7 +218,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].items[0].qualityName).toBe('Quality 3');
+    expect(result.rooms[0].bundles[0].items[0].qualityName).toBe('Quality 3');
   });
 
   it('uses internal name as display name when field 6 is absent', () => {
@@ -232,7 +233,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].name).toBe('InternalName');
+    expect(result.rooms[0].bundles[0].name).toBe('InternalName');
   });
 
   it('skips bundleData entries with empty key or value', () => {
@@ -247,7 +248,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles).toHaveLength(0);
+    expect(result.rooms).toHaveLength(0);
   });
 
   it('uses items.length when itemsRequired field is missing', () => {
@@ -262,7 +263,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].itemsRequired).toBe(2);
+    expect(result.rooms[0].bundles[0].itemsRequired).toBe(2);
   });
 
   it('handles itemsRequired of 0 by falling back to items.length', () => {
@@ -277,13 +278,12 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].itemsRequired).toBe(2);
+    expect(result.rooms[0].bundles[0].itemsRequired).toBe(2);
   });
 
   it('returns empty data for empty root', () => {
     const result = parseBundles({}, new Set());
     expect(result).toEqual({
-      bundles: [],
       rooms: [],
       isJojaRoute: false,
       isCCComplete: false,
@@ -302,7 +302,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].reward!.type).toBe('Z');
+    expect(result.rooms[0].bundles[0].reward!.type).toBe('Z');
   });
 
   it('handles areasComplete with string "true" values', () => {
@@ -332,7 +332,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].items[0].completed).toBe(true);
+    expect(result.rooms[0].bundles[0].items[0].completed).toBe(true);
     expect(result.rooms[0].complete).toBe(true);
   });
 
@@ -360,7 +360,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].reward).toBeNull();
+    expect(result.rooms[0].bundles[0].reward).toBeNull();
   });
 
   it('handles bundle definition with no items field (parts[2] undefined)', () => {
@@ -375,8 +375,8 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles[0].items).toHaveLength(0);
-    expect(result.bundles[0].itemsRequired).toBe(0);
+    expect(result.rooms[0].bundles[0].items).toHaveLength(0);
+    expect(result.rooms[0].bundles[0].itemsRequired).toBe(0);
   });
 
   it('handles bundleData with only key populated (value empty)', () => {
@@ -388,7 +388,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles).toHaveLength(0);
+    expect(result.rooms).toHaveLength(0);
   });
 
   it('handles bundleData with only value populated (key empty)', () => {
@@ -400,7 +400,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles).toHaveLength(0);
+    expect(result.rooms).toHaveLength(0);
   });
 
   it('handles bundleData items with missing key.string or value.string', () => {
@@ -415,7 +415,7 @@ describe('parseBundles()', () => {
     };
 
     const result = parseBundles(root, new Set());
-    expect(result.bundles).toHaveLength(0);
+    expect(result.rooms).toHaveLength(0);
   });
 
   it('handles rooms sorted by area index', () => {

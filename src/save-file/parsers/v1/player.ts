@@ -1,4 +1,10 @@
-import type { SaveMastery, SaveMasteryPerk, SavePlayer, SaveSkills } from '../../types';
+import type {
+  SaveMastery,
+  SaveMasteryPerk,
+  SavePlayer,
+  SaveSkills,
+  SaveToolLevels,
+} from '../../types';
 import { ensureArray, num, str } from '../util';
 
 const XP_THRESHOLDS = [0, 100, 380, 770, 1300, 2150, 3300, 4800, 6900, 10000, 15000];
@@ -61,6 +67,78 @@ function parseMastery(stats: Record<string, unknown>): SaveMastery {
   };
 }
 
+const TOOL_TYPES = ['WateringCan', 'Pan', 'Pickaxe', 'Axe', 'Hoe'] as const;
+const TOOL_KEY_MAP: Record<string, keyof SaveToolLevels> = {
+  WateringCan: 'wateringCan',
+  Pan: 'pan',
+  Pickaxe: 'pickaxe',
+  Axe: 'axe',
+  Hoe: 'hoe',
+};
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function collectToolItems(node: any, depth = 0): any[] {
+  if (!node || typeof node !== 'object' || depth > 20) return [];
+  const results: unknown[] = [];
+  if (Array.isArray(node)) {
+    for (const child of node) results.push(...collectToolItems(child, depth + 1));
+    return results;
+  }
+  const obj = node as Record<string, unknown>;
+  const xsiType =
+    (obj as Record<string, string>)['@_xsi:type'] ??
+    (obj as Record<string, string>)['@_type'] ??
+    '';
+  if (TOOL_TYPES.includes(xsiType as (typeof TOOL_TYPES)[number])) {
+    results.push(obj);
+  }
+  for (const key of [
+    'Item',
+    'items',
+    'objects',
+    'item',
+    'Object',
+    'value',
+    'GameLocation',
+    'Building',
+    'buildings',
+    'indoors',
+    'heldObject',
+  ]) {
+    if (obj[key]) results.push(...collectToolItems(obj[key], depth + 1));
+  }
+  return results;
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function parseToolLevels(player: any, root: any): SaveToolLevels {
+  const levels: SaveToolLevels = {
+    wateringCan: 0,
+    pan: 0,
+    pickaxe: 0,
+    axe: 0,
+    hoe: 0,
+    trashCan: num(player.trashCanLevel),
+  };
+
+  const allItems = [
+    ...collectToolItems(player.items),
+    ...collectToolItems(root.locations?.GameLocation),
+  ];
+
+  for (const item of allItems) {
+    const i = item as Record<string, string>;
+    const xsiType = i['@_xsi:type'] ?? i['@_type'] ?? '';
+    const key = TOOL_KEY_MAP[xsiType];
+    if (key) {
+      const level = num(i.upgradeLevel);
+      if (level > levels[key]) levels[key] = level;
+    }
+  }
+
+  return levels;
+}
+
 /** Parse core player info, skills, and mastery data from the player node and save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function parsePlayer(player: any, root: any): SavePlayer {
@@ -73,10 +151,13 @@ export function parsePlayer(player: any, root: any): SavePlayer {
     totalMoneyEarned: num(player.totalMoneyEarned),
     spouse: player.spouse ? str(player.spouse) : null,
     houseUpgradeLevel: num(player.houseUpgradeLevel),
+    luckLevel: num(player.luckLevel),
+    maxItems: num(player.maxItems),
     maxHealth: num(player.maxHealth),
     maxStamina: num(player.maxStamina),
     skills: parseSkills(player.experiencePoints?.int),
     mastery: parseMastery(player.stats),
+    toolLevels: parseToolLevels(player, root),
     gameVersion: str(root.gameVersion),
   };
 }

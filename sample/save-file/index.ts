@@ -141,11 +141,12 @@ export function run() {
 
   // Bundles
   const { bundles } = data;
-  const completedBundles = bundles.bundles.filter((b) => b.complete).length;
+  const allBundles = bundles.rooms.flatMap((r) => r.bundles);
+  const completedBundles = allBundles.filter((b) => b.complete).length;
   check(
     'Bundles',
-    `${completedBundles}/${bundles.bundles.length} complete, CC: ${bundles.isCCComplete}, Joja: ${bundles.isJojaRoute}`,
-    bundles.bundles.length > 0,
+    `${completedBundles}/${allBundles.length} complete, CC: ${bundles.isCCComplete}, Joja: ${bundles.isJojaRoute}`,
+    allBundles.length > 0,
     counters,
   );
   for (const room of bundles.rooms) {
@@ -168,7 +169,7 @@ export function run() {
   // Special orders
   check(
     'Special orders',
-    `${data.specialOrders.townCompleted.length} town, ${data.specialOrders.qiCompleted.length} Qi`,
+    `${data.specialOrders.completed.length} completed, ${data.specialOrders.qiCompleted.length} Qi`,
     true,
     counters,
   );

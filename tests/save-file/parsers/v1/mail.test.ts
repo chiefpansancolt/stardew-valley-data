@@ -38,12 +38,12 @@ describe('parseSpecialOrders()', () => {
 
     const result = parseSpecialOrders(root);
     expect(result.completed).toEqual(['Robin', 'QiChallenge2']);
-    expect(result.townCompleted.length + result.qiCompleted.length).toBe(result.completed.length);
+    expect(result.qiCompleted).toEqual(['QiChallenge2']);
   });
 
   it('returns empty arrays for empty root', () => {
     const result = parseSpecialOrders({});
-    expect(result).toEqual({ completed: [], townCompleted: [], qiCompleted: [] });
+    expect(result).toEqual({ completed: [], qiCompleted: [] });
   });
 
   it('filters out empty strings', () => {

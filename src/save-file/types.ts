@@ -47,11 +47,24 @@ export interface SavePlayer {
   totalMoneyEarned: number;
   spouse: string | null;
   houseUpgradeLevel: number;
+  luckLevel: number;
+  maxItems: number;
   maxHealth: number;
   maxStamina: number;
   skills: SaveSkills;
   mastery: SaveMastery;
+  toolLevels: SaveToolLevels;
   gameVersion: string;
+}
+
+/** Upgrade levels for the player's tools (0 = base, 1 = copper, 2 = steel, 3 = gold, 4 = iridium). */
+export interface SaveToolLevels {
+  wateringCan: number;
+  pan: number;
+  pickaxe: number;
+  axe: number;
+  hoe: number;
+  trashCan: number;
 }
 
 /** Mastery system progress including XP, levels spent, and unlocked perks. */
@@ -146,6 +159,7 @@ export interface SaveAnimal {
   id: string;
   name: string;
   type: string;
+  buildingId: string;
   buildingType: string;
   friendship: number;
   happiness: number;
@@ -155,9 +169,8 @@ export interface SaveAnimal {
 
 /** A farm building with its type, position, and current animal count. */
 export interface SaveBuilding {
+  id: string;
   type: string;
-  tileX: number;
-  tileY: number;
   animalCount: number;
 }
 
@@ -183,9 +196,8 @@ export interface SaveRecipeEntry {
   timesMade: number;
 }
 
-/** Community Center bundle data including all bundles, room summaries, and Joja route status. */
+/** Community Center bundle data including rooms with nested bundles and Joja route status. */
 export interface SaveBundleData {
-  bundles: SaveBundleStatus[];
   rooms: SaveBundleRoom[];
   isJojaRoute: boolean;
   isCCComplete: boolean;
@@ -201,9 +213,9 @@ export interface SaveBundleRoom {
 
 /** A single bundle with its required items, completion progress, and reward. */
 export interface SaveBundleStatus {
+  id: string;
   bundleIndex: number;
   name: string;
-  room: string;
   items: SaveBundleItem[];
   itemsRequired: number;
   itemsCompleted: number;
@@ -244,7 +256,6 @@ export interface SaveProfession {
 /** Completed special orders split by town board and Qi's Walnut Room. */
 export interface SaveSpecialOrders {
   completed: string[];
-  townCompleted: string[];
   qiCompleted: string[];
 }
 
@@ -253,6 +264,7 @@ export interface SaveSecretNotes {
   notesFound: number[];
   journalScrapsFound: number[];
   hasMagnifyingGlass: boolean;
+  hasSeenKrobus: boolean;
 }
 
 /** Golden walnut collection progress with total found and tracker entries. */

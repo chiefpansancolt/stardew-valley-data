@@ -44,6 +44,7 @@ describe('parseAnimals()', () => {
       id: '12345',
       name: 'Bessie',
       type: 'White Cow',
+      buildingId: '',
       buildingType: 'Barn',
       friendship: 800,
       happiness: 200,
