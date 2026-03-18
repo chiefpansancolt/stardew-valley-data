@@ -55,6 +55,7 @@ export interface SavePlayer {
   mastery: SaveMastery;
   toolLevels: SaveToolLevels;
   gameVersion: string;
+  millisecondsPlayed: number;
 }
 
 /** Upgrade levels for the player's tools (0 = base, 1 = copper, 2 = steel, 3 = gold, 4 = iridium). */

@@ -159,5 +159,6 @@ export function parsePlayer(player: any, root: any): SavePlayer {
     mastery: parseMastery(player.stats),
     toolLevels: parseToolLevels(player, root),
     gameVersion: str(root.gameVersion),
+    millisecondsPlayed: num(player.millisecondsPlayed),
   };
 }
