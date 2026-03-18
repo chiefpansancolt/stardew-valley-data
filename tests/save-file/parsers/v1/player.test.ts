@@ -152,6 +152,7 @@ describe('parsePlayer()', () => {
       axe: 3,
       hoe: 2,
       trashCan: 3,
+      fishingRod: -1,
     });
   });
 
@@ -218,6 +219,7 @@ describe('parsePlayer()', () => {
       axe: 0,
       hoe: 0,
       trashCan: 0,
+      fishingRod: -1,
     });
   });
 
