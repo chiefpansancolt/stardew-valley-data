@@ -34,11 +34,6 @@ function buildLookup(): Map<string, CollectionItem> {
   for (const item of artisanGoodsData as { id: string; name: string; image: string }[]) add(item);
   for (const item of monsterLootData as { id: string; name: string; image: string }[]) add(item);
 
-  // Extract output items from crafting recipes
-  for (const recipe of craftingData as { output: { id: string; name: string }; image: string }[]) {
-    add({ id: recipe.output.id, name: recipe.output.name, image: recipe.image });
-  }
-
   // Extract produce and deluxeProduce from farm animals
   for (const animal of animalsData as {
     type: string;
@@ -63,7 +58,36 @@ function buildLookup(): Map<string, CollectionItem> {
   return map;
 }
 
+// ---------------------------------------------------------------------------
+// Crafting lookup: recipe name → CollectionItem
+// The crafting collection is keyed by recipe name, not output ID, to avoid
+// BigCraftable/Object ID namespace collisions.
+// ---------------------------------------------------------------------------
+
+function buildCookingLookup(): Map<string, CollectionItem> {
+  const map = new Map<string, CollectionItem>();
+  for (const recipe of cookingData as { name: string; image: string; id: string }[]) {
+    map.set(recipe.name, { id: recipe.id, name: recipe.name, image: recipe.image });
+  }
+  return map;
+}
+
+function buildCraftingLookup(): Map<string, CollectionItem> {
+  const map = new Map<string, CollectionItem>();
+  for (const recipe of craftingData as {
+    name: string;
+    image: string;
+    output: { id: string; isBigCraftable?: boolean };
+  }[]) {
+    const id = recipe.output.isBigCraftable ? `(BC)${recipe.output.id}` : recipe.output.id;
+    map.set(recipe.name, { id, name: recipe.name, image: recipe.image });
+  }
+  return map;
+}
+
 const lookup = buildLookup();
+const cookingLookup = buildCookingLookup();
+const craftingLookup = buildCraftingLookup();
 
 // ---------------------------------------------------------------------------
 // CollectionItemQuery — returned by each collection accessor
@@ -120,12 +144,22 @@ export class CollectionsQuery {
 
   /** Items that appear in the Cooking collection tab. */
   cooking(): CollectionItemQuery {
-    return this.resolve(collectionsData.cooking);
+    const items: CollectionItem[] = [];
+    for (const name of collectionsData.cooking) {
+      const item = cookingLookup.get(name);
+      if (item) items.push(item);
+    }
+    return new CollectionItemQuery(items);
   }
 
   /** Items that appear in the Crafting collection tab. */
   crafting(): CollectionItemQuery {
-    return this.resolve(collectionsData.crafting);
+    const items: CollectionItem[] = [];
+    for (const name of collectionsData.crafting) {
+      const item = craftingLookup.get(name);
+      if (item) items.push(item);
+    }
+    return new CollectionItemQuery(items);
   }
 }
 

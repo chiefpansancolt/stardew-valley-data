@@ -50,6 +50,7 @@ export function run(): { passed: number; failed: number } {
     ['Artifacts', col.artifacts()],
     ['Minerals', col.minerals()],
     ['Cooking', col.cooking()],
+    ['Crafting', col.crafting()],
   ];
 
   for (const [label, query] of sections) {
