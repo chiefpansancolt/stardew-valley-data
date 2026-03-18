@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.5.0] - 2026-03-18
+
+### Breaking Changes
+
+- Change Fishing Rod structure to show in an array over individual items.
+
+### Added
+
+- Added new text for Skill unlocks of Additional for Fishing and Foraging details.
+
+### Fix
+
+- Fix Skills showing wrong item unlocks per level
+- Fix Trash can showing as enchantable
+- Fix Copper Pan text to Pan name
+- Add missing millisecondsPlayed to parser
+
 ## [v0.4.0] - 2026-03-15
 
 ### Breaking Changes
