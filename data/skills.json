@@ -10,15 +10,20 @@
         "level": 1,
         "xpRequired": 100,
         "totalXp": 100,
-        "recipes": { "crafting": ["Scarecrow"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Scarecrow", "Basic Fertilizer"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 2,
         "xpRequired": 280,
         "totalXp": 380,
         "recipes": {
-          "crafting": ["Basic Fertilizer", "Mayonnaise Machine", "Stone Fence"],
-          "cooking": []
+          "crafting": ["Mayonnaise Machine", "Stone Fence", "Sprinkler"],
+          "cooking": [],
+          "additional": []
         }
       },
       {
@@ -26,8 +31,9 @@
         "xpRequired": 390,
         "totalXp": 770,
         "recipes": {
-          "crafting": ["Bee House", "Sprinkler", "Speed-Gro"],
-          "cooking": ["Farmer's Lunch"]
+          "crafting": ["Bee House", "Speed-Gro"],
+          "cooking": ["Farmer's Lunch"],
+          "additional": []
         }
       },
       {
@@ -36,14 +42,19 @@
         "totalXp": 1300,
         "recipes": {
           "crafting": ["Preserves Jar", "Basic Retaining Soil", "Iron Fence"],
-          "cooking": []
+          "cooking": [],
+          "additional": []
         }
       },
       {
         "level": 5,
         "xpRequired": 850,
         "totalXp": 2150,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": {
+          "crafting": [],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 6,
@@ -51,32 +62,45 @@
         "totalXp": 3300,
         "recipes": {
           "crafting": ["Cheese Press", "Hardwood Fence", "Quality Sprinkler"],
-          "cooking": []
+          "cooking": [],
+          "additional": []
         }
       },
       {
         "level": 7,
         "xpRequired": 1500,
         "totalXp": 4800,
-        "recipes": { "crafting": ["Loom", "Quality Retaining Soil", "Oil Maker"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Loom", "Quality Retaining Soil"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 8,
         "xpRequired": 2100,
         "totalXp": 6900,
-        "recipes": { "crafting": ["Keg", "Deluxe Speed-Gro", "Seed Maker"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Oil Maker", "Keg", "Deluxe Speed-Gro"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 9,
         "xpRequired": 3100,
         "totalXp": 10000,
-        "recipes": { "crafting": ["Iridium Sprinkler", "Quality Fertilizer"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Seed Maker", "Iridium Sprinkler", "Quality Fertilizer"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 10,
         "xpRequired": 5000,
         "totalXp": 15000,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       }
     ],
     "mastery": {
@@ -107,64 +131,69 @@
         "level": 1,
         "xpRequired": 100,
         "totalXp": 100,
-        "recipes": { "crafting": ["Cherry Bomb"], "cooking": [] }
+        "recipes": { "crafting": ["Cherry Bomb"], "cooking": [], "additional": [] }
       },
       {
         "level": 2,
         "xpRequired": 280,
         "totalXp": 380,
-        "recipes": { "crafting": ["Staircase"], "cooking": [] }
+        "recipes": { "crafting": ["Staircase"], "cooking": [], "additional": [] }
       },
       {
         "level": 3,
         "xpRequired": 390,
         "totalXp": 770,
         "recipes": {
-          "crafting": ["Glowstone Ring", "Transmute (Fe)"],
-          "cooking": ["Miner's Treat"]
+          "crafting": [],
+          "cooking": ["Miner's Treat"],
+          "additional": []
         }
       },
       {
         "level": 4,
         "xpRequired": 530,
         "totalXp": 1300,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": {
+          "crafting": ["Glowstone Ring", "Transmute (Fe)"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 5,
         "xpRequired": 850,
         "totalXp": 2150,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       },
       {
         "level": 6,
         "xpRequired": 1150,
         "totalXp": 3300,
-        "recipes": { "crafting": ["Bomb"], "cooking": [] }
+        "recipes": { "crafting": ["Bomb"], "cooking": [], "additional": [] }
       },
       {
         "level": 7,
         "xpRequired": 1500,
         "totalXp": 4800,
-        "recipes": { "crafting": ["Transmute (Au)", "Mega Bomb"], "cooking": [] }
+        "recipes": { "crafting": ["Transmute (Au)"], "cooking": [], "additional": [] }
       },
       {
         "level": 8,
         "xpRequired": 2100,
         "totalXp": 6900,
-        "recipes": { "crafting": ["Crystalarium"], "cooking": [] }
+        "recipes": { "crafting": ["Mega Bomb"], "cooking": [], "additional": [] }
       },
       {
         "level": 9,
         "xpRequired": 3100,
         "totalXp": 10000,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": ["Crystalarium"], "cooking": [], "additional": [] }
       },
       {
         "level": 10,
         "xpRequired": 5000,
         "totalXp": 15000,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       }
     ],
     "mastery": {
@@ -192,64 +221,85 @@
         "level": 1,
         "xpRequired": 100,
         "totalXp": 100,
-        "recipes": { "crafting": ["Wild Seeds (Spring)"], "cooking": ["Field Snack"] }
+        "recipes": {
+          "crafting": ["Wild Seeds (Spring)", "Field Snack"],
+          "cooking": [],
+          "additional": ["Trees sometimes drop seeds."]
+        }
       },
       {
         "level": 2,
         "xpRequired": 280,
         "totalXp": 380,
-        "recipes": { "crafting": ["Charcoal Kiln"], "cooking": [] }
+        "recipes": { "crafting": ["Charcoal Kiln"], "cooking": [], "additional": [] }
       },
       {
         "level": 3,
         "xpRequired": 390,
         "totalXp": 770,
-        "recipes": { "crafting": ["Cookout Kit"], "cooking": ["Moss Soup"] }
+        "recipes": { "crafting": ["Cookout Kit"], "cooking": ["Moss Soup"], "additional": [] }
       },
       {
         "level": 4,
         "xpRequired": 530,
         "totalXp": 1300,
-        "recipes": { "crafting": ["Wild Seeds (Summer)", "Tapper", "Mushroom Log"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Wild Seeds (Summer)", "Tapper", "Mushroom Log"],
+          "cooking": [],
+          "additional": ["+1 Wild Berry harvesting"]
+        }
       },
       {
         "level": 5,
         "xpRequired": 850,
         "totalXp": 2150,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       },
       {
         "level": 6,
         "xpRequired": 1150,
         "totalXp": 3300,
-        "recipes": { "crafting": ["Lightning Rod", "Wild Seeds (Fall)"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Lightning Rod", "Wild Seeds (Fall)", "Warp Totem: Beach"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 7,
         "xpRequired": 1500,
         "totalXp": 4800,
-        "recipes": { "crafting": ["Warp Totem: Beach"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Wild Seeds (Winter)", "Warp Totem: Mountains", "Tree Fertilizer"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 8,
         "xpRequired": 2100,
         "totalXp": 6900,
         "recipes": {
-          "crafting": ["Wild Seeds (Winter)", "Warp Totem: Mountains", "Tree Fertilizer"],
-          "cooking": []
+          "crafting": ["Warp Totem: Farm", "Tent Kit"],
+          "cooking": ["Survival Burger"],
+          "additional": ["+1 Wild Berry harvesting"]
         }
       },
       {
         "level": 9,
         "xpRequired": 3100,
         "totalXp": 10000,
-        "recipes": { "crafting": ["Warp Totem: Farm", "Tent Kit"], "cooking": ["Survival Burger"] }
+        "recipes": {
+          "crafting": ["Rain Totem"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 10,
         "xpRequired": 5000,
         "totalXp": 15000,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       }
     ],
     "mastery": {
@@ -277,31 +327,50 @@
         "level": 1,
         "xpRequired": 100,
         "totalXp": 100,
-        "recipes": { "crafting": ["Bait"], "cooking": [] }
+        "recipes": {
+          "crafting": [],
+          "cooking": [],
+          "additional": ["Casting distance increased by one tile"]
+        }
       },
       {
         "level": 2,
         "xpRequired": 280,
         "totalXp": 380,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": {
+          "crafting": ["Bait"],
+          "cooking": [],
+          "additional": ["Fiberglass Rod & Bait unlocked in Willy's Fish Shop"]
+        }
       },
       {
         "level": 3,
         "xpRequired": 390,
         "totalXp": 770,
-        "recipes": { "crafting": ["Crab Pot"], "cooking": ["Dish O' The Sea"] }
+        "recipes": {
+          "crafting": ["Crab Pot"],
+          "cooking": ["Dish O' The Sea"],
+          "additional": ["Crab Pot unlocked in Willy's Fish Shop"]
+        }
       },
       {
         "level": 4,
         "xpRequired": 530,
         "totalXp": 1300,
-        "recipes": { "crafting": ["Deluxe Bait", "Worm Bin", "Recycling Machine"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Deluxe Bait", "Worm Bin", "Recycling Machine"],
+          "cooking": [],
+          "additional": [
+            "Deluxe Bait unlocked in Willy's Fish Shop",
+            "Casting distance increased by one tile"
+          ]
+        }
       },
       {
         "level": 5,
         "xpRequired": 850,
         "totalXp": 2150,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       },
       {
         "level": 6,
@@ -309,14 +378,21 @@
         "totalXp": 3300,
         "recipes": {
           "crafting": ["Bait Maker", "Spinner", "Trap Bobber", "Sonar Bobber"],
-          "cooking": []
+          "cooking": [],
+          "additional": [
+            "Iridium Rod, Sonar Bobber, Lead Bobber, Spinner, Trap Bobber unlocked in Willy's Fish Shop"
+          ]
         }
       },
       {
         "level": 7,
         "xpRequired": 1500,
         "totalXp": 4800,
-        "recipes": { "crafting": ["Cork Bobber", "Treasure Hunter"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Cork Bobber", "Treasure Hunter"],
+          "cooking": [],
+          "additional": ["Cork Bobber & Treasure Hunter unlocked in Willy's Fish Shop"]
+        }
       },
       {
         "level": 8,
@@ -324,20 +400,28 @@
         "totalXp": 6900,
         "recipes": {
           "crafting": ["Deluxe Worm Bin", "Barbed Hook", "Dressed Spinner"],
-          "cooking": []
+          "cooking": [],
+          "additional": [
+            "Barbed Hook & Dressed Spinner unlocked in Willy's Fish Shop",
+            "Casting distance increased by one tile"
+          ]
         }
       },
       {
         "level": 9,
         "xpRequired": 3100,
         "totalXp": 10000,
-        "recipes": { "crafting": ["Magnet"], "cooking": ["Seafoam Pudding"] }
+        "recipes": {
+          "crafting": ["Magnet"],
+          "cooking": ["Seafoam Pudding"],
+          "additional": ["Magnet unlocked in Willy's Fish Shop"]
+        }
       },
       {
         "level": 10,
         "xpRequired": 5000,
         "totalXp": 15000,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       }
     ],
     "mastery": {
@@ -368,64 +452,73 @@
         "level": 1,
         "xpRequired": 100,
         "totalXp": 100,
-        "recipes": { "crafting": ["Sturdy Ring"], "cooking": ["Bug Steak"] }
+        "recipes": { "crafting": ["Sturdy Ring", "Bug Steak"], "cooking": [], "additional": [] }
       },
       {
         "level": 2,
         "xpRequired": 280,
         "totalXp": 380,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": ["Life Elixir"], "cooking": [], "additional": [] }
       },
       {
         "level": 3,
         "xpRequired": 390,
         "totalXp": 770,
-        "recipes": { "crafting": ["Life Elixir"], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": ["Roots Platter"], "additional": [] }
       },
       {
         "level": 4,
         "xpRequired": 530,
         "totalXp": 1300,
-        "recipes": { "crafting": [], "cooking": ["Roots Platter"] }
+        "recipes": { "crafting": ["Warrior Ring"], "cooking": [], "additional": [] }
       },
       {
         "level": 5,
         "xpRequired": 850,
         "totalXp": 2150,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       },
       {
         "level": 6,
         "xpRequired": 1150,
         "totalXp": 3300,
-        "recipes": { "crafting": ["Warrior Ring"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Slime Egg-Press", "Oil of Garlic"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 7,
         "xpRequired": 1500,
         "totalXp": 4800,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": ["Ring of Yoba", "Thorns Ring"], "cooking": [], "additional": [] }
       },
       {
         "level": 8,
         "xpRequired": 2100,
         "totalXp": 6900,
-        "recipes": { "crafting": ["Slime Egg-Press"], "cooking": [] }
+        "recipes": {
+          "crafting": ["Slime Incubator", "Explosive Ammo"],
+          "cooking": [],
+          "additional": []
+        }
       },
       {
         "level": 9,
         "xpRequired": 3100,
         "totalXp": 10000,
         "recipes": {
-          "crafting": ["Oil of Garlic", "Ring of Yoba", "Thorns Ring", "Slime Incubator"],
-          "cooking": []
+          "crafting": ["Iridium Band"],
+          "cooking": ["Squid Ink Ravioli"],
+          "additional": []
         }
       },
       {
         "level": 10,
         "xpRequired": 5000,
         "totalXp": 15000,
-        "recipes": { "crafting": [], "cooking": [] }
+        "recipes": { "crafting": [], "cooking": [], "additional": [] }
       }
     ],
     "mastery": {

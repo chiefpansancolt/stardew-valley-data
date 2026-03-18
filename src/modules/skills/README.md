@@ -51,6 +51,10 @@ skills().findByName("Fishing");
 const farming = skills().find("farming");
 farming?.levels[5].recipes.crafting; // ['Cheese Press', 'Hardwood Fence', 'Quality Sprinkler']
 
+// Get additional notes for a level
+skills().find("fishing")?.levels[0].recipes.additional;
+// ['Casting distance increased by one tile']
+
 // Get mastery unlocks for a skill
 skills().find("combat")?.mastery.unlocks;
 // [{ name: 'Anvil', description: '...' }, ...]
@@ -151,19 +155,20 @@ MASTERY_LEVELS; // [{ level: 1, xpRequired: 10000, totalXp: 10000 }, ...]
 
 ## Skill fields
 
-| Field                         | Type            | Notes                                       |
-| ----------------------------- | --------------- | ------------------------------------------- |
-| id                            | string          | farming, mining, foraging, fishing, combat  |
-| name                          | string          |                                             |
-| description                   | string          |                                             |
-| toolBonus                     | string          | Bonus applied per level to associated tool  |
-| image                         | string          | Path to skill icon image                    |
-| levels                        | SkillLevel[]    | 10 entries, one per level                   |
-| levels[].level                | number          | 1–10                                        |
-| levels[].xpRequired           | number          | XP needed to reach this level from previous |
-| levels[].totalXp              | number          | Cumulative XP required                      |
-| levels[].recipes.crafting     | string[]        | Crafting recipes unlocked at this level     |
-| levels[].recipes.cooking      | string[]        | Cooking recipes unlocked at this level      |
-| mastery.unlocks               | MasteryUnlock[] | Rewards unlocked when mastery is claimed    |
-| mastery.unlocks[].name        | string          | Item or feature name                        |
-| mastery.unlocks[].description | string          | What it does                                |
+| Field                         | Type            | Notes                                                          |
+| ----------------------------- | --------------- | -------------------------------------------------------------- |
+| id                            | string          | farming, mining, foraging, fishing, combat                     |
+| name                          | string          |                                                                |
+| description                   | string          |                                                                |
+| toolBonus                     | string          | Bonus applied per level to associated tool                     |
+| image                         | string          | Path to skill icon image                                       |
+| levels                        | SkillLevel[]    | 10 entries, one per level                                      |
+| levels[].level                | number          | 1–10                                                           |
+| levels[].xpRequired           | number          | XP needed to reach this level from previous                    |
+| levels[].totalXp              | number          | Cumulative XP required                                         |
+| levels[].recipes.crafting     | string[]        | Crafting recipes unlocked at this level                        |
+| levels[].recipes.cooking      | string[]        | Cooking recipes unlocked at this level                         |
+| levels[].recipes.additional   | string[]        | Extra notes for the level (e.g. shop unlocks, passive bonuses) |
+| mastery.unlocks               | MasteryUnlock[] | Rewards unlocked when mastery is claimed                       |
+| mastery.unlocks[].name        | string          | Item or feature name                                           |
+| mastery.unlocks[].description | string          | What it does                                                   |

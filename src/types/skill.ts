@@ -1,6 +1,7 @@
 export interface SkillLevelRecipes {
   crafting: string[];
   cooking: string[];
+  additional: string[];
 }
 
 export interface SkillLevel {
