@@ -286,69 +286,68 @@
     ]
   },
   {
-    "id": "bamboo-pole",
+    "id": "fishing-rod",
     "type": "fishing-rod",
-    "name": "Bamboo Pole",
-    "description": "A basic fishing rod. Cannot use bait or tackle.",
-    "image": "images/tools/fishing-rod/Bamboo Pole.png",
-    "cost": 500,
-    "fishingLevelRequired": null,
-    "bait": false,
-    "tackleSlots": 0,
-    "canEnchant": false,
-    "obtain": "Purchased from Willy's Fish Shop."
-  },
-  {
-    "id": "training-rod",
-    "type": "fishing-rod",
-    "name": "Training Rod",
-    "description": "Simplifies the fishing minigame and only catches common fish. Good for beginners.",
-    "image": "images/tools/fishing-rod/Training Rod.png",
-    "cost": 25,
-    "fishingLevelRequired": null,
-    "bait": false,
-    "tackleSlots": 0,
-    "canEnchant": false,
-    "obtain": "Purchased from Willy's Fish Shop."
-  },
-  {
-    "id": "fiberglass-rod",
-    "type": "fishing-rod",
-    "name": "Fiberglass Rod",
-    "description": "A mid-tier fishing rod that supports bait to attract fish faster.",
-    "image": "images/tools/fishing-rod/Fiberglass Rod.png",
-    "cost": 1800,
-    "fishingLevelRequired": 2,
-    "bait": true,
-    "tackleSlots": 0,
-    "canEnchant": false,
-    "obtain": "Purchased from Willy's Fish Shop."
-  },
-  {
-    "id": "iridium-rod",
-    "type": "fishing-rod",
-    "name": "Iridium Rod",
-    "description": "A high-end fishing rod that supports both bait and one tackle attachment.",
-    "image": "images/tools/fishing-rod/Iridium Rod.png",
-    "cost": 7500,
-    "fishingLevelRequired": 6,
-    "bait": true,
-    "tackleSlots": 1,
+    "name": "Fishing Rod",
+    "description": "Fishing rods for catching fish. Higher tiers unlock bait and tackle support.",
     "canEnchant": true,
-    "obtain": "Purchased from Willy's Fish Shop."
-  },
-  {
-    "id": "advanced-iridium-rod",
-    "type": "fishing-rod",
-    "name": "Advanced Iridium Rod",
-    "description": "The ultimate fishing rod with two tackle slots and bait support.",
-    "image": "images/tools/fishing-rod/Advanced Iridium Rod.png",
-    "cost": null,
-    "fishingLevelRequired": null,
-    "bait": true,
-    "tackleSlots": 2,
-    "canEnchant": true,
-    "obtain": "Reward for achieving Fishing Mastery."
+    "levels": [
+      {
+        "name": "Training Rod",
+        "image": "images/tools/fishing-rod/Training Rod.png",
+        "cost": 25,
+        "fishingLevelRequired": null,
+        "bait": false,
+        "tackleSlots": 0,
+        "canEnchant": false,
+        "obtain": "Purchased from Willy's Fish Shop.",
+        "description": "Simplifies the fishing minigame and only catches common fish. Good for beginners."
+      },
+      {
+        "name": "Bamboo Pole",
+        "image": "images/tools/fishing-rod/Bamboo Pole.png",
+        "cost": 500,
+        "fishingLevelRequired": null,
+        "bait": false,
+        "tackleSlots": 0,
+        "canEnchant": false,
+        "obtain": "Purchased from Willy's Fish Shop.",
+        "description": "A basic fishing rod. Cannot use bait or tackle."
+      },
+      {
+        "name": "Fiberglass Rod",
+        "image": "images/tools/fishing-rod/Fiberglass Rod.png",
+        "cost": 1800,
+        "fishingLevelRequired": 2,
+        "bait": true,
+        "tackleSlots": 0,
+        "canEnchant": false,
+        "obtain": "Purchased from Willy's Fish Shop.",
+        "description": "Supports bait to reduce time between bites. Requires Fishing level 2."
+      },
+      {
+        "name": "Iridium Rod",
+        "image": "images/tools/fishing-rod/Iridium Rod.png",
+        "cost": 7500,
+        "fishingLevelRequired": 6,
+        "bait": true,
+        "tackleSlots": 1,
+        "canEnchant": true,
+        "obtain": "Purchased from Willy's Fish Shop.",
+        "description": "Supports bait and one tackle attachment. Can be enchanted at the Forge. Requires Fishing level 6."
+      },
+      {
+        "name": "Advanced Iridium Rod",
+        "image": "images/tools/fishing-rod/Advanced Iridium Rod.png",
+        "cost": null,
+        "fishingLevelRequired": null,
+        "bait": true,
+        "tackleSlots": 2,
+        "canEnchant": true,
+        "obtain": "Reward for achieving Fishing Mastery.",
+        "description": "The ultimate fishing rod. Supports bait and two tackle attachments simultaneously. Can be enchanted at the Forge."
+      }
+    ]
   },
   {
     "id": "scythe",

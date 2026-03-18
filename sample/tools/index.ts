@@ -15,7 +15,8 @@ export function run(): { passed: number; failed: number } {
   console.log('\n=== TOOLS ===');
   console.log(`Total tools: ${tools().count()}`);
   console.log(`  Upgradeable:  ${tools().upgradeable().count()}`);
-  console.log(`  Fishing rods: ${tools().fishingRods().count()}`);
+  const rodEntry = tools().fishingRods().first() as FishingRod | undefined;
+  console.log(`  Fishing rods: ${rodEntry?.levels.length ?? 0} (1 progression entry)`);
   console.log(`  Simple:       ${tools().simple().count()}`);
   console.log(`  Backpacks:    ${tools().backpacks().count()}`);
   console.log(`  Enchantable:  ${tools().canEnchant().count()}`);
@@ -40,19 +41,23 @@ export function run(): { passed: number; failed: number } {
   // Fishing rods
   console.log('\n--- FISHING RODS ---');
   for (const rod of tools().fishingRods().get() as FishingRod[]) {
-    const costStr = rod.cost ? `${rod.cost.toLocaleString()}g` : 'mastery reward';
-    const levelStr = rod.fishingLevelRequired ? ` (level ${rod.fishingLevelRequired}+)` : '';
-    const features = [
-      rod.bait ? 'bait' : null,
-      rod.tackleSlots > 0
-        ? `${rod.tackleSlots} tackle slot${rod.tackleSlots > 1 ? 's' : ''}`
-        : null,
-    ]
-      .filter(Boolean)
-      .join(', ');
-    console.log(`  ${rod.name} — ${costStr}${levelStr}${features ? ` [${features}]` : ''}`);
-    if (checkImage(rod.name, rod.image)) passed++;
-    else failed++;
+    console.log(`\n  ${rod.name}`);
+    for (const level of rod.levels) {
+      const costStr = level.cost ? `${level.cost.toLocaleString()}g` : 'mastery reward';
+      const levelStr = level.fishingLevelRequired ? ` (level ${level.fishingLevelRequired}+)` : '';
+      const features = [
+        level.bait ? 'bait' : null,
+        level.tackleSlots > 0
+          ? `${level.tackleSlots} tackle slot${level.tackleSlots > 1 ? 's' : ''}`
+          : null,
+      ]
+        .filter(Boolean)
+        .join(', ');
+      console.log(`    ${level.name} — ${costStr}${levelStr}${features ? ` [${features}]` : ''}`);
+      console.log(`      ${level.description}`);
+      if (checkImage(level.name, level.image)) passed++;
+      else failed++;
+    }
   }
 
   // Simple tools

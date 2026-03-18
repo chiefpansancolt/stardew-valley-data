@@ -49,23 +49,34 @@ Copper Pan.
 > The Copper Pan starts at `'copper'` level (no basic tier). The Trash Can basic level has
 > `image: null` (no distinct image).
 
+### `FishingRodLevel`
+
+A single rod in the fishing rod progression.
+
+| Field                | Type           | Description                                        |
+| -------------------- | -------------- | -------------------------------------------------- |
+| name                 | string         | Rod name                                           |
+| image                | string         | Path to rod image                                  |
+| cost                 | number \| null | Purchase price (`null` for mastery reward)         |
+| fishingLevelRequired | number \| null | Minimum fishing level to purchase (`null` if none) |
+| bait                 | boolean        | Whether this rod supports bait                     |
+| tackleSlots          | number         | Number of tackle slots (0, 1, or 2)                |
+| canEnchant           | boolean        | Whether this rod can be enchanted at the Forge     |
+| obtain               | string         | How to acquire the rod                             |
+| description          | string         | What this rod does                                 |
+
 ### `FishingRod`
 
-Fishing poles purchased from Willy or obtained via Mastery.
+The single fishing rod progression entry containing all five rods as `levels`.
 
-| Field                | Type           | Description                                          |
-| -------------------- | -------------- | ---------------------------------------------------- |
-| id                   | string         | Unique identifier                                    |
-| type                 | 'fishing-rod'  | Discriminant                                         |
-| name                 | string         | Rod name                                             |
-| description          | string         | Rod description                                      |
-| image                | string         | Path to rod image                                    |
-| cost                 | number \| null | Purchase price (`null` for mastery reward)           |
-| fishingLevelRequired | number \| null | Minimum fishing level to purchase (`null` if none)   |
-| bait                 | boolean        | Whether the rod supports bait                        |
-| tackleSlots          | number         | Number of tackle slots (0, 1, or 2)                  |
-| canEnchant           | boolean        | Whether the rod can be enchanted (Iridium rods only) |
-| obtain               | string         | How to acquire the rod                               |
+| Field       | Type              | Description                                                                      |
+| ----------- | ----------------- | -------------------------------------------------------------------------------- |
+| id          | string            | `"fishing-rod"`                                                                  |
+| type        | 'fishing-rod'     | Discriminant                                                                     |
+| name        | string            | `"Fishing Rod"`                                                                  |
+| description | string            | Overview of the progression                                                      |
+| canEnchant  | boolean           | `true` — Iridium Rod and Advanced Iridium Rod qualify                            |
+| levels      | FishingRodLevel[] | Ordered progression: Training → Bamboo → Fiberglass → Iridium → Advanced Iridium |
 
 ### `SimpleTool`
 
@@ -160,8 +171,8 @@ tools().backpacks().get();
 
 #### `.canEnchant()`
 
-Only tools that can be enchanted at the Forge (all upgradeable tools + Iridium Rod + Advanced
-Iridium Rod).
+Only tools that can be enchanted at the Forge (all upgradeable tools + the fishing rod progression
+entry, which includes the Iridium Rod and Advanced Iridium Rod).
 
 ```ts
 tools().canEnchant().get();
@@ -209,15 +220,19 @@ const iridium = hoe.levels.find((l) => l.level === "iridium");
 // { level: 'iridium', upgradeCost: 25000, materialName: 'Iridium Bar', materialQuantity: 5, ... }
 
 // All enchantable tools
-tools().canEnchant().count(); // 8
+tools().canEnchant().count(); // 7
 
-// Fishing rods that support tackle
-const tackleRods = tools().fishingRods().get() as FishingRod[];
-tackleRods.filter((r) => r.tackleSlots > 0);
+// Fishing rod progression
+const rod = tools().find("fishing-rod") as FishingRod;
+rod.levels;
+// [Training Rod, Bamboo Pole, Fiberglass Rod, Iridium Rod, Advanced Iridium Rod]
+
+// Levels that support tackle
+rod.levels.filter((l) => l.tackleSlots > 0);
 // Iridium Rod (1 slot), Advanced Iridium Rod (2 slots)
 
-// Fishing rods available to buy (not mastery reward)
-tackleRods.filter((r) => r.cost !== null);
+// Levels available to buy (not mastery reward)
+rod.levels.filter((l) => l.cost !== null);
 
 // Cheapest backpack
 tools().backpacks().sortByName().first();

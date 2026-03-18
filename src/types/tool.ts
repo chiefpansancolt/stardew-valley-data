@@ -18,11 +18,8 @@ export interface UpgradeableTool {
   levels: UpgradeLevel[];
 }
 
-export interface FishingRod {
-  id: string;
-  type: 'fishing-rod';
+export interface FishingRodLevel {
   name: string;
-  description: string;
   image: string;
   cost: number | null;
   fishingLevelRequired: number | null;
@@ -30,6 +27,16 @@ export interface FishingRod {
   tackleSlots: number;
   canEnchant: boolean;
   obtain: string;
+  description: string;
+}
+
+export interface FishingRod {
+  id: string;
+  type: 'fishing-rod';
+  name: string;
+  description: string;
+  canEnchant: boolean;
+  levels: FishingRodLevel[];
 }
 
 export interface SimpleTool {

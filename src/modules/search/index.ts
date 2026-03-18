@@ -231,6 +231,12 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
           add({ kind: 'tool', id: tool.id, name: tool.name, image, sellPrice: null });
         }
       }
+    } else if (tool.type === 'fishing-rod') {
+      for (const level of tool.levels) {
+        if (matches(query, level.name, level.name)) {
+          add({ kind: 'tool', id: tool.id, name: level.name, image: level.image, sellPrice: null });
+        }
+      }
     } else {
       if (matches(query, tool.id, tool.name)) {
         add({ kind: 'tool', id: tool.id, name: tool.name, image: tool.image, sellPrice: null });
