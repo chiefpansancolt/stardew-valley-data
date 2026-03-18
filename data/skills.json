@@ -222,7 +222,7 @@
         "xpRequired": 100,
         "totalXp": 100,
         "recipes": {
-          "crafting": ["Wild Seeds (Spring)", "Field Snack"],
+          "crafting": ["Wild Seeds (Sp)", "Field Snack"],
           "cooking": [],
           "additional": ["Trees sometimes drop seeds."]
         }
@@ -244,7 +244,7 @@
         "xpRequired": 530,
         "totalXp": 1300,
         "recipes": {
-          "crafting": ["Wild Seeds (Summer)", "Tapper", "Mushroom Log"],
+          "crafting": ["Wild Seeds (Su)", "Tapper", "Mushroom Log"],
           "cooking": [],
           "additional": ["+1 Wild Berry harvesting"]
         }
@@ -260,7 +260,7 @@
         "xpRequired": 1150,
         "totalXp": 3300,
         "recipes": {
-          "crafting": ["Lightning Rod", "Wild Seeds (Fall)", "Warp Totem: Beach"],
+          "crafting": ["Lightning Rod", "Wild Seeds (Fa)", "Warp Totem: Beach"],
           "cooking": [],
           "additional": []
         }
@@ -270,7 +270,7 @@
         "xpRequired": 1500,
         "totalXp": 4800,
         "recipes": {
-          "crafting": ["Wild Seeds (Winter)", "Warp Totem: Mountains", "Tree Fertilizer"],
+          "crafting": ["Wild Seeds (Wi)", "Warp Totem: Mountains", "Tree Fertilizer"],
           "cooking": [],
           "additional": []
         }
