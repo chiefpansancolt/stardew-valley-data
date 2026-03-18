@@ -200,7 +200,7 @@
     "type": "upgradeable",
     "name": "Trash Can",
     "description": "Discard items from your inventory. Higher upgrades refund a percentage of the item's sell value.",
-    "canEnchant": true,
+    "canEnchant": false,
     "levels": [
       {
         "level": "basic",
@@ -247,7 +247,7 @@
   {
     "id": "pan",
     "type": "upgradeable",
-    "name": "Copper Pan",
+    "name": "Pan",
     "description": "Gather ore, gems, and other items from shimmering spots in water. Higher upgrades increase yield and chance for special items.",
     "canEnchant": true,
     "levels": [
