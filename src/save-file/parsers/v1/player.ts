@@ -67,13 +67,21 @@ function parseMastery(stats: Record<string, unknown>): SaveMastery {
   };
 }
 
-const TOOL_TYPES = ['WateringCan', 'Pan', 'Pickaxe', 'Axe', 'Hoe'] as const;
+const TOOL_TYPES = ['WateringCan', 'Pan', 'Pickaxe', 'Axe', 'Hoe', 'FishingRod'] as const;
 const TOOL_KEY_MAP: Record<string, keyof SaveToolLevels> = {
   WateringCan: 'wateringCan',
   Pan: 'pan',
   Pickaxe: 'pickaxe',
   Axe: 'axe',
   Hoe: 'hoe',
+};
+
+const FISHING_ROD_LEVEL: Record<string, number> = {
+  'Training Rod': 0,
+  'Bamboo Pole': 1,
+  'Fiberglass Rod': 2,
+  'Iridium Rod': 3,
+  'Advanced Iridium Rod': 4,
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -119,6 +127,7 @@ function parseToolLevels(player: any, root: any): SaveToolLevels {
     axe: 0,
     hoe: 0,
     trashCan: num(player.trashCanLevel),
+    fishingRod: -1,
   };
 
   const allItems = [
@@ -133,6 +142,9 @@ function parseToolLevels(player: any, root: any): SaveToolLevels {
     if (key) {
       const level = num(i.upgradeLevel);
       if (level > levels[key]) levels[key] = level;
+    } else if (xsiType === 'FishingRod') {
+      const rodLevel = FISHING_ROD_LEVEL[i.name] ?? -1;
+      if (rodLevel > levels.fishingRod) levels.fishingRod = rodLevel;
     }
   }
 

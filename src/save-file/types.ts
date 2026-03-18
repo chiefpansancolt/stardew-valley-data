@@ -66,6 +66,7 @@ export interface SaveToolLevels {
   axe: number;
   hoe: number;
   trashCan: number;
+  fishingRod: number;
 }
 
 /** Mastery system progress including XP, levels spent, and unlocked perks. */
