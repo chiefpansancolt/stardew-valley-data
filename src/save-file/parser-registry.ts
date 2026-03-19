@@ -60,7 +60,7 @@ const v1: ParserSetFn = (ctx) => ({
   stats: parseStats(ctx.player),
   animals: parseAnimals(ctx.root),
   buildings: parseBuildings(ctx.root),
-  cookingRecipes: parseCookingRecipes(ctx.player.cookingRecipes),
+  cookingRecipes: parseCookingRecipes(ctx.player.cookingRecipes, ctx.player.recipesCooked),
   craftingRecipes: parseCraftingRecipes(ctx.player.craftingRecipes),
   bundles: parseBundles(ctx.root, ctx.mailSet),
   monstersKilled: parseMonstersKilled(ctx.player),
