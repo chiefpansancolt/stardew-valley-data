@@ -339,7 +339,7 @@
       "energy": 38,
       "health": 17
     },
-    "image": "images/forageables/Grape.png",
+    "image": "images/crops/grape/crop.png",
     "maxQuality": "iridium",
     "artisanUses": {
       "honey": false,
