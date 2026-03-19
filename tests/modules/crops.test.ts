@@ -115,6 +115,19 @@ describe('CropQuery additional filters', () => {
       expect(crop.seedBuyPrices.length).toBeGreaterThan(0);
     }
   });
+
+  it('byArtisanUse() returns crops with that artisan use enabled', () => {
+    const wine = crops().byArtisanUse('wine').get();
+    expect(wine.length).toBeGreaterThan(0);
+    for (const crop of wine) {
+      expect(crop.artisanUses.wine).toBe(true);
+    }
+  });
+
+  it('byArtisanUse() returns empty when no crops match', () => {
+    const dried = crops().byArtisanUse('driedMushrooms').get();
+    expect(dried.length).toBe(0);
+  });
 });
 
 describe('CropQuery sorts', () => {

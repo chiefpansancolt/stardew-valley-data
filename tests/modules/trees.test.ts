@@ -48,6 +48,29 @@ describe('TreeQuery filters', () => {
       }
     }
   });
+
+  it('byArtisanUse() returns only fruit trees whose produce supports that use', () => {
+    const wine = trees().byArtisanUse('wine').get();
+    expect(wine.length).toBeGreaterThan(0);
+    for (const t of wine) {
+      expect(t.type).toBe('fruit-tree');
+      if (t.type === 'fruit-tree') {
+        expect(t.produce.artisanUses.wine).toBe(true);
+      }
+    }
+  });
+
+  it('byArtisanUse() excludes wild trees', () => {
+    const wine = trees().byArtisanUse('wine').get();
+    for (const t of wine) {
+      expect(t.type).not.toBe('wild-tree');
+    }
+  });
+
+  it('byArtisanUse() returns empty for honey (no fruit trees support it)', () => {
+    const honey = trees().byArtisanUse('honey').get();
+    expect(honey.length).toBe(0);
+  });
 });
 
 describe('TreeQuery sorts', () => {

@@ -77,6 +77,51 @@ describe('FishQuery filters', () => {
       expect(f.location.toLowerCase()).toContain('ocean');
     }
   });
+
+  it('smokeable() returns only fish that can be smoked', () => {
+    const smokeable = fish().smokeable().get();
+    expect(smokeable.length).toBeGreaterThan(0);
+    for (const f of smokeable) {
+      expect(f.canSmoke).toBe(true);
+    }
+  });
+
+  it('smokeable() excludes crab-pot fish and algae', () => {
+    const smokeable = fish().smokeable().get();
+    for (const f of smokeable) {
+      expect(f.catchType).not.toBe('crab-pot');
+    }
+  });
+
+  it('byRoe("roe") returns standard roe producers', () => {
+    const roe = fish().byRoe('roe').get();
+    expect(roe.length).toBeGreaterThan(0);
+    for (const f of roe) {
+      expect(f.roe).toBe('roe');
+    }
+  });
+
+  it('byRoe("caviar") returns only Sturgeon', () => {
+    const caviar = fish().byRoe('caviar').get();
+    expect(caviar.length).toBe(1);
+    expect(caviar[0].name).toBe('Sturgeon');
+  });
+
+  it('pondEligible() returns fish with a fishPond', () => {
+    const pond = fish().pondEligible().get();
+    expect(pond.length).toBeGreaterThan(0);
+    for (const f of pond) {
+      expect(f.fishPond).not.toBeNull();
+    }
+  });
+
+  it('pondEligible() excludes algae and jellies', () => {
+    const pond = fish().pondEligible().get();
+    const names = pond.map((f) => f.name);
+    expect(names).not.toContain('Seaweed');
+    expect(names).not.toContain('Green Algae');
+    expect(names).not.toContain('White Algae');
+  });
 });
 
 describe('FishQuery sorts', () => {

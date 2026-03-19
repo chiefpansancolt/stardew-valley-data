@@ -114,6 +114,14 @@ describe('search()', () => {
     expect(results[0].kind).toBe('ring');
   });
 
+  it('finds fishing rod by level name', () => {
+    const results = search('Iridium Rod', ['tool']);
+    expect(results.length).toBeGreaterThan(0);
+    const rod = results.find((r) => r.name === 'Iridium Rod');
+    expect(rod).toBeDefined();
+    expect(rod!.kind).toBe('tool');
+  });
+
   it('finds upgradeable tools by name', () => {
     const results = search('Hoe', ['tool']);
     expect(results.length).toBeGreaterThan(0);

@@ -1,4 +1,4 @@
-import { qualityCalculator } from '@/modules/calculator';
+import { artisanCalculator, qualityCalculator } from '@/modules/calculator';
 
 describe('QualityCalculator', () => {
   const calc = qualityCalculator();
@@ -55,5 +55,79 @@ describe('QualityCalculator', () => {
       expect(values[2].energy).toBe(Math.floor(100 * 2.6));
       expect(values[2].health).toBe(Math.floor(45 * 2.6));
     });
+  });
+});
+
+describe('artisanCalculator()', () => {
+  const calc = artisanCalculator();
+
+  it('roe(): 30 + floor(baseFishPrice / 2)', () => {
+    expect(calc.roe(200).sellPrice).toBe(130); // 30 + floor(200/2) = 130
+    expect(calc.roe(100).sellPrice).toBe(80);
+    expect(calc.roe(101).sellPrice).toBe(80); // floor(101/2) = 50
+  });
+
+  it('agedRoe(): 60 + baseFishPrice', () => {
+    expect(calc.agedRoe(200).sellPrice).toBe(260);
+    expect(calc.agedRoe(0).sellPrice).toBe(60);
+  });
+
+  it('honey(): 100 + baseFlowerPrice * 2', () => {
+    expect(calc.honey(0).sellPrice).toBe(100); // wild honey
+    expect(calc.honey(80).sellPrice).toBe(260); // tulip honey
+  });
+
+  it('wine(): floor(baseFruitPrice * 3) with energy/health x1.75', () => {
+    const result = calc.wine(100, 40, 18);
+    expect(result.sellPrice).toBe(300); // floor(100 * 3)
+    expect(result.energy).toBe(70); // floor(40 * 1.75)
+    expect(result.health).toBe(31); // floor(18 * 1.75)
+  });
+
+  it('juice(): floor(basePrice * 2.25) with energy/health x2', () => {
+    const result = calc.juice(100, 40, 18);
+    expect(result.sellPrice).toBe(225); // floor(100 * 2.25)
+    expect(result.energy).toBe(80); // floor(40 * 2)
+    expect(result.health).toBe(36); // floor(18 * 2)
+  });
+
+  it('pickles(): floor(basePrice * 2) + 50 with energy/health x1.75', () => {
+    const result = calc.pickles(100, 40, 18);
+    expect(result.sellPrice).toBe(250); // floor(100 * 2) + 50
+    expect(result.energy).toBe(70); // floor(40 * 1.75)
+    expect(result.health).toBe(31); // floor(18 * 1.75)
+  });
+
+  it('jelly(): floor(baseFruitPrice * 2) + 50 with energy/health x2', () => {
+    const result = calc.jelly(100, 40, 18);
+    expect(result.sellPrice).toBe(250); // floor(100 * 2) + 50
+    expect(result.energy).toBe(80);
+    expect(result.health).toBe(36);
+  });
+
+  it('driedMushrooms(): floor(basePrice * 7.5) + 25 with energy/health x3', () => {
+    const result = calc.driedMushrooms(40, 20, 9);
+    expect(result.sellPrice).toBe(325); // floor(40 * 7.5) + 25
+    expect(result.energy).toBe(60); // floor(20 * 3)
+    expect(result.health).toBe(27); // floor(9 * 3)
+  });
+
+  it('driedFruit(): floor(baseFruitPrice * 7.5) with energy/health x3', () => {
+    const result = calc.driedFruit(40, 20, 9);
+    expect(result.sellPrice).toBe(300); // floor(40 * 7.5)
+    expect(result.energy).toBe(60);
+    expect(result.health).toBe(27);
+  });
+
+  it('smokedFish(): floor(baseFishPrice * 2) with energy/health x1.5', () => {
+    const result = calc.smokedFish(100, 40, 18);
+    expect(result.sellPrice).toBe(200); // floor(100 * 2)
+    expect(result.energy).toBe(60); // floor(40 * 1.5)
+    expect(result.health).toBe(27); // floor(18 * 1.5)
+  });
+
+  it('artisanCalculator() factory returns an ArtisanCalculator', () => {
+    const ac = artisanCalculator();
+    expect(ac.roe(100).sellPrice).toBe(80);
   });
 });

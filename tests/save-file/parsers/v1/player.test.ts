@@ -251,4 +251,37 @@ describe('parsePlayer()', () => {
     const result = parsePlayer(player, makeRoot());
     expect(result.toolLevels.pickaxe).toBe(0);
   });
+
+  it('parses FishingRod level from rod name', () => {
+    const player = makePlayer({
+      items: {
+        Item: [{ '@_xsi:type': 'FishingRod', name: 'Iridium Rod' }],
+      },
+    });
+    const result = parsePlayer(player, makeRoot());
+    expect(result.toolLevels.fishingRod).toBe(3);
+  });
+
+  it('returns fishingRod -1 when rod name is unknown', () => {
+    const player = makePlayer({
+      items: {
+        Item: [{ '@_xsi:type': 'FishingRod', name: 'Unknown Rod' }],
+      },
+    });
+    const result = parsePlayer(player, makeRoot());
+    expect(result.toolLevels.fishingRod).toBe(-1);
+  });
+
+  it('takes highest fishing rod level when multiple rods present', () => {
+    const player = makePlayer({
+      items: {
+        Item: [
+          { '@_xsi:type': 'FishingRod', name: 'Bamboo Pole' },
+          { '@_xsi:type': 'FishingRod', name: 'Iridium Rod' },
+        ],
+      },
+    });
+    const result = parsePlayer(player, makeRoot());
+    expect(result.toolLevels.fishingRod).toBe(3);
+  });
 });

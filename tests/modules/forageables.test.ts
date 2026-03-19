@@ -39,6 +39,22 @@ describe('ForageableQuery filters', () => {
       expect(f.seasons).toContain('fall');
     }
   });
+
+  it('byArtisanUse() returns forageables with that artisan use enabled', () => {
+    const wine = forageables().byArtisanUse('wine').get();
+    expect(wine.length).toBeGreaterThan(0);
+    for (const f of wine) {
+      expect(f.artisanUses.wine).toBe(true);
+    }
+  });
+
+  it('byArtisanUse() returns correct items for driedMushrooms', () => {
+    const dried = forageables().byArtisanUse('driedMushrooms').get();
+    expect(dried.length).toBeGreaterThan(0);
+    for (const f of dried) {
+      expect(f.artisanUses.driedMushrooms).toBe(true);
+    }
+  });
 });
 
 describe('ForageableQuery sorts', () => {
