@@ -1,8 +1,6 @@
-export interface CraftingIngredient {
-  id: string;
-  name: string;
-  quantity: number;
-}
+import { Ingredient } from './common';
+
+export type CraftingIngredient = Ingredient;
 
 export interface CraftingOutput {
   id: string;

@@ -1,13 +1,8 @@
+import { DayOfWeek } from './common';
+
 export type CarpenterCategory = 'material' | 'recipe' | 'furniture' | 'craftable';
 
-export type CarpenterDay =
-  | 'Monday'
-  | 'Tuesday'
-  | 'Wednesday'
-  | 'Thursday'
-  | 'Friday'
-  | 'Saturday'
-  | 'Sunday';
+export type CarpenterDay = DayOfWeek;
 
 export interface CarpenterItem {
   id: string;

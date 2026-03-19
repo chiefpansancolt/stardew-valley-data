@@ -32,3 +32,26 @@ export interface GiftPreferences {
   dislikes: string[];
   hates: string[];
 }
+
+export type DayOfWeek =
+  | 'Monday'
+  | 'Tuesday'
+  | 'Wednesday'
+  | 'Thursday'
+  | 'Friday'
+  | 'Saturday'
+  | 'Sunday';
+
+export interface TraderShopItem {
+  id: string;
+  name: string;
+  description: string;
+  image: string;
+  tradeItemId: string;
+  tradeItemName: string;
+  tradeItemImage: string;
+  tradeAmount: number;
+  day?: DayOfWeek;
+  isRecipe?: boolean;
+  availability?: string;
+}

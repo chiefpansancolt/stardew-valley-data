@@ -49,6 +49,13 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Moved filter methods before sort methods in `cooking` module to match ordering convention
 - Added JSDoc to filter/sort methods in `hats`, `footwear`, `weather`, `maps`, `weapon-stats`,
   `bait`, and `tackle` modules
+- Added `DayOfWeek` and `TraderShopItem` shared types to `src/types/common.ts`; five duplicate
+  day-of-week unions (`CarpenterDay`, `DesertTraderDay`, `IslandTraderDay`, `OasisDay`,
+  `LocationDay`) are now type aliases
+- `DesertTraderItem` and `IslandTraderItem` are now aliases for the shared `TraderShopItem` type,
+  removing an identical 11-field interface duplicated across two files
+- `CraftingIngredient` is now a type alias for the existing `Ingredient` type in `common.ts`,
+  removing a structurally identical duplicate interface
 
 ## [0.8.0] - 2026-03-18
 

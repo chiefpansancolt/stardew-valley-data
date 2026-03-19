@@ -1,3 +1,5 @@
+import { DayOfWeek } from './common';
+
 export type LocationCategory =
   | 'The Valley'
   | 'Beyond the Valley'
@@ -11,14 +13,7 @@ export type LocationCategory =
   | 'The Desert'
   | 'Ginger Island';
 
-export type LocationDay =
-  | 'Monday'
-  | 'Tuesday'
-  | 'Wednesday'
-  | 'Thursday'
-  | 'Friday'
-  | 'Saturday'
-  | 'Sunday';
+export type LocationDay = DayOfWeek;
 
 export interface LocationHours {
   open: string;

@@ -1,13 +1,8 @@
+import { DayOfWeek } from './common';
+
 export type OasisCategory = 'seed' | 'food' | 'furniture' | 'clothing' | 'special';
 
-export type OasisDay =
-  | 'Monday'
-  | 'Tuesday'
-  | 'Wednesday'
-  | 'Thursday'
-  | 'Friday'
-  | 'Saturday'
-  | 'Sunday';
+export type OasisDay = DayOfWeek;
 
 export interface OasisItem {
   id: string;
