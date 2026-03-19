@@ -56,7 +56,16 @@
       "health": 11
     },
     "farmingXP": 8,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "188",
@@ -123,7 +132,16 @@
       "health": 11
     },
     "farmingXP": 9,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "190",
@@ -187,7 +205,16 @@
       "health": 33
     },
     "farmingXP": 23,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "192",
@@ -250,7 +277,16 @@
       "health": 11
     },
     "farmingXP": 14,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "248",
@@ -309,7 +345,16 @@
       "health": 9
     },
     "farmingXP": 12,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "250",
@@ -368,7 +413,16 @@
       "health": 22
     },
     "farmingXP": 17,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "252",
@@ -423,7 +477,16 @@
       }
     ],
     "farmingXP": 26,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "400",
@@ -486,7 +549,16 @@
       "health": 22
     },
     "farmingXP": 18,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "271",
@@ -545,7 +617,16 @@
       "health": 1
     },
     "farmingXP": 7,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "591",
@@ -604,7 +685,16 @@
       "health": 20
     },
     "farmingXP": 7,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": true,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "597",
@@ -659,7 +749,16 @@
       "health": 20
     },
     "farmingXP": 10,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": true,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "Carrot",
@@ -705,7 +804,16 @@
       "health": 33
     },
     "farmingXP": 8,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "433",
@@ -764,7 +872,16 @@
       }
     ],
     "farmingXP": 4,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "254",
@@ -828,7 +945,16 @@
       "health": 50
     },
     "farmingXP": 27,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "256",
@@ -887,7 +1013,16 @@
       "health": 9
     },
     "farmingXP": 12,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "258",
@@ -954,7 +1089,16 @@
       "health": 11
     },
     "farmingXP": 10,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "260",
@@ -1021,7 +1165,16 @@
       "health": 5
     },
     "farmingXP": 9,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "264",
@@ -1080,7 +1233,16 @@
       "health": 20
     },
     "farmingXP": 15,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "266",
@@ -1143,7 +1305,16 @@
       "health": 33
     },
     "farmingXP": 28,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "268",
@@ -1202,7 +1373,16 @@
       "health": 56
     },
     "farmingXP": 43,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "304",
@@ -1269,7 +1449,16 @@
       "health": 20
     },
     "farmingXP": 6,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "376",
@@ -1328,7 +1517,16 @@
       "health": 20
     },
     "farmingXP": 20,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": true,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "593",
@@ -1387,7 +1585,16 @@
       "health": 20
     },
     "farmingXP": 15,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": true,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "SummerSquash",
@@ -1446,7 +1653,16 @@
       "health": 28
     },
     "farmingXP": 9,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "830",
@@ -1492,7 +1708,16 @@
       "health": 17
     },
     "farmingXP": 16,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "270",
@@ -1559,7 +1784,16 @@
       "health": 11
     },
     "farmingXP": 10,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "262",
@@ -1610,7 +1844,16 @@
       }
     ],
     "farmingXP": 6,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "421",
@@ -1665,7 +1908,16 @@
       "health": 20
     },
     "farmingXP": 5,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": true,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "276",
@@ -1721,7 +1973,16 @@
       }
     ],
     "farmingXP": 31,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "272",
@@ -1780,7 +2041,16 @@
       "health": 9
     },
     "farmingXP": 12,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "274",
@@ -1839,7 +2109,16 @@
       "health": 13
     },
     "farmingXP": 22,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "300",
@@ -1894,7 +2173,16 @@
       "health": 22
     },
     "farmingXP": 21,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "398",
@@ -1953,7 +2241,16 @@
       "health": 17
     },
     "farmingXP": 14,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "282",
@@ -2012,7 +2309,16 @@
       "health": 17
     },
     "farmingXP": 14,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "278",
@@ -2067,7 +2373,16 @@
       "health": 11
     },
     "farmingXP": 14,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "280",
@@ -2122,7 +2437,16 @@
       "health": 20
     },
     "farmingXP": 22,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "284",
@@ -2173,7 +2497,16 @@
       "health": 13
     },
     "farmingXP": 16,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "417",
@@ -2224,7 +2557,16 @@
       }
     ],
     "farmingXP": 64,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "595",
@@ -2279,7 +2621,16 @@
       "health": 20
     },
     "farmingXP": 29,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": true,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "Broccoli",
@@ -2342,7 +2693,16 @@
       "health": 28
     },
     "farmingXP": 13,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "Powdermelon",
@@ -2401,7 +2761,16 @@
       "health": 28
     },
     "farmingXP": 12,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "454",
@@ -2447,7 +2816,16 @@
       }
     ],
     "farmingXP": 38,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "90",
@@ -2510,7 +2888,16 @@
       "health": 33
     },
     "farmingXP": 14,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "832",
@@ -2560,7 +2947,16 @@
       "health": 62
     },
     "farmingXP": 30,
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "889",
@@ -2606,7 +3002,72 @@
       "energy": 3,
       "health": 1
     },
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
+  },
+  {
+    "id": "815",
+    "name": "Tea Leaves",
+    "category": "vegetable",
+    "seasons": ["spring", "summer", "fall"],
+    "growDays": 20,
+    "regrowDays": 1,
+    "seedId": "251",
+    "seedName": "Tea Sapling",
+    "seedBuyPrices": [
+      {
+        "place": "Traveling Cart",
+        "price": 750
+      }
+    ],
+    "seedSellPrice": 250,
+    "cropSellPrice": 50,
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
+    "trellis": false,
+    "giant": false,
+    "description": "The young leaves of the tea plant. Can be brewed into the popular, energizing beverage.",
+    "image": "images/crops/tea-leaves/crop.png",
+    "seedImage": "images/crops/tea-leaves/seed.png",
+    "stages": [
+      {
+        "name": "stage 1",
+        "image": "images/crops/tea-leaves/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/tea-leaves/stage-2.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/tea-leaves/harvest.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/tea-leaves/stage-3.png"
+      }
+    ],
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    },
+    "farmingXP": 11
   },
   {
     "id": "771",
@@ -2651,6 +3112,15 @@
         "image": "images/crops/fiber/stage-5.png"
       }
     ],
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   }
 ]

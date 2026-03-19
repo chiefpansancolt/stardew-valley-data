@@ -1,4 +1,10 @@
-import { Quality, QualityEnergyHealth, QualityPrice } from '@/types';
+import {
+  ArtisanEnergyResult,
+  ArtisanResult,
+  Quality,
+  QualityEnergyHealth,
+  QualityPrice,
+} from '@/types';
 
 const QUALITY_ICONS: Record<Quality, string> = {
   silver: 'images/misc/Silver Quality.png',
@@ -56,4 +62,100 @@ export class QualityCalculator {
 /** Returns a QualityCalculator instance for computing quality-scaled prices and energy/health values. */
 export function qualityCalculator(): QualityCalculator {
   return new QualityCalculator();
+}
+
+/**
+ * Calculates sell prices and energy/health values for artisan goods.
+ * Each method accepts pre-computed base values for the source ingredient.
+ */
+export class ArtisanCalculator {
+  /** Roe sell price: `30 + Math.floor(baseFishPrice / 2)` */
+  roe(baseFishPrice: number): ArtisanResult {
+    return { sellPrice: 30 + Math.floor(baseFishPrice / 2) };
+  }
+
+  /** Aged Roe sell price: `60 + baseFishPrice` */
+  agedRoe(baseFishPrice: number): ArtisanResult {
+    return { sellPrice: 60 + baseFishPrice };
+  }
+
+  /**
+   * Honey sell price: `100 + (baseFlowerPrice * 2)`.
+   * Pass `0` for wild honey (no nearby flower).
+   */
+  honey(baseFlowerPrice: number): ArtisanResult {
+    return { sellPrice: 100 + baseFlowerPrice * 2 };
+  }
+
+  /** Wine sell price (`Math.floor(baseFruitPrice * 3)`) and energy/health (`×1.75`). */
+  wine(baseFruitPrice: number, baseEnergy: number, baseHealth: number): ArtisanEnergyResult {
+    return {
+      sellPrice: Math.floor(baseFruitPrice * 3),
+      energy: Math.floor(baseEnergy * 1.75),
+      health: Math.floor(baseHealth * 1.75),
+    };
+  }
+
+  /** Juice sell price (`Math.floor(basePrice * 2.25)`) and energy/health (`×2`). */
+  juice(basePrice: number, baseEnergy: number, baseHealth: number): ArtisanEnergyResult {
+    return {
+      sellPrice: Math.floor(basePrice * 2.25),
+      energy: Math.floor(baseEnergy * 2),
+      health: Math.floor(baseHealth * 2),
+    };
+  }
+
+  /** Pickles sell price (`Math.floor(basePrice * 2) + 50`) and energy/health (`×1.75`). */
+  pickles(basePrice: number, baseEnergy: number, baseHealth: number): ArtisanEnergyResult {
+    return {
+      sellPrice: Math.floor(basePrice * 2) + 50,
+      energy: Math.floor(baseEnergy * 1.75),
+      health: Math.floor(baseHealth * 1.75),
+    };
+  }
+
+  /** Jelly sell price (`Math.floor(baseFruitPrice * 2) + 50`) and energy/health (`×2`). */
+  jelly(baseFruitPrice: number, baseEnergy: number, baseHealth: number): ArtisanEnergyResult {
+    return {
+      sellPrice: Math.floor(baseFruitPrice * 2) + 50,
+      energy: Math.floor(baseEnergy * 2),
+      health: Math.floor(baseHealth * 2),
+    };
+  }
+
+  /** Dried Mushrooms sell price (`Math.floor(baseMushroomPrice * 7.5) + 25`) and energy/health (`×3`). */
+  driedMushrooms(
+    baseMushroomPrice: number,
+    baseEnergy: number,
+    baseHealth: number,
+  ): ArtisanEnergyResult {
+    return {
+      sellPrice: Math.floor(baseMushroomPrice * 7.5) + 25,
+      energy: Math.floor(baseEnergy * 3),
+      health: Math.floor(baseHealth * 3),
+    };
+  }
+
+  /** Dried Fruit sell price (`Math.floor(baseFruitPrice * 7.5)`) and energy/health (`×3`). */
+  driedFruit(baseFruitPrice: number, baseEnergy: number, baseHealth: number): ArtisanEnergyResult {
+    return {
+      sellPrice: Math.floor(baseFruitPrice * 7.5),
+      energy: Math.floor(baseEnergy * 3),
+      health: Math.floor(baseHealth * 3),
+    };
+  }
+
+  /** Smoked Fish sell price (`Math.floor(baseFishPrice * 2)`) and energy/health (`×1.5`). */
+  smokedFish(baseFishPrice: number, baseEnergy: number, baseHealth: number): ArtisanEnergyResult {
+    return {
+      sellPrice: Math.floor(baseFishPrice * 2),
+      energy: Math.floor(baseEnergy * 1.5),
+      health: Math.floor(baseHealth * 1.5),
+    };
+  }
+}
+
+/** Returns an ArtisanCalculator instance for computing artisan good sell prices and energy/health values. */
+export function artisanCalculator(): ArtisanCalculator {
+  return new ArtisanCalculator();
 }

@@ -18,7 +18,8 @@
       "poison": true
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Pufferfish.png"
+    "image": "images/fish/Pufferfish.png",
+    "canSmoke": true
   },
   {
     "id": "129",
@@ -38,7 +39,8 @@
       "health": 5
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Anchovy.png"
+    "image": "images/fish/Anchovy.png",
+    "canSmoke": true
   },
   {
     "id": "130",
@@ -58,7 +60,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Tuna.png"
+    "image": "images/fish/Tuna.png",
+    "canSmoke": true
   },
   {
     "id": "131",
@@ -84,7 +87,8 @@
       "health": 5
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Sardine.png"
+    "image": "images/fish/Sardine.png",
+    "canSmoke": true
   },
   {
     "id": "132",
@@ -104,7 +108,8 @@
       "health": 5
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Bream.png"
+    "image": "images/fish/Bream.png",
+    "canSmoke": true
   },
   {
     "id": "136",
@@ -131,7 +136,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Largemouth Bass.png"
+    "image": "images/fish/Largemouth Bass.png",
+    "canSmoke": true
   },
   {
     "id": "137",
@@ -151,7 +157,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Smallmouth Bass.png"
+    "image": "images/fish/Smallmouth Bass.png",
+    "canSmoke": true
   },
   {
     "id": "138",
@@ -171,7 +178,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Rainbow Trout.png"
+    "image": "images/fish/Rainbow Trout.png",
+    "canSmoke": true
   },
   {
     "id": "139",
@@ -191,7 +199,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Salmon.png"
+    "image": "images/fish/Salmon.png",
+    "canSmoke": true
   },
   {
     "id": "140",
@@ -217,7 +226,8 @@
       "health": 13
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Walleye.png"
+    "image": "images/fish/Walleye.png",
+    "canSmoke": true
   },
   {
     "id": "141",
@@ -237,7 +247,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Perch.png"
+    "image": "images/fish/Perch.png",
+    "canSmoke": true
   },
   {
     "id": "142",
@@ -257,7 +268,8 @@
       "health": 5
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Carp.png"
+    "image": "images/fish/Carp.png",
+    "canSmoke": true
   },
   {
     "id": "143",
@@ -277,7 +289,8 @@
       "health": 22
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Catfish.png"
+    "image": "images/fish/Catfish.png",
+    "canSmoke": true
   },
   {
     "id": "144",
@@ -297,7 +310,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Pike.png"
+    "image": "images/fish/Pike.png",
+    "canSmoke": true
   },
   {
     "id": "145",
@@ -317,7 +331,8 @@
       "health": 5
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Sunfish.png"
+    "image": "images/fish/Sunfish.png",
+    "canSmoke": true
   },
   {
     "id": "146",
@@ -337,7 +352,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Red Mullet.png"
+    "image": "images/fish/Red Mullet.png",
+    "canSmoke": true
   },
   {
     "id": "147",
@@ -357,7 +373,8 @@
       "health": 5
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Herring.png"
+    "image": "images/fish/Herring.png",
+    "canSmoke": true
   },
   {
     "id": "148",
@@ -384,7 +401,8 @@
       "health": 13
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Eel.png"
+    "image": "images/fish/Eel.png",
+    "canSmoke": true
   },
   {
     "id": "149",
@@ -400,7 +418,8 @@
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
     "maxQuality": "iridium",
-    "image": "images/fish/Octopus.png"
+    "image": "images/fish/Octopus.png",
+    "canSmoke": true
   },
   {
     "id": "150",
@@ -420,7 +439,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Red Snapper.png"
+    "image": "images/fish/Red Snapper.png",
+    "canSmoke": true
   },
   {
     "id": "151",
@@ -440,7 +460,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Squid.png"
+    "image": "images/fish/Squid.png",
+    "canSmoke": true
   },
   {
     "id": "152",
@@ -460,7 +481,8 @@
       "health": 5
     },
     "maxQuality": "base",
-    "image": "images/fish/Seaweed.png"
+    "image": "images/fish/Seaweed.png",
+    "canSmoke": false
   },
   {
     "id": "153",
@@ -480,7 +502,8 @@
       "health": 5
     },
     "maxQuality": "base",
-    "image": "images/fish/Green Algae.png"
+    "image": "images/fish/Green Algae.png",
+    "canSmoke": false
   },
   {
     "id": "154",
@@ -501,7 +524,8 @@
       "poison": true
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Sea Cucumber.png"
+    "image": "images/fish/Sea Cucumber.png",
+    "canSmoke": true
   },
   {
     "id": "155",
@@ -521,7 +545,8 @@
       "health": 56
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Super Cucumber.png"
+    "image": "images/fish/Super Cucumber.png",
+    "canSmoke": true
   },
   {
     "id": "156",
@@ -541,7 +566,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Ghostfish.png"
+    "image": "images/fish/Ghostfish.png",
+    "canSmoke": true
   },
   {
     "id": "157",
@@ -561,7 +587,8 @@
       "health": 9
     },
     "maxQuality": "base",
-    "image": "images/fish/White Algae.png"
+    "image": "images/fish/White Algae.png",
+    "canSmoke": false
   },
   {
     "id": "158",
@@ -577,7 +604,8 @@
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "maxQuality": "iridium",
-    "image": "images/fish/Stonefish.png"
+    "image": "images/fish/Stonefish.png",
+    "canSmoke": true
   },
   {
     "id": "159",
@@ -597,7 +625,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Crimsonfish.png"
+    "image": "images/fish/Crimsonfish.png",
+    "canSmoke": true
   },
   {
     "id": "160",
@@ -617,7 +646,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Angler.png"
+    "image": "images/fish/Angler.png",
+    "canSmoke": true
   },
   {
     "id": "161",
@@ -637,7 +667,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Ice Pip.png"
+    "image": "images/fish/Ice Pip.png",
+    "canSmoke": true
   },
   {
     "id": "162",
@@ -657,7 +688,8 @@
       "health": 22
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Lava Eel.png"
+    "image": "images/fish/Lava Eel.png",
+    "canSmoke": true
   },
   {
     "id": "163",
@@ -677,7 +709,8 @@
       "health": 225
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Legend.png"
+    "image": "images/fish/Legend.png",
+    "canSmoke": true
   },
   {
     "id": "164",
@@ -697,7 +730,8 @@
       "health": 5
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Sandfish.png"
+    "image": "images/fish/Sandfish.png",
+    "canSmoke": true
   },
   {
     "id": "165",
@@ -718,7 +752,8 @@
       "poison": true
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Scorpion Carp.png"
+    "image": "images/fish/Scorpion Carp.png",
+    "canSmoke": true
   },
   {
     "id": "267",
@@ -738,7 +773,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Flounder.png"
+    "image": "images/fish/Flounder.png",
+    "canSmoke": true
   },
   {
     "id": "269",
@@ -758,7 +794,8 @@
       "health": 22
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Midnight Carp.png"
+    "image": "images/fish/Midnight Carp.png",
+    "canSmoke": true
   },
   {
     "id": "372",
@@ -771,7 +808,8 @@
     "fishTank": true,
     "usedIn": ["Chowder", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
-    "image": "images/fish/Clam.png"
+    "image": "images/fish/Clam.png",
+    "canSmoke": false
   },
   {
     "id": "682",
@@ -791,7 +829,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Mutant Carp.png"
+    "image": "images/fish/Mutant Carp.png",
+    "canSmoke": true
   },
   {
     "id": "698",
@@ -811,7 +850,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Sturgeon.png"
+    "image": "images/fish/Sturgeon.png",
+    "canSmoke": true
   },
   {
     "id": "699",
@@ -831,7 +871,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Tiger Trout.png"
+    "image": "images/fish/Tiger Trout.png",
+    "canSmoke": true
   },
   {
     "id": "700",
@@ -851,7 +892,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Bullhead.png"
+    "image": "images/fish/Bullhead.png",
+    "canSmoke": true
   },
   {
     "id": "701",
@@ -871,7 +913,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Tilapia.png"
+    "image": "images/fish/Tilapia.png",
+    "canSmoke": true
   },
   {
     "id": "702",
@@ -891,7 +934,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Chub.png"
+    "image": "images/fish/Chub.png",
+    "canSmoke": true
   },
   {
     "id": "704",
@@ -911,7 +955,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Dorado.png"
+    "image": "images/fish/Dorado.png",
+    "canSmoke": true
   },
   {
     "id": "705",
@@ -931,7 +976,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Albacore.png"
+    "image": "images/fish/Albacore.png",
+    "canSmoke": true
   },
   {
     "id": "706",
@@ -957,7 +1003,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Shad.png"
+    "image": "images/fish/Shad.png",
+    "canSmoke": true
   },
   {
     "id": "707",
@@ -977,7 +1024,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Lingcod.png"
+    "image": "images/fish/Lingcod.png",
+    "canSmoke": true
   },
   {
     "id": "708",
@@ -997,7 +1045,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Halibut.png"
+    "image": "images/fish/Halibut.png",
+    "canSmoke": true
   },
   {
     "id": "715",
@@ -1010,7 +1059,8 @@
     "fishTank": true,
     "usedIn": ["Lobster Bisque", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "silver",
-    "image": "images/fish/Lobster.png"
+    "image": "images/fish/Lobster.png",
+    "canSmoke": false
   },
   {
     "id": "716",
@@ -1023,7 +1073,8 @@
     "fishTank": true,
     "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "silver",
-    "image": "images/fish/Crayfish.png"
+    "image": "images/fish/Crayfish.png",
+    "canSmoke": false
   },
   {
     "id": "717",
@@ -1036,7 +1087,8 @@
     "fishTank": true,
     "usedIn": ["Crab Cakes", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "gold",
-    "image": "images/fish/Crab.png"
+    "image": "images/fish/Crab.png",
+    "canSmoke": false
   },
   {
     "id": "718",
@@ -1049,7 +1101,8 @@
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
-    "image": "images/fish/Cockle.png"
+    "image": "images/fish/Cockle.png",
+    "canSmoke": false
   },
   {
     "id": "719",
@@ -1062,7 +1115,8 @@
     "fishTank": true,
     "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
-    "image": "images/fish/Mussel.png"
+    "image": "images/fish/Mussel.png",
+    "canSmoke": false
   },
   {
     "id": "720",
@@ -1082,7 +1136,8 @@
       "Crab Pot Bundle"
     ],
     "maxQuality": "silver",
-    "image": "images/fish/Shrimp.png"
+    "image": "images/fish/Shrimp.png",
+    "canSmoke": false
   },
   {
     "id": "721",
@@ -1095,7 +1150,8 @@
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "gold",
-    "image": "images/fish/Snail.png"
+    "image": "images/fish/Snail.png",
+    "canSmoke": false
   },
   {
     "id": "722",
@@ -1115,7 +1171,8 @@
       "Crab Pot Bundle"
     ],
     "maxQuality": "silver",
-    "image": "images/fish/Periwinkle.png"
+    "image": "images/fish/Periwinkle.png",
+    "canSmoke": false
   },
   {
     "id": "723",
@@ -1128,7 +1185,8 @@
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
-    "image": "images/fish/Oyster.png"
+    "image": "images/fish/Oyster.png",
+    "canSmoke": false
   },
   {
     "id": "734",
@@ -1154,7 +1212,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Woodskip.png"
+    "image": "images/fish/Woodskip.png",
+    "canSmoke": true
   },
   {
     "id": "775",
@@ -1174,7 +1233,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Glacierfish.png"
+    "image": "images/fish/Glacierfish.png",
+    "canSmoke": true
   },
   {
     "id": "795",
@@ -1194,7 +1254,8 @@
       "health": 28
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Void Salmon.png"
+    "image": "images/fish/Void Salmon.png",
+    "canSmoke": true
   },
   {
     "id": "796",
@@ -1214,7 +1275,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Slimejack.png"
+    "image": "images/fish/Slimejack.png",
+    "canSmoke": true
   },
   {
     "id": "798",
@@ -1234,7 +1296,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Midnight Squid.png"
+    "image": "images/fish/Midnight Squid.png",
+    "canSmoke": true
   },
   {
     "id": "799",
@@ -1254,7 +1317,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Spook Fish.png"
+    "image": "images/fish/Spook Fish.png",
+    "canSmoke": true
   },
   {
     "id": "800",
@@ -1274,7 +1338,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Blobfish.png"
+    "image": "images/fish/Blobfish.png",
+    "canSmoke": true
   },
   {
     "id": "836",
@@ -1294,7 +1359,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Stingray.png"
+    "image": "images/fish/Stingray.png",
+    "canSmoke": true
   },
   {
     "id": "837",
@@ -1314,7 +1380,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Lionfish.png"
+    "image": "images/fish/Lionfish.png",
+    "canSmoke": true
   },
   {
     "id": "838",
@@ -1334,7 +1401,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Blue Discus.png"
+    "image": "images/fish/Blue Discus.png",
+    "canSmoke": true
   },
   {
     "id": "898",
@@ -1354,7 +1422,8 @@
       "health": 17
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Son of Crimsonfish.png"
+    "image": "images/fish/Son of Crimsonfish.png",
+    "canSmoke": true
   },
   {
     "id": "899",
@@ -1374,7 +1443,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Ms. Angler.png"
+    "image": "images/fish/Ms. Angler.png",
+    "canSmoke": true
   },
   {
     "id": "900",
@@ -1394,7 +1464,8 @@
       "health": 225
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Legend II.png"
+    "image": "images/fish/Legend II.png",
+    "canSmoke": true
   },
   {
     "id": "901",
@@ -1414,7 +1485,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Radioactive Carp.png"
+    "image": "images/fish/Radioactive Carp.png",
+    "canSmoke": true
   },
   {
     "id": "902",
@@ -1434,7 +1506,8 @@
       "health": 11
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Glacierfish Jr.png"
+    "image": "images/fish/Glacierfish Jr.png",
+    "canSmoke": true
   },
   {
     "id": "Goby",
@@ -1455,7 +1528,8 @@
       "poison": true
     },
     "maxQuality": "iridium",
-    "image": "images/fish/Goby.png"
+    "image": "images/fish/Goby.png",
+    "canSmoke": true
   },
   {
     "id": "SeaJelly",
@@ -1474,7 +1548,8 @@
       "health": 39
     },
     "maxQuality": "base",
-    "image": "images/fish/jelly/Sea Jelly.png"
+    "image": "images/fish/jelly/Sea Jelly.png",
+    "canSmoke": true
   },
   {
     "id": "RiverJelly",
@@ -1493,7 +1568,8 @@
       "health": 33
     },
     "maxQuality": "base",
-    "image": "images/fish/jelly/River Jelly.png"
+    "image": "images/fish/jelly/River Jelly.png",
+    "canSmoke": true
   },
   {
     "id": "CaveJelly",
@@ -1512,6 +1588,7 @@
       "health": 33
     },
     "maxQuality": "base",
-    "image": "images/fish/jelly/Cave Jelly.png"
+    "image": "images/fish/jelly/Cave Jelly.png",
+    "canSmoke": true
   }
 ]

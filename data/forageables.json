@@ -11,7 +11,16 @@
       "health": 11
     },
     "image": "images/forageables/Blackberry.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "78",
@@ -25,7 +34,16 @@
       "health": 13
     },
     "image": "images/forageables/Cave Carrot.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "281",
@@ -39,7 +57,16 @@
       "health": 33
     },
     "image": "images/forageables/Chanterelle.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": true,
+      "driedFruit": false
+    }
   },
   {
     "id": "88",
@@ -49,7 +76,16 @@
     "locations": "Calico Desert (palm trees), Ginger Island",
     "sellPrice": 100,
     "image": "images/forageables/Coconut.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "404",
@@ -63,7 +99,16 @@
       "health": 17
     },
     "image": "images/forageables/Common Mushroom.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": true,
+      "driedFruit": false
+    }
   },
   {
     "id": "718",
@@ -73,7 +118,16 @@
     "locations": "The Beach",
     "sellPrice": 50,
     "image": "images/fish/Cockle.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "372",
@@ -83,7 +137,16 @@
     "locations": "The Beach",
     "sellPrice": 50,
     "image": "images/fish/Clam.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "393",
@@ -93,7 +156,16 @@
     "locations": "The Beach",
     "sellPrice": 80,
     "image": "images/forageables/Coral.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "418",
@@ -107,7 +179,16 @@
       "health": 0
     },
     "image": "images/forageables/Crocus.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "414",
@@ -121,7 +202,16 @@
       "health": 28
     },
     "image": "images/forageables/Crystal Fruit.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "18",
@@ -135,7 +225,16 @@
       "health": 0
     },
     "image": "images/forageables/Daffodil.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "22",
@@ -149,7 +248,16 @@
       "health": 11
     },
     "image": "images/forageables/Dandelion.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "259",
@@ -163,7 +271,16 @@
       "health": 11
     },
     "image": "images/forageables/Fiddlehead Fern.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "153",
@@ -177,7 +294,16 @@
       "health": 5
     },
     "image": "images/fish/Green Algae.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "829",
@@ -191,7 +317,16 @@
       "health": 11
     },
     "image": "images/forageables/Ginger.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "398",
@@ -205,7 +340,16 @@
       "health": 17
     },
     "image": "images/forageables/Grape.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "408",
@@ -219,7 +363,16 @@
       "health": 13
     },
     "image": "images/forageables/Hazelnut.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "283",
@@ -234,7 +387,16 @@
       "poison": true
     },
     "image": "images/forageables/Holly.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "20",
@@ -248,7 +410,16 @@
       "health": 18
     },
     "image": "images/forageables/Leek.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "851",
@@ -262,7 +433,16 @@
       "health": 78
     },
     "image": "images/forageables/Magma Cap.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": true,
+      "driedFruit": false
+    }
   },
   {
     "id": "719",
@@ -272,7 +452,16 @@
     "locations": "The Beach",
     "sellPrice": 30,
     "image": "images/fish/Mussel.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "257",
@@ -286,7 +475,16 @@
       "health": 9
     },
     "image": "images/forageables/Morel.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": true,
+      "driedFruit": false
+    }
   },
   {
     "id": "392",
@@ -296,7 +494,16 @@
     "locations": "The Beach",
     "sellPrice": 120,
     "image": "images/forageables/Nautilus Shell.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "422",
@@ -310,7 +517,16 @@
       "health": 56
     },
     "image": "images/forageables/Purple Mushroom.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": true,
+      "driedFruit": false
+    }
   },
   {
     "id": "723",
@@ -320,7 +536,16 @@
     "locations": "The Beach",
     "sellPrice": 40,
     "image": "images/fish/Oyster.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "394",
@@ -330,7 +555,16 @@
     "locations": "The Beach",
     "sellPrice": 300,
     "image": "images/forageables/Rainbow Shell.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "420",
@@ -345,7 +579,16 @@
       "poison": true
     },
     "image": "images/forageables/Red Mushroom.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "296",
@@ -359,7 +602,16 @@
       "health": 11
     },
     "image": "images/forageables/Salmonberry.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "92",
@@ -374,7 +626,16 @@
       "poison": true
     },
     "image": "images/forageables/Sap.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "397",
@@ -384,7 +645,16 @@
     "locations": "The Beach",
     "sellPrice": 160,
     "image": "images/forageables/Sea Urchin.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "152",
@@ -398,7 +668,16 @@
       "health": 5
     },
     "image": "images/fish/Seaweed.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "416",
@@ -412,7 +691,16 @@
       "health": 13
     },
     "image": "images/forageables/Snow Yam.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "396",
@@ -426,7 +714,16 @@
       "health": 11
     },
     "image": "images/forageables/Spice Berry.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "399",
@@ -440,7 +737,16 @@
       "health": 5
     },
     "image": "images/forageables/Spring Onion.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "402",
@@ -454,7 +760,16 @@
       "health": 0
     },
     "image": "images/forageables/Sweet Pea.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "16",
@@ -468,7 +783,16 @@
       "health": 5
     },
     "image": "images/forageables/Wild Horseradish.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "406",
@@ -482,7 +806,16 @@
       "health": 11
     },
     "image": "images/forageables/Wild Plum.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "157",
@@ -496,7 +829,16 @@
       "health": 9
     },
     "image": "images/fish/White Algae.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "412",
@@ -510,7 +852,16 @@
       "health": 11
     },
     "image": "images/forageables/Winter Root.png",
-    "maxQuality": "iridium"
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "388",
@@ -520,7 +871,16 @@
     "locations": "Felling trees and branches with an axe; Recycling Machine (from Driftwood)",
     "sellPrice": 2,
     "image": "images/forageables/Wood.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "330",
@@ -530,7 +890,16 @@
     "locations": "Tilling dirt, sand, or Artifact Spots; Ginger Island Dig Site; Geodes",
     "sellPrice": 20,
     "image": "images/forageables/Clay.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": true,
+      "pickles": true,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "709",
@@ -540,7 +909,16 @@
     "locations": "Chopping Mahogany Trees or Large Stumps; Secret Woods (6 stumps daily); Ginger Island",
     "sellPrice": 15,
     "image": "images/forageables/Hardwood.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "787",
@@ -550,7 +928,16 @@
     "locations": "Lightning Rod during thunderstorms; Solar Panel after 7 sunny days; Iridium Bat drop (5%)",
     "sellPrice": 500,
     "image": "images/forageables/Battery Pack.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "812",
@@ -564,7 +951,16 @@
       "health": 22
     },
     "image": "images/forageables/Roe.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "814",
@@ -574,17 +970,16 @@
     "locations": "Squid Kids in The Mines; Blue Squids in Dangerous Mines; Squid or Midnight Squid Fish Pond",
     "sellPrice": 110,
     "image": "images/forageables/Squid Ink.png",
-    "maxQuality": "base"
-  },
-  {
-    "id": "815",
-    "name": "Tea Leaves",
-    "description": "The young leaves of the tea plant. Can be brewed into the popular, energizing beverage.",
-    "seasons": ["spring", "summer", "fall"],
-    "locations": "Tea Bush harvest (days 22-28 of Spring, Summer, Fall); year-round when grown indoors",
-    "sellPrice": 50,
-    "image": "images/forageables/Tea Leaves.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   },
   {
     "id": "390",
@@ -594,7 +989,39 @@
     "locations": "Mining rocks throughout the world",
     "sellPrice": 2,
     "image": "images/forageables/Stone.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
+  },
+  {
+    "id": "90",
+    "name": "Cactus Fruit",
+    "description": "The sweet fruit of a cactus. Grows year-round indoors or on Ginger Island.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "Calico Desert (ground spawn), Ginger Island",
+    "sellPrice": 75,
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "image": "images/crops/cactus-fruit/crop.png",
+    "maxQuality": "iridium",
+    "artisanUses": {
+      "honey": false,
+      "wine": true,
+      "juice": false,
+      "pickles": false,
+      "jelly": true,
+      "driedMushrooms": false,
+      "driedFruit": true
+    }
   },
   {
     "id": "Moss",
@@ -604,6 +1031,15 @@
     "locations": "Foraging from trees with moss growing on them; Green Rain events",
     "sellPrice": 5,
     "image": "images/forageables/Moss.png",
-    "maxQuality": "base"
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
   }
 ]

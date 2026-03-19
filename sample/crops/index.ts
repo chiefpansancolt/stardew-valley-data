@@ -65,6 +65,25 @@ export function run(): { passed: number; failed: number } {
   console.log(`find("24"):         ${crops().find('24')?.name}`);
   console.log(`findByName("Corn"): ${crops().findByName('Corn')?.id}`);
 
+  console.log('\n--- Artisan uses ---');
+  const artisanUses = [
+    'honey',
+    'wine',
+    'juice',
+    'pickles',
+    'jelly',
+    'driedMushrooms',
+    'driedFruit',
+  ] as const;
+  for (const use of artisanUses) {
+    const names = crops()
+      .byArtisanUse(use)
+      .get()
+      .map((c) => c.name)
+      .join(', ');
+    console.log(`  ${use.padEnd(15)} (${crops().byArtisanUse(use).count()}): ${names}`);
+  }
+
   console.log('\n--- Compound queries ---');
   console.log(
     `Spring vegetables:               ${crops().bySeason('spring').byCategory('vegetable').count()}`,

@@ -1,4 +1,4 @@
-import { EnergyHealth, ItemQuality, Season, SeedBuyPrice, Stage } from './common';
+import { ArtisanUses, EnergyHealth, ItemQuality, Season, SeedBuyPrice, Stage } from './common';
 
 export interface HarvestQuantity {
   min: number;
@@ -27,5 +27,6 @@ export interface Crop {
   stages: Stage[];
   energyHealth?: EnergyHealth;
   maxQuality: ItemQuality;
+  artisanUses: ArtisanUses;
   farmingXP?: number;
 }

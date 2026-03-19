@@ -15,6 +15,7 @@ export interface Fish {
   difficulty?: number;
   sellPrice: number;
   fishTank: boolean;
+  canSmoke: boolean;
   usedIn: string[];
   energyHealth?: EnergyHealth;
   maxQuality: ItemQuality;

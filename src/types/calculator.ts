@@ -14,3 +14,13 @@ export interface QualityEnergyHealth {
   energy: number;
   health: number;
 }
+
+export interface ArtisanResult {
+  sellPrice: number;
+}
+
+export interface ArtisanEnergyResult {
+  sellPrice: number;
+  energy: number;
+  health: number;
+}

@@ -1,6 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import data from '@/data/trees.json';
-import { FruitTree, Season, Tree, WildTree } from '@/types';
+import { ArtisanUses, FruitTree, Season, Tree, WildTree } from '@/types';
 
 const treeData: Tree[] = data as Tree[];
 
@@ -28,6 +28,13 @@ export class TreeQuery extends QueryBase<Tree> {
   bySeason(season: Season): TreeQuery {
     return new TreeQuery(
       this.data.filter((t) => t.type === 'fruit-tree' && (t as FruitTree).seasons.includes(season)),
+    );
+  }
+
+  /** Filter to fruit trees whose produce can be used for the given artisan good. Wild trees always return false for all uses. */
+  byArtisanUse(use: keyof ArtisanUses): TreeQuery {
+    return new TreeQuery(
+      this.data.filter((t) => t.type === 'fruit-tree' && (t as FruitTree).produce.artisanUses[use]),
     );
   }
 

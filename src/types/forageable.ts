@@ -1,4 +1,4 @@
-import { EnergyHealth, ItemQuality, Season } from './common';
+import { ArtisanUses, EnergyHealth, ItemQuality, Season } from './common';
 
 export interface Forageable {
   id: string;
@@ -9,5 +9,6 @@ export interface Forageable {
   sellPrice: number;
   energyHealth?: EnergyHealth;
   maxQuality: ItemQuality;
+  artisanUses: ArtisanUses;
   image: string;
 }

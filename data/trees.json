@@ -6,8 +6,14 @@
     "saplingId": "629",
     "saplingName": "Apricot Sapling",
     "saplingBuyPrices": [
-      { "place": "Pierre's", "price": 2000 },
-      { "place": "JojaMart", "price": 2500 }
+      {
+        "place": "Pierre's",
+        "price": 2000
+      },
+      {
+        "place": "JojaMart",
+        "price": 2500
+      }
     ],
     "saplingSellPrice": 500,
     "seasons": ["spring"],
@@ -16,18 +22,45 @@
     "image": "images/trees/apricot/harvest.png",
     "saplingImage": "images/trees/apricot/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/apricot/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/apricot/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/apricot/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/apricot/stage-4.png" },
-      { "name": "mature", "image": "images/trees/apricot/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/apricot/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/apricot/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/apricot/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/apricot/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/apricot/stage-5.png"
+      }
     ],
     "produce": {
       "id": "634",
       "name": "Apricot",
       "sellPrice": 50,
       "image": "images/trees/apricot/crop.png",
-      "energyHealth": { "energy": 38, "health": 17 }
+      "energyHealth": {
+        "energy": 38,
+        "health": 17
+      },
+      "artisanUses": {
+        "honey": false,
+        "wine": true,
+        "juice": false,
+        "pickles": false,
+        "jelly": true,
+        "driedMushrooms": false,
+        "driedFruit": true
+      }
     }
   },
   {
@@ -37,8 +70,14 @@
     "saplingId": "628",
     "saplingName": "Cherry Sapling",
     "saplingBuyPrices": [
-      { "place": "Pierre's", "price": 3400 },
-      { "place": "JojaMart", "price": 4250 }
+      {
+        "place": "Pierre's",
+        "price": 3400
+      },
+      {
+        "place": "JojaMart",
+        "price": 4250
+      }
     ],
     "saplingSellPrice": 850,
     "seasons": ["spring"],
@@ -47,18 +86,45 @@
     "image": "images/trees/cherry/harvest.png",
     "saplingImage": "images/trees/cherry/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/cherry/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/cherry/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/cherry/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/cherry/stage-4.png" },
-      { "name": "mature", "image": "images/trees/cherry/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/cherry/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/cherry/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/cherry/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/cherry/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/cherry/stage-5.png"
+      }
     ],
     "produce": {
       "id": "638",
       "name": "Cherry",
       "sellPrice": 80,
       "image": "images/trees/cherry/crop.png",
-      "energyHealth": { "energy": 38, "health": 17 }
+      "energyHealth": {
+        "energy": 38,
+        "health": 17
+      },
+      "artisanUses": {
+        "honey": false,
+        "wine": true,
+        "juice": false,
+        "pickles": false,
+        "jelly": true,
+        "driedMushrooms": false,
+        "driedFruit": true
+      }
     }
   },
   {
@@ -68,8 +134,14 @@
     "saplingId": "630",
     "saplingName": "Orange Sapling",
     "saplingBuyPrices": [
-      { "place": "Pierre's", "price": 4000 },
-      { "place": "JojaMart", "price": 5000 }
+      {
+        "place": "Pierre's",
+        "price": 4000
+      },
+      {
+        "place": "JojaMart",
+        "price": 5000
+      }
     ],
     "saplingSellPrice": 1000,
     "seasons": ["summer"],
@@ -78,18 +150,45 @@
     "image": "images/trees/orange/harvest.png",
     "saplingImage": "images/trees/orange/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/orange/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/orange/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/orange/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/orange/stage-4.png" },
-      { "name": "mature", "image": "images/trees/orange/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/orange/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/orange/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/orange/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/orange/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/orange/stage-5.png"
+      }
     ],
     "produce": {
       "id": "635",
       "name": "Orange",
       "sellPrice": 100,
       "image": "images/trees/orange/crop.png",
-      "energyHealth": { "energy": 38, "health": 17 }
+      "energyHealth": {
+        "energy": 38,
+        "health": 17
+      },
+      "artisanUses": {
+        "honey": false,
+        "wine": true,
+        "juice": false,
+        "pickles": false,
+        "jelly": true,
+        "driedMushrooms": false,
+        "driedFruit": true
+      }
     }
   },
   {
@@ -99,8 +198,14 @@
     "saplingId": "631",
     "saplingName": "Peach Sapling",
     "saplingBuyPrices": [
-      { "place": "Pierre's", "price": 6000 },
-      { "place": "JojaMart", "price": 7500 }
+      {
+        "place": "Pierre's",
+        "price": 6000
+      },
+      {
+        "place": "JojaMart",
+        "price": 7500
+      }
     ],
     "saplingSellPrice": 1500,
     "seasons": ["summer"],
@@ -109,18 +214,45 @@
     "image": "images/trees/peach/harvest.png",
     "saplingImage": "images/trees/peach/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/peach/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/peach/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/peach/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/peach/stage-4.png" },
-      { "name": "mature", "image": "images/trees/peach/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/peach/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/peach/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/peach/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/peach/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/peach/stage-5.png"
+      }
     ],
     "produce": {
       "id": "636",
       "name": "Peach",
       "sellPrice": 140,
       "image": "images/trees/peach/crop.png",
-      "energyHealth": { "energy": 38, "health": 17 }
+      "energyHealth": {
+        "energy": 38,
+        "health": 17
+      },
+      "artisanUses": {
+        "honey": false,
+        "wine": true,
+        "juice": false,
+        "pickles": false,
+        "jelly": true,
+        "driedMushrooms": false,
+        "driedFruit": true
+      }
     }
   },
   {
@@ -137,18 +269,45 @@
     "image": "images/trees/banana/harvest.png",
     "saplingImage": "images/trees/banana/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/banana/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/banana/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/banana/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/banana/stage-4.png" },
-      { "name": "mature", "image": "images/trees/banana/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/banana/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/banana/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/banana/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/banana/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/banana/stage-5.png"
+      }
     ],
     "produce": {
       "id": "91",
       "name": "Banana",
       "sellPrice": 150,
       "image": "images/trees/banana/crop.png",
-      "energyHealth": { "energy": 75, "health": 33 }
+      "energyHealth": {
+        "energy": 75,
+        "health": 33
+      },
+      "artisanUses": {
+        "honey": false,
+        "wine": true,
+        "juice": false,
+        "pickles": false,
+        "jelly": true,
+        "driedMushrooms": false,
+        "driedFruit": true
+      }
     }
   },
   {
@@ -165,18 +324,45 @@
     "image": "images/trees/mango/harvest.png",
     "saplingImage": "images/trees/mango/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/mango/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/mango/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/mango/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/mango/stage-4.png" },
-      { "name": "mature", "image": "images/trees/mango/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/mango/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/mango/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/mango/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/mango/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/mango/stage-5.png"
+      }
     ],
     "produce": {
       "id": "834",
       "name": "Mango",
       "sellPrice": 130,
       "image": "images/trees/mango/crop.png",
-      "energyHealth": { "energy": 100, "health": 45 }
+      "energyHealth": {
+        "energy": 100,
+        "health": 45
+      },
+      "artisanUses": {
+        "honey": false,
+        "wine": true,
+        "juice": false,
+        "pickles": false,
+        "jelly": true,
+        "driedMushrooms": false,
+        "driedFruit": true
+      }
     }
   },
   {
@@ -186,8 +372,14 @@
     "saplingId": "633",
     "saplingName": "Apple Sapling",
     "saplingBuyPrices": [
-      { "place": "Pierre's", "price": 4000 },
-      { "place": "JojaMart", "price": 5000 }
+      {
+        "place": "Pierre's",
+        "price": 4000
+      },
+      {
+        "place": "JojaMart",
+        "price": 5000
+      }
     ],
     "saplingSellPrice": 1000,
     "seasons": ["fall"],
@@ -196,18 +388,45 @@
     "image": "images/trees/apple/harvest.png",
     "saplingImage": "images/trees/apple/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/apple/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/apple/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/apple/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/apple/stage-4.png" },
-      { "name": "mature", "image": "images/trees/apple/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/apple/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/apple/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/apple/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/apple/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/apple/stage-5.png"
+      }
     ],
     "produce": {
       "id": "613",
       "name": "Apple",
       "sellPrice": 100,
       "image": "images/trees/apple/crop.png",
-      "energyHealth": { "energy": 38, "health": 17 }
+      "energyHealth": {
+        "energy": 38,
+        "health": 17
+      },
+      "artisanUses": {
+        "honey": false,
+        "wine": true,
+        "juice": false,
+        "pickles": false,
+        "jelly": true,
+        "driedMushrooms": false,
+        "driedFruit": true
+      }
     }
   },
   {
@@ -217,8 +436,14 @@
     "saplingId": "632",
     "saplingName": "Pomegranate Sapling",
     "saplingBuyPrices": [
-      { "place": "Pierre's", "price": 6000 },
-      { "place": "JojaMart", "price": 7500 }
+      {
+        "place": "Pierre's",
+        "price": 6000
+      },
+      {
+        "place": "JojaMart",
+        "price": 7500
+      }
     ],
     "saplingSellPrice": 1500,
     "seasons": ["fall"],
@@ -227,18 +452,45 @@
     "image": "images/trees/pomegranate/harvest.png",
     "saplingImage": "images/trees/pomegranate/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/pomegranate/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/pomegranate/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/pomegranate/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/pomegranate/stage-4.png" },
-      { "name": "mature", "image": "images/trees/pomegranate/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/pomegranate/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/pomegranate/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/pomegranate/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/pomegranate/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/pomegranate/stage-5.png"
+      }
     ],
     "produce": {
       "id": "637",
       "name": "Pomegranate",
       "sellPrice": 140,
       "image": "images/trees/pomegranate/crop.png",
-      "energyHealth": { "energy": 38, "health": 17 }
+      "energyHealth": {
+        "energy": 38,
+        "health": 17
+      },
+      "artisanUses": {
+        "honey": false,
+        "wine": true,
+        "juice": false,
+        "pickles": false,
+        "jelly": true,
+        "driedMushrooms": false,
+        "driedFruit": true
+      }
     }
   },
   {
@@ -251,11 +503,26 @@
     "image": "images/trees/oak/stage-5.png",
     "seedImage": "images/trees/oak/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/oak/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/oak/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/oak/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/oak/stage-4.png" },
-      { "name": "mature", "image": "images/trees/oak/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/oak/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/oak/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/oak/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/oak/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/oak/stage-5.png"
+      }
     ],
     "tapper": {
       "id": "725",
@@ -274,18 +541,36 @@
     "image": "images/trees/maple/stage-5.png",
     "seedImage": "images/trees/maple/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/maple/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/maple/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/maple/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/maple/stage-4.png" },
-      { "name": "mature", "image": "images/trees/maple/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/maple/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/maple/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/maple/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/maple/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/maple/stage-5.png"
+      }
     ],
     "tapper": {
       "id": "724",
       "name": "Maple Syrup",
       "sellPrice": 200,
       "image": "images/forageables/Maple Syrup.png",
-      "energyHealth": { "energy": 50, "health": 22 }
+      "energyHealth": {
+        "energy": 50,
+        "health": 22
+      }
     }
   },
   {
@@ -298,11 +583,26 @@
     "image": "images/trees/pine/stage-5.png",
     "seedImage": "images/trees/pine/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/pine/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/pine/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/pine/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/pine/stage-4.png" },
-      { "name": "mature", "image": "images/trees/pine/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/pine/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/pine/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/pine/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/pine/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/pine/stage-5.png"
+      }
     ],
     "tapper": {
       "id": "726",
@@ -321,18 +621,36 @@
     "image": "images/trees/mahogany/stage-5.png",
     "seedImage": "images/trees/mahogany/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/mahogany/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/mahogany/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/mahogany/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/mahogany/stage-4.png" },
-      { "name": "mature", "image": "images/trees/mahogany/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/mahogany/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/mahogany/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/mahogany/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/mahogany/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/mahogany/stage-5.png"
+      }
     ],
     "tapper": {
       "id": "92",
       "name": "Sap",
       "sellPrice": 2,
       "image": "images/forageables/Sap.png",
-      "energyHealth": { "energy": -2, "health": -1 }
+      "energyHealth": {
+        "energy": -2,
+        "health": -1
+      }
     }
   },
   {
@@ -345,18 +663,36 @@
     "image": "images/trees/mushroom/stage-5.png",
     "seedImage": "images/trees/mushroom/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/mushroom/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/mushroom/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/mushroom/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/mushroom/stage-4.png" },
-      { "name": "mature", "image": "images/trees/mushroom/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/mushroom/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/mushroom/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/mushroom/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/mushroom/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/mushroom/stage-5.png"
+      }
     ],
     "tapper": {
       "id": "404",
       "name": "Common Mushroom",
       "sellPrice": 40,
       "image": "images/forageables/Common Mushroom.png",
-      "energyHealth": { "energy": 38, "health": 17 }
+      "energyHealth": {
+        "energy": 38,
+        "health": 17
+      }
     }
   },
   {
@@ -369,18 +705,36 @@
     "image": "images/trees/mystic/stage-5.png",
     "seedImage": "images/trees/mystic/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/trees/mystic/stage-1.png" },
-      { "name": "stage 2", "image": "images/trees/mystic/stage-2.png" },
-      { "name": "stage 3", "image": "images/trees/mystic/stage-3.png" },
-      { "name": "stage 4", "image": "images/trees/mystic/stage-4.png" },
-      { "name": "mature", "image": "images/trees/mystic/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/trees/mystic/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/mystic/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/mystic/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/mystic/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/mystic/stage-5.png"
+      }
     ],
     "tapper": {
       "id": "MysticSyrup",
       "name": "Mystic Syrup",
       "sellPrice": 1000,
       "image": "images/forageables/Mystic Syrup.png",
-      "energyHealth": { "energy": 500, "health": 225 }
+      "energyHealth": {
+        "energy": 500,
+        "health": 225
+      }
     }
   }
 ]

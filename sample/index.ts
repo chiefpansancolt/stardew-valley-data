@@ -2,6 +2,7 @@ import { run as runAchievements } from './achievements';
 import { run as runAnimals } from './animals';
 import { run as runArtifacts } from './artifacts';
 import { run as runArtisanGoods } from './artisan-goods';
+import { run as runArtisanUses } from './artisan-uses';
 import { run as runBait } from './bait';
 import { run as runBlacksmith } from './blacksmith-shop';
 import { run as runBookseller } from './bookseller-shop';
@@ -77,6 +78,7 @@ const results = [
   { name: 'bundles', ...captureRun('bundles', runBundles) },
   { name: 'quests', ...captureRun('quests', runQuests) },
   { name: 'artisan-goods', ...captureRun('artisan-goods', runArtisanGoods) },
+  { name: 'artisan-uses', ...captureRun('artisan-uses', runArtisanUses) },
   { name: 'calculator', ...captureRun('calculator', runCalculator) },
   { name: 'crops', ...captureRun('crops', runCrops) },
   { name: 'trees', ...captureRun('trees', runTrees) },

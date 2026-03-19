@@ -22,6 +22,7 @@ are included.
 | difficulty   | number?       | Catch difficulty 5–110 (rod fish only)                                        |
 | sellPrice    | number        | Base sell price in gold                                                       |
 | fishTank     | boolean       | Can be placed in a Fish Tank                                                  |
+| canSmoke     | boolean       | Can be processed in a Fish Smoker (`false` for crab-pot fish, seaweed, algae) |
 | usedIn       | string[]      | Cooking recipes and Community Center bundles                                  |
 | energyHealth | EnergyHealth? | Energy and health restored when eaten; omitted for inedible fish              |
 | maxQuality   | ItemQuality   | Highest quality tier achievable (`'base'`, `'silver'`, `'gold'`, `'iridium'`) |

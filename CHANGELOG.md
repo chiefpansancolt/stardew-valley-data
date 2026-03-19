@@ -9,6 +9,25 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- `ArtisanCalculator` class and `artisanCalculator()` factory added to the `calculator` module —
+  covers Roe, Aged Roe, Honey, Wine, Juice, Pickles, Jelly, Dried Mushrooms, Dried Fruit, and Smoked
+  Fish; returns sell price and (where applicable) energy/health values
+- `ArtisanResult` and `ArtisanEnergyResult` types added to `src/types/calculator.ts`
+- `ArtisanUses` interface added to `src/types/common.ts` —
+  `{ honey, wine, juice, pickles, jelly, driedMushrooms, driedFruit: boolean }`
+- `artisanUses: ArtisanUses` field added to all crops (`data/crops.json`, `Crop` type), all
+  forageables (`data/forageables.json`, `Forageable` type), and all fruit tree produce
+  (`data/trees.json`, `FruitTreeProduce` type)
+- `canSmoke: boolean` field added to all 77 fish in `data/fish.json` and `Fish` type — `true` for
+  all rod-caught fish except Seaweed, Green Algae, and White Algae
+- `byArtisanUse(use: keyof ArtisanUses)` filter method added to `CropQuery`, `ForageableQuery`, and
+  `TreeQuery`
+- `sample/artisan-uses/` — new cross-module sample showing all items grouped by artisan use across
+  crops, forageables, and fruit trees
+- Cactus Fruit added to `data/forageables.json` (id `90`; fruit — wine, jelly, driedFruit)
+- Tea Leaves moved from `data/forageables.json` to `data/crops.json` — vegetable,
+  spring/summer/fall, 20-day grow / 1-day regrow, juice and pickles artisan uses; growth stage
+  images added to `images/crops/tea-leaves/`
 - Added `Energy.png`, `Health.png`, and `Poison.png` icon images (20×20) to `images/misc/`
 - `maxQuality` field (`ItemQuality`) added to all farm animal produce and deluxe produce in
   `data/animals.json` and `AnimalProduce` type
@@ -26,6 +45,10 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
+- Tea Leaves removed from `data/forageables.json`; consolidated to `data/crops.json`
+- `images/forageables/Tea Leaves.png` and `images/craftable/seeds/Tea Sapling.png` removed —
+  replaced by unified images under `images/crops/tea-leaves/`; `data/crafting.json` reference
+  updated accordingly
 - `FishQuality` type removed from `src/types/fish.ts`; `maxQuality` now uses the shared
   `ItemQuality` type
 - `tsconfig.json` — enabled `noUnusedLocals` and `noUnusedParameters` for stricter compile-time
@@ -33,6 +56,13 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Documentation
 
+- `src/modules/calculator/README.md` — added `ArtisanCalculator` methods, formulas, and examples
+- `src/modules/crops/README.md` — added `byArtisanUse` filter and `artisanUses` fields table rows
+- `src/modules/forageables/README.md` — added `byArtisanUse` filter and `artisanUses` fields table
+  rows
+- `src/modules/trees/README.md` — added `byArtisanUse` filter and `produce.artisanUses` fields table
+  rows; added example usage
+- `src/modules/fish/README.md` — added `canSmoke` row to fish fields table
 - `src/modules/animals/README.md` — added `produce.maxQuality` and `deluxeProduce.maxQuality` rows
   to farm animal fields table
 - `src/modules/artisan-goods/README.md` — added `energyHealth` and `maxQuality` rows to fields table

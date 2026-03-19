@@ -23,6 +23,25 @@ export function run(): { passed: number; failed: number } {
     }
   }
 
+  console.log('\n--- Artisan uses ---');
+  const artisanUses = [
+    'wine',
+    'juice',
+    'pickles',
+    'jelly',
+    'driedMushrooms',
+    'driedFruit',
+  ] as const;
+  for (const use of artisanUses) {
+    const names = forageables()
+      .byArtisanUse(use)
+      .sortByName()
+      .get()
+      .map((f) => f.name)
+      .join(', ');
+    console.log(`  ${use.padEnd(15)} (${forageables().byArtisanUse(use).count()}): ${names}`);
+  }
+
   // Validate each image exactly once
   for (const item of forageables().sortByName().get()) {
     if (checkImage(item.name, item.image)) passed++;

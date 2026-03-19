@@ -1,4 +1,4 @@
-import { EnergyHealth, Season, SeedBuyPrice, Stage } from './common';
+import { ArtisanUses, EnergyHealth, Season, SeedBuyPrice, Stage } from './common';
 
 export interface FruitTreeProduce {
   id: string;
@@ -6,6 +6,7 @@ export interface FruitTreeProduce {
   sellPrice: number;
   image: string;
   energyHealth?: EnergyHealth;
+  artisanUses: ArtisanUses;
 }
 
 export interface FruitTree {

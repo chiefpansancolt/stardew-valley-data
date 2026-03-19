@@ -42,6 +42,16 @@ export type DayOfWeek =
   | 'Saturday'
   | 'Sunday';
 
+export interface ArtisanUses {
+  honey: boolean;
+  wine: boolean;
+  juice: boolean;
+  pickles: boolean;
+  jelly: boolean;
+  driedMushrooms: boolean;
+  driedFruit: boolean;
+}
+
 export interface TraderShopItem {
   id: string;
   name: string;

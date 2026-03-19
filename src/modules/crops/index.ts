@@ -1,6 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import data from '@/data/crops.json';
-import { Crop, Season } from '@/types';
+import { ArtisanUses, Crop, Season } from '@/types';
 
 const cropData: Crop[] = data as Crop[];
 
@@ -62,6 +62,11 @@ export class CropQuery extends QueryBase<Crop> {
   /** Filter to crops with energy/health values (edible when consumed). */
   eatable(): CropQuery {
     return new CropQuery(this.data.filter((c) => c.energyHealth !== undefined));
+  }
+
+  /** Filter to crops that can be used to produce the given artisan good (e.g. `'wine'`, `'honey'`). */
+  byArtisanUse(use: keyof ArtisanUses): CropQuery {
+    return new CropQuery(this.data.filter((c) => c.artisanUses[use]));
   }
 
   /** Sort by crop sell price. Default: `'desc'` (most valuable first). */

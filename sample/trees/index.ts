@@ -68,6 +68,17 @@ export function run(): { passed: number; failed: number } {
       .join(', ')}`,
   );
 
+  console.log('\n--- Artisan uses (fruit trees) ---');
+  const artisanUses = ['wine', 'jelly', 'driedFruit'] as const;
+  for (const use of artisanUses) {
+    const names = trees()
+      .byArtisanUse(use)
+      .get()
+      .map((t) => (t as FruitTree).produce.name)
+      .join(', ');
+    console.log(`  ${use.padEnd(15)} (${trees().byArtisanUse(use).count()}): ${names}`);
+  }
+
   console.log('\n--- Image validation ---');
 
   for (const tree of trees().fruitTrees().get()) {

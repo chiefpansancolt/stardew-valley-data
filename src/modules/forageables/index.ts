@@ -1,6 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import data from '@/data/forageables.json';
-import { Forageable, Season } from '@/types';
+import { ArtisanUses, Forageable, Season } from '@/types';
 
 const forageableData: Forageable[] = data as Forageable[];
 
@@ -13,6 +13,11 @@ export class ForageableQuery extends QueryBase<Forageable> {
   /** Filter to forageables available in the given season. */
   bySeason(season: Season): ForageableQuery {
     return new ForageableQuery(this.data.filter((f) => f.seasons.includes(season)));
+  }
+
+  /** Filter to forageables that can be used to produce the given artisan good (e.g. `'wine'`, `'driedMushrooms'`). */
+  byArtisanUse(use: keyof ArtisanUses): ForageableQuery {
+    return new ForageableQuery(this.data.filter((f) => f.artisanUses[use]));
   }
 
   /** Sort alphabetically by name. Default: `'asc'`. */

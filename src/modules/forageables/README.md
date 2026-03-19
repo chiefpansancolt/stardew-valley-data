@@ -12,17 +12,25 @@ and special location finds. 32 forageables are included.
 
 ### `Forageable`
 
-| Field        | Type          | Description                                                       |
-| ------------ | ------------- | ----------------------------------------------------------------- |
-| id           | string        | Unique identifier (kebab-case)                                    |
-| name         | string        | Display name                                                      |
-| description  | string        | Flavour text shown in-game                                        |
-| seasons      | Season[]      | Seasons when this item can be found                               |
-| locations    | string        | Where to find it                                                  |
-| sellPrice    | number        | Base sell price in gold                                           |
-| energyHealth | EnergyHealth? | Energy and health restored when eaten; omitted for inedible items |
-| maxQuality   | ItemQuality   | Highest quality tier achievable (`'base'` or `'iridium'`)         |
-| image        | string        | Path to the item's icon                                           |
+| Field                      | Type          | Description                                                       |
+| -------------------------- | ------------- | ----------------------------------------------------------------- |
+| id                         | string        | Unique identifier (kebab-case)                                    |
+| name                       | string        | Display name                                                      |
+| description                | string        | Flavour text shown in-game                                        |
+| seasons                    | Season[]      | Seasons when this item can be found                               |
+| locations                  | string        | Where to find it                                                  |
+| sellPrice                  | number        | Base sell price in gold                                           |
+| energyHealth               | EnergyHealth? | Energy and health restored when eaten; omitted for inedible items |
+| maxQuality                 | ItemQuality   | Highest quality tier achievable (`'base'` or `'iridium'`)         |
+| artisanUses                | ArtisanUses   | Which artisan goods this forageable can produce                   |
+| artisanUses.honey          | boolean       | Can influence Bee House honey                                     |
+| artisanUses.wine           | boolean       | Can be processed in a Keg → Wine (fruits)                         |
+| artisanUses.juice          | boolean       | Can be processed in a Keg → Juice (vegetables)                    |
+| artisanUses.pickles        | boolean       | Can be processed in a Preserves Jar → Pickles (vegetables)        |
+| artisanUses.jelly          | boolean       | Can be processed in a Preserves Jar → Jelly (fruits)              |
+| artisanUses.driedMushrooms | boolean       | Can be processed in a Dehydrator → Dried Mushrooms (mushrooms)    |
+| artisanUses.driedFruit     | boolean       | Can be processed in a Dehydrator → Dried Fruit (fruits)           |
+| image                      | string        | Path to the item's icon                                           |
 
 `Season` is `'spring' | 'summer' | 'fall' | 'winter' | 'ginger island'`.
 
@@ -52,6 +60,21 @@ Filter to items available in the given season.
 
 ```ts
 forageables().bySeason("spring").get();
+```
+
+#### `.byArtisanUse(use: keyof ArtisanUses)`
+
+Filter to forageables that can be used to produce the given artisan good.
+
+Valid keys: `'honey'`, `'wine'`, `'juice'`, `'pickles'`, `'jelly'`, `'driedMushrooms'`,
+`'driedFruit'`
+
+```ts
+forageables().byArtisanUse("wine").get();
+// Blackberry, Coconut, Crystal Fruit, Grape, Ginger, Hazelnut, Salmonberry, Spice Berry, Wild Plum
+
+forageables().byArtisanUse("driedMushrooms").get();
+// Chanterelle, Common Mushroom, Magma Cap, Morel, Purple Mushroom, Red Mushroom
 ```
 
 ### Sorts
