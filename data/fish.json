@@ -1554,7 +1554,7 @@
     "maxQuality": "iridium",
     "image": "images/fish/Clam.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2101,7 +2101,7 @@
     "maxQuality": "silver",
     "image": "images/fish/Lobster.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2164,7 +2164,7 @@
     "maxQuality": "silver",
     "image": "images/fish/Crayfish.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2219,7 +2219,7 @@
     "maxQuality": "gold",
     "image": "images/fish/Crab.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2282,7 +2282,7 @@
     "maxQuality": "iridium",
     "image": "images/fish/Cockle.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2345,7 +2345,7 @@
     "maxQuality": "iridium",
     "image": "images/fish/Mussel.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2415,7 +2415,7 @@
     "maxQuality": "silver",
     "image": "images/fish/Shrimp.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2478,7 +2478,7 @@
     "maxQuality": "gold",
     "image": "images/fish/Snail.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2540,7 +2540,7 @@
     "maxQuality": "silver",
     "image": "images/fish/Periwinkle.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
@@ -2595,7 +2595,7 @@
     "maxQuality": "iridium",
     "image": "images/fish/Oyster.png",
     "canSmoke": false,
-    "roe": "roe",
+    "roe": null,
     "fishPond": {
       "produce": [
         {
