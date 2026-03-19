@@ -10,6 +10,7 @@ export class HatQuery extends QueryBase<Hat> {
     super(data);
   }
 
+  /** Sort alphabetically by name. Default: `'asc'`. */
   sortByName(order: 'asc' | 'desc' = 'asc'): HatQuery {
     return new HatQuery(
       [...this.data].sort((a, b) =>

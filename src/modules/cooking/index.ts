@@ -1,29 +1,38 @@
 import { QueryBase } from '@/common/query-base';
-import cookingData from '@/data/cooking.json';
+import data from '@/data/cooking.json';
 import { CookedDish } from '@/types';
 
-const allCookingData: CookedDish[] = cookingData as CookedDish[];
+const cookingData: CookedDish[] = data as CookedDish[];
 
 /** Query builder for cooked dish data. All filter and sort methods return a new CookingQuery for chaining. */
 export class CookingQuery extends QueryBase<CookedDish> {
-  constructor(data: CookedDish[] = allCookingData) {
+  constructor(data: CookedDish[] = cookingData) {
     super(data);
+  }
+
+  /** Filter to dishes that require a specific ingredient by ID. */
+  withIngredient(ingredientId: string): CookingQuery {
+    return new CookingQuery(
+      this.data.filter((d) => d.ingredients.some((i) => i.id === ingredientId)),
+    );
   }
 
   /** Sort alphabetically by name. Default: `'asc'`. */
   sortByName(order: 'asc' | 'desc' = 'asc'): CookingQuery {
-    const sorted = [...this.data].sort((a, b) =>
-      order === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name),
+    return new CookingQuery(
+      [...this.data].sort((a, b) =>
+        order === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name),
+      ),
     );
-    return new CookingQuery(sorted);
   }
 
   /** Sort by sell price. Default: `'desc'` (most valuable first). */
   sortBySellPrice(order: 'asc' | 'desc' = 'desc'): CookingQuery {
-    const sorted = [...this.data].sort((a, b) =>
-      order === 'asc' ? a.sellPrice - b.sellPrice : b.sellPrice - a.sellPrice,
+    return new CookingQuery(
+      [...this.data].sort((a, b) =>
+        order === 'asc' ? a.sellPrice - b.sellPrice : b.sellPrice - a.sellPrice,
+      ),
     );
-    return new CookingQuery(sorted);
   }
 
   /**
@@ -31,22 +40,17 @@ export class CookingQuery extends QueryBase<CookedDish> {
    * Default: `'desc'` (most energising first).
    */
   sortByEnergy(order: 'asc' | 'desc' = 'desc'): CookingQuery {
-    const sorted = [...this.data].sort((a, b) => {
-      const ea = a.energyHealth.energy ?? 0;
-      const eb = b.energyHealth.energy ?? 0;
-      return order === 'asc' ? ea - eb : eb - ea;
-    });
-    return new CookingQuery(sorted);
-  }
-
-  /** Filter to dishes that require a specific ingredient by ID. */
-  withIngredient(ingredientId: string): CookingQuery {
-    const filtered = this.data.filter((d) => d.ingredients.some((i) => i.id === ingredientId));
-    return new CookingQuery(filtered);
+    return new CookingQuery(
+      [...this.data].sort((a, b) => {
+        const ea = a.energyHealth.energy ?? 0;
+        const eb = b.energyHealth.energy ?? 0;
+        return order === 'asc' ? ea - eb : eb - ea;
+      }),
+    );
   }
 }
 
 /** Returns a CookingQuery for all cooked dish data. Pass `source` to wrap a pre-filtered array. */
-export function cooking(source: CookedDish[] = allCookingData): CookingQuery {
+export function cooking(source: CookedDish[] = cookingData): CookingQuery {
   return new CookingQuery(source);
 }

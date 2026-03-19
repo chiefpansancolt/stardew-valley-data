@@ -1,12 +1,12 @@
 import { QueryBase } from '@/common/query-base';
-import forageableData from '@/data/forageables.json';
+import data from '@/data/forageables.json';
 import { Forageable, Season } from '@/types';
 
-const allForageableData: Forageable[] = forageableData as Forageable[];
+const forageableData: Forageable[] = data as Forageable[];
 
 /** Query builder for forageable item data. All filter and sort methods return a new ForageableQuery for chaining. */
 export class ForageableQuery extends QueryBase<Forageable> {
-  constructor(data: Forageable[] = allForageableData) {
+  constructor(data: Forageable[] = forageableData) {
     super(data);
   }
 
@@ -35,6 +35,6 @@ export class ForageableQuery extends QueryBase<Forageable> {
 }
 
 /** Returns a ForageableQuery for all forageable data. Pass `source` to wrap a pre-filtered array. */
-export function forageables(source: Forageable[] = allForageableData): ForageableQuery {
+export function forageables(source: Forageable[] = forageableData): ForageableQuery {
   return new ForageableQuery(source);
 }

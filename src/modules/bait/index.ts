@@ -1,31 +1,35 @@
 import { QueryBase } from '@/common/query-base';
-import baitData from '@/data/bait.json';
+import data from '@/data/bait.json';
 import { Bait } from '@/types';
 
-const allBaitData: Bait[] = baitData as Bait[];
+const baitData: Bait[] = data as Bait[];
 
 /** Query builder for fishing bait data. All sort methods return a new BaitQuery for chaining. */
 export class BaitQuery extends QueryBase<Bait> {
-  constructor(data: Bait[] = allBaitData) {
+  constructor(data: Bait[] = baitData) {
     super(data);
   }
 
+  /** Sort alphabetically by name. Default: `'asc'`. */
   sortByName(order: 'asc' | 'desc' = 'asc'): BaitQuery {
-    const sorted = [...this.data].sort((a, b) =>
-      order === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name),
+    return new BaitQuery(
+      [...this.data].sort((a, b) =>
+        order === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name),
+      ),
     );
-    return new BaitQuery(sorted);
   }
 
+  /** Sort by sell price. Default: `'desc'` (most valuable first). */
   sortBySellPrice(order: 'asc' | 'desc' = 'desc'): BaitQuery {
-    const sorted = [...this.data].sort((a, b) =>
-      order === 'asc' ? a.sellPrice - b.sellPrice : b.sellPrice - a.sellPrice,
+    return new BaitQuery(
+      [...this.data].sort((a, b) =>
+        order === 'asc' ? a.sellPrice - b.sellPrice : b.sellPrice - a.sellPrice,
+      ),
     );
-    return new BaitQuery(sorted);
   }
 }
 
 /** Returns a BaitQuery for all bait data. Pass `source` to wrap a pre-filtered array. */
-export function bait(source: Bait[] = allBaitData): BaitQuery {
+export function bait(source: Bait[] = baitData): BaitQuery {
   return new BaitQuery(source);
 }

@@ -1,12 +1,12 @@
 import { QueryBase } from '@/common/query-base';
-import pierreData from '@/data/pierre-shop.json';
+import data from '@/data/pierre-shop.json';
 import { PierreCategory, PierreItem, Season } from '@/types';
 
-const allPierreData: PierreItem[] = pierreData as PierreItem[];
+const pierreData: PierreItem[] = data as PierreItem[];
 
 /** Query builder for Pierre's General Store stock. All filter and sort methods return a new PierreQuery for chaining. */
 export class PierreQuery extends QueryBase<PierreItem> {
-  constructor(data: PierreItem[] = allPierreData) {
+  constructor(data: PierreItem[] = pierreData) {
     super(data);
   }
 
@@ -76,6 +76,6 @@ export class PierreQuery extends QueryBase<PierreItem> {
 }
 
 /** Returns a PierreQuery for all items sold at Pierre's General Store. Pass `source` to wrap a pre-filtered array. */
-export function pierre(source: PierreItem[] = allPierreData): PierreQuery {
+export function pierre(source: PierreItem[] = pierreData): PierreQuery {
   return new PierreQuery(source);
 }

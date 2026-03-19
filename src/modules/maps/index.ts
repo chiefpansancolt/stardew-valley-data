@@ -10,6 +10,7 @@ export class FarmMapQuery extends QueryBase<FarmMap> {
     super(data);
   }
 
+  /** Filter to maps that grant a bonus to the given skill (case-insensitive). */
   bySkill(skill: string): FarmMapQuery {
     return new FarmMapQuery(
       this.data.filter((m) => m.skills.some((s) => s.toLowerCase() === skill.toLowerCase())),

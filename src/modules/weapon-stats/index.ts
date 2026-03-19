@@ -10,6 +10,7 @@ export class WeaponStatQuery extends QueryBase<WeaponStat> {
     super(data);
   }
 
+  /** Sort alphabetically by name. Default: `'asc'`. */
   sortByName(order: 'asc' | 'desc' = 'asc'): WeaponStatQuery {
     return new WeaponStatQuery(
       [...this.data].sort((a, b) =>

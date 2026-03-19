@@ -1,12 +1,12 @@
 import { QueryBase } from '@/common/query-base';
-import fishData from '@/data/fish.json';
+import data from '@/data/fish.json';
 import { Fish, FishCatchType, Season } from '@/types';
 
-const allFishData: Fish[] = fishData as Fish[];
+const fishData: Fish[] = data as Fish[];
 
 /** Query builder for fish data. All filter and sort methods return a new FishQuery for chaining. */
 export class FishQuery extends QueryBase<Fish> {
-  constructor(data: Fish[] = allFishData) {
+  constructor(data: Fish[] = fishData) {
     super(data);
   }
 
@@ -65,6 +65,6 @@ export class FishQuery extends QueryBase<Fish> {
 }
 
 /** Returns a FishQuery for all fish data. Pass `source` to wrap a pre-filtered array. */
-export function fish(source: Fish[] = allFishData): FishQuery {
+export function fish(source: Fish[] = fishData): FishQuery {
   return new FishQuery(source);
 }
