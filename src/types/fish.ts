@@ -1,4 +1,4 @@
-import { Season } from './common';
+import { EnergyHealth, ItemQuality, Season } from './common';
 
 export type FishCatchType = 'rod' | 'crab-pot';
 export type FishWeather = 'sunny' | 'rainy' | 'both';
@@ -16,5 +16,7 @@ export interface Fish {
   sellPrice: number;
   fishTank: boolean;
   usedIn: string[];
+  energyHealth?: EnergyHealth;
+  maxQuality: ItemQuality;
   image: string;
 }

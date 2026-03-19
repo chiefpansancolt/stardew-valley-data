@@ -21,7 +21,12 @@
     },
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Honey.png"
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "image": "images/artisan-goods/Honey.png",
+    "maxQuality": "base"
   },
   {
     "id": "348",
@@ -49,7 +54,12 @@
       "goldDays": 28,
       "iridiumDays": 56
     },
-    "image": "images/artisan-goods/Wine.png"
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "image": "images/artisan-goods/Wine.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "350",
@@ -77,7 +87,12 @@
       "goldDays": 28,
       "iridiumDays": 56
     },
-    "image": "images/artisan-goods/Juice.png"
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "image": "images/artisan-goods/Juice.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "303",
@@ -102,7 +117,12 @@
       "goldDays": 18,
       "iridiumDays": 36
     },
-    "image": "images/artisan-goods/Pale Ale.png"
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "image": "images/artisan-goods/Pale Ale.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "346",
@@ -127,7 +147,12 @@
       "goldDays": 14,
       "iridiumDays": 28
     },
-    "image": "images/artisan-goods/Beer.png"
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "image": "images/artisan-goods/Beer.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "459",
@@ -152,7 +177,12 @@
       "goldDays": 14,
       "iridiumDays": 28
     },
-    "image": "images/artisan-goods/Mead.png"
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "image": "images/artisan-goods/Mead.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "395",
@@ -173,7 +203,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Coffee.png"
+    "energyHealth": {
+      "energy": 3,
+      "health": 1
+    },
+    "image": "images/artisan-goods/Coffee.png",
+    "maxQuality": "base"
   },
   {
     "id": "419",
@@ -194,7 +229,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Vinegar.png"
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "image": "images/artisan-goods/Vinegar.png",
+    "maxQuality": "base"
   },
   {
     "id": "614",
@@ -215,7 +255,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Green Tea.png"
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "image": "images/artisan-goods/Green Tea.png",
+    "maxQuality": "base"
   },
   {
     "id": "344",
@@ -239,7 +284,8 @@
     },
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Jelly.png"
+    "image": "images/artisan-goods/Jelly.png",
+    "maxQuality": "base"
   },
   {
     "id": "342",
@@ -263,7 +309,8 @@
     },
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Pickles.png"
+    "image": "images/artisan-goods/Pickles.png",
+    "maxQuality": "base"
   },
   {
     "id": "447",
@@ -287,7 +334,12 @@
     },
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Aged Roe.png"
+    "energyHealth": {
+      "energy": 100,
+      "health": 45
+    },
+    "image": "images/artisan-goods/Aged Roe.png",
+    "maxQuality": "base"
   },
   {
     "id": "445",
@@ -308,7 +360,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Caviar.png"
+    "energyHealth": {
+      "energy": 175,
+      "health": 78
+    },
+    "image": "images/artisan-goods/Caviar.png",
+    "maxQuality": "base"
   },
   {
     "id": "424",
@@ -338,7 +395,12 @@
       "goldDays": 14,
       "iridiumDays": 28
     },
-    "image": "images/artisan-goods/Cheese.png"
+    "energyHealth": {
+      "energy": 125,
+      "health": 56
+    },
+    "image": "images/artisan-goods/Cheese.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "426",
@@ -368,7 +430,12 @@
       "goldDays": 14,
       "iridiumDays": 28
     },
-    "image": "images/artisan-goods/Goat Cheese.png"
+    "energyHealth": {
+      "energy": 125,
+      "health": 56
+    },
+    "image": "images/artisan-goods/Goat Cheese.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "428",
@@ -389,7 +456,8 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Cloth.png"
+    "image": "images/artisan-goods/Cloth.png",
+    "maxQuality": "base"
   },
   {
     "id": "432",
@@ -410,7 +478,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Truffle Oil.png"
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "image": "images/artisan-goods/Truffle Oil.png",
+    "maxQuality": "base"
   },
   {
     "id": "247",
@@ -441,7 +514,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Oil.png"
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "image": "images/artisan-goods/Oil.png",
+    "maxQuality": "base"
   },
   {
     "id": "306",
@@ -482,7 +560,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Mayonnaise.png"
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "image": "images/artisan-goods/Mayonnaise.png",
+    "maxQuality": "base"
   },
   {
     "id": "307",
@@ -503,7 +586,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Duck Mayonnaise.png"
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "image": "images/artisan-goods/Duck Mayonnaise.png",
+    "maxQuality": "base"
   },
   {
     "id": "308",
@@ -524,7 +612,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Void Mayonnaise.png"
+    "energyHealth": {
+      "energy": -75,
+      "health": 0,
+      "poison": true
+    },
+    "image": "images/artisan-goods/Void Mayonnaise.png",
+    "maxQuality": "base"
   },
   {
     "id": "807",
@@ -545,7 +639,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Dinosaur Mayonnaise.png"
+    "energyHealth": {
+      "energy": 125,
+      "health": 56
+    },
+    "image": "images/artisan-goods/Dinosaur Mayonnaise.png",
+    "maxQuality": "base"
   },
   {
     "id": "Raisins",
@@ -566,7 +665,12 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Raisins.png"
+    "energyHealth": {
+      "energy": 125,
+      "health": 56
+    },
+    "image": "images/artisan-goods/Raisins.png",
+    "maxQuality": "base"
   },
   {
     "id": "DriedFruit",
@@ -590,7 +694,8 @@
     },
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Dried Fruit.png"
+    "image": "images/artisan-goods/Dried Fruit.png",
+    "maxQuality": "base"
   },
   {
     "id": "DriedMushrooms",
@@ -614,7 +719,8 @@
     },
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Dried Mushrooms.png"
+    "image": "images/artisan-goods/Dried Mushrooms.png",
+    "maxQuality": "base"
   },
   {
     "id": "SmokedFish",
@@ -638,7 +744,8 @@
     },
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Smoked Fish.png"
+    "image": "images/artisan-goods/Smoked Fish.png",
+    "maxQuality": "base"
   },
   {
     "id": "MysticSyrup",
@@ -659,6 +766,81 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
-    "image": "images/artisan-goods/Mystic Syrup.png"
+    "energyHealth": {
+      "energy": 500,
+      "health": 225
+    },
+    "image": "images/artisan-goods/Mystic Syrup.png",
+    "maxQuality": "base"
+  },
+  {
+    "id": "724",
+    "name": "Maple Syrup",
+    "description": "A sweet syrup with a unique flavor.",
+    "equipment": "Tapper",
+    "ingredients": [
+      {
+        "name": "Maple Tree",
+        "id": "2",
+        "quantity": 1
+      }
+    ],
+    "processingMinutes": 14400,
+    "processingDays": 9,
+    "sellPrice": 200,
+    "sellPriceFormula": null,
+    "priceFormula": null,
+    "qualityLevels": false,
+    "cask": null,
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "image": "images/forageables/Maple Syrup.png",
+    "maxQuality": "base"
+  },
+  {
+    "id": "725",
+    "name": "Oak Resin",
+    "description": "A sticky, fragrant substance obtained from oak trees.",
+    "equipment": "Tapper",
+    "ingredients": [
+      {
+        "name": "Oak Tree",
+        "id": "1",
+        "quantity": 1
+      }
+    ],
+    "processingMinutes": 11200,
+    "processingDays": 7,
+    "sellPrice": 150,
+    "sellPriceFormula": null,
+    "priceFormula": null,
+    "qualityLevels": false,
+    "cask": null,
+    "image": "images/forageables/Oak Resin.png",
+    "maxQuality": "base"
+  },
+  {
+    "id": "726",
+    "name": "Pine Tar",
+    "description": "A dark, sticky substance derived from pine trees.",
+    "equipment": "Tapper",
+    "ingredients": [
+      {
+        "name": "Pine Tree",
+        "id": "3",
+        "quantity": 1
+      }
+    ],
+    "processingMinutes": 8000,
+    "processingDays": 5,
+    "sellPrice": 100,
+    "sellPriceFormula": null,
+    "priceFormula": null,
+    "qualityLevels": false,
+    "cask": null,
+    "image": "images/forageables/Pine Tar.png",
+    "maxQuality": "base"
   }
 ]

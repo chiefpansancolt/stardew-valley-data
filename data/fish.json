@@ -12,6 +12,12 @@
     "sellPrice": 200,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Specialty Fish Bundle"],
+    "energyHealth": {
+      "energy": -100,
+      "health": 0,
+      "poison": true
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Pufferfish.png"
   },
   {
@@ -27,6 +33,11 @@
     "sellPrice": 30,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Anchovy.png"
   },
   {
@@ -42,6 +53,11 @@
     "sellPrice": 100,
     "fishTank": true,
     "usedIn": ["Fish Taco", "Maki Roll", "Quality Fertilizer", "Sashimi", "Ocean Fish Bundle"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Tuna.png"
   },
   {
@@ -63,6 +79,11 @@
       "Sashimi",
       "Ocean Fish Bundle"
     ],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Sardine.png"
   },
   {
@@ -78,6 +99,11 @@
     "sellPrice": 45,
     "fishTank": true,
     "usedIn": ["Baked Fish", "Maki Roll", "Quality Fertilizer", "Sashimi", "Night Fishing Bundle"],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Bream.png"
   },
   {
@@ -100,6 +126,11 @@
       "Lake Fish Bundle",
       "Quality Fish Bundle"
     ],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Largemouth Bass.png"
   },
   {
@@ -115,6 +146,11 @@
     "sellPrice": 50,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Smallmouth Bass.png"
   },
   {
@@ -130,6 +166,11 @@
     "sellPrice": 65,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Trout Soup"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Rainbow Trout.png"
   },
   {
@@ -145,6 +186,11 @@
     "sellPrice": 75,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Salmon Dinner", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Salmon.png"
   },
   {
@@ -166,6 +212,11 @@
       "Night Fishing Bundle",
       "Quality Fish Bundle"
     ],
+    "energyHealth": {
+      "energy": 30,
+      "health": 13
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Walleye.png"
   },
   {
@@ -181,6 +232,11 @@
     "sellPrice": 55,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Perch.png"
   },
   {
@@ -196,6 +252,11 @@
     "sellPrice": 30,
     "fishTank": true,
     "usedIn": ["Carp Surprise", "Maki Roll", "Quality Fertilizer", "Sashimi", "Lake Fish Bundle"],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Carp.png"
   },
   {
@@ -211,6 +272,11 @@
     "sellPrice": 200,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "River Fish Bundle"],
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Catfish.png"
   },
   {
@@ -226,6 +292,11 @@
     "sellPrice": 100,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Pike.png"
   },
   {
@@ -241,6 +312,11 @@
     "sellPrice": 30,
     "fishTank": true,
     "usedIn": ["Baked Fish", "Maki Roll", "Quality Fertilizer", "Sashimi", "River Fish Bundle"],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Sunfish.png"
   },
   {
@@ -256,6 +332,11 @@
     "sellPrice": 75,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Red Mullet.png"
   },
   {
@@ -271,6 +352,11 @@
     "sellPrice": 30,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Herring.png"
   },
   {
@@ -293,6 +379,11 @@
       "Spicy Eel",
       "Night Fishing Bundle"
     ],
+    "energyHealth": {
+      "energy": 30,
+      "health": 13
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Eel.png"
   },
   {
@@ -308,6 +399,7 @@
     "sellPrice": 150,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
+    "maxQuality": "iridium",
     "image": "images/fish/Octopus.png"
   },
   {
@@ -323,6 +415,11 @@
     "sellPrice": 50,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Ocean Fish Bundle"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Red Snapper.png"
   },
   {
@@ -338,6 +435,11 @@
     "sellPrice": 80,
     "fishTank": true,
     "usedIn": ["Fried Calamari", "Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Squid.png"
   },
   {
@@ -353,6 +455,11 @@
     "sellPrice": 20,
     "fishTank": false,
     "usedIn": ["Maki Roll"],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "base",
     "image": "images/fish/Seaweed.png"
   },
   {
@@ -368,6 +475,11 @@
     "sellPrice": 15,
     "fishTank": false,
     "usedIn": ["Algae Soup", "Trout Soup"],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "base",
     "image": "images/fish/Green Algae.png"
   },
   {
@@ -383,6 +495,12 @@
     "sellPrice": 75,
     "fishTank": true,
     "usedIn": ["Lucky Lunch", "Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": -25,
+      "health": 0,
+      "poison": true
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Sea Cucumber.png"
   },
   {
@@ -398,6 +516,11 @@
     "sellPrice": 250,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 125,
+      "health": 56
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Super Cucumber.png"
   },
   {
@@ -413,6 +536,11 @@
     "sellPrice": 45,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Specialty Fish Bundle"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Ghostfish.png"
   },
   {
@@ -428,6 +556,11 @@
     "sellPrice": 25,
     "fishTank": false,
     "usedIn": ["Pale Broth", "Wild Medicine Bundle"],
+    "energyHealth": {
+      "energy": 20,
+      "health": 9
+    },
+    "maxQuality": "base",
     "image": "images/fish/White Algae.png"
   },
   {
@@ -443,6 +576,7 @@
     "sellPrice": 300,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "maxQuality": "iridium",
     "image": "images/fish/Stonefish.png"
   },
   {
@@ -458,6 +592,11 @@
     "sellPrice": 1500,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Crimsonfish.png"
   },
   {
@@ -473,6 +612,11 @@
     "sellPrice": 900,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Angler.png"
   },
   {
@@ -488,6 +632,11 @@
     "sellPrice": 500,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Ice Pip.png"
   },
   {
@@ -503,6 +652,11 @@
     "sellPrice": 700,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Lava Eel.png"
   },
   {
@@ -518,6 +672,11 @@
     "sellPrice": 5000,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 500,
+      "health": 225
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Legend.png"
   },
   {
@@ -533,6 +692,11 @@
     "sellPrice": 75,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Specialty Fish Bundle"],
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Sandfish.png"
   },
   {
@@ -548,6 +712,12 @@
     "sellPrice": 150,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
+    "energyHealth": {
+      "energy": -125,
+      "health": 0,
+      "poison": true
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Scorpion Carp.png"
   },
   {
@@ -563,6 +733,11 @@
     "sellPrice": 100,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Seafoam Pudding"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Flounder.png"
   },
   {
@@ -578,6 +753,11 @@
     "sellPrice": 150,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Seafoam Pudding"],
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Midnight Carp.png"
   },
   {
@@ -590,6 +770,7 @@
     "sellPrice": 50,
     "fishTank": true,
     "usedIn": ["Chowder", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
+    "maxQuality": "iridium",
     "image": "images/fish/Clam.png"
   },
   {
@@ -605,6 +786,11 @@
     "sellPrice": 1000,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Mutant Carp.png"
   },
   {
@@ -620,6 +806,11 @@
     "sellPrice": 200,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Lake Fish Bundle"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Sturgeon.png"
   },
   {
@@ -635,6 +826,11 @@
     "sellPrice": 150,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "River Fish Bundle"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Tiger Trout.png"
   },
   {
@@ -650,6 +846,11 @@
     "sellPrice": 75,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Lake Fish Bundle"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Bullhead.png"
   },
   {
@@ -665,6 +866,11 @@
     "sellPrice": 75,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Ocean Fish Bundle"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Tilapia.png"
   },
   {
@@ -680,6 +886,11 @@
     "sellPrice": 50,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Field Research Bundle"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Chub.png"
   },
   {
@@ -695,6 +906,11 @@
     "sellPrice": 100,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Dorado.png"
   },
   {
@@ -710,6 +926,11 @@
     "sellPrice": 75,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Albacore.png"
   },
   {
@@ -731,6 +952,11 @@
       "River Fish Bundle",
       "Quality Fish Bundle"
     ],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Shad.png"
   },
   {
@@ -746,6 +972,11 @@
     "sellPrice": 120,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Lingcod.png"
   },
   {
@@ -761,6 +992,11 @@
     "sellPrice": 80,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Halibut.png"
   },
   {
@@ -773,6 +1009,7 @@
     "sellPrice": 120,
     "fishTank": true,
     "usedIn": ["Lobster Bisque", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
+    "maxQuality": "silver",
     "image": "images/fish/Lobster.png"
   },
   {
@@ -785,6 +1022,7 @@
     "sellPrice": 75,
     "fishTank": true,
     "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
+    "maxQuality": "silver",
     "image": "images/fish/Crayfish.png"
   },
   {
@@ -797,6 +1035,7 @@
     "sellPrice": 100,
     "fishTank": true,
     "usedIn": ["Crab Cakes", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
+    "maxQuality": "gold",
     "image": "images/fish/Crab.png"
   },
   {
@@ -809,6 +1048,7 @@
     "sellPrice": 50,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
+    "maxQuality": "iridium",
     "image": "images/fish/Cockle.png"
   },
   {
@@ -821,6 +1061,7 @@
     "sellPrice": 30,
     "fishTank": true,
     "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
+    "maxQuality": "iridium",
     "image": "images/fish/Mussel.png"
   },
   {
@@ -840,6 +1081,7 @@
       "Tom Kha Soup",
       "Crab Pot Bundle"
     ],
+    "maxQuality": "silver",
     "image": "images/fish/Shrimp.png"
   },
   {
@@ -852,6 +1094,7 @@
     "sellPrice": 65,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
+    "maxQuality": "gold",
     "image": "images/fish/Snail.png"
   },
   {
@@ -871,6 +1114,7 @@
       "Strange Bun",
       "Crab Pot Bundle"
     ],
+    "maxQuality": "silver",
     "image": "images/fish/Periwinkle.png"
   },
   {
@@ -883,6 +1127,7 @@
     "sellPrice": 40,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
+    "maxQuality": "iridium",
     "image": "images/fish/Oyster.png"
   },
   {
@@ -904,6 +1149,11 @@
       "Lake Fish Bundle",
       "Specialty Fish Bundle"
     ],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Woodskip.png"
   },
   {
@@ -919,6 +1169,11 @@
     "sellPrice": 1000,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Glacierfish.png"
   },
   {
@@ -934,6 +1189,11 @@
     "sellPrice": 150,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "The Missing Bundle"],
+    "energyHealth": {
+      "energy": 63,
+      "health": 28
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Void Salmon.png"
   },
   {
@@ -949,6 +1209,11 @@
     "sellPrice": 100,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Slimejack.png"
   },
   {
@@ -964,6 +1229,11 @@
     "sellPrice": 100,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Midnight Squid.png"
   },
   {
@@ -979,6 +1249,11 @@
     "sellPrice": 220,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Spook Fish.png"
   },
   {
@@ -994,6 +1269,11 @@
     "sellPrice": 500,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Blobfish.png"
   },
   {
@@ -1009,6 +1289,11 @@
     "sellPrice": 180,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Stingray.png"
   },
   {
@@ -1024,6 +1309,11 @@
     "sellPrice": 100,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Lionfish.png"
   },
   {
@@ -1039,6 +1329,11 @@
     "sellPrice": 120,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Blue Discus.png"
   },
   {
@@ -1054,6 +1349,11 @@
     "sellPrice": 1500,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Son of Crimsonfish.png"
   },
   {
@@ -1069,6 +1369,11 @@
     "sellPrice": 900,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Ms. Angler.png"
   },
   {
@@ -1084,6 +1389,11 @@
     "sellPrice": 5000,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 500,
+      "health": 225
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Legend II.png"
   },
   {
@@ -1099,6 +1409,11 @@
     "sellPrice": 1000,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Radioactive Carp.png"
   },
   {
@@ -1114,6 +1429,11 @@
     "sellPrice": 1000,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Glacierfish Jr.png"
   },
   {
@@ -1129,6 +1449,12 @@
     "sellPrice": 150,
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
+    "energyHealth": {
+      "energy": -62,
+      "health": 0,
+      "poison": true
+    },
+    "maxQuality": "iridium",
     "image": "images/fish/Goby.png"
   },
   {
@@ -1143,6 +1469,11 @@
     "sellPrice": 200,
     "fishTank": false,
     "usedIn": [],
+    "energyHealth": {
+      "energy": 88,
+      "health": 39
+    },
+    "maxQuality": "base",
     "image": "images/fish/jelly/Sea Jelly.png"
   },
   {
@@ -1157,6 +1488,11 @@
     "sellPrice": 125,
     "fishTank": false,
     "usedIn": [],
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "maxQuality": "base",
     "image": "images/fish/jelly/River Jelly.png"
   },
   {
@@ -1171,6 +1507,11 @@
     "sellPrice": 180,
     "fishTank": false,
     "usedIn": [],
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "maxQuality": "base",
     "image": "images/fish/jelly/Cave Jelly.png"
   }
 ]

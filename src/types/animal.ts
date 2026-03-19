@@ -1,7 +1,10 @@
+import { ItemQuality } from './common';
+
 export interface AnimalProduce {
   id: string;
   name: string;
   sellPrice: number;
+  maxQuality: ItemQuality;
   image: string;
 }
 

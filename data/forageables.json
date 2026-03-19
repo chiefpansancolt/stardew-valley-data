@@ -6,7 +6,12 @@
     "seasons": ["fall"],
     "locations": "Cindersap Forest, Pelican Town, Railroad; Berry bushes during Fall 8-11",
     "sellPrice": 20,
-    "image": "images/forageables/Blackberry.png"
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "image": "images/forageables/Blackberry.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "78",
@@ -15,7 +20,12 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Mines",
     "sellPrice": 25,
-    "image": "images/forageables/Cave Carrot.png"
+    "energyHealth": {
+      "energy": 30,
+      "health": 13
+    },
+    "image": "images/forageables/Cave Carrot.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "281",
@@ -24,7 +34,12 @@
     "seasons": ["fall"],
     "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 160,
-    "image": "images/forageables/Chanterelle.png"
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "image": "images/forageables/Chanterelle.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "88",
@@ -33,7 +48,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Calico Desert (palm trees), Ginger Island",
     "sellPrice": 100,
-    "image": "images/forageables/Coconut.png"
+    "image": "images/forageables/Coconut.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "404",
@@ -42,7 +58,12 @@
     "seasons": ["spring", "summer", "fall"],
     "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 40,
-    "image": "images/forageables/Common Mushroom.png"
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "image": "images/forageables/Common Mushroom.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "718",
@@ -51,7 +72,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 50,
-    "image": "images/fish/Cockle.png"
+    "image": "images/fish/Cockle.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "372",
@@ -60,7 +82,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 50,
-    "image": "images/fish/Clam.png"
+    "image": "images/fish/Clam.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "393",
@@ -69,7 +92,8 @@
     "seasons": ["summer"],
     "locations": "The Beach",
     "sellPrice": 80,
-    "image": "images/forageables/Coral.png"
+    "image": "images/forageables/Coral.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "418",
@@ -78,7 +102,12 @@
     "seasons": ["winter"],
     "locations": "Pelican Town, Railroad, Bus Stop, Mountain, Cindersap Forest, Backwoods",
     "sellPrice": 60,
-    "image": "images/forageables/Crocus.png"
+    "energyHealth": {
+      "energy": 0,
+      "health": 0
+    },
+    "image": "images/forageables/Crocus.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "414",
@@ -87,7 +116,12 @@
     "seasons": ["winter"],
     "locations": "Railroad, Cindersap Forest, Mountain, Bus Stop, Backwoods, Pelican Town",
     "sellPrice": 150,
-    "image": "images/forageables/Crystal Fruit.png"
+    "energyHealth": {
+      "energy": 63,
+      "health": 28
+    },
+    "image": "images/forageables/Crystal Fruit.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "18",
@@ -96,7 +130,12 @@
     "seasons": ["spring"],
     "locations": "Pelican Town, Bus Stop, Railroad",
     "sellPrice": 30,
-    "image": "images/forageables/Daffodil.png"
+    "energyHealth": {
+      "energy": 0,
+      "health": 0
+    },
+    "image": "images/forageables/Daffodil.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "22",
@@ -105,7 +144,12 @@
     "seasons": ["spring"],
     "locations": "Cindersap Forest, Bus Stop, Railroad, Forest Farm",
     "sellPrice": 40,
-    "image": "images/forageables/Dandelion.png"
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "image": "images/forageables/Dandelion.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "259",
@@ -114,7 +158,12 @@
     "seasons": ["summer"],
     "locations": "Secret Woods",
     "sellPrice": 90,
-    "image": "images/forageables/Fiddlehead Fern.png"
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "image": "images/forageables/Fiddlehead Fern.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "153",
@@ -123,7 +172,12 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Everywhere but the Farm Pond of the Standard Farm",
     "sellPrice": 15,
-    "image": "images/fish/Green Algae.png"
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "image": "images/fish/Green Algae.png",
+    "maxQuality": "base"
   },
   {
     "id": "829",
@@ -132,7 +186,12 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Ginger Island West",
     "sellPrice": 60,
-    "image": "images/forageables/Ginger.png"
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "image": "images/forageables/Ginger.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "398",
@@ -141,7 +200,12 @@
     "seasons": ["summer"],
     "locations": "Backwoods, Mountain, Bus Stop, Railroad, Forest Farm",
     "sellPrice": 80,
-    "image": "images/forageables/Grape.png"
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "image": "images/forageables/Grape.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "408",
@@ -150,7 +214,12 @@
     "seasons": ["fall"],
     "locations": "Backwoods, Mountain, Bus Stop, Railroad",
     "sellPrice": 90,
-    "image": "images/forageables/Hazelnut.png"
+    "energyHealth": {
+      "energy": 30,
+      "health": 13
+    },
+    "image": "images/forageables/Hazelnut.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "283",
@@ -159,7 +228,13 @@
     "seasons": ["winter"],
     "locations": "Secret Woods, Backwoods, Pelican Town, Bus Stop, Cindersap Forest, Mountain",
     "sellPrice": 80,
-    "image": "images/forageables/Holly.png"
+    "energyHealth": {
+      "energy": -37,
+      "health": 0,
+      "poison": true
+    },
+    "image": "images/forageables/Holly.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "20",
@@ -168,7 +243,12 @@
     "seasons": ["spring"],
     "locations": "Backwoods, Mountain, Forest Farm, Bus Stop, Railroad",
     "sellPrice": 60,
-    "image": "images/forageables/Leek.png"
+    "energyHealth": {
+      "energy": 40,
+      "health": 18
+    },
+    "image": "images/forageables/Leek.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "851",
@@ -177,7 +257,12 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Volcano Dungeon",
     "sellPrice": 400,
-    "image": "images/forageables/Magma Cap.png"
+    "energyHealth": {
+      "energy": 175,
+      "health": 78
+    },
+    "image": "images/forageables/Magma Cap.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "719",
@@ -186,7 +271,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 30,
-    "image": "images/fish/Mussel.png"
+    "image": "images/fish/Mussel.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "257",
@@ -195,7 +281,12 @@
     "seasons": ["spring"],
     "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 150,
-    "image": "images/forageables/Morel.png"
+    "energyHealth": {
+      "energy": 20,
+      "health": 9
+    },
+    "image": "images/forageables/Morel.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "392",
@@ -204,7 +295,8 @@
     "seasons": ["winter"],
     "locations": "The Beach",
     "sellPrice": 120,
-    "image": "images/forageables/Nautilus Shell.png"
+    "image": "images/forageables/Nautilus Shell.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "422",
@@ -213,7 +305,12 @@
     "seasons": ["fall"],
     "locations": "The Mines, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 250,
-    "image": "images/forageables/Purple Mushroom.png"
+    "energyHealth": {
+      "energy": 125,
+      "health": 56
+    },
+    "image": "images/forageables/Purple Mushroom.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "723",
@@ -222,7 +319,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 40,
-    "image": "images/fish/Oyster.png"
+    "image": "images/fish/Oyster.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "394",
@@ -231,7 +329,8 @@
     "seasons": ["summer"],
     "locations": "The Beach",
     "sellPrice": 300,
-    "image": "images/forageables/Rainbow Shell.png"
+    "image": "images/forageables/Rainbow Shell.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "420",
@@ -240,7 +339,13 @@
     "seasons": ["summer", "fall"],
     "locations": "Secret Woods, Farm Cave (mushroom option)",
     "sellPrice": 75,
-    "image": "images/forageables/Red Mushroom.png"
+    "energyHealth": {
+      "energy": -50,
+      "health": 0,
+      "poison": true
+    },
+    "image": "images/forageables/Red Mushroom.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "296",
@@ -249,7 +354,12 @@
     "seasons": ["spring"],
     "locations": "Bushes during Salmonberry Season (Spring 15-18)",
     "sellPrice": 5,
-    "image": "images/forageables/Salmonberry.png"
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "image": "images/forageables/Salmonberry.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "92",
@@ -258,7 +368,13 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "From chopping trees",
     "sellPrice": 2,
-    "image": "images/forageables/Sap.png"
+    "energyHealth": {
+      "energy": -2,
+      "health": 0,
+      "poison": true
+    },
+    "image": "images/forageables/Sap.png",
+    "maxQuality": "base"
   },
   {
     "id": "397",
@@ -267,7 +383,8 @@
     "seasons": ["summer"],
     "locations": "The Beach",
     "sellPrice": 160,
-    "image": "images/forageables/Sea Urchin.png"
+    "image": "images/forageables/Sea Urchin.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "152",
@@ -276,7 +393,12 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 20,
-    "image": "images/fish/Seaweed.png"
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "image": "images/fish/Seaweed.png",
+    "maxQuality": "base"
   },
   {
     "id": "416",
@@ -285,7 +407,12 @@
     "seasons": ["winter"],
     "locations": "Underground artifact spots and tillable soil",
     "sellPrice": 100,
-    "image": "images/forageables/Snow Yam.png"
+    "energyHealth": {
+      "energy": 30,
+      "health": 13
+    },
+    "image": "images/forageables/Snow Yam.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "396",
@@ -294,7 +421,12 @@
     "seasons": ["summer"],
     "locations": "Cindersap Forest, Backwoods, Mountain, Bus Stop, Railroad, Forest Farm",
     "sellPrice": 80,
-    "image": "images/forageables/Spice Berry.png"
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "image": "images/forageables/Spice Berry.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "399",
@@ -303,7 +435,12 @@
     "seasons": ["spring"],
     "locations": "Cindersap Forest",
     "sellPrice": 8,
-    "image": "images/forageables/Spring Onion.png"
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "image": "images/forageables/Spring Onion.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "402",
@@ -312,7 +449,12 @@
     "seasons": ["summer"],
     "locations": "Pelican Town, Cindersap Forest, Bus Stop, Railroad, Forest Farm",
     "sellPrice": 50,
-    "image": "images/forageables/Sweet Pea.png"
+    "energyHealth": {
+      "energy": 0,
+      "health": 0
+    },
+    "image": "images/forageables/Sweet Pea.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "16",
@@ -321,7 +463,12 @@
     "seasons": ["spring"],
     "locations": "Cindersap Forest, Backwoods, Mountain, Forest Farm",
     "sellPrice": 50,
-    "image": "images/forageables/Wild Horseradish.png"
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "image": "images/forageables/Wild Horseradish.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "406",
@@ -330,7 +477,12 @@
     "seasons": ["fall"],
     "locations": "Bus Stop, Railroad, Backwoods, Mountain",
     "sellPrice": 80,
-    "image": "images/forageables/Wild Plum.png"
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "image": "images/forageables/Wild Plum.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "157",
@@ -339,7 +491,12 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Mines, Sewers, Mutant Bug Lair, Witch's Swamp",
     "sellPrice": 25,
-    "image": "images/fish/White Algae.png"
+    "energyHealth": {
+      "energy": 20,
+      "health": 9
+    },
+    "image": "images/fish/White Algae.png",
+    "maxQuality": "base"
   },
   {
     "id": "412",
@@ -348,7 +505,12 @@
     "seasons": ["winter"],
     "locations": "Underground artifact spots and tillable soil",
     "sellPrice": 70,
-    "image": "images/forageables/Winter Root.png"
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "image": "images/forageables/Winter Root.png",
+    "maxQuality": "iridium"
   },
   {
     "id": "388",
@@ -357,7 +519,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Felling trees and branches with an axe; Recycling Machine (from Driftwood)",
     "sellPrice": 2,
-    "image": "images/forageables/Wood.png"
+    "image": "images/forageables/Wood.png",
+    "maxQuality": "base"
   },
   {
     "id": "330",
@@ -366,7 +529,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Tilling dirt, sand, or Artifact Spots; Ginger Island Dig Site; Geodes",
     "sellPrice": 20,
-    "image": "images/forageables/Clay.png"
+    "image": "images/forageables/Clay.png",
+    "maxQuality": "base"
   },
   {
     "id": "709",
@@ -375,7 +539,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Chopping Mahogany Trees or Large Stumps; Secret Woods (6 stumps daily); Ginger Island",
     "sellPrice": 15,
-    "image": "images/forageables/Hardwood.png"
+    "image": "images/forageables/Hardwood.png",
+    "maxQuality": "base"
   },
   {
     "id": "787",
@@ -384,7 +549,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Lightning Rod during thunderstorms; Solar Panel after 7 sunny days; Iridium Bat drop (5%)",
     "sellPrice": 500,
-    "image": "images/forageables/Battery Pack.png"
+    "image": "images/forageables/Battery Pack.png",
+    "maxQuality": "base"
   },
   {
     "id": "812",
@@ -393,7 +559,12 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Fish Ponds; Fishing Treasure Chests (with Jewels of the Sea book)",
     "sellPrice": 30,
-    "image": "images/forageables/Roe.png"
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "image": "images/forageables/Roe.png",
+    "maxQuality": "base"
   },
   {
     "id": "814",
@@ -402,7 +573,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Squid Kids in The Mines; Blue Squids in Dangerous Mines; Squid or Midnight Squid Fish Pond",
     "sellPrice": 110,
-    "image": "images/forageables/Squid Ink.png"
+    "image": "images/forageables/Squid Ink.png",
+    "maxQuality": "base"
   },
   {
     "id": "815",
@@ -411,7 +583,8 @@
     "seasons": ["spring", "summer", "fall"],
     "locations": "Tea Bush harvest (days 22-28 of Spring, Summer, Fall); year-round when grown indoors",
     "sellPrice": 50,
-    "image": "images/forageables/Tea Leaves.png"
+    "image": "images/forageables/Tea Leaves.png",
+    "maxQuality": "base"
   },
   {
     "id": "390",
@@ -420,7 +593,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Mining rocks throughout the world",
     "sellPrice": 2,
-    "image": "images/forageables/Stone.png"
+    "image": "images/forageables/Stone.png",
+    "maxQuality": "base"
   },
   {
     "id": "Moss",
@@ -429,6 +603,7 @@
     "seasons": ["spring", "summer", "fall"],
     "locations": "Foraging from trees with moss growing on them; Green Rain events",
     "sellPrice": 5,
-    "image": "images/forageables/Moss.png"
+    "image": "images/forageables/Moss.png",
+    "maxQuality": "base"
   }
 ]

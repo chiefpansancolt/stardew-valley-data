@@ -1,3 +1,5 @@
+import { EnergyHealth, ItemQuality } from './common';
+
 export interface ArtisanIngredient {
   name: string;
   id: string | null;
@@ -28,5 +30,7 @@ export interface ArtisanGood {
   priceFormula: PriceFormula | null;
   qualityLevels: boolean;
   cask: CaskAging | null;
+  energyHealth?: EnergyHealth;
+  maxQuality: ItemQuality;
   image: string;
 }

@@ -9,26 +9,54 @@
     "seedId": "472",
     "seedName": "Parsnip Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 20 },
-      { "place": "JojaMart", "price": 25 }
+      {
+        "place": "Pierre's",
+        "price": 20
+      },
+      {
+        "place": "JojaMart",
+        "price": 25
+      }
     ],
     "seedSellPrice": 10,
     "cropSellPrice": 35,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A spring tuber closely related to the carrot. It has a sweet, fresh taste.",
     "image": "images/crops/parsnip/crop.png",
     "seedImage": "images/crops/parsnip/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/parsnip/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/parsnip/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/parsnip/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/parsnip/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/parsnip/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/parsnip/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/parsnip/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/parsnip/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/parsnip/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/parsnip/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 25, "health": 11 },
-    "farmingXP": 8
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "farmingXP": 8,
+    "maxQuality": "iridium"
   },
   {
     "id": "188",
@@ -40,28 +68,62 @@
     "seedId": "473",
     "seedName": "Bean Starter",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 60 },
-      { "place": "JojaMart", "price": 75 }
+      {
+        "place": "Pierre's",
+        "price": 60
+      },
+      {
+        "place": "JojaMart",
+        "price": 75
+      }
     ],
     "seedSellPrice": 30,
     "cropSellPrice": 40,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": true,
     "giant": false,
     "description": "A young, tender bean in the pod.",
     "image": "images/crops/green-bean/crop.png",
     "seedImage": "images/crops/green-bean/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/green-bean/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/green-bean/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/green-bean/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/green-bean/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/green-bean/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/green-bean/stage-6.png" },
-      { "name": "regrowth", "image": "images/crops/green-bean/stage-7.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/green-bean/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/green-bean/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/green-bean/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/green-bean/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/green-bean/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/green-bean/stage-6.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/green-bean/stage-7.png"
+      }
     ],
-    "energyHealth": { "energy": 25, "health": 11 },
-    "farmingXP": 9
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "farmingXP": 9,
+    "maxQuality": "iridium"
   },
   {
     "id": "190",
@@ -73,12 +135,21 @@
     "seedId": "474",
     "seedName": "Cauliflower Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 80 },
-      { "place": "JojaMart", "price": 100 }
+      {
+        "place": "Pierre's",
+        "price": 80
+      },
+      {
+        "place": "JojaMart",
+        "price": 100
+      }
     ],
     "seedSellPrice": 40,
     "cropSellPrice": 175,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": true,
     "description": "It's actually a type of flower! A massive head of tightly packed white florets.",
@@ -86,15 +157,37 @@
     "giantImage": "images/crops/cauliflower/giant.png",
     "seedImage": "images/crops/cauliflower/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/cauliflower/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/cauliflower/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/cauliflower/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/cauliflower/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/cauliflower/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/cauliflower/stage-6.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/cauliflower/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/cauliflower/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/cauliflower/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/cauliflower/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/cauliflower/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/cauliflower/stage-6.png"
+      }
     ],
-    "energyHealth": { "energy": 75, "health": 33 },
-    "farmingXP": 23
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "farmingXP": 23,
+    "maxQuality": "iridium"
   },
   {
     "id": "192",
@@ -106,27 +199,58 @@
     "seedId": "475",
     "seedName": "Potato Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 50 },
-      { "place": "JojaMart", "price": 63 }
+      {
+        "place": "Pierre's",
+        "price": 50
+      },
+      {
+        "place": "JojaMart",
+        "price": 63
+      }
     ],
     "seedSellPrice": 25,
     "cropSellPrice": 80,
-    "harvestQuantity": { "min": 1, "max": 4 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 4
+    },
     "trellis": false,
     "giant": false,
     "description": "A widely cultivated plant, the potato is one of the most important food crops in the world.",
     "image": "images/crops/potato/crop.png",
     "seedImage": "images/crops/potato/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/potato/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/potato/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/potato/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/potato/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/potato/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/potato/stage-6.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/potato/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/potato/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/potato/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/potato/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/potato/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/potato/stage-6.png"
+      }
     ],
-    "energyHealth": { "energy": 25, "health": 11 },
-    "farmingXP": 14
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "farmingXP": 14,
+    "maxQuality": "iridium"
   },
   {
     "id": "248",
@@ -138,26 +262,54 @@
     "seedId": "476",
     "seedName": "Garlic Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 40 },
-      { "place": "JojaMart", "price": 50 }
+      {
+        "place": "Pierre's",
+        "price": 40
+      },
+      {
+        "place": "JojaMart",
+        "price": 50
+      }
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 60,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A pungent herb used in cooking. The aroma is known to keep monsters at bay.",
     "image": "images/crops/garlic/crop.png",
     "seedImage": "images/crops/garlic/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/garlic/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/garlic/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/garlic/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/garlic/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/garlic/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/garlic/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/garlic/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/garlic/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/garlic/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/garlic/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 20, "health": 9 },
-    "farmingXP": 12
+    "energyHealth": {
+      "energy": 20,
+      "health": 9
+    },
+    "farmingXP": 12,
+    "maxQuality": "iridium"
   },
   {
     "id": "250",
@@ -169,26 +321,54 @@
     "seedId": "477",
     "seedName": "Kale Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 70 },
-      { "place": "JojaMart", "price": 88 }
+      {
+        "place": "Pierre's",
+        "price": 70
+      },
+      {
+        "place": "JojaMart",
+        "price": 88
+      }
     ],
     "seedSellPrice": 35,
     "cropSellPrice": 110,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "This dark leafy green is impressively healthy and grows quickly.",
     "image": "images/crops/kale/crop.png",
     "seedImage": "images/crops/kale/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/kale/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/kale/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/kale/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/kale/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/kale/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/kale/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/kale/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/kale/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/kale/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/kale/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 50, "health": 22 },
-    "farmingXP": 17
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "farmingXP": 17,
+    "maxQuality": "iridium"
   },
   {
     "id": "252",
@@ -199,24 +379,51 @@
     "regrowDays": null,
     "seedId": "478",
     "seedName": "Rhubarb Seeds",
-    "seedBuyPrices": [{ "place": "Oasis", "price": 100 }],
+    "seedBuyPrices": [
+      {
+        "place": "Oasis",
+        "price": 100
+      }
+    ],
     "seedSellPrice": 50,
     "cropSellPrice": 220,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A spring crop sold at the Oasis Shop. It's tart but flavorful when cooked.",
     "image": "images/crops/rhubarb/crop.png",
     "seedImage": "images/crops/rhubarb/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/rhubarb/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/rhubarb/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/rhubarb/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/rhubarb/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/rhubarb/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/rhubarb/stage-6.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/rhubarb/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/rhubarb/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/rhubarb/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/rhubarb/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/rhubarb/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/rhubarb/stage-6.png"
+      }
     ],
-    "farmingXP": 26
+    "farmingXP": 26,
+    "maxQuality": "iridium"
   },
   {
     "id": "400",
@@ -227,26 +434,59 @@
     "regrowDays": 4,
     "seedId": "745",
     "seedName": "Strawberry Seeds",
-    "seedBuyPrices": [{ "place": "Egg Festival", "price": 100 }],
+    "seedBuyPrices": [
+      {
+        "place": "Egg Festival",
+        "price": 100
+      }
+    ],
     "seedSellPrice": 0,
     "cropSellPrice": 120,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "This plump, delicious berry will continue to produce after the first harvest.",
     "image": "images/crops/strawberry/crop.png",
     "seedImage": "images/crops/strawberry/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/strawberry/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/strawberry/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/strawberry/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/strawberry/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/strawberry/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/strawberry/stage-6.png" },
-      { "name": "regrowth", "image": "images/crops/strawberry/stage-7.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/strawberry/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/strawberry/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/strawberry/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/strawberry/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/strawberry/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/strawberry/stage-6.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/strawberry/stage-7.png"
+      }
     ],
-    "energyHealth": { "energy": 50, "health": 22 },
-    "farmingXP": 18
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "farmingXP": 18,
+    "maxQuality": "iridium"
   },
   {
     "id": "271",
@@ -258,26 +498,54 @@
     "seedId": "273",
     "seedName": "Rice Shoot",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 40 },
-      { "place": "JojaMart", "price": 50 }
+      {
+        "place": "Pierre's",
+        "price": 40
+      },
+      {
+        "place": "JojaMart",
+        "price": 50
+      }
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 30,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "Needs to be milled before eating. Thrives in paddy conditions near water.",
     "image": "images/crops/unmilled-rice/crop.png",
     "seedImage": "images/crops/unmilled-rice/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/unmilled-rice/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/unmilled-rice/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/unmilled-rice/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/unmilled-rice/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/unmilled-rice/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/unmilled-rice/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/unmilled-rice/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/unmilled-rice/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/unmilled-rice/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/unmilled-rice/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 3, "health": 1 },
-    "farmingXP": 7
+    "energyHealth": {
+      "energy": 3,
+      "health": 1
+    },
+    "farmingXP": 7,
+    "maxQuality": "iridium"
   },
   {
     "id": "591",
@@ -289,26 +557,54 @@
     "seedId": "427",
     "seedName": "Tulip Bulb",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 20 },
-      { "place": "JojaMart", "price": 25 }
+      {
+        "place": "Pierre's",
+        "price": 20
+      },
+      {
+        "place": "JojaMart",
+        "price": 25
+      }
     ],
     "seedSellPrice": 10,
     "cropSellPrice": 30,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A vivid spring flower that turns the meadow red and yellow.",
     "image": "images/crops/tulip/crop.png",
     "seedImage": "images/crops/tulip/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/tulip/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/tulip/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/tulip/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/tulip/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/tulip/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/tulip/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/tulip/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/tulip/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/tulip/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/tulip/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 7
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 7,
+    "maxQuality": "iridium"
   },
   {
     "id": "597",
@@ -320,25 +616,50 @@
     "seedId": "429",
     "seedName": "Jazz Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 30 },
-      { "place": "JojaMart", "price": 38 }
+      {
+        "place": "Pierre's",
+        "price": 30
+      },
+      {
+        "place": "JojaMart",
+        "price": 38
+      }
     ],
     "seedSellPrice": 15,
     "cropSellPrice": 50,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A delicate flower with a lovely blue hue.",
     "image": "images/crops/blue-jazz/crop.png",
     "seedImage": "images/crops/blue-jazz/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/blue-jazz/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/blue-jazz/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/blue-jazz/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/blue-jazz/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/blue-jazz/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/blue-jazz/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/blue-jazz/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/blue-jazz/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 10
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 10,
+    "maxQuality": "iridium"
   },
   {
     "id": "Carrot",
@@ -352,20 +673,39 @@
     "seedBuyPrices": [],
     "seedSellPrice": 15,
     "cropSellPrice": 35,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A bright orange root vegetable. Good for your eyesight.",
     "image": "images/crops/carrot/crop.png",
     "seedImage": "images/crops/carrot/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/carrot/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/carrot/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/carrot/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/carrot/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/carrot/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/carrot/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/carrot/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/carrot/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 75, "health": 33 },
-    "farmingXP": 8
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "farmingXP": 8,
+    "maxQuality": "iridium"
   },
   {
     "id": "433",
@@ -376,25 +716,55 @@
     "regrowDays": 2,
     "seedId": "433",
     "seedName": "Coffee Bean",
-    "seedBuyPrices": [{ "place": "Traveling Cart", "price": 2500 }],
+    "seedBuyPrices": [
+      {
+        "place": "Traveling Cart",
+        "price": 2500
+      }
+    ],
     "seedSellPrice": 15,
     "cropSellPrice": 15,
-    "harvestQuantity": { "min": 4, "max": 4 },
+    "harvestQuantity": {
+      "min": 4,
+      "max": 4
+    },
     "trellis": false,
     "giant": false,
     "description": "It'll keep you buzzin'. Plant in spring or summer to harvest more beans.",
     "image": "images/crops/coffee-bean/crop.png",
     "seedImage": "images/crops/coffee-bean/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/coffee-bean/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/coffee-bean/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/coffee-bean/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/coffee-bean/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/coffee-bean/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/coffee-bean/stage-6.png" },
-      { "name": "regrowth", "image": "images/crops/coffee-bean/stage-7.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/coffee-bean/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/coffee-bean/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/coffee-bean/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/coffee-bean/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/coffee-bean/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/coffee-bean/stage-6.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/coffee-bean/stage-7.png"
+      }
     ],
-    "farmingXP": 4
+    "farmingXP": 4,
+    "maxQuality": "iridium"
   },
   {
     "id": "254",
@@ -406,12 +776,21 @@
     "seedId": "479",
     "seedName": "Melon Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 80 },
-      { "place": "JojaMart", "price": 100 }
+      {
+        "place": "Pierre's",
+        "price": 80
+      },
+      {
+        "place": "JojaMart",
+        "price": 100
+      }
     ],
     "seedSellPrice": 40,
     "cropSellPrice": 250,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": true,
     "description": "A large sweet fruit that grows in summer. It's one of the most popular at festivals.",
@@ -419,15 +798,37 @@
     "giantImage": "images/crops/melon/giant.png",
     "seedImage": "images/crops/melon/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/melon/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/melon/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/melon/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/melon/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/melon/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/melon/stage-6.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/melon/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/melon/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/melon/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/melon/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/melon/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/melon/stage-6.png"
+      }
     ],
-    "energyHealth": { "energy": 113, "health": 50 },
-    "farmingXP": 27
+    "energyHealth": {
+      "energy": 113,
+      "health": 50
+    },
+    "farmingXP": 27,
+    "maxQuality": "iridium"
   },
   {
     "id": "256",
@@ -439,26 +840,54 @@
     "seedId": "480",
     "seedName": "Tomato Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 50 },
-      { "place": "JojaMart", "price": 63 }
+      {
+        "place": "Pierre's",
+        "price": 50
+      },
+      {
+        "place": "JojaMart",
+        "price": 63
+      }
     ],
     "seedSellPrice": 25,
     "cropSellPrice": 60,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": true,
     "giant": false,
     "description": "A juicy, nutritious summer vegetable used in cooking worldwide.",
     "image": "images/crops/tomato/crop.png",
     "seedImage": "images/crops/tomato/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/tomato/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/tomato/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/tomato/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/tomato/stage-4.png" },
-      { "name": "regrowth", "image": "images/crops/tomato/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/tomato/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/tomato/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/tomato/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/tomato/stage-4.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/tomato/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 20, "health": 9 },
-    "farmingXP": 12
+    "energyHealth": {
+      "energy": 20,
+      "health": 9
+    },
+    "farmingXP": 12,
+    "maxQuality": "iridium"
   },
   {
     "id": "258",
@@ -470,28 +899,62 @@
     "seedId": "481",
     "seedName": "Blueberry Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 80 },
-      { "place": "JojaMart", "price": 100 }
+      {
+        "place": "Pierre's",
+        "price": 80
+      },
+      {
+        "place": "JojaMart",
+        "price": 100
+      }
     ],
     "seedSellPrice": 40,
     "cropSellPrice": 50,
-    "harvestQuantity": { "min": 3, "max": 3 },
+    "harvestQuantity": {
+      "min": 3,
+      "max": 3
+    },
     "trellis": false,
     "giant": false,
     "description": "A popular berry among the residents of Stardew Valley.",
     "image": "images/crops/blueberry/crop.png",
     "seedImage": "images/crops/blueberry/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/blueberry/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/blueberry/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/blueberry/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/blueberry/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/blueberry/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/blueberry/stage-6.png" },
-      { "name": "regrowth", "image": "images/crops/blueberry/stage-7.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/blueberry/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/blueberry/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/blueberry/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/blueberry/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/blueberry/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/blueberry/stage-6.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/blueberry/stage-7.png"
+      }
     ],
-    "energyHealth": { "energy": 25, "health": 11 },
-    "farmingXP": 10
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "farmingXP": 10,
+    "maxQuality": "iridium"
   },
   {
     "id": "260",
@@ -503,28 +966,62 @@
     "seedId": "482",
     "seedName": "Pepper Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 40 },
-      { "place": "JojaMart", "price": 50 }
+      {
+        "place": "Pierre's",
+        "price": 40
+      },
+      {
+        "place": "JojaMart",
+        "price": 50
+      }
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 40,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "Fiery hot! A perfect flavoring for spicy summer dishes.",
     "image": "images/crops/hot-pepper/crop.png",
     "seedImage": "images/crops/hot-pepper/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/hot-pepper/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/hot-pepper/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/hot-pepper/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/hot-pepper/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/hot-pepper/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/hot-pepper/stage-6.png" },
-      { "name": "regrowth", "image": "images/crops/hot-pepper/stage-7.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/hot-pepper/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/hot-pepper/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/hot-pepper/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/hot-pepper/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/hot-pepper/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/hot-pepper/stage-6.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/hot-pepper/stage-7.png"
+      }
     ],
-    "energyHealth": { "energy": 13, "health": 5 },
-    "farmingXP": 9
+    "energyHealth": {
+      "energy": 13,
+      "health": 5
+    },
+    "farmingXP": 9,
+    "maxQuality": "iridium"
   },
   {
     "id": "264",
@@ -536,26 +1033,54 @@
     "seedId": "484",
     "seedName": "Radish Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 40 },
-      { "place": "JojaMart", "price": 50 }
+      {
+        "place": "Pierre's",
+        "price": 40
+      },
+      {
+        "place": "JojaMart",
+        "price": 50
+      }
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 90,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A crisp, peppery vegetable used in many summer salads and dishes.",
     "image": "images/crops/radish/crop.png",
     "seedImage": "images/crops/radish/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/radish/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/radish/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/radish/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/radish/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/radish/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/radish/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/radish/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/radish/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/radish/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/radish/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 15
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 15,
+    "maxQuality": "iridium"
   },
   {
     "id": "266",
@@ -567,27 +1092,58 @@
     "seedId": "485",
     "seedName": "Red Cabbage Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 100 },
-      { "place": "JojaMart", "price": 125 }
+      {
+        "place": "Pierre's",
+        "price": 100
+      },
+      {
+        "place": "JojaMart",
+        "price": 125
+      }
     ],
     "seedSellPrice": 50,
     "cropSellPrice": 260,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A blushing vegetable available from Pierre's starting in year two.",
     "image": "images/crops/red-cabbage/crop.png",
     "seedImage": "images/crops/red-cabbage/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/red-cabbage/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/red-cabbage/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/red-cabbage/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/red-cabbage/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/red-cabbage/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/red-cabbage/stage-6.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/red-cabbage/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/red-cabbage/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/red-cabbage/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/red-cabbage/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/red-cabbage/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/red-cabbage/stage-6.png"
+      }
     ],
-    "energyHealth": { "energy": 75, "health": 33 },
-    "farmingXP": 28
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "farmingXP": 28,
+    "maxQuality": "iridium"
   },
   {
     "id": "268",
@@ -598,25 +1154,55 @@
     "regrowDays": null,
     "seedId": "486",
     "seedName": "Starfruit Seeds",
-    "seedBuyPrices": [{ "place": "Oasis", "price": 400 }],
+    "seedBuyPrices": [
+      {
+        "place": "Oasis",
+        "price": 400
+      }
+    ],
     "seedSellPrice": 200,
     "cropSellPrice": 750,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A delicious fruit that is said to be the sweetest thing you can grow.",
     "image": "images/crops/starfruit/crop.png",
     "seedImage": "images/crops/starfruit/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/starfruit/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/starfruit/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/starfruit/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/starfruit/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/starfruit/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/starfruit/stage-6.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/starfruit/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/starfruit/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/starfruit/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/starfruit/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/starfruit/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/starfruit/stage-6.png"
+      }
     ],
-    "energyHealth": { "energy": 125, "health": 56 },
-    "farmingXP": 43
+    "energyHealth": {
+      "energy": 125,
+      "health": 56
+    },
+    "farmingXP": 43,
+    "maxQuality": "iridium"
   },
   {
     "id": "304",
@@ -628,28 +1214,62 @@
     "seedId": "302",
     "seedName": "Hops Starter",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 60 },
-      { "place": "JojaMart", "price": 75 }
+      {
+        "place": "Pierre's",
+        "price": 60
+      },
+      {
+        "place": "JojaMart",
+        "price": 75
+      }
     ],
     "seedSellPrice": 30,
     "cropSellPrice": 25,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": true,
     "giant": false,
     "description": "The flower clusters of the hops plant are used to brew beer.",
     "image": "images/crops/hops/crop.png",
     "seedImage": "images/crops/hops/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/hops/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/hops/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/hops/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/hops/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/hops/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/hops/stage-6.png" },
-      { "name": "regrowth", "image": "images/crops/hops/stage-7.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/hops/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/hops/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/hops/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/hops/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/hops/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/hops/stage-6.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/hops/stage-7.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 6
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 6,
+    "maxQuality": "iridium"
   },
   {
     "id": "376",
@@ -661,26 +1281,54 @@
     "seedId": "453",
     "seedName": "Poppy Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 100 },
-      { "place": "JojaMart", "price": 125 }
+      {
+        "place": "Pierre's",
+        "price": 100
+      },
+      {
+        "place": "JojaMart",
+        "price": 125
+      }
     ],
     "seedSellPrice": 50,
     "cropSellPrice": 140,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "The poppy is a sweet, delicate flower with a bold and powerful flavor.",
     "image": "images/crops/poppy/crop.png",
     "seedImage": "images/crops/poppy/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/poppy/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/poppy/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/poppy/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/poppy/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/poppy/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/poppy/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/poppy/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/poppy/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/poppy/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/poppy/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 20
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 20,
+    "maxQuality": "iridium"
   },
   {
     "id": "593",
@@ -692,26 +1340,54 @@
     "seedId": "455",
     "seedName": "Spangle Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 50 },
-      { "place": "JojaMart", "price": 63 }
+      {
+        "place": "Pierre's",
+        "price": 50
+      },
+      {
+        "place": "JojaMart",
+        "price": 63
+      }
     ],
     "seedSellPrice": 25,
     "cropSellPrice": 90,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A tropical bloom that thrives in the summer heat.",
     "image": "images/crops/summer-spangle/crop.png",
     "seedImage": "images/crops/summer-spangle/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/summer-spangle/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/summer-spangle/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/summer-spangle/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/summer-spangle/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/summer-spangle/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/summer-spangle/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/summer-spangle/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/summer-spangle/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/summer-spangle/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/summer-spangle/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 15
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 15,
+    "maxQuality": "iridium"
   },
   {
     "id": "SummerSquash",
@@ -723,26 +1399,54 @@
     "seedId": "SummerSquashSeeds",
     "seedName": "Summer Squash Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 40 },
-      { "place": "JojaMart", "price": 50 }
+      {
+        "place": "Pierre's",
+        "price": 40
+      },
+      {
+        "place": "JojaMart",
+        "price": 50
+      }
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 45,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A versatile summer squash that's great for cooking.",
     "image": "images/crops/summer-squash/crop.png",
     "seedImage": "images/crops/summer-squash/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/summer-squash/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/summer-squash/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/summer-squash/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/summer-squash/stage-4.png" },
-      { "name": "regrowth", "image": "images/crops/summer-squash/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/summer-squash/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/summer-squash/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/summer-squash/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/summer-squash/stage-4.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/summer-squash/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 63, "health": 28 },
-    "farmingXP": 9
+    "energyHealth": {
+      "energy": 63,
+      "health": 28
+    },
+    "farmingXP": 9,
+    "maxQuality": "iridium"
   },
   {
     "id": "830",
@@ -756,20 +1460,39 @@
     "seedBuyPrices": [],
     "seedSellPrice": 20,
     "cropSellPrice": 100,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A starchy root vegetable that grows best in wet, paddy conditions.",
     "image": "images/crops/taro-root/crop.png",
     "seedImage": "images/crops/taro-root/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/taro-root/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/taro-root/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/taro-root/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/taro-root/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/taro-root/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/taro-root/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/taro-root/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/taro-root/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 38, "health": 17 },
-    "farmingXP": 16
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "farmingXP": 16,
+    "maxQuality": "iridium"
   },
   {
     "id": "270",
@@ -781,28 +1504,62 @@
     "seedId": "487",
     "seedName": "Corn Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 150 },
-      { "place": "JojaMart", "price": 188 }
+      {
+        "place": "Pierre's",
+        "price": 150
+      },
+      {
+        "place": "JojaMart",
+        "price": 188
+      }
     ],
     "seedSellPrice": 75,
     "cropSellPrice": 50,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A sweet and filling crop that grows in both summer and fall.",
     "image": "images/crops/corn/crop.png",
     "seedImage": "images/crops/corn/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/corn/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/corn/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/corn/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/corn/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/corn/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/corn/stage-6.png" },
-      { "name": "regrowth", "image": "images/crops/corn/stage-7.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/corn/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/corn/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/corn/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/corn/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/corn/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/corn/stage-6.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/corn/stage-7.png"
+      }
     ],
-    "energyHealth": { "energy": 25, "health": 11 },
-    "farmingXP": 10
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "farmingXP": 10,
+    "maxQuality": "iridium"
   },
   {
     "id": "262",
@@ -814,24 +1571,46 @@
     "seedId": "483",
     "seedName": "Wheat Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 10 },
-      { "place": "JojaMart", "price": 13 }
+      {
+        "place": "Pierre's",
+        "price": 10
+      },
+      {
+        "place": "JojaMart",
+        "price": 13
+      }
     ],
     "seedSellPrice": 5,
     "cropSellPrice": 25,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A common grain used to make flour. Harvest with a scythe.",
     "image": "images/crops/wheat/crop.png",
     "seedImage": "images/crops/wheat/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/wheat/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/wheat/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/wheat/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/wheat/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/wheat/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/wheat/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/wheat/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/wheat/stage-4.png"
+      }
     ],
-    "farmingXP": 6
+    "farmingXP": 6,
+    "maxQuality": "iridium"
   },
   {
     "id": "421",
@@ -843,25 +1622,50 @@
     "seedId": "431",
     "seedName": "Sunflower Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 200 },
-      { "place": "JojaMart", "price": 250 }
+      {
+        "place": "Pierre's",
+        "price": 200
+      },
+      {
+        "place": "JojaMart",
+        "price": 250
+      }
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 80,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A giant, warming flower that also produces useful seeds.",
     "image": "images/crops/sunflower/crop.png",
     "seedImage": "images/crops/sunflower/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/sunflower/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/sunflower/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/sunflower/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/sunflower/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/sunflower/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/sunflower/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/sunflower/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/sunflower/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 5
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 5,
+    "maxQuality": "iridium"
   },
   {
     "id": "276",
@@ -873,12 +1677,21 @@
     "seedId": "490",
     "seedName": "Pumpkin Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 100 },
-      { "place": "JojaMart", "price": 125 }
+      {
+        "place": "Pierre's",
+        "price": 100
+      },
+      {
+        "place": "JojaMart",
+        "price": 125
+      }
     ],
     "seedSellPrice": 50,
     "cropSellPrice": 320,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": true,
     "description": "A fall favorite, grown for its flavor and its festive orange color.",
@@ -886,13 +1699,29 @@
     "giantImage": "images/crops/pumpkin/giant.png",
     "seedImage": "images/crops/pumpkin/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/pumpkin/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/pumpkin/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/pumpkin/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/pumpkin/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/pumpkin/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/pumpkin/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/pumpkin/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/pumpkin/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/pumpkin/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/pumpkin/stage-5.png"
+      }
     ],
-    "farmingXP": 31
+    "farmingXP": 31,
+    "maxQuality": "iridium"
   },
   {
     "id": "272",
@@ -904,26 +1733,54 @@
     "seedId": "488",
     "seedName": "Eggplant Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 20 },
-      { "place": "JojaMart", "price": 25 }
+      {
+        "place": "Pierre's",
+        "price": 20
+      },
+      {
+        "place": "JojaMart",
+        "price": 25
+      }
     ],
     "seedSellPrice": 10,
     "cropSellPrice": 60,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A purple vegetable most often used in cooking.",
     "image": "images/crops/eggplant/crop.png",
     "seedImage": "images/crops/eggplant/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/eggplant/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/eggplant/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/eggplant/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/eggplant/stage-4.png" },
-      { "name": "regrowth", "image": "images/crops/eggplant/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/eggplant/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/eggplant/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/eggplant/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/eggplant/stage-4.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/eggplant/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 20, "health": 9 },
-    "farmingXP": 12
+    "energyHealth": {
+      "energy": 20,
+      "health": 9
+    },
+    "farmingXP": 12,
+    "maxQuality": "iridium"
   },
   {
     "id": "274",
@@ -935,26 +1792,54 @@
     "seedId": "489",
     "seedName": "Artichoke Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 30 },
-      { "place": "JojaMart", "price": 38 }
+      {
+        "place": "Pierre's",
+        "price": 30
+      },
+      {
+        "place": "JojaMart",
+        "price": 38
+      }
     ],
     "seedSellPrice": 15,
     "cropSellPrice": 160,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A hearty crop that takes a while to grow, but the rewards are worth the wait.",
     "image": "images/crops/artichoke/crop.png",
     "seedImage": "images/crops/artichoke/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/artichoke/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/artichoke/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/artichoke/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/artichoke/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/artichoke/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/artichoke/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/artichoke/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/artichoke/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/artichoke/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/artichoke/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 30, "health": 13 },
-    "farmingXP": 22
+    "energyHealth": {
+      "energy": 30,
+      "health": 13
+    },
+    "farmingXP": 22,
+    "maxQuality": "iridium"
   },
   {
     "id": "300",
@@ -966,25 +1851,50 @@
     "seedId": "299",
     "seedName": "Amaranth Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 70 },
-      { "place": "JojaMart", "price": 88 }
+      {
+        "place": "Pierre's",
+        "price": 70
+      },
+      {
+        "place": "JojaMart",
+        "price": 88
+      }
     ],
     "seedSellPrice": 35,
     "cropSellPrice": 150,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "This grain has been cultivated by humans for thousands of years.",
     "image": "images/crops/amaranth/crop.png",
     "seedImage": "images/crops/amaranth/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/amaranth/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/amaranth/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/amaranth/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/amaranth/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/amaranth/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/amaranth/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/amaranth/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/amaranth/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 50, "health": 22 },
-    "farmingXP": 21
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "farmingXP": 21,
+    "maxQuality": "iridium"
   },
   {
     "id": "398",
@@ -996,26 +1906,54 @@
     "seedId": "301",
     "seedName": "Grape Starter",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 60 },
-      { "place": "JojaMart", "price": 75 }
+      {
+        "place": "Pierre's",
+        "price": 60
+      },
+      {
+        "place": "JojaMart",
+        "price": 75
+      }
     ],
     "seedSellPrice": 30,
     "cropSellPrice": 80,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": true,
     "giant": false,
     "description": "A sweet fruit that grows on a vine trellis in the fall.",
     "image": "images/crops/grape/crop.png",
     "seedImage": "images/crops/grape/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/grape/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/grape/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/grape/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/grape/stage-4.png" },
-      { "name": "regrowth", "image": "images/crops/grape/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/grape/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/grape/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/grape/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/grape/stage-4.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/grape/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 38, "health": 17 },
-    "farmingXP": 14
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "farmingXP": 14,
+    "maxQuality": "iridium"
   },
   {
     "id": "282",
@@ -1027,26 +1965,54 @@
     "seedId": "493",
     "seedName": "Cranberry Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 240 },
-      { "place": "JojaMart", "price": 300 }
+      {
+        "place": "Pierre's",
+        "price": 240
+      },
+      {
+        "place": "JojaMart",
+        "price": 300
+      }
     ],
     "seedSellPrice": 120,
     "cropSellPrice": 75,
-    "harvestQuantity": { "min": 2, "max": 2 },
+    "harvestQuantity": {
+      "min": 2,
+      "max": 2
+    },
     "trellis": false,
     "giant": false,
     "description": "A sharp, tangy red berry often used in fall cooking. Each plant bears multiple fruits.",
     "image": "images/crops/cranberries/crop.png",
     "seedImage": "images/crops/cranberries/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/cranberries/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/cranberries/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/cranberries/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/cranberries/stage-4.png" },
-      { "name": "regrowth", "image": "images/crops/cranberries/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/cranberries/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/cranberries/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/cranberries/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/cranberries/stage-4.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/cranberries/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 38, "health": 17 },
-    "farmingXP": 14
+    "energyHealth": {
+      "energy": 38,
+      "health": 17
+    },
+    "farmingXP": 14,
+    "maxQuality": "iridium"
   },
   {
     "id": "278",
@@ -1058,25 +2024,50 @@
     "seedId": "491",
     "seedName": "Bok Choy Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 50 },
-      { "place": "JojaMart", "price": 63 }
+      {
+        "place": "Pierre's",
+        "price": 50
+      },
+      {
+        "place": "JojaMart",
+        "price": 63
+      }
     ],
     "seedSellPrice": 25,
     "cropSellPrice": 80,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A type of cabbage with a firm texture and a mild, sweet flavor.",
     "image": "images/crops/bok-choy/crop.png",
     "seedImage": "images/crops/bok-choy/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/bok-choy/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/bok-choy/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/bok-choy/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/bok-choy/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/bok-choy/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/bok-choy/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/bok-choy/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/bok-choy/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 25, "health": 11 },
-    "farmingXP": 14
+    "energyHealth": {
+      "energy": 25,
+      "health": 11
+    },
+    "farmingXP": 14,
+    "maxQuality": "iridium"
   },
   {
     "id": "280",
@@ -1088,25 +2079,50 @@
     "seedId": "492",
     "seedName": "Yam Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 60 },
-      { "place": "JojaMart", "price": 75 }
+      {
+        "place": "Pierre's",
+        "price": 60
+      },
+      {
+        "place": "JojaMart",
+        "price": 75
+      }
     ],
     "seedSellPrice": 30,
     "cropSellPrice": 160,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "It's a starchy yam. Looks like food...",
     "image": "images/crops/yam/crop.png",
     "seedImage": "images/crops/yam/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/yam/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/yam/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/yam/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/yam/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/yam/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/yam/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/yam/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/yam/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 22
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 22,
+    "maxQuality": "iridium"
   },
   {
     "id": "284",
@@ -1117,23 +2133,47 @@
     "regrowDays": null,
     "seedId": "494",
     "seedName": "Beet Seeds",
-    "seedBuyPrices": [{ "place": "Oasis", "price": 20 }],
+    "seedBuyPrices": [
+      {
+        "place": "Oasis",
+        "price": 20
+      }
+    ],
     "seedSellPrice": 10,
     "cropSellPrice": 100,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A sweet root vegetable. Can be used at the mill to make sugar.",
     "image": "images/crops/beet/crop.png",
     "seedImage": "images/crops/beet/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/beet/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/beet/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/beet/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/beet/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/beet/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/beet/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/beet/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/beet/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 30, "health": 13 },
-    "farmingXP": 16
+    "energyHealth": {
+      "energy": 30,
+      "health": 13
+    },
+    "farmingXP": 16,
+    "maxQuality": "iridium"
   },
   {
     "id": "417",
@@ -1144,23 +2184,47 @@
     "regrowDays": null,
     "seedId": "347",
     "seedName": "Rare Seed",
-    "seedBuyPrices": [{ "place": "Traveling Cart", "price": 1000 }],
+    "seedBuyPrices": [
+      {
+        "place": "Traveling Cart",
+        "price": 1000
+      }
+    ],
     "seedSellPrice": 200,
     "cropSellPrice": 3000,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "The rarest of all gems in the known world. It's an extraordinary sweet fruit.",
     "image": "images/crops/sweet-gem-berry/crop.png",
     "seedImage": "images/crops/sweet-gem-berry/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/sweet-gem-berry/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/sweet-gem-berry/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/sweet-gem-berry/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/sweet-gem-berry/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/sweet-gem-berry/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/sweet-gem-berry/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/sweet-gem-berry/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/sweet-gem-berry/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/sweet-gem-berry/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/sweet-gem-berry/stage-5.png"
+      }
     ],
-    "farmingXP": 64
+    "farmingXP": 64,
+    "maxQuality": "iridium"
   },
   {
     "id": "595",
@@ -1172,25 +2236,50 @@
     "seedId": "425",
     "seedName": "Fairy Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 200 },
-      { "place": "JojaMart", "price": 250 }
+      {
+        "place": "Pierre's",
+        "price": 200
+      },
+      {
+        "place": "JojaMart",
+        "price": 250
+      }
     ],
     "seedSellPrice": 100,
     "cropSellPrice": 290,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "An extremely rare flower with a powerful, sweet perfume.",
     "image": "images/crops/fairy-rose/crop.png",
     "seedImage": "images/crops/fairy-rose/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/fairy-rose/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/fairy-rose/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/fairy-rose/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/fairy-rose/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/fairy-rose/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/fairy-rose/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/fairy-rose/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/fairy-rose/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 45, "health": 20 },
-    "farmingXP": 29
+    "energyHealth": {
+      "energy": 45,
+      "health": 20
+    },
+    "farmingXP": 29,
+    "maxQuality": "iridium"
   },
   {
     "id": "Broccoli",
@@ -1202,27 +2291,58 @@
     "seedId": "BroccoliSeeds",
     "seedName": "Broccoli Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 80 },
-      { "place": "JojaMart", "price": 100 }
+      {
+        "place": "Pierre's",
+        "price": 80
+      },
+      {
+        "place": "JojaMart",
+        "price": 100
+      }
     ],
     "seedSellPrice": 40,
     "cropSellPrice": 70,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A dark green vegetable with many densely-packed florets.",
     "image": "images/crops/broccoli/crop.png",
     "seedImage": "images/crops/broccoli/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/broccoli/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/broccoli/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/broccoli/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/broccoli/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/broccoli/stage-5.png" },
-      { "name": "regrowth", "image": "images/crops/broccoli/stage-6.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/broccoli/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/broccoli/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/broccoli/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/broccoli/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/broccoli/stage-5.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/broccoli/stage-6.png"
+      }
     ],
-    "energyHealth": { "energy": 63, "health": 28 },
-    "farmingXP": 13
+    "energyHealth": {
+      "energy": 63,
+      "health": 28
+    },
+    "farmingXP": 13,
+    "maxQuality": "iridium"
   },
   {
     "id": "Powdermelon",
@@ -1234,26 +2354,54 @@
     "seedId": "PowdermelonSeeds",
     "seedName": "Powdermelon Seeds",
     "seedBuyPrices": [
-      { "place": "Pierre's", "price": 40 },
-      { "place": "JojaMart", "price": 50 }
+      {
+        "place": "Pierre's",
+        "price": 40
+      },
+      {
+        "place": "JojaMart",
+        "price": 50
+      }
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 60,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A mysterious pale melon that flourishes in winter.",
     "image": "images/crops/powdermelon/crop.png",
     "seedImage": "images/crops/powdermelon/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/powdermelon/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/powdermelon/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/powdermelon/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/powdermelon/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/powdermelon/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/powdermelon/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/powdermelon/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/powdermelon/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/powdermelon/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/powdermelon/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 63, "health": 28 },
-    "farmingXP": 12
+    "energyHealth": {
+      "energy": 63,
+      "health": 28
+    },
+    "farmingXP": 12,
+    "maxQuality": "iridium"
   },
   {
     "id": "454",
@@ -1267,20 +2415,39 @@
     "seedBuyPrices": [],
     "seedSellPrice": 30,
     "cropSellPrice": 550,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A very rare fruit that has survived since ancient times. It's extraordinarily sweet.",
     "image": "images/crops/ancient-fruit/crop.png",
     "seedImage": "images/crops/ancient-fruit/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/ancient-fruit/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/ancient-fruit/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/ancient-fruit/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/ancient-fruit/stage-4.png" },
-      { "name": "regrowth", "image": "images/crops/ancient-fruit/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/ancient-fruit/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/ancient-fruit/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/ancient-fruit/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/ancient-fruit/stage-4.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/ancient-fruit/stage-5.png"
+      }
     ],
-    "farmingXP": 38
+    "farmingXP": 38,
+    "maxQuality": "iridium"
   },
   {
     "id": "90",
@@ -1291,26 +2458,59 @@
     "regrowDays": 3,
     "seedId": "802",
     "seedName": "Cactus Seeds",
-    "seedBuyPrices": [{ "place": "Oasis", "price": 150 }],
+    "seedBuyPrices": [
+      {
+        "place": "Oasis",
+        "price": 150
+      }
+    ],
     "seedSellPrice": 0,
     "cropSellPrice": 75,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "The sweet fruit of a cactus. Grows year-round indoors or on Ginger Island.",
     "image": "images/crops/cactus-fruit/crop.png",
     "seedImage": "images/crops/cactus-fruit/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/cactus-fruit/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/cactus-fruit/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/cactus-fruit/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/cactus-fruit/stage-4.png" },
-      { "name": "stage 5", "image": "images/crops/cactus-fruit/stage-5.png" },
-      { "name": "harvest", "image": "images/crops/cactus-fruit/stage-6.png" },
-      { "name": "regrowth", "image": "images/crops/cactus-fruit/stage-7.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/cactus-fruit/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/cactus-fruit/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/cactus-fruit/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/cactus-fruit/stage-4.png"
+      },
+      {
+        "name": "stage 5",
+        "image": "images/crops/cactus-fruit/stage-5.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/cactus-fruit/stage-6.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/cactus-fruit/stage-7.png"
+      }
     ],
-    "energyHealth": { "energy": 75, "health": 33 },
-    "farmingXP": 14
+    "energyHealth": {
+      "energy": 75,
+      "health": 33
+    },
+    "farmingXP": 14,
+    "maxQuality": "iridium"
   },
   {
     "id": "832",
@@ -1324,21 +2524,43 @@
     "seedBuyPrices": [],
     "seedSellPrice": 240,
     "cropSellPrice": 300,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": false,
     "description": "A prickly, succulent fruit found in tropical climates.",
     "image": "images/crops/pineapple/crop.png",
     "seedImage": "images/crops/pineapple/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/pineapple/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/pineapple/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/pineapple/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/pineapple/stage-4.png" },
-      { "name": "regrowth", "image": "images/crops/pineapple/stage-5.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/pineapple/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/pineapple/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/pineapple/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/pineapple/stage-4.png"
+      },
+      {
+        "name": "regrowth",
+        "image": "images/crops/pineapple/stage-5.png"
+      }
     ],
-    "energyHealth": { "energy": 138, "health": 62 },
-    "farmingXP": 30
+    "energyHealth": {
+      "energy": 138,
+      "health": 62
+    },
+    "farmingXP": 30,
+    "maxQuality": "iridium"
   },
   {
     "id": "889",
@@ -1352,7 +2574,10 @@
     "seedBuyPrices": [],
     "seedSellPrice": 1,
     "cropSellPrice": 1,
-    "harvestQuantity": { "min": 1, "max": 1 },
+    "harvestQuantity": {
+      "min": 1,
+      "max": 1
+    },
     "trellis": false,
     "giant": true,
     "description": "A fruit imbued with the essence of Qi. Used to complete Qi's special orders.",
@@ -1360,12 +2585,28 @@
     "giantImage": "images/crops/qi-fruit/giant.png",
     "seedImage": "images/crops/qi-fruit/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/qi-fruit/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/qi-fruit/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/qi-fruit/stage-3.png" },
-      { "name": "harvest", "image": "images/crops/qi-fruit/stage-4.png" }
+      {
+        "name": "stage 1",
+        "image": "images/crops/qi-fruit/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/qi-fruit/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/qi-fruit/stage-3.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/qi-fruit/stage-4.png"
+      }
     ],
-    "energyHealth": { "energy": 3, "health": 1 }
+    "energyHealth": {
+      "energy": 3,
+      "health": 1
+    },
+    "maxQuality": "iridium"
   },
   {
     "id": "771",
@@ -1379,18 +2620,37 @@
     "seedBuyPrices": [],
     "seedSellPrice": 5,
     "cropSellPrice": 1,
-    "harvestQuantity": { "min": 4, "max": 7 },
+    "harvestQuantity": {
+      "min": 4,
+      "max": 7
+    },
     "trellis": false,
     "giant": false,
     "description": "Plant these in any season. Does not require watering. Harvest with the scythe.",
     "image": "images/crops/fiber/crop.png",
     "seedImage": "images/crops/fiber/seed.png",
     "stages": [
-      { "name": "stage 1", "image": "images/crops/fiber/stage-1.png" },
-      { "name": "stage 2", "image": "images/crops/fiber/stage-2.png" },
-      { "name": "stage 3", "image": "images/crops/fiber/stage-3.png" },
-      { "name": "stage 4", "image": "images/crops/fiber/stage-4.png" },
-      { "name": "harvest", "image": "images/crops/fiber/stage-5.png" }
-    ]
+      {
+        "name": "stage 1",
+        "image": "images/crops/fiber/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/crops/fiber/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/crops/fiber/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/crops/fiber/stage-4.png"
+      },
+      {
+        "name": "harvest",
+        "image": "images/crops/fiber/stage-5.png"
+      }
+    ],
+    "maxQuality": "base"
   }
 ]

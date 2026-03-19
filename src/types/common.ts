@@ -1,6 +1,7 @@
 export type Season = 'spring' | 'summer' | 'fall' | 'winter' | 'ginger island';
 
 export type Quality = 'silver' | 'gold' | 'iridium';
+export type ItemQuality = 'base' | Quality;
 
 export interface EnergyHealth {
   energy?: number;
