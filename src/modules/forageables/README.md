@@ -12,15 +12,17 @@ and special location finds. 32 forageables are included.
 
 ### `Forageable`
 
-| Field       | Type     | Description                         |
-| ----------- | -------- | ----------------------------------- |
-| id          | string   | Unique identifier (kebab-case)      |
-| name        | string   | Display name                        |
-| description | string   | Flavour text shown in-game          |
-| seasons     | Season[] | Seasons when this item can be found |
-| locations   | string   | Where to find it                    |
-| sellPrice   | number   | Base sell price in gold             |
-| image       | string   | Path to the item's icon             |
+| Field        | Type          | Description                                                       |
+| ------------ | ------------- | ----------------------------------------------------------------- |
+| id           | string        | Unique identifier (kebab-case)                                    |
+| name         | string        | Display name                                                      |
+| description  | string        | Flavour text shown in-game                                        |
+| seasons      | Season[]      | Seasons when this item can be found                               |
+| locations    | string        | Where to find it                                                  |
+| sellPrice    | number        | Base sell price in gold                                           |
+| energyHealth | EnergyHealth? | Energy and health restored when eaten; omitted for inedible items |
+| maxQuality   | ItemQuality   | Highest quality tier achievable (`'base'` or `'iridium'`)         |
+| image        | string        | Path to the item's icon                                           |
 
 `Season` is `'spring' | 'summer' | 'fall' | 'winter' | 'ginger island'`.
 

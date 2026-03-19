@@ -100,29 +100,31 @@ artisanGoods()
 
 ## Fields
 
-| Field                   | Type                 | Notes                                                 |
-| ----------------------- | -------------------- | ----------------------------------------------------- |
-| id                      | string               |                                                       |
-| name                    | string               |                                                       |
-| description             | string               |                                                       |
-| equipment               | string               | Equipment used to produce this good                   |
-| ingredients             | ArtisanIngredient[]  |                                                       |
-| ingredients[].name      | string               | Ingredient name or category (e.g. "Any Fruit")        |
-| ingredients[].id        | string or null       | Object ID; null for category-based inputs             |
-| ingredients[].quantity  | number or null       | Required quantity; null if variable                   |
-| processingMinutes       | number               | In-game minutes to process (1 day = 1600 min)         |
-| processingDays          | number               | processingMinutes ÷ 1600, rounded to 2 decimal places |
-| sellPrice               | number or null       | Base sell price; null if formula-based                |
-| sellPriceFormula        | string or null       | Human-readable formula description                    |
-| priceFormula            | PriceFormula or null | Structured formula for price calculation              |
-| priceFormula.multiplier | number               | Factor applied to ingredient base price               |
-| priceFormula.addend     | number               | Flat amount added after multiplication                |
-| qualityLevels           | boolean              | True if Silver/Gold/Iridium quality variants exist    |
-| cask                    | CaskAging or null    | Aging timeline; null if item cannot be cask-aged      |
-| cask.silverDays         | number               | Days in Cask to reach Silver quality                  |
-| cask.goldDays           | number               | Days in Cask to reach Gold quality                    |
-| cask.iridiumDays        | number               | Days in Cask to reach Iridium quality                 |
-| image                   | string               | Path to item image                                    |
+| Field                   | Type                 | Notes                                                  |
+| ----------------------- | -------------------- | ------------------------------------------------------ |
+| id                      | string               |                                                        |
+| name                    | string               |                                                        |
+| description             | string               |                                                        |
+| equipment               | string               | Equipment used to produce this good                    |
+| ingredients             | ArtisanIngredient[]  |                                                        |
+| ingredients[].name      | string               | Ingredient name or category (e.g. "Any Fruit")         |
+| ingredients[].id        | string or null       | Object ID; null for category-based inputs              |
+| ingredients[].quantity  | number or null       | Required quantity; null if variable                    |
+| processingMinutes       | number               | In-game minutes to process (1 day = 1600 min)          |
+| processingDays          | number               | processingMinutes ÷ 1600, rounded to 2 decimal places  |
+| sellPrice               | number or null       | Base sell price; null if formula-based                 |
+| sellPriceFormula        | string or null       | Human-readable formula description                     |
+| priceFormula            | PriceFormula or null | Structured formula for price calculation               |
+| priceFormula.multiplier | number               | Factor applied to ingredient base price                |
+| priceFormula.addend     | number               | Flat amount added after multiplication                 |
+| qualityLevels           | boolean              | True if Silver/Gold/Iridium quality variants exist     |
+| cask                    | CaskAging or null    | Aging timeline; null if item cannot be cask-aged       |
+| cask.silverDays         | number               | Days in Cask to reach Silver quality                   |
+| cask.goldDays           | number               | Days in Cask to reach Gold quality                     |
+| cask.iridiumDays        | number               | Days in Cask to reach Iridium quality                  |
+| energyHealth            | EnergyHealth?        | Energy and health restored; omitted for inedible goods |
+| maxQuality              | ItemQuality          | `'iridium'` if cask-ageable, otherwise `'base'`        |
+| image                   | string               | Path to item image                                     |
 
 ## All artisan goods
 

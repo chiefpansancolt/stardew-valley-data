@@ -9,20 +9,23 @@ are included.
 
 ### `Fish`
 
-| Field       | Type          | Description                                       |
-| ----------- | ------------- | ------------------------------------------------- |
-| id          | string        | Game-internal ID from Objects.json                |
-| name        | string        | Display name                                      |
-| description | string        | Flavour text shown in-game                        |
-| catchType   | FishCatchType | `'rod'` or `'crab-pot'`                           |
-| seasons     | Season[]      | Seasons when this fish can be caught              |
-| location    | string        | Where to catch it                                 |
-| weather     | FishWeather?  | `'sunny'`, `'rainy'`, or `'both'` (rod fish only) |
-| time        | string?       | Time window e.g. `"6:00 AM – 8:00 PM"` (rod only) |
-| difficulty  | number?       | Catch difficulty 5–110 (rod fish only)            |
-| sellPrice   | number        | Base sell price in gold                           |
-| usedIn      | string[]      | Cooking recipes and Community Center bundles      |
-| image       | string        | Path to the item's icon                           |
+| Field        | Type          | Description                                                                   |
+| ------------ | ------------- | ----------------------------------------------------------------------------- |
+| id           | string        | Game-internal ID from Objects.json                                            |
+| name         | string        | Display name                                                                  |
+| description  | string        | Flavour text shown in-game                                                    |
+| catchType    | FishCatchType | `'rod'` or `'crab-pot'`                                                       |
+| seasons      | Season[]      | Seasons when this fish can be caught                                          |
+| location     | string        | Where to catch it                                                             |
+| weather      | FishWeather?  | `'sunny'`, `'rainy'`, or `'both'` (rod fish only)                             |
+| time         | string?       | Time window e.g. `"6:00 AM – 8:00 PM"` (rod only)                             |
+| difficulty   | number?       | Catch difficulty 5–110 (rod fish only)                                        |
+| sellPrice    | number        | Base sell price in gold                                                       |
+| fishTank     | boolean       | Can be placed in a Fish Tank                                                  |
+| usedIn       | string[]      | Cooking recipes and Community Center bundles                                  |
+| energyHealth | EnergyHealth? | Energy and health restored when eaten; omitted for inedible fish              |
+| maxQuality   | ItemQuality   | Highest quality tier achievable (`'base'`, `'silver'`, `'gold'`, `'iridium'`) |
+| image        | string        | Path to the item's icon                                                       |
 
 `FishCatchType` is `'rod' | 'crab-pot'`.
 

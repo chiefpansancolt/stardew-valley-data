@@ -121,30 +121,32 @@ for (const animal of animals().get()) {
 
 ## Farm animal fields
 
-| Field                   | Type                  | Notes                                         |
-| ----------------------- | --------------------- | --------------------------------------------- |
-| type                    | string                | Always "farm-animal"                          |
-| id                      | string                |                                               |
-| name                    | string                |                                               |
-| description             | string                |                                               |
-| building                | string                | Required building (e.g. "Coop", "Big Barn")   |
-| purchasePrice           | number or null        | null if not directly purchasable from Marnie  |
-| sellPrice               | number                |                                               |
-| daysToMature            | number                | Days before the animal begins producing       |
-| daysToProduce           | number                | Days between each produce drop                |
-| harvestMethod           | drop, tool, or dig    | How produce is collected                      |
-| harvestTool             | string or null        | Required tool (e.g. "Milk Pail", "Shears")    |
-| produce                 | AnimalProduce         |                                               |
-| produce.id              | string                | Object ID from game data                      |
-| produce.name            | string                |                                               |
-| produce.sellPrice       | number                |                                               |
-| produce.image           | string                | Path to produce image                         |
-| deluxeProduce           | AnimalProduce or null | Dropped when animal friendship is high enough |
-| deluxeProduce.id        | string                |                                               |
-| deluxeProduce.name      | string                |                                               |
-| deluxeProduce.sellPrice | number                |                                               |
-| deluxeProduce.image     | string                |                                               |
-| image                   | string                | Path to animal image                          |
+| Field                    | Type                  | Notes                                                 |
+| ------------------------ | --------------------- | ----------------------------------------------------- |
+| type                     | string                | Always "farm-animal"                                  |
+| id                       | string                |                                                       |
+| name                     | string                |                                                       |
+| description              | string                |                                                       |
+| building                 | string                | Required building (e.g. "Coop", "Big Barn")           |
+| purchasePrice            | number or null        | null if not directly purchasable from Marnie          |
+| sellPrice                | number                |                                                       |
+| daysToMature             | number                | Days before the animal begins producing               |
+| daysToProduce            | number                | Days between each produce drop                        |
+| harvestMethod            | drop, tool, or dig    | How produce is collected                              |
+| harvestTool              | string or null        | Required tool (e.g. "Milk Pail", "Shears")            |
+| produce                  | AnimalProduce         |                                                       |
+| produce.id               | string                | Object ID from game data                              |
+| produce.name             | string                |                                                       |
+| produce.sellPrice        | number                |                                                       |
+| produce.maxQuality       | ItemQuality           | Highest quality tier achievable (all are `'iridium'`) |
+| produce.image            | string                | Path to produce image                                 |
+| deluxeProduce            | AnimalProduce or null | Dropped when animal friendship is high enough         |
+| deluxeProduce.id         | string                |                                                       |
+| deluxeProduce.name       | string                |                                                       |
+| deluxeProduce.sellPrice  | number                |                                                       |
+| deluxeProduce.maxQuality | ItemQuality           | Highest quality tier achievable                       |
+| deluxeProduce.image      | string                |                                                       |
+| image                    | string                | Path to animal image                                  |
 
 ### All farm animals
 

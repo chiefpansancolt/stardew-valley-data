@@ -80,13 +80,13 @@ crops().sortByGrowDays("asc").first();
 ## Crop fields
 
 | Field                 | Type                               | Notes                        |
-| --------------------- | ---------------------------------- | ---------------------------- | ----------------------------- |
+| --------------------- | ---------------------------------- | ---------------------------- | --------------------------------------------------------------------- |
 | id                    | string                             | Item ID                      |
 | name                  | string                             |                              |
 | category              | string                             | e.g. 'Vegetable', 'Fruit'    |
 | seasons               | string[]                           | e.g. ['spring', 'summer']    |
 | growDays              | number                             |                              |
-| regrowDays            | number                             | null                         | null if non-regrowing         |
+| regrowDays            | number                             | null                         | null if non-regrowing                                                 |
 | seedId                | string                             |                              |
 | seedName              | string                             |                              |
 | seedBuyPrices         | { place: string; price: number }[] |                              |
@@ -102,12 +102,13 @@ crops().sortByGrowDays("asc").first();
 | description           | string                             |                              |
 | image                 | string                             | Path to harvested crop image |
 | seedImage             | string                             | Path to seed packet image    |
-| giantImage            | string                             | undefined                    | Only present when giant: true |
+| giantImage            | string                             | undefined                    | Only present when giant: true                                         |
 | stages                | { name: string; image: string }[]  |                              |
 | stages[].name         | string                             |                              |
 | stages[].image        | string                             |                              |
-| energyHealth          | object                             | undefined                    | Omitted for inedible crops    |
-| energyHealth.energy   | number                             | undefined                    |                               |
-| energyHealth.health   | number                             | undefined                    |                               |
-| energyHealth.poison   | boolean                            | undefined                    |                               |
-| farmingXP             | number                             | undefined                    |                               |
+| energyHealth          | object                             | undefined                    | Omitted for inedible crops                                            |
+| energyHealth.energy   | number                             | undefined                    |                                                                       |
+| energyHealth.health   | number                             | undefined                    |                                                                       |
+| energyHealth.poison   | boolean                            | undefined                    |                                                                       |
+| maxQuality            | ItemQuality                        |                              | Highest quality achievable (`'iridium'` for most; `'base'` for Fiber) |
+| farmingXP             | number                             | undefined                    |                                                                       |

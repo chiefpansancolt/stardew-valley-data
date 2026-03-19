@@ -5,6 +5,51 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- `maxQuality` field (`ItemQuality`) added to all farm animal produce and deluxe produce in
+  `data/animals.json` and `AnimalProduce` type
+- `maxQuality` field added to all artisan goods in `data/artisan-goods.json` and `ArtisanGood` type
+  — `'iridium'` for cask-ageable goods, `'base'` for all others
+- `maxQuality` field added to all forageables in `data/forageables.json` and `Forageable` type —
+  `'iridium'` for foraged items, `'base'` for resources (Wood, Stone, Sap, etc.)
+- `maxQuality` field added to all crops in `data/crops.json` and `Crop` type — `'iridium'` for all
+  crops except Fiber (`'base'`)
+- `ItemQuality` shared type (`'base' | 'silver' | 'gold' | 'iridium'`) added to
+  `src/types/common.ts`; used across `AnimalProduce`, `ArtisanGood`, `Crop`, `Forageable`, and
+  `Fish` types
+- `data/fish.json` — `maxQuality` field added to all fish entries (already typed, now present in
+  data)
+
+### Changed
+
+- `FishQuality` type removed from `src/types/fish.ts`; `maxQuality` now uses the shared
+  `ItemQuality` type
+- `tsconfig.json` — enabled `noUnusedLocals` and `noUnusedParameters` for stricter compile-time
+  checks
+
+### Documentation
+
+- `src/modules/animals/README.md` — added `produce.maxQuality` and `deluxeProduce.maxQuality` rows
+  to farm animal fields table
+- `src/modules/artisan-goods/README.md` — added `energyHealth` and `maxQuality` rows to fields table
+- `src/modules/crops/README.md` — added `maxQuality` row to crop fields table
+- `src/modules/fish/README.md` — added `energyHealth` and `maxQuality` rows to fish fields table
+- `src/modules/forageables/README.md` — added `energyHealth` and `maxQuality` rows to forageable
+  fields table
+
+### Chore
+
+- Renamed internal data constants from `all*Data` to `*Data` pattern across 7 modules (`fish`,
+  `forageables`, `cooking`, `bait`, `footwear`, `tackle`, `pierre-shop`) per naming conventions
+- Fixed sort methods in `bait`, `tackle`, and `cooking` modules to use inline
+  `return new XxxQuery([...this.data].sort(...))` style for consistency
+- Moved filter methods before sort methods in `cooking` module to match ordering convention
+- Added JSDoc to filter/sort methods in `hats`, `footwear`, `weather`, `maps`, `weapon-stats`,
+  `bait`, and `tackle` modules
+
 ## [0.8.0] - 2026-03-18
 
 ### Fix
