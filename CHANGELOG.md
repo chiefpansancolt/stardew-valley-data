@@ -9,6 +9,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Added `Energy.png`, `Health.png`, and `Poison.png` icon images (20×20) to `images/misc/`
 - `maxQuality` field (`ItemQuality`) added to all farm animal produce and deluxe produce in
   `data/animals.json` and `AnimalProduce` type
 - `maxQuality` field added to all artisan goods in `data/artisan-goods.json` and `ArtisanGood` type
