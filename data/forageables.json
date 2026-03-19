@@ -963,6 +963,29 @@
     }
   },
   {
+    "id": "812S",
+    "name": "Sturgeon Roe",
+    "description": "Fresh sturgeon eggs. These can be made into caviar in a preserves jar.",
+    "seasons": ["spring", "summer", "fall", "winter"],
+    "locations": "Fish Ponds (Sturgeon)",
+    "sellPrice": 130,
+    "energyHealth": {
+      "energy": 50,
+      "health": 22
+    },
+    "image": "images/forageables/Sturgeon Roe.png",
+    "maxQuality": "base",
+    "artisanUses": {
+      "honey": false,
+      "wine": false,
+      "juice": false,
+      "pickles": false,
+      "jelly": false,
+      "driedMushrooms": false,
+      "driedFruit": false
+    }
+  },
+  {
     "id": "814",
     "name": "Squid Ink",
     "description": "Squid use this ink to confuse would-be predators.",

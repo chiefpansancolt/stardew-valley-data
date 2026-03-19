@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.0] - 2026-03-19
+
+### Added
+
+- `Sturgeon Roe` entry added to `data/forageables.json` with id `"812S"` — a Sturgeon-specific
+  variant of Roe; sell price 130g (`30 + floor(200/2)`), image
+  `images/forageables/Sturgeon Roe.png`, locations "Fish Ponds (Sturgeon)", all seasons, same
+  energy/health as Roe (50/22)
+
+### Fixed
+
+- Caviar ingredient in `data/artisan-goods.json` corrected from `id: "723"` (Oyster — wrong) to
+  `id: "812S"` (Sturgeon Roe); Sturgeon Roe has no unique game object id — the game dynamically
+  renames Roe (id `812`) to "Sturgeon Roe" when produced by a Sturgeon pond
+
 ## [0.9.0] - 2026-03-19
 
 ### Added
