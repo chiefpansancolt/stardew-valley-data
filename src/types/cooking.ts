@@ -1,9 +1,6 @@
-import { EnergyHealth, Ingredient, Season } from './common';
+import { Buff, EnergyHealth, Ingredient, Season } from './common';
 
-export interface CookingBuff {
-  stat: string;
-  value: number;
-}
+export type CookingBuff = Buff;
 
 export type RecipeSource =
   | { type: 'default' }

@@ -1,4 +1,6 @@
-import { EnergyHealth, ItemQuality } from './common';
+import { Buff, EnergyHealth, ItemQuality } from './common';
+
+export type ArtisanGoodBuff = Buff;
 
 export interface ArtisanIngredient {
   name: string;
@@ -30,7 +32,10 @@ export interface ArtisanGood {
   priceFormula: PriceFormula | null;
   qualityLevels: boolean;
   cask: CaskAging | null;
-  energyHealth?: EnergyHealth;
+  energyHealthFormula: string | null;
+  energyHealth?: EnergyHealth | null;
+  buffs: ArtisanGoodBuff[];
+  buffDuration: number | null;
   maxQuality: ItemQuality;
   image: string;
 }

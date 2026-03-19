@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.11.0] - 2026-03-19
+
+### Added
+
+- `energyHealthFormula: string | null` field added to all 30 artisan goods in
+  `data/artisan-goods.json` and `ArtisanGood` type — mirrors `sellPriceFormula`; set to a
+  descriptive string for the 7 variable-output goods (Wine, Juice, Pickles, Jelly, Dried Fruit,
+  Dried Mushrooms, Smoked Fish), `null` for all fixed-value and inedible goods
+- `energyHealth` set to `null` (from absent) for the 7 formula-based artisan goods — signals that
+  the value must be calculated from the source ingredient using `energyHealthFormula`
+- `ArtisanGoodBuff` interface added to `src/types/artisan-good.ts` —
+  `{ stat: string; value: number }`
+- `buffs: ArtisanGoodBuff[]` and `buffDuration: number | null` fields added to all 30 artisan goods
+  and `ArtisanGood` type — Beer, Mead, Pale Ale, Wine each buff `Speed -1`; Coffee buffs `Speed +1`;
+  Green Tea buffs `Speed +0.5`; all others have empty `buffs` array
+- `images/misc/Speed.png` — 24×24 Speed stat icon added to match existing Energy, Health, and Poison
+  misc icons
+
 ## [0.10.0] - 2026-03-19
 
 ### Added

@@ -13,7 +13,7 @@
     ],
     "processingMinutes": 6400,
     "processingDays": 4,
-    "sellPrice": 100,
+    "sellPrice": null,
     "sellPriceFormula": "100g for wild honey; 2× nearby flower base price + 100 for flower honey",
     "priceFormula": {
       "multiplier": 2,
@@ -21,10 +21,10 @@
     },
     "qualityLevels": false,
     "cask": null,
-    "energyHealth": {
-      "energy": 50,
-      "health": 22
-    },
+    "energyHealthFormula": null,
+    "energyHealth": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Honey.png",
     "maxQuality": "base"
   },
@@ -54,10 +54,15 @@
       "goldDays": 28,
       "iridiumDays": 56
     },
-    "energyHealth": {
-      "energy": 50,
-      "health": 22
-    },
+    "energyHealthFormula": "1.75× base fruit energy & health",
+    "energyHealth": null,
+    "buffs": [
+      {
+        "stat": "Speed",
+        "value": -1
+      }
+    ],
+    "buffDuration": null,
     "image": "images/artisan-goods/Wine.png",
     "maxQuality": "iridium"
   },
@@ -87,10 +92,10 @@
       "goldDays": 28,
       "iridiumDays": 56
     },
-    "energyHealth": {
-      "energy": 75,
-      "health": 33
-    },
+    "energyHealthFormula": "2× base vegetable energy & health",
+    "energyHealth": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Juice.png",
     "maxQuality": "iridium"
   },
@@ -117,10 +122,18 @@
       "goldDays": 18,
       "iridiumDays": 36
     },
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 50,
       "health": 22
     },
+    "buffs": [
+      {
+        "stat": "Speed",
+        "value": -1
+      }
+    ],
+    "buffDuration": null,
     "image": "images/artisan-goods/Pale Ale.png",
     "maxQuality": "iridium"
   },
@@ -147,10 +160,18 @@
       "goldDays": 14,
       "iridiumDays": 28
     },
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 50,
       "health": 22
     },
+    "buffs": [
+      {
+        "stat": "Speed",
+        "value": -1
+      }
+    ],
+    "buffDuration": null,
     "image": "images/artisan-goods/Beer.png",
     "maxQuality": "iridium"
   },
@@ -177,10 +198,18 @@
       "goldDays": 14,
       "iridiumDays": 28
     },
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 75,
       "health": 33
     },
+    "buffs": [
+      {
+        "stat": "Speed",
+        "value": -1
+      }
+    ],
+    "buffDuration": null,
     "image": "images/artisan-goods/Mead.png",
     "maxQuality": "iridium"
   },
@@ -203,10 +232,18 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 3,
       "health": 1
     },
+    "buffs": [
+      {
+        "stat": "Speed",
+        "value": 1
+      }
+    ],
+    "buffDuration": null,
     "image": "images/artisan-goods/Coffee.png",
     "maxQuality": "base"
   },
@@ -229,10 +266,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 13,
       "health": 5
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Vinegar.png",
     "maxQuality": "base"
   },
@@ -255,10 +295,18 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 13,
       "health": 5
     },
+    "buffs": [
+      {
+        "stat": "Speed",
+        "value": 0.5
+      }
+    ],
+    "buffDuration": null,
     "image": "images/artisan-goods/Green Tea.png",
     "maxQuality": "base"
   },
@@ -284,6 +332,10 @@
     },
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": "2× base fruit energy & health",
+    "energyHealth": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Jelly.png",
     "maxQuality": "base"
   },
@@ -309,6 +361,10 @@
     },
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": "1.75× base vegetable energy & health",
+    "energyHealth": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Pickles.png",
     "maxQuality": "base"
   },
@@ -334,10 +390,13 @@
     },
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 100,
       "health": 45
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Aged Roe.png",
     "maxQuality": "base"
   },
@@ -360,10 +419,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 175,
       "health": 78
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Caviar.png",
     "maxQuality": "base"
   },
@@ -395,10 +457,13 @@
       "goldDays": 14,
       "iridiumDays": 28
     },
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 125,
       "health": 56
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Cheese.png",
     "maxQuality": "iridium"
   },
@@ -430,10 +495,13 @@
       "goldDays": 14,
       "iridiumDays": 28
     },
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 125,
       "health": 56
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Goat Cheese.png",
     "maxQuality": "iridium"
   },
@@ -456,6 +524,9 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Cloth.png",
     "maxQuality": "base"
   },
@@ -478,10 +549,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 38,
       "health": 17
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Truffle Oil.png",
     "maxQuality": "base"
   },
@@ -514,10 +588,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 13,
       "health": 5
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Oil.png",
     "maxQuality": "base"
   },
@@ -560,10 +637,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 50,
       "health": 22
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Mayonnaise.png",
     "maxQuality": "base"
   },
@@ -586,10 +666,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 75,
       "health": 33
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Duck Mayonnaise.png",
     "maxQuality": "base"
   },
@@ -612,11 +695,14 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": -75,
       "health": 0,
       "poison": true
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Void Mayonnaise.png",
     "maxQuality": "base"
   },
@@ -639,10 +725,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 125,
       "health": 56
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Dinosaur Mayonnaise.png",
     "maxQuality": "base"
   },
@@ -665,10 +754,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 125,
       "health": 56
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Raisins.png",
     "maxQuality": "base"
   },
@@ -694,6 +786,10 @@
     },
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": "3× base fruit energy & health",
+    "energyHealth": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Dried Fruit.png",
     "maxQuality": "base"
   },
@@ -719,6 +815,10 @@
     },
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": "3× base mushroom energy & health",
+    "energyHealth": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Dried Mushrooms.png",
     "maxQuality": "base"
   },
@@ -744,6 +844,10 @@
     },
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": "1.5× base fish energy & health",
+    "energyHealth": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Smoked Fish.png",
     "maxQuality": "base"
   },
@@ -766,10 +870,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 500,
       "health": 225
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/artisan-goods/Mystic Syrup.png",
     "maxQuality": "base"
   },
@@ -792,10 +899,13 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
     "energyHealth": {
       "energy": 50,
       "health": 22
     },
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/forageables/Maple Syrup.png",
     "maxQuality": "base"
   },
@@ -818,6 +928,9 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/forageables/Oak Resin.png",
     "maxQuality": "base"
   },
@@ -840,6 +953,9 @@
     "priceFormula": null,
     "qualityLevels": false,
     "cask": null,
+    "energyHealthFormula": null,
+    "buffs": [],
+    "buffDuration": null,
     "image": "images/forageables/Pine Tar.png",
     "maxQuality": "base"
   }

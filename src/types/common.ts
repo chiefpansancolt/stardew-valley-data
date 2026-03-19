@@ -42,6 +42,11 @@ export type DayOfWeek =
   | 'Saturday'
   | 'Sunday';
 
+export interface Buff {
+  stat: string;
+  value: number;
+}
+
 export interface ArtisanUses {
   honey: boolean;
   wine: boolean;
