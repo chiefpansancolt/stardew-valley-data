@@ -16,32 +16,85 @@ export function run(): { passed: number; failed: number } {
 
   const allFish = fish().sortByName().get();
 
-  console.log(`Total: ${allFish.length} fish\n`);
+  console.log(`Total: ${allFish.length} fish`);
+  console.log(`Rod fish:       ${fish().byCatchType('rod').count()}`);
+  console.log(`Crab pot fish:  ${fish().byCatchType('crab-pot').count()}`);
+  console.log(`Pond eligible:  ${fish().pondEligible().count()}`);
+  console.log(`Smokeable:      ${fish().smokeable().count()}`);
 
-  // Show a few notable examples
+  // Notable examples
   const legend = fish().find('163');
   if (legend) {
     console.log(
-      `Hardest rod fish: ${legend.name} — difficulty ${legend.difficulty}, ${legend.sellPrice}g`,
+      `\nHardest rod fish: ${legend.name} — difficulty ${legend.difficulty}, ${legend.sellPrice}g`,
     );
   }
-
   const mostValuable = fish().byCatchType('rod').sortBySellPrice().first();
   if (mostValuable) {
     console.log(`Most valuable rod fish: ${mostValuable.name} — ${mostValuable.sellPrice}g`);
   }
 
-  const springFish = fish().bySeason('spring').byCatchType('rod').sortByName();
-  console.log(`\nSpring rod fish (${springFish.count()}):`);
-  for (const f of springFish.get()) {
-    console.log(`  ${f.name} | ${f.location} | diff ${f.difficulty}`);
+  // canSmoke list
+  console.log(`\n--- Smokeable fish (${fish().smokeable().count()}) ---`);
+  const smokeableNames = fish()
+    .smokeable()
+    .sortByName()
+    .get()
+    .map((f) => f.name);
+  console.log(`  ${smokeableNames.join(', ')}`);
+
+  // Roe list
+  console.log(`\n--- Roe producers (${fish().byRoe('roe').count()}) ---`);
+  const roeNames = fish()
+    .byRoe('roe')
+    .sortByName()
+    .get()
+    .map((f) => f.name);
+  console.log(`  ${roeNames.join(', ')}`);
+
+  // Caviar (Sturgeon only)
+  console.log(`\n--- Caviar producers (${fish().byRoe('caviar').count()}) ---`);
+  const caviarNames = fish()
+    .byRoe('caviar')
+    .sortByName()
+    .get()
+    .map((f) => f.name);
+  console.log(`  ${caviarNames.join(', ')}`);
+
+  // Fish pond produce — show notable fish with more than just Roe
+  console.log('\n--- Fish Pond produce (fish with bonus items beyond Roe) ---');
+  const bonusPond = fish()
+    .pondEligible()
+    .sortByName()
+    .get()
+    .filter((f) =>
+      f.fishPond!.produce.some((p) => p.product !== 'Roe' && p.product !== 'Squid Ink'),
+    );
+  for (const f of bonusPond) {
+    const items = f
+      .fishPond!.produce.filter((p) => p.product !== 'Roe')
+      .map((p) => `${p.product} (pop.${p.minPopulation})`)
+      .join(', ');
+    console.log(`  ${f.name.padEnd(20)} ${items}`);
   }
 
+  console.log('\n--- Spring rod fish ---');
+  const springFish = fish().bySeason('spring').byCatchType('rod').sortByName();
+  console.log(
+    `  (${springFish.count()}): ${springFish
+      .get()
+      .map((f) => f.name)
+      .join(', ')}`,
+  );
+
+  console.log('\n--- Crab pot fish ---');
   const crabPot = fish().byCatchType('crab-pot').sortByName();
-  console.log(`\nCrab pot fish (${crabPot.count()}):`);
-  for (const f of crabPot.get()) {
-    console.log(`  ${f.name} | ${f.location} | ${f.sellPrice}g`);
-  }
+  console.log(
+    `  (${crabPot.count()}): ${crabPot
+      .get()
+      .map((f) => f.name)
+      .join(', ')}`,
+  );
 
   console.log('\n--- Image validation ---');
 

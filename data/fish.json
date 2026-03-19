@@ -19,7 +19,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Pufferfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "129",
@@ -40,7 +69,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Anchovy.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "130",
@@ -61,7 +119,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Tuna.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "131",
@@ -88,7 +175,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Sardine.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "132",
@@ -109,7 +225,44 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Bream.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 5
+        },
+        {
+          "product": "Maple Syrup",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Crayfish",
+          "minPopulation": 7
+        },
+        {
+          "product": "Honey",
+          "minPopulation": 7
+        },
+        {
+          "product": "Jade",
+          "minPopulation": 7
+        },
+        {
+          "product": "Periwinkle",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "136",
@@ -137,7 +290,40 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Largemouth Bass.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Common Mushroom",
+          "minPopulation": 5
+        },
+        {
+          "product": "Earth Crystal",
+          "minPopulation": 5
+        },
+        {
+          "product": "Limestone",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mudstone",
+          "minPopulation": 7
+        },
+        {
+          "product": "Snail",
+          "minPopulation": 7
+        },
+        {
+          "product": "Wild Bait",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "137",
@@ -158,7 +344,44 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Smallmouth Bass.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 5
+        },
+        {
+          "product": "Maple Syrup",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Crayfish",
+          "minPopulation": 7
+        },
+        {
+          "product": "Honey",
+          "minPopulation": 7
+        },
+        {
+          "product": "Jade",
+          "minPopulation": 7
+        },
+        {
+          "product": "Periwinkle",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "138",
@@ -179,7 +402,24 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Rainbow Trout.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Rainbow Shell",
+          "minPopulation": 9
+        },
+        {
+          "product": "Prismatic Shard",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "139",
@@ -200,7 +440,44 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Salmon.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 5
+        },
+        {
+          "product": "Maple Syrup",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Crayfish",
+          "minPopulation": 7
+        },
+        {
+          "product": "Honey",
+          "minPopulation": 7
+        },
+        {
+          "product": "Jade",
+          "minPopulation": 7
+        },
+        {
+          "product": "Periwinkle",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "140",
@@ -227,7 +504,44 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Walleye.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 5
+        },
+        {
+          "product": "Maple Syrup",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Crayfish",
+          "minPopulation": 7
+        },
+        {
+          "product": "Honey",
+          "minPopulation": 7
+        },
+        {
+          "product": "Jade",
+          "minPopulation": 7
+        },
+        {
+          "product": "Periwinkle",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "141",
@@ -248,7 +562,44 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Perch.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 5
+        },
+        {
+          "product": "Maple Syrup",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Crayfish",
+          "minPopulation": 7
+        },
+        {
+          "product": "Honey",
+          "minPopulation": 7
+        },
+        {
+          "product": "Jade",
+          "minPopulation": 7
+        },
+        {
+          "product": "Periwinkle",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "142",
@@ -269,7 +620,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Carp.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "143",
@@ -290,7 +650,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Catfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "144",
@@ -311,7 +680,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Pike.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Bug Meat",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "145",
@@ -332,7 +714,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Sunfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Solar Essence",
+          "minPopulation": 10
+        }
+      ]
+    }
   },
   {
     "id": "146",
@@ -353,7 +748,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Red Mullet.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "147",
@@ -374,7 +798,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Herring.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "148",
@@ -402,7 +835,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Eel.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "149",
@@ -419,7 +881,20 @@
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
     "maxQuality": "iridium",
     "image": "images/fish/Octopus.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Omni Geode",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "150",
@@ -440,7 +915,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Red Snapper.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "151",
@@ -461,7 +965,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Squid.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": null,
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Squid Ink",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "152",
@@ -482,7 +995,9 @@
     },
     "maxQuality": "base",
     "image": "images/fish/Seaweed.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": null,
+    "fishPond": null
   },
   {
     "id": "153",
@@ -503,7 +1018,9 @@
     },
     "maxQuality": "base",
     "image": "images/fish/Green Algae.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": null,
+    "fishPond": null
   },
   {
     "id": "154",
@@ -525,7 +1042,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Sea Cucumber.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "155",
@@ -546,7 +1092,24 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Super Cucumber.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Iridium Ore",
+          "minPopulation": 9
+        },
+        {
+          "product": "Amethyst",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "156",
@@ -567,7 +1130,32 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Ghostfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Quartz",
+          "minPopulation": 3
+        },
+        {
+          "product": "White Algae",
+          "minPopulation": 9
+        },
+        {
+          "product": "Refined Quartz",
+          "minPopulation": 9
+        },
+        {
+          "product": "Pale Broth",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "157",
@@ -588,7 +1176,9 @@
     },
     "maxQuality": "base",
     "image": "images/fish/White Algae.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": null,
+    "fishPond": null
   },
   {
     "id": "158",
@@ -605,7 +1195,32 @@
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "maxQuality": "iridium",
     "image": "images/fish/Stonefish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Copper Ore",
+          "minPopulation": 3
+        },
+        {
+          "product": "Geode",
+          "minPopulation": 9
+        },
+        {
+          "product": "Stone",
+          "minPopulation": 9
+        },
+        {
+          "product": "Diamond",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "159",
@@ -626,7 +1241,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Crimsonfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "160",
@@ -647,7 +1271,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Angler.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "161",
@@ -668,7 +1301,32 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Ice Pip.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Iron Ore",
+          "minPopulation": 3
+        },
+        {
+          "product": "Frozen Geode",
+          "minPopulation": 9
+        },
+        {
+          "product": "Frozen Tear",
+          "minPopulation": 9
+        },
+        {
+          "product": "Diamond",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "162",
@@ -689,7 +1347,32 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Lava Eel.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 3
+        },
+        {
+          "product": "Cave Jelly",
+          "minPopulation": 8
+        },
+        {
+          "product": "Spicy Eel",
+          "minPopulation": 9
+        },
+        {
+          "product": "Magma Geode",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "163",
@@ -710,7 +1393,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Legend.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "164",
@@ -731,7 +1423,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Sandfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Cactus Seeds",
+          "minPopulation": 10
+        }
+      ]
+    }
   },
   {
     "id": "165",
@@ -753,7 +1458,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Scorpion Carp.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Cactus Seeds",
+          "minPopulation": 10
+        }
+      ]
+    }
   },
   {
     "id": "267",
@@ -774,7 +1492,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Flounder.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Sea Jelly",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "269",
@@ -795,7 +1526,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Midnight Carp.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "River Jelly",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "372",
@@ -809,7 +1553,56 @@
     "usedIn": ["Chowder", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
     "image": "images/fish/Clam.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Seaweed",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Beach",
+          "minPopulation": 9
+        },
+        {
+          "product": "Nautilus Shell",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "682",
@@ -830,7 +1623,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Mutant Carp.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "698",
@@ -851,7 +1653,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Sturgeon.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "caviar",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "699",
@@ -872,7 +1683,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Tiger Trout.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "700",
@@ -893,7 +1713,40 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Bullhead.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Common Mushroom",
+          "minPopulation": 5
+        },
+        {
+          "product": "Earth Crystal",
+          "minPopulation": 5
+        },
+        {
+          "product": "Limestone",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mudstone",
+          "minPopulation": 7
+        },
+        {
+          "product": "Snail",
+          "minPopulation": 7
+        },
+        {
+          "product": "Wild Bait",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "701",
@@ -914,7 +1767,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Tilapia.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "702",
@@ -935,7 +1817,44 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Chub.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 5
+        },
+        {
+          "product": "Maple Syrup",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Crayfish",
+          "minPopulation": 7
+        },
+        {
+          "product": "Honey",
+          "minPopulation": 7
+        },
+        {
+          "product": "Jade",
+          "minPopulation": 7
+        },
+        {
+          "product": "Periwinkle",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "704",
@@ -956,7 +1875,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Dorado.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Bug Meat",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "705",
@@ -977,7 +1909,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Albacore.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "706",
@@ -1004,7 +1965,44 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Shad.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 5
+        },
+        {
+          "product": "Maple Syrup",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Crayfish",
+          "minPopulation": 7
+        },
+        {
+          "product": "Honey",
+          "minPopulation": 7
+        },
+        {
+          "product": "Jade",
+          "minPopulation": 7
+        },
+        {
+          "product": "Periwinkle",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "707",
@@ -1025,7 +2023,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Lingcod.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Bug Meat",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "708",
@@ -1046,7 +2057,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Halibut.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Clam",
+          "minPopulation": 5
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Aquamarine",
+          "minPopulation": 7
+        },
+        {
+          "product": "Mussel",
+          "minPopulation": 7
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "715",
@@ -1060,7 +2100,56 @@
     "usedIn": ["Lobster Bisque", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "silver",
     "image": "images/fish/Lobster.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Seaweed",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Beach",
+          "minPopulation": 9
+        },
+        {
+          "product": "Nautilus Shell",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "716",
@@ -1074,7 +2163,48 @@
     "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "silver",
     "image": "images/fish/Crayfish.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Green Algae",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Mountains",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "717",
@@ -1088,7 +2218,56 @@
     "usedIn": ["Crab Cakes", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "gold",
     "image": "images/fish/Crab.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Seaweed",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Beach",
+          "minPopulation": 9
+        },
+        {
+          "product": "Nautilus Shell",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "718",
@@ -1102,7 +2281,56 @@
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
     "image": "images/fish/Cockle.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Seaweed",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Beach",
+          "minPopulation": 9
+        },
+        {
+          "product": "Nautilus Shell",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "719",
@@ -1116,7 +2344,56 @@
     "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
     "image": "images/fish/Mussel.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Seaweed",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Beach",
+          "minPopulation": 9
+        },
+        {
+          "product": "Nautilus Shell",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "720",
@@ -1137,7 +2414,56 @@
     ],
     "maxQuality": "silver",
     "image": "images/fish/Shrimp.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Seaweed",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Beach",
+          "minPopulation": 9
+        },
+        {
+          "product": "Nautilus Shell",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "721",
@@ -1151,7 +2477,48 @@
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "gold",
     "image": "images/fish/Snail.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Green Algae",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Mountains",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "722",
@@ -1172,7 +2539,48 @@
     ],
     "maxQuality": "silver",
     "image": "images/fish/Periwinkle.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Green Algae",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Mountains",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "723",
@@ -1186,7 +2594,56 @@
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
     "image": "images/fish/Oyster.png",
-    "canSmoke": false
+    "canSmoke": false,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Seaweed",
+          "minPopulation": 1
+        },
+        {
+          "product": "Trash",
+          "minPopulation": 1
+        },
+        {
+          "product": "Driftwood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken Glasses",
+          "minPopulation": 1
+        },
+        {
+          "product": "Broken CD",
+          "minPopulation": 1
+        },
+        {
+          "product": "Soggy Newspaper",
+          "minPopulation": 1
+        },
+        {
+          "product": "Coral",
+          "minPopulation": 5
+        },
+        {
+          "product": "Sea Urchin",
+          "minPopulation": 5
+        },
+        {
+          "product": "Warp Totem: Beach",
+          "minPopulation": 9
+        },
+        {
+          "product": "Nautilus Shell",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "734",
@@ -1213,7 +2670,36 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Woodskip.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Wood",
+          "minPopulation": 1
+        },
+        {
+          "product": "Hardwood",
+          "minPopulation": 6
+        },
+        {
+          "product": "Acorn",
+          "minPopulation": 9
+        },
+        {
+          "product": "Maple Seed",
+          "minPopulation": 9
+        },
+        {
+          "product": "Pine Cone",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "775",
@@ -1234,7 +2720,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Glacierfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "795",
@@ -1255,7 +2750,24 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Void Salmon.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Void Essence",
+          "minPopulation": 8
+        },
+        {
+          "product": "Void Egg",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "796",
@@ -1276,7 +2788,28 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Slimejack.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Green Algae",
+          "minPopulation": 3
+        },
+        {
+          "product": "Slime",
+          "minPopulation": 9
+        },
+        {
+          "product": "Green Slime Egg",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "798",
@@ -1297,7 +2830,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Midnight Squid.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": null,
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Squid Ink",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "799",
@@ -1318,7 +2860,20 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Spook Fish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Treasure Chest",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "800",
@@ -1339,7 +2894,24 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Blobfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Pearl",
+          "minPopulation": 9
+        },
+        {
+          "product": "Warp Totem: Farm",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "836",
@@ -1360,7 +2932,32 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Stingray.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Magma Cap",
+          "minPopulation": 4
+        },
+        {
+          "product": "Cinder Shard",
+          "minPopulation": 7
+        },
+        {
+          "product": "Dragon Tooth",
+          "minPopulation": 9
+        },
+        {
+          "product": "Battery Pack",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "837",
@@ -1381,7 +2978,24 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Lionfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Taro Tuber",
+          "minPopulation": 4
+        },
+        {
+          "product": "Tiger Slime Egg",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "838",
@@ -1402,7 +3016,24 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Blue Discus.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Banana",
+          "minPopulation": 4
+        },
+        {
+          "product": "Golden Coconut",
+          "minPopulation": 9
+        }
+      ]
+    }
   },
   {
     "id": "898",
@@ -1423,7 +3054,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Son of Crimsonfish.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "899",
@@ -1444,7 +3084,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Ms. Angler.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "900",
@@ -1465,7 +3114,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Legend II.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "901",
@@ -1486,7 +3144,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Radioactive Carp.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "902",
@@ -1507,7 +3174,16 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Glacierfish Jr.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        }
+      ]
+    }
   },
   {
     "id": "Goby",
@@ -1529,7 +3205,44 @@
     },
     "maxQuality": "iridium",
     "image": "images/fish/Goby.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": "roe",
+    "fishPond": {
+      "produce": [
+        {
+          "product": "Roe",
+          "minPopulation": 1
+        },
+        {
+          "product": "Gold Ore",
+          "minPopulation": 5
+        },
+        {
+          "product": "Maple Syrup",
+          "minPopulation": 5
+        },
+        {
+          "product": "Mixed Seeds",
+          "minPopulation": 5
+        },
+        {
+          "product": "Crayfish",
+          "minPopulation": 7
+        },
+        {
+          "product": "Honey",
+          "minPopulation": 7
+        },
+        {
+          "product": "Jade",
+          "minPopulation": 7
+        },
+        {
+          "product": "Periwinkle",
+          "minPopulation": 7
+        }
+      ]
+    }
   },
   {
     "id": "SeaJelly",
@@ -1549,7 +3262,9 @@
     },
     "maxQuality": "base",
     "image": "images/fish/jelly/Sea Jelly.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": null,
+    "fishPond": null
   },
   {
     "id": "RiverJelly",
@@ -1569,7 +3284,9 @@
     },
     "maxQuality": "base",
     "image": "images/fish/jelly/River Jelly.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": null,
+    "fishPond": null
   },
   {
     "id": "CaveJelly",
@@ -1589,6 +3306,8 @@
     },
     "maxQuality": "base",
     "image": "images/fish/jelly/Cave Jelly.png",
-    "canSmoke": true
+    "canSmoke": true,
+    "roe": null,
+    "fishPond": null
   }
 ]

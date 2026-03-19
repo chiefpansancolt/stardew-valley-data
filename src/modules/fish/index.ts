@@ -1,6 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import data from '@/data/fish.json';
-import { Fish, FishCatchType, Season } from '@/types';
+import { Fish, FishCatchType, FishRoe, Season } from '@/types';
 
 const fishData: Fish[] = data as Fish[];
 
@@ -29,6 +29,21 @@ export class FishQuery extends QueryBase<Fish> {
   byLocation(location: string): FishQuery {
     const q = location.toLowerCase();
     return new FishQuery(this.data.filter((f) => f.location.toLowerCase().includes(q)));
+  }
+
+  /** Filter to fish that can be smoked in a Fish Smoker. */
+  smokeable(): FishQuery {
+    return new FishQuery(this.data.filter((f) => f.canSmoke));
+  }
+
+  /** Filter by roe type. Use `'roe'` for standard roe producers, `'caviar'` for Sturgeon. */
+  byRoe(type: FishRoe): FishQuery {
+    return new FishQuery(this.data.filter((f) => f.roe === type));
+  }
+
+  /** Filter to fish that can be placed in a Fish Pond (excludes algae and jellies). */
+  pondEligible(): FishQuery {
+    return new FishQuery(this.data.filter((f) => f.fishPond !== null));
   }
 
   /** Sort alphabetically by name. Default: `'asc'`. */

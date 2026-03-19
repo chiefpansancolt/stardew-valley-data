@@ -9,28 +9,39 @@ are included.
 
 ### `Fish`
 
-| Field        | Type          | Description                                                                   |
-| ------------ | ------------- | ----------------------------------------------------------------------------- |
-| id           | string        | Game-internal ID from Objects.json                                            |
-| name         | string        | Display name                                                                  |
-| description  | string        | Flavour text shown in-game                                                    |
-| catchType    | FishCatchType | `'rod'` or `'crab-pot'`                                                       |
-| seasons      | Season[]      | Seasons when this fish can be caught                                          |
-| location     | string        | Where to catch it                                                             |
-| weather      | FishWeather?  | `'sunny'`, `'rainy'`, or `'both'` (rod fish only)                             |
-| time         | string?       | Time window e.g. `"6:00 AM – 8:00 PM"` (rod only)                             |
-| difficulty   | number?       | Catch difficulty 5–110 (rod fish only)                                        |
-| sellPrice    | number        | Base sell price in gold                                                       |
-| fishTank     | boolean       | Can be placed in a Fish Tank                                                  |
-| canSmoke     | boolean       | Can be processed in a Fish Smoker (`false` for crab-pot fish, seaweed, algae) |
-| usedIn       | string[]      | Cooking recipes and Community Center bundles                                  |
-| energyHealth | EnergyHealth? | Energy and health restored when eaten; omitted for inedible fish              |
-| maxQuality   | ItemQuality   | Highest quality tier achievable (`'base'`, `'silver'`, `'gold'`, `'iridium'`) |
-| image        | string        | Path to the item's icon                                                       |
+| Field                            | Type              | Description                                                                                                                |
+| -------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| id                               | string            | Game-internal ID from Objects.json                                                                                         |
+| name                             | string            | Display name                                                                                                               |
+| description                      | string            | Flavour text shown in-game                                                                                                 |
+| catchType                        | FishCatchType     | `'rod'` or `'crab-pot'`                                                                                                    |
+| seasons                          | Season[]          | Seasons when this fish can be caught                                                                                       |
+| location                         | string            | Where to catch it                                                                                                          |
+| weather                          | FishWeather?      | `'sunny'`, `'rainy'`, or `'both'` (rod fish only)                                                                          |
+| time                             | string?           | Time window e.g. `"6:00 AM – 8:00 PM"` (rod only)                                                                          |
+| difficulty                       | number?           | Catch difficulty 5–110 (rod fish only)                                                                                     |
+| sellPrice                        | number            | Base sell price in gold                                                                                                    |
+| fishTank                         | boolean           | Can be placed in a decorative Fish Tank                                                                                    |
+| canSmoke                         | boolean           | Can be processed in a Fish Smoker (`false` for crab-pot fish, seaweed, algae)                                              |
+| roe                              | FishRoe \| null   | Fish Pond roe product — `'roe'` (→ Aged Roe), `'caviar'` (Sturgeon only), or `null` (Squid Ink producers / non-pond items) |
+| fishPond                         | FishPond \| null  | Fish Pond produce data; `null` for non-pond items (algae, jellies)                                                         |
+| fishPond.produce                 | FishPondProduce[] | All products this fish yields in a Fish Pond                                                                               |
+| fishPond.produce[].product       | string            | Product name                                                                                                               |
+| fishPond.produce[].minPopulation | number            | Minimum pond population required to produce this item                                                                      |
+| usedIn                           | string[]          | Cooking recipes and Community Center bundles                                                                               |
+| energyHealth                     | EnergyHealth?     | Energy and health restored when eaten; omitted for inedible fish                                                           |
+| maxQuality                       | ItemQuality       | Highest quality tier achievable (`'base'`, `'silver'`, `'gold'`, `'iridium'`)                                              |
+| image                            | string            | Path to the item's icon                                                                                                    |
 
 `FishCatchType` is `'rod' | 'crab-pot'`.
 
 `FishWeather` is `'sunny' | 'rainy' | 'both'`.
+
+`FishRoe` is `'roe' | 'caviar'`.
+
+`FishPond` is `{ produce: FishPondProduce[] }`.
+
+`FishPondProduce` is `{ product: string; minPopulation: number }`.
 
 `Season` is `'spring' | 'summer' | 'fall' | 'winter' | 'ginger island'`.
 

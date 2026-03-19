@@ -20,6 +20,14 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   (`data/trees.json`, `FruitTreeProduce` type)
 - `canSmoke: boolean` field added to all 77 fish in `data/fish.json` and `Fish` type — `true` for
   all rod-caught fish except Seaweed, Green Algae, and White Algae
+- `roe: FishRoe | null` field added to all 77 fish — `'roe'` for 68 standard roe producers,
+  `'caviar'` for Sturgeon (roe → Caviar in Preserves Jar), `null` for Squid/Midnight Squid (Squid
+  Ink) and non-pond items
+- `fishPond: FishPond | null` field added to all 77 fish — `null` for non-pond items (algae,
+  jellies); all 71 pond-eligible fish include a `produce` array of `{ product, minPopulation }`
+  entries sourced from the wiki Fish Pond produce table
+- `FishRoe`, `FishPond`, and `FishPondProduce` types added to `src/types/fish.ts`
+- `.smokeable()`, `.byRoe(type)`, and `.pondEligible()` filter methods added to `FishQuery`
 - `byArtisanUse(use: keyof ArtisanUses)` filter method added to `CropQuery`, `ForageableQuery`, and
   `TreeQuery`
 - `sample/artisan-uses/` — new cross-module sample showing all items grouped by artisan use across
