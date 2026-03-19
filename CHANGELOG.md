@@ -112,7 +112,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - Fix Typo in Wild Seed names to use abbreviated name over full
 
-## [v0.5.0] - 2026-03-18
+## [0.5.0] - 2026-03-18
 
 ### Breaking Changes
 
@@ -133,19 +133,19 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - Bump Dependencies
 
-## [v0.4.0] - 2026-03-15
+## [0.4.0] - 2026-03-15
 
 ### Breaking Changes
 
 - Change many of the output modules for parsing the file.
 
-## [v0.3.0] - 2026-03-15
+## [0.3.0] - 2026-03-15
 
 ### Fix
 
 - Add missing Villager Events
 
-## [v0.2.0] - 2026-03-10
+## [0.2.0] - 2026-03-10
 
 ### Added
 
