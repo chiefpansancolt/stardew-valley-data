@@ -33,6 +33,18 @@ export interface GiftPreferences {
   hates: string[];
 }
 
+export type KnowledgeBonus = 'spring-onion-mastery' | 'bears-knowledge';
+
+export type ProfessionBonus =
+  | 'artisan'
+  | 'rancher'
+  | 'tiller'
+  | 'blacksmith'
+  | 'gemologist'
+  | 'tapper'
+  | 'fisher'
+  | 'angler';
+
 export type DayOfWeek =
   | 'Monday'
   | 'Tuesday'

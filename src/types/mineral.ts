@@ -1,3 +1,5 @@
+import { ProfessionBonus } from './common';
+
 export interface SmeltRecipe {
   ore: string;
   oreQty: number;
@@ -12,6 +14,7 @@ export interface MineralItem {
   kind: 'mineral';
   description: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
   gemologistPrice: number;
   locations: string[];
   image: string;
@@ -23,6 +26,7 @@ export interface GeodeContainer {
   kind: 'geode';
   description: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
   locations: string[];
   image: string;
 }
@@ -33,6 +37,7 @@ export interface OreItem {
   kind: 'ore';
   description: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
   locations: string[];
   image: string;
 }
@@ -43,6 +48,7 @@ export interface BarItem {
   kind: 'bar';
   description: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
   smeltRecipes: SmeltRecipe[];
   image: string;
 }
@@ -70,6 +76,7 @@ export interface ResourceItem {
   kind: 'resource';
   description: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
   locations: string[];
   image: string;
 }

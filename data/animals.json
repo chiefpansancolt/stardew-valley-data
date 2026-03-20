@@ -105,6 +105,7 @@
       "id": "176",
       "name": "Egg",
       "sellPrice": 50,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Egg.png",
       "maxQuality": "iridium"
     },
@@ -112,6 +113,7 @@
       "id": "174",
       "name": "Large Egg",
       "sellPrice": 95,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Large Egg.png",
       "maxQuality": "iridium"
     },
@@ -133,6 +135,7 @@
       "id": "180",
       "name": "Brown Egg",
       "sellPrice": 50,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Brown Egg.png",
       "maxQuality": "iridium"
     },
@@ -140,6 +143,7 @@
       "id": "182",
       "name": "Large Brown Egg",
       "sellPrice": 95,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Large Brown Egg.png",
       "maxQuality": "iridium"
     },
@@ -161,6 +165,7 @@
       "id": "176",
       "name": "Egg",
       "sellPrice": 50,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Egg.png",
       "maxQuality": "iridium"
     },
@@ -168,6 +173,7 @@
       "id": "174",
       "name": "Large Egg",
       "sellPrice": 95,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Large Egg.png",
       "maxQuality": "iridium"
     },
@@ -189,6 +195,7 @@
       "id": "305",
       "name": "Void Egg",
       "sellPrice": 65,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Void Egg.png",
       "maxQuality": "iridium"
     },
@@ -211,6 +218,7 @@
       "id": "928",
       "name": "Golden Egg",
       "sellPrice": 500,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Golden Egg.png",
       "maxQuality": "iridium"
     },
@@ -233,6 +241,7 @@
       "id": "442",
       "name": "Duck Egg",
       "sellPrice": 95,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Duck Egg.png",
       "maxQuality": "iridium"
     },
@@ -240,6 +249,7 @@
       "id": "444",
       "name": "Duck Feather",
       "sellPrice": 250,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Duck Feather.png",
       "maxQuality": "iridium"
     },
@@ -261,6 +271,7 @@
       "id": "440",
       "name": "Wool",
       "sellPrice": 340,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Wool.png",
       "maxQuality": "iridium"
     },
@@ -268,6 +279,7 @@
       "id": "446",
       "name": "Rabbit's Foot",
       "sellPrice": 565,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Rabbit's Foot.png",
       "maxQuality": "iridium"
     },
@@ -289,6 +301,7 @@
       "id": "107",
       "name": "Dinosaur Egg",
       "sellPrice": 350,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Dinosaur Egg.png",
       "maxQuality": "iridium"
     },
@@ -311,6 +324,7 @@
       "id": "184",
       "name": "Milk",
       "sellPrice": 125,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Milk.png",
       "maxQuality": "iridium"
     },
@@ -318,6 +332,7 @@
       "id": "186",
       "name": "Large Milk",
       "sellPrice": 190,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Large Milk.png",
       "maxQuality": "iridium"
     },
@@ -339,6 +354,7 @@
       "id": "184",
       "name": "Milk",
       "sellPrice": 125,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Milk.png",
       "maxQuality": "iridium"
     },
@@ -346,6 +362,7 @@
       "id": "186",
       "name": "Large Milk",
       "sellPrice": 190,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Large Milk.png",
       "maxQuality": "iridium"
     },
@@ -367,6 +384,7 @@
       "id": "436",
       "name": "Goat Milk",
       "sellPrice": 225,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Goat Milk.png",
       "maxQuality": "iridium"
     },
@@ -374,6 +392,7 @@
       "id": "438",
       "name": "Large Goat Milk",
       "sellPrice": 345,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Large Goat Milk.png",
       "maxQuality": "iridium"
     },
@@ -395,6 +414,7 @@
       "id": "440",
       "name": "Wool",
       "sellPrice": 340,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Wool.png",
       "maxQuality": "iridium"
     },
@@ -417,6 +437,7 @@
       "id": "430",
       "name": "Truffle",
       "sellPrice": 625,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Truffle.png",
       "maxQuality": "iridium"
     },
@@ -439,6 +460,7 @@
       "id": "289",
       "name": "Ostrich Egg",
       "sellPrice": 600,
+      "profession": ["rancher"],
       "image": "images/animals/produce/Ostrich Egg.png",
       "maxQuality": "iridium"
     },

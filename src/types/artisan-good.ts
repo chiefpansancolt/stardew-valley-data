@@ -1,4 +1,4 @@
-import { Buff, EnergyHealth, ItemQuality } from './common';
+import { Buff, EnergyHealth, ItemQuality, ProfessionBonus } from './common';
 
 export type ArtisanGoodBuff = Buff;
 
@@ -28,6 +28,7 @@ export interface ArtisanGood {
   processingMinutes: number;
   processingDays: number;
   sellPrice: number | null;
+  profession: ProfessionBonus[];
   sellPriceFormula: string | null;
   priceFormula: PriceFormula | null;
   qualityLevels: boolean;

@@ -1,4 +1,12 @@
-import { ArtisanUses, EnergyHealth, ItemQuality, Season, SeedBuyPrice, Stage } from './common';
+import {
+  ArtisanUses,
+  EnergyHealth,
+  ItemQuality,
+  ProfessionBonus,
+  Season,
+  SeedBuyPrice,
+  Stage,
+} from './common';
 
 export interface HarvestQuantity {
   min: number;
@@ -17,6 +25,7 @@ export interface Crop {
   seedBuyPrices: SeedBuyPrice[];
   seedSellPrice: number;
   cropSellPrice: number;
+  profession: ProfessionBonus[];
   harvestQuantity: HarvestQuantity;
   trellis: boolean;
   giant: boolean;

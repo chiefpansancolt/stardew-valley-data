@@ -20,6 +20,7 @@
     ],
     "seedSellPrice": 10,
     "cropSellPrice": 35,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -88,6 +89,7 @@
     ],
     "seedSellPrice": 30,
     "cropSellPrice": 40,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -164,6 +166,7 @@
     ],
     "seedSellPrice": 40,
     "cropSellPrice": 175,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -237,6 +240,7 @@
     ],
     "seedSellPrice": 25,
     "cropSellPrice": 80,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 4
@@ -309,6 +313,7 @@
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 60,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -377,6 +382,7 @@
     ],
     "seedSellPrice": 35,
     "cropSellPrice": 110,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -441,6 +447,7 @@
     ],
     "seedSellPrice": 50,
     "cropSellPrice": 220,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -505,6 +512,7 @@
     ],
     "seedSellPrice": 0,
     "cropSellPrice": 120,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -581,6 +589,7 @@
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 30,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -649,6 +658,7 @@
     ],
     "seedSellPrice": 10,
     "cropSellPrice": 30,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -717,6 +727,7 @@
     ],
     "seedSellPrice": 15,
     "cropSellPrice": 50,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -772,6 +783,7 @@
     "seedBuyPrices": [],
     "seedSellPrice": 15,
     "cropSellPrice": 35,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -832,6 +844,7 @@
     ],
     "seedSellPrice": 15,
     "cropSellPrice": 15,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 4,
       "max": 4
@@ -904,6 +917,7 @@
     ],
     "seedSellPrice": 40,
     "cropSellPrice": 250,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -977,6 +991,7 @@
     ],
     "seedSellPrice": 25,
     "cropSellPrice": 60,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1045,6 +1060,7 @@
     ],
     "seedSellPrice": 40,
     "cropSellPrice": 50,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 3,
       "max": 3
@@ -1121,6 +1137,7 @@
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 40,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1197,6 +1214,7 @@
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 90,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1265,6 +1283,7 @@
     ],
     "seedSellPrice": 50,
     "cropSellPrice": 260,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1333,6 +1352,7 @@
     ],
     "seedSellPrice": 200,
     "cropSellPrice": 750,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1405,6 +1425,7 @@
     ],
     "seedSellPrice": 30,
     "cropSellPrice": 25,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1481,6 +1502,7 @@
     ],
     "seedSellPrice": 50,
     "cropSellPrice": 140,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1549,6 +1571,7 @@
     ],
     "seedSellPrice": 25,
     "cropSellPrice": 90,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1617,6 +1640,7 @@
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 45,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1676,6 +1700,7 @@
     "seedBuyPrices": [],
     "seedSellPrice": 20,
     "cropSellPrice": 100,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1740,6 +1765,7 @@
     ],
     "seedSellPrice": 75,
     "cropSellPrice": 50,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1816,6 +1842,7 @@
     ],
     "seedSellPrice": 5,
     "cropSellPrice": 25,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1876,6 +1903,7 @@
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 80,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -1940,6 +1968,7 @@
     ],
     "seedSellPrice": 50,
     "cropSellPrice": 320,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2005,6 +2034,7 @@
     ],
     "seedSellPrice": 10,
     "cropSellPrice": 60,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2073,6 +2103,7 @@
     ],
     "seedSellPrice": 15,
     "cropSellPrice": 160,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2141,6 +2172,7 @@
     ],
     "seedSellPrice": 35,
     "cropSellPrice": 150,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2205,6 +2237,7 @@
     ],
     "seedSellPrice": 30,
     "cropSellPrice": 80,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2273,6 +2306,7 @@
     ],
     "seedSellPrice": 120,
     "cropSellPrice": 75,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 2,
       "max": 2
@@ -2341,6 +2375,7 @@
     ],
     "seedSellPrice": 25,
     "cropSellPrice": 80,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2405,6 +2440,7 @@
     ],
     "seedSellPrice": 30,
     "cropSellPrice": 160,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2465,6 +2501,7 @@
     ],
     "seedSellPrice": 10,
     "cropSellPrice": 100,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2525,6 +2562,7 @@
     ],
     "seedSellPrice": 200,
     "cropSellPrice": 3000,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2589,6 +2627,7 @@
     ],
     "seedSellPrice": 100,
     "cropSellPrice": 290,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2653,6 +2692,7 @@
     ],
     "seedSellPrice": 40,
     "cropSellPrice": 70,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2725,6 +2765,7 @@
     ],
     "seedSellPrice": 20,
     "cropSellPrice": 60,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2785,6 +2826,7 @@
     "seedBuyPrices": [],
     "seedSellPrice": 30,
     "cropSellPrice": 550,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2845,6 +2887,7 @@
     ],
     "seedSellPrice": 0,
     "cropSellPrice": 75,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2912,6 +2955,7 @@
     "seedBuyPrices": [],
     "seedSellPrice": 240,
     "cropSellPrice": 300,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -2971,6 +3015,7 @@
     "seedBuyPrices": [],
     "seedSellPrice": 1,
     "cropSellPrice": 1,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -3031,6 +3076,7 @@
     ],
     "seedSellPrice": 250,
     "cropSellPrice": 50,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 1,
       "max": 1
@@ -3082,6 +3128,7 @@
     "seedBuyPrices": [],
     "seedSellPrice": 5,
     "cropSellPrice": 1,
+    "profession": ["tiller"],
     "harvestQuantity": {
       "min": 4,
       "max": 7

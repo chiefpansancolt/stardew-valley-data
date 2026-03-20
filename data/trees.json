@@ -47,6 +47,7 @@
       "id": "634",
       "name": "Apricot",
       "sellPrice": 50,
+      "profession": ["tiller"],
       "image": "images/trees/apricot/crop.png",
       "energyHealth": {
         "energy": 38,
@@ -117,6 +118,7 @@
       "id": "638",
       "name": "Cherry",
       "sellPrice": 80,
+      "profession": ["tiller"],
       "image": "images/trees/cherry/crop.png",
       "energyHealth": {
         "energy": 38,
@@ -187,6 +189,7 @@
       "id": "635",
       "name": "Orange",
       "sellPrice": 100,
+      "profession": ["tiller"],
       "image": "images/trees/orange/crop.png",
       "energyHealth": {
         "energy": 38,
@@ -257,6 +260,7 @@
       "id": "636",
       "name": "Peach",
       "sellPrice": 140,
+      "profession": ["tiller"],
       "image": "images/trees/peach/crop.png",
       "energyHealth": {
         "energy": 38,
@@ -318,6 +322,7 @@
       "id": "91",
       "name": "Banana",
       "sellPrice": 150,
+      "profession": ["tiller"],
       "image": "images/trees/banana/crop.png",
       "energyHealth": {
         "energy": 75,
@@ -379,6 +384,7 @@
       "id": "834",
       "name": "Mango",
       "sellPrice": 130,
+      "profession": ["tiller"],
       "image": "images/trees/mango/crop.png",
       "energyHealth": {
         "energy": 100,
@@ -449,6 +455,7 @@
       "id": "613",
       "name": "Apple",
       "sellPrice": 100,
+      "profession": ["tiller"],
       "image": "images/trees/apple/crop.png",
       "energyHealth": {
         "energy": 38,
@@ -519,6 +526,7 @@
       "id": "637",
       "name": "Pomegranate",
       "sellPrice": 140,
+      "profession": ["tiller"],
       "image": "images/trees/pomegranate/crop.png",
       "energyHealth": {
         "energy": 38,
@@ -576,6 +584,7 @@
       "id": "725",
       "name": "Oak Resin",
       "sellPrice": 150,
+      "profession": ["tapper"],
       "image": "images/forageables/Oak Resin.png"
     },
     "choppedProduce": [
@@ -628,6 +637,7 @@
       "id": "724",
       "name": "Maple Syrup",
       "sellPrice": 200,
+      "profession": ["tapper"],
       "image": "images/forageables/Maple Syrup.png",
       "energyHealth": {
         "energy": 50,
@@ -684,6 +694,7 @@
       "id": "726",
       "name": "Pine Tar",
       "sellPrice": 100,
+      "profession": ["tapper"],
       "image": "images/forageables/Pine Tar.png"
     },
     "choppedProduce": [
@@ -736,6 +747,7 @@
       "id": "92",
       "name": "Sap",
       "sellPrice": 2,
+      "profession": [],
       "image": "images/forageables/Sap.png",
       "energyHealth": {
         "energy": -2,
@@ -788,6 +800,7 @@
       "id": "404",
       "name": "Common Mushroom",
       "sellPrice": 40,
+      "profession": ["tapper"],
       "image": "images/forageables/Common Mushroom.png",
       "energyHealth": {
         "energy": 38,
@@ -844,6 +857,7 @@
       "id": "MysticSyrup",
       "name": "Mystic Syrup",
       "sellPrice": 1000,
+      "profession": ["tapper"],
       "image": "images/forageables/Mystic Syrup.png",
       "energyHealth": {
         "energy": 500,
@@ -900,6 +914,7 @@
       "id": "259",
       "name": "Fiddlehead Fern",
       "sellPrice": 90,
+      "profession": ["tiller"],
       "image": "images/forageables/Fiddlehead Fern.png",
       "energyHealth": {
         "energy": 25,

@@ -1,9 +1,10 @@
-import { ItemQuality } from './common';
+import { ItemQuality, ProfessionBonus } from './common';
 
 export interface AnimalProduce {
   id: string;
   name: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
   maxQuality: ItemQuality;
   image: string;
 }

@@ -10,6 +10,7 @@
     "time": "12:00 PM – 4:00 PM",
     "difficulty": 80,
     "sellPrice": 200,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Specialty Fish Bundle"],
     "energyHealth": {
@@ -61,6 +62,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 30,
     "sellPrice": 30,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -111,6 +113,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 70,
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Fish Taco", "Maki Roll", "Quality Fertilizer", "Sashimi", "Ocean Fish Bundle"],
     "energyHealth": {
@@ -161,6 +164,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 30,
     "sellPrice": 40,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": [
       "Dish O' The Sea",
@@ -217,6 +221,7 @@
     "time": "6:00 PM – 2:00 AM",
     "difficulty": 35,
     "sellPrice": 45,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Baked Fish", "Maki Roll", "Quality Fertilizer", "Sashimi", "Night Fishing Bundle"],
     "energyHealth": {
@@ -275,6 +280,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 50,
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": [
       "Crispy Bass",
@@ -336,6 +342,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 28,
     "sellPrice": 50,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -394,6 +401,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 45,
     "sellPrice": 65,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Trout Soup"],
     "energyHealth": {
@@ -432,6 +440,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 50,
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Salmon Dinner", "Sashimi"],
     "energyHealth": {
@@ -490,6 +499,7 @@
     "time": "12:00 PM – 2:00 AM",
     "difficulty": 45,
     "sellPrice": 105,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": [
       "Maki Roll",
@@ -554,6 +564,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 35,
     "sellPrice": 55,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -612,6 +623,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 15,
     "sellPrice": 30,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Carp Surprise", "Maki Roll", "Quality Fertilizer", "Sashimi", "Lake Fish Bundle"],
     "energyHealth": {
@@ -642,6 +654,7 @@
     "time": "6:00 AM – 12:00 AM",
     "difficulty": 75,
     "sellPrice": 200,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "River Fish Bundle"],
     "energyHealth": {
@@ -672,6 +685,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 60,
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -706,6 +720,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 30,
     "sellPrice": 30,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Baked Fish", "Maki Roll", "Quality Fertilizer", "Sashimi", "River Fish Bundle"],
     "energyHealth": {
@@ -740,6 +755,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 55,
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -790,6 +806,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 25,
     "sellPrice": 30,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -820,6 +837,7 @@
     "time": "4:00 PM – 2:00 AM",
     "difficulty": 70,
     "sellPrice": 85,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": [
       "Fried Eel",
@@ -877,6 +895,7 @@
     "time": "6:00 AM – 1:00 PM",
     "difficulty": 95,
     "sellPrice": 150,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
     "maxQuality": "iridium",
@@ -907,6 +926,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 40,
     "sellPrice": 50,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Ocean Fish Bundle"],
     "energyHealth": {
@@ -957,6 +977,7 @@
     "time": "6:00 PM – 2:00 AM",
     "difficulty": 75,
     "sellPrice": 80,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Fried Calamari", "Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -987,6 +1008,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 5,
     "sellPrice": 20,
+    "profession": [],
     "fishTank": false,
     "usedIn": ["Maki Roll"],
     "energyHealth": {
@@ -1010,6 +1032,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 5,
     "sellPrice": 15,
+    "profession": [],
     "fishTank": false,
     "usedIn": ["Algae Soup", "Trout Soup"],
     "energyHealth": {
@@ -1033,6 +1056,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 40,
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Lucky Lunch", "Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1084,6 +1108,7 @@
     "time": "6:00 PM – 2:00 AM",
     "difficulty": 80,
     "sellPrice": 250,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1122,6 +1147,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 50,
     "sellPrice": 45,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Specialty Fish Bundle"],
     "energyHealth": {
@@ -1168,6 +1194,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 5,
     "sellPrice": 25,
+    "profession": [],
     "fishTank": false,
     "usedIn": ["Pale Broth", "Wild Medicine Bundle"],
     "energyHealth": {
@@ -1191,6 +1218,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 65,
     "sellPrice": 300,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "maxQuality": "iridium",
@@ -1233,6 +1261,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 95,
     "sellPrice": 1500,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1263,6 +1292,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 85,
     "sellPrice": 900,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1293,6 +1323,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 85,
     "sellPrice": 500,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1339,6 +1370,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 90,
     "sellPrice": 700,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
     "energyHealth": {
@@ -1385,6 +1417,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 110,
     "sellPrice": 5000,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1415,6 +1448,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 65,
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Specialty Fish Bundle"],
     "energyHealth": {
@@ -1449,6 +1483,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 90,
     "sellPrice": 150,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
     "energyHealth": {
@@ -1484,6 +1519,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 50,
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Seafoam Pudding"],
     "energyHealth": {
@@ -1518,6 +1554,7 @@
     "time": "10:00 PM – 2:00 AM",
     "difficulty": 55,
     "sellPrice": 150,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Seafoam Pudding"],
     "energyHealth": {
@@ -1549,6 +1586,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Ocean (crab pot)",
     "sellPrice": 50,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Chowder", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
@@ -1615,6 +1653,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 80,
     "sellPrice": 1000,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1645,6 +1684,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 78,
     "sellPrice": 200,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Lake Fish Bundle"],
     "energyHealth": {
@@ -1675,6 +1715,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 60,
     "sellPrice": 150,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "River Fish Bundle"],
     "energyHealth": {
@@ -1705,6 +1746,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 46,
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Lake Fish Bundle"],
     "energyHealth": {
@@ -1759,6 +1801,7 @@
     "time": "6:00 AM – 2:00 PM",
     "difficulty": 50,
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Ocean Fish Bundle"],
     "energyHealth": {
@@ -1809,6 +1852,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 35,
     "sellPrice": 50,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Field Research Bundle"],
     "energyHealth": {
@@ -1867,6 +1911,7 @@
     "time": "6:00 AM – 7:00 PM",
     "difficulty": 78,
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1901,6 +1946,7 @@
     "time": "6:00 AM – 11:00 AM, 6:00 PM – 2:00 AM",
     "difficulty": 60,
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -1951,6 +1997,7 @@
     "time": "9:00 AM – 2:00 AM",
     "difficulty": 45,
     "sellPrice": 60,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": [
       "Maki Roll",
@@ -2015,6 +2062,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 85,
     "sellPrice": 120,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -2049,6 +2097,7 @@
     "time": "6:00 AM – 11:00 AM, 7:00 PM – 2:00 AM",
     "difficulty": 50,
     "sellPrice": 80,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -2096,6 +2145,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Ocean (crab pot)",
     "sellPrice": 120,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Lobster Bisque", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "silver",
@@ -2159,6 +2209,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Freshwater (crab pot)",
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "silver",
@@ -2214,6 +2265,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Ocean (crab pot)",
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Crab Cakes", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "gold",
@@ -2277,6 +2329,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Ocean (crab pot)",
     "sellPrice": 50,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
@@ -2340,6 +2393,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Ocean (crab pot)",
     "sellPrice": 30,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Fish Stew", "Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
@@ -2403,6 +2457,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Ocean (crab pot)",
     "sellPrice": 60,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": [
       "Maki Roll",
@@ -2473,6 +2528,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Freshwater (crab pot)",
     "sellPrice": 65,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "gold",
@@ -2528,6 +2584,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Freshwater (crab pot)",
     "sellPrice": 20,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": [
       "Fish Stew",
@@ -2590,6 +2647,7 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "location": "Ocean (crab pot)",
     "sellPrice": 40,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Crab Pot Bundle"],
     "maxQuality": "iridium",
@@ -2656,6 +2714,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 50,
     "sellPrice": 75,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": [
       "Maki Roll",
@@ -2712,6 +2771,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 100,
     "sellPrice": 1000,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -2742,6 +2802,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 80,
     "sellPrice": 150,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "The Missing Bundle"],
     "energyHealth": {
@@ -2780,6 +2841,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 55,
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -2822,6 +2884,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 55,
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -2852,6 +2915,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 60,
     "sellPrice": 220,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -2886,6 +2950,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 75,
     "sellPrice": 500,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi", "Master Fisher's Bundle"],
     "energyHealth": {
@@ -2924,6 +2989,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 80,
     "sellPrice": 180,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -2970,6 +3036,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 50,
     "sellPrice": 100,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -3008,6 +3075,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 60,
     "sellPrice": 120,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -3046,6 +3114,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 95,
     "sellPrice": 1500,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -3076,6 +3145,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 85,
     "sellPrice": 900,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -3106,6 +3176,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 110,
     "sellPrice": 5000,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -3136,6 +3207,7 @@
     "time": "6:00 AM – 2:00 AM",
     "difficulty": 80,
     "sellPrice": 1000,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -3166,6 +3238,7 @@
     "time": "6:00 AM – 8:00 PM",
     "difficulty": 100,
     "sellPrice": 1000,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -3196,6 +3269,7 @@
     "time": "8:00 AM – 6:00 PM",
     "difficulty": 55,
     "sellPrice": 150,
+    "profession": ["fisher", "angler"],
     "fishTank": true,
     "usedIn": ["Maki Roll", "Quality Fertilizer", "Sashimi"],
     "energyHealth": {
@@ -3254,6 +3328,7 @@
     "weather": "both",
     "time": "6:00 AM – 2:00 AM",
     "sellPrice": 200,
+    "profession": [],
     "fishTank": false,
     "usedIn": [],
     "energyHealth": {
@@ -3276,6 +3351,7 @@
     "weather": "both",
     "time": "6:00 AM – 2:00 AM",
     "sellPrice": 125,
+    "profession": [],
     "fishTank": false,
     "usedIn": [],
     "energyHealth": {
@@ -3298,6 +3374,7 @@
     "weather": "both",
     "time": "6:00 AM – 2:00 AM",
     "sellPrice": 180,
+    "profession": [],
     "fishTank": false,
     "usedIn": [],
     "energyHealth": {

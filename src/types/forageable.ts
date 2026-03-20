@@ -1,4 +1,11 @@
-import { ArtisanUses, EnergyHealth, ItemQuality, Season } from './common';
+import {
+  ArtisanUses,
+  EnergyHealth,
+  ItemQuality,
+  KnowledgeBonus,
+  ProfessionBonus,
+  Season,
+} from './common';
 
 export interface Forageable {
   id: string;
@@ -7,6 +14,8 @@ export interface Forageable {
   seasons: Season[];
   locations: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
+  knowledge: KnowledgeBonus[];
   energyHealth?: EnergyHealth;
   maxQuality: ItemQuality;
   artisanUses: ArtisanUses;

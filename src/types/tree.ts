@@ -1,4 +1,4 @@
-import { ArtisanUses, EnergyHealth, Season, SeedBuyPrice, Stage } from './common';
+import { ArtisanUses, EnergyHealth, ProfessionBonus, Season, SeedBuyPrice, Stage } from './common';
 
 export interface ChoppedTreeProduce {
   id: string;
@@ -10,6 +10,7 @@ export interface FruitTreeProduce {
   id: string;
   name: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
   image: string;
   energyHealth?: EnergyHealth;
   artisanUses: ArtisanUses;
@@ -37,6 +38,7 @@ export interface WildTreeTapper {
   id: string;
   name: string;
   sellPrice: number;
+  profession: ProfessionBonus[];
   image: string;
   energyHealth?: EnergyHealth;
 }

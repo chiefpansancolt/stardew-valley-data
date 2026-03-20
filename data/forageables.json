@@ -6,6 +6,8 @@
     "seasons": ["fall"],
     "locations": "Cindersap Forest, Pelican Town, Railroad; Berry bushes during Fall 8-11",
     "sellPrice": 20,
+    "profession": ["tiller"],
+    "knowledge": ["bears-knowledge"],
     "energyHealth": {
       "energy": 25,
       "health": 11
@@ -29,6 +31,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Mines",
     "sellPrice": 25,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 30,
       "health": 13
@@ -52,6 +56,8 @@
     "seasons": ["fall"],
     "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 160,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 75,
       "health": 33
@@ -75,6 +81,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Calico Desert (palm trees), Ginger Island",
     "sellPrice": 100,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Coconut.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -94,6 +102,8 @@
     "seasons": ["spring", "summer", "fall"],
     "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 40,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 38,
       "health": 17
@@ -117,6 +127,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 50,
+    "profession": ["fisher", "angler"],
+    "knowledge": [],
     "image": "images/fish/Cockle.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -136,6 +148,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 50,
+    "profession": ["fisher", "angler"],
+    "knowledge": [],
     "image": "images/fish/Clam.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -155,6 +169,8 @@
     "seasons": ["summer"],
     "locations": "The Beach",
     "sellPrice": 80,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Coral.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -174,6 +190,8 @@
     "seasons": ["winter"],
     "locations": "Pelican Town, Railroad, Bus Stop, Mountain, Cindersap Forest, Backwoods",
     "sellPrice": 60,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 0,
       "health": 0
@@ -197,6 +215,8 @@
     "seasons": ["winter"],
     "locations": "Railroad, Cindersap Forest, Mountain, Bus Stop, Backwoods, Pelican Town",
     "sellPrice": 150,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 63,
       "health": 28
@@ -220,6 +240,8 @@
     "seasons": ["spring"],
     "locations": "Pelican Town, Bus Stop, Railroad",
     "sellPrice": 30,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 0,
       "health": 0
@@ -243,6 +265,8 @@
     "seasons": ["spring"],
     "locations": "Cindersap Forest, Bus Stop, Railroad, Forest Farm",
     "sellPrice": 40,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 25,
       "health": 11
@@ -266,6 +290,8 @@
     "seasons": ["summer"],
     "locations": "Secret Woods",
     "sellPrice": 90,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 25,
       "health": 11
@@ -289,6 +315,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Everywhere but the Farm Pond of the Standard Farm",
     "sellPrice": 15,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 13,
       "health": 5
@@ -312,6 +340,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Ginger Island West",
     "sellPrice": 60,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 25,
       "health": 11
@@ -335,6 +365,8 @@
     "seasons": ["summer"],
     "locations": "Backwoods, Mountain, Bus Stop, Railroad, Forest Farm",
     "sellPrice": 80,
+    "profession": ["tiller"],
+    "knowledge": [],
     "energyHealth": {
       "energy": 38,
       "health": 17
@@ -358,6 +390,8 @@
     "seasons": ["fall"],
     "locations": "Backwoods, Mountain, Bus Stop, Railroad",
     "sellPrice": 90,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 30,
       "health": 13
@@ -381,6 +415,8 @@
     "seasons": ["winter"],
     "locations": "Secret Woods, Backwoods, Pelican Town, Bus Stop, Cindersap Forest, Mountain",
     "sellPrice": 80,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": -37,
       "health": 0,
@@ -405,6 +441,8 @@
     "seasons": ["spring"],
     "locations": "Backwoods, Mountain, Forest Farm, Bus Stop, Railroad",
     "sellPrice": 60,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 40,
       "health": 18
@@ -428,6 +466,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Volcano Dungeon",
     "sellPrice": 400,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 175,
       "health": 78
@@ -451,6 +491,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 30,
+    "profession": ["fisher", "angler"],
+    "knowledge": [],
     "image": "images/fish/Mussel.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -470,6 +512,8 @@
     "seasons": ["spring"],
     "locations": "Secret Woods, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 150,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 20,
       "health": 9
@@ -493,6 +537,8 @@
     "seasons": ["winter"],
     "locations": "The Beach",
     "sellPrice": 120,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Nautilus Shell.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -512,6 +558,8 @@
     "seasons": ["fall"],
     "locations": "The Mines, Forest Farm, Farm Cave (mushroom option)",
     "sellPrice": 250,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 125,
       "health": 56
@@ -535,6 +583,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 40,
+    "profession": ["fisher", "angler"],
+    "knowledge": [],
     "image": "images/fish/Oyster.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -554,6 +604,8 @@
     "seasons": ["summer"],
     "locations": "The Beach",
     "sellPrice": 300,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Rainbow Shell.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -573,6 +625,8 @@
     "seasons": ["summer", "fall"],
     "locations": "Secret Woods, Farm Cave (mushroom option)",
     "sellPrice": 75,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": -50,
       "health": 0,
@@ -597,6 +651,8 @@
     "seasons": ["spring"],
     "locations": "Bushes during Salmonberry Season (Spring 15-18)",
     "sellPrice": 5,
+    "profession": ["tiller"],
+    "knowledge": ["bears-knowledge"],
     "energyHealth": {
       "energy": 25,
       "health": 11
@@ -620,6 +676,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "From chopping trees",
     "sellPrice": 2,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": -2,
       "health": 0,
@@ -644,6 +702,8 @@
     "seasons": ["summer"],
     "locations": "The Beach",
     "sellPrice": 160,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Sea Urchin.png",
     "maxQuality": "iridium",
     "artisanUses": {
@@ -663,6 +723,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "The Beach",
     "sellPrice": 20,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 13,
       "health": 5
@@ -686,6 +748,8 @@
     "seasons": ["winter"],
     "locations": "Underground artifact spots and tillable soil",
     "sellPrice": 100,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 30,
       "health": 13
@@ -709,6 +773,8 @@
     "seasons": ["summer"],
     "locations": "Cindersap Forest, Backwoods, Mountain, Bus Stop, Railroad, Forest Farm",
     "sellPrice": 80,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 25,
       "health": 11
@@ -732,6 +798,8 @@
     "seasons": ["spring"],
     "locations": "Cindersap Forest",
     "sellPrice": 8,
+    "profession": [],
+    "knowledge": ["spring-onion-mastery"],
     "energyHealth": {
       "energy": 13,
       "health": 5
@@ -755,6 +823,8 @@
     "seasons": ["summer"],
     "locations": "Pelican Town, Cindersap Forest, Bus Stop, Railroad, Forest Farm",
     "sellPrice": 50,
+    "profession": ["tiller"],
+    "knowledge": [],
     "energyHealth": {
       "energy": 0,
       "health": 0
@@ -778,6 +848,8 @@
     "seasons": ["spring"],
     "locations": "Cindersap Forest, Backwoods, Mountain, Forest Farm",
     "sellPrice": 50,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 13,
       "health": 5
@@ -801,6 +873,8 @@
     "seasons": ["fall"],
     "locations": "Bus Stop, Railroad, Backwoods, Mountain",
     "sellPrice": 80,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 25,
       "health": 11
@@ -824,6 +898,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Mines, Sewers, Mutant Bug Lair, Witch's Swamp",
     "sellPrice": 25,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 20,
       "health": 9
@@ -847,6 +923,8 @@
     "seasons": ["winter"],
     "locations": "Underground artifact spots and tillable soil",
     "sellPrice": 70,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 25,
       "health": 11
@@ -870,6 +948,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Felling trees and branches with an axe; Recycling Machine (from Driftwood)",
     "sellPrice": 2,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Wood.png",
     "maxQuality": "base",
     "artisanUses": {
@@ -889,6 +969,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Tilling dirt, sand, or Artifact Spots; Ginger Island Dig Site; Geodes",
     "sellPrice": 20,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Clay.png",
     "maxQuality": "base",
     "artisanUses": {
@@ -908,6 +990,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Chopping Mahogany Trees or Large Stumps; Secret Woods (6 stumps daily); Ginger Island",
     "sellPrice": 15,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Hardwood.png",
     "maxQuality": "base",
     "artisanUses": {
@@ -927,6 +1011,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Lightning Rod during thunderstorms; Solar Panel after 7 sunny days; Iridium Bat drop (5%)",
     "sellPrice": 500,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Battery Pack.png",
     "maxQuality": "base",
     "artisanUses": {
@@ -946,6 +1032,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Fish Ponds; Fishing Treasure Chests (with Jewels of the Sea book)",
     "sellPrice": 30,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 50,
       "health": 22
@@ -969,6 +1057,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Fish Ponds (Sturgeon)",
     "sellPrice": 130,
+    "profession": [],
+    "knowledge": [],
     "energyHealth": {
       "energy": 50,
       "health": 22
@@ -992,6 +1082,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Squid Kids in The Mines; Blue Squids in Dangerous Mines; Squid or Midnight Squid Fish Pond",
     "sellPrice": 110,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Squid Ink.png",
     "maxQuality": "base",
     "artisanUses": {
@@ -1011,6 +1103,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Mining rocks throughout the world",
     "sellPrice": 2,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Stone.png",
     "maxQuality": "base",
     "artisanUses": {
@@ -1030,6 +1124,8 @@
     "seasons": ["spring", "summer", "fall", "winter"],
     "locations": "Calico Desert (ground spawn), Ginger Island",
     "sellPrice": 75,
+    "profession": ["tiller"],
+    "knowledge": [],
     "energyHealth": {
       "energy": 75,
       "health": 33
@@ -1053,6 +1149,8 @@
     "seasons": ["spring", "summer", "fall"],
     "locations": "Foraging from trees with moss growing on them; Green Rain events",
     "sellPrice": 5,
+    "profession": [],
+    "knowledge": [],
     "image": "images/forageables/Moss.png",
     "maxQuality": "base",
     "artisanUses": {
