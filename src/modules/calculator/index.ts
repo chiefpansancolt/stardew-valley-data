@@ -210,3 +210,24 @@ export class ProfessionCalculator {
 export function professionCalculator(): ProfessionCalculator {
   return new ProfessionCalculator();
 }
+
+/**
+ * Calculates sell prices with special knowledge bonuses applied.
+ * Each method takes a base sell price and returns the adjusted value.
+ */
+export class KnowledgeCalculator {
+  /** Spring Onion Mastery bonus: `Math.floor(price * 5)` */
+  springOnionMastery(price: number): number {
+    return Math.floor(price * 5);
+  }
+
+  /** Bear's Knowledge bonus: `Math.floor(price * 3)` */
+  bearsKnowledge(price: number): number {
+    return Math.floor(price * 3);
+  }
+}
+
+/** Returns a KnowledgeCalculator instance for computing knowledge bonus sell prices. */
+export function knowledgeCalculator(): KnowledgeCalculator {
+  return new KnowledgeCalculator();
+}

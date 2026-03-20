@@ -1,4 +1,9 @@
-import { artisanCalculator, professionCalculator, qualityCalculator } from '@/modules/calculator';
+import {
+  artisanCalculator,
+  knowledgeCalculator,
+  professionCalculator,
+  qualityCalculator,
+} from '@/modules/calculator';
 import { existsSync } from 'fs';
 import { join } from 'path';
 
@@ -119,6 +124,19 @@ export function run(): { passed: number; failed: number } {
 
   console.log('\n--- Angler (Legend: 5000g) ---');
   console.log(`  angler: ${profession.angler(5000)}g`); // 7500
+
+  const knowledge = knowledgeCalculator();
+
+  console.log('\n=== KNOWLEDGE CALCULATOR ===');
+
+  console.log('\n--- Spring Onion Mastery (Spring Onion: 8g) ---');
+  console.log(`  springOnionMastery: ${knowledge.springOnionMastery(8)}g`); // 40
+
+  console.log("\n--- Bear's Knowledge (Blackberry: 20g) ---");
+  console.log(`  bearsKnowledge: ${knowledge.bearsKnowledge(20)}g`); // 60
+
+  console.log("\n--- Bear's Knowledge (Salmonberry: 5g) ---");
+  console.log(`  bearsKnowledge: ${knowledge.bearsKnowledge(5)}g`); // 15
 
   console.log('\n--- Image validation ---');
   console.log(`Images: ${passed} OK, ${failed} missing`);

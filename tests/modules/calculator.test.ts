@@ -1,4 +1,9 @@
-import { artisanCalculator, professionCalculator, qualityCalculator } from '@/modules/calculator';
+import {
+  artisanCalculator,
+  knowledgeCalculator,
+  professionCalculator,
+  qualityCalculator,
+} from '@/modules/calculator';
 
 describe('QualityCalculator', () => {
   const calc = qualityCalculator();
@@ -197,5 +202,31 @@ describe('ProfessionCalculator', () => {
   it('professionCalculator() factory returns a ProfessionCalculator', () => {
     const pc = professionCalculator();
     expect(pc.artisan(100)).toBe(140);
+  });
+});
+
+describe('KnowledgeCalculator', () => {
+  const calc = knowledgeCalculator();
+
+  it('springOnionMastery(): floor(price * 5)', () => {
+    expect(calc.springOnionMastery(8)).toBe(40); // Spring Onion: 8 * 5
+    expect(calc.springOnionMastery(100)).toBe(500);
+    expect(calc.springOnionMastery(33)).toBe(165); // floor(33 * 5) = 165
+  });
+
+  it('bearsKnowledge(): floor(price * 3)', () => {
+    expect(calc.bearsKnowledge(20)).toBe(60); // Blackberry: 20 * 3
+    expect(calc.bearsKnowledge(5)).toBe(15); // Salmonberry: 5 * 3
+    expect(calc.bearsKnowledge(33)).toBe(99); // floor(33 * 3) = 99
+  });
+
+  it('handles zero price', () => {
+    expect(calc.springOnionMastery(0)).toBe(0);
+    expect(calc.bearsKnowledge(0)).toBe(0);
+  });
+
+  it('knowledgeCalculator() factory returns a KnowledgeCalculator', () => {
+    const kc = knowledgeCalculator();
+    expect(kc.springOnionMastery(8)).toBe(40);
   });
 });
