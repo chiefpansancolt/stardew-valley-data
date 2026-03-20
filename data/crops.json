@@ -2770,7 +2770,8 @@
       "jelly": true,
       "driedMushrooms": false,
       "driedFruit": true
-    }
+    },
+    "giantImage": "images/crops/powdermelon/giant.png"
   },
   {
     "id": "454",

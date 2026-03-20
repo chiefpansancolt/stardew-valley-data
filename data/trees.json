@@ -61,7 +61,13 @@
         "driedMushrooms": false,
         "driedFruit": true
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "629",
+        "name": "Apricot Sapling"
+      }
+    ]
   },
   {
     "type": "fruit-tree",
@@ -125,7 +131,13 @@
         "driedMushrooms": false,
         "driedFruit": true
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "628",
+        "name": "Cherry Sapling"
+      }
+    ]
   },
   {
     "type": "fruit-tree",
@@ -189,7 +201,13 @@
         "driedMushrooms": false,
         "driedFruit": true
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "630",
+        "name": "Orange Sapling"
+      }
+    ]
   },
   {
     "type": "fruit-tree",
@@ -253,7 +271,13 @@
         "driedMushrooms": false,
         "driedFruit": true
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "631",
+        "name": "Peach Sapling"
+      }
+    ]
   },
   {
     "type": "fruit-tree",
@@ -308,7 +332,13 @@
         "driedMushrooms": false,
         "driedFruit": true
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "69",
+        "name": "Banana Sapling"
+      }
+    ]
   },
   {
     "type": "fruit-tree",
@@ -363,7 +393,13 @@
         "driedMushrooms": false,
         "driedFruit": true
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "835",
+        "name": "Mango Sapling"
+      }
+    ]
   },
   {
     "type": "fruit-tree",
@@ -427,7 +463,13 @@
         "driedMushrooms": false,
         "driedFruit": true
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "633",
+        "name": "Apple Sapling"
+      }
+    ]
   },
   {
     "type": "fruit-tree",
@@ -491,7 +533,13 @@
         "driedMushrooms": false,
         "driedFruit": true
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "632",
+        "name": "Pomegranate Sapling"
+      }
+    ]
   },
   {
     "type": "wild-tree",
@@ -500,7 +548,7 @@
     "seedId": "309",
     "seedName": "Acorn",
     "description": "A sturdy deciduous tree common throughout the valley. Can be tapped for Oak Resin.",
-    "image": "images/trees/oak/stage-5.png",
+    "image": "images/trees/oak/portrait.png",
     "seedImage": "images/trees/oak/seed.png",
     "stages": [
       {
@@ -529,7 +577,21 @@
       "name": "Oak Resin",
       "sellPrice": 150,
       "image": "images/forageables/Oak Resin.png"
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "388",
+        "name": "Wood"
+      },
+      {
+        "id": "92",
+        "name": "Sap"
+      },
+      {
+        "id": "309",
+        "name": "Acorn"
+      }
+    ]
   },
   {
     "type": "wild-tree",
@@ -538,7 +600,7 @@
     "seedId": "310",
     "seedName": "Maple Seed",
     "description": "A beautiful tree with vibrant fall colors. Produces a sweet, valuable syrup.",
-    "image": "images/trees/maple/stage-5.png",
+    "image": "images/trees/maple/portrait.png",
     "seedImage": "images/trees/maple/seed.png",
     "stages": [
       {
@@ -571,7 +633,21 @@
         "energy": 50,
         "health": 22
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "388",
+        "name": "Wood"
+      },
+      {
+        "id": "92",
+        "name": "Sap"
+      },
+      {
+        "id": "310",
+        "name": "Maple Seed"
+      }
+    ]
   },
   {
     "type": "wild-tree",
@@ -580,7 +656,7 @@
     "seedId": "311",
     "seedName": "Pine Cone",
     "description": "A resilient evergreen that stays green throughout the year.",
-    "image": "images/trees/pine/stage-5.png",
+    "image": "images/trees/pine/portrait.png",
     "seedImage": "images/trees/pine/seed.png",
     "stages": [
       {
@@ -609,7 +685,21 @@
       "name": "Pine Tar",
       "sellPrice": 100,
       "image": "images/forageables/Pine Tar.png"
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "388",
+        "name": "Wood"
+      },
+      {
+        "id": "92",
+        "name": "Sap"
+      },
+      {
+        "id": "311",
+        "name": "Pine Cone"
+      }
+    ]
   },
   {
     "type": "wild-tree",
@@ -618,7 +708,7 @@
     "seedId": "292",
     "seedName": "Mahogany Seed",
     "description": "A rare hardwood tree. When tapped, it produces sap every day.",
-    "image": "images/trees/mahogany/stage-5.png",
+    "image": "images/trees/mahogany/portrait.png",
     "seedImage": "images/trees/mahogany/seed.png",
     "stages": [
       {
@@ -651,7 +741,17 @@
         "energy": -2,
         "health": -1
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "292",
+        "name": "Mahogany Seed"
+      },
+      {
+        "id": "709",
+        "name": "Hardwood"
+      }
+    ]
   },
   {
     "type": "wild-tree",
@@ -660,7 +760,7 @@
     "seedId": "891",
     "seedName": "Mushroom Tree Seed",
     "description": "A peculiar tree covered in fungi. Produces mushrooms when tapped.",
-    "image": "images/trees/mushroom/stage-5.png",
+    "image": "images/trees/mushroom/portrait.png",
     "seedImage": "images/trees/mushroom/seed.png",
     "stages": [
       {
@@ -693,7 +793,21 @@
         "energy": 38,
         "health": 17
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "388",
+        "name": "Wood"
+      },
+      {
+        "id": "92",
+        "name": "Sap"
+      },
+      {
+        "id": "891",
+        "name": "Mushroom Tree Seed"
+      }
+    ]
   },
   {
     "type": "wild-tree",
@@ -702,7 +816,7 @@
     "seedId": "MysticTreeSeed",
     "seedName": "Mystic Tree Seed",
     "description": "Not native to the valley. This otherworldly tree produces a powerful mystic syrup.",
-    "image": "images/trees/mystic/stage-5.png",
+    "image": "images/trees/mystic/portrait.png",
     "seedImage": "images/trees/mystic/seed.png",
     "stages": [
       {
@@ -735,6 +849,108 @@
         "energy": 500,
         "health": 225
       }
-    }
+    },
+    "choppedProduce": [
+      {
+        "id": "388",
+        "name": "Wood"
+      },
+      {
+        "id": "92",
+        "name": "Sap"
+      },
+      {
+        "id": "MysticTreeSeed",
+        "name": "Mystic Tree Seed"
+      }
+    ]
+  },
+  {
+    "type": "wild-tree",
+    "id": "12",
+    "name": "Fiddlehead Stalk",
+    "seedId": "MossySeed",
+    "seedName": "Mossy Seed",
+    "description": "A peculiar tree that grows from Mossy Seeds. Yields Fiddlehead Ferns instead of wood when chopped. Becomes a stump during winter.",
+    "image": "images/trees/fiddlehead/portrait.png",
+    "seedImage": "images/trees/fiddlehead/seed.png",
+    "stages": [
+      {
+        "name": "stage 1",
+        "image": "images/trees/fiddlehead/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/fiddlehead/stage-2.png"
+      },
+      {
+        "name": "stage 3",
+        "image": "images/trees/fiddlehead/stage-3.png"
+      },
+      {
+        "name": "stage 4",
+        "image": "images/trees/fiddlehead/stage-4.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/fiddlehead/stage-5.png"
+      }
+    ],
+    "tapper": {
+      "id": "259",
+      "name": "Fiddlehead Fern",
+      "sellPrice": 90,
+      "image": "images/forageables/Fiddlehead Fern.png",
+      "energyHealth": {
+        "energy": 25,
+        "health": 11
+      }
+    },
+    "choppedProduce": [
+      {
+        "id": "259",
+        "name": "Fiddlehead Fern"
+      },
+      {
+        "id": "MossySeed",
+        "name": "Mossy Seed"
+      }
+    ]
+  },
+  {
+    "type": "wild-tree",
+    "id": "6",
+    "name": "Palm Tree",
+    "description": "A tall tree found in the Calico Desert and on Ginger Island. Cannot be cultivated by players. Shaking or chopping it may yield a Coconut.",
+    "image": "images/trees/palm/portrait.png",
+    "stages": [
+      {
+        "name": "stage 1",
+        "image": "images/trees/palm/stage-1.png"
+      },
+      {
+        "name": "stage 2",
+        "image": "images/trees/palm/stage-2.png"
+      },
+      {
+        "name": "mature",
+        "image": "images/trees/palm/stage-3.png"
+      }
+    ],
+    "choppedProduce": [
+      {
+        "id": "388",
+        "name": "Wood"
+      },
+      {
+        "id": "88",
+        "name": "Coconut"
+      },
+      {
+        "id": "791",
+        "name": "Golden Coconut",
+        "image": "images/minerals/geodes/Golden Coconut.png"
+      }
+    ]
   }
 ]

@@ -119,12 +119,12 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
           sellPrice: null,
         });
       }
-      if (matches(query, tree.seedId, tree.seedName)) {
+      if (tree.seedId && tree.seedName && matches(query, tree.seedId, tree.seedName)) {
         add({
           kind: 'wild-tree-seed',
           id: tree.seedId,
           name: tree.seedName,
-          image: tree.seedImage,
+          image: tree.seedImage ?? '',
           sellPrice: null,
         });
       }

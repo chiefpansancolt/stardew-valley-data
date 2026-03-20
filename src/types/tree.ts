@@ -1,5 +1,11 @@
 import { ArtisanUses, EnergyHealth, Season, SeedBuyPrice, Stage } from './common';
 
+export interface ChoppedTreeProduce {
+  id: string;
+  name: string;
+  image?: string;
+}
+
 export interface FruitTreeProduce {
   id: string;
   name: string;
@@ -24,6 +30,7 @@ export interface FruitTree {
   saplingImage: string;
   stages: Stage[];
   produce: FruitTreeProduce;
+  choppedProduce: ChoppedTreeProduce[];
 }
 
 export interface WildTreeTapper {
@@ -38,13 +45,14 @@ export interface WildTree {
   type: 'wild-tree';
   id: string;
   name: string;
-  seedId: string;
-  seedName: string;
+  seedId?: string;
+  seedName?: string;
   description: string;
   image: string;
-  seedImage: string;
+  seedImage?: string;
   stages: Stage[];
   tapper?: WildTreeTapper;
+  choppedProduce: ChoppedTreeProduce[];
 }
 
 export type Tree = FruitTree | WildTree;

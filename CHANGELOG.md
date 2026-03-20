@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.13.0] - 2026-03-20
+
+### Added
+
+- `ChoppedTreeProduce` interface added to `src/types/tree.ts` —
+  `{ id: string; name: string; image?: string }`; `image` is optional for special cases (e.g. Golden
+  Coconut on Palm Tree)
+- `choppedProduce: ChoppedTreeProduce[]` field added to both `FruitTree` and `WildTree` types and
+  all 14 existing tree entries in `data/trees.json`:
+  - Fruit trees (8): each produces its own sapling
+  - Oak, Maple, Pine: Wood + Sap + seed
+  - Mahogany: Mahogany Seed + Hardwood
+  - Mushroom, Mystic: Wood + Sap + seed
+  - Fiddlehead Stalk: Fiddlehead Fern + Mossy Seed
+  - Palm Tree: Wood + Coconut + Golden Coconut (Golden Coconut includes `image` path)
+- Wild tree `image` fields updated from `stage-5.png` sprites to portrait images for all 6 wild
+  trees; portrait PNGs downloaded to each tree's folder (`portrait.png`)
+- `seedId`, `seedName`, `seedImage` made optional on `WildTree` — Palm Tree has no plantable seed
+- **Fiddlehead Stalk** (`id: "12"`) added to `data/trees.json` — Green Rain Tree type 3; tapper
+  yields 1 Fiddlehead Fern every 2 days (not winter); chops to Fiddlehead Fern + Mossy Seed; 5 stage
+  images and portrait downloaded to `images/trees/fiddlehead/`
+- **Palm Tree** (`id: "6"`) added to `data/trees.json` — found in Calico Desert and Ginger Island;
+  not plantable by players; 3 growth stages; chops to Wood + Coconut + Golden Coconut; portrait and
+  stage images downloaded to `images/trees/palm/`; `seedImage` reuses existing Coconut image from
+  `images/forageables/`
+
+### Fixed
+
+- Grape crop image corrected to the proper sprite (`images/crops/grape/crop.png`)
+- Powdermelon now correctly appears in the `giant()` crop filter
+- `search/index.ts` and `sample/trees/index.ts` updated to guard optional
+  `seedId`/`seedName`/`seedImage` fields on `WildTree` so seedless trees (Palm Tree) are handled
+  correctly
+
 ## [0.12.0] - 2026-03-19
 
 ### Fixes

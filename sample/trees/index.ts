@@ -103,8 +103,10 @@ export function run(): { passed: number; failed: number } {
     if (checkImage(t.name, 'image', t.image)) passed++;
     else failed++;
 
-    if (checkImage(t.name, 'seedImage', t.seedImage)) passed++;
-    else failed++;
+    if (t.seedImage) {
+      if (checkImage(t.name, 'seedImage', t.seedImage)) passed++;
+      else failed++;
+    }
 
     if (t.tapper) {
       if (checkImage(t.name, 'tapper.image', t.tapper.image)) passed++;
