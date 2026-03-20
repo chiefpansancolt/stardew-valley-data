@@ -2730,7 +2730,7 @@
       "max": 1
     },
     "trellis": false,
-    "giant": false,
+    "giant": true,
     "description": "A mysterious pale melon that flourishes in winter.",
     "image": "images/crops/powdermelon/crop.png",
     "seedImage": "images/crops/powdermelon/seed.png",
