@@ -5,6 +5,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.14.0] - 2026-03-20
+
+### Added
+
+- `ProfessionCalculator` class and `professionCalculator()` factory added to the `calculator` module
+  — 8 methods covering all sell-price profession bonuses: `artisan` (×1.4), `rancher` (×1.2),
+  `tiller` (×1.1), `blacksmith` (×1.5), `gemologist` (×1.3), `tapper` (×1.25), `fisher` (×1.25),
+  `angler` (×1.5); all use `Math.floor`
+- `KnowledgeCalculator` class and `knowledgeCalculator()` factory added to the `calculator` module —
+  `springOnionMastery` (×5) and `bearsKnowledge` (×3)
+- `ProfessionBonus` type added to `src/types/common.ts` —
+  `'artisan' | 'rancher' | 'tiller' | 'blacksmith' | 'gemologist' | 'tapper' | 'fisher' | 'angler'`
+- `KnowledgeBonus` type added to `src/types/common.ts` —
+  `'spring-onion-mastery' | 'bears-knowledge'`
+- `profession: ProfessionBonus[]` field added to 12 item interfaces and all corresponding data
+  entries — empty array means no profession bonus applies; most items carry one profession; Smoked
+  Fish carries two (`["artisan", "angler"]` — it benefits from both simultaneously); fish entries
+  carry `["fisher", "angler"]` to reflect the full level-5/level-10 fishing profession path:
+  - `Crop` (`data/crops.json`, 47 entries) — `["tiller"]`
+  - `Forageable` (`data/forageables.json`, 49 entries) — `[]` (Botanist affects quality, not price)
+  - `ArtisanGood` (`data/artisan-goods.json`, 30 entries) — `["artisan"]` for 26 goods, `["tapper"]`
+    for 4 tapper products (Oak Resin, Maple Syrup, Pine Tar, Mystic Syrup); Smoked Fish gets
+    `["artisan", "angler"]`
+  - `MineralItem` (`data/minerals.json`) — `["gemologist"]`
+  - `GeodeContainer`, `OreItem`, `ResourceItem` (`data/minerals.json`) — `[]`
+  - `BarItem` (`data/minerals.json`, 6 entries) — `["blacksmith"]`
+  - `AnimalProduce` (`data/animals.json`) — `["rancher"]`
+  - `Fish` (`data/fish.json`, 77 entries) — `["fisher", "angler"]` for 71 true fish; `[]` for
+    Seaweed, Green Algae, White Algae, Sea Jelly, River Jelly, Cave Jelly
+  - `FruitTreeProduce` (`data/trees.json`) — `["tiller"]`
+  - `WildTreeTapper` (`data/trees.json`) — `["tapper"]`
+- `knowledge: KnowledgeBonus[]` field added to `Forageable` type and all 49 forageable entries —
+  Spring Onion: `["spring-onion-mastery"]`; Blackberry and Salmonberry: `["bears-knowledge"]`; all
+  others: `[]`
+
 ## [0.13.0] - 2026-03-20
 
 ### Added
