@@ -159,3 +159,54 @@ export class ArtisanCalculator {
 export function artisanCalculator(): ArtisanCalculator {
   return new ArtisanCalculator();
 }
+
+/**
+ * Calculates sell prices with profession bonuses applied.
+ * Each method takes a base sell price and returns the adjusted value.
+ */
+export class ProfessionCalculator {
+  /** Artisan profession bonus: `Math.floor(price * 1.4)` */
+  artisan(price: number): number {
+    return Math.floor(price * 1.4);
+  }
+
+  /** Rancher profession bonus: `Math.floor(price * 1.2)` */
+  rancher(price: number): number {
+    return Math.floor(price * 1.2);
+  }
+
+  /** Tiller profession bonus: `Math.floor(price * 1.1)` */
+  tiller(price: number): number {
+    return Math.floor(price * 1.1);
+  }
+
+  /** Blacksmith profession bonus: `Math.floor(price * 1.5)` */
+  blacksmith(price: number): number {
+    return Math.floor(price * 1.5);
+  }
+
+  /** Gemologist profession bonus: `Math.floor(price * 1.3)` */
+  gemologist(price: number): number {
+    return Math.floor(price * 1.3);
+  }
+
+  /** Tapper profession bonus: `Math.floor(price * 1.25)` */
+  tapper(price: number): number {
+    return Math.floor(price * 1.25);
+  }
+
+  /** Fisher profession bonus: `Math.floor(price * 1.25)` */
+  fisher(price: number): number {
+    return Math.floor(price * 1.25);
+  }
+
+  /** Angler profession bonus: `Math.floor(price * 1.5)` */
+  angler(price: number): number {
+    return Math.floor(price * 1.5);
+  }
+}
+
+/** Returns a ProfessionCalculator instance for computing profession-adjusted sell prices. */
+export function professionCalculator(): ProfessionCalculator {
+  return new ProfessionCalculator();
+}

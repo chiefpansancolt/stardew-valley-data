@@ -1,4 +1,4 @@
-import { artisanCalculator, qualityCalculator } from '@/modules/calculator';
+import { artisanCalculator, professionCalculator, qualityCalculator } from '@/modules/calculator';
 import { existsSync } from 'fs';
 import { join } from 'path';
 
@@ -91,6 +91,34 @@ export function run(): { passed: number; failed: number } {
   console.log(
     `  sellPrice: ${smokedFish.sellPrice}g, energy: ${smokedFish.energy}, health: ${smokedFish.health}`,
   ); // 200g
+
+  const profession = professionCalculator();
+
+  console.log('\n=== PROFESSION CALCULATOR ===');
+
+  console.log('\n--- Artisan (Starfruit Wine: 2250g) ---');
+  console.log(`  artisan: ${profession.artisan(2250)}g`); // 3150
+
+  console.log('\n--- Rancher (Truffle: 625g) ---');
+  console.log(`  rancher: ${profession.rancher(625)}g`); // 750
+
+  console.log('\n--- Tiller (Starfruit: 750g) ---');
+  console.log(`  tiller: ${profession.tiller(750)}g`); // 825
+
+  console.log('\n--- Blacksmith (Gold Bar: 250g) ---');
+  console.log(`  blacksmith: ${profession.blacksmith(250)}g`); // 375
+
+  console.log('\n--- Gemologist (Diamond: 750g) ---');
+  console.log(`  gemologist: ${profession.gemologist(750)}g`); // 975
+
+  console.log('\n--- Tapper (Oak Resin: 150g) ---');
+  console.log(`  tapper: ${profession.tapper(150)}g`); // 187
+
+  console.log('\n--- Fisher (Tuna: 100g) ---');
+  console.log(`  fisher: ${profession.fisher(100)}g`); // 125
+
+  console.log('\n--- Angler (Legend: 5000g) ---');
+  console.log(`  angler: ${profession.angler(5000)}g`); // 7500
 
   console.log('\n--- Image validation ---');
   console.log(`Images: ${passed} OK, ${failed} missing`);

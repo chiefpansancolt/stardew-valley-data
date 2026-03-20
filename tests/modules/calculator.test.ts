@@ -1,4 +1,4 @@
-import { artisanCalculator, qualityCalculator } from '@/modules/calculator';
+import { artisanCalculator, professionCalculator, qualityCalculator } from '@/modules/calculator';
 
 describe('QualityCalculator', () => {
   const calc = qualityCalculator();
@@ -129,5 +129,73 @@ describe('artisanCalculator()', () => {
   it('artisanCalculator() factory returns an ArtisanCalculator', () => {
     const ac = artisanCalculator();
     expect(ac.roe(100).sellPrice).toBe(80);
+  });
+});
+
+describe('ProfessionCalculator', () => {
+  const calc = professionCalculator();
+
+  it('artisan(): floor(price * 1.4)', () => {
+    expect(calc.artisan(100)).toBe(140);
+    expect(calc.artisan(2250)).toBe(3150); // Starfruit Wine
+    expect(calc.artisan(33)).toBe(46); // floor(33 * 1.4) = 46
+  });
+
+  it('rancher(): floor(price * 1.2)', () => {
+    expect(calc.rancher(100)).toBe(120);
+    expect(calc.rancher(625)).toBe(750); // Truffle
+    expect(calc.rancher(33)).toBe(39); // floor(33 * 1.2) = 39
+  });
+
+  it('tiller(): floor(price * 1.1)', () => {
+    expect(calc.tiller(100)).toBe(110);
+    expect(calc.tiller(750)).toBe(825); // Starfruit
+    expect(calc.tiller(33)).toBe(36); // floor(33 * 1.1) = 36
+  });
+
+  it('blacksmith(): floor(price * 1.5)', () => {
+    expect(calc.blacksmith(100)).toBe(150);
+    expect(calc.blacksmith(250)).toBe(375); // Gold Bar
+    expect(calc.blacksmith(33)).toBe(49); // floor(33 * 1.5) = 49
+  });
+
+  it('gemologist(): floor(price * 1.3)', () => {
+    expect(calc.gemologist(100)).toBe(130);
+    expect(calc.gemologist(750)).toBe(975); // Diamond
+    expect(calc.gemologist(33)).toBe(42); // floor(33 * 1.3) = 42
+  });
+
+  it('tapper(): floor(price * 1.25)', () => {
+    expect(calc.tapper(100)).toBe(125);
+    expect(calc.tapper(150)).toBe(187); // Oak Resin
+    expect(calc.tapper(33)).toBe(41); // floor(33 * 1.25) = 41
+  });
+
+  it('fisher(): floor(price * 1.25)', () => {
+    expect(calc.fisher(100)).toBe(125);
+    expect(calc.fisher(200)).toBe(250); // Catfish
+    expect(calc.fisher(33)).toBe(41); // floor(33 * 1.25) = 41
+  });
+
+  it('angler(): floor(price * 1.5)', () => {
+    expect(calc.angler(100)).toBe(150);
+    expect(calc.angler(5000)).toBe(7500); // Legend
+    expect(calc.angler(33)).toBe(49); // floor(33 * 1.5) = 49
+  });
+
+  it('handles zero price', () => {
+    expect(calc.artisan(0)).toBe(0);
+    expect(calc.rancher(0)).toBe(0);
+    expect(calc.tiller(0)).toBe(0);
+    expect(calc.blacksmith(0)).toBe(0);
+    expect(calc.gemologist(0)).toBe(0);
+    expect(calc.tapper(0)).toBe(0);
+    expect(calc.fisher(0)).toBe(0);
+    expect(calc.angler(0)).toBe(0);
+  });
+
+  it('professionCalculator() factory returns a ProfessionCalculator', () => {
+    const pc = professionCalculator();
+    expect(pc.artisan(100)).toBe(140);
   });
 });
