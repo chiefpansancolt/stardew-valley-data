@@ -59,5 +59,12 @@
       "shadow-sniper",
       "haunted-skull"
     ]
+  },
+  {
+    "id": "852",
+    "name": "Dragon Tooth",
+    "sellPrice": 500,
+    "image": "images/monsters/monster-loot/Dragon Tooth.png",
+    "droppedBy": ["lava-lurk"]
   }
 ]
