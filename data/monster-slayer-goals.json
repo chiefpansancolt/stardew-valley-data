@@ -3,7 +3,7 @@
     "id": "Slimes",
     "name": "Slime",
     "killTarget": 1000,
-    "monsters": ["Green Slime", "Frost Jelly", "Sludge", "Tiger Slime"],
+    "monsters": ["Green Slime", "Frost Jelly", "Big Slime", "Tiger Slime", "Prismatic Slime"],
     "reward": {
       "name": "Slime Charmer Ring",
       "itemId": "(O)520",
@@ -14,7 +14,7 @@
     "id": "Shadows",
     "name": "Void Spirits",
     "killTarget": 150,
-    "monsters": ["Shadow Guy", "Shadow Shaman", "Shadow Brute", "Shadow Sniper"],
+    "monsters": ["Shadow Shaman", "Shadow Brute", "Shadow Sniper"],
     "reward": {
       "name": "Savage Ring",
       "itemId": "(O)523",
@@ -47,7 +47,7 @@
     "id": "Insects",
     "name": "Cave Insects",
     "killTarget": 80,
-    "monsters": ["Grub", "Fly", "Bug"],
+    "monsters": ["Grub", "Cave Fly", "Bug"],
     "reward": {
       "name": "Insect Head",
       "itemId": "(W)13",

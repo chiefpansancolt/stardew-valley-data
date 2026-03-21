@@ -12,17 +12,6 @@
     "dangerous": false,
     "variants": [
       {
-        "name": "Blue Slime",
-        "hp": 106,
-        "damage": 7,
-        "speed": 0,
-        "xp": 6,
-        "image": "images/monsters/Blue Slime.png",
-        "locations": ["The Mines (Floors 41-79)", "The Farm"],
-        "lootIds": ["766"],
-        "dangerous": false
-      },
-      {
         "name": "Red Slime",
         "hp": 205,
         "damage": 16,
@@ -67,6 +56,19 @@
         "dangerous": false
       }
     ]
+  },
+  {
+    "id": "Frost Jelly",
+    "name": "Frost Jelly",
+    "hp": 106,
+    "damage": 7,
+    "speed": 0,
+    "xp": 6,
+    "image": "images/monsters/Blue Slime.png",
+    "locations": ["The Mines (Floors 41-79)", "The Farm"],
+    "lootIds": ["766"],
+    "dangerous": false,
+    "variants": []
   },
   {
     "id": "Big Slime",
@@ -622,5 +624,18 @@
     "locations": ["Volcano Dungeon"],
     "lootIds": [],
     "dangerous": false
+  },
+  {
+    "id": "Prismatic Slime",
+    "name": "Prismatic Slime",
+    "hp": 1000,
+    "damage": 35,
+    "speed": 2,
+    "xp": 10,
+    "image": "images/monsters/Prismatic Slime.gif",
+    "locations": ["The Mines", "Quarry Mine", "Skull Cavern"],
+    "lootIds": ["766", "74"],
+    "dangerous": false,
+    "variants": []
   }
 ]
