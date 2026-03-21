@@ -26,7 +26,8 @@
         "image": "images/seasons/festivals/Flower Dance.jpg",
         "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
       }
-    ]
+    ],
+    "bookseller": [11, 12, 21, 22, 25]
   },
   {
     "id": "summer",
@@ -55,7 +56,8 @@
         "image": "images/seasons/festivals/Dance of the Moonlight Jellies.jpg",
         "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
       }
-    ]
+    ],
+    "bookseller": [9, 12, 18, 25, 27]
   },
   {
     "id": "fall",
@@ -77,7 +79,8 @@
         "image": "images/seasons/festivals/Spirit's Eve.png",
         "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
       }
-    ]
+    ],
+    "bookseller": [4, 7, 8, 9, 12, 19, 22, 25]
   },
   {
     "id": "winter",
@@ -113,6 +116,7 @@
         "image": "images/seasons/festivals/Feast of the Winter Star.png",
         "calendarIcon": "images/seasons/calendar-icons/Festival Flag.gif"
       }
-    ]
+    ],
+    "bookseller": [5, 11, 12, 19, 22, 24]
   }
 ]

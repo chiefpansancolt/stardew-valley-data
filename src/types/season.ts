@@ -12,4 +12,5 @@ export interface SeasonData {
   totalDays: number;
   image: string;
   festivals: Festival[];
+  bookseller: number[];
 }
