@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.15.0] - 2026-03-20
+
+### Added
+
+- `GeodeContent` interface added to `src/types/mineral.ts` —
+  `{ name: string; image?: string; quantity?: string; chance?: string }`
+- `contents?: GeodeContent[]` field added to `GeodeContainer` type — optional drop table listing all
+  possible outputs for a given container
+- **Artifact Trove** (`id: "275"`) added to `data/minerals.json` — opened at the Blacksmith for 25g;
+  28 equally weighted (~3.6%) possible outputs covering all 24 artifacts plus Golden Pumpkin, Pearl,
+  Treasure Appraisal Guide, and Treasure Chest
+- **Golden Coconut** (`id: "791"`) added to `data/minerals.json` — Ginger Island container; first
+  crack always yields a Golden Walnut; subsequent drops from a pool of 8 items including Banana
+  Sapling, Mango Sapling, Fossilized Skull, and Iridium Ore
+- **Mystery Box** (`id: "MysteryBox"`) added to `data/minerals.json` — 63 possible outputs with
+  published chance rates; rare drops (Prismatic Shard, Pearl, Book of Stars, etc.) only unlock after
+  opening 10 or more boxes
+- **Golden Mystery Box** (`id: "GoldenMysteryBox"`) added to `data/minerals.json` — 65 possible
+  outputs with improved rates over Mystery Box and no 10+ box unlock requirement; exclusive items:
+  Golden Animal Cracker and Auto-Petter
+- `images/misc/Golden Pumpkin.png` and `images/misc/Treasure Chest.png` downloaded (48×48)
+
 ## [0.14.0] - 2026-03-20
 
 ### Added
