@@ -1306,5 +1306,1003 @@
       "Artifact Spots"
     ],
     "image": "images/minerals/resources/Bone Fragment.png"
+  },
+  {
+    "id": "275",
+    "name": "Artifact Trove",
+    "kind": "geode",
+    "description": "A blacksmith can break this open for you. Contains a random artifact.",
+    "sellPrice": 0,
+    "profession": [],
+    "locations": ["Desert Trader (3 Omni Geodes)", "Skeleton Drops", "Fishing Treasure Chest"],
+    "image": "images/minerals/geodes/Artifact Trove.png",
+    "contents": [
+      {
+        "name": "Anchor",
+        "image": "images/artifacts/Anchor.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Ancient Doll",
+        "image": "images/artifacts/Ancient Doll.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Ancient Drum",
+        "image": "images/artifacts/Ancient Drum.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Ancient Seed",
+        "image": "images/artifacts/Ancient Seed.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Ancient Sword",
+        "image": "images/artifacts/Ancient Sword.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Arrowhead",
+        "image": "images/artifacts/Arrowhead.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Bone Flute",
+        "image": "images/artifacts/Bone Flute.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Chewing Stick",
+        "image": "images/artifacts/Chewing Stick.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Chicken Statue",
+        "image": "images/artifacts/Chicken Statue.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Chipped Amphora",
+        "image": "images/artifacts/Chipped Amphora.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Dried Starfish",
+        "image": "images/artifacts/Dried Starfish.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Dwarf Gadget",
+        "image": "images/artifacts/Dwarf Gadget.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Dwarvish Helm",
+        "image": "images/artifacts/Dwarvish Helm.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Elvish Jewelry",
+        "image": "images/artifacts/Elvish Jewelry.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Glass Shards",
+        "image": "images/artifacts/Glass Shards.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Golden Mask",
+        "image": "images/artifacts/Golden Mask.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "chance": "~3.6%",
+        "image": "images/misc/Golden Pumpkin.png"
+      },
+      {
+        "name": "Golden Relic",
+        "image": "images/artifacts/Golden Relic.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Ornamental Fan",
+        "image": "images/artifacts/Ornamental Fan.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Pearl",
+        "image": "images/minerals/Pearl.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Prehistoric Handaxe",
+        "image": "images/artifacts/Prehistoric Handaxe.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Prehistoric Tool",
+        "image": "images/artifacts/Prehistoric Tool.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Rare Disc",
+        "image": "images/artifacts/Rare Disc.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Rusty Cog",
+        "image": "images/artifacts/Rusty Cog.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Rusty Spoon",
+        "image": "images/artifacts/Rusty Spoon.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Rusty Spur",
+        "image": "images/artifacts/Rusty Spur.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Treasure Appraisal Guide",
+        "image": "images/special-items/Treasure Appraisal Guide.png",
+        "chance": "~3.6%"
+      },
+      {
+        "name": "Treasure Chest",
+        "chance": "~3.6%",
+        "image": "images/misc/Treasure Chest.png"
+      }
+    ]
+  },
+  {
+    "id": "791",
+    "name": "Golden Coconut",
+    "kind": "geode",
+    "description": "A blacksmith can crack this open. The first one always yields a Golden Walnut.",
+    "sellPrice": 0,
+    "profession": [],
+    "locations": ["Ginger Island (dropped by enemies)", "Ginger Island (foraged)"],
+    "image": "images/minerals/geodes/Golden Coconut.png",
+    "contents": [
+      {
+        "name": "Golden Walnut",
+        "image": "images/misc/Golden Walnut.png",
+        "quantity": "1",
+        "chance": "100% (first only)"
+      },
+      {
+        "name": "Banana Sapling",
+        "image": "images/trees/banana/seed.png",
+        "quantity": "1"
+      },
+      {
+        "name": "Mango Sapling",
+        "image": "images/trees/mango/seed.png",
+        "quantity": "1"
+      },
+      {
+        "name": "Pineapple Seeds",
+        "image": "images/crops/pineapple/seed.png",
+        "quantity": "5"
+      },
+      {
+        "name": "Taro Tuber",
+        "image": "images/crops/taro-root/seed.png",
+        "quantity": "5"
+      },
+      {
+        "name": "Mahogany Seed",
+        "image": "images/trees/mahogany/seed.png",
+        "quantity": "1"
+      },
+      {
+        "name": "Fossilized Skull",
+        "image": "images/artifacts/field-office/Fossilized Skull.png",
+        "quantity": "1"
+      },
+      {
+        "name": "Iridium Ore",
+        "image": "images/minerals/ore/Iridium Ore.png",
+        "quantity": "5"
+      },
+      {
+        "name": "Golden Helmet",
+        "image": "images/hats/Golden Helmet.png",
+        "quantity": "1"
+      }
+    ]
+  },
+  {
+    "id": "MysteryBox",
+    "name": "Mystery Box",
+    "kind": "geode",
+    "description": "Open to reveal a random item. Rare drops unlock after opening 10 or more boxes.",
+    "sellPrice": 0,
+    "profession": [],
+    "locations": ["Fishing", "Monster Drops", "Various Events"],
+    "image": "images/minerals/geodes/Mystery Box.png",
+    "contents": [
+      {
+        "name": "Magic Rock Candy",
+        "image": "images/shop/Magic Rock Candy.png",
+        "quantity": "1",
+        "chance": "0.2%"
+      },
+      {
+        "name": "Prismatic Shard",
+        "image": "images/minerals/gems/Prismatic Shard.png",
+        "quantity": "1",
+        "chance": "0.4%"
+      },
+      {
+        "name": "Treasure Chest",
+        "quantity": "1",
+        "chance": "0.8%",
+        "image": "images/misc/Treasure Chest.png"
+      },
+      {
+        "name": "Book of Stars",
+        "image": "images/special-items/Book Of Stars.png",
+        "quantity": "1",
+        "chance": "0.49%"
+      },
+      {
+        "name": "Book of Mysteries",
+        "image": "images/special-items/Book of Mysteries.png",
+        "quantity": "1",
+        "chance": "0.49%"
+      },
+      {
+        "name": "Pearl",
+        "image": "images/minerals/Pearl.png",
+        "quantity": "1",
+        "chance": "0.49%"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "quantity": "1",
+        "chance": "0.49%",
+        "image": "images/misc/Golden Pumpkin.png"
+      },
+      {
+        "name": "Mystery Hat",
+        "image": "images/hats/Mystery Hat.png",
+        "quantity": "1",
+        "chance": "0.97%"
+      },
+      {
+        "name": "Mystery Shirt",
+        "quantity": "1",
+        "chance": "0.96%"
+      },
+      {
+        "name": "Wallpaper",
+        "quantity": "1",
+        "chance": "0.95%"
+      },
+      {
+        "name": "Mega Bomb",
+        "image": "images/craftable/bombs/Mega Bomb.png",
+        "quantity": "5",
+        "chance": "0.63%"
+      },
+      {
+        "name": "Triple Shot Espresso",
+        "image": "images/cooking/Triple Shot Espresso.png",
+        "quantity": "3",
+        "chance": "0.63%"
+      },
+      {
+        "name": "Dressed Spinner",
+        "image": "images/fish/tackle/Dressed Spinner.png",
+        "quantity": "1",
+        "chance": "0-0.16%"
+      },
+      {
+        "name": "Cork Bobber",
+        "image": "images/fish/tackle/Cork Bobber.png",
+        "quantity": "1",
+        "chance": "0-0.16%"
+      },
+      {
+        "name": "Dish O' The Sea",
+        "image": "images/cooking/Dish O' The Sea.png",
+        "quantity": "2",
+        "chance": "0.31-0.63%"
+      },
+      {
+        "name": "Lucky Lunch",
+        "image": "images/cooking/Lucky Lunch.png",
+        "quantity": "1-2",
+        "chance": "0.13-0.63%"
+      },
+      {
+        "name": "Quality Fertilizer",
+        "image": "images/craftable/fertilizer/Quality Fertilizer.png",
+        "quantity": "10-20",
+        "chance": "0.63-6.03%"
+      },
+      {
+        "name": "Deluxe Speed-Gro",
+        "image": "images/craftable/fertilizer/Deluxe Speed-Gro.png",
+        "quantity": "10-20",
+        "chance": "0.63-6.03%"
+      },
+      {
+        "name": "Life Elixir",
+        "image": "images/craftable/edible-items/Life Elixir.png",
+        "quantity": "2",
+        "chance": "0.63%"
+      },
+      {
+        "name": "Warp Totem: Farm",
+        "image": "images/craftable/consumables/Warp Totem Farm.png",
+        "quantity": "1-3",
+        "chance": "0.63-6.03%"
+      },
+      {
+        "name": "Cherry Sapling",
+        "image": "images/trees/cherry/seed.png",
+        "quantity": "1",
+        "chance": "0.1%"
+      },
+      {
+        "name": "Apricot Sapling",
+        "image": "images/trees/apricot/seed.png",
+        "quantity": "1",
+        "chance": "0.1%"
+      },
+      {
+        "name": "Orange Sapling",
+        "image": "images/trees/orange/seed.png",
+        "quantity": "1",
+        "chance": "0.1%"
+      },
+      {
+        "name": "Peach Sapling",
+        "image": "images/trees/peach/seed.png",
+        "quantity": "1",
+        "chance": "0.1%"
+      },
+      {
+        "name": "Pomegranate Sapling",
+        "image": "images/trees/pomegranate/seed.png",
+        "quantity": "1",
+        "chance": "0.1%"
+      },
+      {
+        "name": "Apple Sapling",
+        "image": "images/trees/apple/seed.png",
+        "quantity": "1",
+        "chance": "0.1%"
+      },
+      {
+        "name": "Parsnip Seeds",
+        "image": "images/crops/parsnip/seed.png",
+        "quantity": "8-20",
+        "chance": "0.5-1.51%"
+      },
+      {
+        "name": "Green Bean Seeds",
+        "image": "images/crops/green-bean/seed.png",
+        "quantity": "8-20",
+        "chance": "0.5-1.51%"
+      },
+      {
+        "name": "Cauliflower Seeds",
+        "image": "images/crops/cauliflower/seed.png",
+        "quantity": "8-20",
+        "chance": "0.5-1.51%"
+      },
+      {
+        "name": "Potato Seeds",
+        "image": "images/crops/potato/seed.png",
+        "quantity": "8-20",
+        "chance": "0.5-1.51%"
+      },
+      {
+        "name": "Corn Seeds",
+        "image": "images/crops/corn/seed.png",
+        "quantity": "8-20",
+        "chance": "0.1-1.51%"
+      },
+      {
+        "name": "Wheat Seeds",
+        "image": "images/crops/wheat/seed.png",
+        "quantity": "8-20",
+        "chance": "0.05-1.51%"
+      },
+      {
+        "name": "Hot Pepper Seeds",
+        "image": "images/crops/hot-pepper/seed.png",
+        "quantity": "8-20",
+        "chance": "0.05-1.51%"
+      },
+      {
+        "name": "Radish Seeds",
+        "image": "images/crops/radish/seed.png",
+        "quantity": "8-20",
+        "chance": "0.05-1.51%"
+      },
+      {
+        "name": "Eggplant Seeds",
+        "image": "images/crops/eggplant/seed.png",
+        "quantity": "8-20",
+        "chance": "0.05-1.51%"
+      },
+      {
+        "name": "Artichoke Seeds",
+        "image": "images/crops/artichoke/seed.png",
+        "quantity": "8-20",
+        "chance": "0.05-1.51%"
+      },
+      {
+        "name": "Pumpkin Seeds",
+        "image": "images/crops/pumpkin/seed.png",
+        "quantity": "8-20",
+        "chance": "0.05-1.51%"
+      },
+      {
+        "name": "Carrot Seeds",
+        "image": "images/crops/carrot/seed.png",
+        "quantity": "8",
+        "chance": "0.63%"
+      },
+      {
+        "name": "Summer Squash Seeds",
+        "image": "images/crops/summer-squash/seed.png",
+        "quantity": "8",
+        "chance": "0.63%"
+      },
+      {
+        "name": "Broccoli Seeds",
+        "image": "images/crops/broccoli/seed.png",
+        "quantity": "8",
+        "chance": "0.63%"
+      },
+      {
+        "name": "Powdermelon Seeds",
+        "image": "images/crops/powdermelon/seed.png",
+        "quantity": "8",
+        "chance": "0.63%"
+      },
+      {
+        "name": "Ossified Blade",
+        "image": "images/weapons/swords/Ossified Blade.png",
+        "quantity": "1",
+        "chance": "0.31%"
+      },
+      {
+        "name": "Emerald Ring",
+        "image": "images/rings/Emerald Ring.png",
+        "quantity": "1",
+        "chance": "0.16%"
+      },
+      {
+        "name": "Ruby Ring",
+        "image": "images/rings/Ruby Ring.png",
+        "quantity": "1",
+        "chance": "0.16%"
+      },
+      {
+        "name": "Quality Sprinkler",
+        "image": "images/craftable/sprinklers/Quality Sprinkler.png",
+        "quantity": "1",
+        "chance": "0.63%"
+      },
+      {
+        "name": "Mystery Box",
+        "image": "images/minerals/geodes/Mystery Box.png",
+        "quantity": "2-4",
+        "chance": "0.63-3.62%"
+      },
+      {
+        "name": "Stardew Valley Almanac",
+        "image": "images/special-items/Stardew Valley Almanac.png",
+        "quantity": "1",
+        "chance": "0.13%"
+      },
+      {
+        "name": "Bait And Bobber",
+        "image": "images/special-items/Bait And Bobber.png",
+        "quantity": "1",
+        "chance": "0.13%"
+      },
+      {
+        "name": "Woodcutter's Weekly",
+        "image": "images/special-items/Woodcutter's Weekly.png",
+        "quantity": "1",
+        "chance": "0.13%"
+      },
+      {
+        "name": "Mining Monthly",
+        "image": "images/special-items/Mining Monthly.png",
+        "quantity": "1",
+        "chance": "0.13%"
+      },
+      {
+        "name": "Combat Quarterly",
+        "image": "images/special-items/Combat Quarterly.png",
+        "quantity": "1",
+        "chance": "0.13%"
+      },
+      {
+        "name": "Coffee",
+        "image": "images/artisan-goods/Coffee.png",
+        "quantity": "3",
+        "chance": "6.03%"
+      },
+      {
+        "name": "Bomb",
+        "image": "images/craftable/bombs/Bomb.png",
+        "quantity": "5",
+        "chance": "6.03%"
+      },
+      {
+        "name": "Hardwood",
+        "image": "images/forageables/Hardwood.png",
+        "quantity": "10",
+        "chance": "6.03%"
+      },
+      {
+        "name": "Warp Totem: Mountains",
+        "image": "images/craftable/consumables/Warp Totem Mountains.png",
+        "quantity": "1",
+        "chance": "6.03%"
+      },
+      {
+        "name": "Warp Totem: Beach",
+        "image": "images/craftable/consumables/Warp Totem Beach.png",
+        "quantity": "1",
+        "chance": "6.03%"
+      },
+      {
+        "name": "Mixed Seeds",
+        "image": "images/mixed-seeds/mixed-seeds.png",
+        "quantity": "10",
+        "chance": "6.03%"
+      },
+      {
+        "name": "Mixed Flower Seeds",
+        "image": "images/mixed-seeds/mixed-flower-seeds.png",
+        "quantity": "10",
+        "chance": "6.03%"
+      },
+      {
+        "name": "Sturdy Ring",
+        "image": "images/rings/Sturdy Ring.png",
+        "quantity": "1",
+        "chance": "0.3-0.6%"
+      },
+      {
+        "name": "Amethyst Ring",
+        "image": "images/rings/Amethyst Ring.png",
+        "quantity": "1",
+        "chance": "0.3-0.6%"
+      },
+      {
+        "name": "Glowstone Ring",
+        "image": "images/rings/Glowstone Ring.png",
+        "quantity": "1",
+        "chance": "0.3-0.6%"
+      },
+      {
+        "name": "Aquamarine Ring",
+        "image": "images/rings/Aquamarine Ring.png",
+        "quantity": "1",
+        "chance": "0.3%"
+      },
+      {
+        "name": "Jade Ring",
+        "image": "images/rings/Jade Ring.png",
+        "quantity": "1",
+        "chance": "0.3%"
+      }
+    ]
+  },
+  {
+    "id": "GoldenMysteryBox",
+    "name": "Golden Mystery Box",
+    "kind": "geode",
+    "description": "Open to reveal a random item. Better odds than a Mystery Box, with two exclusive items.",
+    "sellPrice": 0,
+    "profession": [],
+    "locations": ["Various Events", "Special Rewards"],
+    "image": "images/minerals/geodes/Golden Mystery Box.png",
+    "contents": [
+      {
+        "name": "Golden Animal Cracker",
+        "image": "images/misc/Golden Animal Cracker.png",
+        "quantity": "1",
+        "chance": "0.5%"
+      },
+      {
+        "name": "Auto-Petter",
+        "image": "images/tools/Auto-Petter.png",
+        "quantity": "1",
+        "chance": "0.5%"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "image": "images/shop/Magic Rock Candy.png",
+        "quantity": "1",
+        "chance": "0.4%"
+      },
+      {
+        "name": "Prismatic Shard",
+        "image": "images/minerals/gems/Prismatic Shard.png",
+        "quantity": "1",
+        "chance": "0.79%"
+      },
+      {
+        "name": "Treasure Chest",
+        "quantity": "1",
+        "chance": "1.57%",
+        "image": "images/misc/Treasure Chest.png"
+      },
+      {
+        "name": "Book of Stars",
+        "image": "images/special-items/Book Of Stars.png",
+        "quantity": "1",
+        "chance": "0.96%"
+      },
+      {
+        "name": "Book of Mysteries",
+        "image": "images/special-items/Book of Mysteries.png",
+        "quantity": "1",
+        "chance": "0.96%"
+      },
+      {
+        "name": "Pearl",
+        "image": "images/minerals/Pearl.png",
+        "quantity": "1",
+        "chance": "0.94%"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "quantity": "1",
+        "chance": "0.94%",
+        "image": "images/misc/Golden Pumpkin.png"
+      },
+      {
+        "name": "Mystery Hat",
+        "image": "images/hats/Mystery Hat.png",
+        "quantity": "1",
+        "chance": "1.85%"
+      },
+      {
+        "name": "Mystery Shirt",
+        "quantity": "1",
+        "chance": "1.81%"
+      },
+      {
+        "name": "Wallpaper",
+        "quantity": "1",
+        "chance": "1.78%"
+      },
+      {
+        "name": "Mega Bomb",
+        "image": "images/craftable/bombs/Mega Bomb.png",
+        "quantity": "5",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Triple Shot Espresso",
+        "image": "images/cooking/Triple Shot Espresso.png",
+        "quantity": "3",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Dressed Spinner",
+        "image": "images/fish/tackle/Dressed Spinner.png",
+        "quantity": "1",
+        "chance": "0-1.45%"
+      },
+      {
+        "name": "Cork Bobber",
+        "image": "images/fish/tackle/Cork Bobber.png",
+        "quantity": "1",
+        "chance": "0-1.45%"
+      },
+      {
+        "name": "Dish O' The Sea",
+        "image": "images/cooking/Dish O' The Sea.png",
+        "quantity": "2",
+        "chance": "2.9-5.8%"
+      },
+      {
+        "name": "Lucky Lunch",
+        "image": "images/cooking/Lucky Lunch.png",
+        "quantity": "2",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Quality Fertilizer",
+        "image": "images/craftable/fertilizer/Quality Fertilizer.png",
+        "quantity": "20",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Deluxe Speed-Gro",
+        "image": "images/craftable/fertilizer/Deluxe Speed-Gro.png",
+        "quantity": "20",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Life Elixir",
+        "image": "images/craftable/edible-items/Life Elixir.png",
+        "quantity": "2",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Warp Totem: Farm",
+        "image": "images/craftable/consumables/Warp Totem Farm.png",
+        "quantity": "3",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Cherry Sapling",
+        "image": "images/trees/cherry/seed.png",
+        "quantity": "1",
+        "chance": "0.97%"
+      },
+      {
+        "name": "Apricot Sapling",
+        "image": "images/trees/apricot/seed.png",
+        "quantity": "1",
+        "chance": "0.97%"
+      },
+      {
+        "name": "Orange Sapling",
+        "image": "images/trees/orange/seed.png",
+        "quantity": "1",
+        "chance": "0.97%"
+      },
+      {
+        "name": "Peach Sapling",
+        "image": "images/trees/peach/seed.png",
+        "quantity": "1",
+        "chance": "0.97%"
+      },
+      {
+        "name": "Pomegranate Sapling",
+        "image": "images/trees/pomegranate/seed.png",
+        "quantity": "1",
+        "chance": "0.97%"
+      },
+      {
+        "name": "Apple Sapling",
+        "image": "images/trees/apple/seed.png",
+        "quantity": "1",
+        "chance": "0.97%"
+      },
+      {
+        "name": "Parsnip Seeds",
+        "image": "images/crops/parsnip/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Green Bean Seeds",
+        "image": "images/crops/green-bean/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Cauliflower Seeds",
+        "image": "images/crops/cauliflower/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Potato Seeds",
+        "image": "images/crops/potato/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Corn Seeds",
+        "image": "images/crops/corn/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Wheat Seeds",
+        "image": "images/crops/wheat/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Hot Pepper Seeds",
+        "image": "images/crops/hot-pepper/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Radish Seeds",
+        "image": "images/crops/radish/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Eggplant Seeds",
+        "image": "images/crops/eggplant/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Artichoke Seeds",
+        "image": "images/crops/artichoke/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Pumpkin Seeds",
+        "image": "images/crops/pumpkin/seed.png",
+        "quantity": "20",
+        "chance": "0.48-1.45%"
+      },
+      {
+        "name": "Carrot Seeds",
+        "image": "images/crops/carrot/seed.png",
+        "quantity": "8",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Summer Squash Seeds",
+        "image": "images/crops/summer-squash/seed.png",
+        "quantity": "8",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Broccoli Seeds",
+        "image": "images/crops/broccoli/seed.png",
+        "quantity": "8",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Powdermelon Seeds",
+        "image": "images/crops/powdermelon/seed.png",
+        "quantity": "8",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Ossified Blade",
+        "image": "images/weapons/swords/Ossified Blade.png",
+        "quantity": "1",
+        "chance": "2.9%"
+      },
+      {
+        "name": "Emerald Ring",
+        "image": "images/rings/Emerald Ring.png",
+        "quantity": "1",
+        "chance": "1.45%"
+      },
+      {
+        "name": "Ruby Ring",
+        "image": "images/rings/Ruby Ring.png",
+        "quantity": "1",
+        "chance": "1.45%"
+      },
+      {
+        "name": "Quality Sprinkler",
+        "image": "images/craftable/sprinklers/Quality Sprinkler.png",
+        "quantity": "1",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Mystery Box",
+        "image": "images/minerals/geodes/Mystery Box.png",
+        "quantity": "3-4",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Stardew Valley Almanac",
+        "image": "images/special-items/Stardew Valley Almanac.png",
+        "quantity": "1",
+        "chance": "1.16%"
+      },
+      {
+        "name": "Bait And Bobber",
+        "image": "images/special-items/Bait And Bobber.png",
+        "quantity": "1",
+        "chance": "1.16%"
+      },
+      {
+        "name": "Woodcutter's Weekly",
+        "image": "images/special-items/Woodcutter's Weekly.png",
+        "quantity": "1",
+        "chance": "1.16%"
+      },
+      {
+        "name": "Mining Monthly",
+        "image": "images/special-items/Mining Monthly.png",
+        "quantity": "1",
+        "chance": "1.16%"
+      },
+      {
+        "name": "Combat Quarterly",
+        "image": "images/special-items/Combat Quarterly.png",
+        "quantity": "1",
+        "chance": "1.16%"
+      },
+      {
+        "name": "Coffee",
+        "image": "images/artisan-goods/Coffee.png",
+        "quantity": "3",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Bomb",
+        "image": "images/craftable/bombs/Bomb.png",
+        "quantity": "5",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Hardwood",
+        "image": "images/forageables/Hardwood.png",
+        "quantity": "10",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Warp Totem: Mountains",
+        "image": "images/craftable/consumables/Warp Totem Mountains.png",
+        "quantity": "1",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Warp Totem: Beach",
+        "image": "images/craftable/consumables/Warp Totem Beach.png",
+        "quantity": "1",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Mixed Seeds",
+        "image": "images/mixed-seeds/mixed-seeds.png",
+        "quantity": "10",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Mixed Flower Seeds",
+        "image": "images/mixed-seeds/mixed-flower-seeds.png",
+        "quantity": "10",
+        "chance": "5.8%"
+      },
+      {
+        "name": "Sturdy Ring",
+        "image": "images/rings/Sturdy Ring.png",
+        "quantity": "1",
+        "chance": "2.9%"
+      },
+      {
+        "name": "Amethyst Ring",
+        "image": "images/rings/Amethyst Ring.png",
+        "quantity": "1",
+        "chance": "2.9%"
+      },
+      {
+        "name": "Glowstone Ring",
+        "image": "images/rings/Glowstone Ring.png",
+        "quantity": "1",
+        "chance": "2.9%"
+      },
+      {
+        "name": "Aquamarine Ring",
+        "image": "images/rings/Aquamarine Ring.png",
+        "quantity": "1",
+        "chance": "2.9%"
+      },
+      {
+        "name": "Jade Ring",
+        "image": "images/rings/Jade Ring.png",
+        "quantity": "1",
+        "chance": "2.9%"
+      }
+    ]
   }
 ]

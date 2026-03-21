@@ -20,6 +20,13 @@ export interface MineralItem {
   image: string;
 }
 
+export interface GeodeContent {
+  name: string;
+  image?: string;
+  quantity?: string;
+  chance?: string;
+}
+
 export interface GeodeContainer {
   id: string;
   name: string;
@@ -29,6 +36,7 @@ export interface GeodeContainer {
   profession: ProfessionBonus[];
   locations: string[];
   image: string;
+  contents?: GeodeContent[];
 }
 
 export interface OreItem {
