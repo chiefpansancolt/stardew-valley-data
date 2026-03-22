@@ -1,5 +1,5 @@
 import { parseAchievements } from './parsers/v1/achievements';
-import { parseAnimals } from './parsers/v1/animals';
+import { parseAnimals, parseFishPonds } from './parsers/v1/animals';
 import { parseBuildings } from './parsers/v1/buildings';
 import { parseBundles } from './parsers/v1/bundles';
 import { parseCommunityCenter } from './parsers/v1/community-center';
@@ -60,6 +60,7 @@ const v1: ParserSetFn = (ctx) => ({
   stardrops: parseStardrops(ctx.player.mailReceived),
   stats: parseStats(ctx.player),
   animals: parseAnimals(ctx.root),
+  fishPonds: parseFishPonds(ctx.root),
   buildings: parseBuildings(ctx.root),
   cookingRecipes: parseCookingRecipes(ctx.player.cookingRecipes, ctx.player.recipesCooked),
   craftingRecipes: parseCraftingRecipes(ctx.player.craftingRecipes),

@@ -16,6 +16,7 @@ export interface SaveData {
   stardrops: SaveStardropEntry[];
   stats: SaveStats;
   animals: SaveAnimal[];
+  fishPonds: SaveFishPond[];
   buildings: SaveBuilding[];
   cookingRecipes: SaveRecipeEntry[];
   craftingRecipes: SaveRecipeEntry[];
@@ -170,6 +171,14 @@ export interface SaveAnimal {
   happiness: number;
   age: number;
   hasAnimalCracker: boolean;
+}
+
+/** A fish pond building with the fish species and population. */
+export interface SaveFishPond {
+  buildingId: string;
+  fishType: number;
+  currentOccupants: number;
+  maxOccupants: number;
 }
 
 /** A farm building with its type, position, and current animal count. */

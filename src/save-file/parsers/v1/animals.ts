@@ -1,4 +1,4 @@
-import type { SaveAnimal } from '../../types';
+import type { SaveAnimal, SaveFishPond } from '../../types';
 import { ensureArray, num, str } from '../util';
 
 /** Parse farm animal data from all building interiors in the save file root. */
@@ -40,6 +40,41 @@ export function parseAnimals(root: any): SaveAnimal[] {
             fa.hasEatenAnimalCracker === true || fa.hasEatenAnimalCracker === 'true',
         });
       }
+    }
+    break;
+  }
+  return result;
+}
+
+/** Parse fish pond data from FishPond buildings on the farm. */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function parseFishPonds(root: any): SaveFishPond[] {
+  const result: SaveFishPond[] = [];
+  const locations = ensureArray(root.locations?.GameLocation);
+
+  for (const loc of locations) {
+    const l = loc as Record<string, unknown>;
+    if (str(l.name) !== 'Farm') continue;
+
+    const buildings = ensureArray((l.buildings as Record<string, unknown>)?.Building);
+
+    for (const building of buildings) {
+      const b = building as Record<string, unknown>;
+      const xsiType = str(
+        (b as Record<string, string>)['@_xsi:type'] ?? (b as Record<string, string>)['@_type'],
+      );
+      if (xsiType !== 'FishPond') continue;
+
+      const fishTypeRaw = b.fishType as Record<string, unknown> | undefined;
+      const fishType = num(fishTypeRaw?.int);
+      if (fishType === 0) continue;
+
+      result.push({
+        buildingId: str(b.id),
+        fishType,
+        currentOccupants: num(b.currentOccupants),
+        maxOccupants: num(b.maxOccupants),
+      });
     }
     break;
   }
