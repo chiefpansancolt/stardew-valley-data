@@ -19,8 +19,8 @@ const EXTRA_POWERS: Array<{
   name: string;
   check: (mail: Set<string>) => boolean;
 }> = [
-  { id: 'prairie-king-victory', name: 'Prairie King Victory', check: (m) => m.has('Beat_PK') },
-  { id: 'junimo-kart-victory', name: 'Junimo Kart Victory', check: (m) => m.has('JunimoKart') },
+  { id: 'Beat_PK', name: 'Prairie King Victory', check: (m) => m.has('Beat_PK') },
+  { id: 'JunimoKart', name: 'Junimo Kart Victory', check: (m) => m.has('JunimoKart') },
 ];
 
 /** Parse special item acquisition status using pre-computed mail flags and events. */
