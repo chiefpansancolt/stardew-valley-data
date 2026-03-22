@@ -4,6 +4,7 @@
     "id": "cat-1",
     "name": "Cat",
     "variant": 1,
+    "purchasePrice": 40000,
     "image": "images/animals/Cat 1.png"
   },
   {
@@ -11,6 +12,7 @@
     "id": "cat-2",
     "name": "Cat",
     "variant": 2,
+    "purchasePrice": 40000,
     "image": "images/animals/Cat 2.png"
   },
   {
@@ -18,6 +20,7 @@
     "id": "cat-3",
     "name": "Cat",
     "variant": 3,
+    "purchasePrice": 40000,
     "image": "images/animals/Cat 3.png"
   },
   {
@@ -25,6 +28,7 @@
     "id": "cat-4",
     "name": "Cat",
     "variant": 4,
+    "purchasePrice": 40000,
     "image": "images/animals/Cat 4.png"
   },
   {
@@ -32,6 +36,7 @@
     "id": "cat-5",
     "name": "Cat",
     "variant": 5,
+    "purchasePrice": 40000,
     "image": "images/animals/Cat 5.png"
   },
   {
@@ -39,6 +44,7 @@
     "id": "dog-1",
     "name": "Dog",
     "variant": 1,
+    "purchasePrice": 40000,
     "image": "images/animals/Dog 1.png"
   },
   {
@@ -46,6 +52,7 @@
     "id": "dog-2",
     "name": "Dog",
     "variant": 2,
+    "purchasePrice": 40000,
     "image": "images/animals/Dog 2.png"
   },
   {
@@ -53,6 +60,7 @@
     "id": "dog-3",
     "name": "Dog",
     "variant": 3,
+    "purchasePrice": 40000,
     "image": "images/animals/Dog 3.png"
   },
   {
@@ -60,6 +68,7 @@
     "id": "dog-4",
     "name": "Dog",
     "variant": 4,
+    "purchasePrice": 40000,
     "image": "images/animals/Dog 4.png"
   },
   {
@@ -67,6 +76,7 @@
     "id": "dog-5",
     "name": "Dog",
     "variant": 5,
+    "purchasePrice": 40000,
     "image": "images/animals/Dog 5.png"
   },
   {
@@ -74,6 +84,7 @@
     "id": "turtle",
     "name": "Turtle",
     "variant": 1,
+    "purchasePrice": 60000,
     "image": "images/animals/Turtle.png"
   },
   {
@@ -81,12 +92,14 @@
     "id": "iridium-turtle",
     "name": "Iridium Turtle",
     "variant": 2,
+    "purchasePrice": 500000,
     "image": "images/animals/Iridium Turtle.png"
   },
   {
     "type": "pet",
     "id": "horse",
     "name": "Horse",
+    "purchasePrice": null,
     "image": "images/animals/horse.png"
   },
   {

@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.25.0] - 2026-03-22
+
+### Added
+
+- `purchasePrice: number | null` field added to `Pet` type — Cats and Dogs 40,000g, Turtle 60,000g,
+  Iridium Turtle 500,000g, Horse `null` (obtained via Stable building)
+
 ## [0.24.0] - 2026-03-22
 
 ### Added

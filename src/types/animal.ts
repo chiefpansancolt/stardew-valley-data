@@ -14,6 +14,7 @@ export interface Pet {
   id: string;
   name: string;
   variant?: number;
+  purchasePrice: number | null;
   image: string;
 }
 
