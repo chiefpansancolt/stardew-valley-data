@@ -1,4 +1,4 @@
-import { parseChildren, parsePet } from '../../../../src/save-file/parsers/v1/family';
+import { parseChildren, parseHorse, parsePet } from '../../../../src/save-file/parsers/v1/family';
 
 describe('parseChildren()', () => {
   it('parses children from FarmHouse', () => {
@@ -319,5 +319,114 @@ describe('parsePet()', () => {
 
   it('returns null for empty root', () => {
     expect(parsePet({})).toBeNull();
+  });
+});
+
+describe('parseHorse()', () => {
+  it('parses a horse from Farm', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            characters: {
+              NPC: [
+                {
+                  '@_xsi:type': 'Horse',
+                  name: 'Grover',
+                  HorseId: '5813e9f9-393b-45da-99de-dc07e3164d14',
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    const horse = parseHorse(root);
+    expect(horse).toEqual({
+      name: 'Grover',
+      type: 'horse',
+      id: '5813e9f9-393b-45da-99de-dc07e3164d14',
+    });
+  });
+
+  it('uses @_type fallback', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            characters: {
+              NPC: [
+                {
+                  '@_type': 'Horse',
+                  name: 'Spirit',
+                  HorseId: 'abc-123',
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    const horse = parseHorse(root);
+    expect(horse).not.toBeNull();
+    expect(horse!.name).toBe('Spirit');
+  });
+
+  it('returns null when no horse found', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            characters: {
+              NPC: [{ '@_xsi:type': 'Pet', name: 'Rufus' }],
+            },
+          },
+        ],
+      },
+    };
+
+    expect(parseHorse(root)).toBeNull();
+  });
+
+  it('returns null when no Farm location', () => {
+    const root = {
+      locations: {
+        GameLocation: [{ name: 'Town' }],
+      },
+    };
+
+    expect(parseHorse(root)).toBeNull();
+  });
+
+  it('returns null for empty root', () => {
+    expect(parseHorse({})).toBeNull();
+  });
+
+  it('ignores horses in non-Farm locations', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Town',
+            characters: {
+              NPC: [
+                {
+                  '@_xsi:type': 'Horse',
+                  name: 'Stray',
+                  HorseId: 'xyz-789',
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    expect(parseHorse(root)).toBeNull();
   });
 });

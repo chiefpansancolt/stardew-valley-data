@@ -31,6 +31,7 @@ export interface SaveData {
   islandUpgrades: SaveIslandUpgrades;
   children: SaveChild[];
   pet: SavePet | null;
+  horse: SaveHorse | null;
   powers: SavePowers;
   raccoons: SaveRaccoons;
   perfection: SavePerfection;
@@ -305,6 +306,13 @@ export interface SavePet {
   type: string;
   breed: number;
   friendship: number;
+}
+
+/** The player's horse with name and unique ID. */
+export interface SaveHorse {
+  name: string;
+  type: 'horse';
+  id: string;
 }
 
 /** Powers and special items collection with acquisition status. */

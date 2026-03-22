@@ -1,4 +1,4 @@
-import type { SaveChild, SavePet } from '../../types';
+import type { SaveChild, SaveHorse, SavePet } from '../../types';
 import { ensureArray, num, str } from '../util';
 
 /** Parse child NPC data from the FarmHouse location in the save file root. */
@@ -54,6 +54,35 @@ export function parsePet(root: any): SavePet | null {
         type: str(n.petType, xsiType),
         breed: num(n.whichBreed),
         friendship: num(n.friendshipTowardFarmer),
+      };
+    }
+  }
+  return null;
+}
+
+/** Find and parse the player's horse from Farm location in the save file root. */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function parseHorse(root: any): SaveHorse | null {
+  const locations = ensureArray(root.locations?.GameLocation);
+
+  for (const loc of locations) {
+    const l = loc as Record<string, unknown>;
+    const name = str(l.name);
+    if (name !== 'Farm') continue;
+
+    const characters = ensureArray((l.characters as Record<string, unknown>)?.NPC);
+
+    for (const npc of characters) {
+      const n = npc as Record<string, unknown>;
+      const xsiType = str(
+        (n as Record<string, string>)['@_xsi:type'] ?? (n as Record<string, string>)['@_type'],
+      );
+      if (xsiType !== 'Horse') continue;
+
+      return {
+        name: str(n.name),
+        type: 'horse',
+        id: str(n.HorseId),
       };
     }
   }

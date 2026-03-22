@@ -5,11 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.22.0] - 2026-03-22
+
+### Added
+
+- `parseHorse()` parser added — new `horse` field on `SaveData` capturing horse name, type, and
+  HorseId from the Farm location; returns `null` if no horse exists
+- `SaveHorse` interface added to save file types (`{ name: string; type: 'horse'; id: string }`)
+
 ## [0.21.0] - 2026-03-21
 
 ### Fix
 
-- Update Special Items ids to match data files proper
+- Special item IDs updated to match `Powers.json` keys: 12 special-items, 19 books, 5 masteries, 5
+  skill-books all converted to PascalCase format
 
 ## [0.20.0] - 2026-03-21
 
@@ -24,17 +33,27 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.19.0] - 2026-03-21
 
+### Added
+
+- **Prismatic Slime** added to `data/monsters.json` as a top-level monster (HP 1000, damage 35);
+  drops Slime and Prismatic Shard; image downloaded as GIF
+- **Dragon Tooth** (`id: "852"`) added to `data/monster-loot.json` — 500g sell price, dropped by
+  Lava Lurk; image moved from `images/minerals/` to `images/monsters/monster-loot/`
+- **Frost Jelly** extracted from Green Slime variants as its own top-level monster entry
+
 ### Fix
 
-- Add missing Monsters
-- Update Monster Slayer Goals to use proper ids of monsters
+- `monster-loot.json` `droppedBy` arrays updated to use actual monster IDs from `monsters.json`
+  instead of kebab-case slugs
+- Dragon Tooth image path references updated in `wizard-shop.json` and `island-trader-shop.json`
 
 ## [0.18.0] - 2026-03-21
 
 ### Added
 
-- Add Bookseller possible dates to seasons data
-- Add Bookseller Calendar icon
+- `bookseller: number[]` field added to `SeasonData` type and all four seasons in
+  `data/seasons.json` with possible Bookseller visit dates
+- Bookseller calendar icon downloaded to `images/seasons/calendar-icons/Bookseller.png`
 
 ## [0.17.0] - 2026-03-21
 
