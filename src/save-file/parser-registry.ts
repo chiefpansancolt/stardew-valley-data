@@ -2,6 +2,7 @@ import { parseAchievements } from './parsers/v1/achievements';
 import { parseAnimals } from './parsers/v1/animals';
 import { parseBuildings } from './parsers/v1/buildings';
 import { parseBundles } from './parsers/v1/bundles';
+import { parseCommunityCenter } from './parsers/v1/community-center';
 import { parseDate } from './parsers/v1/date';
 import { parseChildren, parsePet } from './parsers/v1/family';
 import { parseFishCaught } from './parsers/v1/fish';
@@ -46,7 +47,7 @@ type ParserSetFn = (ctx: ParseContext) => Omit<SaveData, 'apiVersion'>;
  * Each field maps to one of the individual parsers in `parsers/v1/`.
  */
 const v1: ParserSetFn = (ctx) => ({
-  player: parsePlayer(ctx.player, ctx.root),
+  player: parsePlayer(ctx.player, ctx.root, ctx.mailSet),
   farm: { type: ctx.root.whichFarm, name: ctx.player.farmName },
   date: parseDate(ctx.player, ctx.root),
   inventory: parseInventory(ctx.player.items),
@@ -78,6 +79,7 @@ const v1: ParserSetFn = (ctx) => ({
   raccoons: parseRaccoons(ctx.root, ctx.mailSet),
   perfection: parsePerfection(ctx.root),
   mineProgress: parseMineProgress(ctx.player, ctx.root, ctx.mailSet),
+  communityCenter: parseCommunityCenter(ctx.mailSet, ctx.eventsSet),
 });
 
 /*

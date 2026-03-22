@@ -35,6 +35,7 @@ export interface SaveData {
   raccoons: SaveRaccoons;
   perfection: SavePerfection;
   mineProgress: SaveMineProgress;
+  communityCenter: SaveCommunityCenter;
 }
 
 /** Core player profile including name, money, skills, and mastery progress. */
@@ -54,6 +55,7 @@ export interface SavePlayer {
   skills: SaveSkills;
   mastery: SaveMastery;
   toolLevels: SaveToolLevels;
+  willyBackRoomInvitation: boolean;
   gameVersion: string;
   millisecondsPlayed: number;
 }
@@ -331,6 +333,26 @@ export interface SavePerfection {
   waivers: number;
   hasGoldClock: boolean;
   obelisks: string[];
+}
+
+/** Community Center completion status including individual room progress. */
+export interface SaveCommunityCenterRooms {
+  boilerRoom: boolean;
+  craftsRoom: boolean;
+  pantry: boolean;
+  fishTank: boolean;
+  vault: boolean;
+  bulletin: boolean;
+}
+
+/** Community Center unlock, completion, and Joja route status. */
+export interface SaveCommunityCenter {
+  unlocked: boolean;
+  bundlesActive: boolean;
+  completed: boolean;
+  ceremonyAttended: boolean;
+  jojaAbandoned: boolean;
+  rooms: SaveCommunityCenterRooms;
 }
 
 /** Mine and Skull Cavern progress including deepest levels reached and key ownership. */

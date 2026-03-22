@@ -153,7 +153,7 @@ function parseToolLevels(player: any, root: any): SaveToolLevels {
 
 /** Parse core player info, skills, and mastery data from the player node and save file root. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function parsePlayer(player: any, root: any): SavePlayer {
+export function parsePlayer(player: any, root: any, mail: Set<string>): SavePlayer {
   return {
     name: str(player.name),
     farmName: str(player.farmName),
@@ -170,6 +170,7 @@ export function parsePlayer(player: any, root: any): SavePlayer {
     skills: parseSkills(player.experiencePoints?.int),
     mastery: parseMastery(player.stats),
     toolLevels: parseToolLevels(player, root),
+    willyBackRoomInvitation: mail.has('willyBackRoomInvitation'),
     gameVersion: str(root.gameVersion),
     millisecondsPlayed: num(player.millisecondsPlayed),
   };

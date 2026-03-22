@@ -49,7 +49,7 @@ describe('parsePlayer()', () => {
   });
 
   it('parses all player fields', () => {
-    const result = parsePlayer(makePlayer(), makeRoot());
+    const result = parsePlayer(makePlayer(), makeRoot(), new Set());
     expect(result.name).toBe('TestPlayer');
     expect(result.farmName).toBe('TestFarm');
     expect(result.favoriteThing).toBe('Fishing');
@@ -67,24 +67,24 @@ describe('parsePlayer()', () => {
 
   it('returns null for spouse when player has no spouse', () => {
     const player = makePlayer({ spouse: undefined });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.spouse).toBeNull();
   });
 
   it('returns null for spouse when spouse is empty string (falsy)', () => {
     const player = makePlayer({ spouse: '' });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.spouse).toBeNull();
   });
 
   it('returns null for spouse when spouse is null', () => {
     const player = makePlayer({ spouse: null });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.spouse).toBeNull();
   });
 
   it('parses skills from experience points', () => {
-    const result = parsePlayer(makePlayer(), makeRoot());
+    const result = parsePlayer(makePlayer(), makeRoot(), new Set());
     expect(result.skills.farming).toEqual({ level: 3, xp: 1000 });
     expect(result.skills.fishing).toEqual({ level: 2, xp: 500 });
     expect(result.skills.foraging).toEqual({ level: 1, xp: 300 });
@@ -94,13 +94,13 @@ describe('parsePlayer()', () => {
 
   it('handles missing experience points', () => {
     const player = makePlayer({ experiencePoints: undefined });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.skills.farming).toEqual({ level: 0, xp: 0 });
     expect(result.skills.fishing).toEqual({ level: 0, xp: 0 });
   });
 
   it('parses mastery data', () => {
-    const result = parsePlayer(makePlayer(), makeRoot());
+    const result = parsePlayer(makePlayer(), makeRoot(), new Set());
     expect(result.mastery.xp).toBe(5000);
     expect(result.mastery.levelsSpent).toBe(2);
     expect(result.mastery.perks).toHaveLength(5);
@@ -115,7 +115,7 @@ describe('parsePlayer()', () => {
 
   it('handles missing mastery stats (all perks default to not unlocked)', () => {
     const player = makePlayer({ stats: {} });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.mastery.xp).toBe(0);
     expect(result.mastery.levelsSpent).toBe(0);
     for (const perk of result.mastery.perks) {
@@ -127,7 +127,7 @@ describe('parsePlayer()', () => {
     const player = makePlayer({
       experiencePoints: { int: [15000, 10000, 6900, 4800, 3300] },
     });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.skills.farming.level).toBe(10);
     expect(result.skills.fishing.level).toBe(9);
     expect(result.skills.foraging.level).toBe(8);
@@ -139,12 +139,12 @@ describe('parsePlayer()', () => {
     const player = makePlayer({
       experiencePoints: { int: [0, 0, 0, 0, 0] },
     });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.skills.farming.level).toBe(0);
   });
 
   it('parses tool levels from player inventory', () => {
-    const result = parsePlayer(makePlayer(), makeRoot());
+    const result = parsePlayer(makePlayer(), makeRoot(), new Set());
     expect(result.toolLevels).toEqual({
       wateringCan: 1,
       pan: 0,
@@ -191,7 +191,7 @@ describe('parsePlayer()', () => {
       },
     });
 
-    const result = parsePlayer(player, root);
+    const result = parsePlayer(player, root, new Set());
     expect(result.toolLevels.pan).toBe(3);
     expect(result.toolLevels.wateringCan).toBe(4);
   });
@@ -205,13 +205,13 @@ describe('parsePlayer()', () => {
         ],
       },
     });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.pickaxe).toBe(4);
   });
 
   it('defaults tool levels to 0 when no tools found', () => {
     const player = makePlayer({ items: { Item: [] }, trashCanLevel: 0 });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels).toEqual({
       wateringCan: 0,
       pan: 0,
@@ -229,7 +229,7 @@ describe('parsePlayer()', () => {
         Item: [{ '@_type': 'Hoe', upgradeLevel: 3 }],
       },
     });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.hoe).toBe(3);
   });
 
@@ -242,13 +242,13 @@ describe('parsePlayer()', () => {
         ],
       },
     });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.axe).toBe(4);
   });
 
   it('handles missing items and locations gracefully', () => {
     const player = makePlayer({ items: undefined });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.pickaxe).toBe(0);
   });
 
@@ -258,7 +258,7 @@ describe('parsePlayer()', () => {
         Item: [{ '@_xsi:type': 'FishingRod', name: 'Iridium Rod' }],
       },
     });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.fishingRod).toBe(3);
   });
 
@@ -268,7 +268,7 @@ describe('parsePlayer()', () => {
         Item: [{ '@_xsi:type': 'FishingRod', name: 'Unknown Rod' }],
       },
     });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.fishingRod).toBe(-1);
   });
 
@@ -281,7 +281,7 @@ describe('parsePlayer()', () => {
         ],
       },
     });
-    const result = parsePlayer(player, makeRoot());
+    const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.fishingRod).toBe(3);
   });
 });
