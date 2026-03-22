@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.26.0] - 2026-03-22
+
+### Added
+
+- `data/island-upgrades.json` — 11 Ginger Island parrot upgrades with `id` (mail flag), `name`,
+  `description`, `cost` (Golden Walnuts), and `location`
+- `JojaParrotCalculator` class and `jojaParrotCalculator()` factory added to the `calculator` module
+  — `cost(walnutsFound)` returns gold needed (remaining × 10,000g), `remaining()` returns unfound
+  count, `total` (130), and `costPerWalnut` (10,000g) getters
+
+### Changed
+
+- `SaveIslandUpgrades` type changed from a flat object with named booleans to `SaveIslandUpgrade[]`
+  — array of `{ id: string; unlocked: boolean }` driven by the data file IDs
+- `parseIslandUpgrades()` parser updated to iterate `island-upgrades.json` IDs instead of hardcoded
+  property names
+
 ## [0.25.0] - 2026-03-22
 
 ### Added

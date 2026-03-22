@@ -231,3 +231,38 @@ export class KnowledgeCalculator {
 export function knowledgeCalculator(): KnowledgeCalculator {
   return new KnowledgeCalculator();
 }
+
+const TOTAL_GOLDEN_WALNUTS = 130;
+const JOJA_PARROT_COST_PER_WALNUT = 10000;
+
+/**
+ * Calculates the cost to purchase remaining Golden Walnuts from the Joja Parrot.
+ * Each unfound walnut costs 10,000g. All remaining walnuts are delivered after sleeping.
+ */
+export class JojaParrotCalculator {
+  /** Calculate the gold cost to buy all remaining walnuts. */
+  cost(walnutsFound: number): number {
+    const remaining = Math.max(0, TOTAL_GOLDEN_WALNUTS - walnutsFound);
+    return remaining * JOJA_PARROT_COST_PER_WALNUT;
+  }
+
+  /** Returns how many walnuts are still unfound. */
+  remaining(walnutsFound: number): number {
+    return Math.max(0, TOTAL_GOLDEN_WALNUTS - walnutsFound);
+  }
+
+  /** The total number of Golden Walnuts available in the game. */
+  get total(): number {
+    return TOTAL_GOLDEN_WALNUTS;
+  }
+
+  /** The cost per individual unfound walnut (10,000g). */
+  get costPerWalnut(): number {
+    return JOJA_PARROT_COST_PER_WALNUT;
+  }
+}
+
+/** Returns a JojaParrotCalculator instance for computing Golden Walnut purchase costs. */
+export function jojaParrotCalculator(): JojaParrotCalculator {
+  return new JojaParrotCalculator();
+}

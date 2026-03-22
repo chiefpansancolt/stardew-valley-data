@@ -1,0 +1,79 @@
+[
+  {
+    "id": "Island_FirstParrot",
+    "name": "Ginger Island North",
+    "description": "Feed Leo's parrot friend to unlock access to the north side of the island.",
+    "cost": 1,
+    "location": "Leo's Hut"
+  },
+  {
+    "id": "Island_Turtle",
+    "name": "Ginger Island West",
+    "description": "A turtle ferries the player to the western island region.",
+    "cost": 10,
+    "location": "Leo's Hut area"
+  },
+  {
+    "id": "Island_UpgradeHouse",
+    "name": "Island Farmhouse",
+    "description": "Provides sleeping quarters on the west side of the island so the player can stay overnight.",
+    "cost": 20,
+    "location": "Ginger Island West"
+  },
+  {
+    "id": "Island_Resort",
+    "name": "Island Resort",
+    "description": "Unlocks the beach resort on the south side of the island. Villagers can visit.",
+    "cost": 20,
+    "location": "Island South"
+  },
+  {
+    "id": "Island_UpgradeTrader",
+    "name": "Island Trader",
+    "description": "Unlocks the Island Trader shop on the north side of the island.",
+    "cost": 10,
+    "location": "Island North"
+  },
+  {
+    "id": "Island_UpgradeBridge",
+    "name": "Dig Site Bridge",
+    "description": "Repairs the bridge to access the island dig site.",
+    "cost": 10,
+    "location": "Island North"
+  },
+  {
+    "id": "Island_UpgradeParrotPlatform",
+    "name": "Parrot Express",
+    "description": "Enables the fast-travel parrot platform system around the island.",
+    "cost": 10,
+    "location": "Ginger Island (multiple stops)"
+  },
+  {
+    "id": "Island_UpgradeHouse_Mailbox",
+    "name": "Farmhouse Mailbox",
+    "description": "Adds a mailbox to the island farmhouse so the player can receive mail.",
+    "cost": 5,
+    "location": "Island Farmhouse"
+  },
+  {
+    "id": "Island_W_Obelisk",
+    "name": "Farm Obelisk",
+    "description": "Builds an obelisk near the island farmhouse that teleports the player back to the farm.",
+    "cost": 20,
+    "location": "Island Farmhouse"
+  },
+  {
+    "id": "Island_VolcanoBridge",
+    "name": "Volcano Bridge",
+    "description": "Builds a permanent bridge at the volcano dungeon entrance.",
+    "cost": 5,
+    "location": "Volcano Dungeon entrance"
+  },
+  {
+    "id": "Island_VolcanoShortcutOut",
+    "name": "Volcano Exit Shortcut",
+    "description": "Creates a shortcut exit passage on volcano dungeon level 5.",
+    "cost": 5,
+    "location": "Volcano Dungeon level 5"
+  }
+]

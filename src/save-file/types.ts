@@ -287,20 +287,14 @@ export interface SaveWalnuts {
   collected: string[];
 }
 
-/** Ginger Island upgrade and unlock status for each parrot-purchasable feature. */
-export interface SaveIslandUpgrades {
-  firstParrot: boolean;
-  turtle: boolean;
-  house: boolean;
-  resort: boolean;
-  trader: boolean;
-  bridge: boolean;
-  parrotPlatforms: boolean;
-  mailbox: boolean;
-  obelisk: boolean;
-  volcanoBridge: boolean;
-  volcanoShortcut: boolean;
+/** A single Ginger Island parrot upgrade with unlock status. */
+export interface SaveIslandUpgrade {
+  id: string;
+  unlocked: boolean;
 }
+
+/** Ginger Island upgrade and unlock status for each parrot-purchasable feature. */
+export type SaveIslandUpgrades = SaveIslandUpgrade[];
 
 /** A player's child with name, age stage, and gender. */
 export interface SaveChild {
