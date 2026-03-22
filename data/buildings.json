@@ -20,6 +20,7 @@
     ],
     "upgradeFrom": null,
     "magical": false,
+    "animalCapacity": 4,
     "image": "images/buildings/coop/Coop.png"
   },
   {
@@ -43,6 +44,7 @@
     ],
     "upgradeFrom": "coop",
     "magical": false,
+    "animalCapacity": 8,
     "image": "images/buildings/coop/Big Coop.png"
   },
   {
@@ -66,6 +68,7 @@
     ],
     "upgradeFrom": "big-coop",
     "magical": false,
+    "animalCapacity": 12,
     "image": "images/buildings/coop/Deluxe Coop.png"
   },
   {
@@ -89,6 +92,7 @@
     ],
     "upgradeFrom": null,
     "magical": false,
+    "animalCapacity": 4,
     "image": "images/buildings/barn/Barn.png"
   },
   {
@@ -112,6 +116,7 @@
     ],
     "upgradeFrom": "barn",
     "magical": false,
+    "animalCapacity": 8,
     "image": "images/buildings/barn/Big Barn.png"
   },
   {
@@ -135,6 +140,7 @@
     ],
     "upgradeFrom": "big-barn",
     "magical": false,
+    "animalCapacity": 12,
     "image": "images/buildings/barn/Deluxe Barn.png"
   },
   {
@@ -329,6 +335,7 @@
     ],
     "upgradeFrom": null,
     "magical": false,
+    "animalCapacity": 20,
     "image": "images/buildings/Slime Hutch.png"
   },
   {
@@ -525,5 +532,17 @@
     "upgradeFrom": null,
     "magical": true,
     "image": "images/buildings/Gold Clock.png"
+  },
+  {
+    "id": "greenhouse",
+    "name": "Greenhouse",
+    "description": "A climate-controlled building where crops can be grown in any season. Unlocked by completing the Pantry bundles or purchasing the Joja Greenhouse.",
+    "builder": "Community Center",
+    "buildCost": 0,
+    "buildDays": 0,
+    "materials": [],
+    "upgradeFrom": null,
+    "magical": false,
+    "image": "images/buildings/Greenhouse.png"
   }
 ]

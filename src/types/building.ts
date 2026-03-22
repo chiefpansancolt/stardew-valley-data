@@ -4,7 +4,7 @@ export interface BuildingMaterial {
   quantity: number;
 }
 
-export type BuildingBuilder = 'Robin' | 'Wizard';
+export type BuildingBuilder = 'Robin' | 'Wizard' | 'Community Center' | 'Joja';
 
 export interface Building {
   id: string;
@@ -16,5 +16,6 @@ export interface Building {
   materials: BuildingMaterial[];
   upgradeFrom: string | null;
   magical: boolean;
+  animalCapacity?: number;
   image: string;
 }

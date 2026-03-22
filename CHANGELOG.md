@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.23.0] - 2026-03-22
+
+### Added
+
+- **Greenhouse** added to `data/buildings.json` — unlocked via Community Center Pantry bundles or
+  Joja purchase; climate-controlled building for all-season crop growing
+- `animalCapacity?: number` optional field added to `Building` type — Coop (4), Big Coop (8), Deluxe
+  Coop (12), Barn (4), Big Barn (8), Deluxe Barn (12), Slime Hutch (20)
+- `BuildingBuilder` type expanded to include `'Community Center' | 'Joja'`
+
 ## [0.22.0] - 2026-03-22
 
 ### Added
