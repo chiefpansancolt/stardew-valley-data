@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.20.0] - 2026-03-21
+
+### Added
+
+- `willyBackRoomInvitation: boolean` field added to `SavePlayer` — checks for
+  `"willyBackRoomInvitation"` mail flag in save file
+- `parseCommunityCenter()` parser added — new `communityCenter` field on `SaveData` tracking unlock
+  status, bundle activation, completion, ceremony attendance, Joja route, and individual room
+  completions (boilerRoom, craftsRoom, pantry, fishTank, vault, bulletin)
+- `SaveCommunityCenter` and `SaveCommunityCenterRooms` interfaces added to save file types
+
 ## [0.19.0] - 2026-03-21
 
 ### Fix
