@@ -37,8 +37,6 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - **Prismatic Slime** added to `data/monsters.json` as a top-level monster (HP 1000, damage 35);
   drops Slime and Prismatic Shard; image downloaded as GIF
-- **Dragon Tooth** (`id: "852"`) added to `data/monster-loot.json` — 500g sell price, dropped by
-  Lava Lurk; image moved from `images/minerals/` to `images/monsters/monster-loot/`
 - **Frost Jelly** extracted from Green Slime variants as its own top-level monster entry
 
 ### Fix
@@ -65,7 +63,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
-- Add Dragon Tooth Item to Monster Loot data
+- **Dragon Tooth** (`id: "852"`) added to `data/monster-loot.json` — 500g sell price, dropped by
+  Lava Lurk; image moved from `images/minerals/` to `images/monsters/monster-loot/`
 
 ## [0.15.0] - 2026-03-20
 
