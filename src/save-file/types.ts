@@ -59,6 +59,8 @@ export interface SavePlayer {
   mastery: SaveMastery;
   toolLevels: SaveToolLevels;
   willyBackRoomInvitation: boolean;
+  lostBooksFound: number;
+  helpWantedQuests: number;
   gameVersion: string;
   millisecondsPlayed: number;
 }

@@ -171,6 +171,8 @@ export function parsePlayer(player: any, root: any, mail: Set<string>): SavePlay
     mastery: parseMastery(player.stats),
     toolLevels: parseToolLevels(player, root),
     willyBackRoomInvitation: mail.has('willyBackRoomInvitation'),
+    lostBooksFound: num(root.lostBooksFound),
+    helpWantedQuests: getStatValue(player.stats, 'questsCompleted'),
     gameVersion: str(root.gameVersion),
     millisecondsPlayed: num(player.millisecondsPlayed),
   };
