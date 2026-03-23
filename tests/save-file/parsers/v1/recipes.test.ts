@@ -45,6 +45,36 @@ describe('parseCookingRecipes()', () => {
   it('returns empty array for undefined input', () => {
     expect(parseCookingRecipes(undefined, undefined)).toEqual([]);
   });
+
+  it('ignores cooked IDs not found in cooking data', () => {
+    const knownData = {
+      item: [{ key: { string: 'Fried Egg' }, value: { int: 0 } }],
+    };
+    // ID 99999 doesn't exist in cooking.json
+    const cookedData = {
+      item: [
+        { key: { string: '194' }, value: { int: 3 } },
+        { key: { string: '99999' }, value: { int: 10 } },
+      ],
+    };
+
+    const result = parseCookingRecipes(knownData, cookedData);
+    expect(result).toHaveLength(1);
+    expect(result[0]).toEqual({ name: 'Fried Egg', timesMade: 3 });
+  });
+
+  it('skips cooked entries with empty ID', () => {
+    const knownData = {
+      item: [{ key: { string: 'Fried Egg' }, value: { int: 0 } }],
+    };
+    const cookedData = {
+      item: [{ key: { string: '' }, value: { int: 5 } }],
+    };
+
+    const result = parseCookingRecipes(knownData, cookedData);
+    expect(result).toHaveLength(1);
+    expect(result[0].timesMade).toBe(0);
+  });
 });
 
 describe('parseCraftingRecipes()', () => {
@@ -64,5 +94,18 @@ describe('parseCraftingRecipes()', () => {
 
   it('returns empty array for null input', () => {
     expect(parseCraftingRecipes(null)).toEqual([]);
+  });
+
+  it('skips entries with empty name', () => {
+    const data = {
+      item: [
+        { key: { string: '' }, value: { int: 5 } },
+        { key: { string: 'Chest' }, value: { int: 2 } },
+      ],
+    };
+
+    const result = parseCraftingRecipes(data);
+    expect(result).toHaveLength(1);
+    expect(result[0].name).toBe('Chest');
   });
 });

@@ -272,6 +272,52 @@ describe('parsePlayer()', () => {
     expect(result.toolLevels.fishingRod).toBe(-1);
   });
 
+  it('parses tools found in world locations using @_type fallback', () => {
+    const player = makePlayer({ items: { Item: [] } });
+    const root = {
+      gameVersion: '1.6.14',
+      locations: {
+        GameLocation: [
+          {
+            items: {
+              Item: [{ '@_type': 'Pickaxe', upgradeLevel: 3 }],
+            },
+          },
+        ],
+      },
+    };
+    const result = parsePlayer(player, root, new Set());
+    expect(result.toolLevels.pickaxe).toBe(3);
+  });
+
+  it('parses FishingRod from world locations', () => {
+    const player = makePlayer({ items: { Item: [] } });
+    const root = {
+      gameVersion: '1.6.14',
+      locations: {
+        GameLocation: [
+          {
+            items: {
+              Item: [{ '@_xsi:type': 'FishingRod', name: 'Advanced Iridium Rod' }],
+            },
+          },
+        ],
+      },
+    };
+    const result = parsePlayer(player, root, new Set());
+    expect(result.toolLevels.fishingRod).toBe(4);
+  });
+
+  it('detects willyBackRoomInvitation from mail flag', () => {
+    const result = parsePlayer(makePlayer(), makeRoot(), new Set(['willyBackRoomInvitation']));
+    expect(result.willyBackRoomInvitation).toBe(true);
+  });
+
+  it('willyBackRoomInvitation is false when mail flag absent', () => {
+    const result = parsePlayer(makePlayer(), makeRoot(), new Set());
+    expect(result.willyBackRoomInvitation).toBe(false);
+  });
+
   it('takes highest fishing rod level when multiple rods present', () => {
     const player = makePlayer({
       items: {
@@ -283,5 +329,18 @@ describe('parsePlayer()', () => {
     });
     const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.fishingRod).toBe(3);
+  });
+
+  it('ignores items with no type attribute in tool scanning', () => {
+    const player = makePlayer({
+      items: {
+        Item: [
+          { name: 'Parsnip', upgradeLevel: 0 },
+          { '@_xsi:type': 'Pickaxe', upgradeLevel: 2 },
+        ],
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.pickaxe).toBe(2);
   });
 });

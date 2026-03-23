@@ -1,4 +1,4 @@
-import { parseAnimals } from '../../../../src/save-file/parsers/v1/animals';
+import { parseAnimals, parseFishPonds } from '../../../../src/save-file/parsers/v1/animals';
 
 describe('parseAnimals()', () => {
   it('parses animals from farm buildings', () => {
@@ -258,5 +258,160 @@ describe('parseAnimals()', () => {
     expect(animals).toHaveLength(2);
     expect(animals[0].name).toBe('A');
     expect(animals[1].name).toBe('B');
+  });
+});
+
+describe('parseFishPonds()', () => {
+  it('parses fish ponds from Farm buildings', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            buildings: {
+              Building: [
+                {
+                  '@_xsi:type': 'FishPond',
+                  id: 'pond-1',
+                  fishType: { int: 160 },
+                  currentOccupants: 7,
+                  maxOccupants: 10,
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    const ponds = parseFishPonds(root);
+    expect(ponds).toHaveLength(1);
+    expect(ponds[0]).toEqual({
+      buildingId: 'pond-1',
+      fishType: 160,
+      currentOccupants: 7,
+      maxOccupants: 10,
+    });
+  });
+
+  it('uses @_type fallback', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            buildings: {
+              Building: [
+                {
+                  '@_type': 'FishPond',
+                  id: 'pond-2',
+                  fishType: { int: 682 },
+                  currentOccupants: 3,
+                  maxOccupants: 10,
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    const ponds = parseFishPonds(root);
+    expect(ponds).toHaveLength(1);
+    expect(ponds[0].fishType).toBe(682);
+  });
+
+  it('skips non-FishPond buildings', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            buildings: {
+              Building: [
+                {
+                  '@_xsi:type': 'Barn',
+                  id: 'barn-1',
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    expect(parseFishPonds(root)).toEqual([]);
+  });
+
+  it('skips fish ponds with fishType 0 (empty)', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            buildings: {
+              Building: [
+                {
+                  '@_xsi:type': 'FishPond',
+                  id: 'pond-empty',
+                  fishType: { int: 0 },
+                  currentOccupants: 0,
+                  maxOccupants: 10,
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    expect(parseFishPonds(root)).toEqual([]);
+  });
+
+  it('parses multiple fish ponds', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            buildings: {
+              Building: [
+                {
+                  '@_xsi:type': 'FishPond',
+                  id: 'p1',
+                  fishType: { int: 160 },
+                  currentOccupants: 5,
+                  maxOccupants: 10,
+                },
+                {
+                  '@_xsi:type': 'FishPond',
+                  id: 'p2',
+                  fishType: { int: 682 },
+                  currentOccupants: 10,
+                  maxOccupants: 10,
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    const ponds = parseFishPonds(root);
+    expect(ponds).toHaveLength(2);
+  });
+
+  it('returns empty array when no Farm location', () => {
+    const root = {
+      locations: {
+        GameLocation: [{ name: 'Town' }],
+      },
+    };
+
+    expect(parseFishPonds(root)).toEqual([]);
+  });
+
+  it('returns empty array for empty root', () => {
+    expect(parseFishPonds({})).toEqual([]);
   });
 });
