@@ -5,5 +5,6 @@ export interface Footwear {
   defense: number;
   immunity: number;
   obtain: string;
+  sellPrice: number;
   image: string;
 }
