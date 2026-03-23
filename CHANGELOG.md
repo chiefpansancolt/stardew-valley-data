@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.27.0] - 2026-03-22
+
+### Added
+
+- `data/joja-development.json` — 5 Joja Community Development projects with `id`, `name`,
+  `description`, `cost`, `ccEquivalent` (maps to Community Center room mail flag), and `order`:
+  Greenhouse (35,000g), Bridge (25,000g), Panning (20,000g), Minecarts (15,000g), Bus (40,000g)
+- `parseJoja()` parser added — new `joja` field on `SaveData` tracking `isMember` (from `JojaMember`
+  mail flag), `completed` (event `502261`), and `developments[]` (array of `{ id, purchased }`
+  driven by `joja-development.json`)
+- `SaveJoja` and `SaveJojaDevelopment` interfaces added to save file types
+- `images/shop/Joja Development Form.png` downloaded (640×288)
+
 ## [0.26.0] - 2026-03-22
 
 ### Added

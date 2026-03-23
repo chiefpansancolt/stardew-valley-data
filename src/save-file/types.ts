@@ -38,6 +38,7 @@ export interface SaveData {
   perfection: SavePerfection;
   mineProgress: SaveMineProgress;
   communityCenter: SaveCommunityCenter;
+  joja: SaveJoja;
 }
 
 /** Core player profile including name, money, skills, and mastery progress. */
@@ -364,6 +365,19 @@ export interface SaveCommunityCenter {
   ceremonyAttended: boolean;
   jojaAbandoned: boolean;
   rooms: SaveCommunityCenterRooms;
+}
+
+/** A single Joja development project with purchase status. */
+export interface SaveJojaDevelopment {
+  id: string;
+  purchased: boolean;
+}
+
+/** Joja membership, development project completion, and route status. */
+export interface SaveJoja {
+  isMember: boolean;
+  completed: boolean;
+  developments: SaveJojaDevelopment[];
 }
 
 /** Mine and Skull Cavern progress including deepest levels reached and key ownership. */

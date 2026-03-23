@@ -1,0 +1,42 @@
+[
+  {
+    "id": "jojaPantry",
+    "name": "Greenhouse",
+    "description": "Repairs the old ruins on the farm, turning it into a greenhouse.",
+    "cost": 35000,
+    "ccEquivalent": "ccPantry",
+    "order": 0
+  },
+  {
+    "id": "jojaCraftsRoom",
+    "name": "Bridge",
+    "description": "Repairs the broken bridge east of the Mines, enabling access to the Quarry.",
+    "cost": 25000,
+    "ccEquivalent": "ccCraftsRoom",
+    "order": 1
+  },
+  {
+    "id": "jojaFishTank",
+    "name": "Panning",
+    "description": "Removes the glimmering boulder near the mine entrance, enabling copper panning.",
+    "cost": 20000,
+    "ccEquivalent": "ccFishTank",
+    "order": 2
+  },
+  {
+    "id": "jojaBoilerRoom",
+    "name": "Minecarts",
+    "description": "Repairs the minecart system between the Bus Stop, the Mountains, and Pelican Town.",
+    "cost": 15000,
+    "ccEquivalent": "ccBoilerRoom",
+    "order": 3
+  },
+  {
+    "id": "jojaVault",
+    "name": "Bus",
+    "description": "Repairs the bus that runs to the Calico Desert.",
+    "cost": 40000,
+    "ccEquivalent": "ccVault",
+    "order": 4
+  }
+]

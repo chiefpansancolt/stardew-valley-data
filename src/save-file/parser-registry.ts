@@ -9,6 +9,7 @@ import { parseFishCaught } from './parsers/v1/fish';
 import { parseFriendships } from './parsers/v1/friendships';
 import { parseInventory } from './parsers/v1/inventory';
 import { parseIslandUpgrades } from './parsers/v1/island-upgrades';
+import { parseJoja } from './parsers/v1/joja';
 import { parseBooksRead, parseSpecialOrders } from './parsers/v1/mail';
 import { parseMineProgress } from './parsers/v1/mine-progress';
 import { parseMonstersKilled } from './parsers/v1/monsters';
@@ -82,6 +83,7 @@ const v1: ParserSetFn = (ctx) => ({
   perfection: parsePerfection(ctx.root),
   mineProgress: parseMineProgress(ctx.player, ctx.root, ctx.mailSet),
   communityCenter: parseCommunityCenter(ctx.mailSet, ctx.eventsSet),
+  joja: parseJoja(ctx.mailSet, ctx.eventsSet),
 });
 
 /*
