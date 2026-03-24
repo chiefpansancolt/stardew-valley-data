@@ -43,7 +43,7 @@
     "id": "farmer-level",
     "name": "Farmer Level",
     "requirement": "Reach level 10 in every skill",
-    "count": 25,
+    "count": 50,
     "unit": "skill levels",
     "weight": 5
   },
