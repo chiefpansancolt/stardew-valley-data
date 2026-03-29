@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.31.0] - 2026-03-29
+
+### Added
+
+- `FishCategory` type added
+  (`'regular' | 'crab-pot' | 'night-market' | 'legendary' | 'legendary-2' | 'other'`)
+- `category: FishCategory` field added to all 77 entries in `data/fish.json`
+- `byCategory(category: FishCategory)` filter method added to `FishQuery`
+- Fish sample script updated to display per-category counts
+- Fish tests updated to cover `byCategory()` across all 6 categories
+
+### Fix
+
+- Added missing Caviar item to the Abandoned Joja Mart bundle in `data/bundles.json`
+
+### Chore
+
+- Bump Dependency Versions
+
 ## [0.30.0] - 2026-03-24
 
 ### Fix
