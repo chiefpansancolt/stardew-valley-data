@@ -3,6 +3,13 @@ import { EnergyHealth, ItemQuality, ProfessionBonus, Season } from './common';
 export type FishCatchType = 'rod' | 'crab-pot';
 export type FishWeather = 'sunny' | 'rainy' | 'both';
 export type FishRoe = 'roe' | 'caviar';
+export type FishCategory =
+  | 'regular'
+  | 'crab-pot'
+  | 'night-market'
+  | 'legendary'
+  | 'legendary-2'
+  | 'other';
 
 export interface FishPondProduce {
   product: string;
@@ -18,6 +25,7 @@ export interface Fish {
   name: string;
   description: string;
   catchType: FishCatchType;
+  category: FishCategory;
   seasons: Season[];
   location: string;
   weather?: FishWeather;

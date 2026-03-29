@@ -122,6 +122,91 @@ describe('FishQuery filters', () => {
     expect(names).not.toContain('Green Algae');
     expect(names).not.toContain('White Algae');
   });
+
+  it('byCategory("regular") returns only regular fish', () => {
+    const regular = fish().byCategory('regular').get();
+    expect(regular.length).toBeGreaterThan(0);
+    for (const f of regular) {
+      expect(f.category).toBe('regular');
+    }
+  });
+
+  it('byCategory("crab-pot") returns only crab-pot fish', () => {
+    const crabPot = fish().byCategory('crab-pot').get();
+    expect(crabPot.length).toBeGreaterThan(0);
+    for (const f of crabPot) {
+      expect(f.category).toBe('crab-pot');
+    }
+  });
+
+  it('byCategory("night-market") returns only Night Market fish', () => {
+    const nightMarket = fish().byCategory('night-market').get();
+    expect(nightMarket.length).toBe(3);
+    const names = nightMarket.map((f) => f.name);
+    expect(names).toContain('Blobfish');
+    expect(names).toContain('Midnight Squid');
+    expect(names).toContain('Spook Fish');
+  });
+
+  it('byCategory("legendary") returns the 5 legendary fish', () => {
+    const legendary = fish().byCategory('legendary').get();
+    expect(legendary.length).toBe(5);
+    const names = legendary.map((f) => f.name);
+    expect(names).toContain('Legend');
+    expect(names).toContain('Mutant Carp');
+    expect(names).toContain('Crimsonfish');
+    expect(names).toContain('Angler');
+    expect(names).toContain('Glacierfish');
+  });
+
+  it('byCategory("legendary-2") returns the 5 Extended Family fish', () => {
+    const legendary2 = fish().byCategory('legendary-2').get();
+    expect(legendary2.length).toBe(5);
+    const names = legendary2.map((f) => f.name);
+    expect(names).toContain('Legend II');
+    expect(names).toContain('Radioactive Carp');
+    expect(names).toContain('Son of Crimsonfish');
+    expect(names).toContain('Ms. Angler');
+    expect(names).toContain('Glacierfish Jr.');
+  });
+
+  it('byCategory("other") returns algae, seaweed, and jellies', () => {
+    const other = fish().byCategory('other').get();
+    expect(other.length).toBe(6);
+    const names = other.map((f) => f.name);
+    expect(names).toContain('Green Algae');
+    expect(names).toContain('White Algae');
+    expect(names).toContain('Seaweed');
+    expect(names).toContain('Sea Jelly');
+    expect(names).toContain('River Jelly');
+    expect(names).toContain('Cave Jelly');
+  });
+
+  it('all fish have a valid category', () => {
+    const valid = new Set([
+      'regular',
+      'crab-pot',
+      'night-market',
+      'legendary',
+      'legendary-2',
+      'other',
+    ]);
+    for (const f of fish().get()) {
+      expect(valid.has(f.category)).toBe(true);
+    }
+  });
+
+  it('category counts sum to total fish count', () => {
+    const total = fish().count();
+    const sum =
+      fish().byCategory('regular').count() +
+      fish().byCategory('crab-pot').count() +
+      fish().byCategory('night-market').count() +
+      fish().byCategory('legendary').count() +
+      fish().byCategory('legendary-2').count() +
+      fish().byCategory('other').count();
+    expect(sum).toBe(total);
+  });
 });
 
 describe('FishQuery sorts', () => {
@@ -163,4 +248,9 @@ testFilterImmutability(
   'byCatchType',
   () => fish(),
   (q) => (q as FishQuery).byCatchType('rod'),
+);
+testFilterImmutability(
+  'byCategory',
+  () => fish(),
+  (q) => (q as FishQuery).byCategory('legendary'),
 );

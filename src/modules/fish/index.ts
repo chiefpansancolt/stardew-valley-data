@@ -1,6 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import data from '@/data/fish.json';
-import { Fish, FishCatchType, FishRoe, Season } from '@/types';
+import { Fish, FishCatchType, FishCategory, FishRoe, Season } from '@/types';
 
 const fishData: Fish[] = data as Fish[];
 
@@ -13,6 +13,11 @@ export class FishQuery extends QueryBase<Fish> {
   /** Filter to fish available in the given season. */
   bySeason(season: Season): FishQuery {
     return new FishQuery(this.data.filter((f) => f.seasons.includes(season)));
+  }
+
+  /** Filter by category (`'regular'`, `'crab-pot'`, `'night-market'`, `'legendary'`, `'legendary-2'`, or `'other'`). */
+  byCategory(category: FishCategory): FishQuery {
+    return new FishQuery(this.data.filter((f) => f.category === category));
   }
 
   /** Filter by catch type (`'rod'` or `'crab-pot'`). */

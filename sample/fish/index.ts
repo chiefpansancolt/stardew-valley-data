@@ -22,6 +22,19 @@ export function run(): { passed: number; failed: number } {
   console.log(`Pond eligible:  ${fish().pondEligible().count()}`);
   console.log(`Smokeable:      ${fish().smokeable().count()}`);
 
+  console.log('\n--- By category ---');
+  for (const cat of [
+    'regular',
+    'crab-pot',
+    'night-market',
+    'legendary',
+    'legendary-2',
+    'other',
+  ] as const) {
+    const count = fish().byCategory(cat).count();
+    console.log(`  ${cat.padEnd(14)} ${count}`);
+  }
+
   // Notable examples
   const legend = fish().find('163');
   if (legend) {
