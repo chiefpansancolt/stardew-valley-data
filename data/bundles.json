@@ -1972,6 +1972,10 @@
         "name": "Void Salmon",
         "quantity": 1,
         "quality": "gold"
+      },
+      {
+        "name": "Caviar",
+        "quantity": 1
       }
     ],
     "itemsRequired": 5,
