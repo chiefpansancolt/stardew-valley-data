@@ -31,7 +31,7 @@ export interface SaveData {
   walnuts: SaveWalnuts;
   islandUpgrades: SaveIslandUpgrades;
   children: SaveChild[];
-  pet: SavePet | null;
+  pets: SavePet[];
   horse: SaveHorse | null;
   powers: SavePowers;
   raccoons: SaveRaccoons;
@@ -65,15 +65,29 @@ export interface SavePlayer {
   millisecondsPlayed: number;
 }
 
-/** Upgrade levels for the player's tools (0 = base, 1 = copper, 2 = steel, 3 = gold, 4 = iridium). */
+/** A tool currently being upgraded at the blacksmith. */
+export interface SaveUpgradingTool {
+  tool: 'wateringCan' | 'pan' | 'pickaxe' | 'axe' | 'hoe';
+  name: string;
+}
+
+/** Level and active enchantment for a single tool. Enchantment is null when none is applied. */
+export interface SaveToolLevel {
+  level: number;
+  enchantment: string | null;
+}
+
+/** Upgrade levels and enchantments for the player's tools (level 0 = base, 1 = copper, 2 = steel, 3 = gold, 4 = iridium). */
 export interface SaveToolLevels {
-  wateringCan: number;
-  pan: number;
-  pickaxe: number;
-  axe: number;
-  hoe: number;
-  trashCan: number;
-  fishingRod: number;
+  wateringCan: SaveToolLevel;
+  pan: SaveToolLevel;
+  pickaxe: SaveToolLevel;
+  axe: SaveToolLevel;
+  hoe: SaveToolLevel;
+  trashCan: SaveToolLevel;
+  fishingRod: SaveToolLevel;
+  /** The tool currently at the blacksmith being upgraded, or null if none. */
+  currentlyUpgrading: SaveUpgradingTool | null;
 }
 
 /** Mastery system progress including XP, levels spent, and unlocked perks. */
@@ -306,12 +320,13 @@ export interface SaveChild {
   gender: string;
 }
 
-/** The player's pet with type, breed variant, and friendship level. */
+/** A pet owned by the player. `starter` is true for the pet chosen at game start. */
 export interface SavePet {
   name: string;
   type: string;
   breed: number;
   friendship: number;
+  starter: boolean;
 }
 
 /** The player's horse with name and unique ID. */

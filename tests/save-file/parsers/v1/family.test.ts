@@ -1,4 +1,4 @@
-import { parseChildren, parseHorse, parsePet } from '../../../../src/save-file/parsers/v1/family';
+import { parseChildren, parseHorse, parsePets } from '../../../../src/save-file/parsers/v1/family';
 
 describe('parseChildren()', () => {
   it('parses children from FarmHouse', () => {
@@ -152,8 +152,91 @@ describe('parseChildren()', () => {
   });
 });
 
-describe('parsePet()', () => {
-  it('parses a Pet from Farm', () => {
+describe('parsePets()', () => {
+  const makePlayer = (type = 'Dog', breed = 2) => ({ whichPetType: type, whichPetBreed: breed });
+
+  it('returns all pets from Farm as an array', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            characters: {
+              NPC: [
+                {
+                  '@_xsi:type': 'Pet',
+                  name: 'Rufus',
+                  petType: 'Dog',
+                  whichBreed: 2,
+                  friendshipTowardFarmer: 1000,
+                },
+                {
+                  '@_xsi:type': 'Pet',
+                  name: 'Gimi',
+                  petType: 'Turtle',
+                  whichBreed: 0,
+                  friendshipTowardFarmer: 500,
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    const pets = parsePets(root, makePlayer('Dog', 2));
+    expect(pets).toHaveLength(2);
+    expect(pets[0]).toEqual({
+      name: 'Rufus',
+      type: 'Dog',
+      breed: 2,
+      friendship: 1000,
+      starter: true,
+    });
+    expect(pets[1]).toEqual({
+      name: 'Gimi',
+      type: 'Turtle',
+      breed: 0,
+      friendship: 500,
+      starter: false,
+    });
+  });
+
+  it('tags starter pet by matching whichPetType and whichPetBreed', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          {
+            name: 'Farm',
+            characters: {
+              NPC: [
+                {
+                  '@_xsi:type': 'Pet',
+                  name: 'Yogi',
+                  petType: 'Dog',
+                  whichBreed: 2,
+                  friendshipTowardFarmer: 1000,
+                },
+                {
+                  '@_xsi:type': 'Pet',
+                  name: 'Gimi',
+                  petType: 'Turtle',
+                  whichBreed: 0,
+                  friendshipTowardFarmer: 200,
+                },
+              ],
+            },
+          },
+        ],
+      },
+    };
+
+    const pets = parsePets(root, makePlayer('Dog', 2));
+    expect(pets.find((p) => p.name === 'Yogi')?.starter).toBe(true);
+    expect(pets.find((p) => p.name === 'Gimi')?.starter).toBe(false);
+  });
+
+  it('finds pets across Farm and FarmHouse locations', () => {
     const root = {
       locations: {
         GameLocation: [
@@ -171,33 +254,16 @@ describe('parsePet()', () => {
               ],
             },
           },
-        ],
-      },
-    };
-
-    const pet = parsePet(root);
-    expect(pet).toEqual({
-      name: 'Rufus',
-      type: 'Dog',
-      breed: 2,
-      friendship: 1000,
-    });
-  });
-
-  it('parses a Cat type NPC', () => {
-    const root = {
-      locations: {
-        GameLocation: [
           {
             name: 'FarmHouse',
             characters: {
               NPC: [
                 {
-                  '@_xsi:type': 'Cat',
-                  name: 'Whiskers',
+                  '@_xsi:type': 'Pet',
+                  name: 'Kitty',
                   petType: 'Cat',
                   whichBreed: 0,
-                  friendshipTowardFarmer: 500,
+                  friendshipTowardFarmer: 300,
                 },
               ],
             },
@@ -206,36 +272,9 @@ describe('parsePet()', () => {
       },
     };
 
-    const pet = parsePet(root);
-    expect(pet).not.toBeNull();
-    expect(pet!.name).toBe('Whiskers');
-    expect(pet!.type).toBe('Cat');
-  });
-
-  it('parses a Dog type NPC', () => {
-    const root = {
-      locations: {
-        GameLocation: [
-          {
-            name: 'Farm',
-            characters: {
-              NPC: [
-                {
-                  '@_xsi:type': 'Dog',
-                  name: 'Buddy',
-                  whichBreed: 1,
-                  friendshipTowardFarmer: 750,
-                },
-              ],
-            },
-          },
-        ],
-      },
-    };
-
-    const pet = parsePet(root);
-    expect(pet).not.toBeNull();
-    expect(pet!.type).toBe('Dog');
+    const pets = parsePets(root, makePlayer('Cat', 0));
+    expect(pets).toHaveLength(2);
+    expect(pets.find((p) => p.name === 'Kitty')?.starter).toBe(true);
   });
 
   it('uses xsiType as fallback for petType when missing', () => {
@@ -246,12 +285,7 @@ describe('parsePet()', () => {
             name: 'Farm',
             characters: {
               NPC: [
-                {
-                  '@_xsi:type': 'Cat',
-                  name: 'Kitty',
-                  whichBreed: 0,
-                  friendshipTowardFarmer: 200,
-                },
+                { '@_xsi:type': 'Cat', name: 'Kitty', whichBreed: 0, friendshipTowardFarmer: 200 },
               ],
             },
           },
@@ -259,8 +293,9 @@ describe('parsePet()', () => {
       },
     };
 
-    const pet = parsePet(root);
-    expect(pet!.type).toBe('Cat');
+    const pets = parsePets(root, makePlayer('Cat', 0));
+    expect(pets[0].type).toBe('Cat');
+    expect(pets[0].starter).toBe(true);
   });
 
   it('uses @_type fallback', () => {
@@ -285,40 +320,54 @@ describe('parsePet()', () => {
       },
     };
 
-    const pet = parsePet(root);
-    expect(pet).not.toBeNull();
-    expect(pet!.name).toBe('Rex');
+    const pets = parsePets(root, makePlayer('Dog', 3));
+    expect(pets[0].name).toBe('Rex');
+    expect(pets[0].starter).toBe(true);
   });
 
-  it('returns null when no pet found', () => {
+  it('returns empty array when no pets found', () => {
+    const root = {
+      locations: {
+        GameLocation: [
+          { name: 'Farm', characters: { NPC: [{ '@_xsi:type': 'NPC', name: 'Robin' }] } },
+        ],
+      },
+    };
+    expect(parsePets(root, makePlayer())).toEqual([]);
+  });
+
+  it('returns empty array when no Farm or FarmHouse locations', () => {
+    const root = { locations: { GameLocation: [{ name: 'Town' }] } };
+    expect(parsePets(root, makePlayer())).toEqual([]);
+  });
+
+  it('returns empty array for empty root', () => {
+    expect(parsePets({}, makePlayer())).toEqual([]);
+  });
+
+  it('marks no pet as starter when player data missing', () => {
     const root = {
       locations: {
         GameLocation: [
           {
             name: 'Farm',
             characters: {
-              NPC: [{ '@_xsi:type': 'NPC', name: 'Robin' }],
+              NPC: [
+                {
+                  '@_xsi:type': 'Pet',
+                  name: 'Rufus',
+                  petType: 'Dog',
+                  whichBreed: 2,
+                  friendshipTowardFarmer: 1000,
+                },
+              ],
             },
           },
         ],
       },
     };
-
-    expect(parsePet(root)).toBeNull();
-  });
-
-  it('returns null when no Farm or FarmHouse locations', () => {
-    const root = {
-      locations: {
-        GameLocation: [{ name: 'Town' }],
-      },
-    };
-
-    expect(parsePet(root)).toBeNull();
-  });
-
-  it('returns null for empty root', () => {
-    expect(parsePet({})).toBeNull();
+    const pets = parsePets(root, {});
+    expect(pets[0].starter).toBe(false);
   });
 });
 

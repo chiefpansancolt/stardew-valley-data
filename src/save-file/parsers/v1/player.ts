@@ -3,7 +3,9 @@ import type {
   SaveMasteryPerk,
   SavePlayer,
   SaveSkills,
+  SaveToolLevel,
   SaveToolLevels,
+  SaveUpgradingTool,
 } from '../../types';
 import { ensureArray, num, str } from '../util';
 
@@ -68,7 +70,7 @@ function parseMastery(stats: Record<string, unknown>): SaveMastery {
 }
 
 const TOOL_TYPES = ['WateringCan', 'Pan', 'Pickaxe', 'Axe', 'Hoe', 'FishingRod'] as const;
-const TOOL_KEY_MAP: Record<string, keyof SaveToolLevels> = {
+const TOOL_KEY_MAP: Record<string, SaveUpgradingTool['tool']> = {
   WateringCan: 'wateringCan',
   Pan: 'pan',
   Pickaxe: 'pickaxe',
@@ -118,17 +120,51 @@ function collectToolItems(node: any, depth = 0): any[] {
   return results;
 }
 
+function getEnchantmentName(item: Record<string, unknown>): string | null {
+  const enc = item.enchantments;
+  if (!enc) return null;
+  const first = Array.isArray(enc) ? enc[0] : enc;
+  if (!first || typeof first !== 'object') return null;
+  const xsiType = (first as Record<string, string>)['@_xsi:type'] ?? '';
+  return xsiType.replace(/Enchantment$/, '') || null;
+}
+
+function toolLevel(level: number, enchantment: string | null = null): SaveToolLevel {
+  return { level, enchantment };
+}
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function parseToolLevels(player: any, root: any): SaveToolLevels {
   const levels: SaveToolLevels = {
-    wateringCan: 0,
-    pan: 0,
-    pickaxe: 0,
-    axe: 0,
-    hoe: 0,
-    trashCan: num(player.trashCanLevel),
-    fishingRod: -1,
+    wateringCan: toolLevel(0),
+    pan: toolLevel(0),
+    pickaxe: toolLevel(0),
+    axe: toolLevel(0),
+    hoe: toolLevel(0),
+    trashCan: toolLevel(num(player.trashCanLevel)),
+    fishingRod: toolLevel(-1),
+    currentlyUpgrading: null,
   };
+
+  // If a tool is at the blacksmith, it's absent from inventory.
+  // upgradeLevel in the XML is the target level, so current = target - 1.
+  // Pan's upgradeLevel is off by an extra 1 in the save file, so pan uses target - 2.
+  const upgrading = player.toolBeingUpgraded as Record<string, unknown> | undefined;
+  if (upgrading) {
+    const xsiType =
+      (upgrading['@_xsi:type'] as string | undefined) ??
+      (upgrading['@_type'] as string | undefined) ??
+      '';
+    const key = TOOL_KEY_MAP[xsiType] as SaveUpgradingTool['tool'] | undefined;
+    if (key) {
+      const offset = key === 'pan' ? 2 : 1;
+      const currentLevel = num(upgrading.upgradeLevel) - offset;
+      if (currentLevel > levels[key].level) {
+        levels[key] = toolLevel(currentLevel, getEnchantmentName(upgrading));
+      }
+      levels.currentlyUpgrading = { tool: key, name: str(upgrading.name as string) };
+    }
+  }
 
   const allItems = [
     ...collectToolItems(player.items),
@@ -136,15 +172,19 @@ function parseToolLevels(player: any, root: any): SaveToolLevels {
   ];
 
   for (const item of allItems) {
-    const i = item as Record<string, string>;
-    const xsiType = i['@_xsi:type'] ?? i['@_type'] ?? '';
+    const i = item as Record<string, unknown>;
+    const xsiType = (i['@_xsi:type'] as string) ?? (i['@_type'] as string) ?? '';
     const key = TOOL_KEY_MAP[xsiType];
     if (key) {
       const level = num(i.upgradeLevel);
-      if (level > levels[key]) levels[key] = level;
+      if (level > levels[key].level) {
+        levels[key] = toolLevel(level, getEnchantmentName(i));
+      }
     } else if (xsiType === 'FishingRod') {
-      const rodLevel = FISHING_ROD_LEVEL[i.name] ?? -1;
-      if (rodLevel > levels.fishingRod) levels.fishingRod = rodLevel;
+      const rodLevel = FISHING_ROD_LEVEL[i.name as string] ?? -1;
+      if (rodLevel > levels.fishingRod.level) {
+        levels.fishingRod = toolLevel(rodLevel, getEnchantmentName(i));
+      }
     }
   }
 

@@ -30,9 +30,13 @@ export function parseChildren(root: any): SaveChild[] {
   return result;
 }
 
-/** Find and parse the player's pet from Farm or FarmHouse locations in the save file root. */
+/** Find and parse all pets from Farm or FarmHouse locations.
+ *  The pet matching the player's `whichPetType` and `whichPetBreed` is tagged `starter: true`. */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function parsePet(root: any): SavePet | null {
+export function parsePets(root: any, player: any): SavePet[] {
+  const results: SavePet[] = [];
+  const starterType = str(player?.whichPetType);
+  const starterBreed = num(player?.whichPetBreed);
   const locations = ensureArray(root.locations?.GameLocation);
 
   for (const loc of locations) {
@@ -49,15 +53,18 @@ export function parsePet(root: any): SavePet | null {
       );
       if (xsiType !== 'Pet' && xsiType !== 'Cat' && xsiType !== 'Dog') continue;
 
-      return {
+      const type = str(n.petType, xsiType);
+      const breed = num(n.whichBreed);
+      results.push({
         name: str(n.name),
-        type: str(n.petType, xsiType),
-        breed: num(n.whichBreed),
+        type,
+        breed,
         friendship: num(n.friendshipTowardFarmer),
-      };
+        starter: type === starterType && breed === starterBreed,
+      });
     }
   }
-  return null;
+  return results;
 }
 
 /** Find and parse the player's horse from Farm location in the save file root. */

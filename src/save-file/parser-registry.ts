@@ -4,7 +4,7 @@ import { parseBuildings } from './parsers/v1/buildings';
 import { parseBundles } from './parsers/v1/bundles';
 import { parseCommunityCenter } from './parsers/v1/community-center';
 import { parseDate } from './parsers/v1/date';
-import { parseChildren, parseHorse, parsePet } from './parsers/v1/family';
+import { parseChildren, parseHorse, parsePets } from './parsers/v1/family';
 import { parseFishCaught } from './parsers/v1/fish';
 import { parseFriendships } from './parsers/v1/friendships';
 import { parseInventory } from './parsers/v1/inventory';
@@ -76,7 +76,7 @@ const v1: ParserSetFn = (ctx) => ({
   walnuts: parseWalnuts(ctx.root),
   islandUpgrades: parseIslandUpgrades(ctx.mailSet),
   children: parseChildren(ctx.root),
-  pet: parsePet(ctx.root),
+  pets: parsePets(ctx.root, ctx.player),
   horse: parseHorse(ctx.root),
   powers: parsePowers(ctx.mailSet, ctx.eventsSet),
   raccoons: parseRaccoons(ctx.root, ctx.mailSet),

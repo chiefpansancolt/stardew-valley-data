@@ -146,13 +146,14 @@ describe('parsePlayer()', () => {
   it('parses tool levels from player inventory', () => {
     const result = parsePlayer(makePlayer(), makeRoot(), new Set());
     expect(result.toolLevels).toEqual({
-      wateringCan: 1,
-      pan: 0,
-      pickaxe: 4,
-      axe: 3,
-      hoe: 2,
-      trashCan: 3,
-      fishingRod: -1,
+      wateringCan: { level: 1, enchantment: null },
+      pan: { level: 0, enchantment: null },
+      pickaxe: { level: 4, enchantment: null },
+      axe: { level: 3, enchantment: null },
+      hoe: { level: 2, enchantment: null },
+      trashCan: { level: 3, enchantment: null },
+      fishingRod: { level: -1, enchantment: null },
+      currentlyUpgrading: null,
     });
   });
 
@@ -192,8 +193,8 @@ describe('parsePlayer()', () => {
     });
 
     const result = parsePlayer(player, root, new Set());
-    expect(result.toolLevels.pan).toBe(3);
-    expect(result.toolLevels.wateringCan).toBe(4);
+    expect(result.toolLevels.pan.level).toBe(3);
+    expect(result.toolLevels.wateringCan.level).toBe(4);
   });
 
   it('takes highest tool level when duplicates exist', () => {
@@ -206,20 +207,21 @@ describe('parsePlayer()', () => {
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
-    expect(result.toolLevels.pickaxe).toBe(4);
+    expect(result.toolLevels.pickaxe.level).toBe(4);
   });
 
   it('defaults tool levels to 0 when no tools found', () => {
     const player = makePlayer({ items: { Item: [] }, trashCanLevel: 0 });
     const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels).toEqual({
-      wateringCan: 0,
-      pan: 0,
-      pickaxe: 0,
-      axe: 0,
-      hoe: 0,
-      trashCan: 0,
-      fishingRod: -1,
+      wateringCan: { level: 0, enchantment: null },
+      pan: { level: 0, enchantment: null },
+      pickaxe: { level: 0, enchantment: null },
+      axe: { level: 0, enchantment: null },
+      hoe: { level: 0, enchantment: null },
+      trashCan: { level: 0, enchantment: null },
+      fishingRod: { level: -1, enchantment: null },
+      currentlyUpgrading: null,
     });
   });
 
@@ -230,7 +232,7 @@ describe('parsePlayer()', () => {
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
-    expect(result.toolLevels.hoe).toBe(3);
+    expect(result.toolLevels.hoe.level).toBe(3);
   });
 
   it('does not downgrade tool level when lower duplicate exists', () => {
@@ -243,13 +245,13 @@ describe('parsePlayer()', () => {
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
-    expect(result.toolLevels.axe).toBe(4);
+    expect(result.toolLevels.axe.level).toBe(4);
   });
 
   it('handles missing items and locations gracefully', () => {
     const player = makePlayer({ items: undefined });
     const result = parsePlayer(player, makeRoot(), new Set());
-    expect(result.toolLevels.pickaxe).toBe(0);
+    expect(result.toolLevels.pickaxe.level).toBe(0);
   });
 
   it('parses FishingRod level from rod name', () => {
@@ -259,7 +261,7 @@ describe('parsePlayer()', () => {
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
-    expect(result.toolLevels.fishingRod).toBe(3);
+    expect(result.toolLevels.fishingRod.level).toBe(3);
   });
 
   it('returns fishingRod -1 when rod name is unknown', () => {
@@ -269,7 +271,7 @@ describe('parsePlayer()', () => {
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
-    expect(result.toolLevels.fishingRod).toBe(-1);
+    expect(result.toolLevels.fishingRod.level).toBe(-1);
   });
 
   it('parses tools found in world locations using @_type fallback', () => {
@@ -287,7 +289,7 @@ describe('parsePlayer()', () => {
       },
     };
     const result = parsePlayer(player, root, new Set());
-    expect(result.toolLevels.pickaxe).toBe(3);
+    expect(result.toolLevels.pickaxe.level).toBe(3);
   });
 
   it('parses FishingRod from world locations', () => {
@@ -305,7 +307,7 @@ describe('parsePlayer()', () => {
       },
     };
     const result = parsePlayer(player, root, new Set());
-    expect(result.toolLevels.fishingRod).toBe(4);
+    expect(result.toolLevels.fishingRod.level).toBe(4);
   });
 
   it('detects willyBackRoomInvitation from mail flag', () => {
@@ -328,7 +330,55 @@ describe('parsePlayer()', () => {
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
-    expect(result.toolLevels.fishingRod).toBe(3);
+    expect(result.toolLevels.fishingRod.level).toBe(3);
+  });
+
+  it('sets currentlyUpgrading and backfills current level when toolBeingUpgraded is present', () => {
+    const player = makePlayer({
+      items: { Item: [] },
+      toolBeingUpgraded: {
+        '@_xsi:type': 'Pan',
+        name: 'Iridium Pan',
+        upgradeLevel: 4,
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.pan.level).toBe(2);
+    expect(result.toolLevels.currentlyUpgrading).toEqual({ tool: 'pan', name: 'Iridium Pan' });
+  });
+
+  it('does not downgrade inventory tool level when toolBeingUpgraded exists for same tool', () => {
+    // Edge case: tool also found in inventory (e.g. a spare). Inventory copy wins if higher.
+    const player = makePlayer({
+      items: {
+        Item: [{ '@_xsi:type': 'Pan', upgradeLevel: 4 }],
+      },
+      toolBeingUpgraded: {
+        '@_xsi:type': 'Pan',
+        name: 'Iridium Pan',
+        upgradeLevel: 4,
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.pan.level).toBe(4);
+    expect(result.toolLevels.currentlyUpgrading).toEqual({ tool: 'pan', name: 'Iridium Pan' });
+  });
+
+  it('sets currentlyUpgrading to null when no tool is being upgraded', () => {
+    const result = parsePlayer(makePlayer(), makeRoot(), new Set());
+    expect(result.toolLevels.currentlyUpgrading).toBeNull();
+  });
+
+  it('ignores toolBeingUpgraded with unrecognised type', () => {
+    const player = makePlayer({
+      toolBeingUpgraded: {
+        '@_xsi:type': 'FishingRod',
+        name: 'Iridium Rod',
+        upgradeLevel: 3,
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.currentlyUpgrading).toBeNull();
   });
 
   it('ignores items with no type attribute in tool scanning', () => {
@@ -341,6 +391,81 @@ describe('parsePlayer()', () => {
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
-    expect(result.toolLevels.pickaxe).toBe(2);
+    expect(result.toolLevels.pickaxe.level).toBe(2);
+  });
+
+  it('parses enchantment from tool in inventory', () => {
+    const player = makePlayer({
+      items: {
+        Item: [
+          {
+            '@_xsi:type': 'Axe',
+            upgradeLevel: 4,
+            enchantments: { '@_xsi:type': 'ShavingEnchantment', level: 1 },
+          },
+        ],
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.axe).toEqual({ level: 4, enchantment: 'Shaving' });
+  });
+
+  it('parses enchantment from toolBeingUpgraded', () => {
+    const player = makePlayer({
+      items: { Item: [] },
+      toolBeingUpgraded: {
+        '@_xsi:type': 'WateringCan',
+        name: 'Iridium Watering Can',
+        upgradeLevel: 4,
+        enchantments: { '@_xsi:type': 'EfficientToolEnchantment', level: 1 },
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.wateringCan).toEqual({ level: 3, enchantment: 'EfficientTool' });
+  });
+
+  it('parses enchantment from array of enchantments (takes first)', () => {
+    const player = makePlayer({
+      items: {
+        Item: [
+          {
+            '@_xsi:type': 'Pickaxe',
+            upgradeLevel: 3,
+            enchantments: [
+              { '@_xsi:type': 'PowerfulEnchantment', level: 1 },
+              { '@_xsi:type': 'RubyEnchantment', level: 1 },
+            ],
+          },
+        ],
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.pickaxe).toEqual({ level: 3, enchantment: 'Powerful' });
+  });
+
+  it('returns null enchantment when tool has no enchantments element', () => {
+    const player = makePlayer({
+      items: {
+        Item: [{ '@_xsi:type': 'Hoe', upgradeLevel: 2 }],
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.hoe.enchantment).toBeNull();
+  });
+
+  it('parses enchantment on FishingRod', () => {
+    const player = makePlayer({
+      items: {
+        Item: [
+          {
+            '@_xsi:type': 'FishingRod',
+            name: 'Iridium Rod',
+            enchantments: { '@_xsi:type': 'MasterEnchantment', level: 1 },
+          },
+        ],
+      },
+    });
+    const result = parsePlayer(player, makeRoot(), new Set());
+    expect(result.toolLevels.fishingRod).toEqual({ level: 3, enchantment: 'Master' });
   });
 });

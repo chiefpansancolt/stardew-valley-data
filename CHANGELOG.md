@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.32.0] - 2026-03-29
+
+### Breaking Changes
+
+- `SaveData.pet: SavePet | null` renamed to `pets: SavePet[]` — all pets are now returned as an
+  array; callers must update property access from `data.pet` to `data.pets`
+- `parsePet(root)` renamed to `parsePets(root, player)` — new signature accepts the raw player node
+  to identify the starter pet; returns `SavePet[]` instead of `SavePet | null`
+- `SavePet` gains a required `starter: boolean` field — `true` for the pet chosen at game start
+  (matched by `whichPetType` + `whichPetBreed`), `false` for all additional pets
+- `SaveToolLevels` tool fields changed from `number` to
+  `SaveToolLevel { level: number; enchantment: string | null }` — callers must update e.g.
+  `toolLevels.axe` → `toolLevels.axe.level`
+- `SaveToolLevels` gains a required `currentlyUpgrading: SaveUpgradingTool | null` field — set when
+  a tool is at the blacksmith; the tool's `level` is backfilled to its pre-upgrade value
+
+### Added
+
+- `SaveToolLevel` interface (`level`, `enchantment`) — enchantment name is stripped of its
+  `Enchantment` suffix (e.g. `ShavingEnchantment` → `Shaving`), or `null` if none applied
+- `SaveUpgradingTool` interface (`tool`, `name`) — identifies which tool is at the blacksmith and
+  its display name (e.g. `{ tool: 'pan', name: 'Iridium Pan' }`)
+- Enchantments are now parsed for all tools including FishingRod; array-format enchantment nodes are
+  handled (first entry used)
+
 ## [0.31.0] - 2026-03-29
 
 ### Added

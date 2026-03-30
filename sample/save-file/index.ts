@@ -182,7 +182,14 @@ export function run() {
   check('Island upgrades', `${upgradeCount}/11`, true, counters);
 
   // Pet
-  check('Pet', data.pet ? `${data.pet.name} (${data.pet.type})` : 'none', true, counters);
+  check(
+    'Pets',
+    data.pets.length > 0
+      ? data.pets.map((p) => `${p.name} (${p.type}${p.starter ? ', starter' : ''})`).join(', ')
+      : 'none',
+    true,
+    counters,
+  );
 
   // Children
   check('Children', data.children.length, true, counters);
