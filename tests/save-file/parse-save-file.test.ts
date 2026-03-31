@@ -82,7 +82,7 @@ describe('parseSaveFile()', () => {
       'walnuts',
       'islandUpgrades',
       'children',
-      'pet',
+      'pets',
       'powers',
       'raccoons',
       'perfection',
