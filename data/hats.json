@@ -18,7 +18,8 @@
     "name": "Archer's Cap",
     "description": "Fashionable whether you're an archer or not.",
     "obtain": "Cook every recipe (Gourmet Chef achievement)",
-    "image": "images/hats/Archer's Cap.png"
+    "image": "images/hats/Archer's Cap.png",
+    "price": 4000
   },
   {
     "id": "53",
@@ -39,7 +40,8 @@
     "name": "Blue Bonnet",
     "description": "Harken back to simpler times with this prairie bonnet.",
     "obtain": "Donate 40 items to Museum (Treasure Trove achievement)",
-    "image": "images/hats/Blue Bonnet.png"
+    "image": "images/hats/Blue Bonnet.png",
+    "price": 1000
   },
   {
     "id": "BlueBow",
@@ -60,7 +62,8 @@
     "name": "Blue Ribbon",
     "description": "A lovely ribbon that sits behind the head.",
     "obtain": "Get 1st place at Stardew Valley Fair competition",
-    "image": "images/hats/Blue Ribbon.png"
+    "image": "images/hats/Blue Ribbon.png",
+    "price": 1000
   },
   {
     "id": "80",
@@ -74,7 +77,8 @@
     "name": "Bowler Hat",
     "description": "Made from smooth felt.",
     "obtain": "Earn 1,000,000g (Millionaire achievement)",
-    "image": "images/hats/Bowler Hat.png"
+    "image": "images/hats/Bowler Hat.png",
+    "price": 10000
   },
   {
     "id": "69",
@@ -95,28 +99,32 @@
     "name": "Butterfly Bow",
     "description": "This one is very soft.",
     "obtain": "Reach 5-heart friendship level with someone (A New Friend achievement)",
-    "image": "images/hats/Butterfly Bow.png"
+    "image": "images/hats/Butterfly Bow.png",
+    "price": 1000
   },
   {
     "id": "32",
     "name": "Cat Ears",
     "description": "Whiskers included.",
     "obtain": "Reach 10-heart friendship with 8 people (The Beloved Farmer achievement)",
-    "image": "images/hats/Cat Ears.png"
+    "image": "images/hats/Cat Ears.png",
+    "price": 5000
   },
   {
     "id": "61",
     "name": "Chef Hat",
     "description": "The traditional hat worn by a head chef.",
     "obtain": "Cook every recipe (Gourmet Chef achievement)",
-    "image": "images/hats/Chef Hat.png"
+    "image": "images/hats/Chef Hat.png",
+    "price": 10000
   },
   {
     "id": "10",
     "name": "Chicken Mask",
     "description": "You'll be sure to get them grinning with this one.",
     "obtain": "Complete 40 Help Wanted requests (A Big Help achievement)",
-    "image": "images/hats/Chicken Mask.png"
+    "image": "images/hats/Chicken Mask.png",
+    "price": 2000
   },
   {
     "id": "concerned-ape-hat",
@@ -137,7 +145,8 @@
     "name": "Cool Cap",
     "description": "It looks really faded, but it used to be a vibrant blue.",
     "obtain": "Earn 250,000g (Homesteader achievement)",
-    "image": "images/hats/Cool Cap.png"
+    "image": "images/hats/Cool Cap.png",
+    "price": 5000
   },
   {
     "id": "copper-pan-hat",
@@ -151,28 +160,32 @@
     "name": "Cowboy Hat",
     "description": "The leather is old and cracked, but surprisingly supple. It smells musty.",
     "obtain": "Complete museum collection (A Complete Collection achievement)",
-    "image": "images/hats/Cowboy Hat.png"
+    "image": "images/hats/Cowboy Hat.png",
+    "price": 10000
   },
   {
     "id": "33",
     "name": "Cowgal Hat",
     "description": "The band is studded with fake diamonds.",
     "obtain": "Ship 300 of one crop (Monoculture achievement)",
-    "image": "images/hats/Cowgal Hat.png"
+    "image": "images/hats/Cowgal Hat.png",
+    "price": 5000
   },
   {
     "id": "34",
     "name": "Cowpoke Hat",
     "description": "For dairy experts.",
     "obtain": "Ship 15 of each crop (Polyculture achievement)",
-    "image": "images/hats/Cowpoke Hat.png"
+    "image": "images/hats/Cowpoke Hat.png",
+    "price": 5000
   },
   {
     "id": "29",
     "name": "Daisy",
     "description": "A fresh spring daisy to put in your hair.",
     "obtain": "Craft 15 different items (D.I.Y. achievement)",
-    "image": "images/hats/Daisy.png"
+    "image": "images/hats/Daisy.png",
+    "price": 1000
   },
   {
     "id": "DarkBallcap",
@@ -200,7 +213,8 @@
     "name": "Delicate Bow",
     "description": "Little pink jewels glisten as you examine it.",
     "obtain": "Cook 10 different recipes (Cook achievement)",
-    "image": "images/hats/Delicate Bow.png"
+    "image": "images/hats/Delicate Bow.png",
+    "price": 1000
   },
   {
     "id": "81",
@@ -228,14 +242,16 @@
     "name": "Earmuffs",
     "description": "Keep your ears toasty. Lined with artisanal velvet from Castle Village.",
     "obtain": "Reach 5-heart friendship with 20 people (Popular achievement)",
-    "image": "images/hats/Earmuffs.png"
+    "image": "images/hats/Earmuffs.png",
+    "price": 4000
   },
   {
     "id": "64",
     "name": "Elegant Turban",
     "description": "A fine black silk turban with gold trim.",
     "obtain": "Earn all other achievements",
-    "image": "images/hats/Elegant Turban.png"
+    "image": "images/hats/Elegant Turban.png",
+    "price": 50000
   },
   {
     "id": "41",
@@ -249,7 +265,8 @@
     "name": "Eye Patch",
     "description": "You can't tell if it's real or just from a costume shop.",
     "obtain": "Catch every fish (Master Angler achievement)",
-    "image": "images/hats/Eye Patch.png"
+    "image": "images/hats/Eye Patch.png",
+    "price": 5000
   },
   {
     "id": "47",
@@ -319,14 +336,16 @@
     "name": "Gnome's Cap",
     "description": "This gnome had a very large head.",
     "obtain": "Craft every item (Craft Master achievement)",
-    "image": "images/hats/Gnome's Cap.png"
+    "image": "images/hats/Gnome's Cap.png",
+    "price": 5000
   },
   {
     "id": "9",
     "name": "Goblin Mask",
     "description": "Freak out the neighborhood with this creepy mask. Rubber ear joints for effect.",
     "obtain": "Ship every item (Full Shipment achievement)",
-    "image": "images/hats/Goblin Mask.png"
+    "image": "images/hats/Goblin Mask.png",
+    "price": 10000
   },
   {
     "id": "89",
@@ -361,14 +380,16 @@
     "name": "Good Ol' Cap",
     "description": "A floppy old topper with a creased bill. Looks like it's been through a lot.",
     "obtain": "Earn 15,000g (Greenhorn achievement)",
-    "image": "images/hats/Good Ol' Cap.png"
+    "image": "images/hats/Good Ol' Cap.png",
+    "price": 1000
   },
   {
     "id": "GovernorsHat",
     "name": "Governor's Hat",
     "description": "A replica of the Governor's iconic hat.",
     "obtain": "Delight the Governor at Luau (An Unforgettable Soup achievement)",
-    "image": "images/hats/Governor's Hat.png"
+    "image": "images/hats/Governor's Hat.png",
+    "price": 5000
   },
   {
     "id": "72",
@@ -396,14 +417,16 @@
     "name": "Hunter's Cap",
     "description": "The wool lining should stay warm deep into the forest.",
     "obtain": "Upgrade house to maximum size (Living Large achievement)",
-    "image": "images/hats/Hunter's Cap.png"
+    "image": "images/hats/Hunter's Cap.png",
+    "price": 5000
   },
   {
     "id": "InfinityCrown",
     "name": "Infinity Crown",
     "description": "It's made from an exotic metal you've never seen before.",
     "obtain": "Obtain most powerful weapon (Infinite Power achievement)",
-    "image": "images/hats/Infinity Crown.png"
+    "image": "images/hats/Infinity Crown.png",
+    "price": 20000
   },
   {
     "id": "iridium-pan-hat",
@@ -417,7 +440,8 @@
     "name": "Jester Hat",
     "description": "Put your inner clown on display.",
     "obtain": "See a movie (Two Thumbs Up achievement)",
-    "image": "images/hats/Jester Hat.png"
+    "image": "images/hats/Jester Hat.png",
+    "price": 25000
   },
   {
     "id": "JojaCap",
@@ -431,7 +455,8 @@
     "name": "Junimo Hat",
     "description": "To honor our little buddies...",
     "obtain": "Reach Perfection and visit the Summit",
-    "image": "images/hats/Junimo Hat.png"
+    "image": "images/hats/Junimo Hat.png",
+    "price": 25000
   },
   {
     "id": "50",
@@ -473,7 +498,8 @@
     "name": "Lucky Bow",
     "description": "The middle is made of solid gold.",
     "obtain": "Earn 50,000g (Cowpoke achievement)",
-    "image": "images/hats/Lucky Bow.png"
+    "image": "images/hats/Lucky Bow.png",
+    "price": 2000
   },
   {
     "id": "73",
@@ -494,7 +520,8 @@
     "name": "Mouse Ears",
     "description": "Made from synthetic fibers.",
     "obtain": "Reach 10-heart friendship with someone (Best Friends achievement)",
-    "image": "images/hats/Mouse Ears.png"
+    "image": "images/hats/Mouse Ears.png",
+    "price": 2000
   },
   {
     "id": "82",
@@ -529,14 +556,16 @@
     "name": "Official Cap",
     "description": "Looks like it belonged to a postman or policeman. Either way, it's still very soft and smells okay.",
     "obtain": "Catch 24 different fish (Ol' Mariner achievement)",
-    "image": "images/hats/Official Cap.png"
+    "image": "images/hats/Official Cap.png",
+    "price": 2000
   },
   {
     "id": "PageboyCap",
     "name": "Pageboy Cap",
     "description": "For some reason, it makes you want to sell newspapers.",
     "obtain": "Read every book (Well-Read achievement)",
-    "image": "images/hats/Pageboy Cap.png"
+    "image": "images/hats/Pageboy Cap.png",
+    "price": 5000
   },
   {
     "id": "36",
@@ -550,7 +579,8 @@
     "name": "Paper Hat",
     "description": "It's made out of special paper that won't disintegrate in the rain.",
     "obtain": "Reach Ginger Island (A Distant Shore achievement)",
-    "image": "images/hats/Paper Hat.png"
+    "image": "images/hats/Paper Hat.png",
+    "price": 10000
   },
   {
     "id": "party-hat-blue",
@@ -592,14 +622,16 @@
     "name": "Plum Chapeau",
     "description": "Looks alright.",
     "obtain": "Cook 25 different recipes (Sous Chef achievement)",
-    "image": "images/hats/Plum Chapeau.png"
+    "image": "images/hats/Plum Chapeau.png",
+    "price": 2000
   },
   {
     "id": "22",
     "name": "Polka Bow",
     "description": "This one's sure to turn heads.",
     "obtain": "Complete 10 Help Wanted requests (Gofer achievement)",
-    "image": "images/hats/Polka Bow.png"
+    "image": "images/hats/Polka Bow.png",
+    "price": 1000
   },
   {
     "id": "68",
@@ -655,14 +687,16 @@
     "name": "Sailor's Cap",
     "description": "It's fresh and starchy.",
     "obtain": "Win fishing competition at Festival of Ice",
-    "image": "images/hats/Sailor's Cap.png"
+    "image": "images/hats/Sailor's Cap.png",
+    "price": 1000
   },
   {
     "id": "25",
     "name": "Santa Hat",
     "description": "Celebrate the magical season.",
     "obtain": "Reach 5-heart friendship with 10 people (Networking achievement)",
-    "image": "images/hats/Santa Hat.png"
+    "image": "images/hats/Santa Hat.png",
+    "price": 2000
   },
   {
     "id": "8",
@@ -683,28 +717,32 @@
     "name": "Sombrero",
     "description": "A festively decorated hat made from woven straw.",
     "obtain": "Earn 10,000,000g (Legend achievement)",
-    "image": "images/hats/Sombrero.png"
+    "image": "images/hats/Sombrero.png",
+    "price": 25000
   },
   {
     "id": "28",
     "name": "Sou'wester",
     "description": "The shape helps to keep sailors dry during storms.",
     "obtain": "Catch 10 different fish (Fisherman achievement)",
-    "image": "images/hats/Sou'wester.png"
+    "image": "images/hats/Sou'wester.png",
+    "price": 1000
   },
   {
     "id": "SpaceHelmet",
     "name": "Space Helmet",
     "description": "Warning: This helmet has not actually been tested in outer space.",
     "obtain": "Reach bottom of dangerous mines (Danger In The Deep achievement)",
-    "image": "images/hats/Space Helmet.png"
+    "image": "images/hats/Space Helmet.png",
+    "price": 20000
   },
   {
     "id": "SportsCap",
     "name": "Sports Cap",
     "description": "The cap has a vintage team logo on it.",
     "obtain": "Prize Machine at Mayor's Manor",
-    "image": "images/hats/Sports Cap.png"
+    "image": "images/hats/Sports Cap.png",
+    "price": 1000
   },
   {
     "id": "52",
@@ -746,7 +784,8 @@
     "name": "Straw Hat",
     "description": "Light and cool, it's a farmer's delight.",
     "obtain": "Win egg hunt at Egg Festival",
-    "image": "images/hats/Straw Hat.png"
+    "image": "images/hats/Straw Hat.png",
+    "price": 1000
   },
   {
     "id": "88",
@@ -767,7 +806,8 @@
     "name": "Tiara",
     "description": "This one has a big amethyst encircled by gold.",
     "obtain": "Reach 5-heart friendship with 4 people (Cliques achievement)",
-    "image": "images/hats/Tiara.png"
+    "image": "images/hats/Tiara.png",
+    "price": 2000
   },
   {
     "id": "91",
@@ -802,14 +842,16 @@
     "name": "Tropiclip",
     "description": "It's shaped like a little palm tree.",
     "obtain": "Upgrade your house (Moving Up achievement)",
-    "image": "images/hats/Tropiclip.png"
+    "image": "images/hats/Tropiclip.png",
+    "price": 1000
   },
   {
     "id": "16",
     "name": "Trucker Hat",
     "description": "Mesh in the back to keep your head cool.",
     "obtain": "Craft 30 different items (Artisan achievement)",
-    "image": "images/hats/Trucker Hat.png"
+    "image": "images/hats/Trucker Hat.png",
+    "price": 2000
   },
   {
     "id": "93",
@@ -823,7 +865,8 @@
     "name": "Watermelon Band",
     "description": "The color scheme was inspired by the beloved summer melon.",
     "obtain": "Catch 100 fish (Mother Catch achievement)",
-    "image": "images/hats/Watermelon Band.png"
+    "image": "images/hats/Watermelon Band.png",
+    "price": 1000
   },
   {
     "id": "46",
@@ -837,7 +880,8 @@
     "name": "White Bow",
     "description": "A bow as white as snow.",
     "obtain": "Help forest neighbors grow family (Good Neighbors achievement)",
-    "image": "images/hats/White Bow.png"
+    "image": "images/hats/White Bow.png",
+    "price": 5000
   },
   {
     "id": "65",

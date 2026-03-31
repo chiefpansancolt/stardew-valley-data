@@ -4,4 +4,5 @@ export interface Hat {
   description: string;
   obtain: string;
   image: string;
+  price?: number;
 }
