@@ -254,20 +254,20 @@ describe('parsePlayer()', () => {
     expect(result.toolLevels.pickaxe.level).toBe(0);
   });
 
-  it('parses FishingRod level from rod name', () => {
+  it('parses FishingRod level from itemId', () => {
     const player = makePlayer({
       items: {
-        Item: [{ '@_xsi:type': 'FishingRod', name: 'Iridium Rod' }],
+        Item: [{ '@_xsi:type': 'FishingRod', name: 'Fishing Rod', itemId: 'IridiumRod' }],
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
     expect(result.toolLevels.fishingRod.level).toBe(3);
   });
 
-  it('returns fishingRod -1 when rod name is unknown', () => {
+  it('returns fishingRod -1 when itemId is unknown', () => {
     const player = makePlayer({
       items: {
-        Item: [{ '@_xsi:type': 'FishingRod', name: 'Unknown Rod' }],
+        Item: [{ '@_xsi:type': 'FishingRod', name: 'Fishing Rod', itemId: 'UnknownRod' }],
       },
     });
     const result = parsePlayer(player, makeRoot(), new Set());
@@ -300,7 +300,9 @@ describe('parsePlayer()', () => {
         GameLocation: [
           {
             items: {
-              Item: [{ '@_xsi:type': 'FishingRod', name: 'Advanced Iridium Rod' }],
+              Item: [
+                { '@_xsi:type': 'FishingRod', name: 'Fishing Rod', itemId: 'AdvancedIridiumRod' },
+              ],
             },
           },
         ],
@@ -324,8 +326,8 @@ describe('parsePlayer()', () => {
     const player = makePlayer({
       items: {
         Item: [
-          { '@_xsi:type': 'FishingRod', name: 'Bamboo Pole' },
-          { '@_xsi:type': 'FishingRod', name: 'Iridium Rod' },
+          { '@_xsi:type': 'FishingRod', name: 'Fishing Rod', itemId: 'BambooPole' },
+          { '@_xsi:type': 'FishingRod', name: 'Fishing Rod', itemId: 'IridiumRod' },
         ],
       },
     });
@@ -459,7 +461,8 @@ describe('parsePlayer()', () => {
         Item: [
           {
             '@_xsi:type': 'FishingRod',
-            name: 'Iridium Rod',
+            name: 'Fishing Rod',
+            itemId: 'IridiumRod',
             enchantments: { '@_xsi:type': 'MasterEnchantment', level: 1 },
           },
         ],

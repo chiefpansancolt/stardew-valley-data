@@ -79,11 +79,11 @@ const TOOL_KEY_MAP: Record<string, SaveUpgradingTool['tool']> = {
 };
 
 const FISHING_ROD_LEVEL: Record<string, number> = {
-  'Training Rod': 0,
-  'Bamboo Pole': 1,
-  'Fiberglass Rod': 2,
-  'Iridium Rod': 3,
-  'Advanced Iridium Rod': 4,
+  TrainingRod: 0,
+  BambooPole: 1,
+  FiberglassRod: 2,
+  IridiumRod: 3,
+  AdvancedIridiumRod: 4,
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -181,7 +181,7 @@ function parseToolLevels(player: any, root: any): SaveToolLevels {
         levels[key] = toolLevel(level, getEnchantmentName(i));
       }
     } else if (xsiType === 'FishingRod') {
-      const rodLevel = FISHING_ROD_LEVEL[i.name as string] ?? -1;
+      const rodLevel = FISHING_ROD_LEVEL[i.itemId as string] ?? -1;
       if (rodLevel > levels.fishingRod.level) {
         levels.fishingRod = toolLevel(rodLevel, getEnchantmentName(i));
       }
