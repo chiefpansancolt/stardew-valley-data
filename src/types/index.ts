@@ -68,3 +68,4 @@ export * from './profession';
 export * from './special-order';
 export * from './event';
 export * from './building';
+export * from './rarecrow';

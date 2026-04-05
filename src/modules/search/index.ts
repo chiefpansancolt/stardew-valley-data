@@ -12,6 +12,7 @@ import { forageables } from '../forageables';
 import { hats } from '../hats';
 import { minerals } from '../minerals';
 import { monsterLoot, monsters } from '../monsters';
+import { rarecrows } from '../rarecrows';
 import { rings } from '../rings';
 import { tackle } from '../tackle';
 import { tools } from '../tools';
@@ -411,6 +412,13 @@ export function search(query: string, kinds?: SearchResultKind[]): SearchResult[
           sellPrice: mineral.sellPrice,
         });
       }
+    }
+  }
+
+  // Rarecrows
+  for (const crow of rarecrows().get()) {
+    if (matches(query, crow.id, crow.name)) {
+      add({ kind: 'rarecrow', id: crow.id, name: crow.name, image: crow.image, sellPrice: null });
     }
   }
 

@@ -35,6 +35,7 @@ export interface SaveData {
   horse: SaveHorse | null;
   powers: SavePowers;
   raccoons: SaveRaccoons;
+  rarecrows: SaveRarecrows;
   perfection: SavePerfection;
   mineProgress: SaveMineProgress;
   communityCenter: SaveCommunityCenter;
@@ -346,6 +347,11 @@ export interface SavePowerEntry {
   id: string;
   name: string;
   acquired: boolean;
+}
+
+/** Placed rarecrow item IDs found across all game locations. */
+export interface SaveRarecrows {
+  placed: string[];
 }
 
 /** Raccoon quest progress including times fed and unlock milestones. */

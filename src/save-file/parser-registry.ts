@@ -20,6 +20,7 @@ import { parsePowers } from './parsers/v1/powers';
 import { parseProfessions } from './parsers/v1/professions';
 import { parseQuests } from './parsers/v1/quests';
 import { parseRaccoons } from './parsers/v1/raccoons';
+import { parseRarecrows } from './parsers/v1/rarecrows';
 import { parseCookingRecipes, parseCraftingRecipes } from './parsers/v1/recipes';
 import { parseSecretNotes } from './parsers/v1/secret-notes';
 import { parseShipped } from './parsers/v1/shipping';
@@ -80,6 +81,7 @@ const v1: ParserSetFn = (ctx) => ({
   horse: parseHorse(ctx.root),
   powers: parsePowers(ctx.mailSet, ctx.eventsSet),
   raccoons: parseRaccoons(ctx.root, ctx.mailSet),
+  rarecrows: parseRarecrows(ctx.root),
   perfection: parsePerfection(ctx.root),
   mineProgress: parseMineProgress(ctx.player, ctx.root, ctx.mailSet),
   communityCenter: parseCommunityCenter(ctx.mailSet, ctx.eventsSet),

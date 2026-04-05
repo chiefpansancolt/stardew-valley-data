@@ -26,7 +26,8 @@ export type SearchResultKind =
   | 'geode'
   | 'mining-node'
   | 'mineral-resource'
-  | 'crafting-recipe';
+  | 'crafting-recipe'
+  | 'rarecrow';
 
 export interface SearchResult {
   kind: SearchResultKind;

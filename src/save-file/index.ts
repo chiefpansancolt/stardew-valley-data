@@ -39,6 +39,7 @@ export type {
   SaveProfession,
   SaveQuest,
   SaveRaccoons,
+  SaveRarecrows,
   SaveRecipeEntry,
   SaveSecretNotes,
   SaveShippedEntry,

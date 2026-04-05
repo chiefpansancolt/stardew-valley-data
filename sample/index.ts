@@ -47,6 +47,7 @@ import { run as runPierre } from './pierre-shop';
 import { run as runProfessions } from './professions';
 import { run as runQiShop } from './qi-shop';
 import { run as runQuests } from './quests';
+import { run as runRarecrows } from './rarecrows';
 import { run as runRings } from './rings';
 import { run as runSaloon } from './saloon-shop';
 import { run as runSaveFile } from './save-file';
@@ -93,6 +94,7 @@ const results = [
     name: 'monster-slayer-goals',
     ...captureRun('monster-slayer-goals', runMonsterSlayerGoals),
   },
+  { name: 'rarecrows', ...captureRun('rarecrows', runRarecrows) },
   { name: 'rings', ...captureRun('rings', runRings) },
   { name: 'tools', ...captureRun('tools', runTools) },
   { name: 'weapons', ...captureRun('weapons', runWeapons) },

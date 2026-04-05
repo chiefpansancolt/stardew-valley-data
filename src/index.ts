@@ -68,4 +68,5 @@ export * from './modules/professions';
 export * from './modules/special-orders';
 export * from './modules/events';
 export * from './modules/buildings';
+export * from './modules/rarecrows';
 export * from './save-file';

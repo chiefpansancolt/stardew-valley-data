@@ -206,6 +206,14 @@ export function run() {
   // Raccoons
   check('Raccoons fed', data.raccoons.timesFed, true, counters);
 
+  // Rarecrows
+  check(
+    'Rarecrows placed',
+    `${data.rarecrows.placed.length} (${data.rarecrows.placed.join(', ')})`,
+    true,
+    counters,
+  );
+
   // Perfection
   check(
     'Perfection',

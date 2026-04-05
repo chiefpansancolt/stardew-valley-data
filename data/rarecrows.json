@@ -1,0 +1,58 @@
+[
+  {
+    "id": "110",
+    "number": 1,
+    "name": "Rarecrow 1",
+    "image": "images/scarecrows/Rarecrow 1.png",
+    "obtain": "Purchase at the Stardew Valley Fair for 800 Tokens."
+  },
+  {
+    "id": "113",
+    "number": 2,
+    "name": "Rarecrow 2",
+    "image": "images/scarecrows/Rarecrow 2.png",
+    "obtain": "Purchase at the Spirit's Eve festival for 5,000g."
+  },
+  {
+    "id": "126",
+    "number": 3,
+    "name": "Rarecrow 3",
+    "image": "images/scarecrows/Rarecrow 3.png",
+    "obtain": "Purchase at the Casino for 10,000 Qi Coins."
+  },
+  {
+    "id": "136",
+    "number": 4,
+    "name": "Rarecrow 4",
+    "image": "images/scarecrows/Rarecrow 4.png",
+    "obtain": "Purchase at the Traveling Cart randomly during fall or winter for 4,000g, or purchase at the Festival of Ice for 5,000g."
+  },
+  {
+    "id": "137",
+    "number": 5,
+    "name": "Rarecrow 5",
+    "image": "images/scarecrows/Rarecrow 5.png",
+    "obtain": "Purchase at the Flower Dance for 2,500g."
+  },
+  {
+    "id": "138",
+    "number": 6,
+    "name": "Rarecrow 6",
+    "image": "images/scarecrows/Rarecrow 6.png",
+    "obtain": "Purchase from the Dwarf for 2,500g."
+  },
+  {
+    "id": "139",
+    "number": 7,
+    "name": "Rarecrow 7",
+    "image": "images/scarecrows/Rarecrow 7.png",
+    "obtain": "Donate 20 Artifacts (not counting Minerals) to the Museum. Can be purchased from the Night Market once the first one is earned."
+  },
+  {
+    "id": "140",
+    "number": 8,
+    "name": "Rarecrow 8",
+    "image": "images/scarecrows/Rarecrow 8.png",
+    "obtain": "Donate 40 items to the Museum. Can be purchased from the Night Market once the first one is earned."
+  }
+]
