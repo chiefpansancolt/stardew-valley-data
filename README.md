@@ -12,12 +12,6 @@
 
 ---
 
-> **Pre-1.0 Notice:** This package is under active development. Breaking changes to the save file
-> parser structure, data types, and other APIs may occur in any release before `1.0.0`. Pin your
-> version or review the [Change Log](CHANGELOG.md) before upgrading.
-
----
-
 ## 📦 Installation
 
 ```bash
