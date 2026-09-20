@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-09-19
+
+### Changed
+
+- Updated all dependencies to their latest in-range versions: `fast-xml-parser` 5.11.1, `eslint`
+  10.11, `jest` 30.5, `prettier` 3.9, `ts-jest` 29.4.12, `tsx` 4.23, `typescript` 6.0.3,
+  `@typescript-eslint/*` 8.70, `@types/node` 25.9
+- Updated GitHub Actions: `actions/checkout` v7, `codecov/codecov-action` v7, `pnpm/action-setup` v6
+
 ## [1.0.1] - 2026-04-05
 
 ### Fix
