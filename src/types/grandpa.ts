@@ -21,12 +21,7 @@ export interface GrandpaScoreEntry {
 }
 
 export type GrandpaCategory =
-  | 'earnings'
-  | 'skills'
-  | 'achievements'
-  | 'friendship'
-  | 'community-center'
-  | 'exploration';
+  'earnings' | 'skills' | 'achievements' | 'friendship' | 'community-center' | 'exploration';
 
 export interface GrandpaResult {
   score: number;

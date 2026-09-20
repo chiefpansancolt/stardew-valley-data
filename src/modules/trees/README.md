@@ -92,61 +92,36 @@ for (const tree of trees().get()) {
 
 ## Fruit tree fields
 
-| Field                              | Type                               | Notes                           |
-| ---------------------------------- | ---------------------------------- | ------------------------------- | ------------------------------------------ |
-| type                               | 'fruit-tree'                       | Discriminant for type narrowing |
-| id                                 | string                             | Sapling item ID                 |
-| name                               | string                             |                                 |
-| saplingId                          | string                             |                                 |
-| saplingName                        | string                             |                                 |
-| saplingBuyPrices                   | { place: string; price: number }[] |                                 |
-| saplingBuyPrices[].place           | string                             |                                 |
-| saplingBuyPrices[].price           | number                             |                                 |
-| saplingSellPrice                   | number                             |                                 |
-| seasons                            | string[]                           | Seasons the tree produces fruit |
-| daysToMature                       | number                             |                                 |
-| description                        | string                             |                                 |
-| image                              | string                             | Path to tree-with-fruit image   |
-| saplingImage                       | string                             | Path to sapling image           |
-| stages                             | { name: string; image: string }[]  |                                 |
-| stages[].name                      | string                             |                                 |
-| stages[].image                     | string                             |                                 |
-| produce.id                         | string                             | Fruit item ID                   |
-| produce.name                       | string                             |                                 |
-| produce.sellPrice                  | number                             |                                 |
-| produce.image                      | string                             | Path to fruit item image        |
-| produce.energyHealth               | object                             | undefined                       | Omitted for inedible fruit                 |
-| produce.energyHealth.energy        | number                             | undefined                       |                                            |
-| produce.energyHealth.health        | number                             | undefined                       |                                            |
-| produce.artisanUses                | ArtisanUses                        |                                 | Which artisan goods this fruit can produce |
-| produce.artisanUses.honey          | boolean                            |                                 | Always `false` for fruit trees             |
-| produce.artisanUses.wine           | boolean                            |                                 | `true` for all fruit tree produce          |
-| produce.artisanUses.juice          | boolean                            |                                 | Always `false` for fruit trees             |
-| produce.artisanUses.pickles        | boolean                            |                                 | Always `false` for fruit trees             |
-| produce.artisanUses.jelly          | boolean                            |                                 | `true` for all fruit tree produce          |
-| produce.artisanUses.driedMushrooms | boolean                            |                                 | Always `false` for fruit trees             |
-| produce.artisanUses.driedFruit     | boolean                            |                                 | `true` for all fruit tree produce          |
+| Field | Type | Notes | | ---------------------------------- | ---------------------------------- |
+------------------------------- | ------------------------------------------ | | type | 'fruit-tree'
+| Discriminant for type narrowing | | id | string | Sapling item ID | | name | string | | |
+saplingId | string | | | saplingName | string | | | saplingBuyPrices | { place: string; price:
+number }[] | | | saplingBuyPrices[].place | string | | | saplingBuyPrices[].price | number | | |
+saplingSellPrice | number | | | seasons | string[] | Seasons the tree produces fruit | |
+daysToMature | number | | | description | string | | | image | string | Path to tree-with-fruit
+image | | saplingImage | string | Path to sapling image | | stages | { name: string; image: string
+}[] | | | stages[].name | string | | | stages[].image | string | | | produce.id | string | Fruit
+item ID | | produce.name | string | | | produce.sellPrice | number | | | produce.image | string |
+Path to fruit item image | | produce.energyHealth | object | undefined | Omitted for inedible fruit
+| | produce.energyHealth.energy | number | undefined | | | produce.energyHealth.health | number |
+undefined | | | produce.artisanUses | ArtisanUses | | Which artisan goods this fruit can produce | |
+produce.artisanUses.honey | boolean | | Always `false` for fruit trees | | produce.artisanUses.wine
+| boolean | | `true` for all fruit tree produce | | produce.artisanUses.juice | boolean | | Always
+`false` for fruit trees | | produce.artisanUses.pickles | boolean | | Always `false` for fruit trees
+| | produce.artisanUses.jelly | boolean | | `true` for all fruit tree produce | |
+produce.artisanUses.driedMushrooms | boolean | | Always `false` for fruit trees | |
+produce.artisanUses.driedFruit | boolean | | `true` for all fruit tree produce |
 
 ## Wild tree fields
 
-| Field                      | Type                              | Notes                               |
-| -------------------------- | --------------------------------- | ----------------------------------- | ------------------------------- |
-| type                       | 'wild-tree'                       | Discriminant for type narrowing     |
-| id                         | string                            | Tree type ID                        |
-| name                       | string                            |                                     |
-| seedId                     | string                            |                                     |
-| seedName                   | string                            |                                     |
-| description                | string                            |                                     |
-| image                      | string                            | Path to mature tree (stage 5) image |
-| seedImage                  | string                            | Path to seed item image             |
-| stages                     | { name: string; image: string }[] |                                     |
-| stages[].name              | string                            |                                     |
-| stages[].image             | string                            |                                     |
-| tapper                     | object                            | undefined                           | Only present for tappable trees |
-| tapper.id                  | string                            |                                     |
-| tapper.name                | string                            |                                     |
-| tapper.sellPrice           | number                            |                                     |
-| tapper.image               | string                            | Path to tapper product image        |
-| tapper.energyHealth        | object                            | undefined                           | Omitted for inedible products   |
-| tapper.energyHealth.energy | number                            | undefined                           |                                 |
-| tapper.energyHealth.health | number                            | undefined                           |                                 |
+| Field | Type | Notes | | -------------------------- | --------------------------------- |
+----------------------------------- | ------------------------------- | | type | 'wild-tree' |
+Discriminant for type narrowing | | id | string | Tree type ID | | name | string | | | seedId |
+string | | | seedName | string | | | description | string | | | image | string | Path to mature tree
+(stage 5) image | | seedImage | string | Path to seed item image | | stages | { name: string; image:
+string }[] | | | stages[].name | string | | | stages[].image | string | | | tapper | object |
+undefined | Only present for tappable trees | | tapper.id | string | | | tapper.name | string | | |
+tapper.sellPrice | number | | | tapper.image | string | Path to tapper product image | |
+tapper.energyHealth | object | undefined | Omitted for inedible products | |
+tapper.energyHealth.energy | number | undefined | | | tapper.energyHealth.health | number |
+undefined | |

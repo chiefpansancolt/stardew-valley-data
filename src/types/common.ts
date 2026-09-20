@@ -36,23 +36,10 @@ export interface GiftPreferences {
 export type KnowledgeBonus = 'spring-onion-mastery' | 'bears-knowledge';
 
 export type ProfessionBonus =
-  | 'artisan'
-  | 'rancher'
-  | 'tiller'
-  | 'blacksmith'
-  | 'gemologist'
-  | 'tapper'
-  | 'fisher'
-  | 'angler';
+  'artisan' | 'rancher' | 'tiller' | 'blacksmith' | 'gemologist' | 'tapper' | 'fisher' | 'angler';
 
 export type DayOfWeek =
-  | 'Monday'
-  | 'Tuesday'
-  | 'Wednesday'
-  | 'Thursday'
-  | 'Friday'
-  | 'Saturday'
-  | 'Sunday';
+  'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday' | 'Sunday';
 
 export interface Buff {
   stat: string;

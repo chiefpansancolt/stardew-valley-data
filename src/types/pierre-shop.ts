@@ -1,12 +1,7 @@
 import { Season } from './common';
 
 export type PierreCategory =
-  | 'seed'
-  | 'sapling'
-  | 'ingredient'
-  | 'fertilizer'
-  | 'recipe'
-  | 'special';
+  'seed' | 'sapling' | 'ingredient' | 'fertilizer' | 'recipe' | 'special';
 
 export interface PierreItem {
   id: string;

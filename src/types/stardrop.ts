@@ -1,9 +1,5 @@
 export type StarDropSource =
-  | 'purchase'
-  | 'exploration'
-  | 'friendship'
-  | 'achievement'
-  | 'collection';
+  'purchase' | 'exploration' | 'friendship' | 'achievement' | 'collection';
 
 export interface StarDrop {
   id: string;

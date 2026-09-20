@@ -4,12 +4,7 @@ export type FishCatchType = 'rod' | 'crab-pot';
 export type FishWeather = 'sunny' | 'rainy' | 'both';
 export type FishRoe = 'roe' | 'caviar';
 export type FishCategory =
-  | 'regular'
-  | 'crab-pot'
-  | 'night-market'
-  | 'legendary'
-  | 'legendary-2'
-  | 'other';
+  'regular' | 'crab-pot' | 'night-market' | 'legendary' | 'legendary-2' | 'other';
 
 export interface FishPondProduce {
   product: string;

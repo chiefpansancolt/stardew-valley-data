@@ -1,9 +1,5 @@
 export type BooksellerAvailability =
-  | 'always'
-  | 'rotating-skill'
-  | 'rotating-year3'
-  | 'chance'
-  | 'golden-walnut';
+  'always' | 'rotating-skill' | 'rotating-year3' | 'chance' | 'golden-walnut';
 
 export interface BooksellerItem {
   id: string;

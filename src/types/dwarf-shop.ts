@@ -1,11 +1,5 @@
 export type DwarfShopCategory =
-  | 'explosive'
-  | 'food'
-  | 'consumable'
-  | 'recipe'
-  | 'decoration'
-  | 'scarecrow'
-  | 'book';
+  'explosive' | 'food' | 'consumable' | 'recipe' | 'decoration' | 'scarecrow' | 'book';
 
 export interface DwarfShopItem {
   id: string;

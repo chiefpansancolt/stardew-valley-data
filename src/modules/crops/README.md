@@ -89,44 +89,26 @@ crops().byArtisanUse("juice").sortBySellPrice().get();
 
 ## Crop fields
 
-| Field                      | Type                               | Notes                                                                 |
-| -------------------------- | ---------------------------------- | --------------------------------------------------------------------- | ----------------------------- |
-| id                         | string                             | Item ID                                                               |
-| name                       | string                             |                                                                       |
-| category                   | string                             | e.g. 'Vegetable', 'Fruit'                                             |
-| seasons                    | string[]                           | e.g. ['spring', 'summer']                                             |
-| growDays                   | number                             |                                                                       |
-| regrowDays                 | number                             | null                                                                  | null if non-regrowing         |
-| seedId                     | string                             |                                                                       |
-| seedName                   | string                             |                                                                       |
-| seedBuyPrices              | { place: string; price: number }[] |                                                                       |
-| seedBuyPrices[].place      | string                             |                                                                       |
-| seedBuyPrices[].price      | number                             |                                                                       |
-| seedSellPrice              | number                             |                                                                       |
-| cropSellPrice              | number                             |                                                                       |
-| harvestQuantity            | { min: number; max: number }       |                                                                       |
-| harvestQuantity.min        | number                             |                                                                       |
-| harvestQuantity.max        | number                             |                                                                       |
-| trellis                    | boolean                            |                                                                       |
-| giant                      | boolean                            |                                                                       |
-| description                | string                             |                                                                       |
-| image                      | string                             | Path to harvested crop image                                          |
-| seedImage                  | string                             | Path to seed packet image                                             |
-| giantImage                 | string                             | undefined                                                             | Only present when giant: true |
-| stages                     | { name: string; image: string }[]  |                                                                       |
-| stages[].name              | string                             |                                                                       |
-| stages[].image             | string                             |                                                                       |
-| energyHealth               | object                             | undefined                                                             | Omitted for inedible crops    |
-| energyHealth.energy        | number                             | undefined                                                             |                               |
-| energyHealth.health        | number                             | undefined                                                             |                               |
-| energyHealth.poison        | boolean                            | undefined                                                             |                               |
-| maxQuality                 | ItemQuality                        | Highest quality achievable (`'iridium'` for most; `'base'` for Fiber) |
-| artisanUses                | ArtisanUses                        | Which artisan goods this crop can produce                             |
-| artisanUses.honey          | boolean                            | Can influence Bee House honey (flowers only)                          |
-| artisanUses.wine           | boolean                            | Can be processed in a Keg → Wine (fruits)                             |
-| artisanUses.juice          | boolean                            | Can be processed in a Keg → Juice (vegetables)                        |
-| artisanUses.pickles        | boolean                            | Can be processed in a Preserves Jar → Pickles (vegetables)            |
-| artisanUses.jelly          | boolean                            | Can be processed in a Preserves Jar → Jelly (fruits)                  |
-| artisanUses.driedMushrooms | boolean                            | Can be processed in a Dehydrator → Dried Mushrooms                    |
-| artisanUses.driedFruit     | boolean                            | Can be processed in a Dehydrator → Dried Fruit (fruits)               |
-| farmingXP                  | number                             |                                                                       |
+| Field | Type | Notes | | -------------------------- | ---------------------------------- |
+--------------------------------------------------------------------- |
+----------------------------- | | id | string | Item ID | | name | string | | | category | string |
+e.g. 'Vegetable', 'Fruit' | | seasons | string[] | e.g. ['spring', 'summer'] | | growDays | number |
+| | regrowDays | number | null | null if non-regrowing | | seedId | string | | | seedName | string |
+| | seedBuyPrices | { place: string; price: number }[] | | | seedBuyPrices[].place | string | | |
+seedBuyPrices[].price | number | | | seedSellPrice | number | | | cropSellPrice | number | | |
+harvestQuantity | { min: number; max: number } | | | harvestQuantity.min | number | | |
+harvestQuantity.max | number | | | trellis | boolean | | | giant | boolean | | | description |
+string | | | image | string | Path to harvested crop image | | seedImage | string | Path to seed
+packet image | | giantImage | string | undefined | Only present when giant: true | | stages | {
+name: string; image: string }[] | | | stages[].name | string | | | stages[].image | string | | |
+energyHealth | object | undefined | Omitted for inedible crops | | energyHealth.energy | number |
+undefined | | | energyHealth.health | number | undefined | | | energyHealth.poison | boolean |
+undefined | | | maxQuality | ItemQuality | Highest quality achievable (`'iridium'` for most;
+`'base'` for Fiber) | | artisanUses | ArtisanUses | Which artisan goods this crop can produce | |
+artisanUses.honey | boolean | Can influence Bee House honey (flowers only) | | artisanUses.wine |
+boolean | Can be processed in a Keg → Wine (fruits) | | artisanUses.juice | boolean | Can be
+processed in a Keg → Juice (vegetables) | | artisanUses.pickles | boolean | Can be processed in a
+Preserves Jar → Pickles (vegetables) | | artisanUses.jelly | boolean | Can be processed in a
+Preserves Jar → Jelly (fruits) | | artisanUses.driedMushrooms | boolean | Can be processed in a
+Dehydrator → Dried Mushrooms | | artisanUses.driedFruit | boolean | Can be processed in a Dehydrator
+→ Dried Fruit (fruits) | | farmingXP | number | |
