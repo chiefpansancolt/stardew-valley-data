@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2026-10-03
+
+### Changed
+
+- Upgraded to pnpm 12. Settings moved from `package.json` to `pnpm-workspace.yaml`, with an explicit
+  build script policy and the `esbuild` override, and CI now runs pnpm 12.
+- The publish workflow now releases to npm with trusted publishing (OIDC) instead of a long-lived
+  `NPM_TOKEN`.
+- Bumped `@types/node` to 26.6.3, `tsx` to 4.23.15, `ts-jest` to 29.4.14, `@typescript-eslint/*` to
+  8.70.1, and `prettier` to 3.9.9.
+
 ## [1.1.0] - 2026-09-19
 
 ### Changed
